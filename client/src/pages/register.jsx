@@ -1,6 +1,8 @@
 import { useState } from "react";
 import { useAuth } from "../auth/AuthContext";
 import { Link, useNavigate } from "react-router-dom";
+import PVCard from "../ui/PVCard";
+import PVButton from "../ui/PVButton";
 
 export default function Register() {
   const { registerEmail } = useAuth();
@@ -16,24 +18,25 @@ export default function Register() {
     try {
       await registerEmail(name, email, password);
       nav("/");
-    } catch (e) {
-      setErr(e.message || "Register failed");
-    }
+    } catch (e) { setErr(e.message || "Register failed"); }
   }
 
   return (
-    <div style={{ maxWidth: 360, margin: "40px auto" }}>
-      <h2>Create account</h2>
-      {err && <p style={{ color: "red" }}>{err}</p>}
-      <form onSubmit={onSubmit} style={{ display: "grid", gap: 10 }}>
-        <input placeholder="Name" value={name} onChange={(e) => setName(e.target.value)} />
-        <input placeholder="Email" value={email} onChange={(e) => setEmail(e.target.value)} />
-        <input placeholder="Password" type="password" value={password} onChange={(e) => setPassword(e.target.value)} />
-        <button type="submit">Register</button>
-      </form>
-      <p style={{ marginTop: 8 }}>
-        Have an account? <Link to="/login">Login</Link>
-      </p>
+    <div style={{ display: "grid", placeItems: "center", minHeight: "60vh" }}>
+      <div style={{ maxWidth: 460, width: "100%" }}>
+        <PVCard title="Create your PrepVerse account" subtitle="Track progress, build streaks, crush interviews.">
+          {err && <div style={{ color: "var(--pv-error)", marginBottom: 8 }}>{err}</div>}
+          <form onSubmit={onSubmit} className="vstack" style={{ marginTop: 8 }}>
+            <input className="pv-field" placeholder="Full name" value={name} onChange={(e)=>setName(e.target.value)} />
+            <input className="pv-field" placeholder="Email" value={email} onChange={(e)=>setEmail(e.target.value)} />
+            <input className="pv-field" placeholder="Password" type="password" value={password} onChange={(e)=>setPassword(e.target.value)} />
+            <PVButton type="submit" full>Sign up</PVButton>
+          </form>
+          <div style={{ marginTop: 12, fontSize: 13 }}>
+            Have an account? <Link to="/login">Login</Link>
+          </div>
+        </PVCard>
+      </div>
     </div>
   );
 }

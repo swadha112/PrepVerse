@@ -1,68 +1,63 @@
+/* ===== PrepVerse design tokens ===== */
 :root {
-  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
+  --pv-ink: #0f172a;          /* titles */
+  --pv-body: #374151;         /* text */
+  --pv-muted: #6b7280;        /* secondary */
+  --pv-bg: #0f172a;           /* app bg */
+  --pv-card: #ffffff;         /* cards */
+  --pv-border: #e5e7eb;       /* borders */
 
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  --pv-primary: #22c55e;      /* emerald */
+  --pv-secondary: #f59e0b;    /* amber */
+  --pv-academic: #4f46e5;     /* indigo */
 
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  --pv-success: #16a34a;
+  --pv-warn: #f59e0b;
+  --pv-error: #ef4444;
+  --pv-info: #3b82f6;
+
+  --pv-radius: 18px;
+  --pv-radius-lg: 22px;
+  --pv-shadow: 0 10px 20px -5px rgba(0,0,0,.08), 0 4px 6px -2px rgba(0,0,0,.03);
 }
 
-a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
-}
-a:hover {
-  color: #535bf2;
-}
-
+/* base app */
+html, body, #root { height: 100%; }
 body {
   margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
+  font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, "Helvetica Neue", Arial, "Noto Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  color: var(--pv-body);
+  background: #080939;
 }
 
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
+/* utility classes */
+.container { max-width: 1120px; margin: 0 auto; padding: 24px; }
+.grid-2 { display: grid; grid-template-columns: 2fr 1fr; gap: 20px; }
+@media (max-width: 960px) { .grid-2 { grid-template-columns: 1fr; } }
+
+.hstack { display: flex; align-items: center; gap: 10px; }
+.vstack { display: flex; flex-direction: column; gap: 10px; }
+
+.pv-card {
+  background: var(--pv-card);
+  border: 1px solid var(--pv-border);
+  border-radius: var(--pv-radius-lg);
+  box-shadow: var(--pv-shadow);
 }
 
-button {
-  border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
-  font-weight: 500;
-  font-family: inherit;
-  background-color: #1a1a1a;
-  cursor: pointer;
-  transition: border-color 0.25s;
-}
-button:hover {
-  border-color: #646cff;
-}
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
+.pv-field {
+  width: 100%;
+  box-sizing: border-box;   /* ← key: fixes “doesn’t fit” overflow issues */
+  height: 44px;
+  padding: 12px 14px;
+  border: 1px solid var(--pv-border);
+  border-radius: 14px;
+  background: #fff;
+  font-size: 14px;
 }
 
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
-}
+.pv-field::placeholder { color: #94a3b8; }  /* softer placeholder */
+.pv-field:focus { border-color: var(--pv-academic); box-shadow: 0 0 0 3px rgba(79,70,229,.15); }
+
+a { color: var(--pv-academic); text-decoration: none; }
+a:hover { text-decoration: underline; }
