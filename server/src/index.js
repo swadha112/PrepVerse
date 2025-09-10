@@ -2,7 +2,7 @@ import express from 'express';
 import cors from 'cors';
 import cookieParser from 'cookie-parser';
 import { requireFirebaseAuth } from './middleware/requireFirebaseAuth.js';
-
+import leetcodeRoutes from "./routes/leetcode.js";
 
 const app = express();
 app.use(express.json());
@@ -14,7 +14,7 @@ app.use(cors({
   
 
 app.get('/api/health', (_req, res) => res.json({ ok: true }));
-
+app.use("/api/leetcode", requireFirebaseAuth, leetcodeRoutes);
 
 // Example protected route
 app.get('/api/me', requireFirebaseAuth, (req, res) => {
