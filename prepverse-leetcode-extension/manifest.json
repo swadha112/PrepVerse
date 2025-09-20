@@ -1,0 +1,24 @@
+{
+  "manifest_version": 3,
+  "name": "PrepVerse LeetCode Connector",
+  "version": "0.1.0",
+
+  "action": {
+    "default_title": "Connect LeetCode → PrepVerse",
+    "default_popup": "popup.html"
+  },
+
+  "permissions": [
+    "cookies",
+    "tabs",
+    "storage"
+  ],
+  "host_permissions": [
+    "https://leetcode.com/*",
+    "http://localhost:4000/*"
+  ],
+
+  "background": {
+    "service_worker": "background.js"
+  }
+}

@@ -9,7 +9,8 @@ import Register from "./pages/register";
 import Dashboard from "./pages/Dashboard";
 
 import PVNavbar from "./ui/PVNavbar";
-import ProfileModal from "./components/ProfileModal"; 
+import ProfileModal from "./components/ProfileModal";
+import TracksPage from "./pages/TracksPage";  
 
 function Shell({ children }) {
   const { user, logout } = useAuth();
@@ -37,6 +38,8 @@ export default function App() {
         <Routes>
           <Route path="/login" element={<Shell><Login /></Shell>} />
           <Route path="/register" element={<Shell><Register /></Shell>} />
+          <Route path="/tracks" element={<TracksPage />} />
+          <Route path="/profile" element={<ProfileModal />} />
           <Route
             path="/"
             element={
