@@ -82,6 +82,7 @@ export default function PVNavbar({ user, onLogout, onProfile }) {
           {/* Logo Section */}
           <div className="hstack" style={{ gap: 20 }}>
             <div className="hstack" style={{ gap: 12 }}>
+            <NavLink to="/">
               <div
                 className="pv-nav-logo"
                 style={{
@@ -99,6 +100,7 @@ export default function PVNavbar({ user, onLogout, onProfile }) {
               >
                 PV
               </div>
+              </NavLink>
               <div>
                 <div style={{ 
                   fontWeight: 800, 
@@ -141,7 +143,7 @@ export default function PVNavbar({ user, onLogout, onProfile }) {
                 </div>
               </NavLink>
               <NavLink
-                to="/daily"
+                to="/resume"
                 className={({ isActive }) =>
                   isActive ? "pv-nav-item active" : "pv-nav-item"
                 }
@@ -156,7 +158,7 @@ export default function PVNavbar({ user, onLogout, onProfile }) {
                   fontSize: "14px",
                   transition: "var(--pv-transition)"
                 }}>
-                   Daily
+                   Resume
                 </div>
               </NavLink>
               <NavLink
@@ -176,6 +178,25 @@ export default function PVNavbar({ user, onLogout, onProfile }) {
                   transition: "var(--pv-transition)"
                 }}>
                    Interview
+                </div>
+              </NavLink>
+              <NavLink
+                to="/forum"
+                className={({ isActive }) =>
+                  isActive ? "pv-nav-item active" : "pv-nav-item"
+                }
+              >
+                <div style={{
+                  padding: "8px 16px",
+                  borderRadius: "10px",
+                  background: "var(--pv-royal-50)",
+                  border: "1px solid var(--pv-royal-200)",
+                  color: "var(--pv-royal-800)",
+                  fontWeight: 600,
+                  fontSize: "14px",
+                  transition: "var(--pv-transition)"
+                }}>
+                   Forum
                 </div>
               </NavLink>
             </nav>

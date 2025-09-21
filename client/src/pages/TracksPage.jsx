@@ -1,6 +1,7 @@
 import React, { useEffect, useMemo, useRef, useState } from "react";
 import "./TracksPage.css";
-
+import PVNavbar from "../ui/PVNavbar";
+import { useAuth } from "../auth/AuthContext";
 /* ------------------------------
    Static LeetCode Topic Tracks
 ------------------------------ */
@@ -190,8 +191,12 @@ export default function TracksPage() {
   const pathD = useMemo(() => roundedPath(pathPoints), [pathPoints]);
 
   const open = openIndex >= 0 ? nodes[openIndex] : null;
+  const { user } = useAuth();
+  return (  
+  <div className="tracks-root">
+   
+    <PVNavbar user={user}  />
 
-  return (
     <div className="tracks-container">
       <div className="tracks-content">
         <div className="tracks-header pv-fade-in">
@@ -326,6 +331,7 @@ export default function TracksPage() {
           </div>
         </div>
       </div>
+    </div>
     </div>
   );
 }

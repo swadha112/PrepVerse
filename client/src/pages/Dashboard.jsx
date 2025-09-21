@@ -136,7 +136,7 @@ export default function Dashboard() {
                       </div>
                       <span className="player-name">
                         {entry.name}
-                        {entry.isUser && " 🎯"}
+                        {entry.isUser }
                       </span>
                     </div>
                     <div className="player-score">{entry.score.toLocaleString()}</div>
