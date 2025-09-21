@@ -1,9 +1,6 @@
-import PVCard from "../ui/PVCard";
-import PVBadge from "../ui/PVBadge";
-import PVButton from "../ui/PVButton";
-import PVUnitNode from "../ui/PVUnitNode";
-import PVProgressRing from "../ui/PVProgressRing";
+import React from "react";
 import { useAuth } from "../auth/AuthContext";
+import "./Dashboard.css";
 
 export default function Dashboard() {
   const { user } = useAuth();
@@ -16,70 +13,156 @@ export default function Dashboard() {
     { title: "System Design Intro", desc: "Caching • Rate Limit • Sharding", progress: 0, unlocked: false },
   ];
 
+  const streakData = {
+    current: 7,
+    best: 14,
+    progress: 72
+  };
+
+  const leaderboardData = [
+    { rank: 1, name: "Aarav", score: 1840, isUser: false },
+    { rank: 2, name: "Isha", score: 1720, isUser: false },
+    { rank: 3, name: "Rohit", score: 1650, isUser: false },
+    { rank: 4, name: "Zara", score: 1580, isUser: false },
+    { rank: 5, name: "You", score: 1530, isUser: true },
+  ];
+
+  const handleSolveChallenge = () => {
+    window.open("https://leetcode.com/problems/two-sum/", "_blank");
+  };
+
   return (
-    <div className="grid-2">
-      <div className="vstack">
-        <PVCard
-          title={`Today’s Challenge`}
-          subtitle="Finish this to keep your streak 🔥"
-          actions={<PVBadge tone="difficulty">{today.difficulty}</PVBadge>}
-        >
-          <div className="hstack" style={{ justifyContent: "space-between", alignItems: "center" }}>
-            <div>
-              <div style={{ fontWeight: 700, fontSize: 18, color: "var(--pv-ink)" }}>{today.title}</div>
-              <div className="hstack" style={{ marginTop: 6, gap: 6 }}>
-                {today.tags.map(t => <PVBadge key={t} tone="topic">{t}</PVBadge>)}
+    <div className="dashboard-container">
+      <div className="dashboard-content">
+        {/* Header Section */}
+        <div className="dashboard-header pv-fade-in">
+          <h1 className="dashboard-title">
+            Welcome back, {user?.displayName?.split(' ')[0] || 'Developer'}! 👋
+          </h1>
+          <p className="dashboard-subtitle">
+            Ready to tackle today's challenge and advance your skills?
+          </p>
+        </div>
+
+        <div className="dashboard-grid grid-2">
+          <div className="dashboard-left vstack">
+            {/* Today's Challenge Card */}
+            <div className="challenge-card pv-card pv-slide-up">
+              <div className="card-header">
+                <div>
+                  <h3 className="card-title"> Today's Challenge</h3>
+                  <p className="card-subtitle">Keep your streak alive and climb the leaderboard</p>
+                </div>
+                <span className="difficulty-badge">{today.difficulty}</span>
+              </div>
+
+              <div className="challenge-content">
+                <div className="challenge-info">
+                  <h4 className="challenge-title">{today.title}</h4>
+                  <div className="challenge-tags">
+                    {today.tags.map(tag => (
+                      <span key={tag} className="tag">{tag}</span>
+                    ))}
+                  </div>
+                </div>
+                <button className="pv-btn-royal challenge-btn" onClick={handleSolveChallenge}>
+                   Solve Now
+                </button>
               </div>
             </div>
-            <PVButton onClick={()=>window.open("https://leetcode.com/problems/two-sum/", "_blank")}>Solve on LeetCode</PVButton>
-          </div>
-        </PVCard>
 
-        <PVCard title="Your Track" subtitle="Progress toward Backend Engineer">
-          <div className="vstack">
-            {units.map((u, i) => (
-              <PVUnitNode
-                key={i}
-                title={u.title}
-                desc={u.desc}
-                progress={u.progress}
-                unlocked={u.unlocked}
-                onContinue={()=>{}}
-              />
-            ))}
-          </div>
-        </PVCard>
-      </div>
+            {/* Learning Track Card */}
+            <div className="track-card pv-card pv-slide-up">
+              <div className="card-header-simple">
+                <h3 className="card-title"> Your Learning Track</h3>
+                <p className="card-subtitle">Progress toward Backend Engineer</p>
+              </div>
 
-      <div className="vstack">
-        <PVCard title="Your Streak" subtitle="Keep the flame alive">
-          <div className="hstack" style={{ alignItems: "center", gap: 16 }}>
-            <PVProgressRing progress={72} color="var(--pv-secondary)" label="7d" />
-            <div>
-              <div style={{ fontWeight: 700, color: "var(--pv-ink)" }}>Current streak: 7 days</div>
-              <div style={{ fontSize: 13, color: "var(--pv-muted)" }}>Best streak: 14 days</div>
+              <div className="units-container">
+                {units.map((unit, i) => (
+                  <div key={i} className={`unit-item ${unit.unlocked ? 'unlocked' : 'locked'}`}>
+                    <div className="unit-content">
+                      <h4 className="unit-title">
+                        {unit.unlocked ? "🔓" : "🔒"} {unit.title}
+                      </h4>
+                      <p className="unit-desc">{unit.desc}</p>
+                      <div className="progress-bar">
+                        <div 
+                          className="progress-fill"
+                          style={{ width: `${unit.progress}%` }}
+                        />
+                      </div>
+                      <span className="progress-text">{unit.progress}% Complete</span>
+                    </div>
+                    {unit.unlocked && (
+                      <button className="pv-btn-glass unit-btn">Continue</button>
+                    )}
+                  </div>
+                ))}
+              </div>
             </div>
           </div>
-        </PVCard>
 
-        <PVCard title="Leaderboard (top 5)">
-          <div className="vstack">
-            {[["1", "Aarav", 1840], ["2", "Isha", 1720], ["3", "Rohit", 1650], ["4","Zara",1580], ["5","You",1530]].map(([rank, name, score]) => (
-              <div key={rank} className="hstack" style={{ justifyContent: "space-between", borderBottom: "1px dashed var(--pv-border)", paddingBottom: 8 }}>
-                <div className="hstack"><strong>#{rank}</strong><span style={{ marginLeft: 10 }}>{name}</span></div>
-                <div style={{ fontWeight: 700 }}>{score}</div>
+          <div className="dashboard-right vstack">
+            {/* Streak Card */}
+            <div className="streak-card pv-card pv-slide-up">
+              <h3 className="card-title"> Your Streak</h3>
+              
+              <div className="streak-content">
+                <div className="streak-circle">
+                  <div className="streak-number">{streakData.current}</div>
+                  <div 
+                    className="streak-ring"
+                    style={{ '--progress': `${streakData.progress * 3.6}deg` }}
+                  />
+                </div>
+                <div className="streak-info">
+                  <div className="streak-current">Current streak: {streakData.current} days</div>
+                  <div className="streak-best">Best streak: {streakData.best} days</div>
+                </div>
               </div>
-            ))}
-          </div>
-        </PVCard>
+            </div>
 
-        <PVCard title="Welcome" subtitle="Signed in user">
-          <div style={{ fontSize: 14 }}>
-            <div><strong>Name:</strong> {user?.displayName || "—"}</div>
-            <div><strong>Email:</strong> {user?.email}</div>
-            <div><strong>UID:</strong> {user?.uid}</div>
+            {/* Leaderboard Card */}
+            <div className="leaderboard-card pv-card pv-slide-up">
+              <h3 className="card-title"> Leaderboard</h3>
+              
+              <div className="leaderboard-list">
+                {leaderboardData.map((entry) => (
+                  <div key={entry.rank} className={`leaderboard-item ${entry.isUser ? 'user' : ''}`}>
+                    <div className="leaderboard-left">
+                      <div className={`rank-badge ${entry.rank <= 3 ? 'top-three' : ''}`}>
+                        {entry.rank}
+                      </div>
+                      <span className="player-name">
+                        {entry.name}
+                        {entry.isUser && " 🎯"}
+                      </span>
+                    </div>
+                    <div className="player-score">{entry.score.toLocaleString()}</div>
+                  </div>
+                ))}
+              </div>
+            </div>
+
+            {/* User Info Card */}
+            <div className="user-card pv-card pv-slide-up">
+              <h3 className="card-title-small">👤 Account Info</h3>
+              
+              <div className="user-info">
+                <div className="user-field">
+                  <strong>Name:</strong> {user?.displayName || "—"}
+                </div>
+                <div className="user-field">
+                  <strong>Email:</strong> {user?.email}
+                </div>
+                <div className="user-field-small">
+                  <strong>ID:</strong> {user?.uid?.substring(0, 8)}...
+                </div>
+              </div>
+            </div>
           </div>
-        </PVCard>
+        </div>
       </div>
     </div>
   );

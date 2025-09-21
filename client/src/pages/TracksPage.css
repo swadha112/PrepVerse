@@ -1,0 +1,345 @@
+/* Tracks Container */
+.tracks-container {
+    min-height: 100vh;
+    background: var(--pv-gradient-royal);
+    padding: 32px 24px;
+  }
+  
+  .tracks-content {
+    max-width: 1400px;
+    margin: 0 auto;
+  }
+  
+  /* Header */
+  .tracks-header {
+    text-align: center;
+    margin-bottom: 32px;
+    color: white;
+  }
+  
+  .tracks-title {
+    font-size: 48px;
+    font-weight: 800;
+    margin: 0 0 16px 0;
+    background: linear-gradient(135deg, #ffffff 0%, #f7fafc 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+  
+  .tracks-subtitle {
+    font-size: 18px;
+    opacity: 0.9;
+    max-width: 600px;
+    margin: 0 auto;
+    line-height: 1.6;
+  }
+  
+  /* Card */
+  .tracks-card {
+    background: var(--pv-gradient-glass);
+    backdrop-filter: blur(10px);
+    border: 1px solid var(--pv-glass-border);
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: var(--pv-shadow-glass);
+  }
+  
+  .tracks-canvas-wrapper {
+    position: relative;
+    width: 100%;
+    border-radius: 20px;
+    overflow: hidden;
+    padding: 20px;
+  }
+  
+  .tracks-canvas {
+    position: relative;
+    width: 100%;
+  }
+  
+  /* SVG Path */
+  .tracks-svg {
+    position: absolute;
+    inset: 0;
+  }
+  
+  .animated-path {
+    animation: pathFlow 3s linear infinite;
+  }
+  
+  @keyframes pathFlow {
+    0% { stroke-dashoffset: 0; }
+    100% { stroke-dashoffset: -30; }
+  }
+  
+  /* Track Nodes */
+  .track-node {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    animation: nodeAppear 0.6s ease-out both;
+  }
+  
+  .track-node.active {
+    transform: scale(1.2) translateY(-8px);
+    z-index: 10;
+  }
+  
+  .track-node-circle {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 2px solid rgba(255,255,255,0.8);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  }
+  
+  /* Node States */
+  .track-node.completed .track-node-circle {
+    background: linear-gradient(135deg, #48bb78 0%, #38a169 100%);
+    border-color: rgba(255,255,255,0.8);
+  }
+  
+  .track-node.started .track-node-circle {
+    background: linear-gradient(135deg, #4299e1 0%, #3182ce 100%);
+    border-color: rgba(255,255,255,0.8);
+  }
+  
+  .track-node.not-started .track-node-circle {
+    background: linear-gradient(135deg, #e2e8f0 0%, #cbd5e0 100%);
+    border-color: rgba(255,255,255,0.8);
+  }
+  
+  .track-node.active .track-node-circle {
+    border: 3px solid var(--pv-royal-800);
+    box-shadow: 0 8px 25px rgba(30, 64, 175, 0.4);
+  }
+  
+  .track-node-content {
+    color: white;
+    font-size: 14px;
+    font-weight: 700;
+  }
+  
+  .track-node.not-started .track-node-content {
+    color: #64748b;
+  }
+  
+  /* Node Labels */
+  .track-node-label {
+    position: absolute;
+    top: 50px;
+    width: 120px;
+    text-align: center;
+    transform: translateX(-30px);
+    font-size: 12px;
+    font-weight: 600;
+    color: #4a5568;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    transition: color 0.3s ease;
+  }
+  
+  .track-node.active .track-node-label {
+    color: var(--pv-royal-800);
+  }
+  
+  /* Drawer */
+  .track-drawer {
+    position: absolute;
+    width: 400px;
+    z-index: 20;
+  }
+  
+  .drawer-card {
+    padding: 24px;
+    box-shadow: 0 20px 60px rgba(0,0,0,0.2);
+  }
+  
+  .drawer-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .drawer-title {
+    font-weight: 700;
+    color: var(--pv-ink);
+    font-size: 20px;
+    margin: 0;
+  }
+  
+  .drawer-close-btn {
+    border: none;
+    border-radius: 8px;
+    background: linear-gradient(135deg, #f7fafc 0%, #edf2f7 100%);
+    padding: 8px 12px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 600;
+    color: #4a5568;
+    transition: var(--pv-transition);
+  }
+  
+  .drawer-close-btn:hover {
+    background: linear-gradient(135deg, #edf2f7 0%, #e2e8f0 100%);
+  }
+  
+  .drawer-content {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Tiers */
+  .tiers-list {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+  }
+  
+  .tier-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 0;
+    border-bottom: 1px solid rgba(0,0,0,0.05);
+  }
+  
+  .tier-label {
+    font-size: 14px;
+    font-weight: 600;
+  }
+  
+  .tier-label.unlocked {
+    color: var(--pv-ink);
+  }
+  
+  .tier-label.locked {
+    color: #a0aec0;
+  }
+  
+  .tier-right {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+  }
+  
+  .tier-progress {
+    width: 60px;
+    height: 6px;
+    background: rgba(0,0,0,0.1);
+    border-radius: 3px;
+    overflow: hidden;
+  }
+  
+  .tier-progress-fill {
+    height: 100%;
+    background: linear-gradient(90deg, #48bb78 0%, #38a169 100%);
+    border-radius: 3px;
+    transition: width 0.3s ease;
+  }
+  
+  .tier-percentage {
+    font-size: 12px;
+    font-weight: 600;
+    color: var(--pv-ink);
+    min-width: 30px;
+  }
+  
+  .tier-btn {
+    font-size: 14px;
+    padding: 6px 12px;
+  }
+  
+  /* Locked Pill */
+  .locked-pill {
+    padding: 6px 12px;
+    border-radius: 12px;
+    background: linear-gradient(135deg, #f1f3f4 0%, #e8eaed 100%);
+    border: 1px solid rgba(0,0,0,0.1);
+    color: #5f6368;
+    font-size: 12px;
+    line-height: 1;
+    font-weight: 500;
+  }
+  
+  /* Animations */
+  @keyframes nodeAppear {
+    0% {
+      opacity: 0;
+      transform: scale(0.3) translateY(20px);
+    }
+    100% {
+      opacity: 1;
+      transform: scale(1) translateY(0);
+    }
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 1200px) {
+    .tracks-title {
+      font-size: 42px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .tracks-container {
+      padding: 24px 16px;
+    }
+    
+    .tracks-title {
+      font-size: 36px;
+    }
+    
+    .tracks-subtitle {
+      font-size: 16px;
+    }
+    
+    .tracks-canvas-wrapper {
+      padding: 16px;
+    }
+    
+    .track-drawer {
+      width: 300px;
+      left: 12px !important;
+    }
+    
+    .drawer-card {
+      padding: 20px;
+    }
+    
+    .tier-right {
+      gap: 8px;
+    }
+    
+    .tier-progress {
+      width: 40px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .tracks-title {
+      font-size: 28px;
+    }
+    
+    .track-drawer {
+      width: calc(100vw - 32px);
+    }
+    
+    .track-node-label {
+      font-size: 10px;
+      width: 100px;
+      transform: translateX(-20px);
+    }
+  }

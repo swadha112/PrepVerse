@@ -19,6 +19,32 @@
   --pv-radius: 18px;
   --pv-radius-lg: 22px;
   --pv-shadow: 0 10px 20px -5px rgba(0,0,0,.08), 0 4px 6px -2px rgba(0,0,0,.03);
+
+  /* ===== Royal Blue Extensions ===== */
+  --pv-royal-900: #1e3a8a;    /* darkest royal blue */
+  --pv-royal-800: #1e40af;    /* dark royal blue */
+  --pv-royal-600: #2563eb;    /* medium royal blue */
+  --pv-royal-500: #3b82f6;    /* bright royal blue */
+  --pv-royal-100: #dbeafe;    /* light royal blue */
+  --pv-royal-50: #eff6ff;     /* lightest royal blue */
+
+  /* Royal Blue Gradients */
+  --pv-gradient-royal: linear-gradient(135deg, var(--pv-royal-900) 0%, var(--pv-royal-800) 50%, var(--pv-royal-600) 100%);
+  --pv-gradient-royal-light: linear-gradient(135deg, var(--pv-royal-800) 0%, var(--pv-royal-600) 100%);
+  --pv-gradient-glass: linear-gradient(135deg, rgba(255,255,255,0.95) 0%, rgba(255,255,255,0.85) 100%);
+
+  /* Enhanced Shadows */
+  --pv-shadow-royal: 0 4px 12px rgba(30, 58, 138, 0.4);
+  --pv-shadow-royal-lg: 0 8px 25px rgba(30, 64, 175, 0.4);
+  --pv-shadow-glass: 0 8px 32px rgba(0,0,0,0.1);
+
+  /* Glass Effects */
+  --pv-glass-bg: rgba(255,255,255,0.95);
+  --pv-glass-border: rgba(255,255,255,0.3);
+
+  /* Smooth Transitions */
+  --pv-transition: all 0.2s ease;
+  --pv-transition-bounce: transform 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
 
 /* base app */
@@ -27,7 +53,8 @@ body {
   margin: 0;
   font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, "Helvetica Neue", Arial, "Noto Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   color: var(--pv-body);
-  background: #080939;
+  background: var(--pv-gradient-royal);
+  background-attachment: fixed;
 }
 
 /* utility classes */
@@ -39,25 +66,100 @@ body {
 .vstack { display: flex; flex-direction: column; gap: 10px; }
 
 .pv-card {
-  background: var(--pv-card);
-  border: 1px solid var(--pv-border);
+  background: var(--pv-gradient-glass);
+  backdrop-filter: blur(10px);
+  border: 1px solid var(--pv-glass-border);
   border-radius: var(--pv-radius-lg);
-  box-shadow: var(--pv-shadow);
+  box-shadow: var(--pv-shadow-glass);
 }
 
 .pv-field {
   width: 100%;
-  box-sizing: border-box;   /* ← key: fixes “doesn’t fit” overflow issues */
+  box-sizing: border-box;
   height: 44px;
   padding: 12px 14px;
   border: 1px solid var(--pv-border);
   border-radius: 14px;
   background: #fff;
   font-size: 14px;
+  transition: var(--pv-transition);
 }
 
-.pv-field::placeholder { color: #94a3b8; }  /* softer placeholder */
-.pv-field:focus { border-color: var(--pv-academic); box-shadow: 0 0 0 3px rgba(79,70,229,.15); }
+.pv-field::placeholder { color: #94a3b8; }
+.pv-field:focus { 
+  border-color: var(--pv-royal-600); 
+  box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.15);
+  outline: none;
+}
 
-a { color: var(--pv-academic); text-decoration: none; }
+/* ===== Enhanced Button Styles ===== */
+.pv-btn-royal {
+  background: var(--pv-gradient-royal-light);
+  color: white;
+  border: none;
+  border-radius: 14px;
+  padding: 12px 24px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: var(--pv-transition);
+  box-shadow: var(--pv-shadow-royal);
+}
+
+.pv-btn-royal:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--pv-shadow-royal-lg);
+}
+
+.pv-btn-royal:active {
+  transform: translateY(0);
+}
+
+.pv-btn-glass {
+  background: var(--pv-glass-bg);
+  backdrop-filter: blur(10px);
+  color: var(--pv-royal-800);
+  border: 1px solid var(--pv-glass-border);
+  border-radius: 14px;
+  padding: 12px 24px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: var(--pv-transition);
+}
+
+.pv-btn-glass:hover {
+  background: rgba(255,255,255,0.98);
+  transform: translateY(-1px);
+}
+
+/* ===== Animation Classes ===== */
+.pv-fade-in {
+  animation: pvFadeIn 0.6s ease-out;
+}
+
+.pv-slide-up {
+  animation: pvSlideUp 0.6s ease-out;
+}
+
+.pv-scale-in {
+  animation: pvScaleIn 0.3s ease-out;
+}
+
+@keyframes pvFadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes pvSlideUp {
+  from { opacity: 0; transform: translateY(30px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes pvScaleIn {
+  from { opacity: 0; transform: scale(0.95); }
+  to { opacity: 1; transform: scale(1); }
+}
+
+a { color: var(--pv-royal-600); text-decoration: none; }
 a:hover { text-decoration: underline; }
