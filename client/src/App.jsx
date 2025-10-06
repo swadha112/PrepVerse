@@ -15,7 +15,8 @@ import TrackQuestionsPage from "./pages/TrackQuestionsPage";
 
 import ResumeLanding from "./pages/ResumeLanding";
 import ResumeResult from "./pages/ResumeResult";
-import { ResumeAnalysisProvider } from "./context/ResumeAnalysisContext";
+
+import InterviewCoach from "./pages/InterviewCoach";
 
 function Shell({ children }) {
   const { user, logout } = useAuth();
@@ -47,8 +48,8 @@ export default function App() {
           <Route path="/profile" element={<ProfileModal />} />
           <Route path="/tracks/:topicSlug/:difficulty" element={<TrackQuestionsPage />} />
           <Route path="/resume" element={<Shell><ResumeLanding /></Shell>} />
-            <Route path="/resume/result" element={<Shell><ResumeResult /></Shell>} />
-            
+          <Route path="/resume/result" element={<Shell><ResumeResult /></Shell>} />
+          <Route path="/interview" element={<InterviewCoach />} />  
           <Route
             path="/"
             element={

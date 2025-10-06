@@ -1,54 +1,73 @@
 import 'dotenv/config';
 import express from 'express';
+import http from 'http';
 import cors from 'cors';
 import cookieParser from 'cookie-parser';
+import { Server } from 'socket.io';
 import { requireFirebaseAuth } from './middleware/requireFirebaseAuth.js';
 import resumeAnalyzerRouter from './routes/resumeAnalyzer.js';
-
+import leetcodeConnect from './routes/leetcodeConnect.js';
+import leetcodeProfile from './routes/leetcodeProfile.js';
+import interviewCoachRouter from './routes/interviewCoach.js';
+import { initializeInterviewSocket } from './socket/interviewSocket.js';
 
 const app = express();
+const server = http.createServer(app);
+
+// Socket.IO setup
+const io = new Server(server, {
+ cors: {
+ origin: (origin, callback) => {
+ if (!origin) return callback(null, true);
+ if (origin === 'http://localhost:5173') return callback(null, true);
+ if (origin.startsWith('chrome-extension://')) return callback(null, true);
+ callback(new Error(`CORS not allowed for origin: ${origin}`));
+ },
+ credentials: true,
+ methods: ['GET', 'POST']
+ }
+});
+
 app.use(express.json());
 app.use(cookieParser());
 app.use(cors({
-  origin: (origin, callback) => {
-    // 1) allow requests with no origin (e.g. curl, mobile, extension background)
-    if (!origin) return callback(null, true);
-    // 2) allow the React front-end
-    if (origin === 'http://localhost:5173') return callback(null, true);
-    // 3) allow any chrome-extension:// origin
-    if (origin.startsWith('chrome-extension://')) return callback(null, true);
-    // 4) otherwise block
-    callback(new Error(`CORS not allowed for origin: ${origin}`));
-  },
-  credentials: true,        // so cookies & auth headers work
-  methods: ['GET','POST','DELETE','OPTIONS'],
-  allowedHeaders: ['Content-Type','Authorization'],
+ origin: (origin, callback) => {
+ if (!origin) return callback(null, true);
+ if (origin === 'http://localhost:5173') return callback(null, true);
+ if (origin.startsWith('chrome-extension://')) return callback(null, true);
+ callback(new Error(`CORS not allowed for origin: ${origin}`));
+ },
+ credentials: true,
+ methods: ['GET','POST','DELETE','OPTIONS'],
+ allowedHeaders: ['Content-Type','Authorization'],
 }));
 
+// Health check
 app.get('/api/health', (_req, res) => res.json({ ok: true }));
-import leetcodeConnect from './routes/leetcodeConnect.js';
-import leetcodeProfile from './routes/leetcodeProfile.js';
-app.use('/api/resumeAnalyzer', resumeAnalyzerRouter);
 
+// Routes
+app.use('/api/resumeAnalyzer', resumeAnalyzerRouter);
+app.use('/api/interviewCoach', interviewCoachRouter);
 app.use('/api/leetcode', requireFirebaseAuth, leetcodeConnect);
 app.use('/api/leetcode', requireFirebaseAuth, leetcodeProfile);
+
 app.post('/api/leetcode/stats', (req, res) => {
-  const { source, username, profile, solved, fetchedAt } = req.body || {};
-  const ts = new Date(fetchedAt || Date.now()).toISOString();
+ const { source, username, profile, solved, fetchedAt } = req.body || {};
+ const ts = new Date(fetchedAt || Date.now()).toISOString();
 
-  console.log('--- /api/leetcode/stats ---');
-  console.log('ts       :', ts);
-  console.log('source   :', source);
-  console.log('username :', username);
-  console.log('solved   :', solved);
-  console.log('profile  :', profile);
-  console.log('----------------------------');
+ console.log('--- /api/leetcode/stats ---');
+ console.log('ts :', ts);
+ console.log('source :', source);
+ console.log('username :', username);
+ console.log('solved :', solved);
+ console.log('profile :', profile);
+ console.log('----------------------------');
 
-  // store it somewhere if you want; here we just ACK
-  return res.json({ ok: true, stored: false });
+ return res.json({ ok: true, stored: false });
 });
 
-app.listen(4000, () => console.log('Stats sink up on http://localhost:4000'));
+// Initialize Interview Coach Socket.IO
+initializeInterviewSocket(io);
 
 const port = process.env.PORT || 4000;
-app.listen(port, () => console.log(`API on http://localhost:${port}`));
+server.listen(port, () => console.log(`API + Socket.IO on http://localhost:${port}`));
