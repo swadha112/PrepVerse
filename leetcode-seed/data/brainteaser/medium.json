@@ -1,0 +1,125 @@
+{
+  "frozen": true,
+  "createdAt": "2025-10-06T15:22:50.171Z",
+  "trackSlug": "brainteaser",
+  "difficulty": "MEDIUM",
+  "questions": [
+    {
+      "position": 1,
+      "title": "Longest Subarray With Maximum Bitwise AND",
+      "slug": "longest-subarray-with-maximum-bitwise-and",
+      "difficulty": "Medium",
+      "acceptance": 65.39926442678953,
+      "likes": 1309,
+      "dislikes": 109
+    },
+    {
+      "position": 2,
+      "title": "Last Moment Before All Ants Fall Out of a Plank",
+      "slug": "last-moment-before-all-ants-fall-out-of-a-plank",
+      "difficulty": "Medium",
+      "acceptance": 68.23313075088038,
+      "likes": 1551,
+      "dislikes": 430
+    },
+    {
+      "position": 3,
+      "title": "Bitwise XOR of All Pairings",
+      "slug": "bitwise-xor-of-all-pairings",
+      "difficulty": "Medium",
+      "acceptance": 66.95727090922077,
+      "likes": 914,
+      "dislikes": 58
+    },
+    {
+      "position": 4,
+      "title": "Movement of Robots",
+      "slug": "movement-of-robots",
+      "difficulty": "Medium",
+      "acceptance": 27.429701442145372,
+      "likes": 526,
+      "dislikes": 101
+    },
+    {
+      "position": 5,
+      "title": "Vowels Game in a String",
+      "slug": "vowels-game-in-a-string",
+      "difficulty": "Medium",
+      "acceptance": 77.01188426906779,
+      "likes": 533,
+      "dislikes": 113
+    },
+    {
+      "position": 6,
+      "title": "Minimum Operations to Make the Integer Zero",
+      "slug": "minimum-operations-to-make-the-integer-zero",
+      "difficulty": "Medium",
+      "acceptance": 58.17816959598407,
+      "likes": 746,
+      "dislikes": 375
+    },
+    {
+      "position": 7,
+      "title": "Minimum Impossible OR",
+      "slug": "minimum-impossible-or",
+      "difficulty": "Medium",
+      "acceptance": 58.21810712205292,
+      "likes": 376,
+      "dislikes": 22
+    },
+    {
+      "position": 8,
+      "title": "Construct the Longest New String",
+      "slug": "construct-the-longest-new-string",
+      "difficulty": "Medium",
+      "acceptance": 54.31607477037579,
+      "likes": 330,
+      "dislikes": 28
+    },
+    {
+      "position": 9,
+      "title": "Count the Number of Computer Unlocking Permutations",
+      "slug": "count-the-number-of-computer-unlocking-permutations",
+      "difficulty": "Medium",
+      "acceptance": 39.153175591531756,
+      "likes": 63,
+      "dislikes": 14
+    },
+    {
+      "position": 10,
+      "title": "Airplane Seat Assignment Probability",
+      "slug": "airplane-seat-assignment-probability",
+      "difficulty": "Medium",
+      "acceptance": 66.90813595016682,
+      "likes": 650,
+      "dislikes": 986
+    },
+    {
+      "position": 11,
+      "title": "Bulb Switcher",
+      "slug": "bulb-switcher",
+      "difficulty": "Medium",
+      "acceptance": 54.855326288523244,
+      "likes": 2868,
+      "dislikes": 3213
+    },
+    {
+      "position": 12,
+      "title": "Moving Stones Until Consecutive",
+      "slug": "moving-stones-until-consecutive",
+      "difficulty": "Medium",
+      "acceptance": 50.18125494331663,
+      "likes": 243,
+      "dislikes": 658
+    },
+    {
+      "position": 13,
+      "title": "Strictly Palindromic Number",
+      "slug": "strictly-palindromic-number",
+      "difficulty": "Medium",
+      "acceptance": 89.5568154108754,
+      "likes": 757,
+      "dislikes": 1720
+    }
+  ]
+}

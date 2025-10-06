@@ -1,0 +1,17 @@
+{
+  "frozen": true,
+  "createdAt": "2025-10-06T15:23:28.738Z",
+  "trackSlug": "bucket-sort",
+  "difficulty": "HARD",
+  "questions": [
+    {
+      "position": 1,
+      "title": "Contains Duplicate III",
+      "slug": "contains-duplicate-iii",
+      "difficulty": "Hard",
+      "acceptance": 23.973841963623016,
+      "likes": 1213,
+      "dislikes": 136
+    }
+  ]
+}

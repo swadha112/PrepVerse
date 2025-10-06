@@ -1,0 +1,170 @@
+{
+  "frozen": true,
+  "createdAt": "2025-10-06T15:22:15.108Z",
+  "trackSlug": "binary-search-tree",
+  "difficulty": "MEDIUM",
+  "questions": [
+    {
+      "position": 1,
+      "title": "Validate Binary Search Tree",
+      "slug": "validate-binary-search-tree",
+      "difficulty": "Medium",
+      "acceptance": 34.84533693322412,
+      "likes": 17950,
+      "dislikes": 1431
+    },
+    {
+      "position": 2,
+      "title": "Kth Smallest Element in a BST",
+      "slug": "kth-smallest-element-in-a-bst",
+      "difficulty": "Medium",
+      "acceptance": 75.95409228955975,
+      "likes": 12367,
+      "dislikes": 251
+    },
+    {
+      "position": 3,
+      "title": "Lowest Common Ancestor of a Binary Search Tree",
+      "slug": "lowest-common-ancestor-of-a-binary-search-tree",
+      "difficulty": "Medium",
+      "acceptance": 69.25916765453748,
+      "likes": 11983,
+      "dislikes": 347
+    },
+    {
+      "position": 4,
+      "title": "Unique Binary Search Trees",
+      "slug": "unique-binary-search-trees",
+      "difficulty": "Medium",
+      "acceptance": 62.81195575429513,
+      "likes": 10837,
+      "dislikes": 438
+    },
+    {
+      "position": 5,
+      "title": "Delete Node in a BST",
+      "slug": "delete-node-in-a-bst",
+      "difficulty": "Medium",
+      "acceptance": 53.621840502089476,
+      "likes": 10079,
+      "dislikes": 368
+    },
+    {
+      "position": 6,
+      "title": "Binary Search Tree Iterator",
+      "slug": "binary-search-tree-iterator",
+      "difficulty": "Medium",
+      "acceptance": 75.57496783616851,
+      "likes": 9077,
+      "dislikes": 567
+    },
+    {
+      "position": 7,
+      "title": "Recover Binary Search Tree",
+      "slug": "recover-binary-search-tree",
+      "difficulty": "Medium",
+      "acceptance": 57.604966872973485,
+      "likes": 8426,
+      "dislikes": 282
+    },
+    {
+      "position": 8,
+      "title": "Convert Sorted List to Binary Search Tree",
+      "slug": "convert-sorted-list-to-binary-search-tree",
+      "difficulty": "Medium",
+      "acceptance": 65.21393161020703,
+      "likes": 7776,
+      "dislikes": 170
+    },
+    {
+      "position": 9,
+      "title": "Unique Binary Search Trees II",
+      "slug": "unique-binary-search-trees-ii",
+      "difficulty": "Medium",
+      "acceptance": 61.145439884082094,
+      "likes": 7863,
+      "dislikes": 571
+    },
+    {
+      "position": 10,
+      "title": "Construct Binary Search Tree from Preorder Traversal",
+      "slug": "construct-binary-search-tree-from-preorder-traversal",
+      "difficulty": "Medium",
+      "acceptance": 83.78542009676883,
+      "likes": 6624,
+      "dislikes": 92
+    },
+    {
+      "position": 11,
+      "title": "Insert into a Binary Search Tree",
+      "slug": "insert-into-a-binary-search-tree",
+      "difficulty": "Medium",
+      "acceptance": 73.33772243654299,
+      "likes": 6280,
+      "dislikes": 186
+    },
+    {
+      "position": 12,
+      "title": "Trim a Binary Search Tree",
+      "slug": "trim-a-binary-search-tree",
+      "difficulty": "Medium",
+      "acceptance": 66.4273537831,
+      "likes": 6045,
+      "dislikes": 264
+    },
+    {
+      "position": 13,
+      "title": "Convert BST to Greater Tree",
+      "slug": "convert-bst-to-greater-tree",
+      "difficulty": "Medium",
+      "acceptance": 70.93741589419724,
+      "likes": 5372,
+      "dislikes": 181
+    },
+    {
+      "position": 14,
+      "title": "Binary Search Tree to Greater Sum Tree",
+      "slug": "binary-search-tree-to-greater-sum-tree",
+      "difficulty": "Medium",
+      "acceptance": 88.32437858740795,
+      "likes": 4494,
+      "dislikes": 169
+    },
+    {
+      "position": 15,
+      "title": "Balance a Binary Search Tree",
+      "slug": "balance-a-binary-search-tree",
+      "difficulty": "Medium",
+      "acceptance": 84.73105774932498,
+      "likes": 3797,
+      "dislikes": 96
+    },
+    {
+      "position": 16,
+      "title": "Serialize and Deserialize BST",
+      "slug": "serialize-and-deserialize-bst",
+      "difficulty": "Medium",
+      "acceptance": 58.950233211878135,
+      "likes": 3568,
+      "dislikes": 181
+    },
+    {
+      "position": 17,
+      "title": "All Elements in Two Binary Search Trees",
+      "slug": "all-elements-in-two-binary-search-trees",
+      "difficulty": "Medium",
+      "acceptance": 80.12766978641709,
+      "likes": 3163,
+      "dislikes": 98
+    },
+    {
+      "position": 18,
+      "title": "Closest Nodes Queries in a Binary Search Tree",
+      "slug": "closest-nodes-queries-in-a-binary-search-tree",
+      "difficulty": "Medium",
+      "acceptance": 43.442582185308595,
+      "likes": 522,
+      "dislikes": 140
+    }
+  ]
+}

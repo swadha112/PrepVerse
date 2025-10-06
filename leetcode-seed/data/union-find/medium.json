@@ -1,0 +1,368 @@
+{
+  "frozen": true,
+  "createdAt": "2025-10-06T15:21:01.340Z",
+  "trackSlug": "union-find",
+  "difficulty": "MEDIUM",
+  "questions": [
+    {
+      "position": 1,
+      "title": "Number of Islands",
+      "slug": "number-of-islands",
+      "difficulty": "Medium",
+      "acceptance": 63.05427464672913,
+      "likes": 24318,
+      "dislikes": 586
+    },
+    {
+      "position": 2,
+      "title": "Longest Consecutive Sequence",
+      "slug": "longest-consecutive-sequence",
+      "difficulty": "Medium",
+      "acceptance": 46.964264985506205,
+      "likes": 22093,
+      "dislikes": 1196
+    },
+    {
+      "position": 3,
+      "title": "Number of Provinces",
+      "slug": "number-of-provinces",
+      "difficulty": "Medium",
+      "acceptance": 69.42311795478207,
+      "likes": 10776,
+      "dislikes": 404
+    },
+    {
+      "position": 4,
+      "title": "Max Area of Island",
+      "slug": "max-area-of-island",
+      "difficulty": "Medium",
+      "acceptance": 73.47090901194805,
+      "likes": 10454,
+      "dislikes": 216
+    },
+    {
+      "position": 5,
+      "title": "Evaluate Division",
+      "slug": "evaluate-division",
+      "difficulty": "Medium",
+      "acceptance": 63.57416662144362,
+      "likes": 9980,
+      "dislikes": 1064
+    },
+    {
+      "position": 6,
+      "title": "Is Graph Bipartite?",
+      "slug": "is-graph-bipartite",
+      "difficulty": "Medium",
+      "acceptance": 58.37866363562556,
+      "likes": 9011,
+      "dislikes": 405
+    },
+    {
+      "position": 7,
+      "title": "Surrounded Regions",
+      "slug": "surrounded-regions",
+      "difficulty": "Medium",
+      "acceptance": 43.843582887700535,
+      "likes": 9569,
+      "dislikes": 2159
+    },
+    {
+      "position": 8,
+      "title": "Redundant Connection",
+      "slug": "redundant-connection",
+      "difficulty": "Medium",
+      "acceptance": 66.83951307541604,
+      "likes": 7009,
+      "dislikes": 444
+    },
+    {
+      "position": 9,
+      "title": "Path With Minimum Effort",
+      "slug": "path-with-minimum-effort",
+      "difficulty": "Medium",
+      "acceptance": 62.238727303347666,
+      "likes": 6591,
+      "dislikes": 232
+    },
+    {
+      "position": 10,
+      "title": "Accounts Merge",
+      "slug": "accounts-merge",
+      "difficulty": "Medium",
+      "acceptance": 60.30026761686806,
+      "likes": 7469,
+      "dislikes": 1277
+    },
+    {
+      "position": 11,
+      "title": "Most Stones Removed with Same Row or Column",
+      "slug": "most-stones-removed-with-same-row-or-column",
+      "difficulty": "Medium",
+      "acceptance": 62.472557467644265,
+      "likes": 6290,
+      "dislikes": 705
+    },
+    {
+      "position": 12,
+      "title": "Number of Operations to Make Network Connected",
+      "slug": "number-of-operations-to-make-network-connected",
+      "difficulty": "Medium",
+      "acceptance": 65.57421109857755,
+      "likes": 5459,
+      "dislikes": 83
+    },
+    {
+      "position": 13,
+      "title": "Min Cost to Connect All Points",
+      "slug": "min-cost-to-connect-all-points",
+      "difficulty": "Medium",
+      "acceptance": 69.69093710048367,
+      "likes": 5467,
+      "dislikes": 142
+    },
+    {
+      "position": 14,
+      "title": "Possible Bipartition",
+      "slug": "possible-bipartition",
+      "difficulty": "Medium",
+      "acceptance": 51.897827544421446,
+      "likes": 4861,
+      "dislikes": 115
+    },
+    {
+      "position": 15,
+      "title": "Number of Closed Islands",
+      "slug": "number-of-closed-islands",
+      "difficulty": "Medium",
+      "acceptance": 66.88690284054229,
+      "likes": 4711,
+      "dislikes": 187
+    },
+    {
+      "position": 16,
+      "title": "Number of Enclaves",
+      "slug": "number-of-enclaves",
+      "difficulty": "Medium",
+      "acceptance": 71.159577137838,
+      "likes": 4479,
+      "dislikes": 87
+    },
+    {
+      "position": 17,
+      "title": "Satisfiability of Equality Equations",
+      "slug": "satisfiability-of-equality-equations",
+      "difficulty": "Medium",
+      "acceptance": 51.31113430347426,
+      "likes": 3957,
+      "dislikes": 67
+    },
+    {
+      "position": 18,
+      "title": "Smallest String With Swaps",
+      "slug": "smallest-string-with-swaps",
+      "difficulty": "Medium",
+      "acceptance": 59.87229990043721,
+      "likes": 3853,
+      "dislikes": 160
+    },
+    {
+      "position": 19,
+      "title": "Regions Cut By Slashes",
+      "slug": "regions-cut-by-slashes",
+      "difficulty": "Medium",
+      "acceptance": 77.61536921309713,
+      "likes": 3965,
+      "dislikes": 863
+    },
+    {
+      "position": 20,
+      "title": "Lexicographically Smallest Equivalent String",
+      "slug": "lexicographically-smallest-equivalent-string",
+      "difficulty": "Medium",
+      "acceptance": 81.15386748502551,
+      "likes": 2850,
+      "dislikes": 185
+    },
+    {
+      "position": 21,
+      "title": "Count Sub Islands",
+      "slug": "count-sub-islands",
+      "difficulty": "Medium",
+      "acceptance": 72.89779191052509,
+      "likes": 2610,
+      "dislikes": 90
+    },
+    {
+      "position": 22,
+      "title": "Count Unreachable Pairs of Nodes in an Undirected Graph",
+      "slug": "count-unreachable-pairs-of-nodes-in-an-undirected-graph",
+      "difficulty": "Medium",
+      "acceptance": 49.532229602106966,
+      "likes": 2217,
+      "dislikes": 53
+    },
+    {
+      "position": 23,
+      "title": "Count Servers that Communicate",
+      "slug": "count-servers-that-communicate",
+      "difficulty": "Medium",
+      "acceptance": 73.50932285077414,
+      "likes": 1896,
+      "dislikes": 108
+    },
+    {
+      "position": 24,
+      "title": "Validate Binary Tree Nodes",
+      "slug": "validate-binary-tree-nodes",
+      "difficulty": "Medium",
+      "acceptance": 43.94736753387296,
+      "likes": 2225,
+      "dislikes": 520
+    },
+    {
+      "position": 25,
+      "title": "Minimum Score of a Path Between Two Cities",
+      "slug": "minimum-score-of-a-path-between-two-cities",
+      "difficulty": "Medium",
+      "acceptance": 58.12910043342394,
+      "likes": 1877,
+      "dislikes": 319
+    },
+    {
+      "position": 26,
+      "title": "Find the Safest Path in a Grid",
+      "slug": "find-the-safest-path-in-a-grid",
+      "difficulty": "Medium",
+      "acceptance": 48.4694681756565,
+      "likes": 1777,
+      "dislikes": 317
+    },
+    {
+      "position": 27,
+      "title": "Detect Cycles in 2D Grid",
+      "slug": "detect-cycles-in-2d-grid",
+      "difficulty": "Medium",
+      "acceptance": 51.436469797964136,
+      "likes": 1287,
+      "dislikes": 30
+    },
+    {
+      "position": 28,
+      "title": "Count the Number of Complete Components",
+      "slug": "count-the-number-of-complete-components",
+      "difficulty": "Medium",
+      "acceptance": 77.65512329742722,
+      "likes": 1228,
+      "dislikes": 32
+    },
+    {
+      "position": 29,
+      "title": "Make Lexicographically Smallest Array by Swapping Elements",
+      "slug": "make-lexicographically-smallest-array-by-swapping-elements",
+      "difficulty": "Medium",
+      "acceptance": 60.21769557460459,
+      "likes": 959,
+      "dislikes": 77
+    },
+    {
+      "position": 30,
+      "title": "Maximum Number of Fish in a Grid",
+      "slug": "maximum-number-of-fish-in-a-grid",
+      "difficulty": "Medium",
+      "acceptance": 70.43252196911911,
+      "likes": 930,
+      "dislikes": 65
+    },
+    {
+      "position": 31,
+      "title": "Minimize Hamming Distance After Swap Operations",
+      "slug": "minimize-hamming-distance-after-swap-operations",
+      "difficulty": "Medium",
+      "acceptance": 48.75031213820344,
+      "likes": 889,
+      "dislikes": 30
+    },
+    {
+      "position": 32,
+      "title": "Reachable Nodes With Restrictions",
+      "slug": "reachable-nodes-with-restrictions",
+      "difficulty": "Medium",
+      "acceptance": 59.85669584145844,
+      "likes": 764,
+      "dislikes": 31
+    },
+    {
+      "position": 33,
+      "title": "Check if There is a Valid Path in a Grid",
+      "slug": "check-if-there-is-a-valid-path-in-a-grid",
+      "difficulty": "Medium",
+      "acceptance": 49.41230795063387,
+      "likes": 871,
+      "dislikes": 323
+    },
+    {
+      "position": 34,
+      "title": "Longest Uploaded Prefix",
+      "slug": "longest-uploaded-prefix",
+      "difficulty": "Medium",
+      "acceptance": 54.2930371636053,
+      "likes": 384,
+      "dislikes": 32
+    },
+    {
+      "position": 35,
+      "title": "Power Grid Maintenance",
+      "slug": "power-grid-maintenance",
+      "difficulty": "Medium",
+      "acceptance": 44.43259781197849,
+      "likes": 113,
+      "dislikes": 6
+    },
+    {
+      "position": 36,
+      "title": "Minimize Maximum Component Cost",
+      "slug": "minimize-maximum-component-cost",
+      "difficulty": "Medium",
+      "acceptance": 42.95431864931468,
+      "likes": 103,
+      "dislikes": 6
+    },
+    {
+      "position": 37,
+      "title": "Minimum Time for K Connected Components",
+      "slug": "minimum-time-for-k-connected-components",
+      "difficulty": "Medium",
+      "acceptance": 44.56720313179643,
+      "likes": 102,
+      "dislikes": 6
+    },
+    {
+      "position": 38,
+      "title": "Path Existence Queries in a Graph I",
+      "slug": "path-existence-queries-in-a-graph-i",
+      "difficulty": "Medium",
+      "acceptance": 54.91598140865213,
+      "likes": 96,
+      "dislikes": 4
+    },
+    {
+      "position": 39,
+      "title": "Properties Graph",
+      "slug": "properties-graph",
+      "difficulty": "Medium",
+      "acceptance": 47.715358897098284,
+      "likes": 83,
+      "dislikes": 13
+    },
+    {
+      "position": 40,
+      "title": "Count Islands With Total Value Divisible by K",
+      "slug": "count-islands-with-total-value-divisible-by-k",
+      "difficulty": "Medium",
+      "acceptance": 56.04582552705817,
+      "likes": 53,
+      "dislikes": 1
+    }
+  ]
+}

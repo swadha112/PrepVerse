@@ -1,0 +1,368 @@
+{
+  "frozen": true,
+  "createdAt": "2025-10-06T15:18:00.870Z",
+  "trackSlug": "math",
+  "difficulty": "HARD",
+  "questions": [
+    {
+      "position": 1,
+      "title": "Permutation Sequence",
+      "slug": "permutation-sequence",
+      "difficulty": "Hard",
+      "acceptance": 50.86210743101008,
+      "likes": 7107,
+      "dislikes": 497
+    },
+    {
+      "position": 2,
+      "title": "Basic Calculator",
+      "slug": "basic-calculator",
+      "difficulty": "Hard",
+      "acceptance": 46.16591970242443,
+      "likes": 6785,
+      "dislikes": 547
+    },
+    {
+      "position": 3,
+      "title": "Max Points on a Line",
+      "slug": "max-points-on-a-line",
+      "difficulty": "Hard",
+      "acceptance": 29.544542231956505,
+      "likes": 4422,
+      "dislikes": 569
+    },
+    {
+      "position": 4,
+      "title": "Super Egg Drop",
+      "slug": "super-egg-drop",
+      "difficulty": "Hard",
+      "acceptance": 29.27746312118012,
+      "likes": 3782,
+      "dislikes": 204
+    },
+    {
+      "position": 5,
+      "title": "Expression Add Operators",
+      "slug": "expression-add-operators",
+      "difficulty": "Hard",
+      "acceptance": 42.27090726634782,
+      "likes": 3693,
+      "dislikes": 706
+    },
+    {
+      "position": 6,
+      "title": "Count All Valid Pickup and Delivery Options",
+      "slug": "count-all-valid-pickup-and-delivery-options",
+      "difficulty": "Hard",
+      "acceptance": 64.8720090404363,
+      "likes": 3083,
+      "dislikes": 233
+    },
+    {
+      "position": 7,
+      "title": "Insert Delete GetRandom O(1) - Duplicates allowed",
+      "slug": "insert-delete-getrandom-o1-duplicates-allowed",
+      "difficulty": "Hard",
+      "acceptance": 36.019008780186454,
+      "likes": 2399,
+      "dislikes": 156
+    },
+    {
+      "position": 8,
+      "title": "Number of Music Playlists",
+      "slug": "number-of-music-playlists",
+      "difficulty": "Hard",
+      "acceptance": 59.96729725077845,
+      "likes": 2441,
+      "dislikes": 201
+    },
+    {
+      "position": 9,
+      "title": "Stone Game III",
+      "slug": "stone-game-iii",
+      "difficulty": "Hard",
+      "acceptance": 63.179031159238406,
+      "likes": 2281,
+      "dislikes": 79
+    },
+    {
+      "position": 10,
+      "title": "Kth Smallest Number in Multiplication Table",
+      "slug": "kth-smallest-number-in-multiplication-table",
+      "difficulty": "Hard",
+      "acceptance": 53.30419981898496,
+      "likes": 2241,
+      "dislikes": 60
+    },
+    {
+      "position": 11,
+      "title": "Minimum Replacements to Sort the Array",
+      "slug": "minimum-replacements-to-sort-the-array",
+      "difficulty": "Hard",
+      "acceptance": 53.210389534115436,
+      "likes": 2065,
+      "dislikes": 69
+    },
+    {
+      "position": 12,
+      "title": "Number of Ways to Reorder Array to Get Same BST",
+      "slug": "number-of-ways-to-reorder-array-to-get-same-bst",
+      "difficulty": "Hard",
+      "acceptance": 53.741150461886676,
+      "likes": 1840,
+      "dislikes": 210
+    },
+    {
+      "position": 13,
+      "title": "Largest Component Size by Common Factor",
+      "slug": "largest-component-size-by-common-factor",
+      "difficulty": "Hard",
+      "acceptance": 41.552350723794184,
+      "likes": 1703,
+      "dislikes": 95
+    },
+    {
+      "position": 14,
+      "title": "24 Game",
+      "slug": "24-game",
+      "difficulty": "Hard",
+      "acceptance": 59.16599956335056,
+      "likes": 1864,
+      "dislikes": 287
+    },
+    {
+      "position": 15,
+      "title": "Maximize Score After N Operations",
+      "slug": "maximize-score-after-n-operations",
+      "difficulty": "Hard",
+      "acceptance": 57.92815628440484,
+      "likes": 1690,
+      "dislikes": 113
+    },
+    {
+      "position": 16,
+      "title": "Stone Game IV",
+      "slug": "stone-game-iv",
+      "difficulty": "Hard",
+      "acceptance": 59.50091877986034,
+      "likes": 1631,
+      "dislikes": 74
+    },
+    {
+      "position": 17,
+      "title": "Numbers At Most N Given Digit Set",
+      "slug": "numbers-at-most-n-given-digit-set",
+      "difficulty": "Hard",
+      "acceptance": 43.8373450537376,
+      "likes": 1441,
+      "dislikes": 98
+    },
+    {
+      "position": 18,
+      "title": "Reaching Points",
+      "slug": "reaching-points",
+      "difficulty": "Hard",
+      "acceptance": 33.910002961001865,
+      "likes": 1573,
+      "dislikes": 235
+    },
+    {
+      "position": 19,
+      "title": "Orderly Queue",
+      "slug": "orderly-queue",
+      "difficulty": "Hard",
+      "acceptance": 66.4648870089427,
+      "likes": 1807,
+      "dislikes": 620
+    },
+    {
+      "position": 20,
+      "title": "Split Array With Same Average",
+      "slug": "split-array-with-same-average",
+      "difficulty": "Hard",
+      "acceptance": 26.32762736465818,
+      "likes": 1327,
+      "dislikes": 140
+    },
+    {
+      "position": 21,
+      "title": "Nth Magical Number",
+      "slug": "nth-magical-number",
+      "difficulty": "Hard",
+      "acceptance": 36.086662672995104,
+      "likes": 1320,
+      "dislikes": 169
+    },
+    {
+      "position": 22,
+      "title": "Allocate Mailboxes",
+      "slug": "allocate-mailboxes",
+      "difficulty": "Hard",
+      "acceptance": 56.01170964292601,
+      "likes": 1163,
+      "dislikes": 23
+    },
+    {
+      "position": 23,
+      "title": "Number of Squareful Arrays",
+      "slug": "number-of-squareful-arrays",
+      "difficulty": "Hard",
+      "acceptance": 50.773521875912174,
+      "likes": 1025,
+      "dislikes": 46
+    },
+    {
+      "position": 24,
+      "title": "Number of Ways to Divide a Long Corridor",
+      "slug": "number-of-ways-to-divide-a-long-corridor",
+      "difficulty": "Hard",
+      "acceptance": 48.70939044701444,
+      "likes": 1086,
+      "dislikes": 111
+    },
+    {
+      "position": 25,
+      "title": "Car Fleet II",
+      "slug": "car-fleet-ii",
+      "difficulty": "Hard",
+      "acceptance": 56.961609375855716,
+      "likes": 943,
+      "dislikes": 40
+    },
+    {
+      "position": 26,
+      "title": "Count Array Pairs Divisible by K",
+      "slug": "count-array-pairs-divisible-by-k",
+      "difficulty": "Hard",
+      "acceptance": 30.25082554626572,
+      "likes": 916,
+      "dislikes": 38
+    },
+    {
+      "position": 27,
+      "title": "Erect the Fence",
+      "slug": "erect-the-fence",
+      "difficulty": "Hard",
+      "acceptance": 52.4425004914488,
+      "likes": 1516,
+      "dislikes": 647
+    },
+    {
+      "position": 28,
+      "title": "Cat and Mouse",
+      "slug": "cat-and-mouse",
+      "difficulty": "Hard",
+      "acceptance": 34.00167785234899,
+      "likes": 993,
+      "dislikes": 177
+    },
+    {
+      "position": 29,
+      "title": "Perfect Rectangle",
+      "slug": "perfect-rectangle",
+      "difficulty": "Hard",
+      "acceptance": 36.07096362815165,
+      "likes": 933,
+      "dislikes": 120
+    },
+    {
+      "position": 30,
+      "title": "Replace Non-Coprime Numbers in Array",
+      "slug": "replace-non-coprime-numbers-in-array",
+      "difficulty": "Hard",
+      "acceptance": 57.577149298832516,
+      "likes": 828,
+      "dislikes": 33
+    },
+    {
+      "position": 31,
+      "title": "Random Pick with Blacklist",
+      "slug": "random-pick-with-blacklist",
+      "difficulty": "Hard",
+      "acceptance": 34.21707510426361,
+      "likes": 890,
+      "dislikes": 121
+    },
+    {
+      "position": 32,
+      "title": "Numbers With Repeated Digits",
+      "slug": "numbers-with-repeated-digits",
+      "difficulty": "Hard",
+      "acceptance": 44.39920576024389,
+      "likes": 817,
+      "dislikes": 90
+    },
+    {
+      "position": 33,
+      "title": "Three Equal Parts",
+      "slug": "three-equal-parts",
+      "difficulty": "Hard",
+      "acceptance": 40.89446433755928,
+      "likes": 849,
+      "dislikes": 124
+    },
+    {
+      "position": 34,
+      "title": "Number of Ways to Rearrange Sticks With K Sticks Visible",
+      "slug": "number-of-ways-to-rearrange-sticks-with-k-sticks-visible",
+      "difficulty": "Hard",
+      "acceptance": 58.249539267354265,
+      "likes": 734,
+      "dislikes": 23
+    },
+    {
+      "position": 35,
+      "title": "Count the Number of Ideal Arrays",
+      "slug": "count-the-number-of-ideal-arrays",
+      "difficulty": "Hard",
+      "acceptance": 56.92459092956149,
+      "likes": 839,
+      "dislikes": 132
+    },
+    {
+      "position": 36,
+      "title": "Greatest Common Divisor Traversal",
+      "slug": "greatest-common-divisor-traversal",
+      "difficulty": "Hard",
+      "acceptance": 41.74283496836944,
+      "likes": 848,
+      "dislikes": 142
+    },
+    {
+      "position": 37,
+      "title": "Apply Operations to Maximize Score",
+      "slug": "apply-operations-to-maximize-score",
+      "difficulty": "Hard",
+      "acceptance": 53.87859370205721,
+      "likes": 765,
+      "dislikes": 127
+    },
+    {
+      "position": 38,
+      "title": "Stone Game V",
+      "slug": "stone-game-v",
+      "difficulty": "Hard",
+      "acceptance": 41.47918586146243,
+      "likes": 689,
+      "dislikes": 90
+    },
+    {
+      "position": 39,
+      "title": "Count Special Integers",
+      "slug": "count-special-integers",
+      "difficulty": "Hard",
+      "acceptance": 40.60873885416939,
+      "likes": 611,
+      "dislikes": 35
+    },
+    {
+      "position": 40,
+      "title": "Find XOR Sum of All Pairs Bitwise AND",
+      "slug": "find-xor-sum-of-all-pairs-bitwise-and",
+      "difficulty": "Hard",
+      "acceptance": 62.070953992729095,
+      "likes": 622,
+      "dislikes": 51
+    }
+  ]
+}

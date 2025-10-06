@@ -1,0 +1,53 @@
+{
+  "frozen": true,
+  "createdAt": "2025-10-06T15:21:41.602Z",
+  "trackSlug": "divide-and-conquer",
+  "difficulty": "EASY",
+  "questions": [
+    {
+      "position": 1,
+      "title": "Majority Element",
+      "slug": "majority-element",
+      "difficulty": "Easy",
+      "acceptance": 65.90082050223998,
+      "likes": 21819,
+      "dislikes": 773
+    },
+    {
+      "position": 2,
+      "title": "Convert Sorted Array to Binary Search Tree",
+      "slug": "convert-sorted-array-to-binary-search-tree",
+      "difficulty": "Easy",
+      "acceptance": 74.6519104203932,
+      "likes": 11664,
+      "dislikes": 623
+    },
+    {
+      "position": 3,
+      "title": "Number of 1 Bits",
+      "slug": "number-of-1-bits",
+      "difficulty": "Easy",
+      "acceptance": 75.43217690264103,
+      "likes": 6983,
+      "dislikes": 1360
+    },
+    {
+      "position": 4,
+      "title": "Reverse Bits",
+      "slug": "reverse-bits",
+      "difficulty": "Easy",
+      "acceptance": 64.53474692145707,
+      "likes": 5492,
+      "dislikes": 1630
+    },
+    {
+      "position": 5,
+      "title": "Longest Nice Substring",
+      "slug": "longest-nice-substring",
+      "difficulty": "Easy",
+      "acceptance": 63.108339262197056,
+      "likes": 1458,
+      "dislikes": 953
+    }
+  ]
+}

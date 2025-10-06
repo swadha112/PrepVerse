@@ -1,0 +1,368 @@
+{
+  "frozen": true,
+  "createdAt": "2025-10-06T15:17:55.813Z",
+  "trackSlug": "math",
+  "difficulty": "MEDIUM",
+  "questions": [
+    {
+      "position": 1,
+      "title": "Add Two Numbers",
+      "slug": "add-two-numbers",
+      "difficulty": "Medium",
+      "acceptance": 47.06901705482876,
+      "likes": 34976,
+      "dislikes": 6989
+    },
+    {
+      "position": 2,
+      "title": "Rotate Image",
+      "slug": "rotate-image",
+      "difficulty": "Medium",
+      "acceptance": 78.68940360227153,
+      "likes": 19238,
+      "dislikes": 924
+    },
+    {
+      "position": 3,
+      "title": "Rotate Array",
+      "slug": "rotate-array",
+      "difficulty": "Medium",
+      "acceptance": 43.7778196056139,
+      "likes": 20162,
+      "dislikes": 2142
+    },
+    {
+      "position": 4,
+      "title": "Unique Paths",
+      "slug": "unique-paths",
+      "difficulty": "Medium",
+      "acceptance": 66.14710337308688,
+      "likes": 17900,
+      "dislikes": 480
+    },
+    {
+      "position": 5,
+      "title": "Perfect Squares",
+      "slug": "perfect-squares",
+      "difficulty": "Medium",
+      "acceptance": 55.97763812797651,
+      "likes": 11671,
+      "dislikes": 485
+    },
+    {
+      "position": 6,
+      "title": "Unique Binary Search Trees",
+      "slug": "unique-binary-search-trees",
+      "difficulty": "Medium",
+      "acceptance": 62.811897406287606,
+      "likes": 10837,
+      "dislikes": 438
+    },
+    {
+      "position": 7,
+      "title": "Insert Delete GetRandom O(1)",
+      "slug": "insert-delete-getrandom-o1",
+      "difficulty": "Medium",
+      "acceptance": 55.114020876033045,
+      "likes": 9777,
+      "dislikes": 682
+    },
+    {
+      "position": 8,
+      "title": "K Closest Points to Origin",
+      "slug": "k-closest-points-to-origin",
+      "difficulty": "Medium",
+      "acceptance": 68.35096638711148,
+      "likes": 8907,
+      "dislikes": 333
+    },
+    {
+      "position": 9,
+      "title": "Evaluate Reverse Polish Notation",
+      "slug": "evaluate-reverse-polish-notation",
+      "difficulty": "Medium",
+      "acceptance": 55.813645644526375,
+      "likes": 8350,
+      "dislikes": 1163
+    },
+    {
+      "position": 10,
+      "title": "Count Primes",
+      "slug": "count-primes",
+      "difficulty": "Medium",
+      "acceptance": 35.32539646641109,
+      "likes": 8594,
+      "dislikes": 1549
+    },
+    {
+      "position": 11,
+      "title": "Largest Divisible Subset",
+      "slug": "largest-divisible-subset",
+      "difficulty": "Medium",
+      "acceptance": 49.10195796692696,
+      "likes": 6745,
+      "dislikes": 326
+    },
+    {
+      "position": 12,
+      "title": "Ugly Number II",
+      "slug": "ugly-number-ii",
+      "difficulty": "Medium",
+      "acceptance": 49.345884348866846,
+      "likes": 6772,
+      "dislikes": 433
+    },
+    {
+      "position": 13,
+      "title": "Continuous Subarray Sum",
+      "slug": "continuous-subarray-sum",
+      "difficulty": "Medium",
+      "acceptance": 31.04042814682414,
+      "likes": 6749,
+      "dislikes": 710
+    },
+    {
+      "position": 14,
+      "title": "Different Ways to Add Parentheses",
+      "slug": "different-ways-to-add-parentheses",
+      "difficulty": "Medium",
+      "acceptance": 72.69090997287584,
+      "likes": 6260,
+      "dislikes": 392
+    },
+    {
+      "position": 15,
+      "title": "Add Two Numbers II",
+      "slug": "add-two-numbers-ii",
+      "difficulty": "Medium",
+      "acceptance": 62.02987998576064,
+      "likes": 6097,
+      "dislikes": 299
+    },
+    {
+      "position": 16,
+      "title": "Predict the Winner",
+      "slug": "predict-the-winner",
+      "difficulty": "Medium",
+      "acceptance": 55.95425699128288,
+      "likes": 6082,
+      "dislikes": 292
+    },
+    {
+      "position": 17,
+      "title": "Basic Calculator II",
+      "slug": "basic-calculator-ii",
+      "difficulty": "Medium",
+      "acceptance": 46.23203056569773,
+      "likes": 6496,
+      "dislikes": 944
+    },
+    {
+      "position": 18,
+      "title": "Count Number of Nice Subarrays",
+      "slug": "count-number-of-nice-subarrays",
+      "difficulty": "Medium",
+      "acceptance": 74.17791081324454,
+      "likes": 5192,
+      "dislikes": 136
+    },
+    {
+      "position": 19,
+      "title": "Integer Break",
+      "slug": "integer-break",
+      "difficulty": "Medium",
+      "acceptance": 61.44125825409207,
+      "likes": 5304,
+      "dislikes": 461
+    },
+    {
+      "position": 20,
+      "title": "2 Keys Keyboard",
+      "slug": "2-keys-keyboard",
+      "difficulty": "Medium",
+      "acceptance": 59.215156511503295,
+      "likes": 4360,
+      "dislikes": 246
+    },
+    {
+      "position": 21,
+      "title": "Maximum Swap",
+      "slug": "maximum-swap",
+      "difficulty": "Medium",
+      "acceptance": 51.88056511433089,
+      "likes": 4239,
+      "dislikes": 272
+    },
+    {
+      "position": 22,
+      "title": "Multiply Strings",
+      "slug": "multiply-strings",
+      "difficulty": "Medium",
+      "acceptance": 42.81294320098174,
+      "likes": 7528,
+      "dislikes": 3593
+    },
+    {
+      "position": 23,
+      "title": "Find the Winner of the Circular Game",
+      "slug": "find-the-winner-of-the-circular-game",
+      "difficulty": "Medium",
+      "acceptance": 82.13567474064664,
+      "likes": 4016,
+      "dislikes": 121
+    },
+    {
+      "position": 24,
+      "title": "Count Sorted Vowel Strings",
+      "slug": "count-sorted-vowel-strings",
+      "difficulty": "Medium",
+      "acceptance": 79.0636802741675,
+      "likes": 3916,
+      "dislikes": 93
+    },
+    {
+      "position": 25,
+      "title": "K-th Symbol in Grammar",
+      "slug": "k-th-symbol-in-grammar",
+      "difficulty": "Medium",
+      "acceptance": 47.772055749401204,
+      "likes": 4084,
+      "dislikes": 421
+    },
+    {
+      "position": 26,
+      "title": "Next Greater Element III",
+      "slug": "next-greater-element-iii",
+      "difficulty": "Medium",
+      "acceptance": 34.8673369516861,
+      "likes": 3883,
+      "dislikes": 491
+    },
+    {
+      "position": 27,
+      "title": "Minimum Moves to Equal Array Elements II",
+      "slug": "minimum-moves-to-equal-array-elements-ii",
+      "difficulty": "Medium",
+      "acceptance": 61.20826069850058,
+      "likes": 3483,
+      "dislikes": 132
+    },
+    {
+      "position": 28,
+      "title": "Detonate the Maximum Bombs",
+      "slug": "detonate-the-maximum-bombs",
+      "difficulty": "Medium",
+      "acceptance": 49.553644182888185,
+      "likes": 3321,
+      "dislikes": 161
+    },
+    {
+      "position": 29,
+      "title": "Robot Bounded In Circle",
+      "slug": "robot-bounded-in-circle",
+      "difficulty": "Medium",
+      "acceptance": 56.32461324231155,
+      "likes": 3835,
+      "dislikes": 714
+    },
+    {
+      "position": 30,
+      "title": "Sum of Square Numbers",
+      "slug": "sum-of-square-numbers",
+      "difficulty": "Medium",
+      "acceptance": 36.56645035114232,
+      "likes": 3382,
+      "dislikes": 617
+    },
+    {
+      "position": 31,
+      "title": "Number of Zero-Filled Subarrays",
+      "slug": "number-of-zero-filled-subarrays",
+      "difficulty": "Medium",
+      "acceptance": 70.19213790404558,
+      "likes": 2753,
+      "dislikes": 94
+    },
+    {
+      "position": 32,
+      "title": "Broken Calculator",
+      "slug": "broken-calculator",
+      "difficulty": "Medium",
+      "acceptance": 55.54523986364243,
+      "likes": 2803,
+      "dislikes": 214
+    },
+    {
+      "position": 33,
+      "title": "Stone Game II",
+      "slug": "stone-game-ii",
+      "difficulty": "Medium",
+      "acceptance": 72.93116723716008,
+      "likes": 3405,
+      "dislikes": 930
+    },
+    {
+      "position": 34,
+      "title": "Linked List Random Node",
+      "slug": "linked-list-random-node",
+      "difficulty": "Medium",
+      "acceptance": 64.16467099478007,
+      "likes": 3186,
+      "dislikes": 718
+    },
+    {
+      "position": 35,
+      "title": "Integer to Roman",
+      "slug": "integer-to-roman",
+      "difficulty": "Medium",
+      "acceptance": 69.5352900108459,
+      "likes": 8150,
+      "dislikes": 5691
+    },
+    {
+      "position": 36,
+      "title": "Can I Win",
+      "slug": "can-i-win",
+      "difficulty": "Medium",
+      "acceptance": 30.69358150449321,
+      "likes": 2789,
+      "dislikes": 424
+    },
+    {
+      "position": 37,
+      "title": "Minimum Time Difference",
+      "slug": "minimum-time-difference",
+      "difficulty": "Medium",
+      "acceptance": 62.45797060322569,
+      "likes": 2586,
+      "dislikes": 319
+    },
+    {
+      "position": 38,
+      "title": "Maximum Value at a Given Index in a Bounded Array",
+      "slug": "maximum-value-at-a-given-index-in-a-bounded-array",
+      "difficulty": "Medium",
+      "acceptance": 38.845089589476075,
+      "likes": 2685,
+      "dislikes": 475
+    },
+    {
+      "position": 39,
+      "title": "Total Hamming Distance",
+      "slug": "total-hamming-distance",
+      "difficulty": "Medium",
+      "acceptance": 54.16957076073098,
+      "likes": 2284,
+      "dislikes": 95
+    },
+    {
+      "position": 40,
+      "title": "Sum of Absolute Differences in a Sorted Array",
+      "slug": "sum-of-absolute-differences-in-a-sorted-array",
+      "difficulty": "Medium",
+      "acceptance": 68.11289579891113,
+      "likes": 2163,
+      "dislikes": 81
+    }
+  ]
+}

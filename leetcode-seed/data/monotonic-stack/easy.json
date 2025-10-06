@@ -1,0 +1,26 @@
+{
+  "frozen": true,
+  "createdAt": "2025-10-06T15:21:18.036Z",
+  "trackSlug": "monotonic-stack",
+  "difficulty": "EASY",
+  "questions": [
+    {
+      "position": 1,
+      "title": "Next Greater Element I",
+      "slug": "next-greater-element-i",
+      "difficulty": "Easy",
+      "acceptance": 75.17005224175452,
+      "likes": 9342,
+      "dislikes": 1027
+    },
+    {
+      "position": 2,
+      "title": "Final Prices With a Special Discount in a Shop",
+      "slug": "final-prices-with-a-special-discount-in-a-shop",
+      "difficulty": "Easy",
+      "acceptance": 83.4770566974427,
+      "likes": 2793,
+      "dislikes": 144
+    }
+  ]
+}

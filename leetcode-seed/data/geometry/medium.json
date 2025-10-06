@@ -1,0 +1,161 @@
+{
+  "frozen": true,
+  "createdAt": "2025-10-06T15:21:56.580Z",
+  "trackSlug": "geometry",
+  "difficulty": "MEDIUM",
+  "questions": [
+    {
+      "position": 1,
+      "title": "K Closest Points to Origin",
+      "slug": "k-closest-points-to-origin",
+      "difficulty": "Medium",
+      "acceptance": 68.35099128802032,
+      "likes": 8907,
+      "dislikes": 333
+    },
+    {
+      "position": 2,
+      "title": "Detonate the Maximum Bombs",
+      "slug": "detonate-the-maximum-bombs",
+      "difficulty": "Medium",
+      "acceptance": 49.553644182888185,
+      "likes": 3321,
+      "dislikes": 161
+    },
+    {
+      "position": 3,
+      "title": "Minimum Area Rectangle",
+      "slug": "minimum-area-rectangle",
+      "difficulty": "Medium",
+      "acceptance": 55.14795526118551,
+      "likes": 2081,
+      "dislikes": 295
+    },
+    {
+      "position": 4,
+      "title": "Queries on Number of Points Inside a Circle",
+      "slug": "queries-on-number-of-points-inside-a-circle",
+      "difficulty": "Medium",
+      "acceptance": 86.6198123283491,
+      "likes": 1185,
+      "dislikes": 89
+    },
+    {
+      "position": 5,
+      "title": "Rectangle Area",
+      "slug": "rectangle-area",
+      "difficulty": "Medium",
+      "acceptance": 48.09847618175994,
+      "likes": 2105,
+      "dislikes": 1661
+    },
+    {
+      "position": 6,
+      "title": "Circle and Rectangle Overlapping",
+      "slug": "circle-and-rectangle-overlapping",
+      "difficulty": "Medium",
+      "acceptance": 49.168697771587745,
+      "likes": 400,
+      "dislikes": 85
+    },
+    {
+      "position": 7,
+      "title": "Find the Number of Ways to Place People I",
+      "slug": "find-the-number-of-ways-to-place-people-i",
+      "difficulty": "Medium",
+      "acceptance": 64.07224302003259,
+      "likes": 470,
+      "dislikes": 177
+    },
+    {
+      "position": 8,
+      "title": "Valid Square",
+      "slug": "valid-square",
+      "difficulty": "Medium",
+      "acceptance": 44.555898614202626,
+      "likes": 1105,
+      "dislikes": 913
+    },
+    {
+      "position": 9,
+      "title": "Find the Largest Area of Square Inside Two Rectangles",
+      "slug": "find-the-largest-area-of-square-inside-two-rectangles",
+      "difficulty": "Medium",
+      "acceptance": 45.564993670110674,
+      "likes": 115,
+      "dislikes": 46
+    },
+    {
+      "position": 10,
+      "title": "Count Number of Trapezoids I",
+      "slug": "count-number-of-trapezoids-i",
+      "difficulty": "Medium",
+      "acceptance": 30.13529411764706,
+      "likes": 68,
+      "dislikes": 10
+    },
+    {
+      "position": 11,
+      "title": "Maximum Area Rectangle With Point Constraints I",
+      "slug": "maximum-area-rectangle-with-point-constraints-i",
+      "difficulty": "Medium",
+      "acceptance": 50.41420532000419,
+      "likes": 71,
+      "dislikes": 20
+    },
+    {
+      "position": 12,
+      "title": "Find Maximum Area of a Triangle",
+      "slug": "find-maximum-area-of-a-triangle",
+      "difficulty": "Medium",
+      "acceptance": 28.148936722665074,
+      "likes": 47,
+      "dislikes": 10
+    },
+    {
+      "position": 13,
+      "title": "Count Lattice Points Inside a Circle",
+      "slug": "count-lattice-points-inside-a-circle",
+      "difficulty": "Medium",
+      "acceptance": 55.851351839151,
+      "likes": 250,
+      "dislikes": 223
+    },
+    {
+      "position": 14,
+      "title": "Minimum Area Rectangle II",
+      "slug": "minimum-area-rectangle-ii",
+      "difficulty": "Medium",
+      "acceptance": 55.71941980185198,
+      "likes": 410,
+      "dislikes": 482
+    },
+    {
+      "position": 15,
+      "title": "Minimum Lines to Represent a Line Chart",
+      "slug": "minimum-lines-to-represent-a-line-chart",
+      "difficulty": "Medium",
+      "acceptance": 26.406376841632557,
+      "likes": 361,
+      "dislikes": 532
+    },
+    {
+      "position": 16,
+      "title": "Generate Random Point in a Circle",
+      "slug": "generate-random-point-in-a-circle",
+      "difficulty": "Medium",
+      "acceptance": 41.75827825567106,
+      "likes": 476,
+      "dislikes": 778
+    },
+    {
+      "position": 17,
+      "title": "Mirror Reflection",
+      "slug": "mirror-reflection",
+      "difficulty": "Medium",
+      "acceptance": 61.94446876185474,
+      "likes": 1139,
+      "dislikes": 2558
+    }
+  ]
+}

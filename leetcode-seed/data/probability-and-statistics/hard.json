@@ -1,0 +1,17 @@
+{
+  "frozen": true,
+  "createdAt": "2025-10-06T15:23:14.430Z",
+  "trackSlug": "probability-and-statistics",
+  "difficulty": "HARD",
+  "questions": [
+    {
+      "position": 1,
+      "title": "Probability of a Two Boxes Having The Same Number of Distinct Balls",
+      "slug": "probability-of-a-two-boxes-having-the-same-number-of-distinct-balls",
+      "difficulty": "Hard",
+      "acceptance": 60.59515103785791,
+      "likes": 291,
+      "dislikes": 177
+    }
+  ]
+}

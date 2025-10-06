@@ -1,0 +1,125 @@
+{
+  "frozen": true,
+  "createdAt": "2025-10-06T15:21:53.561Z",
+  "trackSlug": "recursion",
+  "difficulty": "HARD",
+  "questions": [
+    {
+      "position": 1,
+      "title": "Reverse Nodes in k-Group",
+      "slug": "reverse-nodes-in-k-group",
+      "difficulty": "Hard",
+      "acceptance": 64.21352989567595,
+      "likes": 15126,
+      "dislikes": 781
+    },
+    {
+      "position": 2,
+      "title": "Regular Expression Matching",
+      "slug": "regular-expression-matching",
+      "difficulty": "Hard",
+      "acceptance": 29.741259640164248,
+      "likes": 13003,
+      "dislikes": 2343
+    },
+    {
+      "position": 3,
+      "title": "Wildcard Matching",
+      "slug": "wildcard-matching",
+      "difficulty": "Hard",
+      "acceptance": 30.620069895157265,
+      "likes": 8909,
+      "dislikes": 399
+    },
+    {
+      "position": 4,
+      "title": "Permutation Sequence",
+      "slug": "permutation-sequence",
+      "difficulty": "Hard",
+      "acceptance": 50.862100592449366,
+      "likes": 7107,
+      "dislikes": 497
+    },
+    {
+      "position": 5,
+      "title": "Basic Calculator",
+      "slug": "basic-calculator",
+      "difficulty": "Hard",
+      "acceptance": 46.16592522588973,
+      "likes": 6785,
+      "dislikes": 547
+    },
+    {
+      "position": 6,
+      "title": "Parsing A Boolean Expression",
+      "slug": "parsing-a-boolean-expression",
+      "difficulty": "Hard",
+      "acceptance": 69.79681847465187,
+      "likes": 1883,
+      "dislikes": 83
+    },
+    {
+      "position": 7,
+      "title": "Special Binary String",
+      "slug": "special-binary-string",
+      "difficulty": "Hard",
+      "acceptance": 64.82881280569141,
+      "likes": 780,
+      "dislikes": 237
+    },
+    {
+      "position": 8,
+      "title": "Find the K-th Character in String Game II",
+      "slug": "find-the-k-th-character-in-string-game-ii",
+      "difficulty": "Hard",
+      "acceptance": 48.630117596435305,
+      "likes": 506,
+      "dislikes": 31
+    },
+    {
+      "position": 9,
+      "title": "Number of Digit One",
+      "slug": "number-of-digit-one",
+      "difficulty": "Hard",
+      "acceptance": 36.52177240827093,
+      "likes": 1744,
+      "dislikes": 1530
+    },
+    {
+      "position": 10,
+      "title": "Parse Lisp Expression",
+      "slug": "parse-lisp-expression",
+      "difficulty": "Hard",
+      "acceptance": 53.12430688577477,
+      "likes": 495,
+      "dislikes": 368
+    },
+    {
+      "position": 11,
+      "title": "Maximize Number of Nice Divisors",
+      "slug": "maximize-number-of-nice-divisors",
+      "difficulty": "Hard",
+      "acceptance": 34.66446644664467,
+      "likes": 233,
+      "dislikes": 171
+    },
+    {
+      "position": 12,
+      "title": "Basic Calculator IV",
+      "slug": "basic-calculator-iv",
+      "difficulty": "Hard",
+      "acceptance": 49.16874895885391,
+      "likes": 180,
+      "dislikes": 1440
+    },
+    {
+      "position": 13,
+      "title": "Integer to English Words",
+      "slug": "integer-to-english-words",
+      "difficulty": "Hard",
+      "acceptance": 34.60409760339112,
+      "likes": 3789,
+      "dislikes": 6817
+    }
+  ]
+}

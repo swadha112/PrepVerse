@@ -1,0 +1,242 @@
+{
+  "frozen": true,
+  "createdAt": "2025-10-06T15:22:02.099Z",
+  "trackSlug": "binary-indexed-tree",
+  "difficulty": "HARD",
+  "questions": [
+    {
+      "position": 1,
+      "title": "Count of Smaller Numbers After Self",
+      "slug": "count-of-smaller-numbers-after-self",
+      "difficulty": "Hard",
+      "acceptance": 43.02822755550983,
+      "likes": 9134,
+      "dislikes": 249
+    },
+    {
+      "position": 2,
+      "title": "Reverse Pairs",
+      "slug": "reverse-pairs",
+      "difficulty": "Hard",
+      "acceptance": 32.930035254420645,
+      "likes": 6777,
+      "dislikes": 291
+    },
+    {
+      "position": 3,
+      "title": "The Skyline Problem",
+      "slug": "the-skyline-problem",
+      "difficulty": "Hard",
+      "acceptance": 44.367777658891505,
+      "likes": 6127,
+      "dislikes": 281
+    },
+    {
+      "position": 4,
+      "title": "Count of Range Sum",
+      "slug": "count-of-range-sum",
+      "difficulty": "Hard",
+      "acceptance": 37.551573153927855,
+      "likes": 2461,
+      "dislikes": 259
+    },
+    {
+      "position": 5,
+      "title": "Find the Longest Valid Obstacle Course at Each Position",
+      "slug": "find-the-longest-valid-obstacle-course-at-each-position",
+      "difficulty": "Hard",
+      "acceptance": 62.565402919832344,
+      "likes": 1875,
+      "dislikes": 74
+    },
+    {
+      "position": 6,
+      "title": "Minimum Number of Moves to Make Palindrome",
+      "slug": "minimum-number-of-moves-to-make-palindrome",
+      "difficulty": "Hard",
+      "acceptance": 52.26332739369963,
+      "likes": 1038,
+      "dislikes": 76
+    },
+    {
+      "position": 7,
+      "title": "Longest Increasing Subsequence II",
+      "slug": "longest-increasing-subsequence-ii",
+      "difficulty": "Hard",
+      "acceptance": 25.697057517470263,
+      "likes": 941,
+      "dislikes": 41
+    },
+    {
+      "position": 8,
+      "title": "Count Good Triplets in an Array",
+      "slug": "count-good-triplets-in-an-array",
+      "difficulty": "Hard",
+      "acceptance": 65.88373355752894,
+      "likes": 994,
+      "dislikes": 114
+    },
+    {
+      "position": 9,
+      "title": "Find Building Where Alice and Bob Can Meet",
+      "slug": "find-building-where-alice-and-bob-can-meet",
+      "difficulty": "Hard",
+      "acceptance": 52.18301370654002,
+      "likes": 815,
+      "dislikes": 57
+    },
+    {
+      "position": 10,
+      "title": "Create Sorted Array through Instructions",
+      "slug": "create-sorted-array-through-instructions",
+      "difficulty": "Hard",
+      "acceptance": 40.67350591755497,
+      "likes": 682,
+      "dislikes": 81
+    },
+    {
+      "position": 11,
+      "title": "Online Majority Element In Subarray",
+      "slug": "online-majority-element-in-subarray",
+      "difficulty": "Hard",
+      "acceptance": 39.62088130210401,
+      "likes": 654,
+      "dislikes": 64
+    },
+    {
+      "position": 12,
+      "title": "Number of Pairs Satisfying Inequality",
+      "slug": "number-of-pairs-satisfying-inequality",
+      "difficulty": "Hard",
+      "acceptance": 46.23145867183815,
+      "likes": 563,
+      "dislikes": 11
+    },
+    {
+      "position": 13,
+      "title": "Make Array Empty",
+      "slug": "make-array-empty",
+      "difficulty": "Hard",
+      "acceptance": 25.963371656363744,
+      "likes": 568,
+      "dislikes": 35
+    },
+    {
+      "position": 14,
+      "title": "Minimum Possible Integer After at Most K Adjacent Swaps On Digits",
+      "slug": "minimum-possible-integer-after-at-most-k-adjacent-swaps-on-digits",
+      "difficulty": "Hard",
+      "acceptance": 40.5122583217062,
+      "likes": 499,
+      "dislikes": 28
+    },
+    {
+      "position": 15,
+      "title": "Maximum Sum Queries",
+      "slug": "maximum-sum-queries",
+      "difficulty": "Hard",
+      "acceptance": 29.107637819525717,
+      "likes": 350,
+      "dislikes": 16
+    },
+    {
+      "position": 16,
+      "title": "Count Increasing Quadruplets",
+      "slug": "count-increasing-quadruplets",
+      "difficulty": "Hard",
+      "acceptance": 34.27782023396625,
+      "likes": 398,
+      "dislikes": 72
+    },
+    {
+      "position": 17,
+      "title": "Booking Concert Tickets in Groups",
+      "slug": "booking-concert-tickets-in-groups",
+      "difficulty": "Hard",
+      "acceptance": 17.981363208041042,
+      "likes": 348,
+      "dislikes": 60
+    },
+    {
+      "position": 18,
+      "title": "Maximum Balanced Subsequence Sum",
+      "slug": "maximum-balanced-subsequence-sum",
+      "difficulty": "Hard",
+      "acceptance": 25.216092812221806,
+      "likes": 266,
+      "dislikes": 10
+    },
+    {
+      "position": 19,
+      "title": "Subarrays Distinct Element Sum of Squares II",
+      "slug": "subarrays-distinct-element-sum-of-squares-ii",
+      "difficulty": "Hard",
+      "acceptance": 21.393164623010698,
+      "likes": 155,
+      "dislikes": 11
+    },
+    {
+      "position": 20,
+      "title": "Distribute Elements Into Two Arrays II",
+      "slug": "distribute-elements-into-two-arrays-ii",
+      "difficulty": "Hard",
+      "acceptance": 29.70279086625589,
+      "likes": 151,
+      "dislikes": 14
+    },
+    {
+      "position": 21,
+      "title": "Peaks in Array",
+      "slug": "peaks-in-array",
+      "difficulty": "Hard",
+      "acceptance": 26.374051336588195,
+      "likes": 135,
+      "dislikes": 10
+    },
+    {
+      "position": 22,
+      "title": "Block Placement Queries",
+      "slug": "block-placement-queries",
+      "difficulty": "Hard",
+      "acceptance": 17.55318310125684,
+      "likes": 144,
+      "dislikes": 31
+    },
+    {
+      "position": 23,
+      "title": "Shortest Path in a Weighted Tree",
+      "slug": "shortest-path-in-a-weighted-tree",
+      "difficulty": "Hard",
+      "acceptance": 39.43606036536934,
+      "likes": 54,
+      "dislikes": 2
+    },
+    {
+      "position": 24,
+      "title": "Alternating Groups III",
+      "slug": "alternating-groups-iii",
+      "difficulty": "Hard",
+      "acceptance": 15.952021834374774,
+      "likes": 60,
+      "dislikes": 10
+    },
+    {
+      "position": 25,
+      "title": "Maximum Area Rectangle With Point Constraints II",
+      "slug": "maximum-area-rectangle-with-point-constraints-ii",
+      "difficulty": "Hard",
+      "acceptance": 21.23105898467597,
+      "likes": 45,
+      "dislikes": 9
+    },
+    {
+      "position": 26,
+      "title": "Number of Integers With Popcount-Depth Equal to K II",
+      "slug": "number-of-integers-with-popcount-depth-equal-to-k-ii",
+      "difficulty": "Hard",
+      "acceptance": 38.50020457069378,
+      "likes": 29,
+      "dislikes": 9
+    }
+  ]
+}

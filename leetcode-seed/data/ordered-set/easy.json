@@ -1,0 +1,35 @@
+{
+  "frozen": true,
+  "createdAt": "2025-10-06T15:21:13.970Z",
+  "trackSlug": "ordered-set",
+  "difficulty": "EASY",
+  "questions": [
+    {
+      "position": 1,
+      "title": "Merge Similar Items",
+      "slug": "merge-similar-items",
+      "difficulty": "Easy",
+      "acceptance": 77.10074971757214,
+      "likes": 602,
+      "dislikes": 30
+    },
+    {
+      "position": 2,
+      "title": "Fruits Into Baskets II",
+      "slug": "fruits-into-baskets-ii",
+      "difficulty": "Easy",
+      "acceptance": 70.29231171330194,
+      "likes": 471,
+      "dislikes": 59
+    },
+    {
+      "position": 3,
+      "title": "Minimum Pair Removal to Sort Array I",
+      "slug": "minimum-pair-removal-to-sort-array-i",
+      "difficulty": "Easy",
+      "acceptance": 55.58812643422903,
+      "likes": 96,
+      "dislikes": 23
+    }
+  ]
+}

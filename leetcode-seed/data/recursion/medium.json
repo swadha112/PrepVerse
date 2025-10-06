@@ -1,0 +1,161 @@
+{
+  "frozen": true,
+  "createdAt": "2025-10-06T15:21:52.097Z",
+  "trackSlug": "recursion",
+  "difficulty": "MEDIUM",
+  "questions": [
+    {
+      "position": 1,
+      "title": "Add Two Numbers",
+      "slug": "add-two-numbers",
+      "difficulty": "Medium",
+      "acceptance": 47.069052335610586,
+      "likes": 34976,
+      "dislikes": 6989
+    },
+    {
+      "position": 2,
+      "title": "Decode String",
+      "slug": "decode-string",
+      "difficulty": "Medium",
+      "acceptance": 61.66527600545943,
+      "likes": 13637,
+      "dislikes": 680
+    },
+    {
+      "position": 3,
+      "title": "Swap Nodes in Pairs",
+      "slug": "swap-nodes-in-pairs",
+      "difficulty": "Medium",
+      "acceptance": 68.04032743078908,
+      "likes": 12785,
+      "dislikes": 495
+    },
+    {
+      "position": 4,
+      "title": "Reorder List",
+      "slug": "reorder-list",
+      "difficulty": "Medium",
+      "acceptance": 63.53697770372395,
+      "likes": 12112,
+      "dislikes": 485
+    },
+    {
+      "position": 5,
+      "title": "Different Ways to Add Parentheses",
+      "slug": "different-ways-to-add-parentheses",
+      "difficulty": "Medium",
+      "acceptance": 72.69090997287584,
+      "likes": 6260,
+      "dislikes": 392
+    },
+    {
+      "position": 6,
+      "title": "Predict the Winner",
+      "slug": "predict-the-winner",
+      "difficulty": "Medium",
+      "acceptance": 55.95441189926697,
+      "likes": 6082,
+      "dislikes": 292
+    },
+    {
+      "position": 7,
+      "title": "All Possible Full Binary Trees",
+      "slug": "all-possible-full-binary-trees",
+      "difficulty": "Medium",
+      "acceptance": 82.72500430563177,
+      "likes": 5195,
+      "dislikes": 367
+    },
+    {
+      "position": 8,
+      "title": "Find the Winner of the Circular Game",
+      "slug": "find-the-winner-of-the-circular-game",
+      "difficulty": "Medium",
+      "acceptance": 82.13571661287412,
+      "likes": 4016,
+      "dislikes": 121
+    },
+    {
+      "position": 9,
+      "title": "K-th Symbol in Grammar",
+      "slug": "k-th-symbol-in-grammar",
+      "difficulty": "Medium",
+      "acceptance": 47.772055749401204,
+      "likes": 4084,
+      "dislikes": 421
+    },
+    {
+      "position": 10,
+      "title": "Remove Nodes From Linked List",
+      "slug": "remove-nodes-from-linked-list",
+      "difficulty": "Medium",
+      "acceptance": 74.52338472330237,
+      "likes": 2322,
+      "dislikes": 82
+    },
+    {
+      "position": 11,
+      "title": "Count Good Numbers",
+      "slug": "count-good-numbers",
+      "difficulty": "Medium",
+      "acceptance": 57.08975638391547,
+      "likes": 2264,
+      "dislikes": 585
+    },
+    {
+      "position": 12,
+      "title": "Find Kth Bit in Nth Binary String",
+      "slug": "find-kth-bit-in-nth-binary-string",
+      "difficulty": "Medium",
+      "acceptance": 70.1556913655121,
+      "likes": 1506,
+      "dislikes": 96
+    },
+    {
+      "position": 13,
+      "title": "Elimination Game",
+      "slug": "elimination-game",
+      "difficulty": "Medium",
+      "acceptance": 45.18058690744921,
+      "likes": 1697,
+      "dislikes": 750
+    },
+    {
+      "position": 14,
+      "title": "Pow(x, n)",
+      "slug": "powx-n",
+      "difficulty": "Medium",
+      "acceptance": 37.67271685209639,
+      "likes": 11160,
+      "dislikes": 10363
+    },
+    {
+      "position": 15,
+      "title": "Partition Array into Two Equal Product Subsets",
+      "slug": "partition-array-into-two-equal-product-subsets",
+      "difficulty": "Medium",
+      "acceptance": 34.89790768353028,
+      "likes": 71,
+      "dislikes": 18
+    },
+    {
+      "position": 16,
+      "title": "Minimum Non-Zero Product of the Array Elements",
+      "slug": "minimum-non-zero-product-of-the-array-elements",
+      "difficulty": "Medium",
+      "acceptance": 36.69317643539179,
+      "likes": 274,
+      "dislikes": 391
+    },
+    {
+      "position": 17,
+      "title": "Count Collisions of Monkeys on a Polygon",
+      "slug": "count-collisions-of-monkeys-on-a-polygon",
+      "difficulty": "Medium",
+      "acceptance": 29.22354750034944,
+      "likes": 261,
+      "dislikes": 529
+    }
+  ]
+}

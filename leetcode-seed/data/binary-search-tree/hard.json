@@ -1,0 +1,26 @@
+{
+  "frozen": true,
+  "createdAt": "2025-10-06T15:22:16.087Z",
+  "trackSlug": "binary-search-tree",
+  "difficulty": "HARD",
+  "questions": [
+    {
+      "position": 1,
+      "title": "Maximum Sum BST in Binary Tree",
+      "slug": "maximum-sum-bst-in-binary-tree",
+      "difficulty": "Hard",
+      "acceptance": 45.380434782608695,
+      "likes": 2893,
+      "dislikes": 198
+    },
+    {
+      "position": 2,
+      "title": "Number of Ways to Reorder Array to Get Same BST",
+      "slug": "number-of-ways-to-reorder-array-to-get-same-bst",
+      "difficulty": "Hard",
+      "acceptance": 53.741150461886676,
+      "likes": 1840,
+      "dislikes": 210
+    }
+  ]
+}

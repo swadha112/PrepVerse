@@ -1,0 +1,179 @@
+{
+  "frozen": true,
+  "createdAt": "2025-10-06T15:19:39.506Z",
+  "trackSlug": "prefix-sum",
+  "difficulty": "EASY",
+  "questions": [
+    {
+      "position": 1,
+      "title": "Running Sum of 1d Array",
+      "slug": "running-sum-of-1d-array",
+      "difficulty": "Easy",
+      "acceptance": 86.89365057455947,
+      "likes": 8462,
+      "dislikes": 364
+    },
+    {
+      "position": 2,
+      "title": "Find Pivot Index",
+      "slug": "find-pivot-index",
+      "difficulty": "Easy",
+      "acceptance": 61.27236334861661,
+      "likes": 9005,
+      "dislikes": 912
+    },
+    {
+      "position": 3,
+      "title": "Sum of All Odd Length Subarrays",
+      "slug": "sum-of-all-odd-length-subarrays",
+      "difficulty": "Easy",
+      "acceptance": 83.65186059252392,
+      "likes": 3841,
+      "dislikes": 324
+    },
+    {
+      "position": 4,
+      "title": "Find the Highest Altitude",
+      "slug": "find-the-highest-altitude",
+      "difficulty": "Easy",
+      "acceptance": 83.829365596725,
+      "likes": 3156,
+      "dislikes": 410
+    },
+    {
+      "position": 5,
+      "title": "Maximum Score After Splitting a String",
+      "slug": "maximum-score-after-splitting-a-string",
+      "difficulty": "Easy",
+      "acceptance": 65.12439904062252,
+      "likes": 2168,
+      "dislikes": 90
+    },
+    {
+      "position": 6,
+      "title": "Longest Subsequence With Limited Sum",
+      "slug": "longest-subsequence-with-limited-sum",
+      "difficulty": "Easy",
+      "acceptance": 73.14738750650146,
+      "likes": 2081,
+      "dislikes": 192
+    },
+    {
+      "position": 7,
+      "title": "Range Sum Query - Immutable",
+      "slug": "range-sum-query-immutable",
+      "difficulty": "Easy",
+      "acceptance": 69.92405513686897,
+      "likes": 3644,
+      "dislikes": 1990
+    },
+    {
+      "position": 8,
+      "title": "Find the Middle Index in Array",
+      "slug": "find-the-middle-index-in-array",
+      "difficulty": "Easy",
+      "acceptance": 68.51099113180304,
+      "likes": 1499,
+      "dislikes": 76
+    },
+    {
+      "position": 9,
+      "title": "Find the Pivot Integer",
+      "slug": "find-the-pivot-integer",
+      "difficulty": "Easy",
+      "acceptance": 83.82301977858569,
+      "likes": 1360,
+      "dislikes": 58
+    },
+    {
+      "position": 10,
+      "title": "Minimum Value to Get Positive Step by Step Sum",
+      "slug": "minimum-value-to-get-positive-step-by-step-sum",
+      "difficulty": "Easy",
+      "acceptance": 64.5264887942923,
+      "likes": 1643,
+      "dislikes": 374
+    },
+    {
+      "position": 11,
+      "title": "Maximum Population Year",
+      "slug": "maximum-population-year",
+      "difficulty": "Easy",
+      "acceptance": 63.050056778074456,
+      "likes": 1486,
+      "dislikes": 278
+    },
+    {
+      "position": 12,
+      "title": "Left and Right Sum Differences",
+      "slug": "left-and-right-sum-differences",
+      "difficulty": "Easy",
+      "acceptance": 87.66176739375622,
+      "likes": 1192,
+      "dislikes": 108
+    },
+    {
+      "position": 13,
+      "title": "Check if All the Integers in a Range Are Covered",
+      "slug": "check-if-all-the-integers-in-a-range-are-covered",
+      "difficulty": "Easy",
+      "acceptance": 50.66689863140803,
+      "likes": 662,
+      "dislikes": 125
+    },
+    {
+      "position": 14,
+      "title": "Points That Intersect With Cars",
+      "slug": "points-that-intersect-with-cars",
+      "difficulty": "Easy",
+      "acceptance": 73.09160914283284,
+      "likes": 355,
+      "dislikes": 34
+    },
+    {
+      "position": 15,
+      "title": "Ant on the Boundary",
+      "slug": "ant-on-the-boundary",
+      "difficulty": "Easy",
+      "acceptance": 73.97595361078046,
+      "likes": 156,
+      "dislikes": 48
+    },
+    {
+      "position": 16,
+      "title": "Minimum Positive Sum Subarray ",
+      "slug": "minimum-positive-sum-subarray",
+      "difficulty": "Easy",
+      "acceptance": 44.46494257399012,
+      "likes": 133,
+      "dislikes": 29
+    },
+    {
+      "position": 17,
+      "title": "Count Partitions with Even Sum Difference",
+      "slug": "count-partitions-with-even-sum-difference",
+      "difficulty": "Easy",
+      "acceptance": 73.94752186588921,
+      "likes": 91,
+      "dislikes": 2
+    },
+    {
+      "position": 18,
+      "title": "Sum of Variable Length Subarrays",
+      "slug": "sum-of-variable-length-subarrays",
+      "difficulty": "Easy",
+      "acceptance": 85.2877316704591,
+      "likes": 91,
+      "dislikes": 28
+    },
+    {
+      "position": 19,
+      "title": "Make Array Elements Equal to Zero",
+      "slug": "make-array-elements-equal-to-zero",
+      "difficulty": "Easy",
+      "acceptance": 55.777193050342454,
+      "likes": 110,
+      "dislikes": 47
+    }
+  ]
+}

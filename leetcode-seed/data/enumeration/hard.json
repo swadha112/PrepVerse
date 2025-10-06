@@ -1,0 +1,314 @@
+{
+  "frozen": true,
+  "createdAt": "2025-10-06T15:20:51.675Z",
+  "trackSlug": "enumeration",
+  "difficulty": "HARD",
+  "questions": [
+    {
+      "position": 1,
+      "title": "Naming a Company",
+      "slug": "naming-a-company",
+      "difficulty": "Hard",
+      "acceptance": 46.43209139371093,
+      "likes": 1962,
+      "dislikes": 73
+    },
+    {
+      "position": 2,
+      "title": "Maximum Number of Achievable Transfer Requests",
+      "slug": "maximum-number-of-achievable-transfer-requests",
+      "difficulty": "Hard",
+      "acceptance": 64.50302992440807,
+      "likes": 1475,
+      "dislikes": 73
+    },
+    {
+      "position": 3,
+      "title": "Longest Subsequence Repeated k Times",
+      "slug": "longest-subsequence-repeated-k-times",
+      "difficulty": "Hard",
+      "acceptance": 71.44475582851351,
+      "likes": 815,
+      "dislikes": 115
+    },
+    {
+      "position": 4,
+      "title": "Maximum Score of a Node Sequence",
+      "slug": "maximum-score-of-a-node-sequence",
+      "difficulty": "Hard",
+      "acceptance": 39.44051113797272,
+      "likes": 569,
+      "dislikes": 20
+    },
+    {
+      "position": 5,
+      "title": "Count Subtrees With Max Distance Between Cities",
+      "slug": "count-subtrees-with-max-distance-between-cities",
+      "difficulty": "Hard",
+      "acceptance": 66.68582650763999,
+      "likes": 567,
+      "dislikes": 44
+    },
+    {
+      "position": 6,
+      "title": "Maximum Number of Ways to Partition an Array",
+      "slug": "maximum-number-of-ways-to-partition-an-array",
+      "difficulty": "Hard",
+      "acceptance": 34.98263655207688,
+      "likes": 514,
+      "dislikes": 59
+    },
+    {
+      "position": 7,
+      "title": "Maximum Good People Based on Statements",
+      "slug": "maximum-good-people-based-on-statements",
+      "difficulty": "Hard",
+      "acceptance": 51.58136860264519,
+      "likes": 527,
+      "dislikes": 83
+    },
+    {
+      "position": 8,
+      "title": "Create Components With Same Value",
+      "slug": "create-components-with-same-value",
+      "difficulty": "Hard",
+      "acceptance": 52.73354564755839,
+      "likes": 426,
+      "dislikes": 7
+    },
+    {
+      "position": 9,
+      "title": "Maximum Total Beauty of the Gardens",
+      "slug": "maximum-total-beauty-of-the-gardens",
+      "difficulty": "Hard",
+      "acceptance": 30.018824794944198,
+      "likes": 446,
+      "dislikes": 41
+    },
+    {
+      "position": 10,
+      "title": "Recover the Original Array",
+      "slug": "recover-the-original-array",
+      "difficulty": "Hard",
+      "acceptance": 40.65845158078168,
+      "likes": 391,
+      "dislikes": 32
+    },
+    {
+      "position": 11,
+      "title": "Find the Count of Good Integers",
+      "slug": "find-the-count-of-good-integers",
+      "difficulty": "Hard",
+      "acceptance": 69.46006641202325,
+      "likes": 457,
+      "dislikes": 110
+    },
+    {
+      "position": 12,
+      "title": "Count Increasing Quadruplets",
+      "slug": "count-increasing-quadruplets",
+      "difficulty": "Hard",
+      "acceptance": 34.27782023396625,
+      "likes": 398,
+      "dislikes": 72
+    },
+    {
+      "position": 13,
+      "title": "Find the Minimum Area to Cover All Ones II",
+      "slug": "find-the-minimum-area-to-cover-all-ones-ii",
+      "difficulty": "Hard",
+      "acceptance": 63.736583993246775,
+      "likes": 389,
+      "dislikes": 66
+    },
+    {
+      "position": 14,
+      "title": "Find the Number of Ways to Place People II",
+      "slug": "find-the-number-of-ways-to-place-people-ii",
+      "difficulty": "Hard",
+      "acceptance": 64.41351001650828,
+      "likes": 354,
+      "dislikes": 62
+    },
+    {
+      "position": 15,
+      "title": "Maximum Difference Between Even and Odd Frequency II",
+      "slug": "maximum-difference-between-even-and-odd-frequency-ii",
+      "difficulty": "Hard",
+      "acceptance": 48.90494907231309,
+      "likes": 378,
+      "dislikes": 102
+    },
+    {
+      "position": 16,
+      "title": "Maximize Subarrays After Removing One Conflicting Pair",
+      "slug": "maximize-subarrays-after-removing-one-conflicting-pair",
+      "difficulty": "Hard",
+      "acceptance": 64.86402000625195,
+      "likes": 299,
+      "dislikes": 55
+    },
+    {
+      "position": 17,
+      "title": "Sum of k-Mirror Numbers",
+      "slug": "sum-of-k-mirror-numbers",
+      "difficulty": "Hard",
+      "acceptance": 63.850770070082675,
+      "likes": 428,
+      "dislikes": 209
+    },
+    {
+      "position": 18,
+      "title": "Number of Possible Sets of Closing Branches",
+      "slug": "number-of-possible-sets-of-closing-branches",
+      "difficulty": "Hard",
+      "acceptance": 49.651948579848586,
+      "likes": 190,
+      "dislikes": 16
+    },
+    {
+      "position": 19,
+      "title": "Minimum Cost to Equalize Array",
+      "slug": "minimum-cost-to-equalize-array",
+      "difficulty": "Hard",
+      "acceptance": 17.85019305019305,
+      "likes": 143,
+      "dislikes": 24
+    },
+    {
+      "position": 20,
+      "title": "Maximum Value Sum by Placing Three Rooks I",
+      "slug": "maximum-value-sum-by-placing-three-rooks-i",
+      "difficulty": "Hard",
+      "acceptance": 15.508904967302072,
+      "likes": 104,
+      "dislikes": 11
+    },
+    {
+      "position": 21,
+      "title": "Smallest Substring With Identical Characters I",
+      "slug": "smallest-substring-with-identical-characters-i",
+      "difficulty": "Hard",
+      "acceptance": 19.58952015135011,
+      "likes": 94,
+      "dislikes": 4
+    },
+    {
+      "position": 22,
+      "title": "Minimum Operations to Make Character Frequencies Equal",
+      "slug": "minimum-operations-to-make-character-frequencies-equal",
+      "difficulty": "Hard",
+      "acceptance": 25.359856675109654,
+      "likes": 72,
+      "dislikes": 2
+    },
+    {
+      "position": 23,
+      "title": "Count Almost Equal Pairs II",
+      "slug": "count-almost-equal-pairs-ii",
+      "difficulty": "Hard",
+      "acceptance": 26.774203403293313,
+      "likes": 81,
+      "dislikes": 22
+    },
+    {
+      "position": 24,
+      "title": "Minimum Degree of a Connected Trio in a Graph",
+      "slug": "minimum-degree-of-a-connected-trio-in-a-graph",
+      "difficulty": "Hard",
+      "acceptance": 43.855432967650316,
+      "likes": 348,
+      "dislikes": 292
+    },
+    {
+      "position": 25,
+      "title": "Consecutive Numbers Sum",
+      "slug": "consecutive-numbers-sum",
+      "difficulty": "Hard",
+      "acceptance": 42.2587779327485,
+      "likes": 1437,
+      "dislikes": 1390
+    },
+    {
+      "position": 26,
+      "title": "Maximum Value Sum by Placing Three Rooks II",
+      "slug": "maximum-value-sum-by-placing-three-rooks-ii",
+      "difficulty": "Hard",
+      "acceptance": 26.560261919377943,
+      "likes": 56,
+      "dislikes": 9
+    },
+    {
+      "position": 27,
+      "title": "Maximize Subarray GCD Score",
+      "slug": "maximize-subarray-gcd-score",
+      "difficulty": "Hard",
+      "acceptance": 22.768858967719662,
+      "likes": 43,
+      "dislikes": 4
+    },
+    {
+      "position": 28,
+      "title": "Equal Sum Grid Partition II",
+      "slug": "equal-sum-grid-partition-ii",
+      "difficulty": "Hard",
+      "acceptance": 20.690411760403716,
+      "likes": 39,
+      "dislikes": 14
+    },
+    {
+      "position": 29,
+      "title": "Permutations IV",
+      "slug": "permutations-iv",
+      "difficulty": "Hard",
+      "acceptance": 31.931759434775113,
+      "likes": 25,
+      "dislikes": 3
+    },
+    {
+      "position": 30,
+      "title": "Partition Array for Maximum XOR and AND",
+      "slug": "partition-array-for-maximum-xor-and-and",
+      "difficulty": "Hard",
+      "acceptance": 11.99222449284753,
+      "likes": 26,
+      "dislikes": 6
+    },
+    {
+      "position": 31,
+      "title": "Frequencies of Shortest Supersequences",
+      "slug": "frequencies-of-shortest-supersequences",
+      "difficulty": "Hard",
+      "acceptance": 17.224108658743635,
+      "likes": 25,
+      "dislikes": 8
+    },
+    {
+      "position": 32,
+      "title": "Split Message Based on Limit",
+      "slug": "split-message-based-on-limit",
+      "difficulty": "Hard",
+      "acceptance": 42.131270813191534,
+      "likes": 193,
+      "dislikes": 194
+    },
+    {
+      "position": 33,
+      "title": "Super Palindromes",
+      "slug": "super-palindromes",
+      "difficulty": "Hard",
+      "acceptance": 39.630107402200224,
+      "likes": 373,
+      "dislikes": 423
+    },
+    {
+      "position": 34,
+      "title": "Largest Palindrome Product",
+      "slug": "largest-palindrome-product",
+      "difficulty": "Hard",
+      "acceptance": 35.90574302597891,
+      "likes": 184,
+      "dislikes": 1569
+    }
+  ]
+}

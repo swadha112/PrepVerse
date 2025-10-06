@@ -1,0 +1,98 @@
+{
+  "frozen": true,
+  "createdAt": "2025-10-06T15:22:10.761Z",
+  "trackSlug": "hash-function",
+  "difficulty": "MEDIUM",
+  "questions": [
+    {
+      "position": 1,
+      "title": "Maximum Length of Repeated Subarray",
+      "slug": "maximum-length-of-repeated-subarray",
+      "difficulty": "Medium",
+      "acceptance": 51.133752534304946,
+      "likes": 7011,
+      "dislikes": 177
+    },
+    {
+      "position": 2,
+      "title": "Repeated DNA Sequences",
+      "slug": "repeated-dna-sequences",
+      "difficulty": "Medium",
+      "acceptance": 52.0598194738349,
+      "likes": 3547,
+      "dislikes": 563
+    },
+    {
+      "position": 3,
+      "title": "Check If a String Contains All Binary Codes of Size K",
+      "slug": "check-if-a-string-contains-all-binary-codes-of-size-k",
+      "difficulty": "Medium",
+      "acceptance": 56.76007397394326,
+      "likes": 2312,
+      "dislikes": 100
+    },
+    {
+      "position": 4,
+      "title": "K Divisible Elements Subarrays",
+      "slug": "k-divisible-elements-subarrays",
+      "difficulty": "Medium",
+      "acceptance": 54.43091089224313,
+      "likes": 727,
+      "dislikes": 162
+    },
+    {
+      "position": 5,
+      "title": "Minimum Number of Valid Strings to Form Target I",
+      "slug": "minimum-number-of-valid-strings-to-form-target-i",
+      "difficulty": "Medium",
+      "acceptance": 20.649021864211736,
+      "likes": 166,
+      "dislikes": 17
+    },
+    {
+      "position": 6,
+      "title": "Find Beautiful Indices in the Given Array I",
+      "slug": "find-beautiful-indices-in-the-given-array-i",
+      "difficulty": "Medium",
+      "acceptance": 39.5371542915696,
+      "likes": 189,
+      "dislikes": 42
+    },
+    {
+      "position": 7,
+      "title": "Minimum Time to Revert Word to Initial State I",
+      "slug": "minimum-time-to-revert-word-to-initial-state-i",
+      "difficulty": "Medium",
+      "acceptance": 41.79716697354748,
+      "likes": 167,
+      "dislikes": 34
+    },
+    {
+      "position": 8,
+      "title": "Number of Subarrays That Match a Pattern I",
+      "slug": "number-of-subarrays-that-match-a-pattern-i",
+      "difficulty": "Medium",
+      "acceptance": 67.69183673469388,
+      "likes": 116,
+      "dislikes": 17
+    },
+    {
+      "position": 9,
+      "title": "Count Cells in Overlapping Horizontal and Vertical Substrings",
+      "slug": "count-cells-in-overlapping-horizontal-and-vertical-substrings",
+      "difficulty": "Medium",
+      "acceptance": 25.224807996603758,
+      "likes": 59,
+      "dislikes": 13
+    },
+    {
+      "position": 10,
+      "title": "Encode and Decode TinyURL",
+      "slug": "encode-and-decode-tinyurl",
+      "difficulty": "Medium",
+      "acceptance": 86.47163529972262,
+      "likes": 2103,
+      "dislikes": 3815
+    }
+  ]
+}

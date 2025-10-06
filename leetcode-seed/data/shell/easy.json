@@ -1,0 +1,26 @@
+{
+  "frozen": true,
+  "createdAt": "2025-10-06T15:23:30.643Z",
+  "trackSlug": "shell",
+  "difficulty": "EASY",
+  "questions": [
+    {
+      "position": 1,
+      "title": "Tenth Line",
+      "slug": "tenth-line",
+      "difficulty": "Easy",
+      "acceptance": 35.231114576923176,
+      "likes": 414,
+      "dislikes": 481
+    },
+    {
+      "position": 2,
+      "title": "Valid Phone Numbers",
+      "slug": "valid-phone-numbers",
+      "difficulty": "Easy",
+      "acceptance": 28.12277175573847,
+      "likes": 470,
+      "dislikes": 978
+    }
+  ]
+}

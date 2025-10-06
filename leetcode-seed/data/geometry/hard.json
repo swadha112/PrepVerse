@@ -1,0 +1,116 @@
+{
+  "frozen": true,
+  "createdAt": "2025-10-06T15:21:58.095Z",
+  "trackSlug": "geometry",
+  "difficulty": "HARD",
+  "questions": [
+    {
+      "position": 1,
+      "title": "Max Points on a Line",
+      "slug": "max-points-on-a-line",
+      "difficulty": "Hard",
+      "acceptance": 29.54459184626337,
+      "likes": 4422,
+      "dislikes": 569
+    },
+    {
+      "position": 2,
+      "title": "Erect the Fence",
+      "slug": "erect-the-fence",
+      "difficulty": "Hard",
+      "acceptance": 52.4425004914488,
+      "likes": 1516,
+      "dislikes": 647
+    },
+    {
+      "position": 3,
+      "title": "Perfect Rectangle",
+      "slug": "perfect-rectangle",
+      "difficulty": "Hard",
+      "acceptance": 36.07096362815165,
+      "likes": 933,
+      "dislikes": 120
+    },
+    {
+      "position": 4,
+      "title": "Find the Number of Ways to Place People II",
+      "slug": "find-the-number-of-ways-to-place-people-ii",
+      "difficulty": "Hard",
+      "acceptance": 64.41351001650828,
+      "likes": 354,
+      "dislikes": 62
+    },
+    {
+      "position": 5,
+      "title": "Minimize Manhattan Distances",
+      "slug": "minimize-manhattan-distances",
+      "difficulty": "Hard",
+      "acceptance": 32.20650726200292,
+      "likes": 182,
+      "dislikes": 15
+    },
+    {
+      "position": 6,
+      "title": "Check if the Rectangle Corner Is Reachable",
+      "slug": "check-if-the-rectangle-corner-is-reachable",
+      "difficulty": "Hard",
+      "acceptance": 25.52910947325715,
+      "likes": 115,
+      "dislikes": 38
+    },
+    {
+      "position": 7,
+      "title": "Maximum Area Rectangle With Point Constraints II",
+      "slug": "maximum-area-rectangle-with-point-constraints-ii",
+      "difficulty": "Hard",
+      "acceptance": 21.23105898467597,
+      "likes": 45,
+      "dislikes": 9
+    },
+    {
+      "position": 8,
+      "title": "Count Number of Trapezoids II",
+      "slug": "count-number-of-trapezoids-ii",
+      "difficulty": "Hard",
+      "acceptance": 13.280556377626517,
+      "likes": 33,
+      "dislikes": 18
+    },
+    {
+      "position": 9,
+      "title": "Best Position for a Service Centre",
+      "slug": "best-position-for-a-service-centre",
+      "difficulty": "Hard",
+      "acceptance": 34.90593511561536,
+      "likes": 245,
+      "dislikes": 272
+    },
+    {
+      "position": 10,
+      "title": "Self Crossing",
+      "slug": "self-crossing",
+      "difficulty": "Hard",
+      "acceptance": 32.938241753196564,
+      "likes": 411,
+      "dislikes": 520
+    },
+    {
+      "position": 11,
+      "title": "Maximum Number of Darts Inside of a Circular Dartboard",
+      "slug": "maximum-number-of-darts-inside-of-a-circular-dartboard",
+      "difficulty": "Hard",
+      "acceptance": 39.3383264719012,
+      "likes": 157,
+      "dislikes": 276
+    },
+    {
+      "position": 12,
+      "title": "Maximum Number of Visible Points",
+      "slug": "maximum-number-of-visible-points",
+      "difficulty": "Hard",
+      "acceptance": 37.81176111661963,
+      "likes": 614,
+      "dislikes": 764
+    }
+  ]
+}

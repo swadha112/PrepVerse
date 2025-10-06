@@ -1,0 +1,53 @@
+{
+  "frozen": true,
+  "createdAt": "2025-10-06T15:23:02.990Z",
+  "trackSlug": "counting-sort",
+  "difficulty": "EASY",
+  "questions": [
+    {
+      "position": 1,
+      "title": "How Many Numbers Are Smaller Than the Current Number",
+      "slug": "how-many-numbers-are-smaller-than-the-current-number",
+      "difficulty": "Easy",
+      "acceptance": 87.22905852954122,
+      "likes": 5748,
+      "dislikes": 151
+    },
+    {
+      "position": 2,
+      "title": "Relative Sort Array",
+      "slug": "relative-sort-array",
+      "difficulty": "Easy",
+      "acceptance": 74.97475797931034,
+      "likes": 3295,
+      "dislikes": 196
+    },
+    {
+      "position": 3,
+      "title": "Array Partition",
+      "slug": "array-partition",
+      "difficulty": "Easy",
+      "acceptance": 80.96043952272393,
+      "likes": 2289,
+      "dislikes": 297
+    },
+    {
+      "position": 4,
+      "title": "Height Checker",
+      "slug": "height-checker",
+      "difficulty": "Easy",
+      "acceptance": 81.31532650315637,
+      "likes": 1725,
+      "dislikes": 121
+    },
+    {
+      "position": 5,
+      "title": "Minimum Number of Moves to Seat Everyone",
+      "slug": "minimum-number-of-moves-to-seat-everyone",
+      "difficulty": "Easy",
+      "acceptance": 87.27876817089314,
+      "likes": 1412,
+      "dislikes": 345
+    }
+  ]
+}

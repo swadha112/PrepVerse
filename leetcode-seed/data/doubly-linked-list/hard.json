@@ -1,0 +1,44 @@
+{
+  "frozen": true,
+  "createdAt": "2025-10-06T15:22:55.124Z",
+  "trackSlug": "doubly-linked-list",
+  "difficulty": "HARD",
+  "questions": [
+    {
+      "position": 1,
+      "title": "LFU Cache",
+      "slug": "lfu-cache",
+      "difficulty": "Hard",
+      "acceptance": 47.57863063068192,
+      "likes": 6150,
+      "dislikes": 345
+    },
+    {
+      "position": 2,
+      "title": "All O`one Data Structure",
+      "slug": "all-oone-data-structure",
+      "difficulty": "Hard",
+      "acceptance": 44.07255962275355,
+      "likes": 2179,
+      "dislikes": 220
+    },
+    {
+      "position": 3,
+      "title": "Design a Text Editor",
+      "slug": "design-a-text-editor",
+      "difficulty": "Hard",
+      "acceptance": 48.458261894556365,
+      "likes": 627,
+      "dislikes": 228
+    },
+    {
+      "position": 4,
+      "title": "Minimum Pair Removal to Sort Array II",
+      "slug": "minimum-pair-removal-to-sort-array-ii",
+      "difficulty": "Hard",
+      "acceptance": 14.401787527930123,
+      "likes": 44,
+      "dislikes": 6
+    }
+  ]
+}

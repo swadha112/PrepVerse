@@ -1,0 +1,116 @@
+{
+  "frozen": true,
+  "createdAt": "2025-10-06T15:17:33.058Z",
+  "trackSlug": "dynamic-programming",
+  "difficulty": "EASY",
+  "questions": [
+    {
+      "position": 1,
+      "title": "Best Time to Buy and Sell Stock",
+      "slug": "best-time-to-buy-and-sell-stock",
+      "difficulty": "Easy",
+      "acceptance": 55.81887473848609,
+      "likes": 34302,
+      "dislikes": 1344
+    },
+    {
+      "position": 2,
+      "title": "Climbing Stairs",
+      "slug": "climbing-stairs",
+      "difficulty": "Easy",
+      "acceptance": 53.71615479909815,
+      "likes": 23768,
+      "dislikes": 990
+    },
+    {
+      "position": 3,
+      "title": "Pascal's Triangle",
+      "slug": "pascals-triangle",
+      "difficulty": "Easy",
+      "acceptance": 78.20075946676286,
+      "likes": 14518,
+      "dislikes": 543
+    },
+    {
+      "position": 4,
+      "title": "Counting Bits",
+      "slug": "counting-bits",
+      "difficulty": "Easy",
+      "acceptance": 80.0859233504681,
+      "likes": 11710,
+      "dislikes": 596
+    },
+    {
+      "position": 5,
+      "title": "Min Cost Climbing Stairs",
+      "slug": "min-cost-climbing-stairs",
+      "difficulty": "Easy",
+      "acceptance": 67.6283560349829,
+      "likes": 12133,
+      "dislikes": 1865
+    },
+    {
+      "position": 6,
+      "title": "Is Subsequence",
+      "slug": "is-subsequence",
+      "difficulty": "Easy",
+      "acceptance": 48.62470396276667,
+      "likes": 10524,
+      "dislikes": 595
+    },
+    {
+      "position": 7,
+      "title": "Fibonacci Number",
+      "slug": "fibonacci-number",
+      "difficulty": "Easy",
+      "acceptance": 73.44521737606749,
+      "likes": 8993,
+      "dislikes": 393
+    },
+    {
+      "position": 8,
+      "title": "Pascal's Triangle II",
+      "slug": "pascals-triangle-ii",
+      "difficulty": "Easy",
+      "acceptance": 66.52116263465933,
+      "likes": 5175,
+      "dislikes": 363
+    },
+    {
+      "position": 9,
+      "title": "N-th Tribonacci Number",
+      "slug": "n-th-tribonacci-number",
+      "difficulty": "Easy",
+      "acceptance": 63.443075088050385,
+      "likes": 4725,
+      "dislikes": 208
+    },
+    {
+      "position": 10,
+      "title": "Maximum Repeating Substring",
+      "slug": "maximum-repeating-substring",
+      "difficulty": "Easy",
+      "acceptance": 40.197503457631896,
+      "likes": 796,
+      "dislikes": 294
+    },
+    {
+      "position": 11,
+      "title": "Longest Unequal Adjacent Groups Subsequence I",
+      "slug": "longest-unequal-adjacent-groups-subsequence-i",
+      "difficulty": "Easy",
+      "acceptance": 67.15004004416706,
+      "likes": 474,
+      "dislikes": 267
+    },
+    {
+      "position": 12,
+      "title": "Divisor Game",
+      "slug": "divisor-game",
+      "difficulty": "Easy",
+      "acceptance": 70.96368975530186,
+      "likes": 2375,
+      "dislikes": 4203
+    }
+  ]
+}

@@ -1,0 +1,368 @@
+{
+  "frozen": true,
+  "createdAt": "2025-10-06T15:19:00.197Z",
+  "trackSlug": "matrix",
+  "difficulty": "MEDIUM",
+  "questions": [
+    {
+      "position": 1,
+      "title": "Number of Islands",
+      "slug": "number-of-islands",
+      "difficulty": "Medium",
+      "acceptance": 63.05427464672913,
+      "likes": 24318,
+      "dislikes": 586
+    },
+    {
+      "position": 2,
+      "title": "Rotate Image",
+      "slug": "rotate-image",
+      "difficulty": "Medium",
+      "acceptance": 78.68940360227153,
+      "likes": 19238,
+      "dislikes": 924
+    },
+    {
+      "position": 3,
+      "title": "Search a 2D Matrix",
+      "slug": "search-a-2d-matrix",
+      "difficulty": "Medium",
+      "acceptance": 52.94080661024051,
+      "likes": 17325,
+      "dislikes": 469
+    },
+    {
+      "position": 4,
+      "title": "Word Search",
+      "slug": "word-search",
+      "difficulty": "Medium",
+      "acceptance": 46.035001523383634,
+      "likes": 17195,
+      "dislikes": 733
+    },
+    {
+      "position": 5,
+      "title": "Set Matrix Zeroes",
+      "slug": "set-matrix-zeroes",
+      "difficulty": "Medium",
+      "acceptance": 61.61295097818229,
+      "likes": 16508,
+      "dislikes": 831
+    },
+    {
+      "position": 6,
+      "title": "Spiral Matrix",
+      "slug": "spiral-matrix",
+      "difficulty": "Medium",
+      "acceptance": 55.109668039536785,
+      "likes": 16707,
+      "dislikes": 1501
+    },
+    {
+      "position": 7,
+      "title": "Rotting Oranges",
+      "slug": "rotting-oranges",
+      "difficulty": "Medium",
+      "acceptance": 57.4484563244092,
+      "likes": 14511,
+      "dislikes": 460
+    },
+    {
+      "position": 8,
+      "title": "Minimum Path Sum",
+      "slug": "minimum-path-sum",
+      "difficulty": "Medium",
+      "acceptance": 67.17737534231257,
+      "likes": 13360,
+      "dislikes": 189
+    },
+    {
+      "position": 9,
+      "title": "Search a 2D Matrix II",
+      "slug": "search-a-2d-matrix-ii",
+      "difficulty": "Medium",
+      "acceptance": 56.098786490854714,
+      "likes": 12797,
+      "dislikes": 223
+    },
+    {
+      "position": 10,
+      "title": "Valid Sudoku",
+      "slug": "valid-sudoku",
+      "difficulty": "Medium",
+      "acceptance": 63.54818808508356,
+      "likes": 12107,
+      "dislikes": 1241
+    },
+    {
+      "position": 11,
+      "title": "Maximal Square",
+      "slug": "maximal-square",
+      "difficulty": "Medium",
+      "acceptance": 49.39659354328522,
+      "likes": 10811,
+      "dislikes": 253
+    },
+    {
+      "position": 12,
+      "title": "Max Area of Island",
+      "slug": "max-area-of-island",
+      "difficulty": "Medium",
+      "acceptance": 73.47090901194805,
+      "likes": 10454,
+      "dislikes": 216
+    },
+    {
+      "position": 13,
+      "title": "Kth Smallest Element in a Sorted Matrix",
+      "slug": "kth-smallest-element-in-a-sorted-matrix",
+      "difficulty": "Medium",
+      "acceptance": 63.932553638354804,
+      "likes": 10390,
+      "dislikes": 385
+    },
+    {
+      "position": 14,
+      "title": "01 Matrix",
+      "slug": "01-matrix",
+      "difficulty": "Medium",
+      "acceptance": 52.503622177888246,
+      "likes": 10436,
+      "dislikes": 442
+    },
+    {
+      "position": 15,
+      "title": "Unique Paths II",
+      "slug": "unique-paths-ii",
+      "difficulty": "Medium",
+      "acceptance": 43.6427796391867,
+      "likes": 9440,
+      "dislikes": 552
+    },
+    {
+      "position": 16,
+      "title": "Surrounded Regions",
+      "slug": "surrounded-regions",
+      "difficulty": "Medium",
+      "acceptance": 43.843582887700535,
+      "likes": 9569,
+      "dislikes": 2159
+    },
+    {
+      "position": 17,
+      "title": "Shortest Path in Binary Matrix",
+      "slug": "shortest-path-in-binary-matrix",
+      "difficulty": "Medium",
+      "acceptance": 50.546021526604065,
+      "likes": 7199,
+      "dislikes": 268
+    },
+    {
+      "position": 18,
+      "title": "Pacific Atlantic Water Flow",
+      "slug": "pacific-atlantic-water-flow",
+      "difficulty": "Medium",
+      "acceptance": 59.94871697342494,
+      "likes": 8439,
+      "dislikes": 1760
+    },
+    {
+      "position": 19,
+      "title": "Minimum Falling Path Sum",
+      "slug": "minimum-falling-path-sum",
+      "difficulty": "Medium",
+      "acceptance": 60.895312465515126,
+      "likes": 6843,
+      "dislikes": 168
+    },
+    {
+      "position": 20,
+      "title": "Spiral Matrix II",
+      "slug": "spiral-matrix-ii",
+      "difficulty": "Medium",
+      "acceptance": 74.02431680235966,
+      "likes": 6780,
+      "dislikes": 277
+    },
+    {
+      "position": 21,
+      "title": "Path With Minimum Effort",
+      "slug": "path-with-minimum-effort",
+      "difficulty": "Medium",
+      "acceptance": 62.238727303347666,
+      "likes": 6591,
+      "dislikes": 232
+    },
+    {
+      "position": 22,
+      "title": "Game of Life",
+      "slug": "game-of-life",
+      "difficulty": "Medium",
+      "acceptance": 71.87029992570196,
+      "likes": 6709,
+      "dislikes": 609
+    },
+    {
+      "position": 23,
+      "title": "Count Square Submatrices with All Ones",
+      "slug": "count-square-submatrices-with-all-ones",
+      "difficulty": "Medium",
+      "acceptance": 80.615971903036,
+      "likes": 5881,
+      "dislikes": 114
+    },
+    {
+      "position": 24,
+      "title": "Shortest Bridge",
+      "slug": "shortest-bridge",
+      "difficulty": "Medium",
+      "acceptance": 58.96630145477084,
+      "likes": 5685,
+      "dislikes": 219
+    },
+    {
+      "position": 25,
+      "title": "Range Sum Query 2D - Immutable",
+      "slug": "range-sum-query-2d-immutable",
+      "difficulty": "Medium",
+      "acceptance": 57.125310763122215,
+      "likes": 5260,
+      "dislikes": 364
+    },
+    {
+      "position": 26,
+      "title": "Number of Closed Islands",
+      "slug": "number-of-closed-islands",
+      "difficulty": "Medium",
+      "acceptance": 66.88690284054229,
+      "likes": 4711,
+      "dislikes": 187
+    },
+    {
+      "position": 27,
+      "title": "Number of Enclaves",
+      "slug": "number-of-enclaves",
+      "difficulty": "Medium",
+      "acceptance": 71.159577137838,
+      "likes": 4479,
+      "dislikes": 87
+    },
+    {
+      "position": 28,
+      "title": "As Far from Land as Possible",
+      "slug": "as-far-from-land-as-possible",
+      "difficulty": "Medium",
+      "acceptance": 51.96805087183868,
+      "likes": 4235,
+      "dislikes": 113
+    },
+    {
+      "position": 29,
+      "title": "Diagonal Traverse",
+      "slug": "diagonal-traverse",
+      "difficulty": "Medium",
+      "acceptance": 66.63521944881681,
+      "likes": 4229,
+      "dislikes": 770
+    },
+    {
+      "position": 30,
+      "title": "Sort the Matrix Diagonally",
+      "slug": "sort-the-matrix-diagonally",
+      "difficulty": "Medium",
+      "acceptance": 83.1132365199842,
+      "likes": 3541,
+      "dislikes": 238
+    },
+    {
+      "position": 31,
+      "title": "Path with Maximum Gold",
+      "slug": "path-with-maximum-gold",
+      "difficulty": "Medium",
+      "acceptance": 68.18511331192005,
+      "likes": 3405,
+      "dislikes": 104
+    },
+    {
+      "position": 32,
+      "title": "Regions Cut By Slashes",
+      "slug": "regions-cut-by-slashes",
+      "difficulty": "Medium",
+      "acceptance": 77.61536921309713,
+      "likes": 3965,
+      "dislikes": 863
+    },
+    {
+      "position": 33,
+      "title": "Maximum Number of Points with Cost",
+      "slug": "maximum-number-of-points-with-cost",
+      "difficulty": "Medium",
+      "acceptance": 41.97982830757224,
+      "likes": 3229,
+      "dislikes": 237
+    },
+    {
+      "position": 34,
+      "title": "Where Will the Ball Fall",
+      "slug": "where-will-the-ball-fall",
+      "difficulty": "Medium",
+      "acceptance": 72.15259363098535,
+      "likes": 3157,
+      "dislikes": 181
+    },
+    {
+      "position": 35,
+      "title": "Count Sub Islands",
+      "slug": "count-sub-islands",
+      "difficulty": "Medium",
+      "acceptance": 72.89779191052509,
+      "likes": 2610,
+      "dislikes": 90
+    },
+    {
+      "position": 36,
+      "title": "Nearest Exit from Entrance in Maze",
+      "slug": "nearest-exit-from-entrance-in-maze",
+      "difficulty": "Medium",
+      "acceptance": 47.9276671023529,
+      "likes": 2552,
+      "dislikes": 122
+    },
+    {
+      "position": 37,
+      "title": "Count Submatrices With All Ones",
+      "slug": "count-submatrices-with-all-ones",
+      "difficulty": "Medium",
+      "acceptance": 71.04136805223762,
+      "likes": 2634,
+      "dislikes": 218
+    },
+    {
+      "position": 38,
+      "title": "Find a Peak Element II",
+      "slug": "find-a-peak-element-ii",
+      "difficulty": "Medium",
+      "acceptance": 53.832757576836784,
+      "likes": 2537,
+      "dislikes": 158
+    },
+    {
+      "position": 39,
+      "title": "Snakes and Ladders",
+      "slug": "snakes-and-ladders",
+      "difficulty": "Medium",
+      "acceptance": 47.96138205336313,
+      "likes": 3576,
+      "dislikes": 1301
+    },
+    {
+      "position": 40,
+      "title": "Equal Row and Column Pairs",
+      "slug": "equal-row-and-column-pairs",
+      "difficulty": "Medium",
+      "acceptance": 70.69592827431792,
+      "likes": 2442,
+      "dislikes": 183
+    }
+  ]
+}

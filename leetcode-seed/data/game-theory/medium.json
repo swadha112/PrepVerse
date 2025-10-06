@@ -1,0 +1,125 @@
+{
+  "frozen": true,
+  "createdAt": "2025-10-06T15:22:34.762Z",
+  "trackSlug": "game-theory",
+  "difficulty": "MEDIUM",
+  "questions": [
+    {
+      "position": 1,
+      "title": "Predict the Winner",
+      "slug": "predict-the-winner",
+      "difficulty": "Medium",
+      "acceptance": 55.95441189926697,
+      "likes": 6082,
+      "dislikes": 292
+    },
+    {
+      "position": 2,
+      "title": "Stone Game II",
+      "slug": "stone-game-ii",
+      "difficulty": "Medium",
+      "acceptance": 72.93116723716008,
+      "likes": 3405,
+      "dislikes": 930
+    },
+    {
+      "position": 3,
+      "title": "Can I Win",
+      "slug": "can-i-win",
+      "difficulty": "Medium",
+      "acceptance": 30.69358150449321,
+      "likes": 2789,
+      "dislikes": 424
+    },
+    {
+      "position": 4,
+      "title": "Maximum Number of Coins You Can Get",
+      "slug": "maximum-number-of-coins-you-can-get",
+      "difficulty": "Medium",
+      "acceptance": 84.62245421490553,
+      "likes": 1958,
+      "dislikes": 222
+    },
+    {
+      "position": 5,
+      "title": "Remove Colored Pieces if Both Neighbors are the Same Color",
+      "slug": "remove-colored-pieces-if-both-neighbors-are-the-same-color",
+      "difficulty": "Medium",
+      "acceptance": 62.920447200210674,
+      "likes": 1626,
+      "dislikes": 127
+    },
+    {
+      "position": 6,
+      "title": "Stone Game VII",
+      "slug": "stone-game-vii",
+      "difficulty": "Medium",
+      "acceptance": 58.57158890042366,
+      "likes": 1039,
+      "dislikes": 174
+    },
+    {
+      "position": 7,
+      "title": "Stone Game VI",
+      "slug": "stone-game-vi",
+      "difficulty": "Medium",
+      "acceptance": 59.89490539230058,
+      "likes": 884,
+      "dislikes": 76
+    },
+    {
+      "position": 8,
+      "title": "Stone Game",
+      "slug": "stone-game",
+      "difficulty": "Medium",
+      "acceptance": 72.1511376437205,
+      "likes": 3471,
+      "dislikes": 2945
+    },
+    {
+      "position": 9,
+      "title": "Sum Game",
+      "slug": "sum-game",
+      "difficulty": "Medium",
+      "acceptance": 48.8114963038491,
+      "likes": 531,
+      "dislikes": 91
+    },
+    {
+      "position": 10,
+      "title": "Vowels Game in a String",
+      "slug": "vowels-game-in-a-string",
+      "difficulty": "Medium",
+      "acceptance": 77.01188426906779,
+      "likes": 533,
+      "dislikes": 113
+    },
+    {
+      "position": 11,
+      "title": "Guess Number Higher or Lower II",
+      "slug": "guess-number-higher-or-lower-ii",
+      "difficulty": "Medium",
+      "acceptance": 51.765749412104455,
+      "likes": 2291,
+      "dislikes": 2160
+    },
+    {
+      "position": 12,
+      "title": "Maximum Median Sum of Subsequences of Size 3",
+      "slug": "maximum-median-sum-of-subsequences-of-size-3",
+      "difficulty": "Medium",
+      "acceptance": 61.18971465284858,
+      "likes": 72,
+      "dislikes": 2
+    },
+    {
+      "position": 13,
+      "title": "Stone Game IX",
+      "slug": "stone-game-ix",
+      "difficulty": "Medium",
+      "acceptance": 29.309919056111948,
+      "likes": 256,
+      "dislikes": 281
+    }
+  ]
+}

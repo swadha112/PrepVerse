@@ -1,0 +1,17 @@
+{
+  "frozen": true,
+  "createdAt": "2025-10-06T15:22:51.078Z",
+  "trackSlug": "brainteaser",
+  "difficulty": "HARD",
+  "questions": [
+    {
+      "position": 1,
+      "title": "Chalkboard XOR Game",
+      "slug": "chalkboard-xor-game",
+      "difficulty": "Hard",
+      "acceptance": 64.1338093759702,
+      "likes": 241,
+      "dislikes": 287
+    }
+  ]
+}

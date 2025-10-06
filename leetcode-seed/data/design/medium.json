@@ -1,0 +1,368 @@
+{
+  "frozen": true,
+  "createdAt": "2025-10-06T15:20:44.339Z",
+  "trackSlug": "design",
+  "difficulty": "MEDIUM",
+  "questions": [
+    {
+      "position": 1,
+      "title": "LRU Cache",
+      "slug": "lru-cache",
+      "difficulty": "Medium",
+      "acceptance": 46.013138260645775,
+      "likes": 22442,
+      "dislikes": 1181
+    },
+    {
+      "position": 2,
+      "title": "Min Stack",
+      "slug": "min-stack",
+      "difficulty": "Medium",
+      "acceptance": 57.06380307050796,
+      "likes": 15509,
+      "dislikes": 969
+    },
+    {
+      "position": 3,
+      "title": "Implement Trie (Prefix Tree)",
+      "slug": "implement-trie-prefix-tree",
+      "difficulty": "Medium",
+      "acceptance": 68.58953901096793,
+      "likes": 12237,
+      "dislikes": 156
+    },
+    {
+      "position": 4,
+      "title": "Insert Delete GetRandom O(1)",
+      "slug": "insert-delete-getrandom-o1",
+      "difficulty": "Medium",
+      "acceptance": 55.114020876033045,
+      "likes": 9777,
+      "dislikes": 682
+    },
+    {
+      "position": 5,
+      "title": "Binary Search Tree Iterator",
+      "slug": "binary-search-tree-iterator",
+      "difficulty": "Medium",
+      "acceptance": 75.5749497451334,
+      "likes": 9077,
+      "dislikes": 567
+    },
+    {
+      "position": 6,
+      "title": "Design Add and Search Words Data Structure",
+      "slug": "design-add-and-search-words-data-structure",
+      "difficulty": "Medium",
+      "acceptance": 47.58608861473346,
+      "likes": 7972,
+      "dislikes": 488
+    },
+    {
+      "position": 7,
+      "title": "Online Stock Span",
+      "slug": "online-stock-span",
+      "difficulty": "Medium",
+      "acceptance": 68.14558689238319,
+      "likes": 7014,
+      "dislikes": 483
+    },
+    {
+      "position": 8,
+      "title": "Range Sum Query 2D - Immutable",
+      "slug": "range-sum-query-2d-immutable",
+      "difficulty": "Medium",
+      "acceptance": 57.125310763122215,
+      "likes": 5260,
+      "dislikes": 364
+    },
+    {
+      "position": 9,
+      "title": "Range Sum Query - Mutable",
+      "slug": "range-sum-query-mutable",
+      "difficulty": "Medium",
+      "acceptance": 42.088029481398266,
+      "likes": 5026,
+      "dislikes": 264
+    },
+    {
+      "position": 10,
+      "title": "My Calendar I",
+      "slug": "my-calendar-i",
+      "difficulty": "Medium",
+      "acceptance": 58.19202382922389,
+      "likes": 4764,
+      "dislikes": 134
+    },
+    {
+      "position": 11,
+      "title": "Time Based Key-Value Store",
+      "slug": "time-based-key-value-store",
+      "difficulty": "Medium",
+      "acceptance": 49.54628922424459,
+      "likes": 5146,
+      "dislikes": 698
+    },
+    {
+      "position": 12,
+      "title": "Design Twitter",
+      "slug": "design-twitter",
+      "difficulty": "Medium",
+      "acceptance": 43.47856464351707,
+      "likes": 4474,
+      "dislikes": 632
+    },
+    {
+      "position": 13,
+      "title": "Design Browser History",
+      "slug": "design-browser-history",
+      "difficulty": "Medium",
+      "acceptance": 77.97307131543627,
+      "likes": 4070,
+      "dislikes": 261
+    },
+    {
+      "position": 14,
+      "title": "Design Circular Queue",
+      "slug": "design-circular-queue",
+      "difficulty": "Medium",
+      "acceptance": 53.125760527613444,
+      "likes": 3745,
+      "dislikes": 334
+    },
+    {
+      "position": 15,
+      "title": "Design Underground System",
+      "slug": "design-underground-system",
+      "difficulty": "Medium",
+      "acceptance": 74.13211998651836,
+      "likes": 3565,
+      "dislikes": 178
+    },
+    {
+      "position": 16,
+      "title": "Serialize and Deserialize BST",
+      "slug": "serialize-and-deserialize-bst",
+      "difficulty": "Medium",
+      "acceptance": 58.9500494626255,
+      "likes": 3568,
+      "dislikes": 181
+    },
+    {
+      "position": 17,
+      "title": "Snapshot Array",
+      "slug": "snapshot-array",
+      "difficulty": "Medium",
+      "acceptance": 36.66718124407823,
+      "likes": 3861,
+      "dislikes": 536
+    },
+    {
+      "position": 18,
+      "title": "Flatten Nested List Iterator",
+      "slug": "flatten-nested-list-iterator",
+      "difficulty": "Medium",
+      "acceptance": 65.39474153252296,
+      "likes": 5025,
+      "dislikes": 1791
+    },
+    {
+      "position": 19,
+      "title": "Design a Stack With Increment Operation",
+      "slug": "design-a-stack-with-increment-operation",
+      "difficulty": "Medium",
+      "acceptance": 80.03575991422757,
+      "likes": 2337,
+      "dislikes": 110
+    },
+    {
+      "position": 20,
+      "title": "My Calendar II",
+      "slug": "my-calendar-ii",
+      "difficulty": "Medium",
+      "acceptance": 62.50581860837507,
+      "likes": 2225,
+      "dislikes": 185
+    },
+    {
+      "position": 21,
+      "title": "Product of the Last K Numbers",
+      "slug": "product-of-the-last-k-numbers",
+      "difficulty": "Medium",
+      "acceptance": 62.843236565781346,
+      "likes": 2133,
+      "dislikes": 107
+    },
+    {
+      "position": 22,
+      "title": "Design a Food Rating System",
+      "slug": "design-a-food-rating-system",
+      "difficulty": "Medium",
+      "acceptance": 52.813864497864785,
+      "likes": 1935,
+      "dislikes": 327
+    },
+    {
+      "position": 23,
+      "title": "Smallest Number in Infinite Set",
+      "slug": "smallest-number-in-infinite-set",
+      "difficulty": "Medium",
+      "acceptance": 70.54238076258802,
+      "likes": 1813,
+      "dislikes": 227
+    },
+    {
+      "position": 24,
+      "title": "Map Sum Pairs",
+      "slug": "map-sum-pairs",
+      "difficulty": "Medium",
+      "acceptance": 56.9373463647038,
+      "likes": 1716,
+      "dislikes": 164
+    },
+    {
+      "position": 25,
+      "title": "Design Circular Deque",
+      "slug": "design-circular-deque",
+      "difficulty": "Medium",
+      "acceptance": 64.34667400805259,
+      "likes": 1649,
+      "dislikes": 107
+    },
+    {
+      "position": 26,
+      "title": "Seat Reservation Manager",
+      "slug": "seat-reservation-manager",
+      "difficulty": "Medium",
+      "acceptance": 66.71795086973347,
+      "likes": 1462,
+      "dislikes": 91
+    },
+    {
+      "position": 27,
+      "title": "Find Elements in a Contaminated Binary Tree",
+      "slug": "find-elements-in-a-contaminated-binary-tree",
+      "difficulty": "Medium",
+      "acceptance": 84.06060657204097,
+      "likes": 1419,
+      "dislikes": 126
+    },
+    {
+      "position": 28,
+      "title": "Design Linked List",
+      "slug": "design-linked-list",
+      "difficulty": "Medium",
+      "acceptance": 29.439179287411054,
+      "likes": 2945,
+      "dislikes": 1668
+    },
+    {
+      "position": 29,
+      "title": "Iterator for Combination",
+      "slug": "iterator-for-combination",
+      "difficulty": "Medium",
+      "acceptance": 72.57766840972009,
+      "likes": 1381,
+      "dislikes": 108
+    },
+    {
+      "position": 30,
+      "title": "Implement Magic Dictionary",
+      "slug": "implement-magic-dictionary",
+      "difficulty": "Medium",
+      "acceptance": 56.99711519370248,
+      "likes": 1448,
+      "dislikes": 213
+    },
+    {
+      "position": 31,
+      "title": "Stock Price Fluctuation ",
+      "slug": "stock-price-fluctuation",
+      "difficulty": "Medium",
+      "acceptance": 48.50022055580062,
+      "likes": 1259,
+      "dislikes": 69
+    },
+    {
+      "position": 32,
+      "title": "Complete Binary Tree Inserter",
+      "slug": "complete-binary-tree-inserter",
+      "difficulty": "Medium",
+      "acceptance": 64.786870576751,
+      "likes": 1147,
+      "dislikes": 120
+    },
+    {
+      "position": 33,
+      "title": "Finding Pairs With a Certain Sum",
+      "slug": "finding-pairs-with-a-certain-sum",
+      "difficulty": "Medium",
+      "acceptance": 61.70299295223879,
+      "likes": 1028,
+      "dislikes": 143
+    },
+    {
+      "position": 34,
+      "title": "Design a Number Container System",
+      "slug": "design-a-number-container-system",
+      "difficulty": "Medium",
+      "acceptance": 57.13180915517315,
+      "likes": 955,
+      "dislikes": 74
+    },
+    {
+      "position": 35,
+      "title": "Exam Room",
+      "slug": "exam-room",
+      "difficulty": "Medium",
+      "acceptance": 43.05608836764643,
+      "likes": 1394,
+      "dislikes": 517
+    },
+    {
+      "position": 36,
+      "title": "Peeking Iterator",
+      "slug": "peeking-iterator",
+      "difficulty": "Medium",
+      "acceptance": 60.74155232082921,
+      "likes": 1891,
+      "dislikes": 1045
+    },
+    {
+      "position": 37,
+      "title": "Detect Squares",
+      "slug": "detect-squares",
+      "difficulty": "Medium",
+      "acceptance": 51.78835149827702,
+      "likes": 979,
+      "dislikes": 256
+    },
+    {
+      "position": 38,
+      "title": "Range Frequency Queries",
+      "slug": "range-frequency-queries",
+      "difficulty": "Medium",
+      "acceptance": 40.594004234927006,
+      "likes": 721,
+      "dislikes": 28
+    },
+    {
+      "position": 39,
+      "title": "Design Front Middle Back Queue",
+      "slug": "design-front-middle-back-queue",
+      "difficulty": "Medium",
+      "acceptance": 56.51874633860574,
+      "likes": 802,
+      "dislikes": 112
+    },
+    {
+      "position": 40,
+      "title": "RLE Iterator",
+      "slug": "rle-iterator",
+      "difficulty": "Medium",
+      "acceptance": 58.98362611301248,
+      "likes": 762,
+      "dislikes": 198
+    }
+  ]
+}

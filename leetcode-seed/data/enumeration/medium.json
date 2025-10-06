@@ -1,0 +1,368 @@
+{
+  "frozen": true,
+  "createdAt": "2025-10-06T15:20:50.293Z",
+  "trackSlug": "enumeration",
+  "difficulty": "MEDIUM",
+  "questions": [
+    {
+      "position": 1,
+      "title": "Count Primes",
+      "slug": "count-primes",
+      "difficulty": "Medium",
+      "acceptance": 35.32539646641109,
+      "likes": 8594,
+      "dislikes": 1549
+    },
+    {
+      "position": 2,
+      "title": "Longest Mountain in Array",
+      "slug": "longest-mountain-in-array",
+      "difficulty": "Medium",
+      "acceptance": 41.36621453833998,
+      "likes": 2964,
+      "dislikes": 90
+    },
+    {
+      "position": 3,
+      "title": "Sequential Digits",
+      "slug": "sequential-digits",
+      "difficulty": "Medium",
+      "acceptance": 65.30014434896361,
+      "likes": 2906,
+      "dislikes": 177
+    },
+    {
+      "position": 4,
+      "title": "Reordered Power of 2",
+      "slug": "reordered-power-of-2",
+      "difficulty": "Medium",
+      "acceptance": 66.1081377142483,
+      "likes": 2528,
+      "dislikes": 494
+    },
+    {
+      "position": 5,
+      "title": "Count Number of Maximum Bitwise-OR Subsets",
+      "slug": "count-number-of-maximum-bitwise-or-subsets",
+      "difficulty": "Medium",
+      "acceptance": 89.63594572551345,
+      "likes": 1390,
+      "dislikes": 95
+    },
+    {
+      "position": 6,
+      "title": "Removing Minimum Number of Magic Beans",
+      "slug": "removing-minimum-number-of-magic-beans",
+      "difficulty": "Medium",
+      "acceptance": 43.95418353040764,
+      "likes": 928,
+      "dislikes": 49
+    },
+    {
+      "position": 7,
+      "title": "Count Substrings That Differ by One Character",
+      "slug": "count-substrings-that-differ-by-one-character",
+      "difficulty": "Medium",
+      "acceptance": 72.00230515480307,
+      "likes": 1187,
+      "dislikes": 356
+    },
+    {
+      "position": 8,
+      "title": "K Divisible Elements Subarrays",
+      "slug": "k-divisible-elements-subarrays",
+      "difficulty": "Medium",
+      "acceptance": 54.43091089224313,
+      "likes": 727,
+      "dislikes": 162
+    },
+    {
+      "position": 9,
+      "title": "Maximum Points in an Archery Competition",
+      "slug": "maximum-points-in-an-archery-competition",
+      "difficulty": "Medium",
+      "acceptance": 50.914883189021396,
+      "likes": 509,
+      "dislikes": 57
+    },
+    {
+      "position": 10,
+      "title": "Reschedule Meetings for Maximum Free Time II",
+      "slug": "reschedule-meetings-for-maximum-free-time-ii",
+      "difficulty": "Medium",
+      "acceptance": 60.463301882665185,
+      "likes": 459,
+      "dislikes": 25
+    },
+    {
+      "position": 11,
+      "title": "Number of Ways to Buy Pens and Pencils",
+      "slug": "number-of-ways-to-buy-pens-and-pencils",
+      "difficulty": "Medium",
+      "acceptance": 56.28962502518951,
+      "likes": 468,
+      "dislikes": 35
+    },
+    {
+      "position": 12,
+      "title": "Splitting a String Into Descending Consecutive Values",
+      "slug": "splitting-a-string-into-descending-consecutive-values",
+      "difficulty": "Medium",
+      "acceptance": 37.113098273888454,
+      "likes": 550,
+      "dislikes": 127
+    },
+    {
+      "position": 13,
+      "title": "Distribute Candies Among Children II",
+      "slug": "distribute-candies-among-children-ii",
+      "difficulty": "Medium",
+      "acceptance": 55.84250611973417,
+      "likes": 556,
+      "dislikes": 174
+    },
+    {
+      "position": 14,
+      "title": "Minimum Operations to Make the Integer Zero",
+      "slug": "minimum-operations-to-make-the-integer-zero",
+      "difficulty": "Medium",
+      "acceptance": 58.17790976528039,
+      "likes": 746,
+      "dislikes": 375
+    },
+    {
+      "position": 15,
+      "title": "Prime Pairs With Target Sum",
+      "slug": "prime-pairs-with-target-sum",
+      "difficulty": "Medium",
+      "acceptance": 36.29557959754107,
+      "likes": 399,
+      "dislikes": 34
+    },
+    {
+      "position": 16,
+      "title": "Find the Lexicographically Largest String From the Box I",
+      "slug": "find-the-lexicographically-largest-string-from-the-box-i",
+      "difficulty": "Medium",
+      "acceptance": 41.034558695107414,
+      "likes": 473,
+      "dislikes": 124
+    },
+    {
+      "position": 17,
+      "title": "Powerful Integers",
+      "slug": "powerful-integers",
+      "difficulty": "Medium",
+      "acceptance": 44.335487013452145,
+      "likes": 417,
+      "dislikes": 85
+    },
+    {
+      "position": 18,
+      "title": "Maximum Strength of a Group",
+      "slug": "maximum-strength-of-a-group",
+      "difficulty": "Medium",
+      "acceptance": 25.076863545221094,
+      "likes": 378,
+      "dislikes": 64
+    },
+    {
+      "position": 19,
+      "title": "Minimum Operations to Make a Special Number",
+      "slug": "minimum-operations-to-make-a-special-number",
+      "difficulty": "Medium",
+      "acceptance": 38.267798510450866,
+      "likes": 369,
+      "dislikes": 56
+    },
+    {
+      "position": 20,
+      "title": "Find the Number of Ways to Place People I",
+      "slug": "find-the-number-of-ways-to-place-people-i",
+      "difficulty": "Medium",
+      "acceptance": 64.072037676322,
+      "likes": 470,
+      "dislikes": 177
+    },
+    {
+      "position": 21,
+      "title": "Count the Number of Substrings With Dominant Ones",
+      "slug": "count-the-number-of-substrings-with-dominant-ones",
+      "difficulty": "Medium",
+      "acceptance": 17.542220756859727,
+      "likes": 274,
+      "dislikes": 47
+    },
+    {
+      "position": 22,
+      "title": "Number of Black Blocks",
+      "slug": "number-of-black-blocks",
+      "difficulty": "Medium",
+      "acceptance": 40.010395524974015,
+      "likes": 264,
+      "dislikes": 41
+    },
+    {
+      "position": 23,
+      "title": "Maximum Frequency After Subarray Operation",
+      "slug": "maximum-frequency-after-subarray-operation",
+      "difficulty": "Medium",
+      "acceptance": 29.71594655327852,
+      "likes": 242,
+      "dislikes": 31
+    },
+    {
+      "position": 24,
+      "title": "Minimum Operations to Maximize Last Elements in Arrays",
+      "slug": "minimum-operations-to-maximize-last-elements-in-arrays",
+      "difficulty": "Medium",
+      "acceptance": 43.45495522933545,
+      "likes": 200,
+      "dislikes": 16
+    },
+    {
+      "position": 25,
+      "title": "Identify the Largest Outlier in an Array",
+      "slug": "identify-the-largest-outlier-in-an-array",
+      "difficulty": "Medium",
+      "acceptance": 36.008703270189145,
+      "likes": 213,
+      "dislikes": 29
+    },
+    {
+      "position": 26,
+      "title": "Find the Maximum Number of Elements in Subset",
+      "slug": "find-the-maximum-number-of-elements-in-subset",
+      "difficulty": "Medium",
+      "acceptance": 26.53410139591813,
+      "likes": 209,
+      "dislikes": 43
+    },
+    {
+      "position": 27,
+      "title": "Count Special Subsequences",
+      "slug": "count-special-subsequences",
+      "difficulty": "Medium",
+      "acceptance": 29.38398973771118,
+      "likes": 184,
+      "dislikes": 27
+    },
+    {
+      "position": 28,
+      "title": "Count Beautiful Substrings I",
+      "slug": "count-beautiful-substrings-i",
+      "difficulty": "Medium",
+      "acceptance": 60.2305013289341,
+      "likes": 164,
+      "dislikes": 15
+    },
+    {
+      "position": 29,
+      "title": "Apply Operations to Make Sum of Array Greater Than or Equal to k",
+      "slug": "apply-operations-to-make-sum-of-array-greater-than-or-equal-to-k",
+      "difficulty": "Medium",
+      "acceptance": 43.71073160446974,
+      "likes": 167,
+      "dislikes": 18
+    },
+    {
+      "position": 30,
+      "title": "Find the Integer Added to Array II",
+      "slug": "find-the-integer-added-to-array-ii",
+      "difficulty": "Medium",
+      "acceptance": 32.36412726021885,
+      "likes": 173,
+      "dislikes": 42
+    },
+    {
+      "position": 31,
+      "title": "Count Almost Equal Pairs I",
+      "slug": "count-almost-equal-pairs-i",
+      "difficulty": "Medium",
+      "acceptance": 37.8266407454582,
+      "likes": 156,
+      "dislikes": 26
+    },
+    {
+      "position": 32,
+      "title": "Maximum Possible Number by Binary Concatenation",
+      "slug": "maximum-possible-number-by-binary-concatenation",
+      "difficulty": "Medium",
+      "acceptance": 65.14192664964287,
+      "likes": 104,
+      "dislikes": 7
+    },
+    {
+      "position": 33,
+      "title": "Sum of Numbers With Units Digit K",
+      "slug": "sum-of-numbers-with-units-digit-k",
+      "difficulty": "Medium",
+      "acceptance": 27.62795470502457,
+      "likes": 425,
+      "dislikes": 334
+    },
+    {
+      "position": 34,
+      "title": "Lexicographically Smallest String After Applying Operations",
+      "slug": "lexicographically-smallest-string-after-applying-operations",
+      "difficulty": "Medium",
+      "acceptance": 65.74836501643455,
+      "likes": 369,
+      "dislikes": 279
+    },
+    {
+      "position": 35,
+      "title": "Shortest String That Contains Three Strings",
+      "slug": "shortest-string-that-contains-three-strings",
+      "difficulty": "Medium",
+      "acceptance": 31.157399630438437,
+      "likes": 365,
+      "dislikes": 288
+    },
+    {
+      "position": 36,
+      "title": "Longest Palindrome After Substring Concatenation I",
+      "slug": "longest-palindrome-after-substring-concatenation-i",
+      "difficulty": "Medium",
+      "acceptance": 43.343996062992126,
+      "likes": 78,
+      "dislikes": 4
+    },
+    {
+      "position": 37,
+      "title": "Equal Sum Grid Partition I",
+      "slug": "equal-sum-grid-partition-i",
+      "difficulty": "Medium",
+      "acceptance": 42.05291115508801,
+      "likes": 74,
+      "dislikes": 4
+    },
+    {
+      "position": 38,
+      "title": "Partition Array into Two Equal Product Subsets",
+      "slug": "partition-array-into-two-equal-product-subsets",
+      "difficulty": "Medium",
+      "acceptance": 34.89790768353028,
+      "likes": 71,
+      "dislikes": 18
+    },
+    {
+      "position": 39,
+      "title": "Maximum Area Rectangle With Point Constraints I",
+      "slug": "maximum-area-rectangle-with-point-constraints-i",
+      "difficulty": "Medium",
+      "acceptance": 50.41420532000419,
+      "likes": 71,
+      "dislikes": 20
+    },
+    {
+      "position": 40,
+      "title": "Two-Letter Card Game",
+      "slug": "two-letter-card-game",
+      "difficulty": "Medium",
+      "acceptance": 10.427897347654833,
+      "likes": 100,
+      "dislikes": 52
+    }
+  ]
+}

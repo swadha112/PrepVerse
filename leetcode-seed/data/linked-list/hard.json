@@ -1,0 +1,71 @@
+{
+  "frozen": true,
+  "createdAt": "2025-10-06T15:21:08.444Z",
+  "trackSlug": "linked-list",
+  "difficulty": "HARD",
+  "questions": [
+    {
+      "position": 1,
+      "title": "Merge k Sorted Lists",
+      "slug": "merge-k-sorted-lists",
+      "difficulty": "Hard",
+      "acceptance": 57.813413772137324,
+      "likes": 20783,
+      "dislikes": 772
+    },
+    {
+      "position": 2,
+      "title": "Reverse Nodes in k-Group",
+      "slug": "reverse-nodes-in-k-group",
+      "difficulty": "Hard",
+      "acceptance": 64.21349242667344,
+      "likes": 15126,
+      "dislikes": 781
+    },
+    {
+      "position": 3,
+      "title": "LFU Cache",
+      "slug": "lfu-cache",
+      "difficulty": "Hard",
+      "acceptance": 47.57863063068192,
+      "likes": 6150,
+      "dislikes": 345
+    },
+    {
+      "position": 4,
+      "title": "All O`one Data Structure",
+      "slug": "all-oone-data-structure",
+      "difficulty": "Hard",
+      "acceptance": 44.07255962275355,
+      "likes": 2179,
+      "dislikes": 220
+    },
+    {
+      "position": 5,
+      "title": "Design Skiplist",
+      "slug": "design-skiplist",
+      "difficulty": "Hard",
+      "acceptance": 58.660976766239926,
+      "likes": 707,
+      "dislikes": 106
+    },
+    {
+      "position": 6,
+      "title": "Design a Text Editor",
+      "slug": "design-a-text-editor",
+      "difficulty": "Hard",
+      "acceptance": 48.45886970382972,
+      "likes": 627,
+      "dislikes": 228
+    },
+    {
+      "position": 7,
+      "title": "Minimum Pair Removal to Sort Array II",
+      "slug": "minimum-pair-removal-to-sort-array-ii",
+      "difficulty": "Hard",
+      "acceptance": 14.401787527930123,
+      "likes": 44,
+      "dislikes": 6
+    }
+  ]
+}

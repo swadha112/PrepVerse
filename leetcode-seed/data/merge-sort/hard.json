@@ -1,0 +1,71 @@
+{
+  "frozen": true,
+  "createdAt": "2025-10-06T15:23:01.497Z",
+  "trackSlug": "merge-sort",
+  "difficulty": "HARD",
+  "questions": [
+    {
+      "position": 1,
+      "title": "Merge k Sorted Lists",
+      "slug": "merge-k-sorted-lists",
+      "difficulty": "Hard",
+      "acceptance": 57.81349534502142,
+      "likes": 20783,
+      "dislikes": 772
+    },
+    {
+      "position": 2,
+      "title": "Count of Smaller Numbers After Self",
+      "slug": "count-of-smaller-numbers-after-self",
+      "difficulty": "Hard",
+      "acceptance": 43.02822755550983,
+      "likes": 9134,
+      "dislikes": 249
+    },
+    {
+      "position": 3,
+      "title": "Reverse Pairs",
+      "slug": "reverse-pairs",
+      "difficulty": "Hard",
+      "acceptance": 32.930035254420645,
+      "likes": 6777,
+      "dislikes": 291
+    },
+    {
+      "position": 4,
+      "title": "Count of Range Sum",
+      "slug": "count-of-range-sum",
+      "difficulty": "Hard",
+      "acceptance": 37.551573153927855,
+      "likes": 2461,
+      "dislikes": 259
+    },
+    {
+      "position": 5,
+      "title": "Count Good Triplets in an Array",
+      "slug": "count-good-triplets-in-an-array",
+      "difficulty": "Hard",
+      "acceptance": 65.88373355752894,
+      "likes": 994,
+      "dislikes": 114
+    },
+    {
+      "position": 6,
+      "title": "Create Sorted Array through Instructions",
+      "slug": "create-sorted-array-through-instructions",
+      "difficulty": "Hard",
+      "acceptance": 40.67350591755497,
+      "likes": 682,
+      "dislikes": 81
+    },
+    {
+      "position": 7,
+      "title": "Number of Pairs Satisfying Inequality",
+      "slug": "number-of-pairs-satisfying-inequality",
+      "difficulty": "Hard",
+      "acceptance": 46.23145867183815,
+      "likes": 563,
+      "dislikes": 11
+    }
+  ]
+}

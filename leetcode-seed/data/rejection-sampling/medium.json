@@ -1,0 +1,26 @@
+{
+  "frozen": true,
+  "createdAt": "2025-10-06T15:23:47.028Z",
+  "trackSlug": "rejection-sampling",
+  "difficulty": "MEDIUM",
+  "questions": [
+    {
+      "position": 1,
+      "title": "Implement Rand10() Using Rand7()",
+      "slug": "implement-rand10-using-rand7",
+      "difficulty": "Medium",
+      "acceptance": 46.0104013892513,
+      "likes": 1162,
+      "dislikes": 388
+    },
+    {
+      "position": 2,
+      "title": "Generate Random Point in a Circle",
+      "slug": "generate-random-point-in-a-circle",
+      "difficulty": "Medium",
+      "acceptance": 41.75827825567106,
+      "likes": 476,
+      "dislikes": 778
+    }
+  ]
+}

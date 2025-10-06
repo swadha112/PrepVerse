@@ -1,0 +1,116 @@
+{
+  "frozen": true,
+  "createdAt": "2025-10-06T15:21:09.603Z",
+  "trackSlug": "number-theory",
+  "difficulty": "EASY",
+  "questions": [
+    {
+      "position": 1,
+      "title": "Add Digits",
+      "slug": "add-digits",
+      "difficulty": "Easy",
+      "acceptance": 68.23385206795601,
+      "likes": 5286,
+      "dislikes": 1968
+    },
+    {
+      "position": 2,
+      "title": "X of a Kind in a Deck of Cards",
+      "slug": "x-of-a-kind-in-a-deck-of-cards",
+      "difficulty": "Easy",
+      "acceptance": 29.934445078708567,
+      "likes": 1874,
+      "dislikes": 563
+    },
+    {
+      "position": 3,
+      "title": "Find Greatest Common Divisor of Array",
+      "slug": "find-greatest-common-divisor-of-array",
+      "difficulty": "Easy",
+      "acceptance": 79.05685659011013,
+      "likes": 1242,
+      "dislikes": 52
+    },
+    {
+      "position": 4,
+      "title": "Smallest Even Multiple",
+      "slug": "smallest-even-multiple",
+      "difficulty": "Easy",
+      "acceptance": 88.10587960674467,
+      "likes": 1013,
+      "dislikes": 119
+    },
+    {
+      "position": 5,
+      "title": "Number of Common Factors",
+      "slug": "number-of-common-factors",
+      "difficulty": "Easy",
+      "acceptance": 79.71614803564545,
+      "likes": 652,
+      "dislikes": 12
+    },
+    {
+      "position": 6,
+      "title": "Three Divisors",
+      "slug": "three-divisors",
+      "difficulty": "Easy",
+      "acceptance": 63.280675480549874,
+      "likes": 604,
+      "dislikes": 35
+    },
+    {
+      "position": 7,
+      "title": "Prime In Diagonal",
+      "slug": "prime-in-diagonal",
+      "difficulty": "Easy",
+      "acceptance": 36.81412361039111,
+      "likes": 389,
+      "dislikes": 46
+    },
+    {
+      "position": 8,
+      "title": "Number of Beautiful Pairs",
+      "slug": "number-of-beautiful-pairs",
+      "difficulty": "Easy",
+      "acceptance": 51.419893697798024,
+      "likes": 228,
+      "dislikes": 39
+    },
+    {
+      "position": 9,
+      "title": "Check If Digits Are Equal in String After Operations I",
+      "slug": "check-if-digits-are-equal-in-string-after-operations-i",
+      "difficulty": "Easy",
+      "acceptance": 77.90992118815262,
+      "likes": 67,
+      "dislikes": 1
+    },
+    {
+      "position": 10,
+      "title": "GCD of Odd and Even Sums",
+      "slug": "gcd-of-odd-and-even-sums",
+      "difficulty": "Easy",
+      "acceptance": 80.97709530754054,
+      "likes": 65,
+      "dislikes": 5
+    },
+    {
+      "position": 11,
+      "title": "Maximum Subarray With Equal Products",
+      "slug": "maximum-subarray-with-equal-products",
+      "difficulty": "Easy",
+      "acceptance": 45.704210672595885,
+      "likes": 94,
+      "dislikes": 39
+    },
+    {
+      "position": 12,
+      "title": "Check if Any Element Has Prime Frequency",
+      "slug": "check-if-any-element-has-prime-frequency",
+      "difficulty": "Easy",
+      "acceptance": 62.26711468065345,
+      "likes": 52,
+      "dislikes": 1
+    }
+  ]
+}

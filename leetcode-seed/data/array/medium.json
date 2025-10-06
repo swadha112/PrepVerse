@@ -1,0 +1,368 @@
+{
+  "frozen": true,
+  "createdAt": "2025-10-06T15:16:45.165Z",
+  "trackSlug": "array",
+  "difficulty": "MEDIUM",
+  "questions": [
+    {
+      "position": 1,
+      "title": "Maximum Subarray",
+      "slug": "maximum-subarray",
+      "difficulty": "Medium",
+      "acceptance": 52.51561221155837,
+      "likes": 36644,
+      "dislikes": 1557
+    },
+    {
+      "position": 2,
+      "title": "3Sum",
+      "slug": "3sum",
+      "difficulty": "Medium",
+      "acceptance": 37.8029760552597,
+      "likes": 34123,
+      "dislikes": 3183
+    },
+    {
+      "position": 3,
+      "title": "Container With Most Water",
+      "slug": "container-with-most-water",
+      "difficulty": "Medium",
+      "acceptance": 58.796231419801174,
+      "likes": 32697,
+      "dislikes": 2099
+    },
+    {
+      "position": 4,
+      "title": "Search in Rotated Sorted Array",
+      "slug": "search-in-rotated-sorted-array",
+      "difficulty": "Medium",
+      "acceptance": 43.482607392367875,
+      "likes": 28932,
+      "dislikes": 1748
+    },
+    {
+      "position": 5,
+      "title": "Number of Islands",
+      "slug": "number-of-islands",
+      "difficulty": "Medium",
+      "acceptance": 63.05427464672913,
+      "likes": 24318,
+      "dislikes": 586
+    },
+    {
+      "position": 6,
+      "title": "Product of Array Except Self",
+      "slug": "product-of-array-except-self",
+      "difficulty": "Medium",
+      "acceptance": 68.13305392298167,
+      "likes": 24929,
+      "dislikes": 1618
+    },
+    {
+      "position": 7,
+      "title": "Subarray Sum Equals K",
+      "slug": "subarray-sum-equals-k",
+      "difficulty": "Medium",
+      "acceptance": 46.13629699589721,
+      "likes": 24047,
+      "dislikes": 795
+    },
+    {
+      "position": 8,
+      "title": "Merge Intervals",
+      "slug": "merge-intervals",
+      "difficulty": "Medium",
+      "acceptance": 50.144726576211255,
+      "likes": 23941,
+      "dislikes": 877
+    },
+    {
+      "position": 9,
+      "title": "House Robber",
+      "slug": "house-robber",
+      "difficulty": "Medium",
+      "acceptance": 52.619514352008935,
+      "likes": 22815,
+      "dislikes": 492
+    },
+    {
+      "position": 10,
+      "title": "Find First and Last Position of Element in Sorted Array",
+      "slug": "find-first-and-last-position-of-element-in-sorted-array",
+      "difficulty": "Medium",
+      "acceptance": 47.58693459750278,
+      "likes": 22485,
+      "dislikes": 606
+    },
+    {
+      "position": 11,
+      "title": "Longest Increasing Subsequence",
+      "slug": "longest-increasing-subsequence",
+      "difficulty": "Medium",
+      "acceptance": 58.47437885615021,
+      "likes": 22279,
+      "dislikes": 492
+    },
+    {
+      "position": 12,
+      "title": "Longest Consecutive Sequence",
+      "slug": "longest-consecutive-sequence",
+      "difficulty": "Medium",
+      "acceptance": 46.964264985506205,
+      "likes": 22093,
+      "dislikes": 1196
+    },
+    {
+      "position": 13,
+      "title": "Group Anagrams",
+      "slug": "group-anagrams",
+      "difficulty": "Medium",
+      "acceptance": 71.54228691509611,
+      "likes": 21210,
+      "dislikes": 725
+    },
+    {
+      "position": 14,
+      "title": "Sort Colors",
+      "slug": "sort-colors",
+      "difficulty": "Medium",
+      "acceptance": 68.40617499183084,
+      "likes": 20769,
+      "dislikes": 740
+    },
+    {
+      "position": 15,
+      "title": "Permutations",
+      "slug": "permutations",
+      "difficulty": "Medium",
+      "acceptance": 81.16531389163019,
+      "likes": 20394,
+      "dislikes": 368
+    },
+    {
+      "position": 16,
+      "title": "Combination Sum",
+      "slug": "combination-sum",
+      "difficulty": "Medium",
+      "acceptance": 75.4176945344256,
+      "likes": 20389,
+      "dislikes": 503
+    },
+    {
+      "position": 17,
+      "title": "Coin Change",
+      "slug": "coin-change",
+      "difficulty": "Medium",
+      "acceptance": 47.26892137108533,
+      "likes": 20382,
+      "dislikes": 519
+    },
+    {
+      "position": 18,
+      "title": "Jump Game",
+      "slug": "jump-game",
+      "difficulty": "Medium",
+      "acceptance": 39.98362311255812,
+      "likes": 21117,
+      "dislikes": 1434
+    },
+    {
+      "position": 19,
+      "title": "Find the Duplicate Number",
+      "slug": "find-the-duplicate-number",
+      "difficulty": "Medium",
+      "acceptance": 63.45807116812361,
+      "likes": 24850,
+      "dislikes": 5502
+    },
+    {
+      "position": 20,
+      "title": "Maximum Product Subarray",
+      "slug": "maximum-product-subarray",
+      "difficulty": "Medium",
+      "acceptance": 35.46452180822534,
+      "likes": 19873,
+      "dislikes": 802
+    },
+    {
+      "position": 21,
+      "title": "Subsets",
+      "slug": "subsets",
+      "difficulty": "Medium",
+      "acceptance": 81.51229286239663,
+      "likes": 18687,
+      "dislikes": 329
+    },
+    {
+      "position": 22,
+      "title": "Rotate Image",
+      "slug": "rotate-image",
+      "difficulty": "Medium",
+      "acceptance": 78.68940360227153,
+      "likes": 19238,
+      "dislikes": 924
+    },
+    {
+      "position": 23,
+      "title": "Rotate Array",
+      "slug": "rotate-array",
+      "difficulty": "Medium",
+      "acceptance": 43.7778196056139,
+      "likes": 20162,
+      "dislikes": 2142
+    },
+    {
+      "position": 24,
+      "title": "Top K Frequent Elements",
+      "slug": "top-k-frequent-elements",
+      "difficulty": "Medium",
+      "acceptance": 64.91060776741809,
+      "likes": 18794,
+      "dislikes": 832
+    },
+    {
+      "position": 25,
+      "title": "Word Break",
+      "slug": "word-break",
+      "difficulty": "Medium",
+      "acceptance": 48.67948827148335,
+      "likes": 18311,
+      "dislikes": 880
+    },
+    {
+      "position": 26,
+      "title": "Kth Largest Element in an Array",
+      "slug": "kth-largest-element-in-an-array",
+      "difficulty": "Medium",
+      "acceptance": 68.46048754690372,
+      "likes": 18299,
+      "dislikes": 957
+    },
+    {
+      "position": 27,
+      "title": "Search a 2D Matrix",
+      "slug": "search-a-2d-matrix",
+      "difficulty": "Medium",
+      "acceptance": 52.94080661024051,
+      "likes": 17325,
+      "dislikes": 469
+    },
+    {
+      "position": 28,
+      "title": "Word Search",
+      "slug": "word-search",
+      "difficulty": "Medium",
+      "acceptance": 46.035001523383634,
+      "likes": 17195,
+      "dislikes": 733
+    },
+    {
+      "position": 29,
+      "title": "Set Matrix Zeroes",
+      "slug": "set-matrix-zeroes",
+      "difficulty": "Medium",
+      "acceptance": 61.61295097818229,
+      "likes": 16508,
+      "dislikes": 831
+    },
+    {
+      "position": 30,
+      "title": "Construct Binary Tree from Preorder and Inorder Traversal",
+      "slug": "construct-binary-tree-from-preorder-and-inorder-traversal",
+      "difficulty": "Medium",
+      "acceptance": 67.62405932252072,
+      "likes": 16244,
+      "dislikes": 595
+    },
+    {
+      "position": 31,
+      "title": "Next Permutation",
+      "slug": "next-permutation",
+      "difficulty": "Medium",
+      "acceptance": 43.94582919725546,
+      "likes": 20594,
+      "dislikes": 5036
+    },
+    {
+      "position": 32,
+      "title": "Jump Game II",
+      "slug": "jump-game-ii",
+      "difficulty": "Medium",
+      "acceptance": 41.967342755473815,
+      "likes": 15999,
+      "dislikes": 680
+    },
+    {
+      "position": 33,
+      "title": "Spiral Matrix",
+      "slug": "spiral-matrix",
+      "difficulty": "Medium",
+      "acceptance": 55.109668039536785,
+      "likes": 16707,
+      "dislikes": 1501
+    },
+    {
+      "position": 34,
+      "title": "Rotting Oranges",
+      "slug": "rotting-oranges",
+      "difficulty": "Medium",
+      "acceptance": 57.4484563244092,
+      "likes": 14511,
+      "dislikes": 460
+    },
+    {
+      "position": 35,
+      "title": "Find Minimum in Rotated Sorted Array",
+      "slug": "find-minimum-in-rotated-sorted-array",
+      "difficulty": "Medium",
+      "acceptance": 53.24144558076866,
+      "likes": 14694,
+      "dislikes": 644
+    },
+    {
+      "position": 36,
+      "title": "Daily Temperatures",
+      "slug": "daily-temperatures",
+      "difficulty": "Medium",
+      "acceptance": 67.76499136683934,
+      "likes": 14186,
+      "dislikes": 358
+    },
+    {
+      "position": 37,
+      "title": "Minimum Size Subarray Sum",
+      "slug": "minimum-size-subarray-sum",
+      "difficulty": "Medium",
+      "acceptance": 50.126729369911885,
+      "likes": 13820,
+      "dislikes": 518
+    },
+    {
+      "position": 38,
+      "title": "Partition Equal Subset Sum",
+      "slug": "partition-equal-subset-sum",
+      "difficulty": "Medium",
+      "acceptance": 48.86905711261581,
+      "likes": 13513,
+      "dislikes": 290
+    },
+    {
+      "position": 39,
+      "title": "Minimum Path Sum",
+      "slug": "minimum-path-sum",
+      "difficulty": "Medium",
+      "acceptance": 67.17737534231257,
+      "likes": 13360,
+      "dislikes": 189
+    },
+    {
+      "position": 40,
+      "title": "Search a 2D Matrix II",
+      "slug": "search-a-2d-matrix-ii",
+      "difficulty": "Medium",
+      "acceptance": 56.098786490854714,
+      "likes": 12797,
+      "dislikes": 223
+    }
+  ]
+}

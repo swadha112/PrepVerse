@@ -1,0 +1,98 @@
+{
+  "frozen": true,
+  "createdAt": "2025-10-06T15:21:50.593Z",
+  "trackSlug": "recursion",
+  "difficulty": "EASY",
+  "questions": [
+    {
+      "position": 1,
+      "title": "Reverse Linked List",
+      "slug": "reverse-linked-list",
+      "difficulty": "Easy",
+      "acceptance": 79.77184229398713,
+      "likes": 23659,
+      "dislikes": 552
+    },
+    {
+      "position": 2,
+      "title": "Merge Two Sorted Lists",
+      "slug": "merge-two-sorted-lists",
+      "difficulty": "Easy",
+      "acceptance": 67.3803479318323,
+      "likes": 24098,
+      "dislikes": 2363
+    },
+    {
+      "position": 3,
+      "title": "Palindrome Linked List",
+      "slug": "palindrome-linked-list",
+      "difficulty": "Easy",
+      "acceptance": 56.68679062715029,
+      "likes": 17822,
+      "dislikes": 952
+    },
+    {
+      "position": 4,
+      "title": "Fibonacci Number",
+      "slug": "fibonacci-number",
+      "difficulty": "Easy",
+      "acceptance": 73.44524429518846,
+      "likes": 8993,
+      "dislikes": 393
+    },
+    {
+      "position": 5,
+      "title": "Remove Linked List Elements",
+      "slug": "remove-linked-list-elements",
+      "difficulty": "Easy",
+      "acceptance": 52.85738036310056,
+      "likes": 8837,
+      "dislikes": 280
+    },
+    {
+      "position": 6,
+      "title": "Power of Two",
+      "slug": "power-of-two",
+      "difficulty": "Easy",
+      "acceptance": 49.44121845073978,
+      "likes": 7736,
+      "dislikes": 486
+    },
+    {
+      "position": 7,
+      "title": "Power of Four",
+      "slug": "power-of-four",
+      "difficulty": "Easy",
+      "acceptance": 51.2020349414435,
+      "likes": 4383,
+      "dislikes": 414
+    },
+    {
+      "position": 8,
+      "title": "Power of Three",
+      "slug": "power-of-three",
+      "difficulty": "Easy",
+      "acceptance": 50.14818347296038,
+      "likes": 3616,
+      "dislikes": 306
+    },
+    {
+      "position": 9,
+      "title": "Find the K-th Character in String Game I",
+      "slug": "find-the-k-th-character-in-string-game-i",
+      "difficulty": "Easy",
+      "acceptance": 81.78316690442226,
+      "likes": 611,
+      "dislikes": 127
+    },
+    {
+      "position": 10,
+      "title": "Unique 3-Digit Even Numbers",
+      "slug": "unique-3-digit-even-numbers",
+      "difficulty": "Easy",
+      "acceptance": 68.09134938310885,
+      "likes": 103,
+      "dislikes": 32
+    }
+  ]
+}

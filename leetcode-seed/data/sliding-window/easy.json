@@ -1,0 +1,170 @@
+{
+  "frozen": true,
+  "createdAt": "2025-10-06T15:20:34.979Z",
+  "trackSlug": "sliding-window",
+  "difficulty": "EASY",
+  "questions": [
+    {
+      "position": 1,
+      "title": "Contains Duplicate II",
+      "slug": "contains-duplicate-ii",
+      "difficulty": "Easy",
+      "acceptance": 49.81446279674201,
+      "likes": 7043,
+      "dislikes": 3269
+    },
+    {
+      "position": 2,
+      "title": "Maximum Average Subarray I",
+      "slug": "maximum-average-subarray-i",
+      "difficulty": "Easy",
+      "acceptance": 46.15089843191459,
+      "likes": 4115,
+      "dislikes": 375
+    },
+    {
+      "position": 3,
+      "title": "Longest Harmonious Subsequence",
+      "slug": "longest-harmonious-subsequence",
+      "difficulty": "Easy",
+      "acceptance": 63.97046073873705,
+      "likes": 2758,
+      "dislikes": 340
+    },
+    {
+      "position": 4,
+      "title": "Substrings of Size Three with Distinct Characters",
+      "slug": "substrings-of-size-three-with-distinct-characters",
+      "difficulty": "Easy",
+      "acceptance": 76.0709375180102,
+      "likes": 1637,
+      "dislikes": 52
+    },
+    {
+      "position": 5,
+      "title": "Defuse the Bomb",
+      "slug": "defuse-the-bomb",
+      "difficulty": "Easy",
+      "acceptance": 79.29134322491893,
+      "likes": 1536,
+      "dislikes": 172
+    },
+    {
+      "position": 6,
+      "title": "Minimum Recolors to Get K Consecutive Black Blocks",
+      "slug": "minimum-recolors-to-get-k-consecutive-black-blocks",
+      "difficulty": "Easy",
+      "acceptance": 68.45921789803069,
+      "likes": 1295,
+      "dislikes": 38
+    },
+    {
+      "position": 7,
+      "title": "Minimum Difference Between Highest and Lowest of K Scores",
+      "slug": "minimum-difference-between-highest-and-lowest-of-k-scores",
+      "difficulty": "Easy",
+      "acceptance": 59.12233390536896,
+      "likes": 1121,
+      "dislikes": 330
+    },
+    {
+      "position": 8,
+      "title": "Find the K-Beauty of a Number",
+      "slug": "find-the-k-beauty-of-a-number",
+      "difficulty": "Easy",
+      "acceptance": 62.30752796471791,
+      "likes": 715,
+      "dislikes": 46
+    },
+    {
+      "position": 9,
+      "title": "Longest Nice Substring",
+      "slug": "longest-nice-substring",
+      "difficulty": "Easy",
+      "acceptance": 63.1080600358762,
+      "likes": 1458,
+      "dislikes": 953
+    },
+    {
+      "position": 10,
+      "title": "Maximum Length Substring With Two Occurrences",
+      "slug": "maximum-length-substring-with-two-occurrences",
+      "difficulty": "Easy",
+      "acceptance": 64.43684305907938,
+      "likes": 240,
+      "dislikes": 20
+    },
+    {
+      "position": 11,
+      "title": "Maximum Strong Pair XOR I",
+      "slug": "maximum-strong-pair-xor-i",
+      "difficulty": "Easy",
+      "acceptance": 75.45888503722226,
+      "likes": 178,
+      "dislikes": 26
+    },
+    {
+      "position": 12,
+      "title": "Alternating Groups I",
+      "slug": "alternating-groups-i",
+      "difficulty": "Easy",
+      "acceptance": 68.2077264091197,
+      "likes": 157,
+      "dislikes": 9
+    },
+    {
+      "position": 13,
+      "title": "Count Substrings That Satisfy K-Constraint I",
+      "slug": "count-substrings-that-satisfy-k-constraint-i",
+      "difficulty": "Easy",
+      "acceptance": 78.3388912981711,
+      "likes": 163,
+      "dislikes": 33
+    },
+    {
+      "position": 14,
+      "title": "Shortest Subarray With OR at Least K I",
+      "slug": "shortest-subarray-with-or-at-least-k-i",
+      "difficulty": "Easy",
+      "acceptance": 43.42555175629468,
+      "likes": 127,
+      "dislikes": 21
+    },
+    {
+      "position": 15,
+      "title": "Minimum Positive Sum Subarray ",
+      "slug": "minimum-positive-sum-subarray",
+      "difficulty": "Easy",
+      "acceptance": 44.46494257399012,
+      "likes": 133,
+      "dislikes": 29
+    },
+    {
+      "position": 16,
+      "title": "Maximum Subarray With Equal Products",
+      "slug": "maximum-subarray-with-equal-products",
+      "difficulty": "Easy",
+      "acceptance": 45.704210672595885,
+      "likes": 94,
+      "dislikes": 39
+    },
+    {
+      "position": 17,
+      "title": "Longest Even Odd Subarray With Threshold",
+      "slug": "longest-even-odd-subarray-with-threshold",
+      "difficulty": "Easy",
+      "acceptance": 30.873146408534485,
+      "likes": 335,
+      "dislikes": 288
+    },
+    {
+      "position": 18,
+      "title": "Find X-Sum of All K-Long Subarrays I",
+      "slug": "find-x-sum-of-all-k-long-subarrays-i",
+      "difficulty": "Easy",
+      "acceptance": 63.92762909913306,
+      "likes": 129,
+      "dislikes": 104
+    }
+  ]
+}

@@ -1,0 +1,368 @@
+{
+  "frozen": true,
+  "createdAt": "2025-10-06T15:19:18.080Z",
+  "trackSlug": "breadth-first-search",
+  "difficulty": "MEDIUM",
+  "questions": [
+    {
+      "position": 1,
+      "title": "Number of Islands",
+      "slug": "number-of-islands",
+      "difficulty": "Medium",
+      "acceptance": 63.05427464672913,
+      "likes": 24318,
+      "dislikes": 586
+    },
+    {
+      "position": 2,
+      "title": "Coin Change",
+      "slug": "coin-change",
+      "difficulty": "Medium",
+      "acceptance": 47.26892137108533,
+      "likes": 20382,
+      "dislikes": 519
+    },
+    {
+      "position": 3,
+      "title": "Course Schedule",
+      "slug": "course-schedule",
+      "difficulty": "Medium",
+      "acceptance": 50.0472965717039,
+      "likes": 17510,
+      "dislikes": 836
+    },
+    {
+      "position": 4,
+      "title": "Binary Tree Level Order Traversal",
+      "slug": "binary-tree-level-order-traversal",
+      "difficulty": "Medium",
+      "acceptance": 71.41677075775124,
+      "likes": 16574,
+      "dislikes": 360
+    },
+    {
+      "position": 5,
+      "title": "Rotting Oranges",
+      "slug": "rotting-oranges",
+      "difficulty": "Medium",
+      "acceptance": 57.4484563244092,
+      "likes": 14511,
+      "dislikes": 460
+    },
+    {
+      "position": 6,
+      "title": "Binary Tree Right Side View",
+      "slug": "binary-tree-right-side-view",
+      "difficulty": "Medium",
+      "acceptance": 68.33856067742818,
+      "likes": 13059,
+      "dislikes": 1066
+    },
+    {
+      "position": 7,
+      "title": "All Nodes Distance K in Binary Tree",
+      "slug": "all-nodes-distance-k-in-binary-tree",
+      "difficulty": "Medium",
+      "acceptance": 67.0006625758586,
+      "likes": 11849,
+      "dislikes": 270
+    },
+    {
+      "position": 8,
+      "title": "Binary Tree Zigzag Level Order Traversal",
+      "slug": "binary-tree-zigzag-level-order-traversal",
+      "difficulty": "Medium",
+      "acceptance": 62.50086351227895,
+      "likes": 11739,
+      "dislikes": 339
+    },
+    {
+      "position": 9,
+      "title": "Course Schedule II",
+      "slug": "course-schedule-ii",
+      "difficulty": "Medium",
+      "acceptance": 54.21993481781943,
+      "likes": 11633,
+      "dislikes": 374
+    },
+    {
+      "position": 10,
+      "title": "Perfect Squares",
+      "slug": "perfect-squares",
+      "difficulty": "Medium",
+      "acceptance": 55.97763812797651,
+      "likes": 11671,
+      "dislikes": 485
+    },
+    {
+      "position": 11,
+      "title": "Cheapest Flights Within K Stops",
+      "slug": "cheapest-flights-within-k-stops",
+      "difficulty": "Medium",
+      "acceptance": 40.88902680855573,
+      "likes": 10888,
+      "dislikes": 459
+    },
+    {
+      "position": 12,
+      "title": "Number of Provinces",
+      "slug": "number-of-provinces",
+      "difficulty": "Medium",
+      "acceptance": 69.42311795478207,
+      "likes": 10776,
+      "dislikes": 404
+    },
+    {
+      "position": 13,
+      "title": "Max Area of Island",
+      "slug": "max-area-of-island",
+      "difficulty": "Medium",
+      "acceptance": 73.47090901194805,
+      "likes": 10454,
+      "dislikes": 216
+    },
+    {
+      "position": 14,
+      "title": "01 Matrix",
+      "slug": "01-matrix",
+      "difficulty": "Medium",
+      "acceptance": 52.503622177888246,
+      "likes": 10436,
+      "dislikes": 442
+    },
+    {
+      "position": 15,
+      "title": "Populating Next Right Pointers in Each Node",
+      "slug": "populating-next-right-pointers-in-each-node",
+      "difficulty": "Medium",
+      "acceptance": 66.15693892657623,
+      "likes": 10263,
+      "dislikes": 322
+    },
+    {
+      "position": 16,
+      "title": "Evaluate Division",
+      "slug": "evaluate-division",
+      "difficulty": "Medium",
+      "acceptance": 63.57416662144362,
+      "likes": 9980,
+      "dislikes": 1064
+    },
+    {
+      "position": 17,
+      "title": "Is Graph Bipartite?",
+      "slug": "is-graph-bipartite",
+      "difficulty": "Medium",
+      "acceptance": 58.37866363562556,
+      "likes": 9011,
+      "dislikes": 405
+    },
+    {
+      "position": 18,
+      "title": "Minimum Height Trees",
+      "slug": "minimum-height-trees",
+      "difficulty": "Medium",
+      "acceptance": 42.18256482393734,
+      "likes": 8758,
+      "dislikes": 410
+    },
+    {
+      "position": 19,
+      "title": "Maximum Width of Binary Tree",
+      "slug": "maximum-width-of-binary-tree",
+      "difficulty": "Medium",
+      "acceptance": 44.73830437655602,
+      "likes": 9475,
+      "dislikes": 1296
+    },
+    {
+      "position": 20,
+      "title": "Network Delay Time",
+      "slug": "network-delay-time",
+      "difficulty": "Medium",
+      "acceptance": 58.685480685801004,
+      "likes": 8144,
+      "dislikes": 389
+    },
+    {
+      "position": 21,
+      "title": "Surrounded Regions",
+      "slug": "surrounded-regions",
+      "difficulty": "Medium",
+      "acceptance": 43.843582887700535,
+      "likes": 9569,
+      "dislikes": 2159
+    },
+    {
+      "position": 22,
+      "title": "All Paths From Source to Target",
+      "slug": "all-paths-from-source-to-target",
+      "difficulty": "Medium",
+      "acceptance": 83.30883779178225,
+      "likes": 7532,
+      "dislikes": 150
+    },
+    {
+      "position": 23,
+      "title": "Shortest Path in Binary Matrix",
+      "slug": "shortest-path-in-binary-matrix",
+      "difficulty": "Medium",
+      "acceptance": 50.546021526604065,
+      "likes": 7199,
+      "dislikes": 268
+    },
+    {
+      "position": 24,
+      "title": "Pacific Atlantic Water Flow",
+      "slug": "pacific-atlantic-water-flow",
+      "difficulty": "Medium",
+      "acceptance": 59.94871697342494,
+      "likes": 8439,
+      "dislikes": 1760
+    },
+    {
+      "position": 25,
+      "title": "Redundant Connection",
+      "slug": "redundant-connection",
+      "difficulty": "Medium",
+      "acceptance": 66.83951307541604,
+      "likes": 7009,
+      "dislikes": 444
+    },
+    {
+      "position": 26,
+      "title": "Path With Minimum Effort",
+      "slug": "path-with-minimum-effort",
+      "difficulty": "Medium",
+      "acceptance": 62.238727303347666,
+      "likes": 6591,
+      "dislikes": 232
+    },
+    {
+      "position": 27,
+      "title": "Find Eventual Safe States",
+      "slug": "find-eventual-safe-states",
+      "difficulty": "Medium",
+      "acceptance": 69.61398729051064,
+      "likes": 6801,
+      "dislikes": 514
+    },
+    {
+      "position": 28,
+      "title": "Keys and Rooms",
+      "slug": "keys-and-rooms",
+      "difficulty": "Medium",
+      "acceptance": 75.09346125698931,
+      "likes": 6543,
+      "dislikes": 296
+    },
+    {
+      "position": 29,
+      "title": "Clone Graph",
+      "slug": "clone-graph",
+      "difficulty": "Medium",
+      "acceptance": 63.55545112052751,
+      "likes": 10322,
+      "dislikes": 4120
+    },
+    {
+      "position": 30,
+      "title": "Accounts Merge",
+      "slug": "accounts-merge",
+      "difficulty": "Medium",
+      "acceptance": 60.30026761686806,
+      "likes": 7469,
+      "dislikes": 1277
+    },
+    {
+      "position": 31,
+      "title": "Count Good Nodes in Binary Tree",
+      "slug": "count-good-nodes-in-binary-tree",
+      "difficulty": "Medium",
+      "acceptance": 73.6278042151382,
+      "likes": 6221,
+      "dislikes": 205
+    },
+    {
+      "position": 32,
+      "title": "Populating Next Right Pointers in Each Node II",
+      "slug": "populating-next-right-pointers-in-each-node-ii",
+      "difficulty": "Medium",
+      "acceptance": 56.30322968087362,
+      "likes": 6124,
+      "dislikes": 339
+    },
+    {
+      "position": 33,
+      "title": "Shortest Bridge",
+      "slug": "shortest-bridge",
+      "difficulty": "Medium",
+      "acceptance": 58.96630145477084,
+      "likes": 5686,
+      "dislikes": 219
+    },
+    {
+      "position": 34,
+      "title": "Number of Operations to Make Network Connected",
+      "slug": "number-of-operations-to-make-network-connected",
+      "difficulty": "Medium",
+      "acceptance": 65.57421109857755,
+      "likes": 5459,
+      "dislikes": 83
+    },
+    {
+      "position": 35,
+      "title": "Open the Lock",
+      "slug": "open-the-lock",
+      "difficulty": "Medium",
+      "acceptance": 60.9067469817156,
+      "likes": 5014,
+      "dislikes": 230
+    },
+    {
+      "position": 36,
+      "title": "Binary Tree Level Order Traversal II",
+      "slug": "binary-tree-level-order-traversal-ii",
+      "difficulty": "Medium",
+      "acceptance": 66.8141470587727,
+      "likes": 5081,
+      "dislikes": 330
+    },
+    {
+      "position": 37,
+      "title": "Possible Bipartition",
+      "slug": "possible-bipartition",
+      "difficulty": "Medium",
+      "acceptance": 51.897827544421446,
+      "likes": 4861,
+      "dislikes": 115
+    },
+    {
+      "position": 38,
+      "title": "Deepest Leaves Sum",
+      "slug": "deepest-leaves-sum",
+      "difficulty": "Medium",
+      "acceptance": 86.43808169307626,
+      "likes": 4795,
+      "dislikes": 126
+    },
+    {
+      "position": 39,
+      "title": "Number of Closed Islands",
+      "slug": "number-of-closed-islands",
+      "difficulty": "Medium",
+      "acceptance": 66.88690284054229,
+      "likes": 4711,
+      "dislikes": 187
+    },
+    {
+      "position": 40,
+      "title": "Check Completeness of a Binary Tree",
+      "slug": "check-completeness-of-a-binary-tree",
+      "difficulty": "Medium",
+      "acceptance": 58.725950072321176,
+      "likes": 4483,
+      "dislikes": 62
+    }
+  ]
+}

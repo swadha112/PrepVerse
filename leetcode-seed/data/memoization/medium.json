@@ -1,0 +1,107 @@
+{
+  "frozen": true,
+  "createdAt": "2025-10-06T15:22:04.908Z",
+  "trackSlug": "memoization",
+  "difficulty": "MEDIUM",
+  "questions": [
+    {
+      "position": 1,
+      "title": "Word Break",
+      "slug": "word-break",
+      "difficulty": "Medium",
+      "acceptance": 48.679500826580465,
+      "likes": 18311,
+      "dislikes": 880
+    },
+    {
+      "position": 2,
+      "title": "Partition to K Equal Sum Subsets",
+      "slug": "partition-to-k-equal-sum-subsets",
+      "difficulty": "Medium",
+      "acceptance": 38.23525570782219,
+      "likes": 7435,
+      "dislikes": 545
+    },
+    {
+      "position": 3,
+      "title": "Different Ways to Add Parentheses",
+      "slug": "different-ways-to-add-parentheses",
+      "difficulty": "Medium",
+      "acceptance": 72.69090997287584,
+      "likes": 6260,
+      "dislikes": 392
+    },
+    {
+      "position": 4,
+      "title": "All Possible Full Binary Trees",
+      "slug": "all-possible-full-binary-trees",
+      "difficulty": "Medium",
+      "acceptance": 82.72500430563177,
+      "likes": 5195,
+      "dislikes": 367
+    },
+    {
+      "position": 5,
+      "title": "Can I Win",
+      "slug": "can-i-win",
+      "difficulty": "Medium",
+      "acceptance": 30.69358150449321,
+      "likes": 2789,
+      "dislikes": 424
+    },
+    {
+      "position": 6,
+      "title": "Sort Integers by The Power Value",
+      "slug": "sort-integers-by-the-power-value",
+      "difficulty": "Medium",
+      "acceptance": 70.96623952065659,
+      "likes": 1506,
+      "dislikes": 120
+    },
+    {
+      "position": 7,
+      "title": "Longest Binary Subsequence Less Than or Equal to K",
+      "slug": "longest-binary-subsequence-less-than-or-equal-to-k",
+      "difficulty": "Medium",
+      "acceptance": 52.90350501828367,
+      "likes": 1133,
+      "dislikes": 78
+    },
+    {
+      "position": 8,
+      "title": "Integer Replacement",
+      "slug": "integer-replacement",
+      "difficulty": "Medium",
+      "acceptance": 36.80737845065329,
+      "likes": 1401,
+      "dislikes": 484
+    },
+    {
+      "position": 9,
+      "title": "Shopping Offers",
+      "slug": "shopping-offers",
+      "difficulty": "Medium",
+      "acceptance": 52.0725694035078,
+      "likes": 1601,
+      "dislikes": 786
+    },
+    {
+      "position": 10,
+      "title": "Minimum Number of Operations to Make X and Y Equal",
+      "slug": "minimum-number-of-operations-to-make-x-and-y-equal",
+      "difficulty": "Medium",
+      "acceptance": 47.96047631112238,
+      "likes": 277,
+      "dislikes": 22
+    },
+    {
+      "position": 11,
+      "title": "Maximum Number of Operations With the Same Score II",
+      "slug": "maximum-number-of-operations-with-the-same-score-ii",
+      "difficulty": "Medium",
+      "acceptance": 33.48796143173473,
+      "likes": 178,
+      "dislikes": 16
+    }
+  ]
+}

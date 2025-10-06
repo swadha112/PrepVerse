@@ -1,0 +1,215 @@
+{
+  "frozen": true,
+  "createdAt": "2025-10-06T15:20:19.505Z",
+  "trackSlug": "stack",
+  "difficulty": "EASY",
+  "questions": [
+    {
+      "position": 1,
+      "title": "Valid Parentheses",
+      "slug": "valid-parentheses",
+      "difficulty": "Easy",
+      "acceptance": 42.982904630343384,
+      "likes": 26706,
+      "dislikes": 1938
+    },
+    {
+      "position": 2,
+      "title": "Palindrome Linked List",
+      "slug": "palindrome-linked-list",
+      "difficulty": "Easy",
+      "acceptance": 56.68671861134212,
+      "likes": 17822,
+      "dislikes": 952
+    },
+    {
+      "position": 3,
+      "title": "Binary Tree Inorder Traversal",
+      "slug": "binary-tree-inorder-traversal",
+      "difficulty": "Easy",
+      "acceptance": 79.19538778991752,
+      "likes": 14502,
+      "dislikes": 868
+    },
+    {
+      "position": 4,
+      "title": "Binary Tree Preorder Traversal",
+      "slug": "binary-tree-preorder-traversal",
+      "difficulty": "Easy",
+      "acceptance": 74.27277510649752,
+      "likes": 8625,
+      "dislikes": 228
+    },
+    {
+      "position": 5,
+      "title": "Next Greater Element I",
+      "slug": "next-greater-element-i",
+      "difficulty": "Easy",
+      "acceptance": 75.1700059516978,
+      "likes": 9342,
+      "dislikes": 1027
+    },
+    {
+      "position": 6,
+      "title": "Implement Queue using Stacks",
+      "slug": "implement-queue-using-stacks",
+      "difficulty": "Easy",
+      "acceptance": 68.65030023016945,
+      "likes": 8349,
+      "dislikes": 471
+    },
+    {
+      "position": 7,
+      "title": "Backspace String Compare",
+      "slug": "backspace-string-compare",
+      "difficulty": "Easy",
+      "acceptance": 49.59698999613389,
+      "likes": 7818,
+      "dislikes": 376
+    },
+    {
+      "position": 8,
+      "title": "Binary Tree Postorder Traversal",
+      "slug": "binary-tree-postorder-traversal",
+      "difficulty": "Easy",
+      "acceptance": 76.74943732496115,
+      "likes": 7586,
+      "dislikes": 222
+    },
+    {
+      "position": 9,
+      "title": "Remove All Adjacent Duplicates In String",
+      "slug": "remove-all-adjacent-duplicates-in-string",
+      "difficulty": "Easy",
+      "acceptance": 72.15743170983538,
+      "likes": 6951,
+      "dislikes": 271
+    },
+    {
+      "position": 10,
+      "title": "Implement Stack using Queues",
+      "slug": "implement-stack-using-queues",
+      "difficulty": "Easy",
+      "acceptance": 68.40599822831415,
+      "likes": 6711,
+      "dislikes": 1271
+    },
+    {
+      "position": 11,
+      "title": "Increasing Order Search Tree",
+      "slug": "increasing-order-search-tree",
+      "difficulty": "Easy",
+      "acceptance": 78.81503543135888,
+      "likes": 4451,
+      "dislikes": 683
+    },
+    {
+      "position": 12,
+      "title": "N-ary Tree Preorder Traversal",
+      "slug": "n-ary-tree-preorder-traversal",
+      "difficulty": "Easy",
+      "acceptance": 76.43281120924195,
+      "likes": 3244,
+      "dislikes": 204
+    },
+    {
+      "position": 13,
+      "title": "Make The String Great",
+      "slug": "make-the-string-great",
+      "difficulty": "Easy",
+      "acceptance": 68.33100071231445,
+      "likes": 3183,
+      "dislikes": 181
+    },
+    {
+      "position": 14,
+      "title": "Final Prices With a Special Discount in a Shop",
+      "slug": "final-prices-with-a-special-discount-in-a-shop",
+      "difficulty": "Easy",
+      "acceptance": 83.47697483321649,
+      "likes": 2793,
+      "dislikes": 144
+    },
+    {
+      "position": 15,
+      "title": "N-ary Tree Postorder Traversal",
+      "slug": "n-ary-tree-postorder-traversal",
+      "difficulty": "Easy",
+      "acceptance": 80.82635700783149,
+      "likes": 2737,
+      "dislikes": 119
+    },
+    {
+      "position": 16,
+      "title": "Number of Students Unable to Eat Lunch",
+      "slug": "number-of-students-unable-to-eat-lunch",
+      "difficulty": "Easy",
+      "acceptance": 78.93540137597856,
+      "likes": 2605,
+      "dislikes": 276
+    },
+    {
+      "position": 17,
+      "title": "Maximum Nesting Depth of the Parentheses",
+      "slug": "maximum-nesting-depth-of-the-parentheses",
+      "difficulty": "Easy",
+      "acceptance": 84.53625000641472,
+      "likes": 2719,
+      "dislikes": 521
+    },
+    {
+      "position": 18,
+      "title": "Remove Outermost Parentheses",
+      "slug": "remove-outermost-parentheses",
+      "difficulty": "Easy",
+      "acceptance": 86.3386472738785,
+      "likes": 3526,
+      "dislikes": 1697
+    },
+    {
+      "position": 19,
+      "title": "Reverse Prefix of Word",
+      "slug": "reverse-prefix-of-word",
+      "difficulty": "Easy",
+      "acceptance": 86.44390118057518,
+      "likes": 1463,
+      "dislikes": 44
+    },
+    {
+      "position": 20,
+      "title": "Crawler Log Folder",
+      "slug": "crawler-log-folder",
+      "difficulty": "Easy",
+      "acceptance": 71.60705209493837,
+      "likes": 1508,
+      "dislikes": 99
+    },
+    {
+      "position": 21,
+      "title": "Baseball Game",
+      "slug": "baseball-game",
+      "difficulty": "Easy",
+      "acceptance": 79.4786989410449,
+      "likes": 3208,
+      "dislikes": 1952
+    },
+    {
+      "position": 22,
+      "title": "Minimum String Length After Removing Substrings",
+      "slug": "minimum-string-length-after-removing-substrings",
+      "difficulty": "Easy",
+      "acceptance": 77.09098340448169,
+      "likes": 998,
+      "dislikes": 29
+    },
+    {
+      "position": 23,
+      "title": "Clear Digits",
+      "slug": "clear-digits",
+      "difficulty": "Easy",
+      "acceptance": 82.58163233113544,
+      "likes": 662,
+      "dislikes": 26
+    }
+  ]
+}

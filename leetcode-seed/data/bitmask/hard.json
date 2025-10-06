@@ -1,0 +1,323 @@
+{
+  "frozen": true,
+  "createdAt": "2025-10-06T15:21:39.796Z",
+  "trackSlug": "bitmask",
+  "difficulty": "HARD",
+  "questions": [
+    {
+      "position": 1,
+      "title": "Shortest Path Visiting All Nodes",
+      "slug": "shortest-path-visiting-all-nodes",
+      "difficulty": "Hard",
+      "acceptance": 65.59203519333178,
+      "likes": 4549,
+      "dislikes": 179
+    },
+    {
+      "position": 2,
+      "title": "Partition Array Into Two Arrays to Minimize Sum Difference",
+      "slug": "partition-array-into-two-arrays-to-minimize-sum-difference",
+      "difficulty": "Hard",
+      "acceptance": 22.45223921767527,
+      "likes": 3606,
+      "dislikes": 246
+    },
+    {
+      "position": 3,
+      "title": "Smallest Sufficient Team",
+      "slug": "smallest-sufficient-team",
+      "difficulty": "Hard",
+      "acceptance": 55.33489188529688,
+      "likes": 2250,
+      "dislikes": 57
+    },
+    {
+      "position": 4,
+      "title": "Maximum Score Words Formed by Letters",
+      "slug": "maximum-score-words-formed-by-letters",
+      "difficulty": "Hard",
+      "acceptance": 81.60309604902496,
+      "likes": 1832,
+      "dislikes": 119
+    },
+    {
+      "position": 5,
+      "title": "Maximize Score After N Operations",
+      "slug": "maximize-score-after-n-operations",
+      "difficulty": "Hard",
+      "acceptance": 57.92815628440484,
+      "likes": 1690,
+      "dislikes": 113
+    },
+    {
+      "position": 6,
+      "title": "Find the Shortest Superstring",
+      "slug": "find-the-shortest-superstring",
+      "difficulty": "Hard",
+      "acceptance": 44.64871178836428,
+      "likes": 1503,
+      "dislikes": 152
+    },
+    {
+      "position": 7,
+      "title": "Split Array With Same Average",
+      "slug": "split-array-with-same-average",
+      "difficulty": "Hard",
+      "acceptance": 26.32731154934984,
+      "likes": 1327,
+      "dislikes": 140
+    },
+    {
+      "position": 8,
+      "title": "Stickers to Spell Word",
+      "slug": "stickers-to-spell-word",
+      "difficulty": "Hard",
+      "acceptance": 50.319245805639014,
+      "likes": 1313,
+      "dislikes": 129
+    },
+    {
+      "position": 9,
+      "title": "Find Minimum Time to Finish All Jobs",
+      "slug": "find-minimum-time-to-finish-all-jobs",
+      "difficulty": "Hard",
+      "acceptance": 44.50015632780203,
+      "likes": 1113,
+      "dislikes": 36
+    },
+    {
+      "position": 10,
+      "title": "Parallel Courses II",
+      "slug": "parallel-courses-ii",
+      "difficulty": "Hard",
+      "acceptance": 29.855184736296277,
+      "likes": 1111,
+      "dislikes": 77
+    },
+    {
+      "position": 11,
+      "title": "Number of Squareful Arrays",
+      "slug": "number-of-squareful-arrays",
+      "difficulty": "Hard",
+      "acceptance": 50.773521875912174,
+      "likes": 1025,
+      "dislikes": 46
+    },
+    {
+      "position": 12,
+      "title": "Number of Ways to Wear Different Hats to Each Other",
+      "slug": "number-of-ways-to-wear-different-hats-to-each-other",
+      "difficulty": "Hard",
+      "acceptance": 44.956952416219224,
+      "likes": 942,
+      "dislikes": 11
+    },
+    {
+      "position": 13,
+      "title": "Closest Subsequence Sum",
+      "slug": "closest-subsequence-sum",
+      "difficulty": "Hard",
+      "acceptance": 42.42454728370221,
+      "likes": 986,
+      "dislikes": 72
+    },
+    {
+      "position": 14,
+      "title": "Maximum Students Taking Exam",
+      "slug": "maximum-students-taking-exam",
+      "difficulty": "Hard",
+      "acceptance": 52.75189464529755,
+      "likes": 873,
+      "dislikes": 19
+    },
+    {
+      "position": 15,
+      "title": "Minimum XOR Sum of Two Arrays",
+      "slug": "minimum-xor-sum-of-two-arrays",
+      "difficulty": "Hard",
+      "acceptance": 49.72794196095167,
+      "likes": 708,
+      "dislikes": 13
+    },
+    {
+      "position": 16,
+      "title": "Count Subtrees With Max Distance Between Cities",
+      "slug": "count-subtrees-with-max-distance-between-cities",
+      "difficulty": "Hard",
+      "acceptance": 66.68582650763999,
+      "likes": 567,
+      "dislikes": 44
+    },
+    {
+      "position": 17,
+      "title": "Maximum AND Sum of Array",
+      "slug": "maximum-and-sum-of-array",
+      "difficulty": "Hard",
+      "acceptance": 50.263852242744065,
+      "likes": 542,
+      "dislikes": 33
+    },
+    {
+      "position": 18,
+      "title": "The Number of Good Subsets",
+      "slug": "the-number-of-good-subsets",
+      "difficulty": "Hard",
+      "acceptance": 36.35093601564683,
+      "likes": 504,
+      "dislikes": 17
+    },
+    {
+      "position": 19,
+      "title": "Minimum Cost to Connect Two Groups of Points",
+      "slug": "minimum-cost-to-connect-two-groups-of-points",
+      "difficulty": "Hard",
+      "acceptance": 48.98862748502474,
+      "likes": 484,
+      "dislikes": 16
+    },
+    {
+      "position": 20,
+      "title": "Distribute Repeating Integers",
+      "slug": "distribute-repeating-integers",
+      "difficulty": "Hard",
+      "acceptance": 40.07948516209728,
+      "likes": 461,
+      "dislikes": 31
+    },
+    {
+      "position": 21,
+      "title": "Count Paths That Can Form a Palindrome in a Tree",
+      "slug": "count-paths-that-can-form-a-palindrome-in-a-tree",
+      "difficulty": "Hard",
+      "acceptance": 46.315954609632385,
+      "likes": 426,
+      "dislikes": 12
+    },
+    {
+      "position": 22,
+      "title": "Maximum Number of Groups Getting Fresh Donuts",
+      "slug": "maximum-number-of-groups-getting-fresh-donuts",
+      "difficulty": "Hard",
+      "acceptance": 40.9163367100324,
+      "likes": 353,
+      "dislikes": 33
+    },
+    {
+      "position": 23,
+      "title": "Maximize Grid Happiness",
+      "slug": "maximize-grid-happiness",
+      "difficulty": "Hard",
+      "acceptance": 40.24418336788758,
+      "likes": 340,
+      "dislikes": 55
+    },
+    {
+      "position": 24,
+      "title": "Select Cells in Grid With Maximum Score",
+      "slug": "select-cells-in-grid-with-maximum-score",
+      "difficulty": "Hard",
+      "acceptance": 14.766036566470406,
+      "likes": 218,
+      "dislikes": 6
+    },
+    {
+      "position": 25,
+      "title": "Minimum Incompatibility",
+      "slug": "minimum-incompatibility",
+      "difficulty": "Hard",
+      "acceptance": 40.47220817612509,
+      "likes": 291,
+      "dislikes": 100
+    },
+    {
+      "position": 26,
+      "title": "Find the Minimum Cost Array Permutation",
+      "slug": "find-the-minimum-cost-array-permutation",
+      "difficulty": "Hard",
+      "acceptance": 24.322056523894886,
+      "likes": 140,
+      "dislikes": 7
+    },
+    {
+      "position": 27,
+      "title": "Maximize the Number of Partitions After Operations",
+      "slug": "maximize-the-number-of-partitions-after-operations",
+      "difficulty": "Hard",
+      "acceptance": 28.156073001887982,
+      "likes": 153,
+      "dislikes": 30
+    },
+    {
+      "position": 28,
+      "title": "Maximum Number of Moves to Kill All Pawns",
+      "slug": "maximum-number-of-moves-to-kill-all-pawns",
+      "difficulty": "Hard",
+      "acceptance": 32.975118598121796,
+      "likes": 133,
+      "dislikes": 12
+    },
+    {
+      "position": 29,
+      "title": "Minimum Increments for Target Multiples in an Array",
+      "slug": "minimum-increments-for-target-multiples-in-an-array",
+      "difficulty": "Hard",
+      "acceptance": 26.128121606948966,
+      "likes": 86,
+      "dislikes": 7
+    },
+    {
+      "position": 30,
+      "title": "Longest Palindromic Path in Graph",
+      "slug": "longest-palindromic-path-in-graph",
+      "difficulty": "Hard",
+      "acceptance": 19.93321088662548,
+      "likes": 55,
+      "dislikes": 5
+    },
+    {
+      "position": 31,
+      "title": "Maximum Profit from Valid Topological Order in DAG",
+      "slug": "maximum-profit-from-valid-topological-order-in-dag",
+      "difficulty": "Hard",
+      "acceptance": 28.56812264969627,
+      "likes": 51,
+      "dislikes": 4
+    },
+    {
+      "position": 32,
+      "title": "Maximum Good Subtree Score",
+      "slug": "maximum-good-subtree-score",
+      "difficulty": "Hard",
+      "acceptance": 44.380622087352336,
+      "likes": 46,
+      "dislikes": 6
+    },
+    {
+      "position": 33,
+      "title": "Concatenated Divisibility",
+      "slug": "concatenated-divisibility",
+      "difficulty": "Hard",
+      "acceptance": 28.983575085324233,
+      "likes": 43,
+      "dislikes": 6
+    },
+    {
+      "position": 34,
+      "title": "Minimum Time to Transport All Individuals",
+      "slug": "minimum-time-to-transport-all-individuals",
+      "difficulty": "Hard",
+      "acceptance": 26.04001861330851,
+      "likes": 37,
+      "dislikes": 4
+    },
+    {
+      "position": 35,
+      "title": "Find Sum of Array Product of Magical Sequences",
+      "slug": "find-sum-of-array-product-of-magical-sequences",
+      "difficulty": "Hard",
+      "acceptance": 29.586830916821107,
+      "likes": 14,
+      "dislikes": 4
+    }
+  ]
+}

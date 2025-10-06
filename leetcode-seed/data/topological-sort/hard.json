@@ -1,0 +1,170 @@
+{
+  "frozen": true,
+  "createdAt": "2025-10-06T15:22:28.296Z",
+  "trackSlug": "topological-sort",
+  "difficulty": "HARD",
+  "questions": [
+    {
+      "position": 1,
+      "title": "Longest Increasing Path in a Matrix",
+      "slug": "longest-increasing-path-in-a-matrix",
+      "difficulty": "Hard",
+      "acceptance": 55.81674964802146,
+      "likes": 9350,
+      "dislikes": 146
+    },
+    {
+      "position": 2,
+      "title": "Largest Color Value in a Directed Graph",
+      "slug": "largest-color-value-in-a-directed-graph",
+      "difficulty": "Hard",
+      "acceptance": 57.45245255212793,
+      "likes": 2587,
+      "dislikes": 85
+    },
+    {
+      "position": 3,
+      "title": "Longest Cycle in a Graph",
+      "slug": "longest-cycle-in-a-graph",
+      "difficulty": "Hard",
+      "acceptance": 50.1518330815671,
+      "likes": 2491,
+      "dislikes": 51
+    },
+    {
+      "position": 4,
+      "title": "Longest Path With Different Adjacent Characters",
+      "slug": "longest-path-with-different-adjacent-characters",
+      "difficulty": "Hard",
+      "acceptance": 53.85627716226969,
+      "likes": 2500,
+      "dislikes": 61
+    },
+    {
+      "position": 5,
+      "title": "Number of Increasing Paths in a Grid",
+      "slug": "number-of-increasing-paths-in-a-grid",
+      "difficulty": "Hard",
+      "acceptance": 57.50621477987651,
+      "likes": 2087,
+      "dislikes": 45
+    },
+    {
+      "position": 6,
+      "title": "Parallel Courses III",
+      "slug": "parallel-courses-iii",
+      "difficulty": "Hard",
+      "acceptance": 66.79087219641845,
+      "likes": 1677,
+      "dislikes": 46
+    },
+    {
+      "position": 7,
+      "title": "Maximum Employees to Be Invited to a Meeting",
+      "slug": "maximum-employees-to-be-invited-to-a-meeting",
+      "difficulty": "Hard",
+      "acceptance": 61.912852288626816,
+      "likes": 1652,
+      "dislikes": 70
+    },
+    {
+      "position": 8,
+      "title": "Sort Items by Groups Respecting Dependencies",
+      "slug": "sort-items-by-groups-respecting-dependencies",
+      "difficulty": "Hard",
+      "acceptance": 65.64212507843547,
+      "likes": 1875,
+      "dislikes": 317
+    },
+    {
+      "position": 9,
+      "title": "Build a Matrix With Conditions",
+      "slug": "build-a-matrix-with-conditions",
+      "difficulty": "Hard",
+      "acceptance": 79.26688143120758,
+      "likes": 1480,
+      "dislikes": 56
+    },
+    {
+      "position": 10,
+      "title": "Rank Transform of a Matrix",
+      "slug": "rank-transform-of-a-matrix",
+      "difficulty": "Hard",
+      "acceptance": 41.687356837367254,
+      "likes": 924,
+      "dislikes": 58
+    },
+    {
+      "position": 11,
+      "title": "Cat and Mouse",
+      "slug": "cat-and-mouse",
+      "difficulty": "Hard",
+      "acceptance": 34.00167785234899,
+      "likes": 993,
+      "dislikes": 177
+    },
+    {
+      "position": 12,
+      "title": "Strange Printer II",
+      "slug": "strange-printer-ii",
+      "difficulty": "Hard",
+      "acceptance": 60.29729946309801,
+      "likes": 680,
+      "dislikes": 23
+    },
+    {
+      "position": 13,
+      "title": "Collect Coins in a Tree",
+      "slug": "collect-coins-in-a-tree",
+      "difficulty": "Hard",
+      "acceptance": 38.450361843024396,
+      "likes": 532,
+      "dislikes": 21
+    },
+    {
+      "position": 14,
+      "title": "Count Ways to Build Rooms in an Ant Colony",
+      "slug": "count-ways-to-build-rooms-in-an-ant-colony",
+      "difficulty": "Hard",
+      "acceptance": 49.30938527700481,
+      "likes": 514,
+      "dislikes": 56
+    },
+    {
+      "position": 15,
+      "title": "Cat and Mouse II",
+      "slug": "cat-and-mouse-ii",
+      "difficulty": "Hard",
+      "acceptance": 39.81745063485608,
+      "likes": 285,
+      "dislikes": 47
+    },
+    {
+      "position": 16,
+      "title": "Network Recovery Pathways",
+      "slug": "network-recovery-pathways",
+      "difficulty": "Hard",
+      "acceptance": 29.932378679395388,
+      "likes": 125,
+      "dislikes": 12
+    },
+    {
+      "position": 17,
+      "title": "Maximum Profit from Valid Topological Order in DAG",
+      "slug": "maximum-profit-from-valid-topological-order-in-dag",
+      "difficulty": "Hard",
+      "acceptance": 28.56812264969627,
+      "likes": 51,
+      "dislikes": 4
+    },
+    {
+      "position": 18,
+      "title": "Frequencies of Shortest Supersequences",
+      "slug": "frequencies-of-shortest-supersequences",
+      "difficulty": "Hard",
+      "acceptance": 17.224108658743635,
+      "likes": 25,
+      "dislikes": 8
+    }
+  ]
+}

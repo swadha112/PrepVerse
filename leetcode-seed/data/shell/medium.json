@@ -1,0 +1,26 @@
+{
+  "frozen": true,
+  "createdAt": "2025-10-06T15:23:31.956Z",
+  "trackSlug": "shell",
+  "difficulty": "MEDIUM",
+  "questions": [
+    {
+      "position": 1,
+      "title": "Word Frequency",
+      "slug": "word-frequency",
+      "difficulty": "Medium",
+      "acceptance": 27.691634209406608,
+      "likes": 573,
+      "dislikes": 310
+    },
+    {
+      "position": 2,
+      "title": "Transpose File",
+      "slug": "transpose-file",
+      "difficulty": "Medium",
+      "acceptance": 29.329297564706554,
+      "likes": 162,
+      "dislikes": 289
+    }
+  ]
+}

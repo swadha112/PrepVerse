@@ -1,0 +1,80 @@
+{
+  "frozen": true,
+  "createdAt": "2025-10-06T15:22:00.510Z",
+  "trackSlug": "binary-indexed-tree",
+  "difficulty": "MEDIUM",
+  "questions": [
+    {
+      "position": 1,
+      "title": "Number of Longest Increasing Subsequence",
+      "slug": "number-of-longest-increasing-subsequence",
+      "difficulty": "Medium",
+      "acceptance": 50.695598006644516,
+      "likes": 7180,
+      "dislikes": 283
+    },
+    {
+      "position": 2,
+      "title": "Queue Reconstruction by Height",
+      "slug": "queue-reconstruction-by-height",
+      "difficulty": "Medium",
+      "acceptance": 74.35994978506486,
+      "likes": 7205,
+      "dislikes": 748
+    },
+    {
+      "position": 3,
+      "title": "Range Sum Query - Mutable",
+      "slug": "range-sum-query-mutable",
+      "difficulty": "Medium",
+      "acceptance": 42.088029481398266,
+      "likes": 5026,
+      "dislikes": 264
+    },
+    {
+      "position": 4,
+      "title": "Count Number of Teams",
+      "slug": "count-number-of-teams",
+      "difficulty": "Medium",
+      "acceptance": 70.11747971918186,
+      "likes": 3424,
+      "dislikes": 235
+    },
+    {
+      "position": 5,
+      "title": "Count Number of Rectangles Containing Each Point",
+      "slug": "count-number-of-rectangles-containing-each-point",
+      "difficulty": "Medium",
+      "acceptance": 36.500833701977065,
+      "likes": 538,
+      "dislikes": 140
+    },
+    {
+      "position": 6,
+      "title": "Longest Uploaded Prefix",
+      "slug": "longest-uploaded-prefix",
+      "difficulty": "Medium",
+      "acceptance": 54.2930371636053,
+      "likes": 384,
+      "dislikes": 32
+    },
+    {
+      "position": 7,
+      "title": "Maximum Area Rectangle With Point Constraints I",
+      "slug": "maximum-area-rectangle-with-point-constraints-i",
+      "difficulty": "Medium",
+      "acceptance": 50.41420532000419,
+      "likes": 71,
+      "dislikes": 20
+    },
+    {
+      "position": 8,
+      "title": "Queries on a Permutation With Key",
+      "slug": "queries-on-a-permutation-with-key",
+      "difficulty": "Medium",
+      "acceptance": 84.65132246701296,
+      "likes": 512,
+      "dislikes": 642
+    }
+  ]
+}

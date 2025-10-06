@@ -1,0 +1,35 @@
+{
+  "frozen": true,
+  "createdAt": "2025-10-06T15:21:32.152Z",
+  "trackSlug": "combinatorics",
+  "difficulty": "EASY",
+  "questions": [
+    {
+      "position": 1,
+      "title": "Sum of All Subset XOR Totals",
+      "slug": "sum-of-all-subset-xor-totals",
+      "difficulty": "Easy",
+      "acceptance": 90.06729214889127,
+      "likes": 2636,
+      "dislikes": 341
+    },
+    {
+      "position": 2,
+      "title": "Distribute Candies Among Children I",
+      "slug": "distribute-candies-among-children-i",
+      "difficulty": "Easy",
+      "acceptance": 75.55104351730736,
+      "likes": 148,
+      "dislikes": 67
+    },
+    {
+      "position": 3,
+      "title": "Check If Digits Are Equal in String After Operations I",
+      "slug": "check-if-digits-are-equal-in-string-after-operations-i",
+      "difficulty": "Easy",
+      "acceptance": 77.90992118815262,
+      "likes": 67,
+      "dislikes": 1
+    }
+  ]
+}

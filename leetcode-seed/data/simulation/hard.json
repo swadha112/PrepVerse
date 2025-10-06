@@ -1,0 +1,107 @@
+{
+  "frozen": true,
+  "createdAt": "2025-10-06T15:20:00.452Z",
+  "trackSlug": "simulation",
+  "difficulty": "HARD",
+  "questions": [
+    {
+      "position": 1,
+      "title": "Meeting Rooms III",
+      "slug": "meeting-rooms-iii",
+      "difficulty": "Hard",
+      "acceptance": 48.8799041029781,
+      "likes": 2168,
+      "dislikes": 132
+    },
+    {
+      "position": 2,
+      "title": "Robot Collisions",
+      "slug": "robot-collisions",
+      "difficulty": "Hard",
+      "acceptance": 56.08729706982696,
+      "likes": 1173,
+      "dislikes": 98
+    },
+    {
+      "position": 3,
+      "title": "Design a Text Editor",
+      "slug": "design-a-text-editor",
+      "difficulty": "Hard",
+      "acceptance": 48.45886970382972,
+      "likes": 627,
+      "dislikes": 228
+    },
+    {
+      "position": 4,
+      "title": "Final Array State After K Multiplication Operations II",
+      "slug": "final-array-state-after-k-multiplication-operations-ii",
+      "difficulty": "Hard",
+      "acceptance": 12.022758438184136,
+      "likes": 172,
+      "dislikes": 23
+    },
+    {
+      "position": 5,
+      "title": "Distribute Elements Into Two Arrays II",
+      "slug": "distribute-elements-into-two-arrays-ii",
+      "difficulty": "Hard",
+      "acceptance": 29.70279086625589,
+      "likes": 151,
+      "dislikes": 14
+    },
+    {
+      "position": 6,
+      "title": "Process String with Special Operations II",
+      "slug": "process-string-with-special-operations-ii",
+      "difficulty": "Hard",
+      "acceptance": 16.07049047232437,
+      "likes": 87,
+      "dislikes": 8
+    },
+    {
+      "position": 7,
+      "title": "Minimum Pair Removal to Sort Array II",
+      "slug": "minimum-pair-removal-to-sort-array-ii",
+      "difficulty": "Hard",
+      "acceptance": 14.401787527930123,
+      "likes": 44,
+      "dislikes": 6
+    },
+    {
+      "position": 8,
+      "title": "Contain Virus",
+      "slug": "contain-virus",
+      "difficulty": "Hard",
+      "acceptance": 53.41600901916572,
+      "likes": 425,
+      "dislikes": 465
+    },
+    {
+      "position": 9,
+      "title": "Time to Cross a Bridge",
+      "slug": "time-to-cross-a-bridge",
+      "difficulty": "Hard",
+      "acceptance": 44.09442409442409,
+      "likes": 123,
+      "dislikes": 225
+    },
+    {
+      "position": 10,
+      "title": "Number of Valid Move Combinations On Chessboard",
+      "slug": "number-of-valid-move-combinations-on-chessboard",
+      "difficulty": "Hard",
+      "acceptance": 48.30237027546445,
+      "likes": 70,
+      "dislikes": 296
+    },
+    {
+      "position": 11,
+      "title": "Text Justification",
+      "slug": "text-justification",
+      "difficulty": "Hard",
+      "acceptance": 49.25063999508699,
+      "likes": 4339,
+      "dislikes": 5245
+    }
+  ]
+}

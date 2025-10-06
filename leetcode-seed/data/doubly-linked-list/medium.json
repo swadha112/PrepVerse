@@ -1,0 +1,44 @@
+{
+  "frozen": true,
+  "createdAt": "2025-10-06T15:22:53.451Z",
+  "trackSlug": "doubly-linked-list",
+  "difficulty": "MEDIUM",
+  "questions": [
+    {
+      "position": 1,
+      "title": "LRU Cache",
+      "slug": "lru-cache",
+      "difficulty": "Medium",
+      "acceptance": 46.013173947213545,
+      "likes": 22442,
+      "dislikes": 1181
+    },
+    {
+      "position": 2,
+      "title": "Flatten a Multilevel Doubly Linked List",
+      "slug": "flatten-a-multilevel-doubly-linked-list",
+      "difficulty": "Medium",
+      "acceptance": 61.88847037833217,
+      "likes": 5336,
+      "dislikes": 343
+    },
+    {
+      "position": 3,
+      "title": "Design Browser History",
+      "slug": "design-browser-history",
+      "difficulty": "Medium",
+      "acceptance": 77.97312678155942,
+      "likes": 4070,
+      "dislikes": 261
+    },
+    {
+      "position": 4,
+      "title": "Design Authentication Manager",
+      "slug": "design-authentication-manager",
+      "difficulty": "Medium",
+      "acceptance": 58.0958809860709,
+      "likes": 407,
+      "dislikes": 54
+    }
+  ]
+}

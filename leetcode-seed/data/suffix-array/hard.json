@@ -1,0 +1,53 @@
+{
+  "frozen": true,
+  "createdAt": "2025-10-06T15:23:19.632Z",
+  "trackSlug": "suffix-array",
+  "difficulty": "HARD",
+  "questions": [
+    {
+      "position": 1,
+      "title": "Longest Duplicate Substring",
+      "slug": "longest-duplicate-substring",
+      "difficulty": "Hard",
+      "acceptance": 30.90434002813983,
+      "likes": 2313,
+      "dislikes": 393
+    },
+    {
+      "position": 2,
+      "title": "Number of Ways to Separate Numbers",
+      "slug": "number-of-ways-to-separate-numbers",
+      "difficulty": "Hard",
+      "acceptance": 21.1198928332217,
+      "likes": 532,
+      "dislikes": 60
+    },
+    {
+      "position": 3,
+      "title": "Longest Common Subpath",
+      "slug": "longest-common-subpath",
+      "difficulty": "Hard",
+      "acceptance": 28.779016633156644,
+      "likes": 508,
+      "dislikes": 39
+    },
+    {
+      "position": 4,
+      "title": "Construct String with Minimum Cost",
+      "slug": "construct-string-with-minimum-cost",
+      "difficulty": "Hard",
+      "acceptance": 18.981682242990654,
+      "likes": 168,
+      "dislikes": 28
+    },
+    {
+      "position": 5,
+      "title": "Sum of Scores of Built Strings",
+      "slug": "sum-of-scores-of-built-strings",
+      "difficulty": "Hard",
+      "acceptance": 43.12070282658518,
+      "likes": 287,
+      "dislikes": 186
+    }
+  ]
+}

@@ -1,0 +1,143 @@
+{
+  "frozen": true,
+  "createdAt": "2025-10-06T15:22:23.275Z",
+  "trackSlug": "string-matching",
+  "difficulty": "HARD",
+  "questions": [
+    {
+      "position": 1,
+      "title": "Shortest Palindrome",
+      "slug": "shortest-palindrome",
+      "difficulty": "Hard",
+      "acceptance": 41.172299812018224,
+      "likes": 4467,
+      "dislikes": 288
+    },
+    {
+      "position": 2,
+      "title": "Longest Happy Prefix",
+      "slug": "longest-happy-prefix",
+      "difficulty": "Hard",
+      "acceptance": 50.130541636079286,
+      "likes": 1526,
+      "dislikes": 46
+    },
+    {
+      "position": 3,
+      "title": "Maximum Deletions on a String",
+      "slug": "maximum-deletions-on-a-string",
+      "difficulty": "Hard",
+      "acceptance": 35.12400221966108,
+      "likes": 516,
+      "dislikes": 61
+    },
+    {
+      "position": 4,
+      "title": "Find All Good Strings",
+      "slug": "find-all-good-strings",
+      "difficulty": "Hard",
+      "acceptance": 44.402188069809846,
+      "likes": 521,
+      "dislikes": 131
+    },
+    {
+      "position": 5,
+      "title": "Match Substring After Replacement",
+      "slug": "match-substring-after-replacement",
+      "difficulty": "Hard",
+      "acceptance": 42.663628624367774,
+      "likes": 390,
+      "dislikes": 80
+    },
+    {
+      "position": 6,
+      "title": "Count Prefix and Suffix Pairs II",
+      "slug": "count-prefix-and-suffix-pairs-ii",
+      "difficulty": "Hard",
+      "acceptance": 27.562597102287096,
+      "likes": 242,
+      "dislikes": 11
+    },
+    {
+      "position": 7,
+      "title": "Find Beautiful Indices in the Given Array II",
+      "slug": "find-beautiful-indices-in-the-given-array-ii",
+      "difficulty": "Hard",
+      "acceptance": 27.0398288682897,
+      "likes": 202,
+      "dislikes": 15
+    },
+    {
+      "position": 8,
+      "title": "Number of Subarrays That Match a Pattern II",
+      "slug": "number-of-subarrays-that-match-a-pattern-ii",
+      "difficulty": "Hard",
+      "acceptance": 32.78147326927815,
+      "likes": 166,
+      "dislikes": 5
+    },
+    {
+      "position": 9,
+      "title": "String Transformation",
+      "slug": "string-transformation",
+      "difficulty": "Hard",
+      "acceptance": 25.609856262833674,
+      "likes": 182,
+      "dislikes": 47
+    },
+    {
+      "position": 10,
+      "title": "Minimum Time to Revert Word to Initial State II",
+      "slug": "minimum-time-to-revert-word-to-initial-state-ii",
+      "difficulty": "Hard",
+      "acceptance": 34.650341163461796,
+      "likes": 153,
+      "dislikes": 22
+    },
+    {
+      "position": 11,
+      "title": "Sum of Scores of Built Strings",
+      "slug": "sum-of-scores-of-built-strings",
+      "difficulty": "Hard",
+      "acceptance": 43.12070282658518,
+      "likes": 287,
+      "dislikes": 186
+    },
+    {
+      "position": 12,
+      "title": "Minimum Number of Valid Strings to Form Target II",
+      "slug": "minimum-number-of-valid-strings-to-form-target-ii",
+      "difficulty": "Hard",
+      "acceptance": 18.629229434497987,
+      "likes": 79,
+      "dislikes": 11
+    },
+    {
+      "position": 13,
+      "title": "Find the Occurrence of First Almost Equal Substring",
+      "slug": "find-the-occurrence-of-first-almost-equal-substring",
+      "difficulty": "Hard",
+      "acceptance": 14.385273620137031,
+      "likes": 70,
+      "dislikes": 8
+    },
+    {
+      "position": 14,
+      "title": "Shortest Matching Substring",
+      "slug": "shortest-matching-substring",
+      "difficulty": "Hard",
+      "acceptance": 22.492233887774763,
+      "likes": 43,
+      "dislikes": 3
+    },
+    {
+      "position": 15,
+      "title": "Lexicographically Smallest Generated String",
+      "slug": "lexicographically-smallest-generated-string",
+      "difficulty": "Hard",
+      "acceptance": 30.31944358958577,
+      "likes": 29,
+      "dislikes": 8
+    }
+  ]
+}

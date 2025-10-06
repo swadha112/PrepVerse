@@ -1,0 +1,26 @@
+{
+  "frozen": true,
+  "createdAt": "2025-10-06T15:23:00.075Z",
+  "trackSlug": "merge-sort",
+  "difficulty": "MEDIUM",
+  "questions": [
+    {
+      "position": 1,
+      "title": "Sort List",
+      "slug": "sort-list",
+      "difficulty": "Medium",
+      "acceptance": 62.92089643389316,
+      "likes": 12647,
+      "dislikes": 401
+    },
+    {
+      "position": 2,
+      "title": "Sort an Array",
+      "slug": "sort-an-array",
+      "difficulty": "Medium",
+      "acceptance": 56.16461511935712,
+      "likes": 6974,
+      "dislikes": 833
+    }
+  ]
+}

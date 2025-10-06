@@ -1,0 +1,71 @@
+{
+  "frozen": true,
+  "createdAt": "2025-10-06T15:18:53.205Z",
+  "trackSlug": "database",
+  "difficulty": "HARD",
+  "questions": [
+    {
+      "position": 1,
+      "title": "Department Top Three Salaries",
+      "slug": "department-top-three-salaries",
+      "difficulty": "Hard",
+      "acceptance": 58.82398767832685,
+      "likes": 2437,
+      "dislikes": 271
+    },
+    {
+      "position": 2,
+      "title": "Trips and Users",
+      "slug": "trips-and-users",
+      "difficulty": "Hard",
+      "acceptance": 37.135054863941505,
+      "likes": 1372,
+      "dislikes": 699
+    },
+    {
+      "position": 3,
+      "title": "Human Traffic of Stadium",
+      "slug": "human-traffic-of-stadium",
+      "difficulty": "Hard",
+      "acceptance": 49.964641616305165,
+      "likes": 786,
+      "dislikes": 574
+    },
+    {
+      "position": 4,
+      "title": "Analyze Organization Hierarchy",
+      "slug": "analyze-organization-hierarchy",
+      "difficulty": "Hard",
+      "acceptance": 58.539962240402765,
+      "likes": 40,
+      "dislikes": 3
+    },
+    {
+      "position": 5,
+      "title": "Find Category Recommendation Pairs",
+      "slug": "find-category-recommendation-pairs",
+      "difficulty": "Hard",
+      "acceptance": 63.983664866289025,
+      "likes": 24,
+      "dislikes": 3
+    },
+    {
+      "position": 6,
+      "title": "Find Invalid IP Addresses",
+      "slug": "find-invalid-ip-addresses",
+      "difficulty": "Hard",
+      "acceptance": 54.02712851559507,
+      "likes": 26,
+      "dislikes": 7
+    },
+    {
+      "position": 7,
+      "title": "First Letter Capitalization II",
+      "slug": "first-letter-capitalization-ii",
+      "difficulty": "Hard",
+      "acceptance": 64.7107438016529,
+      "likes": 22,
+      "dislikes": 8
+    }
+  ]
+}

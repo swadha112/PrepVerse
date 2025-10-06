@@ -1,0 +1,143 @@
+{
+  "frozen": true,
+  "createdAt": "2025-10-06T15:19:46.031Z",
+  "trackSlug": "heap-priority-queue",
+  "difficulty": "EASY",
+  "questions": [
+    {
+      "position": 1,
+      "title": "Last Stone Weight",
+      "slug": "last-stone-weight",
+      "difficulty": "Easy",
+      "acceptance": 66.1081483051962,
+      "likes": 6481,
+      "dislikes": 152
+    },
+    {
+      "position": 2,
+      "title": "The K Weakest Rows in a Matrix",
+      "slug": "the-k-weakest-rows-in-a-matrix",
+      "difficulty": "Easy",
+      "acceptance": 74.13703152295827,
+      "likes": 4304,
+      "dislikes": 241
+    },
+    {
+      "position": 3,
+      "title": "Maximum Product of Two Elements in an Array",
+      "slug": "maximum-product-of-two-elements-in-an-array",
+      "difficulty": "Easy",
+      "acceptance": 83.41989474905043,
+      "likes": 2583,
+      "dislikes": 239
+    },
+    {
+      "position": 4,
+      "title": "Kth Largest Element in a Stream",
+      "slug": "kth-largest-element-in-a-stream",
+      "difficulty": "Easy",
+      "acceptance": 60.30130774657364,
+      "likes": 6259,
+      "dislikes": 3999
+    },
+    {
+      "position": 5,
+      "title": "Relative Ranks",
+      "slug": "relative-ranks",
+      "difficulty": "Easy",
+      "acceptance": 73.84653406115336,
+      "likes": 2107,
+      "dislikes": 146
+    },
+    {
+      "position": 6,
+      "title": "Find Subsequence of Length K With the Largest Sum",
+      "slug": "find-subsequence-of-length-k-with-the-largest-sum",
+      "difficulty": "Easy",
+      "acceptance": 57.47122193509414,
+      "likes": 1728,
+      "dislikes": 179
+    },
+    {
+      "position": 7,
+      "title": "Make Array Zero by Subtracting Equal Amounts",
+      "slug": "make-array-zero-by-subtracting-equal-amounts",
+      "difficulty": "Easy",
+      "acceptance": 73.64995221069772,
+      "likes": 1291,
+      "dislikes": 61
+    },
+    {
+      "position": 8,
+      "title": "Take Gifts From the Richest Pile",
+      "slug": "take-gifts-from-the-richest-pile",
+      "difficulty": "Easy",
+      "acceptance": 75.56527414104595,
+      "likes": 833,
+      "dislikes": 81
+    },
+    {
+      "position": 9,
+      "title": "Minimum Amount of Time to Fill Cups",
+      "slug": "minimum-amount-of-time-to-fill-cups",
+      "difficulty": "Easy",
+      "acceptance": 59.483933694916544,
+      "likes": 753,
+      "dislikes": 90
+    },
+    {
+      "position": 10,
+      "title": "Delete Greatest Value in Each Row",
+      "slug": "delete-greatest-value-in-each-row",
+      "difficulty": "Easy",
+      "acceptance": 79.38676296317033,
+      "likes": 691,
+      "dislikes": 53
+    },
+    {
+      "position": 11,
+      "title": "Final Array State After K Multiplication Operations I",
+      "slug": "final-array-state-after-k-multiplication-operations-i",
+      "difficulty": "Easy",
+      "acceptance": 86.99876750700281,
+      "likes": 519,
+      "dislikes": 13
+    },
+    {
+      "position": 12,
+      "title": "Largest Number After Digit Swaps by Parity",
+      "slug": "largest-number-after-digit-swaps-by-parity",
+      "difficulty": "Easy",
+      "acceptance": 64.34205808533524,
+      "likes": 675,
+      "dislikes": 309
+    },
+    {
+      "position": 13,
+      "title": "Minimum Number Game",
+      "slug": "minimum-number-game",
+      "difficulty": "Easy",
+      "acceptance": 85.1585604140262,
+      "likes": 299,
+      "dislikes": 21
+    },
+    {
+      "position": 14,
+      "title": "Minimum Pair Removal to Sort Array I",
+      "slug": "minimum-pair-removal-to-sort-array-i",
+      "difficulty": "Easy",
+      "acceptance": 55.58812643422903,
+      "likes": 96,
+      "dislikes": 23
+    },
+    {
+      "position": 15,
+      "title": "Find X-Sum of All K-Long Subarrays I",
+      "slug": "find-x-sum-of-all-k-long-subarrays-i",
+      "difficulty": "Easy",
+      "acceptance": 63.92762909913306,
+      "likes": 129,
+      "dislikes": 104
+    }
+  ]
+}

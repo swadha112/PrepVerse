@@ -1,0 +1,26 @@
+{
+  "frozen": true,
+  "createdAt": "2025-10-06T15:23:26.050Z",
+  "trackSlug": "minimum-spanning-tree",
+  "difficulty": "HARD",
+  "questions": [
+    {
+      "position": 1,
+      "title": "Find Critical and Pseudo-Critical Edges in Minimum Spanning Tree",
+      "slug": "find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree",
+      "difficulty": "Hard",
+      "acceptance": 66.20178601583375,
+      "likes": 1963,
+      "dislikes": 166
+    },
+    {
+      "position": 2,
+      "title": "Maximize Spanning Tree Stability with Upgrades",
+      "slug": "maximize-spanning-tree-stability-with-upgrades",
+      "difficulty": "Hard",
+      "acceptance": 38.55834527443773,
+      "likes": 60,
+      "dislikes": 3
+    }
+  ]
+}

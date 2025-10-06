@@ -1,0 +1,296 @@
+{
+  "frozen": true,
+  "createdAt": "2025-10-06T15:21:11.668Z",
+  "trackSlug": "number-theory",
+  "difficulty": "MEDIUM",
+  "questions": [
+    {
+      "position": 1,
+      "title": "Count Primes",
+      "slug": "count-primes",
+      "difficulty": "Medium",
+      "acceptance": 35.32541085021818,
+      "likes": 8594,
+      "dislikes": 1549
+    },
+    {
+      "position": 2,
+      "title": "The kth Factor of n",
+      "slug": "the-kth-factor-of-n",
+      "difficulty": "Medium",
+      "acceptance": 69.7976346693341,
+      "likes": 1902,
+      "dislikes": 312
+    },
+    {
+      "position": 3,
+      "title": "Insert Greatest Common Divisors in Linked List",
+      "slug": "insert-greatest-common-divisors-in-linked-list",
+      "difficulty": "Medium",
+      "acceptance": 91.4648620580361,
+      "likes": 1114,
+      "dislikes": 36
+    },
+    {
+      "position": 4,
+      "title": "Prime Subtraction Operation",
+      "slug": "prime-subtraction-operation",
+      "difficulty": "Medium",
+      "acceptance": 55.562137967351234,
+      "likes": 934,
+      "dislikes": 96
+    },
+    {
+      "position": 5,
+      "title": "Closest Prime Numbers in Range",
+      "slug": "closest-prime-numbers-in-range",
+      "difficulty": "Medium",
+      "acceptance": 51.5030279856726,
+      "likes": 911,
+      "dislikes": 76
+    },
+    {
+      "position": 6,
+      "title": "Ugly Number III",
+      "slug": "ugly-number-iii",
+      "difficulty": "Medium",
+      "acceptance": 30.809121531711693,
+      "likes": 1298,
+      "dislikes": 516
+    },
+    {
+      "position": 7,
+      "title": "Number of Pairs of Interchangeable Rectangles",
+      "slug": "number-of-pairs-of-interchangeable-rectangles",
+      "difficulty": "Medium",
+      "acceptance": 51.7939714883248,
+      "likes": 568,
+      "dislikes": 49
+    },
+    {
+      "position": 8,
+      "title": "Distinct Prime Factors of Product of Array",
+      "slug": "distinct-prime-factors-of-product-of-array",
+      "difficulty": "Medium",
+      "acceptance": 53.59326450836925,
+      "likes": 527,
+      "dislikes": 12
+    },
+    {
+      "position": 9,
+      "title": "Make K-Subarray Sums Equal",
+      "slug": "make-k-subarray-sums-equal",
+      "difficulty": "Medium",
+      "acceptance": 37.42230760537914,
+      "likes": 509,
+      "dislikes": 89
+    },
+    {
+      "position": 10,
+      "title": "Minimize the Maximum of Two Arrays",
+      "slug": "minimize-the-maximum-of-two-arrays",
+      "difficulty": "Medium",
+      "acceptance": 31.53133318655805,
+      "likes": 515,
+      "dislikes": 101
+    },
+    {
+      "position": 11,
+      "title": "Smallest Value After Replacing With Sum of Prime Factors",
+      "slug": "smallest-value-after-replacing-with-sum-of-prime-factors",
+      "difficulty": "Medium",
+      "acceptance": 49.431621892838926,
+      "likes": 437,
+      "dislikes": 29
+    },
+    {
+      "position": 12,
+      "title": "Simplified Fractions",
+      "slug": "simplified-fractions",
+      "difficulty": "Medium",
+      "acceptance": 68.91869785702602,
+      "likes": 439,
+      "dislikes": 46
+    },
+    {
+      "position": 13,
+      "title": "Number of Subarrays With GCD Equal to K",
+      "slug": "number-of-subarrays-with-gcd-equal-to-k",
+      "difficulty": "Medium",
+      "acceptance": 51.68191735321893,
+      "likes": 460,
+      "dislikes": 71
+    },
+    {
+      "position": 14,
+      "title": "Minimum Number of Operations to Make All Array Elements Equal to 1",
+      "slug": "minimum-number-of-operations-to-make-all-array-elements-equal-to-1",
+      "difficulty": "Medium",
+      "acceptance": 33.91878057103857,
+      "likes": 406,
+      "dislikes": 24
+    },
+    {
+      "position": 15,
+      "title": "Prime Pairs With Target Sum",
+      "slug": "prime-pairs-with-target-sum",
+      "difficulty": "Medium",
+      "acceptance": 36.29557959754107,
+      "likes": 399,
+      "dislikes": 34
+    },
+    {
+      "position": 16,
+      "title": "Number of Subarrays With LCM Equal to K",
+      "slug": "number-of-subarrays-with-lcm-equal-to-k",
+      "difficulty": "Medium",
+      "acceptance": 41.78572467774318,
+      "likes": 378,
+      "dislikes": 41
+    },
+    {
+      "position": 17,
+      "title": "Find the Count of Numbers Which Are Not Special",
+      "slug": "find-the-count-of-numbers-which-are-not-special",
+      "difficulty": "Medium",
+      "acceptance": 27.202846547660155,
+      "likes": 191,
+      "dislikes": 26
+    },
+    {
+      "position": 18,
+      "title": "Count Beautiful Substrings I",
+      "slug": "count-beautiful-substrings-i",
+      "difficulty": "Medium",
+      "acceptance": 60.2305013289341,
+      "likes": 164,
+      "dislikes": 15
+    },
+    {
+      "position": 19,
+      "title": "Minimize Length of Array Using Operations",
+      "slug": "minimize-length-of-array-using-operations",
+      "difficulty": "Medium",
+      "acceptance": 35.25716111170269,
+      "likes": 189,
+      "dislikes": 43
+    },
+    {
+      "position": 20,
+      "title": "Minimum Division Operations to Make Array Non Decreasing",
+      "slug": "minimum-division-operations-to-make-array-non-decreasing",
+      "difficulty": "Medium",
+      "acceptance": 28.789480307034097,
+      "likes": 132,
+      "dislikes": 28
+    },
+    {
+      "position": 21,
+      "title": "Maximum Prime Difference",
+      "slug": "maximum-prime-difference",
+      "difficulty": "Medium",
+      "acceptance": 57.81673997893563,
+      "likes": 117,
+      "dislikes": 16
+    },
+    {
+      "position": 22,
+      "title": "Balanced K-Factor Decomposition",
+      "slug": "balanced-k-factor-decomposition",
+      "difficulty": "Medium",
+      "acceptance": 31.350546975546976,
+      "likes": 106,
+      "dislikes": 10
+    },
+    {
+      "position": 23,
+      "title": "Minimum Jumps to Reach End via Prime Teleportation",
+      "slug": "minimum-jumps-to-reach-end-via-prime-teleportation",
+      "difficulty": "Medium",
+      "acceptance": 21.26644851354174,
+      "likes": 111,
+      "dislikes": 16
+    },
+    {
+      "position": 24,
+      "title": "Digit Operations to Make Two Integers Equal",
+      "slug": "digit-operations-to-make-two-integers-equal",
+      "difficulty": "Medium",
+      "acceptance": 28.58847709341643,
+      "likes": 127,
+      "dislikes": 39
+    },
+    {
+      "position": 25,
+      "title": "Find the Maximum Factor Score of Array",
+      "slug": "find-the-maximum-factor-score-of-array",
+      "difficulty": "Medium",
+      "acceptance": 40.70889814863653,
+      "likes": 83,
+      "dislikes": 13
+    },
+    {
+      "position": 26,
+      "title": "Count Prime-Gap Balanced Subarrays",
+      "slug": "count-prime-gap-balanced-subarrays",
+      "difficulty": "Medium",
+      "acceptance": 19.919231995465655,
+      "likes": 72,
+      "dislikes": 4
+    },
+    {
+      "position": 27,
+      "title": "Split Array by Prime Indices",
+      "slug": "split-array-by-prime-indices",
+      "difficulty": "Medium",
+      "acceptance": 49.103796184088154,
+      "likes": 46,
+      "dislikes": 3
+    },
+    {
+      "position": 28,
+      "title": "Sum of Largest Prime Substrings",
+      "slug": "sum-of-largest-prime-substrings",
+      "difficulty": "Medium",
+      "acceptance": 37.4774397318551,
+      "likes": 51,
+      "dislikes": 9
+    },
+    {
+      "position": 29,
+      "title": "Most Frequent Prime",
+      "slug": "most-frequent-prime",
+      "difficulty": "Medium",
+      "acceptance": 45.33282713237155,
+      "likes": 100,
+      "dislikes": 70
+    },
+    {
+      "position": 30,
+      "title": "Minimum Lines to Represent a Line Chart",
+      "slug": "minimum-lines-to-represent-a-line-chart",
+      "difficulty": "Medium",
+      "acceptance": 26.406376841632557,
+      "likes": 361,
+      "dislikes": 532
+    },
+    {
+      "position": 31,
+      "title": "Prime Palindrome",
+      "slug": "prime-palindrome",
+      "difficulty": "Medium",
+      "acceptance": 27.56584314537241,
+      "likes": 502,
+      "dislikes": 842
+    },
+    {
+      "position": 32,
+      "title": "Mirror Reflection",
+      "slug": "mirror-reflection",
+      "difficulty": "Medium",
+      "acceptance": 61.94446876185474,
+      "likes": 1139,
+      "dislikes": 2558
+    }
+  ]
+}

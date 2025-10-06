@@ -1,0 +1,368 @@
+{
+  "frozen": true,
+  "createdAt": "2025-10-06T15:17:45.735Z",
+  "trackSlug": "dynamic-programming",
+  "difficulty": "HARD",
+  "questions": [
+    {
+      "position": 1,
+      "title": "Trapping Rain Water",
+      "slug": "trapping-rain-water",
+      "difficulty": "Hard",
+      "acceptance": 65.98705987292381,
+      "likes": 35163,
+      "dislikes": 645
+    },
+    {
+      "position": 2,
+      "title": "Binary Tree Maximum Path Sum",
+      "slug": "binary-tree-maximum-path-sum",
+      "difficulty": "Hard",
+      "acceptance": 41.61477344371175,
+      "likes": 17992,
+      "dislikes": 779
+    },
+    {
+      "position": 3,
+      "title": "Longest Valid Parentheses",
+      "slug": "longest-valid-parentheses",
+      "difficulty": "Hard",
+      "acceptance": 37.10530183424798,
+      "likes": 13041,
+      "dislikes": 455
+    },
+    {
+      "position": 4,
+      "title": "Maximal Rectangle",
+      "slug": "maximal-rectangle",
+      "difficulty": "Hard",
+      "acceptance": 54.96078724957514,
+      "likes": 11445,
+      "dislikes": 211
+    },
+    {
+      "position": 5,
+      "title": "Regular Expression Matching",
+      "slug": "regular-expression-matching",
+      "difficulty": "Hard",
+      "acceptance": 29.741146663487317,
+      "likes": 13003,
+      "dislikes": 2343
+    },
+    {
+      "position": 6,
+      "title": "Split Array Largest Sum",
+      "slug": "split-array-largest-sum",
+      "difficulty": "Hard",
+      "acceptance": 59.032768263320094,
+      "likes": 10902,
+      "dislikes": 260
+    },
+    {
+      "position": 7,
+      "title": "Best Time to Buy and Sell Stock III",
+      "slug": "best-time-to-buy-and-sell-stock-iii",
+      "difficulty": "Hard",
+      "acceptance": 52.25253545764224,
+      "likes": 10377,
+      "dislikes": 218
+    },
+    {
+      "position": 8,
+      "title": "Burst Balloons",
+      "slug": "burst-balloons",
+      "difficulty": "Hard",
+      "acceptance": 62.24238086363003,
+      "likes": 9572,
+      "dislikes": 278
+    },
+    {
+      "position": 9,
+      "title": "Longest Increasing Path in a Matrix",
+      "slug": "longest-increasing-path-in-a-matrix",
+      "difficulty": "Hard",
+      "acceptance": 55.81674964802146,
+      "likes": 9350,
+      "dislikes": 146
+    },
+    {
+      "position": 10,
+      "title": "Wildcard Matching",
+      "slug": "wildcard-matching",
+      "difficulty": "Hard",
+      "acceptance": 30.620078697763077,
+      "likes": 8909,
+      "dislikes": 399
+    },
+    {
+      "position": 11,
+      "title": "Best Time to Buy and Sell Stock IV",
+      "slug": "best-time-to-buy-and-sell-stock-iv",
+      "difficulty": "Hard",
+      "acceptance": 48.427047157911744,
+      "likes": 7879,
+      "dislikes": 223
+    },
+    {
+      "position": 12,
+      "title": "Maximum Profit in Job Scheduling",
+      "slug": "maximum-profit-in-job-scheduling",
+      "difficulty": "Hard",
+      "acceptance": 54.48908945664513,
+      "likes": 7178,
+      "dislikes": 120
+    },
+    {
+      "position": 13,
+      "title": "Word Break II",
+      "slug": "word-break-ii",
+      "difficulty": "Hard",
+      "acceptance": 54.30741632163014,
+      "likes": 7472,
+      "dislikes": 545
+    },
+    {
+      "position": 14,
+      "title": "Distinct Subsequences",
+      "slug": "distinct-subsequences",
+      "difficulty": "Hard",
+      "acceptance": 50.81797754304029,
+      "likes": 7207,
+      "dislikes": 316
+    },
+    {
+      "position": 15,
+      "title": "Russian Doll Envelopes",
+      "slug": "russian-doll-envelopes",
+      "difficulty": "Hard",
+      "acceptance": 37.484437341517086,
+      "likes": 6349,
+      "dislikes": 165
+    },
+    {
+      "position": 16,
+      "title": "Dungeon Game",
+      "slug": "dungeon-game",
+      "difficulty": "Hard",
+      "acceptance": 40.09981106982259,
+      "likes": 6127,
+      "dislikes": 118
+    },
+    {
+      "position": 17,
+      "title": "Sum of Distances in Tree",
+      "slug": "sum-of-distances-in-tree",
+      "difficulty": "Hard",
+      "acceptance": 65.41310988132847,
+      "likes": 5847,
+      "dislikes": 139
+    },
+    {
+      "position": 18,
+      "title": "Shortest Common Supersequence ",
+      "slug": "shortest-common-supersequence",
+      "difficulty": "Hard",
+      "acceptance": 61.57887478410486,
+      "likes": 5773,
+      "dislikes": 100
+    },
+    {
+      "position": 19,
+      "title": "Palindrome Partitioning II",
+      "slug": "palindrome-partitioning-ii",
+      "difficulty": "Hard",
+      "acceptance": 35.89947592430362,
+      "likes": 5796,
+      "dislikes": 154
+    },
+    {
+      "position": 20,
+      "title": "Frog Jump",
+      "slug": "frog-jump",
+      "difficulty": "Hard",
+      "acceptance": 46.8125016590033,
+      "likes": 5892,
+      "dislikes": 273
+    },
+    {
+      "position": 21,
+      "title": "Binary Tree Cameras",
+      "slug": "binary-tree-cameras",
+      "difficulty": "Hard",
+      "acceptance": 47.46219273948226,
+      "likes": 5583,
+      "dislikes": 87
+    },
+    {
+      "position": 22,
+      "title": "Minimum Insertion Steps to Make a String Palindrome",
+      "slug": "minimum-insertion-steps-to-make-a-string-palindrome",
+      "difficulty": "Hard",
+      "acceptance": 73.19848731915484,
+      "likes": 5473,
+      "dislikes": 74
+    },
+    {
+      "position": 23,
+      "title": "Minimum Number of Refueling Stops",
+      "slug": "minimum-number-of-refueling-stops",
+      "difficulty": "Hard",
+      "acceptance": 40.8209613348491,
+      "likes": 4819,
+      "dislikes": 92
+    },
+    {
+      "position": 24,
+      "title": "Minimum Cost to Cut a Stick",
+      "slug": "minimum-cost-to-cut-a-stick",
+      "difficulty": "Hard",
+      "acceptance": 62.46021123370795,
+      "likes": 4690,
+      "dislikes": 152
+    },
+    {
+      "position": 25,
+      "title": "Cherry Pickup",
+      "slug": "cherry-pickup",
+      "difficulty": "Hard",
+      "acceptance": 38.46318220329452,
+      "likes": 4569,
+      "dislikes": 169
+    },
+    {
+      "position": 26,
+      "title": "Shortest Path Visiting All Nodes",
+      "slug": "shortest-path-visiting-all-nodes",
+      "difficulty": "Hard",
+      "acceptance": 65.59203519333178,
+      "likes": 4549,
+      "dislikes": 179
+    },
+    {
+      "position": 27,
+      "title": "Cherry Pickup II",
+      "slug": "cherry-pickup-ii",
+      "difficulty": "Hard",
+      "acceptance": 72.14071424256863,
+      "likes": 4361,
+      "dislikes": 53
+    },
+    {
+      "position": 28,
+      "title": "Concatenated Words",
+      "slug": "concatenated-words",
+      "difficulty": "Hard",
+      "acceptance": 49.55886984643985,
+      "likes": 4027,
+      "dislikes": 290
+    },
+    {
+      "position": 29,
+      "title": "Super Egg Drop",
+      "slug": "super-egg-drop",
+      "difficulty": "Hard",
+      "acceptance": 29.27746312118012,
+      "likes": 3782,
+      "dislikes": 204
+    },
+    {
+      "position": 30,
+      "title": "Minimum Number of Taps to Open to Water a Garden",
+      "slug": "minimum-number-of-taps-to-open-to-water-a-garden",
+      "difficulty": "Hard",
+      "acceptance": 50.7559741495917,
+      "likes": 3571,
+      "dislikes": 197
+    },
+    {
+      "position": 31,
+      "title": "Partition Array Into Two Arrays to Minimize Sum Difference",
+      "slug": "partition-array-into-two-arrays-to-minimize-sum-difference",
+      "difficulty": "Hard",
+      "acceptance": 22.45223921767527,
+      "likes": 3606,
+      "dislikes": 246
+    },
+    {
+      "position": 32,
+      "title": "Arithmetic Slices II - Subsequence",
+      "slug": "arithmetic-slices-ii-subsequence",
+      "difficulty": "Hard",
+      "acceptance": 54.645901188435644,
+      "likes": 3464,
+      "dislikes": 164
+    },
+    {
+      "position": 33,
+      "title": "Minimum Difficulty of a Job Schedule",
+      "slug": "minimum-difficulty-of-a-job-schedule",
+      "difficulty": "Hard",
+      "acceptance": 59.68824874754956,
+      "likes": 3542,
+      "dislikes": 328
+    },
+    {
+      "position": 34,
+      "title": "Reducing Dishes",
+      "slug": "reducing-dishes",
+      "difficulty": "Hard",
+      "acceptance": 76.48033521443226,
+      "likes": 3469,
+      "dislikes": 317
+    },
+    {
+      "position": 35,
+      "title": "Count Vowels Permutation",
+      "slug": "count-vowels-permutation",
+      "difficulty": "Hard",
+      "acceptance": 61.42590169423195,
+      "likes": 3287,
+      "dislikes": 219
+    },
+    {
+      "position": 36,
+      "title": "Count All Valid Pickup and Delivery Options",
+      "slug": "count-all-valid-pickup-and-delivery-options",
+      "difficulty": "Hard",
+      "acceptance": 64.8720090404363,
+      "likes": 3083,
+      "dislikes": 233
+    },
+    {
+      "position": 37,
+      "title": "Minimum Swaps To Make Sequences Increasing",
+      "slug": "minimum-swaps-to-make-sequences-increasing",
+      "difficulty": "Hard",
+      "acceptance": 41.04392932403955,
+      "likes": 2920,
+      "dislikes": 138
+    },
+    {
+      "position": 38,
+      "title": "Maximum Sum BST in Binary Tree",
+      "slug": "maximum-sum-bst-in-binary-tree",
+      "difficulty": "Hard",
+      "acceptance": 45.38062050083691,
+      "likes": 2893,
+      "dislikes": 198
+    },
+    {
+      "position": 39,
+      "title": "Sliding Puzzle",
+      "slug": "sliding-puzzle",
+      "difficulty": "Hard",
+      "acceptance": 73.33346607992672,
+      "likes": 2711,
+      "dislikes": 73
+    },
+    {
+      "position": 40,
+      "title": "Largest Color Value in a Directed Graph",
+      "slug": "largest-color-value-in-a-directed-graph",
+      "difficulty": "Hard",
+      "acceptance": 57.45245255212793,
+      "likes": 2587,
+      "dislikes": 85
+    }
+  ]
+}

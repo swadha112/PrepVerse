@@ -1,0 +1,80 @@
+{
+  "frozen": true,
+  "createdAt": "2025-10-06T15:22:21.592Z",
+  "trackSlug": "string-matching",
+  "difficulty": "MEDIUM",
+  "questions": [
+    {
+      "position": 1,
+      "title": "Repeated String Match",
+      "slug": "repeated-string-match",
+      "difficulty": "Medium",
+      "acceptance": 37.643859062383186,
+      "likes": 2801,
+      "dislikes": 1003
+    },
+    {
+      "position": 2,
+      "title": "Camelcase Matching",
+      "slug": "camelcase-matching",
+      "difficulty": "Medium",
+      "acceptance": 64.41241330819138,
+      "likes": 965,
+      "dislikes": 346
+    },
+    {
+      "position": 3,
+      "title": "Form Array by Concatenating Subarrays of Another Array",
+      "slug": "form-array-by-concatenating-subarrays-of-another-array",
+      "difficulty": "Medium",
+      "acceptance": 54.29580009450482,
+      "likes": 349,
+      "dislikes": 44
+    },
+    {
+      "position": 4,
+      "title": "Minimum Number of Valid Strings to Form Target I",
+      "slug": "minimum-number-of-valid-strings-to-form-target-i",
+      "difficulty": "Medium",
+      "acceptance": 20.649021864211736,
+      "likes": 166,
+      "dislikes": 17
+    },
+    {
+      "position": 5,
+      "title": "Find Beautiful Indices in the Given Array I",
+      "slug": "find-beautiful-indices-in-the-given-array-i",
+      "difficulty": "Medium",
+      "acceptance": 39.5371542915696,
+      "likes": 189,
+      "dislikes": 42
+    },
+    {
+      "position": 6,
+      "title": "Minimum Time to Revert Word to Initial State I",
+      "slug": "minimum-time-to-revert-word-to-initial-state-i",
+      "difficulty": "Medium",
+      "acceptance": 41.79716697354748,
+      "likes": 167,
+      "dislikes": 34
+    },
+    {
+      "position": 7,
+      "title": "Number of Subarrays That Match a Pattern I",
+      "slug": "number-of-subarrays-that-match-a-pattern-i",
+      "difficulty": "Medium",
+      "acceptance": 67.69183673469388,
+      "likes": 116,
+      "dislikes": 17
+    },
+    {
+      "position": 8,
+      "title": "Count Cells in Overlapping Horizontal and Vertical Substrings",
+      "slug": "count-cells-in-overlapping-horizontal-and-vertical-substrings",
+      "difficulty": "Medium",
+      "acceptance": 25.224807996603758,
+      "likes": 59,
+      "dislikes": 13
+    }
+  ]
+}

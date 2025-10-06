@@ -1,0 +1,89 @@
+{
+  "frozen": true,
+  "createdAt": "2025-10-06T15:22:13.414Z",
+  "trackSlug": "binary-search-tree",
+  "difficulty": "EASY",
+  "questions": [
+    {
+      "position": 1,
+      "title": "Convert Sorted Array to Binary Search Tree",
+      "slug": "convert-sorted-array-to-binary-search-tree",
+      "difficulty": "Easy",
+      "acceptance": 74.6519104203932,
+      "likes": 11664,
+      "dislikes": 623
+    },
+    {
+      "position": 2,
+      "title": "Two Sum IV - Input is a BST",
+      "slug": "two-sum-iv-input-is-a-bst",
+      "difficulty": "Easy",
+      "acceptance": 62.67042570486403,
+      "likes": 7156,
+      "dislikes": 288
+    },
+    {
+      "position": 3,
+      "title": "Range Sum of BST",
+      "slug": "range-sum-of-bst",
+      "difficulty": "Easy",
+      "acceptance": 87.51859283979599,
+      "likes": 7182,
+      "dislikes": 388
+    },
+    {
+      "position": 4,
+      "title": "Search in a Binary Search Tree",
+      "slug": "search-in-a-binary-search-tree",
+      "difficulty": "Easy",
+      "acceptance": 82.16165329739057,
+      "likes": 6397,
+      "dislikes": 210
+    },
+    {
+      "position": 5,
+      "title": "Minimum Absolute Difference in BST",
+      "slug": "minimum-absolute-difference-in-bst",
+      "difficulty": "Easy",
+      "acceptance": 59.00288765593078,
+      "likes": 4674,
+      "dislikes": 264
+    },
+    {
+      "position": 6,
+      "title": "Increasing Order Search Tree",
+      "slug": "increasing-order-search-tree",
+      "difficulty": "Easy",
+      "acceptance": 78.81503543135888,
+      "likes": 4451,
+      "dislikes": 683
+    },
+    {
+      "position": 7,
+      "title": "Find Mode in Binary Search Tree",
+      "slug": "find-mode-in-binary-search-tree",
+      "difficulty": "Easy",
+      "acceptance": 57.9584155573328,
+      "likes": 4056,
+      "dislikes": 810
+    },
+    {
+      "position": 8,
+      "title": "Minimum Distance Between BST Nodes",
+      "slug": "minimum-distance-between-bst-nodes",
+      "difficulty": "Easy",
+      "acceptance": 60.694133399217364,
+      "likes": 3638,
+      "dislikes": 435
+    },
+    {
+      "position": 9,
+      "title": "Kth Largest Element in a Stream",
+      "slug": "kth-largest-element-in-a-stream",
+      "difficulty": "Easy",
+      "acceptance": 60.301293744410046,
+      "likes": 6259,
+      "dislikes": 3999
+    }
+  ]
+}

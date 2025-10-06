@@ -1,0 +1,17 @@
+{
+  "frozen": true,
+  "createdAt": "2025-10-06T15:23:25.067Z",
+  "trackSlug": "minimum-spanning-tree",
+  "difficulty": "MEDIUM",
+  "questions": [
+    {
+      "position": 1,
+      "title": "Min Cost to Connect All Points",
+      "slug": "min-cost-to-connect-all-points",
+      "difficulty": "Medium",
+      "acceptance": 69.69108985407911,
+      "likes": 5467,
+      "dislikes": 142
+    }
+  ]
+}

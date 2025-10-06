@@ -1,0 +1,89 @@
+{
+  "frozen": true,
+  "createdAt": "2025-10-06T15:22:36.988Z",
+  "trackSlug": "game-theory",
+  "difficulty": "HARD",
+  "questions": [
+    {
+      "position": 1,
+      "title": "Stone Game III",
+      "slug": "stone-game-iii",
+      "difficulty": "Hard",
+      "acceptance": 63.179031159238406,
+      "likes": 2281,
+      "dislikes": 79
+    },
+    {
+      "position": 2,
+      "title": "Stone Game IV",
+      "slug": "stone-game-iv",
+      "difficulty": "Hard",
+      "acceptance": 59.50048143710814,
+      "likes": 1631,
+      "dislikes": 74
+    },
+    {
+      "position": 3,
+      "title": "Cat and Mouse",
+      "slug": "cat-and-mouse",
+      "difficulty": "Hard",
+      "acceptance": 34.00167785234899,
+      "likes": 993,
+      "dislikes": 177
+    },
+    {
+      "position": 4,
+      "title": "Stone Game V",
+      "slug": "stone-game-v",
+      "difficulty": "Hard",
+      "acceptance": 41.47918586146243,
+      "likes": 689,
+      "dislikes": 90
+    },
+    {
+      "position": 5,
+      "title": "Stone Game VIII",
+      "slug": "stone-game-viii",
+      "difficulty": "Hard",
+      "acceptance": 53.50772363121321,
+      "likes": 467,
+      "dislikes": 25
+    },
+    {
+      "position": 6,
+      "title": "Cat and Mouse II",
+      "slug": "cat-and-mouse-ii",
+      "difficulty": "Hard",
+      "acceptance": 39.81745063485608,
+      "likes": 285,
+      "dislikes": 47
+    },
+    {
+      "position": 7,
+      "title": "Maximum Number of Moves to Kill All Pawns",
+      "slug": "maximum-number-of-moves-to-kill-all-pawns",
+      "difficulty": "Hard",
+      "acceptance": 32.975118598121796,
+      "likes": 133,
+      "dislikes": 12
+    },
+    {
+      "position": 8,
+      "title": "Chalkboard XOR Game",
+      "slug": "chalkboard-xor-game",
+      "difficulty": "Hard",
+      "acceptance": 64.1338093759702,
+      "likes": 241,
+      "dislikes": 287
+    },
+    {
+      "position": 9,
+      "title": "Guess the Word",
+      "slug": "guess-the-word",
+      "difficulty": "Hard",
+      "acceptance": 37.29211038589259,
+      "likes": 1610,
+      "dislikes": 1853
+    }
+  ]
+}

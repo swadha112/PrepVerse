@@ -1,0 +1,224 @@
+{
+  "frozen": true,
+  "createdAt": "2025-10-06T15:20:45.935Z",
+  "trackSlug": "design",
+  "difficulty": "HARD",
+  "questions": [
+    {
+      "position": 1,
+      "title": "Find Median from Data Stream",
+      "slug": "find-median-from-data-stream",
+      "difficulty": "Hard",
+      "acceptance": 53.7526931941688,
+      "likes": 12867,
+      "dislikes": 273
+    },
+    {
+      "position": 2,
+      "title": "Serialize and Deserialize Binary Tree",
+      "slug": "serialize-and-deserialize-binary-tree",
+      "difficulty": "Hard",
+      "acceptance": 59.68534158171322,
+      "likes": 10882,
+      "dislikes": 423
+    },
+    {
+      "position": 3,
+      "title": "LFU Cache",
+      "slug": "lfu-cache",
+      "difficulty": "Hard",
+      "acceptance": 47.57863063068192,
+      "likes": 6150,
+      "dislikes": 345
+    },
+    {
+      "position": 4,
+      "title": "Maximum Frequency Stack",
+      "slug": "maximum-frequency-stack",
+      "difficulty": "Hard",
+      "acceptance": 66.45778343239462,
+      "likes": 4875,
+      "dislikes": 77
+    },
+    {
+      "position": 5,
+      "title": "Insert Delete GetRandom O(1) - Duplicates allowed",
+      "slug": "insert-delete-getrandom-o1-duplicates-allowed",
+      "difficulty": "Hard",
+      "acceptance": 36.019008780186454,
+      "likes": 2399,
+      "dislikes": 156
+    },
+    {
+      "position": 6,
+      "title": "All O`one Data Structure",
+      "slug": "all-oone-data-structure",
+      "difficulty": "Hard",
+      "acceptance": 44.07255962275355,
+      "likes": 2179,
+      "dislikes": 220
+    },
+    {
+      "position": 7,
+      "title": "Kth Ancestor of a Tree Node",
+      "slug": "kth-ancestor-of-a-tree-node",
+      "difficulty": "Hard",
+      "acceptance": 36.49041522517892,
+      "likes": 2049,
+      "dislikes": 123
+    },
+    {
+      "position": 8,
+      "title": "Prefix and Suffix Search",
+      "slug": "prefix-and-suffix-search",
+      "difficulty": "Hard",
+      "acceptance": 40.582110292578,
+      "likes": 2332,
+      "dislikes": 496
+    },
+    {
+      "position": 9,
+      "title": "My Calendar III",
+      "slug": "my-calendar-iii",
+      "difficulty": "Hard",
+      "acceptance": 70.93833888930212,
+      "likes": 2051,
+      "dislikes": 275
+    },
+    {
+      "position": 10,
+      "title": "Stream of Characters",
+      "slug": "stream-of-characters",
+      "difficulty": "Hard",
+      "acceptance": 51.46953734329699,
+      "likes": 1856,
+      "dislikes": 186
+    },
+    {
+      "position": 11,
+      "title": "Range Module",
+      "slug": "range-module",
+      "difficulty": "Hard",
+      "acceptance": 44.33590584994329,
+      "likes": 1577,
+      "dislikes": 134
+    },
+    {
+      "position": 12,
+      "title": "Data Stream as Disjoint Intervals",
+      "slug": "data-stream-as-disjoint-intervals",
+      "difficulty": "Hard",
+      "acceptance": 59.61999613227616,
+      "likes": 1792,
+      "dislikes": 369
+    },
+    {
+      "position": 13,
+      "title": "Design Graph With Shortest Path Calculator",
+      "slug": "design-graph-with-shortest-path-calculator",
+      "difficulty": "Hard",
+      "acceptance": 64.35700592316222,
+      "likes": 860,
+      "dislikes": 58
+    },
+    {
+      "position": 14,
+      "title": "Design Skiplist",
+      "slug": "design-skiplist",
+      "difficulty": "Hard",
+      "acceptance": 58.660976766239926,
+      "likes": 707,
+      "dislikes": 106
+    },
+    {
+      "position": 15,
+      "title": "Online Majority Element In Subarray",
+      "slug": "online-majority-element-in-subarray",
+      "difficulty": "Hard",
+      "acceptance": 39.62088130210401,
+      "likes": 654,
+      "dislikes": 64
+    },
+    {
+      "position": 16,
+      "title": "Count Integers in Intervals",
+      "slug": "count-integers-in-intervals",
+      "difficulty": "Hard",
+      "acceptance": 34.88235607960305,
+      "likes": 610,
+      "dislikes": 63
+    },
+    {
+      "position": 17,
+      "title": "Design Movie Rental System",
+      "slug": "design-movie-rental-system",
+      "difficulty": "Hard",
+      "acceptance": 62.9394469597215,
+      "likes": 536,
+      "dislikes": 86
+    },
+    {
+      "position": 18,
+      "title": "Dinner Plate Stacks",
+      "slug": "dinner-plate-stacks",
+      "difficulty": "Hard",
+      "acceptance": 33.152385225063554,
+      "likes": 507,
+      "dislikes": 67
+    },
+    {
+      "position": 19,
+      "title": "Design a Text Editor",
+      "slug": "design-a-text-editor",
+      "difficulty": "Hard",
+      "acceptance": 48.45886970382972,
+      "likes": 627,
+      "dislikes": 228
+    },
+    {
+      "position": 20,
+      "title": "Finding MK Average",
+      "slug": "finding-mk-average",
+      "difficulty": "Hard",
+      "acceptance": 38.37990251643618,
+      "likes": 515,
+      "dislikes": 140
+    },
+    {
+      "position": 21,
+      "title": "Sequentially Ordinal Rank Tracker",
+      "slug": "sequentially-ordinal-rank-tracker",
+      "difficulty": "Hard",
+      "acceptance": 61.53275250080671,
+      "likes": 402,
+      "dislikes": 45
+    },
+    {
+      "position": 22,
+      "title": "Booking Concert Tickets in Groups",
+      "slug": "booking-concert-tickets-in-groups",
+      "difficulty": "Hard",
+      "acceptance": 17.981363208041042,
+      "likes": 348,
+      "dislikes": 60
+    },
+    {
+      "position": 23,
+      "title": "Encrypt and Decrypt Strings",
+      "slug": "encrypt-and-decrypt-strings",
+      "difficulty": "Hard",
+      "acceptance": 37.36663943037236,
+      "likes": 350,
+      "dislikes": 80
+    },
+    {
+      "position": 24,
+      "title": "Fancy Sequence",
+      "slug": "fancy-sequence",
+      "difficulty": "Hard",
+      "acceptance": 17.721882770426458,
+      "likes": 385,
+      "dislikes": 142
+    }
+  ]
+}

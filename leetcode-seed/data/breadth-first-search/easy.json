@@ -1,0 +1,179 @@
+{
+  "frozen": true,
+  "createdAt": "2025-10-06T15:19:14.101Z",
+  "trackSlug": "breadth-first-search",
+  "difficulty": "EASY",
+  "questions": [
+    {
+      "position": 1,
+      "title": "Symmetric Tree",
+      "slug": "symmetric-tree",
+      "difficulty": "Easy",
+      "acceptance": 60.00255892086651,
+      "likes": 16451,
+      "dislikes": 433
+    },
+    {
+      "position": 2,
+      "title": "Invert Binary Tree",
+      "slug": "invert-binary-tree",
+      "difficulty": "Easy",
+      "acceptance": 79.42774151096455,
+      "likes": 14880,
+      "dislikes": 248
+    },
+    {
+      "position": 3,
+      "title": "Maximum Depth of Binary Tree",
+      "slug": "maximum-depth-of-binary-tree",
+      "difficulty": "Easy",
+      "acceptance": 77.54140514008242,
+      "likes": 13908,
+      "dislikes": 277
+    },
+    {
+      "position": 4,
+      "title": "Same Tree",
+      "slug": "same-tree",
+      "difficulty": "Easy",
+      "acceptance": 65.89864355974039,
+      "likes": 12513,
+      "dislikes": 281
+    },
+    {
+      "position": 5,
+      "title": "Path Sum",
+      "slug": "path-sum",
+      "difficulty": "Easy",
+      "acceptance": 53.694621226371645,
+      "likes": 10427,
+      "dislikes": 1196
+    },
+    {
+      "position": 6,
+      "title": "Merge Two Binary Trees",
+      "slug": "merge-two-binary-trees",
+      "difficulty": "Easy",
+      "acceptance": 78.84614158206841,
+      "likes": 9007,
+      "dislikes": 317
+    },
+    {
+      "position": 7,
+      "title": "Flood Fill",
+      "slug": "flood-fill",
+      "difficulty": "Easy",
+      "acceptance": 67.22288400467949,
+      "likes": 9187,
+      "dislikes": 942
+    },
+    {
+      "position": 8,
+      "title": "Two Sum IV - Input is a BST",
+      "slug": "two-sum-iv-input-is-a-bst",
+      "difficulty": "Easy",
+      "acceptance": 62.67042570486403,
+      "likes": 7156,
+      "dislikes": 288
+    },
+    {
+      "position": 9,
+      "title": "Island Perimeter",
+      "slug": "island-perimeter",
+      "difficulty": "Easy",
+      "acceptance": 73.85721865349635,
+      "likes": 7166,
+      "dislikes": 413
+    },
+    {
+      "position": 10,
+      "title": "Minimum Depth of Binary Tree",
+      "slug": "minimum-depth-of-binary-tree",
+      "difficulty": "Easy",
+      "acceptance": 51.488017484937686,
+      "likes": 7685,
+      "dislikes": 1355
+    },
+    {
+      "position": 11,
+      "title": "Sum of Left Leaves",
+      "slug": "sum-of-left-leaves",
+      "difficulty": "Easy",
+      "acceptance": 62.02338557000242,
+      "likes": 5719,
+      "dislikes": 319
+    },
+    {
+      "position": 12,
+      "title": "Average of Levels in Binary Tree",
+      "slug": "average-of-levels-in-binary-tree",
+      "difficulty": "Easy",
+      "acceptance": 74.44297604470648,
+      "likes": 5514,
+      "dislikes": 348
+    },
+    {
+      "position": 13,
+      "title": "Minimum Absolute Difference in BST",
+      "slug": "minimum-absolute-difference-in-bst",
+      "difficulty": "Easy",
+      "acceptance": 59.00282009563619,
+      "likes": 4674,
+      "dislikes": 264
+    },
+    {
+      "position": 14,
+      "title": "Cousins in Binary Tree",
+      "slug": "cousins-in-binary-tree",
+      "difficulty": "Easy",
+      "acceptance": 58.63872324145605,
+      "likes": 4272,
+      "dislikes": 229
+    },
+    {
+      "position": 15,
+      "title": "Find if Path Exists in Graph",
+      "slug": "find-if-path-exists-in-graph",
+      "difficulty": "Easy",
+      "acceptance": 54.33409881393645,
+      "likes": 4183,
+      "dislikes": 244
+    },
+    {
+      "position": 16,
+      "title": "Minimum Distance Between BST Nodes",
+      "slug": "minimum-distance-between-bst-nodes",
+      "difficulty": "Easy",
+      "acceptance": 60.694133399217364,
+      "likes": 3638,
+      "dislikes": 435
+    },
+    {
+      "position": 17,
+      "title": "Maximum Depth of N-ary Tree",
+      "slug": "maximum-depth-of-n-ary-tree",
+      "difficulty": "Easy",
+      "acceptance": 73.18968101886252,
+      "likes": 2849,
+      "dislikes": 94
+    },
+    {
+      "position": 18,
+      "title": "Univalued Binary Tree",
+      "slug": "univalued-binary-tree",
+      "difficulty": "Easy",
+      "acceptance": 72.48610127528117,
+      "likes": 1964,
+      "dislikes": 67
+    },
+    {
+      "position": 19,
+      "title": "Find a Corresponding Node of a Binary Tree in a Clone of That Tree",
+      "slug": "find-a-corresponding-node-of-a-binary-tree-in-a-clone-of-that-tree",
+      "difficulty": "Easy",
+      "acceptance": 85.77326389235984,
+      "likes": 1798,
+      "dislikes": 2014
+    }
+  ]
+}

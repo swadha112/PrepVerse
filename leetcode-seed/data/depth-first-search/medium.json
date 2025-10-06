@@ -1,0 +1,368 @@
+{
+  "frozen": true,
+  "createdAt": "2025-10-06T15:18:30.304Z",
+  "trackSlug": "depth-first-search",
+  "difficulty": "MEDIUM",
+  "questions": [
+    {
+      "position": 1,
+      "title": "Number of Islands",
+      "slug": "number-of-islands",
+      "difficulty": "Medium",
+      "acceptance": 63.05427464672913,
+      "likes": 24318,
+      "dislikes": 586
+    },
+    {
+      "position": 2,
+      "title": "Lowest Common Ancestor of a Binary Tree",
+      "slug": "lowest-common-ancestor-of-a-binary-tree",
+      "difficulty": "Medium",
+      "acceptance": 67.81756926175422,
+      "likes": 18133,
+      "dislikes": 480
+    },
+    {
+      "position": 3,
+      "title": "Course Schedule",
+      "slug": "course-schedule",
+      "difficulty": "Medium",
+      "acceptance": 50.0472965717039,
+      "likes": 17510,
+      "dislikes": 836
+    },
+    {
+      "position": 4,
+      "title": "Validate Binary Search Tree",
+      "slug": "validate-binary-search-tree",
+      "difficulty": "Medium",
+      "acceptance": 34.84533606225372,
+      "likes": 17950,
+      "dislikes": 1431
+    },
+    {
+      "position": 5,
+      "title": "Word Search",
+      "slug": "word-search",
+      "difficulty": "Medium",
+      "acceptance": 46.035001523383634,
+      "likes": 17195,
+      "dislikes": 733
+    },
+    {
+      "position": 6,
+      "title": "Flatten Binary Tree to Linked List",
+      "slug": "flatten-binary-tree-to-linked-list",
+      "difficulty": "Medium",
+      "acceptance": 69.4326857301822,
+      "likes": 13321,
+      "dislikes": 591
+    },
+    {
+      "position": 7,
+      "title": "Kth Smallest Element in a BST",
+      "slug": "kth-smallest-element-in-a-bst",
+      "difficulty": "Medium",
+      "acceptance": 75.95408329815307,
+      "likes": 12367,
+      "dislikes": 251
+    },
+    {
+      "position": 8,
+      "title": "Binary Tree Right Side View",
+      "slug": "binary-tree-right-side-view",
+      "difficulty": "Medium",
+      "acceptance": 68.33856067742818,
+      "likes": 13059,
+      "dislikes": 1066
+    },
+    {
+      "position": 9,
+      "title": "Lowest Common Ancestor of a Binary Search Tree",
+      "slug": "lowest-common-ancestor-of-a-binary-search-tree",
+      "difficulty": "Medium",
+      "acceptance": 69.25911586143548,
+      "likes": 11983,
+      "dislikes": 347
+    },
+    {
+      "position": 10,
+      "title": "All Nodes Distance K in Binary Tree",
+      "slug": "all-nodes-distance-k-in-binary-tree",
+      "difficulty": "Medium",
+      "acceptance": 67.0006625758586,
+      "likes": 11849,
+      "dislikes": 270
+    },
+    {
+      "position": 11,
+      "title": "Course Schedule II",
+      "slug": "course-schedule-ii",
+      "difficulty": "Medium",
+      "acceptance": 54.21993481781943,
+      "likes": 11633,
+      "dislikes": 374
+    },
+    {
+      "position": 12,
+      "title": "Path Sum III",
+      "slug": "path-sum-iii",
+      "difficulty": "Medium",
+      "acceptance": 46.161279924545056,
+      "likes": 11693,
+      "dislikes": 563
+    },
+    {
+      "position": 13,
+      "title": "Cheapest Flights Within K Stops",
+      "slug": "cheapest-flights-within-k-stops",
+      "difficulty": "Medium",
+      "acceptance": 40.88902680855573,
+      "likes": 10888,
+      "dislikes": 459
+    },
+    {
+      "position": 14,
+      "title": "Number of Provinces",
+      "slug": "number-of-provinces",
+      "difficulty": "Medium",
+      "acceptance": 69.42311795478207,
+      "likes": 10776,
+      "dislikes": 404
+    },
+    {
+      "position": 15,
+      "title": "Max Area of Island",
+      "slug": "max-area-of-island",
+      "difficulty": "Medium",
+      "acceptance": 73.47090901194805,
+      "likes": 10454,
+      "dislikes": 216
+    },
+    {
+      "position": 16,
+      "title": "Populating Next Right Pointers in Each Node",
+      "slug": "populating-next-right-pointers-in-each-node",
+      "difficulty": "Medium",
+      "acceptance": 66.15693892657623,
+      "likes": 10263,
+      "dislikes": 322
+    },
+    {
+      "position": 17,
+      "title": "Evaluate Division",
+      "slug": "evaluate-division",
+      "difficulty": "Medium",
+      "acceptance": 63.57416662144362,
+      "likes": 9980,
+      "dislikes": 1064
+    },
+    {
+      "position": 18,
+      "title": "House Robber III",
+      "slug": "house-robber-iii",
+      "difficulty": "Medium",
+      "acceptance": 55.22506543254199,
+      "likes": 8952,
+      "dislikes": 154
+    },
+    {
+      "position": 19,
+      "title": "Is Graph Bipartite?",
+      "slug": "is-graph-bipartite",
+      "difficulty": "Medium",
+      "acceptance": 58.37866363562556,
+      "likes": 9011,
+      "dislikes": 405
+    },
+    {
+      "position": 20,
+      "title": "Sum Root to Leaf Numbers",
+      "slug": "sum-root-to-leaf-numbers",
+      "difficulty": "Medium",
+      "acceptance": 69.05256487815562,
+      "likes": 8513,
+      "dislikes": 154
+    },
+    {
+      "position": 21,
+      "title": "Minimum Height Trees",
+      "slug": "minimum-height-trees",
+      "difficulty": "Medium",
+      "acceptance": 42.18256482393734,
+      "likes": 8758,
+      "dislikes": 410
+    },
+    {
+      "position": 22,
+      "title": "Path Sum II",
+      "slug": "path-sum-ii",
+      "difficulty": "Medium",
+      "acceptance": 61.118192211192564,
+      "likes": 8449,
+      "dislikes": 167
+    },
+    {
+      "position": 23,
+      "title": "Maximum Width of Binary Tree",
+      "slug": "maximum-width-of-binary-tree",
+      "difficulty": "Medium",
+      "acceptance": 44.73830437655602,
+      "likes": 9475,
+      "dislikes": 1296
+    },
+    {
+      "position": 24,
+      "title": "Recover Binary Search Tree",
+      "slug": "recover-binary-search-tree",
+      "difficulty": "Medium",
+      "acceptance": 57.60492577794063,
+      "likes": 8426,
+      "dislikes": 282
+    },
+    {
+      "position": 25,
+      "title": "Network Delay Time",
+      "slug": "network-delay-time",
+      "difficulty": "Medium",
+      "acceptance": 58.685480685801004,
+      "likes": 8144,
+      "dislikes": 389
+    },
+    {
+      "position": 26,
+      "title": "Design Add and Search Words Data Structure",
+      "slug": "design-add-and-search-words-data-structure",
+      "difficulty": "Medium",
+      "acceptance": 47.58608861473346,
+      "likes": 7972,
+      "dislikes": 488
+    },
+    {
+      "position": 27,
+      "title": "Surrounded Regions",
+      "slug": "surrounded-regions",
+      "difficulty": "Medium",
+      "acceptance": 43.843582887700535,
+      "likes": 9569,
+      "dislikes": 2159
+    },
+    {
+      "position": 28,
+      "title": "All Paths From Source to Target",
+      "slug": "all-paths-from-source-to-target",
+      "difficulty": "Medium",
+      "acceptance": 83.30883779178225,
+      "likes": 7532,
+      "dislikes": 150
+    },
+    {
+      "position": 29,
+      "title": "Pacific Atlantic Water Flow",
+      "slug": "pacific-atlantic-water-flow",
+      "difficulty": "Medium",
+      "acceptance": 59.94871697342494,
+      "likes": 8439,
+      "dislikes": 1760
+    },
+    {
+      "position": 30,
+      "title": "Redundant Connection",
+      "slug": "redundant-connection",
+      "difficulty": "Medium",
+      "acceptance": 66.83951307541604,
+      "likes": 7009,
+      "dislikes": 444
+    },
+    {
+      "position": 31,
+      "title": "Path With Minimum Effort",
+      "slug": "path-with-minimum-effort",
+      "difficulty": "Medium",
+      "acceptance": 62.238727303347666,
+      "likes": 6591,
+      "dislikes": 232
+    },
+    {
+      "position": 32,
+      "title": "Find Eventual Safe States",
+      "slug": "find-eventual-safe-states",
+      "difficulty": "Medium",
+      "acceptance": 69.61398729051064,
+      "likes": 6801,
+      "dislikes": 514
+    },
+    {
+      "position": 33,
+      "title": "Keys and Rooms",
+      "slug": "keys-and-rooms",
+      "difficulty": "Medium",
+      "acceptance": 75.09346125698931,
+      "likes": 6543,
+      "dislikes": 296
+    },
+    {
+      "position": 34,
+      "title": "Clone Graph",
+      "slug": "clone-graph",
+      "difficulty": "Medium",
+      "acceptance": 63.55545112052751,
+      "likes": 10322,
+      "dislikes": 4120
+    },
+    {
+      "position": 35,
+      "title": "Accounts Merge",
+      "slug": "accounts-merge",
+      "difficulty": "Medium",
+      "acceptance": 60.30026761686806,
+      "likes": 7469,
+      "dislikes": 1277
+    },
+    {
+      "position": 36,
+      "title": "Count Good Nodes in Binary Tree",
+      "slug": "count-good-nodes-in-binary-tree",
+      "difficulty": "Medium",
+      "acceptance": 73.6278042151382,
+      "likes": 6221,
+      "dislikes": 205
+    },
+    {
+      "position": 37,
+      "title": "Populating Next Right Pointers in Each Node II",
+      "slug": "populating-next-right-pointers-in-each-node-ii",
+      "difficulty": "Medium",
+      "acceptance": 56.30322968087362,
+      "likes": 6124,
+      "dislikes": 339
+    },
+    {
+      "position": 38,
+      "title": "Trim a Binary Search Tree",
+      "slug": "trim-a-binary-search-tree",
+      "difficulty": "Medium",
+      "acceptance": 66.4273537831,
+      "likes": 6045,
+      "dislikes": 264
+    },
+    {
+      "position": 39,
+      "title": "Distribute Coins in Binary Tree",
+      "slug": "distribute-coins-in-binary-tree",
+      "difficulty": "Medium",
+      "acceptance": 77.21488552992133,
+      "likes": 6006,
+      "dislikes": 245
+    },
+    {
+      "position": 40,
+      "title": "Most Stones Removed with Same Row or Column",
+      "slug": "most-stones-removed-with-same-row-or-column",
+      "difficulty": "Medium",
+      "acceptance": 62.472557467644265,
+      "likes": 6290,
+      "dislikes": 705
+    }
+  ]
+}

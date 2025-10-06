@@ -1,0 +1,107 @@
+{
+  "frozen": true,
+  "createdAt": "2025-10-06T15:21:23.544Z",
+  "trackSlug": "segment-tree",
+  "difficulty": "MEDIUM",
+  "questions": [
+    {
+      "position": 1,
+      "title": "Number of Longest Increasing Subsequence",
+      "slug": "number-of-longest-increasing-subsequence",
+      "difficulty": "Medium",
+      "acceptance": 50.695598006644516,
+      "likes": 7180,
+      "dislikes": 283
+    },
+    {
+      "position": 2,
+      "title": "Queue Reconstruction by Height",
+      "slug": "queue-reconstruction-by-height",
+      "difficulty": "Medium",
+      "acceptance": 74.35994978506486,
+      "likes": 7205,
+      "dislikes": 748
+    },
+    {
+      "position": 3,
+      "title": "Range Sum Query - Mutable",
+      "slug": "range-sum-query-mutable",
+      "difficulty": "Medium",
+      "acceptance": 42.088029481398266,
+      "likes": 5026,
+      "dislikes": 264
+    },
+    {
+      "position": 4,
+      "title": "My Calendar I",
+      "slug": "my-calendar-i",
+      "difficulty": "Medium",
+      "acceptance": 58.19202382922389,
+      "likes": 4764,
+      "dislikes": 134
+    },
+    {
+      "position": 5,
+      "title": "Count Number of Teams",
+      "slug": "count-number-of-teams",
+      "difficulty": "Medium",
+      "acceptance": 70.11747971918186,
+      "likes": 3424,
+      "dislikes": 235
+    },
+    {
+      "position": 6,
+      "title": "My Calendar II",
+      "slug": "my-calendar-ii",
+      "difficulty": "Medium",
+      "acceptance": 62.50581860837507,
+      "likes": 2225,
+      "dislikes": 185
+    },
+    {
+      "position": 7,
+      "title": "Range Frequency Queries",
+      "slug": "range-frequency-queries",
+      "difficulty": "Medium",
+      "acceptance": 40.594004234927006,
+      "likes": 721,
+      "dislikes": 28
+    },
+    {
+      "position": 8,
+      "title": "Fruits Into Baskets III",
+      "slug": "fruits-into-baskets-iii",
+      "difficulty": "Medium",
+      "acceptance": 38.948523335011544,
+      "likes": 565,
+      "dislikes": 80
+    },
+    {
+      "position": 9,
+      "title": "Longest Uploaded Prefix",
+      "slug": "longest-uploaded-prefix",
+      "difficulty": "Medium",
+      "acceptance": 54.2930371636053,
+      "likes": 384,
+      "dislikes": 32
+    },
+    {
+      "position": 10,
+      "title": "Minimum Number of Valid Strings to Form Target I",
+      "slug": "minimum-number-of-valid-strings-to-form-target-i",
+      "difficulty": "Medium",
+      "acceptance": 20.649021864211736,
+      "likes": 166,
+      "dislikes": 17
+    },
+    {
+      "position": 11,
+      "title": "Maximum Area Rectangle With Point Constraints I",
+      "slug": "maximum-area-rectangle-with-point-constraints-i",
+      "difficulty": "Medium",
+      "acceptance": 50.41420532000419,
+      "likes": 71,
+      "dislikes": 20
+    }
+  ]
+}

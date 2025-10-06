@@ -1,0 +1,116 @@
+{
+  "frozen": true,
+  "createdAt": "2025-10-06T15:21:37.887Z",
+  "trackSlug": "bitmask",
+  "difficulty": "MEDIUM",
+  "questions": [
+    {
+      "position": 1,
+      "title": "Partition to K Equal Sum Subsets",
+      "slug": "partition-to-k-equal-sum-subsets",
+      "difficulty": "Medium",
+      "acceptance": 38.23525570782219,
+      "likes": 7435,
+      "dislikes": 545
+    },
+    {
+      "position": 2,
+      "title": "Matchsticks to Square",
+      "slug": "matchsticks-to-square",
+      "difficulty": "Medium",
+      "acceptance": 41.248090824207424,
+      "likes": 3963,
+      "dislikes": 310
+    },
+    {
+      "position": 3,
+      "title": "Beautiful Arrangement",
+      "slug": "beautiful-arrangement",
+      "difficulty": "Medium",
+      "acceptance": 64.64560741788465,
+      "likes": 3370,
+      "dislikes": 386
+    },
+    {
+      "position": 4,
+      "title": "Fair Distribution of Cookies",
+      "slug": "fair-distribution-of-cookies",
+      "difficulty": "Medium",
+      "acceptance": 69.66042738473139,
+      "likes": 2702,
+      "dislikes": 125
+    },
+    {
+      "position": 5,
+      "title": "Can I Win",
+      "slug": "can-i-win",
+      "difficulty": "Medium",
+      "acceptance": 30.69358150449321,
+      "likes": 2789,
+      "dislikes": 424
+    },
+    {
+      "position": 6,
+      "title": "Minimum Number of Work Sessions to Finish the Tasks",
+      "slug": "minimum-number-of-work-sessions-to-finish-the-tasks",
+      "difficulty": "Medium",
+      "acceptance": 34.116467981854626,
+      "likes": 1176,
+      "dislikes": 70
+    },
+    {
+      "position": 7,
+      "title": "Maximum Product of the Length of Two Palindromic Subsequences",
+      "slug": "maximum-product-of-the-length-of-two-palindromic-subsequences",
+      "difficulty": "Medium",
+      "acceptance": 61.87403030403063,
+      "likes": 1002,
+      "dislikes": 89
+    },
+    {
+      "position": 8,
+      "title": "Shopping Offers",
+      "slug": "shopping-offers",
+      "difficulty": "Medium",
+      "acceptance": 52.0725694035078,
+      "likes": 1601,
+      "dislikes": 786
+    },
+    {
+      "position": 9,
+      "title": "Maximum Compatibility Score Sum",
+      "slug": "maximum-compatibility-score-sum",
+      "difficulty": "Medium",
+      "acceptance": 63.82438751448783,
+      "likes": 823,
+      "dislikes": 32
+    },
+    {
+      "position": 10,
+      "title": "Special Permutations",
+      "slug": "special-permutations",
+      "difficulty": "Medium",
+      "acceptance": 28.93522885119956,
+      "likes": 585,
+      "dislikes": 66
+    },
+    {
+      "position": 11,
+      "title": "Count the Number of Square-Free Subsets",
+      "slug": "count-the-number-of-square-free-subsets",
+      "difficulty": "Medium",
+      "acceptance": 25.674363294024378,
+      "likes": 501,
+      "dislikes": 121
+    },
+    {
+      "position": 12,
+      "title": "Minimum Time to Break Locks I",
+      "slug": "minimum-time-to-break-locks-i",
+      "difficulty": "Medium",
+      "acceptance": 31.211281185970837,
+      "likes": 100,
+      "dislikes": 23
+    }
+  ]
+}

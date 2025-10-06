@@ -1,0 +1,44 @@
+{
+  "frozen": true,
+  "createdAt": "2025-10-06T15:22:08.660Z",
+  "trackSlug": "hash-function",
+  "difficulty": "EASY",
+  "questions": [
+    {
+      "position": 1,
+      "title": "Subtree of Another Tree",
+      "slug": "subtree-of-another-tree",
+      "difficulty": "Easy",
+      "acceptance": 50.605212076959646,
+      "likes": 8714,
+      "dislikes": 582
+    },
+    {
+      "position": 2,
+      "title": "Design HashMap",
+      "slug": "design-hashmap",
+      "difficulty": "Easy",
+      "acceptance": 66.09334550127576,
+      "likes": 5344,
+      "dislikes": 493
+    },
+    {
+      "position": 3,
+      "title": "Design HashSet",
+      "slug": "design-hashset",
+      "difficulty": "Easy",
+      "acceptance": 67.37018009977983,
+      "likes": 3970,
+      "dislikes": 324
+    },
+    {
+      "position": 4,
+      "title": "Count Prefix and Suffix Pairs I",
+      "slug": "count-prefix-and-suffix-pairs-i",
+      "difficulty": "Easy",
+      "acceptance": 77.70966464966352,
+      "likes": 588,
+      "dislikes": 43
+    }
+  ]
+}

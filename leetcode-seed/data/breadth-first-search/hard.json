@@ -1,0 +1,368 @@
+{
+  "frozen": true,
+  "createdAt": "2025-10-06T15:19:20.473Z",
+  "trackSlug": "breadth-first-search",
+  "difficulty": "HARD",
+  "questions": [
+    {
+      "position": 1,
+      "title": "Word Ladder",
+      "slug": "word-ladder",
+      "difficulty": "Hard",
+      "acceptance": 43.88601317149449,
+      "likes": 13100,
+      "dislikes": 1949
+    },
+    {
+      "position": 2,
+      "title": "Serialize and Deserialize Binary Tree",
+      "slug": "serialize-and-deserialize-binary-tree",
+      "difficulty": "Hard",
+      "acceptance": 59.68534158171322,
+      "likes": 10882,
+      "dislikes": 423
+    },
+    {
+      "position": 3,
+      "title": "Longest Increasing Path in a Matrix",
+      "slug": "longest-increasing-path-in-a-matrix",
+      "difficulty": "Hard",
+      "acceptance": 55.81674964802146,
+      "likes": 9350,
+      "dislikes": 146
+    },
+    {
+      "position": 4,
+      "title": "Remove Invalid Parentheses",
+      "slug": "remove-invalid-parentheses",
+      "difficulty": "Hard",
+      "acceptance": 49.474032840283435,
+      "likes": 6025,
+      "dislikes": 300
+    },
+    {
+      "position": 5,
+      "title": "Word Ladder II",
+      "slug": "word-ladder-ii",
+      "difficulty": "Hard",
+      "acceptance": 27.272101810157533,
+      "likes": 6413,
+      "dislikes": 818
+    },
+    {
+      "position": 6,
+      "title": "Making A Large Island",
+      "slug": "making-a-large-island",
+      "difficulty": "Hard",
+      "acceptance": 55.71369486766492,
+      "likes": 4884,
+      "dislikes": 98
+    },
+    {
+      "position": 7,
+      "title": "Trapping Rain Water II",
+      "slug": "trapping-rain-water-ii",
+      "difficulty": "Hard",
+      "acceptance": 63.79562301714499,
+      "likes": 4916,
+      "dislikes": 166
+    },
+    {
+      "position": 8,
+      "title": "Shortest Path in a Grid with Obstacles Elimination",
+      "slug": "shortest-path-in-a-grid-with-obstacles-elimination",
+      "difficulty": "Hard",
+      "acceptance": 45.82585237943758,
+      "likes": 4745,
+      "dislikes": 90
+    },
+    {
+      "position": 9,
+      "title": "Bus Routes",
+      "slug": "bus-routes",
+      "difficulty": "Hard",
+      "acceptance": 46.97210369679802,
+      "likes": 4578,
+      "dislikes": 134
+    },
+    {
+      "position": 10,
+      "title": "Shortest Path Visiting All Nodes",
+      "slug": "shortest-path-visiting-all-nodes",
+      "difficulty": "Hard",
+      "acceptance": 65.59203519333178,
+      "likes": 4549,
+      "dislikes": 179
+    },
+    {
+      "position": 11,
+      "title": "Vertical Order Traversal of a Binary Tree",
+      "slug": "vertical-order-traversal-of-a-binary-tree",
+      "difficulty": "Hard",
+      "acceptance": 52.42888645566249,
+      "likes": 8404,
+      "dislikes": 4384
+    },
+    {
+      "position": 12,
+      "title": "Swim in Rising Water",
+      "slug": "swim-in-rising-water",
+      "difficulty": "Hard",
+      "acceptance": 65.91301894113083,
+      "likes": 4318,
+      "dislikes": 301
+    },
+    {
+      "position": 13,
+      "title": "Jump Game IV",
+      "slug": "jump-game-iv",
+      "difficulty": "Hard",
+      "acceptance": 46.155813656075246,
+      "likes": 3835,
+      "dislikes": 131
+    },
+    {
+      "position": 14,
+      "title": "Sliding Puzzle",
+      "slug": "sliding-puzzle",
+      "difficulty": "Hard",
+      "acceptance": 73.33346607992672,
+      "likes": 2711,
+      "dislikes": 73
+    },
+    {
+      "position": 15,
+      "title": "Minimum Cost to Make at Least One Valid Path in a Grid",
+      "slug": "minimum-cost-to-make-at-least-one-valid-path-in-a-grid",
+      "difficulty": "Hard",
+      "acceptance": 70.78080319407226,
+      "likes": 2538,
+      "dislikes": 35
+    },
+    {
+      "position": 16,
+      "title": "Longest Cycle in a Graph",
+      "slug": "longest-cycle-in-a-graph",
+      "difficulty": "Hard",
+      "acceptance": 50.1518330815671,
+      "likes": 2491,
+      "dislikes": 51
+    },
+    {
+      "position": 17,
+      "title": "Shortest Path to Get All Keys",
+      "slug": "shortest-path-to-get-all-keys",
+      "difficulty": "Hard",
+      "acceptance": 54.10230606949732,
+      "likes": 2456,
+      "dislikes": 107
+    },
+    {
+      "position": 18,
+      "title": "Couples Holding Hands",
+      "slug": "couples-holding-hands",
+      "difficulty": "Hard",
+      "acceptance": 58.79298565247096,
+      "likes": 2446,
+      "dislikes": 128
+    },
+    {
+      "position": 19,
+      "title": "Similar String Groups",
+      "slug": "similar-string-groups",
+      "difficulty": "Hard",
+      "acceptance": 55.68784150770539,
+      "likes": 2439,
+      "dislikes": 217
+    },
+    {
+      "position": 20,
+      "title": "Redundant Connection II",
+      "slug": "redundant-connection-ii",
+      "difficulty": "Hard",
+      "acceptance": 35.52046686809321,
+      "likes": 2477,
+      "dislikes": 328
+    },
+    {
+      "position": 21,
+      "title": "Number of Increasing Paths in a Grid",
+      "slug": "number-of-increasing-paths-in-a-grid",
+      "difficulty": "Hard",
+      "acceptance": 57.505904995188516,
+      "likes": 2087,
+      "dislikes": 45
+    },
+    {
+      "position": 22,
+      "title": "Last Day Where You Can Still Cross",
+      "slug": "last-day-where-you-can-still-cross",
+      "difficulty": "Hard",
+      "acceptance": 62.4846399606783,
+      "likes": 1997,
+      "dislikes": 39
+    },
+    {
+      "position": 23,
+      "title": "Kth Ancestor of a Tree Node",
+      "slug": "kth-ancestor-of-a-tree-node",
+      "difficulty": "Hard",
+      "acceptance": 36.49041522517892,
+      "likes": 2049,
+      "dislikes": 123
+    },
+    {
+      "position": 24,
+      "title": "Minimum Obstacle Removal to Reach Corner",
+      "slug": "minimum-obstacle-removal-to-reach-corner",
+      "difficulty": "Hard",
+      "acceptance": 70.23984010659561,
+      "likes": 1632,
+      "dislikes": 29
+    },
+    {
+      "position": 25,
+      "title": "Find All People With Secret",
+      "slug": "find-all-people-with-secret",
+      "difficulty": "Hard",
+      "acceptance": 45.29400183189378,
+      "likes": 1653,
+      "dislikes": 82
+    },
+    {
+      "position": 26,
+      "title": "Sort Items by Groups Respecting Dependencies",
+      "slug": "sort-items-by-groups-respecting-dependencies",
+      "difficulty": "Hard",
+      "acceptance": 65.64212507843547,
+      "likes": 1875,
+      "dislikes": 317
+    },
+    {
+      "position": 27,
+      "title": "Height of Binary Tree After Subtree Removal Queries",
+      "slug": "height-of-binary-tree-after-subtree-removal-queries",
+      "difficulty": "Hard",
+      "acceptance": 54.916015948163135,
+      "likes": 1525,
+      "dislikes": 37
+    },
+    {
+      "position": 28,
+      "title": "Freedom Trail",
+      "slug": "freedom-trail",
+      "difficulty": "Hard",
+      "acceptance": 59.05324161837188,
+      "likes": 1560,
+      "dislikes": 82
+    },
+    {
+      "position": 29,
+      "title": "Second Minimum Time to Reach Destination",
+      "slug": "second-minimum-time-to-reach-destination",
+      "difficulty": "Hard",
+      "acceptance": 62.40664714371786,
+      "likes": 1298,
+      "dislikes": 68
+    },
+    {
+      "position": 30,
+      "title": "K-Similar Strings",
+      "slug": "k-similar-strings",
+      "difficulty": "Hard",
+      "acceptance": 40.277454313972086,
+      "likes": 1167,
+      "dislikes": 63
+    },
+    {
+      "position": 31,
+      "title": "Minimum Number of Days to Disconnect Island",
+      "slug": "minimum-number-of-days-to-disconnect-island",
+      "difficulty": "Hard",
+      "acceptance": 58.91628318044677,
+      "likes": 1285,
+      "dislikes": 224
+    },
+    {
+      "position": 32,
+      "title": "Minimum Time to Visit a Cell In a Grid",
+      "slug": "minimum-time-to-visit-a-cell-in-a-grid",
+      "difficulty": "Hard",
+      "acceptance": 56.5587576704339,
+      "likes": 1102,
+      "dislikes": 43
+    },
+    {
+      "position": 33,
+      "title": "Maximum Number of Points From Grid Queries",
+      "slug": "maximum-number-of-points-from-grid-queries",
+      "difficulty": "Hard",
+      "acceptance": 59.39099219953297,
+      "likes": 1088,
+      "dislikes": 50
+    },
+    {
+      "position": 34,
+      "title": "Divide Nodes Into the Maximum Number of Groups",
+      "slug": "divide-nodes-into-the-maximum-number-of-groups",
+      "difficulty": "Hard",
+      "acceptance": 67.1914701621904,
+      "likes": 972,
+      "dislikes": 73
+    },
+    {
+      "position": 35,
+      "title": "Minimum Number of Flips to Convert Binary Matrix to Zero Matrix",
+      "slug": "minimum-number-of-flips-to-convert-binary-matrix-to-zero-matrix",
+      "difficulty": "Hard",
+      "acceptance": 72.24818325735757,
+      "likes": 997,
+      "dislikes": 102
+    },
+    {
+      "position": 36,
+      "title": "Minimum Moves to Move a Box to Their Target Location",
+      "slug": "minimum-moves-to-move-a-box-to-their-target-location",
+      "difficulty": "Hard",
+      "acceptance": 49.100935027571325,
+      "likes": 878,
+      "dislikes": 60
+    },
+    {
+      "position": 37,
+      "title": "Escape the Spreading Fire",
+      "slug": "escape-the-spreading-fire",
+      "difficulty": "Hard",
+      "acceptance": 36.68817854136539,
+      "likes": 833,
+      "dislikes": 41
+    },
+    {
+      "position": 38,
+      "title": "Frog Position After T Seconds",
+      "slug": "frog-position-after-t-seconds",
+      "difficulty": "Hard",
+      "acceptance": 36.45409617943357,
+      "likes": 829,
+      "dislikes": 149
+    },
+    {
+      "position": 39,
+      "title": "Find Minimum Diameter After Merging Two Trees",
+      "slug": "find-minimum-diameter-after-merging-two-trees",
+      "difficulty": "Hard",
+      "acceptance": 57.18182224673215,
+      "likes": 681,
+      "dislikes": 39
+    },
+    {
+      "position": 40,
+      "title": "Minimize Malware Spread II",
+      "slug": "minimize-malware-spread-ii",
+      "difficulty": "Hard",
+      "acceptance": 45.14950960848417,
+      "likes": 704,
+      "dislikes": 91
+    }
+  ]
+}

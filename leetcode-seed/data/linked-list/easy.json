@@ -1,0 +1,116 @@
+{
+  "frozen": true,
+  "createdAt": "2025-10-06T15:21:04.614Z",
+  "trackSlug": "linked-list",
+  "difficulty": "EASY",
+  "questions": [
+    {
+      "position": 1,
+      "title": "Reverse Linked List",
+      "slug": "reverse-linked-list",
+      "difficulty": "Easy",
+      "acceptance": 79.7718167939915,
+      "likes": 23659,
+      "dislikes": 552
+    },
+    {
+      "position": 2,
+      "title": "Merge Two Sorted Lists",
+      "slug": "merge-two-sorted-lists",
+      "difficulty": "Easy",
+      "acceptance": 67.38031938348567,
+      "likes": 24098,
+      "dislikes": 2363
+    },
+    {
+      "position": 3,
+      "title": "Palindrome Linked List",
+      "slug": "palindrome-linked-list",
+      "difficulty": "Easy",
+      "acceptance": 56.68671861134212,
+      "likes": 17822,
+      "dislikes": 952
+    },
+    {
+      "position": 4,
+      "title": "Linked List Cycle",
+      "slug": "linked-list-cycle",
+      "difficulty": "Easy",
+      "acceptance": 53.24845817810407,
+      "likes": 16987,
+      "dislikes": 1539
+    },
+    {
+      "position": 5,
+      "title": "Intersection of Two Linked Lists",
+      "slug": "intersection-of-two-linked-lists",
+      "difficulty": "Easy",
+      "acceptance": 62.199611094255125,
+      "likes": 16158,
+      "dislikes": 1465
+    },
+    {
+      "position": 6,
+      "title": "Middle of the Linked List",
+      "slug": "middle-of-the-linked-list",
+      "difficulty": "Easy",
+      "acceptance": 81.1274105176364,
+      "likes": 12824,
+      "dislikes": 425
+    },
+    {
+      "position": 7,
+      "title": "Remove Duplicates from Sorted List",
+      "slug": "remove-duplicates-from-sorted-list",
+      "difficulty": "Easy",
+      "acceptance": 55.52682315382253,
+      "likes": 9530,
+      "dislikes": 350
+    },
+    {
+      "position": 8,
+      "title": "Remove Linked List Elements",
+      "slug": "remove-linked-list-elements",
+      "difficulty": "Easy",
+      "acceptance": 52.85736742745293,
+      "likes": 8837,
+      "dislikes": 280
+    },
+    {
+      "position": 9,
+      "title": "Design HashMap",
+      "slug": "design-hashmap",
+      "difficulty": "Easy",
+      "acceptance": 66.09334550127576,
+      "likes": 5344,
+      "dislikes": 493
+    },
+    {
+      "position": 10,
+      "title": "Convert Binary Number in a Linked List to Integer",
+      "slug": "convert-binary-number-in-a-linked-list-to-integer",
+      "difficulty": "Easy",
+      "acceptance": 82.30212112306369,
+      "likes": 4634,
+      "dislikes": 177
+    },
+    {
+      "position": 11,
+      "title": "Design HashSet",
+      "slug": "design-hashset",
+      "difficulty": "Easy",
+      "acceptance": 67.37013838012277,
+      "likes": 3970,
+      "dislikes": 324
+    },
+    {
+      "position": 12,
+      "title": "Minimum Pair Removal to Sort Array I",
+      "slug": "minimum-pair-removal-to-sort-array-i",
+      "difficulty": "Easy",
+      "acceptance": 55.58812643422903,
+      "likes": 96,
+      "dislikes": 23
+    }
+  ]
+}

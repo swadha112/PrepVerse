@@ -1,0 +1,368 @@
+{
+  "frozen": true,
+  "createdAt": "2025-10-06T15:17:00.819Z",
+  "trackSlug": "string",
+  "difficulty": "EASY",
+  "questions": [
+    {
+      "position": 1,
+      "title": "Valid Parentheses",
+      "slug": "valid-parentheses",
+      "difficulty": "Easy",
+      "acceptance": 42.982904630343384,
+      "likes": 26706,
+      "dislikes": 1938
+    },
+    {
+      "position": 2,
+      "title": "Roman to Integer",
+      "slug": "roman-to-integer",
+      "difficulty": "Easy",
+      "acceptance": 65.57338407764898,
+      "likes": 16695,
+      "dislikes": 1162
+    },
+    {
+      "position": 3,
+      "title": "Longest Common Prefix",
+      "slug": "longest-common-prefix",
+      "difficulty": "Easy",
+      "acceptance": 46.29066406782842,
+      "likes": 20114,
+      "dislikes": 4822
+    },
+    {
+      "position": 4,
+      "title": "Valid Anagram",
+      "slug": "valid-anagram",
+      "difficulty": "Easy",
+      "acceptance": 67.2340964542325,
+      "likes": 13596,
+      "dislikes": 456
+    },
+    {
+      "position": 5,
+      "title": "Is Subsequence",
+      "slug": "is-subsequence",
+      "difficulty": "Easy",
+      "acceptance": 48.62470396276667,
+      "likes": 10524,
+      "dislikes": 595
+    },
+    {
+      "position": 6,
+      "title": "First Unique Character in a String",
+      "slug": "first-unique-character-in-a-string",
+      "difficulty": "Easy",
+      "acceptance": 64.2822940534145,
+      "likes": 9481,
+      "dislikes": 322
+    },
+    {
+      "position": 7,
+      "title": "Add Binary",
+      "slug": "add-binary",
+      "difficulty": "Easy",
+      "acceptance": 56.21014496200978,
+      "likes": 10194,
+      "dislikes": 1078
+    },
+    {
+      "position": 8,
+      "title": "Valid Palindrome II",
+      "slug": "valid-palindrome-ii",
+      "difficulty": "Easy",
+      "acceptance": 43.502125409412926,
+      "likes": 8757,
+      "dislikes": 502
+    },
+    {
+      "position": 9,
+      "title": "Reverse String",
+      "slug": "reverse-string",
+      "difficulty": "Easy",
+      "acceptance": 80.13714047354851,
+      "likes": 9243,
+      "dislikes": 1206
+    },
+    {
+      "position": 10,
+      "title": "Isomorphic Strings",
+      "slug": "isomorphic-strings",
+      "difficulty": "Easy",
+      "acceptance": 47.46809220832077,
+      "likes": 10096,
+      "dislikes": 2244
+    },
+    {
+      "position": 11,
+      "title": "Backspace String Compare",
+      "slug": "backspace-string-compare",
+      "difficulty": "Easy",
+      "acceptance": 49.59698999613389,
+      "likes": 7818,
+      "dislikes": 376
+    },
+    {
+      "position": 12,
+      "title": "Binary Tree Paths",
+      "slug": "binary-tree-paths",
+      "difficulty": "Easy",
+      "acceptance": 67.38992488851939,
+      "likes": 7067,
+      "dislikes": 334
+    },
+    {
+      "position": 13,
+      "title": "Remove All Adjacent Duplicates In String",
+      "slug": "remove-all-adjacent-duplicates-in-string",
+      "difficulty": "Easy",
+      "acceptance": 72.15743170983538,
+      "likes": 6951,
+      "dislikes": 271
+    },
+    {
+      "position": 14,
+      "title": "Word Pattern",
+      "slug": "word-pattern",
+      "difficulty": "Easy",
+      "acceptance": 43.40919469649865,
+      "likes": 7796,
+      "dislikes": 1120
+    },
+    {
+      "position": 15,
+      "title": "Find the Index of the First Occurrence in a String",
+      "slug": "find-the-index-of-the-first-occurrence-in-a-string",
+      "difficulty": "Easy",
+      "acceptance": 45.606628640713986,
+      "likes": 7133,
+      "dislikes": 535
+    },
+    {
+      "position": 16,
+      "title": "Repeated Substring Pattern",
+      "slug": "repeated-substring-pattern",
+      "difficulty": "Easy",
+      "acceptance": 47.264488998134276,
+      "likes": 6729,
+      "dislikes": 553
+    },
+    {
+      "position": 17,
+      "title": "Reverse Words in a String III",
+      "slug": "reverse-words-in-a-string-iii",
+      "difficulty": "Easy",
+      "acceptance": 83.7725548110384,
+      "likes": 6127,
+      "dislikes": 253
+    },
+    {
+      "position": 18,
+      "title": "Longest Palindrome",
+      "slug": "longest-palindrome",
+      "difficulty": "Easy",
+      "acceptance": 55.66958266686387,
+      "likes": 6238,
+      "dislikes": 438
+    },
+    {
+      "position": 19,
+      "title": "Length of Last Word",
+      "slug": "length-of-last-word",
+      "difficulty": "Easy",
+      "acceptance": 57.27139954388548,
+      "likes": 6035,
+      "dislikes": 338
+    },
+    {
+      "position": 20,
+      "title": "Excel Sheet Column Title",
+      "slug": "excel-sheet-column-title",
+      "difficulty": "Easy",
+      "acceptance": 44.60761270417182,
+      "likes": 5940,
+      "dislikes": 901
+    },
+    {
+      "position": 21,
+      "title": "Ransom Note",
+      "slug": "ransom-note",
+      "difficulty": "Easy",
+      "acceptance": 65.05804546415018,
+      "likes": 5502,
+      "dislikes": 537
+    },
+    {
+      "position": 22,
+      "title": "Find the Difference",
+      "slug": "find-the-difference",
+      "difficulty": "Easy",
+      "acceptance": 59.85690948157758,
+      "likes": 5327,
+      "dislikes": 503
+    },
+    {
+      "position": 23,
+      "title": "Jewels and Stones",
+      "slug": "jewels-and-stones",
+      "difficulty": "Easy",
+      "acceptance": 89.36432952498824,
+      "likes": 5357,
+      "dislikes": 622
+    },
+    {
+      "position": 24,
+      "title": "Excel Sheet Column Number",
+      "slug": "excel-sheet-column-number",
+      "difficulty": "Easy",
+      "acceptance": 66.45197240896191,
+      "likes": 5006,
+      "dislikes": 394
+    },
+    {
+      "position": 25,
+      "title": "Merge Strings Alternately",
+      "slug": "merge-strings-alternately",
+      "difficulty": "Easy",
+      "acceptance": 82.15037041136969,
+      "likes": 4709,
+      "dislikes": 137
+    },
+    {
+      "position": 26,
+      "title": "Add Strings",
+      "slug": "add-strings",
+      "difficulty": "Easy",
+      "acceptance": 51.93193851971066,
+      "likes": 5342,
+      "dislikes": 819
+    },
+    {
+      "position": 27,
+      "title": "Rotate String",
+      "slug": "rotate-string",
+      "difficulty": "Easy",
+      "acceptance": 64.54050797113733,
+      "likes": 4630,
+      "dislikes": 388
+    },
+    {
+      "position": 28,
+      "title": "Greatest Common Divisor of Strings",
+      "slug": "greatest-common-divisor-of-strings",
+      "difficulty": "Easy",
+      "acceptance": 52.955051388964634,
+      "likes": 5850,
+      "dislikes": 1623
+    },
+    {
+      "position": 29,
+      "title": "Find Common Characters",
+      "slug": "find-common-characters",
+      "difficulty": "Easy",
+      "acceptance": 74.58710292064231,
+      "likes": 4449,
+      "dislikes": 432
+    },
+    {
+      "position": 30,
+      "title": "Verifying an Alien Dictionary",
+      "slug": "verifying-an-alien-dictionary",
+      "difficulty": "Easy",
+      "acceptance": 55.71730358039183,
+      "likes": 5017,
+      "dislikes": 1674
+    },
+    {
+      "position": 31,
+      "title": "Count Binary Substrings",
+      "slug": "count-binary-substrings",
+      "difficulty": "Easy",
+      "acceptance": 66.12340343093517,
+      "likes": 4129,
+      "dislikes": 901
+    },
+    {
+      "position": 32,
+      "title": "Shortest Distance to a Character",
+      "slug": "shortest-distance-to-a-character",
+      "difficulty": "Easy",
+      "acceptance": 72.41741814148624,
+      "likes": 3272,
+      "dislikes": 194
+    },
+    {
+      "position": 33,
+      "title": "Detect Capital",
+      "slug": "detect-capital",
+      "difficulty": "Easy",
+      "acceptance": 56.16343964433922,
+      "likes": 3535,
+      "dislikes": 468
+    },
+    {
+      "position": 34,
+      "title": "Make The String Great",
+      "slug": "make-the-string-great",
+      "difficulty": "Easy",
+      "acceptance": 68.33100071231445,
+      "likes": 3183,
+      "dislikes": 181
+    },
+    {
+      "position": 35,
+      "title": "Check If Two String Arrays are Equivalent",
+      "slug": "check-if-two-string-arrays-are-equivalent",
+      "difficulty": "Easy",
+      "acceptance": 85.91028541799241,
+      "likes": 3120,
+      "dislikes": 204
+    },
+    {
+      "position": 36,
+      "title": "Check if the Sentence Is Pangram",
+      "slug": "check-if-the-sentence-is-pangram",
+      "difficulty": "Easy",
+      "acceptance": 83.99617485206896,
+      "likes": 2947,
+      "dislikes": 64
+    },
+    {
+      "position": 37,
+      "title": "Fizz Buzz",
+      "slug": "fizz-buzz",
+      "difficulty": "Easy",
+      "acceptance": 74.81673758262625,
+      "likes": 3178,
+      "dislikes": 442
+    },
+    {
+      "position": 38,
+      "title": "Unique Email Addresses",
+      "slug": "unique-email-addresses",
+      "difficulty": "Easy",
+      "acceptance": 67.69295117387219,
+      "likes": 2779,
+      "dislikes": 360
+    },
+    {
+      "position": 39,
+      "title": "Shuffle String",
+      "slug": "shuffle-string",
+      "difficulty": "Easy",
+      "acceptance": 85.212333112153,
+      "likes": 2877,
+      "dislikes": 540
+    },
+    {
+      "position": 40,
+      "title": "Reverse Only Letters",
+      "slug": "reverse-only-letters",
+      "difficulty": "Easy",
+      "acceptance": 67.44774769011433,
+      "likes": 2399,
+      "dislikes": 82
+    }
+  ]
+}

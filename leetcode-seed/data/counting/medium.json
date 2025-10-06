@@ -1,0 +1,368 @@
+{
+  "frozen": true,
+  "createdAt": "2025-10-06T15:20:31.108Z",
+  "trackSlug": "counting",
+  "difficulty": "MEDIUM",
+  "questions": [
+    {
+      "position": 1,
+      "title": "Top K Frequent Elements",
+      "slug": "top-k-frequent-elements",
+      "difficulty": "Medium",
+      "acceptance": 64.91060776741809,
+      "likes": 18794,
+      "dislikes": 832
+    },
+    {
+      "position": 2,
+      "title": "Majority Element II",
+      "slug": "majority-element-ii",
+      "difficulty": "Medium",
+      "acceptance": 55.19029127474992,
+      "likes": 10688,
+      "dislikes": 479
+    },
+    {
+      "position": 3,
+      "title": "Task Scheduler",
+      "slug": "task-scheduler",
+      "difficulty": "Medium",
+      "acceptance": 62.12326858794703,
+      "likes": 11449,
+      "dislikes": 2181
+    },
+    {
+      "position": 4,
+      "title": "Reorganize String",
+      "slug": "reorganize-string",
+      "difficulty": "Medium",
+      "acceptance": 56.519483278452775,
+      "likes": 9053,
+      "dislikes": 281
+    },
+    {
+      "position": 5,
+      "title": "Sort Characters By Frequency",
+      "slug": "sort-characters-by-frequency",
+      "difficulty": "Medium",
+      "acceptance": 74.7177077165608,
+      "likes": 8961,
+      "dislikes": 326
+    },
+    {
+      "position": 6,
+      "title": "Top K Frequent Words",
+      "slug": "top-k-frequent-words",
+      "difficulty": "Medium",
+      "acceptance": 59.66538976510135,
+      "likes": 7920,
+      "dislikes": 370
+    },
+    {
+      "position": 7,
+      "title": "Pairs of Songs With Total Durations Divisible by 60",
+      "slug": "pairs-of-songs-with-total-durations-divisible-by-60",
+      "difficulty": "Medium",
+      "acceptance": 53.33758194351941,
+      "likes": 4306,
+      "dislikes": 181
+    },
+    {
+      "position": 8,
+      "title": "Determine if Two Strings Are Close",
+      "slug": "determine-if-two-strings-are-close",
+      "difficulty": "Medium",
+      "acceptance": 54.20852243496952,
+      "likes": 4024,
+      "dislikes": 346
+    },
+    {
+      "position": 9,
+      "title": "Letter Tile Possibilities",
+      "slug": "letter-tile-possibilities",
+      "difficulty": "Medium",
+      "acceptance": 83.55783947051013,
+      "likes": 3120,
+      "dislikes": 88
+    },
+    {
+      "position": 10,
+      "title": "Longest Palindrome by Concatenating Two Letter Words",
+      "slug": "longest-palindrome-by-concatenating-two-letter-words",
+      "difficulty": "Medium",
+      "acceptance": 53.65679693799902,
+      "likes": 2929,
+      "dislikes": 78
+    },
+    {
+      "position": 11,
+      "title": "Minimum Rounds to Complete All Tasks",
+      "slug": "minimum-rounds-to-complete-all-tasks",
+      "difficulty": "Medium",
+      "acceptance": 63.07094853671712,
+      "likes": 2831,
+      "dislikes": 84
+    },
+    {
+      "position": 12,
+      "title": "Minimum Number of Steps to Make Two Strings Anagram",
+      "slug": "minimum-number-of-steps-to-make-two-strings-anagram",
+      "difficulty": "Medium",
+      "acceptance": 82.26554264934423,
+      "likes": 2792,
+      "dislikes": 121
+    },
+    {
+      "position": 13,
+      "title": "Minimum Increment to Make Array Unique",
+      "slug": "minimum-increment-to-make-array-unique",
+      "difficulty": "Medium",
+      "acceptance": 60.45561219427208,
+      "likes": 2753,
+      "dislikes": 84
+    },
+    {
+      "position": 14,
+      "title": "Check If Array Pairs Are Divisible by k",
+      "slug": "check-if-array-pairs-are-divisible-by-k",
+      "difficulty": "Medium",
+      "acceptance": 46.174044881220944,
+      "likes": 2581,
+      "dislikes": 155
+    },
+    {
+      "position": 15,
+      "title": "3Sum With Multiplicity",
+      "slug": "3sum-with-multiplicity",
+      "difficulty": "Medium",
+      "acceptance": 45.94939265643008,
+      "likes": 2667,
+      "dislikes": 327
+    },
+    {
+      "position": 16,
+      "title": "Find Players With Zero or One Losses",
+      "slug": "find-players-with-zero-or-one-losses",
+      "difficulty": "Medium",
+      "acceptance": 72.5403438250044,
+      "likes": 2241,
+      "dislikes": 157
+    },
+    {
+      "position": 17,
+      "title": "Least Number of Unique Integers after K Removals",
+      "slug": "least-number-of-unique-integers-after-k-removals",
+      "difficulty": "Medium",
+      "acceptance": 63.56171348078771,
+      "likes": 2309,
+      "dislikes": 233
+    },
+    {
+      "position": 18,
+      "title": "Reordered Power of 2",
+      "slug": "reordered-power-of-2",
+      "difficulty": "Medium",
+      "acceptance": 66.1081377142483,
+      "likes": 2528,
+      "dislikes": 494
+    },
+    {
+      "position": 19,
+      "title": "Count Nice Pairs in an Array",
+      "slug": "count-nice-pairs-in-an-array",
+      "difficulty": "Medium",
+      "acceptance": 48.476058827528384,
+      "likes": 1998,
+      "dislikes": 90
+    },
+    {
+      "position": 20,
+      "title": "Count Servers that Communicate",
+      "slug": "count-servers-that-communicate",
+      "difficulty": "Medium",
+      "acceptance": 73.50932285077414,
+      "likes": 1896,
+      "dislikes": 108
+    },
+    {
+      "position": 21,
+      "title": "Count Number of Bad Pairs",
+      "slug": "count-number-of-bad-pairs",
+      "difficulty": "Medium",
+      "acceptance": 54.28721048536717,
+      "likes": 1771,
+      "dislikes": 61
+    },
+    {
+      "position": 22,
+      "title": "Construct K Palindrome Strings",
+      "slug": "construct-k-palindrome-strings",
+      "difficulty": "Medium",
+      "acceptance": 68.64410724259913,
+      "likes": 1780,
+      "dislikes": 159
+    },
+    {
+      "position": 23,
+      "title": "Number of Nodes in the Sub-Tree With the Same Label",
+      "slug": "number-of-nodes-in-the-sub-tree-with-the-same-label",
+      "difficulty": "Medium",
+      "acceptance": 55.178451747685955,
+      "likes": 2346,
+      "dislikes": 810
+    },
+    {
+      "position": 24,
+      "title": "Minimum Number of Operations to Make Array Empty",
+      "slug": "minimum-number-of-operations-to-make-array-empty",
+      "difficulty": "Medium",
+      "acceptance": 61.97029138156868,
+      "likes": 1431,
+      "dislikes": 68
+    },
+    {
+      "position": 25,
+      "title": "Rank Teams by Votes",
+      "slug": "rank-teams-by-votes",
+      "difficulty": "Medium",
+      "acceptance": 59.717531470678544,
+      "likes": 1553,
+      "dislikes": 194
+    },
+    {
+      "position": 26,
+      "title": "Tuple with Same Product",
+      "slug": "tuple-with-same-product",
+      "difficulty": "Medium",
+      "acceptance": 70.13319635582761,
+      "likes": 1364,
+      "dislikes": 58
+    },
+    {
+      "position": 27,
+      "title": "Distant Barcodes",
+      "slug": "distant-barcodes",
+      "difficulty": "Medium",
+      "acceptance": 48.07990900556077,
+      "likes": 1337,
+      "dislikes": 52
+    },
+    {
+      "position": 28,
+      "title": "Sum of Beauty of All Substrings",
+      "slug": "sum-of-beauty-of-all-substrings",
+      "difficulty": "Medium",
+      "acceptance": 72.50010961760508,
+      "likes": 1473,
+      "dislikes": 216
+    },
+    {
+      "position": 29,
+      "title": "Construct String With Repeat Limit",
+      "slug": "construct-string-with-repeat-limit",
+      "difficulty": "Medium",
+      "acceptance": 70.91895427785171,
+      "likes": 1236,
+      "dislikes": 100
+    },
+    {
+      "position": 30,
+      "title": "Largest Combination With Bitwise AND Greater Than Zero",
+      "slug": "largest-combination-with-bitwise-and-greater-than-zero",
+      "difficulty": "Medium",
+      "acceptance": 80.81713948488807,
+      "likes": 1130,
+      "dislikes": 59
+    },
+    {
+      "position": 31,
+      "title": "Minimum Number of Frogs Croaking",
+      "slug": "minimum-number-of-frogs-croaking",
+      "difficulty": "Medium",
+      "acceptance": 50.92551284101718,
+      "likes": 1108,
+      "dislikes": 93
+    },
+    {
+      "position": 32,
+      "title": "Equal Sum Arrays With Minimum Number of Operations",
+      "slug": "equal-sum-arrays-with-minimum-number-of-operations",
+      "difficulty": "Medium",
+      "acceptance": 54.31401636598555,
+      "likes": 956,
+      "dislikes": 45
+    },
+    {
+      "position": 33,
+      "title": "Bulls and Cows",
+      "slug": "bulls-and-cows",
+      "difficulty": "Medium",
+      "acceptance": 51.763345984633304,
+      "likes": 2576,
+      "dislikes": 1809
+    },
+    {
+      "position": 34,
+      "title": "Detect Squares",
+      "slug": "detect-squares",
+      "difficulty": "Medium",
+      "acceptance": 51.78835149827702,
+      "likes": 979,
+      "dislikes": 256
+    },
+    {
+      "position": 35,
+      "title": "Minimum Number of Pushes to Type Word II",
+      "slug": "minimum-number-of-pushes-to-type-word-ii",
+      "difficulty": "Medium",
+      "acceptance": 79.91734711171176,
+      "likes": 765,
+      "dislikes": 77
+    },
+    {
+      "position": 36,
+      "title": "Number of Pairs of Strings With Concatenation Equal to Target",
+      "slug": "number-of-pairs-of-strings-with-concatenation-equal-to-target",
+      "difficulty": "Medium",
+      "acceptance": 75.09118734855248,
+      "likes": 741,
+      "dislikes": 56
+    },
+    {
+      "position": 37,
+      "title": "Count Number of Distinct Integers After Reverse Operations",
+      "slug": "count-number-of-distinct-integers-after-reverse-operations",
+      "difficulty": "Medium",
+      "acceptance": 80.77727446670285,
+      "likes": 713,
+      "dislikes": 58
+    },
+    {
+      "position": 38,
+      "title": "Minimum Length of String After Operations",
+      "slug": "minimum-length-of-string-after-operations",
+      "difficulty": "Medium",
+      "acceptance": 74.98367616642099,
+      "likes": 708,
+      "dislikes": 53
+    },
+    {
+      "position": 39,
+      "title": "Find Longest Special Substring That Occurs Thrice I",
+      "slug": "find-longest-special-substring-that-occurs-thrice-i",
+      "difficulty": "Medium",
+      "acceptance": 61.899922338660964,
+      "likes": 717,
+      "dislikes": 73
+    },
+    {
+      "position": 40,
+      "title": "Find All Lonely Numbers in the Array",
+      "slug": "find-all-lonely-numbers-in-the-array",
+      "difficulty": "Medium",
+      "acceptance": 62.133881078567214,
+      "likes": 690,
+      "dislikes": 67
+    }
+  ]
+}

@@ -1,0 +1,368 @@
+{
+  "frozen": true,
+  "createdAt": "2025-10-06T15:19:26.009Z",
+  "trackSlug": "bit-manipulation",
+  "difficulty": "MEDIUM",
+  "questions": [
+    {
+      "position": 1,
+      "title": "Find the Duplicate Number",
+      "slug": "find-the-duplicate-number",
+      "difficulty": "Medium",
+      "acceptance": 63.45807116812361,
+      "likes": 24850,
+      "dislikes": 5502
+    },
+    {
+      "position": 2,
+      "title": "Subsets",
+      "slug": "subsets",
+      "difficulty": "Medium",
+      "acceptance": 81.51229286239663,
+      "likes": 18687,
+      "dislikes": 329
+    },
+    {
+      "position": 3,
+      "title": "Subsets II",
+      "slug": "subsets-ii",
+      "difficulty": "Medium",
+      "acceptance": 60.2107299541197,
+      "likes": 10617,
+      "dislikes": 391
+    },
+    {
+      "position": 4,
+      "title": "Single Number II",
+      "slug": "single-number-ii",
+      "difficulty": "Medium",
+      "acceptance": 65.98338685760564,
+      "likes": 8472,
+      "dislikes": 736
+    },
+    {
+      "position": 5,
+      "title": "Partition to K Equal Sum Subsets",
+      "slug": "partition-to-k-equal-sum-subsets",
+      "difficulty": "Medium",
+      "acceptance": 38.23530110125987,
+      "likes": 7435,
+      "dislikes": 545
+    },
+    {
+      "position": 6,
+      "title": "Single Number III",
+      "slug": "single-number-iii",
+      "difficulty": "Medium",
+      "acceptance": 70.4586387434555,
+      "likes": 6668,
+      "dislikes": 274
+    },
+    {
+      "position": 7,
+      "title": "Maximum XOR of Two Numbers in an Array",
+      "slug": "maximum-xor-of-two-numbers-in-an-array",
+      "difficulty": "Medium",
+      "acceptance": 53.35001209296762,
+      "likes": 5839,
+      "dislikes": 417
+    },
+    {
+      "position": 8,
+      "title": "Letter Case Permutation",
+      "slug": "letter-case-permutation",
+      "difficulty": "Medium",
+      "acceptance": 75.42364204167306,
+      "likes": 4795,
+      "dislikes": 158
+    },
+    {
+      "position": 9,
+      "title": "Maximum Length of a Concatenated String with Unique Characters",
+      "slug": "maximum-length-of-a-concatenated-string-with-unique-characters",
+      "difficulty": "Medium",
+      "acceptance": 54.38681675676148,
+      "likes": 4527,
+      "dislikes": 338
+    },
+    {
+      "position": 10,
+      "title": "Bitwise AND of Numbers Range",
+      "slug": "bitwise-and-of-numbers-range",
+      "difficulty": "Medium",
+      "acceptance": 48.19798434408879,
+      "likes": 4211,
+      "dislikes": 315
+    },
+    {
+      "position": 11,
+      "title": "K-th Symbol in Grammar",
+      "slug": "k-th-symbol-in-grammar",
+      "difficulty": "Medium",
+      "acceptance": 47.772055749401204,
+      "likes": 4084,
+      "dislikes": 421
+    },
+    {
+      "position": 12,
+      "title": "Matchsticks to Square",
+      "slug": "matchsticks-to-square",
+      "difficulty": "Medium",
+      "acceptance": 41.248260865084355,
+      "likes": 3963,
+      "dislikes": 310
+    },
+    {
+      "position": 13,
+      "title": "Non-decreasing Subsequences",
+      "slug": "non-decreasing-subsequences",
+      "difficulty": "Medium",
+      "acceptance": 62.06604387083865,
+      "likes": 3784,
+      "dislikes": 237
+    },
+    {
+      "position": 14,
+      "title": "Maximum Product of Word Lengths",
+      "slug": "maximum-product-of-word-lengths",
+      "difficulty": "Medium",
+      "acceptance": 60.74565649809009,
+      "likes": 3596,
+      "dislikes": 144
+    },
+    {
+      "position": 15,
+      "title": "Pseudo-Palindromic Paths in a Binary Tree",
+      "slug": "pseudo-palindromic-paths-in-a-binary-tree",
+      "difficulty": "Medium",
+      "acceptance": 68.34730838945461,
+      "likes": 3319,
+      "dislikes": 131
+    },
+    {
+      "position": 16,
+      "title": "Beautiful Arrangement",
+      "slug": "beautiful-arrangement",
+      "difficulty": "Medium",
+      "acceptance": 64.645385166652,
+      "likes": 3370,
+      "dislikes": 386
+    },
+    {
+      "position": 17,
+      "title": "Repeated DNA Sequences",
+      "slug": "repeated-dna-sequences",
+      "difficulty": "Medium",
+      "acceptance": 52.0598194738349,
+      "likes": 3547,
+      "dislikes": 563
+    },
+    {
+      "position": 18,
+      "title": "Fair Distribution of Cookies",
+      "slug": "fair-distribution-of-cookies",
+      "difficulty": "Medium",
+      "acceptance": 69.66042738473139,
+      "likes": 2702,
+      "dislikes": 125
+    },
+    {
+      "position": 19,
+      "title": "Unique Length-3 Palindromic Subsequences",
+      "slug": "unique-length-3-palindromic-subsequences",
+      "difficulty": "Medium",
+      "acceptance": 70.95857214817639,
+      "likes": 2556,
+      "dislikes": 102
+    },
+    {
+      "position": 20,
+      "title": "Find the Longest Substring Containing Vowels in Even Counts",
+      "slug": "find-the-longest-substring-containing-vowels-in-even-counts",
+      "difficulty": "Medium",
+      "acceptance": 75.70604378983957,
+      "likes": 2528,
+      "dislikes": 141
+    },
+    {
+      "position": 21,
+      "title": "Can I Win",
+      "slug": "can-i-win",
+      "difficulty": "Medium",
+      "acceptance": 30.69358150449321,
+      "likes": 2789,
+      "dislikes": 424
+    },
+    {
+      "position": 22,
+      "title": "Check If a String Contains All Binary Codes of Size K",
+      "slug": "check-if-a-string-contains-all-binary-codes-of-size-k",
+      "difficulty": "Medium",
+      "acceptance": 56.76007397394326,
+      "likes": 2312,
+      "dislikes": 100
+    },
+    {
+      "position": 23,
+      "title": "Score After Flipping Matrix",
+      "slug": "score-after-flipping-matrix",
+      "difficulty": "Medium",
+      "acceptance": 80.25517850585095,
+      "likes": 2433,
+      "dislikes": 223
+    },
+    {
+      "position": 24,
+      "title": "Total Hamming Distance",
+      "slug": "total-hamming-distance",
+      "difficulty": "Medium",
+      "acceptance": 54.16957076073098,
+      "likes": 2284,
+      "dislikes": 95
+    },
+    {
+      "position": 25,
+      "title": "Number of Good Ways to Split a String",
+      "slug": "number-of-good-ways-to-split-a-string",
+      "difficulty": "Medium",
+      "acceptance": 68.38857716917913,
+      "likes": 2106,
+      "dislikes": 52
+    },
+    {
+      "position": 26,
+      "title": "XOR Queries of a Subarray",
+      "slug": "xor-queries-of-a-subarray",
+      "difficulty": "Medium",
+      "acceptance": 78.2634723859314,
+      "likes": 2082,
+      "dislikes": 60
+    },
+    {
+      "position": 27,
+      "title": "Minimum Flips to Make a OR b Equal to c",
+      "slug": "minimum-flips-to-make-a-or-b-equal-to-c",
+      "difficulty": "Medium",
+      "acceptance": 71.83683275633224,
+      "likes": 2110,
+      "dislikes": 110
+    },
+    {
+      "position": 28,
+      "title": "Longest Nice Subarray",
+      "slug": "longest-nice-subarray",
+      "difficulty": "Medium",
+      "acceptance": 64.796490483695,
+      "likes": 2059,
+      "dislikes": 62
+    },
+    {
+      "position": 29,
+      "title": "Count Triplets That Can Form Two Arrays of Equal XOR",
+      "slug": "count-triplets-that-can-form-two-arrays-of-equal-xor",
+      "difficulty": "Medium",
+      "acceptance": 84.83614420547734,
+      "likes": 2008,
+      "dislikes": 136
+    },
+    {
+      "position": 30,
+      "title": "Bitwise ORs of Subarrays",
+      "slug": "bitwise-ors-of-subarrays",
+      "difficulty": "Medium",
+      "acceptance": 56.53517861533598,
+      "likes": 1938,
+      "dislikes": 242
+    },
+    {
+      "position": 31,
+      "title": "Number of Wonderful Substrings",
+      "slug": "number-of-wonderful-substrings",
+      "difficulty": "Medium",
+      "acceptance": 66.65354062384043,
+      "likes": 1805,
+      "dislikes": 283
+    },
+    {
+      "position": 32,
+      "title": "Find The Original Array of Prefix Xor",
+      "slug": "find-the-original-array-of-prefix-xor",
+      "difficulty": "Medium",
+      "acceptance": 88.20245090977731,
+      "likes": 1476,
+      "dislikes": 90
+    },
+    {
+      "position": 33,
+      "title": "Number of Steps to Reduce a Number in Binary Representation to One",
+      "slug": "number-of-steps-to-reduce-a-number-in-binary-representation-to-one",
+      "difficulty": "Medium",
+      "acceptance": 61.37360616117306,
+      "likes": 1414,
+      "dislikes": 88
+    },
+    {
+      "position": 34,
+      "title": "Count Number of Maximum Bitwise-OR Subsets",
+      "slug": "count-number-of-maximum-bitwise-or-subsets",
+      "difficulty": "Medium",
+      "acceptance": 89.63594572551345,
+      "likes": 1390,
+      "dislikes": 95
+    },
+    {
+      "position": 35,
+      "title": "Longest Subarray With Maximum Bitwise AND",
+      "slug": "longest-subarray-with-maximum-bitwise-and",
+      "difficulty": "Medium",
+      "acceptance": 65.39926442678953,
+      "likes": 1309,
+      "dislikes": 109
+    },
+    {
+      "position": 36,
+      "title": "Minimum Number of Work Sessions to Finish the Tasks",
+      "slug": "minimum-number-of-work-sessions-to-finish-the-tasks",
+      "difficulty": "Medium",
+      "acceptance": 34.116467981854626,
+      "likes": 1176,
+      "dislikes": 70
+    },
+    {
+      "position": 37,
+      "title": "Largest Combination With Bitwise AND Greater Than Zero",
+      "slug": "largest-combination-with-bitwise-and-greater-than-zero",
+      "difficulty": "Medium",
+      "acceptance": 80.81713948488807,
+      "likes": 1130,
+      "dislikes": 59
+    },
+    {
+      "position": 38,
+      "title": "Maximum XOR for Each Query",
+      "slug": "maximum-xor-for-each-query",
+      "difficulty": "Medium",
+      "acceptance": 84.76645562059491,
+      "likes": 1255,
+      "dislikes": 193
+    },
+    {
+      "position": 39,
+      "title": "Find the Prefix Common Array of Two Arrays",
+      "slug": "find-the-prefix-common-array-of-two-arrays",
+      "difficulty": "Medium",
+      "acceptance": 87.00645758221087,
+      "likes": 1125,
+      "dislikes": 72
+    },
+    {
+      "position": 40,
+      "title": "Minimize XOR",
+      "slug": "minimize-xor",
+      "difficulty": "Medium",
+      "acceptance": 62.42985562517025,
+      "likes": 1087,
+      "dislikes": 76
+    }
+  ]
+}

@@ -1,0 +1,368 @@
+{
+  "frozen": true,
+  "createdAt": "2025-10-06T15:18:23.361Z",
+  "trackSlug": "greedy",
+  "difficulty": "HARD",
+  "questions": [
+    {
+      "position": 1,
+      "title": "Split Array Largest Sum",
+      "slug": "split-array-largest-sum",
+      "difficulty": "Hard",
+      "acceptance": 59.032768263320094,
+      "likes": 10902,
+      "dislikes": 260
+    },
+    {
+      "position": 2,
+      "title": "Wildcard Matching",
+      "slug": "wildcard-matching",
+      "difficulty": "Hard",
+      "acceptance": 30.620078697763077,
+      "likes": 8909,
+      "dislikes": 399
+    },
+    {
+      "position": 3,
+      "title": "Candy",
+      "slug": "candy",
+      "difficulty": "Hard",
+      "acceptance": 47.34396848239893,
+      "likes": 9044,
+      "dislikes": 832
+    },
+    {
+      "position": 4,
+      "title": "Minimum Number of Refueling Stops",
+      "slug": "minimum-number-of-refueling-stops",
+      "difficulty": "Hard",
+      "acceptance": 40.8209613348491,
+      "likes": 4819,
+      "dislikes": 92
+    },
+    {
+      "position": 5,
+      "title": "Smallest Range Covering Elements from K Lists",
+      "slug": "smallest-range-covering-elements-from-k-lists",
+      "difficulty": "Hard",
+      "acceptance": 69.88424545468447,
+      "likes": 4296,
+      "dislikes": 99
+    },
+    {
+      "position": 6,
+      "title": "Course Schedule III",
+      "slug": "course-schedule-iii",
+      "difficulty": "Hard",
+      "acceptance": 40.96708989685926,
+      "likes": 3949,
+      "dislikes": 102
+    },
+    {
+      "position": 7,
+      "title": "IPO",
+      "slug": "ipo",
+      "difficulty": "Hard",
+      "acceptance": 53.16890461184115,
+      "likes": 4082,
+      "dislikes": 278
+    },
+    {
+      "position": 8,
+      "title": "Minimum Number of Taps to Open to Water a Garden",
+      "slug": "minimum-number-of-taps-to-open-to-water-a-garden",
+      "difficulty": "Hard",
+      "acceptance": 50.7559741495917,
+      "likes": 3571,
+      "dislikes": 197
+    },
+    {
+      "position": 9,
+      "title": "Reducing Dishes",
+      "slug": "reducing-dishes",
+      "difficulty": "Hard",
+      "acceptance": 76.48033521443226,
+      "likes": 3469,
+      "dislikes": 317
+    },
+    {
+      "position": 10,
+      "title": "Maximum Performance of a Team",
+      "slug": "maximum-performance-of-a-team",
+      "difficulty": "Hard",
+      "acceptance": 47.6584515718593,
+      "likes": 3184,
+      "dislikes": 84
+    },
+    {
+      "position": 11,
+      "title": "Minimize Deviation in Array",
+      "slug": "minimize-deviation-in-array",
+      "difficulty": "Hard",
+      "acceptance": 53.919508208294644,
+      "likes": 3080,
+      "dislikes": 175
+    },
+    {
+      "position": 12,
+      "title": "Minimum Cost to Hire K Workers",
+      "slug": "minimum-cost-to-hire-k-workers",
+      "difficulty": "Hard",
+      "acceptance": 63.54301286153719,
+      "likes": 3021,
+      "dislikes": 405
+    },
+    {
+      "position": 13,
+      "title": "Put Marbles in Bags",
+      "slug": "put-marbles-in-bags",
+      "difficulty": "Hard",
+      "acceptance": 72.22580260174244,
+      "likes": 2625,
+      "dislikes": 123
+    },
+    {
+      "position": 14,
+      "title": "Minimum Cost to Make Array Equal",
+      "slug": "minimum-cost-to-make-array-equal",
+      "difficulty": "Hard",
+      "acceptance": 46.514954567222475,
+      "likes": 2495,
+      "dislikes": 36
+    },
+    {
+      "position": 15,
+      "title": "Couples Holding Hands",
+      "slug": "couples-holding-hands",
+      "difficulty": "Hard",
+      "acceptance": 58.79298565247096,
+      "likes": 2446,
+      "dislikes": 128
+    },
+    {
+      "position": 16,
+      "title": "Minimum Number of Removals to Make Mountain Array",
+      "slug": "minimum-number-of-removals-to-make-mountain-array",
+      "difficulty": "Hard",
+      "acceptance": 54.83217605942466,
+      "likes": 2246,
+      "dislikes": 41
+    },
+    {
+      "position": 17,
+      "title": "Patching Array",
+      "slug": "patching-array",
+      "difficulty": "Hard",
+      "acceptance": 53.71711827152698,
+      "likes": 2405,
+      "dislikes": 201
+    },
+    {
+      "position": 18,
+      "title": "Maximum Running Time of N Computers",
+      "slug": "maximum-running-time-of-n-computers",
+      "difficulty": "Hard",
+      "acceptance": 49.83712381578554,
+      "likes": 2061,
+      "dislikes": 58
+    },
+    {
+      "position": 19,
+      "title": "Minimum Replacements to Sort the Array",
+      "slug": "minimum-replacements-to-sort-the-array",
+      "difficulty": "Hard",
+      "acceptance": 53.210389534115436,
+      "likes": 2065,
+      "dislikes": 69
+    },
+    {
+      "position": 20,
+      "title": "Max Chunks To Make Sorted II",
+      "slug": "max-chunks-to-make-sorted-ii",
+      "difficulty": "Hard",
+      "acceptance": 54.50333235973554,
+      "likes": 1981,
+      "dislikes": 62
+    },
+    {
+      "position": 21,
+      "title": "Create Maximum Number",
+      "slug": "create-maximum-number",
+      "difficulty": "Hard",
+      "acceptance": 33.45060493928917,
+      "likes": 2077,
+      "dislikes": 373
+    },
+    {
+      "position": 22,
+      "title": "Minimum Number of Increments on Subarrays to Form a Target Array",
+      "slug": "minimum-number-of-increments-on-subarrays-to-form-a-target-array",
+      "difficulty": "Hard",
+      "acceptance": 72.79726072789529,
+      "likes": 1649,
+      "dislikes": 83
+    },
+    {
+      "position": 23,
+      "title": "Earliest Possible Day of Full Bloom",
+      "slug": "earliest-possible-day-of-full-bloom",
+      "difficulty": "Hard",
+      "acceptance": 71.18220907115446,
+      "likes": 1647,
+      "dislikes": 85
+    },
+    {
+      "position": 24,
+      "title": "Stamping The Sequence",
+      "slug": "stamping-the-sequence",
+      "difficulty": "Hard",
+      "acceptance": 62.01897367847735,
+      "likes": 1570,
+      "dislikes": 222
+    },
+    {
+      "position": 25,
+      "title": "Pizza With 3n Slices",
+      "slug": "pizza-with-3n-slices",
+      "difficulty": "Hard",
+      "acceptance": 53.443840662435115,
+      "likes": 1121,
+      "dislikes": 23
+    },
+    {
+      "position": 26,
+      "title": "Maximum Number of Tasks You Can Assign",
+      "slug": "maximum-number-of-tasks-you-can-assign",
+      "difficulty": "Hard",
+      "acceptance": 50.32703618960911,
+      "likes": 1073,
+      "dislikes": 57
+    },
+    {
+      "position": 27,
+      "title": "Get the Maximum Score",
+      "slug": "get-the-maximum-score",
+      "difficulty": "Hard",
+      "acceptance": 40.346323467560715,
+      "likes": 1051,
+      "dislikes": 54
+    },
+    {
+      "position": 28,
+      "title": "Minimum Number of Moves to Make Palindrome",
+      "slug": "minimum-number-of-moves-to-make-palindrome",
+      "difficulty": "Hard",
+      "acceptance": 52.26332739369963,
+      "likes": 1038,
+      "dislikes": 76
+    },
+    {
+      "position": 29,
+      "title": "Rearranging Fruits",
+      "slug": "rearranging-fruits",
+      "difficulty": "Hard",
+      "acceptance": 57.65040294110486,
+      "likes": 915,
+      "dislikes": 56
+    },
+    {
+      "position": 30,
+      "title": "Maximum Number of Non-Overlapping Substrings",
+      "slug": "maximum-number-of-non-overlapping-substrings",
+      "difficulty": "Hard",
+      "acceptance": 40.79051525618883,
+      "likes": 873,
+      "dislikes": 83
+    },
+    {
+      "position": 31,
+      "title": "Find the Maximum Sum of Node Values",
+      "slug": "find-the-maximum-sum-of-node-values",
+      "difficulty": "Hard",
+      "acceptance": 69.64397410535844,
+      "likes": 911,
+      "dislikes": 133
+    },
+    {
+      "position": 32,
+      "title": "Minimum Operations to Make a Subsequence",
+      "slug": "minimum-operations-to-make-a-subsequence",
+      "difficulty": "Hard",
+      "acceptance": 49.152596984147436,
+      "likes": 754,
+      "dislikes": 15
+    },
+    {
+      "position": 33,
+      "title": "Minimum Adjacent Swaps for K Consecutive Ones",
+      "slug": "minimum-adjacent-swaps-for-k-consecutive-ones",
+      "difficulty": "Hard",
+      "acceptance": 42.116071146494804,
+      "likes": 739,
+      "dislikes": 29
+    },
+    {
+      "position": 34,
+      "title": "Longest Subsequence Repeated k Times",
+      "slug": "longest-subsequence-repeated-k-times",
+      "difficulty": "Hard",
+      "acceptance": 71.44475582851351,
+      "likes": 815,
+      "dislikes": 115
+    },
+    {
+      "position": 35,
+      "title": "Longest Chunked Palindrome Decomposition",
+      "slug": "longest-chunked-palindrome-decomposition",
+      "difficulty": "Hard",
+      "acceptance": 58.91908032248432,
+      "likes": 698,
+      "dislikes": 35
+    },
+    {
+      "position": 36,
+      "title": "Set Intersection Size At Least Two",
+      "slug": "set-intersection-size-at-least-two",
+      "difficulty": "Hard",
+      "acceptance": 45.6482924295546,
+      "likes": 734,
+      "dislikes": 86
+    },
+    {
+      "position": 37,
+      "title": "Apply Operations to Maximize Score",
+      "slug": "apply-operations-to-maximize-score",
+      "difficulty": "Hard",
+      "acceptance": 53.87859370205721,
+      "likes": 765,
+      "dislikes": 127
+    },
+    {
+      "position": 38,
+      "title": "Find Servers That Handled Most Number of Requests",
+      "slug": "find-servers-that-handled-most-number-of-requests",
+      "difficulty": "Hard",
+      "acceptance": 44.77328312776028,
+      "likes": 658,
+      "dislikes": 29
+    },
+    {
+      "position": 39,
+      "title": "Shortest Impossible Sequence of Rolls",
+      "slug": "shortest-impossible-sequence-of-rolls",
+      "difficulty": "Hard",
+      "acceptance": 69.12121212121211,
+      "likes": 663,
+      "dislikes": 50
+    },
+    {
+      "position": 40,
+      "title": "Super Washing Machines",
+      "slug": "super-washing-machines",
+      "difficulty": "Hard",
+      "acceptance": 43.0580462482303,
+      "likes": 806,
+      "dislikes": 219
+    }
+  ]
+}

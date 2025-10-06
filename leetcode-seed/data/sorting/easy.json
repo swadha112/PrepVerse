@@ -1,0 +1,368 @@
+{
+  "frozen": true,
+  "createdAt": "2025-10-06T15:18:03.786Z",
+  "trackSlug": "sorting",
+  "difficulty": "EASY",
+  "questions": [
+    {
+      "position": 1,
+      "title": "Majority Element",
+      "slug": "majority-element",
+      "difficulty": "Easy",
+      "acceptance": 65.90082266721575,
+      "likes": 21819,
+      "dislikes": 773
+    },
+    {
+      "position": 2,
+      "title": "Merge Sorted Array",
+      "slug": "merge-sorted-array",
+      "difficulty": "Easy",
+      "acceptance": 53.66390226755106,
+      "likes": 17875,
+      "dislikes": 2502
+    },
+    {
+      "position": 3,
+      "title": "Valid Anagram",
+      "slug": "valid-anagram",
+      "difficulty": "Easy",
+      "acceptance": 67.2340964542325,
+      "likes": 13596,
+      "dislikes": 456
+    },
+    {
+      "position": 4,
+      "title": "Contains Duplicate",
+      "slug": "contains-duplicate",
+      "difficulty": "Easy",
+      "acceptance": 63.611488623227665,
+      "likes": 13321,
+      "dislikes": 1344
+    },
+    {
+      "position": 5,
+      "title": "Missing Number",
+      "slug": "missing-number",
+      "difficulty": "Easy",
+      "acceptance": 70.88309832937203,
+      "likes": 13674,
+      "dislikes": 3441
+    },
+    {
+      "position": 6,
+      "title": "Squares of a Sorted Array",
+      "slug": "squares-of-a-sorted-array",
+      "difficulty": "Easy",
+      "acceptance": 73.34985223111964,
+      "likes": 9858,
+      "dislikes": 261
+    },
+    {
+      "position": 7,
+      "title": "Intersection of Two Arrays II",
+      "slug": "intersection-of-two-arrays-ii",
+      "difficulty": "Easy",
+      "acceptance": 59.30933687045159,
+      "likes": 8032,
+      "dislikes": 1003
+    },
+    {
+      "position": 8,
+      "title": "How Many Numbers Are Smaller Than the Current Number",
+      "slug": "how-many-numbers-are-smaller-than-the-current-number",
+      "difficulty": "Easy",
+      "acceptance": 87.22902756071153,
+      "likes": 5748,
+      "dislikes": 151
+    },
+    {
+      "position": 9,
+      "title": "Sort Array By Parity",
+      "slug": "sort-array-by-parity",
+      "difficulty": "Easy",
+      "acceptance": 76.3475161047207,
+      "likes": 5599,
+      "dislikes": 156
+    },
+    {
+      "position": 10,
+      "title": "Find the Difference",
+      "slug": "find-the-difference",
+      "difficulty": "Easy",
+      "acceptance": 59.85690948157758,
+      "likes": 5327,
+      "dislikes": 503
+    },
+    {
+      "position": 11,
+      "title": "Intersection of Two Arrays",
+      "slug": "intersection-of-two-arrays",
+      "difficulty": "Easy",
+      "acceptance": 76.96081073546085,
+      "likes": 6647,
+      "dislikes": 2332
+    },
+    {
+      "position": 12,
+      "title": "Assign Cookies",
+      "slug": "assign-cookies",
+      "difficulty": "Easy",
+      "acceptance": 54.362783631722586,
+      "likes": 4708,
+      "dislikes": 428
+    },
+    {
+      "position": 13,
+      "title": "The K Weakest Rows in a Matrix",
+      "slug": "the-k-weakest-rows-in-a-matrix",
+      "difficulty": "Easy",
+      "acceptance": 74.13703152295827,
+      "likes": 4304,
+      "dislikes": 241
+    },
+    {
+      "position": 14,
+      "title": "Set Mismatch",
+      "slug": "set-mismatch",
+      "difficulty": "Easy",
+      "acceptance": 45.29850189878136,
+      "likes": 5075,
+      "dislikes": 1199
+    },
+    {
+      "position": 15,
+      "title": "Maximum Units on a Truck",
+      "slug": "maximum-units-on-a-truck",
+      "difficulty": "Easy",
+      "acceptance": 74.47807075390344,
+      "likes": 3984,
+      "dislikes": 235
+    },
+    {
+      "position": 16,
+      "title": "Maximum Product of Three Numbers",
+      "slug": "maximum-product-of-three-numbers",
+      "difficulty": "Easy",
+      "acceptance": 45.47253849997635,
+      "likes": 4452,
+      "dislikes": 710
+    },
+    {
+      "position": 17,
+      "title": "Sort Array by Increasing Frequency",
+      "slug": "sort-array-by-increasing-frequency",
+      "difficulty": "Easy",
+      "acceptance": 80.45865401049782,
+      "likes": 3634,
+      "dislikes": 173
+    },
+    {
+      "position": 18,
+      "title": "Relative Sort Array",
+      "slug": "relative-sort-array",
+      "difficulty": "Easy",
+      "acceptance": 74.97475797931034,
+      "likes": 3295,
+      "dislikes": 196
+    },
+    {
+      "position": 19,
+      "title": "Largest Perimeter Triangle",
+      "slug": "largest-perimeter-triangle",
+      "difficulty": "Easy",
+      "acceptance": 61.45173406882595,
+      "likes": 3358,
+      "dislikes": 439
+    },
+    {
+      "position": 20,
+      "title": "Sort Array By Parity II",
+      "slug": "sort-array-by-parity-ii",
+      "difficulty": "Easy",
+      "acceptance": 71.08226115797177,
+      "likes": 2751,
+      "dislikes": 103
+    },
+    {
+      "position": 21,
+      "title": "Sort Integers by The Number of 1 Bits",
+      "slug": "sort-integers-by-the-number-of-1-bits",
+      "difficulty": "Easy",
+      "acceptance": 78.8347104420945,
+      "likes": 2569,
+      "dislikes": 126
+    },
+    {
+      "position": 22,
+      "title": "Longest Harmonious Subsequence",
+      "slug": "longest-harmonious-subsequence",
+      "difficulty": "Easy",
+      "acceptance": 63.97046073873705,
+      "likes": 2758,
+      "dislikes": 340
+    },
+    {
+      "position": 23,
+      "title": "Minimum Absolute Difference",
+      "slug": "minimum-absolute-difference",
+      "difficulty": "Easy",
+      "acceptance": 70.88697051404715,
+      "likes": 2482,
+      "dislikes": 80
+    },
+    {
+      "position": 24,
+      "title": "Maximum Product of Two Elements in an Array",
+      "slug": "maximum-product-of-two-elements-in-an-array",
+      "difficulty": "Easy",
+      "acceptance": 83.41989474905043,
+      "likes": 2583,
+      "dislikes": 239
+    },
+    {
+      "position": 25,
+      "title": "Sorting the Sentence",
+      "slug": "sorting-the-sentence",
+      "difficulty": "Easy",
+      "acceptance": 83.92775377180259,
+      "likes": 2353,
+      "dislikes": 80
+    },
+    {
+      "position": 26,
+      "title": "Rank Transform of an Array",
+      "slug": "rank-transform-of-an-array",
+      "difficulty": "Easy",
+      "acceptance": 70.71365695465609,
+      "likes": 2347,
+      "dislikes": 115
+    },
+    {
+      "position": 27,
+      "title": "Check If N and Its Double Exist",
+      "slug": "check-if-n-and-its-double-exist",
+      "difficulty": "Easy",
+      "acceptance": 41.43757137192843,
+      "likes": 2476,
+      "dislikes": 249
+    },
+    {
+      "position": 28,
+      "title": "Can Make Arithmetic Progression From Sequence",
+      "slug": "can-make-arithmetic-progression-from-sequence",
+      "difficulty": "Easy",
+      "acceptance": 69.48818801575256,
+      "likes": 2222,
+      "dislikes": 113
+    },
+    {
+      "position": 29,
+      "title": "Average Salary Excluding the Minimum and Maximum Salary",
+      "slug": "average-salary-excluding-the-minimum-and-maximum-salary",
+      "difficulty": "Easy",
+      "acceptance": 63.44926670269654,
+      "likes": 2262,
+      "dislikes": 187
+    },
+    {
+      "position": 30,
+      "title": "Array Partition",
+      "slug": "array-partition",
+      "difficulty": "Easy",
+      "acceptance": 80.96043952272393,
+      "likes": 2289,
+      "dislikes": 297
+    },
+    {
+      "position": 31,
+      "title": "Relative Ranks",
+      "slug": "relative-ranks",
+      "difficulty": "Easy",
+      "acceptance": 73.84653406115336,
+      "likes": 2107,
+      "dislikes": 146
+    },
+    {
+      "position": 32,
+      "title": "Longest Subsequence With Limited Sum",
+      "slug": "longest-subsequence-with-limited-sum",
+      "difficulty": "Easy",
+      "acceptance": 73.14738750650146,
+      "likes": 2081,
+      "dislikes": 192
+    },
+    {
+      "position": 33,
+      "title": "Special Array With X Elements Greater Than or Equal X",
+      "slug": "special-array-with-x-elements-greater-than-or-equal-x",
+      "difficulty": "Easy",
+      "acceptance": 66.72666396284114,
+      "likes": 2316,
+      "dislikes": 463
+    },
+    {
+      "position": 34,
+      "title": "Find Target Indices After Sorting Array",
+      "slug": "find-target-indices-after-sorting-array",
+      "difficulty": "Easy",
+      "acceptance": 77.5255827087285,
+      "likes": 1926,
+      "dislikes": 104
+    },
+    {
+      "position": 35,
+      "title": "Fair Candy Swap",
+      "slug": "fair-candy-swap",
+      "difficulty": "Easy",
+      "acceptance": 63.855564551082324,
+      "likes": 2224,
+      "dislikes": 414
+    },
+    {
+      "position": 36,
+      "title": "Sort the People",
+      "slug": "sort-the-people",
+      "difficulty": "Easy",
+      "acceptance": 84.79030468952821,
+      "likes": 1822,
+      "dislikes": 38
+    },
+    {
+      "position": 37,
+      "title": "Height Checker",
+      "slug": "height-checker",
+      "difficulty": "Easy",
+      "acceptance": 81.31532650315637,
+      "likes": 1725,
+      "dislikes": 121
+    },
+    {
+      "position": 38,
+      "title": "Find Subsequence of Length K With the Largest Sum",
+      "slug": "find-subsequence-of-length-k-with-the-largest-sum",
+      "difficulty": "Easy",
+      "acceptance": 57.47122193509414,
+      "likes": 1728,
+      "dislikes": 179
+    },
+    {
+      "position": 39,
+      "title": "Maximize Sum Of Array After K Negations",
+      "slug": "maximize-sum-of-array-after-k-negations",
+      "difficulty": "Easy",
+      "acceptance": 52.96132287944728,
+      "likes": 1665,
+      "dislikes": 123
+    },
+    {
+      "position": 40,
+      "title": "Maximum Product Difference Between Two Pairs",
+      "slug": "maximum-product-difference-between-two-pairs",
+      "difficulty": "Easy",
+      "acceptance": 82.96756916892728,
+      "likes": 1572,
+      "dislikes": 69
+    }
+  ]
+}

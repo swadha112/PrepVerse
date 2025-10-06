@@ -1,0 +1,242 @@
+{
+  "frozen": true,
+  "createdAt": "2025-10-06T15:21:42.928Z",
+  "trackSlug": "divide-and-conquer",
+  "difficulty": "MEDIUM",
+  "questions": [
+    {
+      "position": 1,
+      "title": "Maximum Subarray",
+      "slug": "maximum-subarray",
+      "difficulty": "Medium",
+      "acceptance": 52.51567296029581,
+      "likes": 36645,
+      "dislikes": 1557
+    },
+    {
+      "position": 2,
+      "title": "Top K Frequent Elements",
+      "slug": "top-k-frequent-elements",
+      "difficulty": "Medium",
+      "acceptance": 64.9107328428316,
+      "likes": 18794,
+      "dislikes": 832
+    },
+    {
+      "position": 3,
+      "title": "Kth Largest Element in an Array",
+      "slug": "kth-largest-element-in-an-array",
+      "difficulty": "Medium",
+      "acceptance": 68.46048528819837,
+      "likes": 18299,
+      "dislikes": 957
+    },
+    {
+      "position": 4,
+      "title": "Construct Binary Tree from Preorder and Inorder Traversal",
+      "slug": "construct-binary-tree-from-preorder-and-inorder-traversal",
+      "difficulty": "Medium",
+      "acceptance": 67.62409806969862,
+      "likes": 16244,
+      "dislikes": 595
+    },
+    {
+      "position": 5,
+      "title": "Search a 2D Matrix II",
+      "slug": "search-a-2d-matrix-ii",
+      "difficulty": "Medium",
+      "acceptance": 56.098744795471475,
+      "likes": 12797,
+      "dislikes": 223
+    },
+    {
+      "position": 6,
+      "title": "Sort List",
+      "slug": "sort-list",
+      "difficulty": "Medium",
+      "acceptance": 62.92089643389316,
+      "likes": 12647,
+      "dislikes": 401
+    },
+    {
+      "position": 7,
+      "title": "K Closest Points to Origin",
+      "slug": "k-closest-points-to-origin",
+      "difficulty": "Medium",
+      "acceptance": 68.35099128802032,
+      "likes": 8907,
+      "dislikes": 333
+    },
+    {
+      "position": 8,
+      "title": "Construct Binary Tree from Inorder and Postorder Traversal",
+      "slug": "construct-binary-tree-from-inorder-and-postorder-traversal",
+      "difficulty": "Medium",
+      "acceptance": 67.10469396772874,
+      "likes": 8536,
+      "dislikes": 150
+    },
+    {
+      "position": 9,
+      "title": "Convert Sorted List to Binary Search Tree",
+      "slug": "convert-sorted-list-to-binary-search-tree",
+      "difficulty": "Medium",
+      "acceptance": 65.21393161020703,
+      "likes": 7776,
+      "dislikes": 170
+    },
+    {
+      "position": 10,
+      "title": "Maximum Sum Circular Subarray",
+      "slug": "maximum-sum-circular-subarray",
+      "difficulty": "Medium",
+      "acceptance": 48.4898087874986,
+      "likes": 7127,
+      "dislikes": 332
+    },
+    {
+      "position": 11,
+      "title": "Sort an Array",
+      "slug": "sort-an-array",
+      "difficulty": "Medium",
+      "acceptance": 56.16461511935712,
+      "likes": 6974,
+      "dislikes": 833
+    },
+    {
+      "position": 12,
+      "title": "Longest Substring with At Least K Repeating Characters",
+      "slug": "longest-substring-with-at-least-k-repeating-characters",
+      "difficulty": "Medium",
+      "acceptance": 45.67953414882604,
+      "likes": 6595,
+      "dislikes": 563
+    },
+    {
+      "position": 13,
+      "title": "Maximum Binary Tree",
+      "slug": "maximum-binary-tree",
+      "difficulty": "Medium",
+      "acceptance": 86.1442861927782,
+      "likes": 5370,
+      "dislikes": 350
+    },
+    {
+      "position": 14,
+      "title": "Range Sum Query - Mutable",
+      "slug": "range-sum-query-mutable",
+      "difficulty": "Medium",
+      "acceptance": 42.088029481398266,
+      "likes": 5026,
+      "dislikes": 264
+    },
+    {
+      "position": 15,
+      "title": "Balance a Binary Search Tree",
+      "slug": "balance-a-binary-search-tree",
+      "difficulty": "Medium",
+      "acceptance": 84.73105774932498,
+      "likes": 3797,
+      "dislikes": 96
+    },
+    {
+      "position": 16,
+      "title": "Construct Binary Tree from Preorder and Postorder Traversal",
+      "slug": "construct-binary-tree-from-preorder-and-postorder-traversal",
+      "difficulty": "Medium",
+      "acceptance": 78.02738837541827,
+      "likes": 3358,
+      "dislikes": 158
+    },
+    {
+      "position": 17,
+      "title": "Wiggle Sort II",
+      "slug": "wiggle-sort-ii",
+      "difficulty": "Medium",
+      "acceptance": 36.155791739024714,
+      "likes": 3201,
+      "dislikes": 979
+    },
+    {
+      "position": 18,
+      "title": "Find the Kth Largest Integer in the Array",
+      "slug": "find-the-kth-largest-integer-in-the-array",
+      "difficulty": "Medium",
+      "acceptance": 47.192232813329625,
+      "likes": 1340,
+      "dislikes": 159
+    },
+    {
+      "position": 19,
+      "title": "Find Kth Largest XOR Coordinate Value",
+      "slug": "find-kth-largest-xor-coordinate-value",
+      "difficulty": "Medium",
+      "acceptance": 63.70735625515964,
+      "likes": 531,
+      "dislikes": 84
+    },
+    {
+      "position": 20,
+      "title": "Fill a Special Grid",
+      "slug": "fill-a-special-grid",
+      "difficulty": "Medium",
+      "acceptance": 70.26661445911793,
+      "likes": 104,
+      "dislikes": 9
+    },
+    {
+      "position": 21,
+      "title": "XOR After Range Multiplication Queries I",
+      "slug": "xor-after-range-multiplication-queries-i",
+      "difficulty": "Medium",
+      "acceptance": 64.33096189455219,
+      "likes": 27,
+      "dislikes": 10
+    },
+    {
+      "position": 22,
+      "title": "Query Kth Smallest Trimmed Number",
+      "slug": "query-kth-smallest-trimmed-number",
+      "difficulty": "Medium",
+      "acceptance": 46.25138495629694,
+      "likes": 338,
+      "dislikes": 439
+    },
+    {
+      "position": 23,
+      "title": "Construct Quad Tree",
+      "slug": "construct-quad-tree",
+      "difficulty": "Medium",
+      "acceptance": 77.6430676825538,
+      "likes": 1689,
+      "dislikes": 1935
+    },
+    {
+      "position": 24,
+      "title": "Logical OR of Two Binary Grids Represented as Quad-Trees",
+      "slug": "logical-or-of-two-binary-grids-represented-as-quad-trees",
+      "difficulty": "Medium",
+      "acceptance": 51.46807784226699,
+      "likes": 203,
+      "dislikes": 479
+    },
+    {
+      "position": 25,
+      "title": "Super Pow",
+      "slug": "super-pow",
+      "difficulty": "Medium",
+      "acceptance": 35.75521349966741,
+      "likes": 1040,
+      "dislikes": 1473
+    },
+    {
+      "position": 26,
+      "title": "Beautiful Array",
+      "slug": "beautiful-array",
+      "difficulty": "Medium",
+      "acceptance": 67.4034419757503,
+      "likes": 1128,
+      "dislikes": 1562
+    }
+  ]
+}

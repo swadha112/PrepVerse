@@ -1,0 +1,368 @@
+{
+  "frozen": true,
+  "createdAt": "2025-10-06T15:19:56.016Z",
+  "trackSlug": "simulation",
+  "difficulty": "EASY",
+  "questions": [
+    {
+      "position": 1,
+      "title": "Add Binary",
+      "slug": "add-binary",
+      "difficulty": "Easy",
+      "acceptance": 56.21014496200978,
+      "likes": 10194,
+      "dislikes": 1078
+    },
+    {
+      "position": 2,
+      "title": "Backspace String Compare",
+      "slug": "backspace-string-compare",
+      "difficulty": "Easy",
+      "acceptance": 49.59698999613389,
+      "likes": 7818,
+      "dislikes": 376
+    },
+    {
+      "position": 3,
+      "title": "Add Strings",
+      "slug": "add-strings",
+      "difficulty": "Easy",
+      "acceptance": 51.93193851971066,
+      "likes": 5342,
+      "dislikes": 819
+    },
+    {
+      "position": 4,
+      "title": "Transpose Matrix",
+      "slug": "transpose-matrix",
+      "difficulty": "Easy",
+      "acceptance": 75.02287205204664,
+      "likes": 4060,
+      "dislikes": 454
+    },
+    {
+      "position": 5,
+      "title": "Build Array from Permutation",
+      "slug": "build-array-from-permutation",
+      "difficulty": "Easy",
+      "acceptance": 91.04221105755805,
+      "likes": 3937,
+      "dislikes": 478
+    },
+    {
+      "position": 6,
+      "title": "Flipping an Image",
+      "slug": "flipping-an-image",
+      "difficulty": "Easy",
+      "acceptance": 83.2665373773172,
+      "likes": 3642,
+      "dislikes": 254
+    },
+    {
+      "position": 7,
+      "title": "Add Digits",
+      "slug": "add-digits",
+      "difficulty": "Easy",
+      "acceptance": 68.23388118555458,
+      "likes": 5286,
+      "dislikes": 1968
+    },
+    {
+      "position": 8,
+      "title": "Concatenation of Array",
+      "slug": "concatenation-of-array",
+      "difficulty": "Easy",
+      "acceptance": 90.56042832320445,
+      "likes": 3668,
+      "dislikes": 425
+    },
+    {
+      "position": 9,
+      "title": "Reshape the Matrix",
+      "slug": "reshape-the-matrix",
+      "difficulty": "Easy",
+      "acceptance": 64.30935612585309,
+      "likes": 3651,
+      "dislikes": 433
+    },
+    {
+      "position": 10,
+      "title": "Fizz Buzz",
+      "slug": "fizz-buzz",
+      "difficulty": "Easy",
+      "acceptance": 74.81673758262625,
+      "likes": 3178,
+      "dislikes": 442
+    },
+    {
+      "position": 11,
+      "title": "Number of Students Unable to Eat Lunch",
+      "slug": "number-of-students-unable-to-eat-lunch",
+      "difficulty": "Easy",
+      "acceptance": 78.93540137597856,
+      "likes": 2605,
+      "dislikes": 276
+    },
+    {
+      "position": 12,
+      "title": "Water Bottles",
+      "slug": "water-bottles",
+      "difficulty": "Easy",
+      "acceptance": 72.74476210358095,
+      "likes": 2179,
+      "dislikes": 175
+    },
+    {
+      "position": 13,
+      "title": "Robot Return to Origin",
+      "slug": "robot-return-to-origin",
+      "difficulty": "Easy",
+      "acceptance": 76.29562485071737,
+      "likes": 2540,
+      "dislikes": 750
+    },
+    {
+      "position": 14,
+      "title": "Time Needed to Buy Tickets",
+      "slug": "time-needed-to-buy-tickets",
+      "difficulty": "Easy",
+      "acceptance": 71.22156009409468,
+      "likes": 1816,
+      "dislikes": 161
+    },
+    {
+      "position": 15,
+      "title": "Count of Matches in Tournament",
+      "slug": "count-of-matches-in-tournament",
+      "difficulty": "Easy",
+      "acceptance": 86.17057483199216,
+      "likes": 1838,
+      "dislikes": 243
+    },
+    {
+      "position": 16,
+      "title": "Design Parking System",
+      "slug": "design-parking-system",
+      "difficulty": "Easy",
+      "acceptance": 87.13111077113763,
+      "likes": 2028,
+      "dislikes": 455
+    },
+    {
+      "position": 17,
+      "title": "Final Value of Variable After Performing Operations",
+      "slug": "final-value-of-variable-after-performing-operations",
+      "difficulty": "Easy",
+      "acceptance": 89.60450079771601,
+      "likes": 1739,
+      "dislikes": 202
+    },
+    {
+      "position": 18,
+      "title": "Shift 2D Grid",
+      "slug": "shift-2d-grid",
+      "difficulty": "Easy",
+      "acceptance": 67.88757493218742,
+      "likes": 1782,
+      "dislikes": 349
+    },
+    {
+      "position": 19,
+      "title": "Baseball Game",
+      "slug": "baseball-game",
+      "difficulty": "Easy",
+      "acceptance": 79.4786989410449,
+      "likes": 3208,
+      "dislikes": 1952
+    },
+    {
+      "position": 20,
+      "title": "Find Winner on a Tic Tac Toe Game",
+      "slug": "find-winner-on-a-tic-tac-toe-game",
+      "difficulty": "Easy",
+      "acceptance": 54.26819912921032,
+      "likes": 1602,
+      "dislikes": 366
+    },
+    {
+      "position": 21,
+      "title": "Make Array Zero by Subtracting Equal Amounts",
+      "slug": "make-array-zero-by-subtracting-equal-amounts",
+      "difficulty": "Easy",
+      "acceptance": 73.64995221069772,
+      "likes": 1291,
+      "dislikes": 61
+    },
+    {
+      "position": 22,
+      "title": "Convert 1D Array Into 2D Array",
+      "slug": "convert-1d-array-into-2d-array",
+      "difficulty": "Easy",
+      "acceptance": 71.95181381485139,
+      "likes": 1277,
+      "dislikes": 103
+    },
+    {
+      "position": 23,
+      "title": "Teemo Attacking",
+      "slug": "teemo-attacking",
+      "difficulty": "Easy",
+      "acceptance": 57.14755307320058,
+      "likes": 1299,
+      "dislikes": 147
+    },
+    {
+      "position": 24,
+      "title": "Sum of Digits of String After Convert",
+      "slug": "sum-of-digits-of-string-after-convert",
+      "difficulty": "Easy",
+      "acceptance": 74.7732936340982,
+      "likes": 1183,
+      "dislikes": 103
+    },
+    {
+      "position": 25,
+      "title": "Apply Operations to an Array",
+      "slug": "apply-operations-to-an-array",
+      "difficulty": "Easy",
+      "acceptance": 74.71781333225144,
+      "likes": 1090,
+      "dislikes": 64
+    },
+    {
+      "position": 26,
+      "title": "Pass the Pillow",
+      "slug": "pass-the-pillow",
+      "difficulty": "Easy",
+      "acceptance": 56.55342484930556,
+      "likes": 1082,
+      "dislikes": 57
+    },
+    {
+      "position": 27,
+      "title": "Minimum String Length After Removing Substrings",
+      "slug": "minimum-string-length-after-removing-substrings",
+      "difficulty": "Easy",
+      "acceptance": 77.09098340448169,
+      "likes": 998,
+      "dislikes": 29
+    },
+    {
+      "position": 28,
+      "title": "Distribute Candies to People",
+      "slug": "distribute-candies-to-people",
+      "difficulty": "Easy",
+      "acceptance": 66.97909711879205,
+      "likes": 1014,
+      "dislikes": 200
+    },
+    {
+      "position": 29,
+      "title": "Take Gifts From the Richest Pile",
+      "slug": "take-gifts-from-the-richest-pile",
+      "difficulty": "Easy",
+      "acceptance": 75.56527414104595,
+      "likes": 833,
+      "dislikes": 81
+    },
+    {
+      "position": 30,
+      "title": "Divide a String Into Groups of Size k",
+      "slug": "divide-a-string-into-groups-of-size-k",
+      "difficulty": "Easy",
+      "acceptance": 77.06642880872307,
+      "likes": 782,
+      "dislikes": 31
+    },
+    {
+      "position": 31,
+      "title": "Keep Multiplying Found Values by Two",
+      "slug": "keep-multiplying-found-values-by-two",
+      "difficulty": "Easy",
+      "acceptance": 71.27891725966235,
+      "likes": 764,
+      "dislikes": 42
+    },
+    {
+      "position": 32,
+      "title": "Count Integers With Even Digit Sum",
+      "slug": "count-integers-with-even-digit-sum",
+      "difficulty": "Easy",
+      "acceptance": 69.29750909599775,
+      "likes": 690,
+      "dislikes": 39
+    },
+    {
+      "position": 33,
+      "title": "Delete Greatest Value in Each Row",
+      "slug": "delete-greatest-value-in-each-row",
+      "difficulty": "Easy",
+      "acceptance": 79.38676296317033,
+      "likes": 691,
+      "dislikes": 53
+    },
+    {
+      "position": 34,
+      "title": "Clear Digits",
+      "slug": "clear-digits",
+      "difficulty": "Easy",
+      "acceptance": 82.58163233113544,
+      "likes": 662,
+      "dislikes": 26
+    },
+    {
+      "position": 35,
+      "title": "Count Operations to Obtain Zero",
+      "slug": "count-operations-to-obtain-zero",
+      "difficulty": "Easy",
+      "acceptance": 75.19438249653426,
+      "likes": 643,
+      "dislikes": 26
+    },
+    {
+      "position": 36,
+      "title": "Min Max Game",
+      "slug": "min-max-game",
+      "difficulty": "Easy",
+      "acceptance": 63.91727799026062,
+      "likes": 577,
+      "dislikes": 29
+    },
+    {
+      "position": 37,
+      "title": "Calculate Digit Sum of a String",
+      "slug": "calculate-digit-sum-of-a-string",
+      "difficulty": "Easy",
+      "acceptance": 67.00406206299527,
+      "likes": 581,
+      "dislikes": 52
+    },
+    {
+      "position": 38,
+      "title": "Separate the Digits in an Array",
+      "slug": "separate-the-digits-in-an-array",
+      "difficulty": "Easy",
+      "acceptance": 80.51248668481476,
+      "likes": 534,
+      "dislikes": 13
+    },
+    {
+      "position": 39,
+      "title": "Final Array State After K Multiplication Operations I",
+      "slug": "final-array-state-after-k-multiplication-operations-i",
+      "difficulty": "Easy",
+      "acceptance": 86.99876750700281,
+      "likes": 519,
+      "dislikes": 13
+    },
+    {
+      "position": 40,
+      "title": "Find the K-th Character in String Game I",
+      "slug": "find-the-k-th-character-in-string-game-i",
+      "difficulty": "Easy",
+      "acceptance": 81.78316690442226,
+      "likes": 611,
+      "dislikes": 127
+    }
+  ]
+}

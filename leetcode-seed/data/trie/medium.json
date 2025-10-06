@@ -1,0 +1,206 @@
+{
+  "frozen": true,
+  "createdAt": "2025-10-06T15:21:28.294Z",
+  "trackSlug": "trie",
+  "difficulty": "MEDIUM",
+  "questions": [
+    {
+      "position": 1,
+      "title": "Word Break",
+      "slug": "word-break",
+      "difficulty": "Medium",
+      "acceptance": 48.679500826580465,
+      "likes": 18311,
+      "dislikes": 880
+    },
+    {
+      "position": 2,
+      "title": "Implement Trie (Prefix Tree)",
+      "slug": "implement-trie-prefix-tree",
+      "difficulty": "Medium",
+      "acceptance": 68.5895695266926,
+      "likes": 12237,
+      "dislikes": 156
+    },
+    {
+      "position": 3,
+      "title": "Top K Frequent Words",
+      "slug": "top-k-frequent-words",
+      "difficulty": "Medium",
+      "acceptance": 59.665422396538695,
+      "likes": 7920,
+      "dislikes": 370
+    },
+    {
+      "position": 4,
+      "title": "Design Add and Search Words Data Structure",
+      "slug": "design-add-and-search-words-data-structure",
+      "difficulty": "Medium",
+      "acceptance": 47.58606375575352,
+      "likes": 7972,
+      "dislikes": 488
+    },
+    {
+      "position": 5,
+      "title": "Number of Matching Subsequences",
+      "slug": "number-of-matching-subsequences",
+      "difficulty": "Medium",
+      "acceptance": 50.64213312125149,
+      "likes": 5729,
+      "dislikes": 242
+    },
+    {
+      "position": 6,
+      "title": "Maximum XOR of Two Numbers in an Array",
+      "slug": "maximum-xor-of-two-numbers-in-an-array",
+      "difficulty": "Medium",
+      "acceptance": 53.3498733492492,
+      "likes": 5839,
+      "dislikes": 417
+    },
+    {
+      "position": 7,
+      "title": "Search Suggestions System",
+      "slug": "search-suggestions-system",
+      "difficulty": "Medium",
+      "acceptance": 65.12659234540332,
+      "likes": 5050,
+      "dislikes": 261
+    },
+    {
+      "position": 8,
+      "title": "Lexicographical Numbers",
+      "slug": "lexicographical-numbers",
+      "difficulty": "Medium",
+      "acceptance": 76.09897821405667,
+      "likes": 3090,
+      "dislikes": 213
+    },
+    {
+      "position": 9,
+      "title": "Replace Words",
+      "slug": "replace-words",
+      "difficulty": "Medium",
+      "acceptance": 68.49436249387227,
+      "likes": 3079,
+      "dislikes": 219
+    },
+    {
+      "position": 10,
+      "title": "Extra Characters in a String",
+      "slug": "extra-characters-in-a-string",
+      "difficulty": "Medium",
+      "acceptance": 57.140487741308746,
+      "likes": 2602,
+      "dislikes": 137
+    },
+    {
+      "position": 11,
+      "title": "Map Sum Pairs",
+      "slug": "map-sum-pairs",
+      "difficulty": "Medium",
+      "acceptance": 56.9373463647038,
+      "likes": 1716,
+      "dislikes": 164
+    },
+    {
+      "position": 12,
+      "title": "Remove Sub-Folders from the Filesystem",
+      "slug": "remove-sub-folders-from-the-filesystem",
+      "difficulty": "Medium",
+      "acceptance": 78.61900681289163,
+      "likes": 1636,
+      "dislikes": 229
+    },
+    {
+      "position": 13,
+      "title": "Implement Magic Dictionary",
+      "slug": "implement-magic-dictionary",
+      "difficulty": "Medium",
+      "acceptance": 56.99711519370248,
+      "likes": 1448,
+      "dislikes": 213
+    },
+    {
+      "position": 14,
+      "title": "Short Encoding of Words",
+      "slug": "short-encoding-of-words",
+      "difficulty": "Medium",
+      "acceptance": 60.658742830110576,
+      "likes": 1775,
+      "dislikes": 664
+    },
+    {
+      "position": 15,
+      "title": "Find the Length of the Longest Common Prefix",
+      "slug": "find-the-length-of-the-longest-common-prefix",
+      "difficulty": "Medium",
+      "acceptance": 56.69775817486305,
+      "likes": 800,
+      "dislikes": 50
+    },
+    {
+      "position": 16,
+      "title": "Camelcase Matching",
+      "slug": "camelcase-matching",
+      "difficulty": "Medium",
+      "acceptance": 64.41241330819138,
+      "likes": 965,
+      "dislikes": 346
+    },
+    {
+      "position": 17,
+      "title": "K Divisible Elements Subarrays",
+      "slug": "k-divisible-elements-subarrays",
+      "difficulty": "Medium",
+      "acceptance": 54.43091089224313,
+      "likes": 727,
+      "dislikes": 162
+    },
+    {
+      "position": 18,
+      "title": "Longest Word in Dictionary",
+      "slug": "longest-word-in-dictionary",
+      "difficulty": "Medium",
+      "acceptance": 53.90787518573551,
+      "likes": 2051,
+      "dislikes": 1504
+    },
+    {
+      "position": 19,
+      "title": "Words Within Two Edits of Dictionary",
+      "slug": "words-within-two-edits-of-dictionary",
+      "difficulty": "Medium",
+      "acceptance": 61.487401487401485,
+      "likes": 318,
+      "dislikes": 25
+    },
+    {
+      "position": 20,
+      "title": "Minimum Number of Valid Strings to Form Target I",
+      "slug": "minimum-number-of-valid-strings-to-form-target-i",
+      "difficulty": "Medium",
+      "acceptance": 20.649021864211736,
+      "likes": 166,
+      "dislikes": 17
+    },
+    {
+      "position": 21,
+      "title": "Shortest Uncommon Substring in an Array",
+      "slug": "shortest-uncommon-substring-in-an-array",
+      "difficulty": "Medium",
+      "acceptance": 49.211518166742046,
+      "likes": 158,
+      "dislikes": 27
+    },
+    {
+      "position": 22,
+      "title": "Partition String ",
+      "slug": "partition-string",
+      "difficulty": "Medium",
+      "acceptance": 57.807303606599724,
+      "likes": 62,
+      "dislikes": 3
+    }
+  ]
+}

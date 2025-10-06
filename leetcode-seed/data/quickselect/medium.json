@@ -1,0 +1,71 @@
+{
+  "frozen": true,
+  "createdAt": "2025-10-06T15:23:16.555Z",
+  "trackSlug": "quickselect",
+  "difficulty": "MEDIUM",
+  "questions": [
+    {
+      "position": 1,
+      "title": "Top K Frequent Elements",
+      "slug": "top-k-frequent-elements",
+      "difficulty": "Medium",
+      "acceptance": 64.9107328428316,
+      "likes": 18794,
+      "dislikes": 832
+    },
+    {
+      "position": 2,
+      "title": "Kth Largest Element in an Array",
+      "slug": "kth-largest-element-in-an-array",
+      "difficulty": "Medium",
+      "acceptance": 68.46048528819837,
+      "likes": 18299,
+      "dislikes": 957
+    },
+    {
+      "position": 3,
+      "title": "K Closest Points to Origin",
+      "slug": "k-closest-points-to-origin",
+      "difficulty": "Medium",
+      "acceptance": 68.35099128802032,
+      "likes": 8907,
+      "dislikes": 333
+    },
+    {
+      "position": 4,
+      "title": "Wiggle Sort II",
+      "slug": "wiggle-sort-ii",
+      "difficulty": "Medium",
+      "acceptance": 36.155791739024714,
+      "likes": 3201,
+      "dislikes": 979
+    },
+    {
+      "position": 5,
+      "title": "Find the Kth Largest Integer in the Array",
+      "slug": "find-the-kth-largest-integer-in-the-array",
+      "difficulty": "Medium",
+      "acceptance": 47.192232813329625,
+      "likes": 1340,
+      "dislikes": 159
+    },
+    {
+      "position": 6,
+      "title": "Find Kth Largest XOR Coordinate Value",
+      "slug": "find-kth-largest-xor-coordinate-value",
+      "difficulty": "Medium",
+      "acceptance": 63.70735625515964,
+      "likes": 531,
+      "dislikes": 84
+    },
+    {
+      "position": 7,
+      "title": "Query Kth Smallest Trimmed Number",
+      "slug": "query-kth-smallest-trimmed-number",
+      "difficulty": "Medium",
+      "acceptance": 46.25138495629694,
+      "likes": 338,
+      "dislikes": 439
+    }
+  ]
+}

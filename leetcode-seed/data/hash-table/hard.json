@@ -1,0 +1,368 @@
+{
+  "frozen": true,
+  "createdAt": "2025-10-06T15:17:31.690Z",
+  "trackSlug": "hash-table",
+  "difficulty": "HARD",
+  "questions": [
+    {
+      "position": 1,
+      "title": "Minimum Window Substring",
+      "slug": "minimum-window-substring",
+      "difficulty": "Hard",
+      "acceptance": 46.14637283807784,
+      "likes": 19472,
+      "dislikes": 821
+    },
+    {
+      "position": 2,
+      "title": "First Missing Positive",
+      "slug": "first-missing-positive",
+      "difficulty": "Hard",
+      "acceptance": 41.67160934611587,
+      "likes": 17898,
+      "dislikes": 1950
+    },
+    {
+      "position": 3,
+      "title": "Word Ladder",
+      "slug": "word-ladder",
+      "difficulty": "Hard",
+      "acceptance": 43.88601317149449,
+      "likes": 13100,
+      "dislikes": 1949
+    },
+    {
+      "position": 4,
+      "title": "Sudoku Solver",
+      "slug": "sudoku-solver",
+      "difficulty": "Hard",
+      "acceptance": 65.26326881026938,
+      "likes": 10760,
+      "dislikes": 327
+    },
+    {
+      "position": 5,
+      "title": "Word Break II",
+      "slug": "word-break-ii",
+      "difficulty": "Hard",
+      "acceptance": 54.30741632163014,
+      "likes": 7472,
+      "dislikes": 545
+    },
+    {
+      "position": 6,
+      "title": "Subarrays with K Different Integers",
+      "slug": "subarrays-with-k-different-integers",
+      "difficulty": "Hard",
+      "acceptance": 66.8615869381782,
+      "likes": 6707,
+      "dislikes": 110
+    },
+    {
+      "position": 7,
+      "title": "LFU Cache",
+      "slug": "lfu-cache",
+      "difficulty": "Hard",
+      "acceptance": 47.57863063068192,
+      "likes": 6150,
+      "dislikes": 345
+    },
+    {
+      "position": 8,
+      "title": "Word Ladder II",
+      "slug": "word-ladder-ii",
+      "difficulty": "Hard",
+      "acceptance": 27.272101810157533,
+      "likes": 6413,
+      "dislikes": 818
+    },
+    {
+      "position": 9,
+      "title": "Maximum Frequency Stack",
+      "slug": "maximum-frequency-stack",
+      "difficulty": "Hard",
+      "acceptance": 66.45778343239462,
+      "likes": 4875,
+      "dislikes": 77
+    },
+    {
+      "position": 10,
+      "title": "Bus Routes",
+      "slug": "bus-routes",
+      "difficulty": "Hard",
+      "acceptance": 46.97210369679802,
+      "likes": 4578,
+      "dislikes": 134
+    },
+    {
+      "position": 11,
+      "title": "Smallest Range Covering Elements from K Lists",
+      "slug": "smallest-range-covering-elements-from-k-lists",
+      "difficulty": "Hard",
+      "acceptance": 69.88424545468447,
+      "likes": 4296,
+      "dislikes": 99
+    },
+    {
+      "position": 12,
+      "title": "Palindrome Pairs",
+      "slug": "palindrome-pairs",
+      "difficulty": "Hard",
+      "acceptance": 36.573929896503046,
+      "likes": 4601,
+      "dislikes": 472
+    },
+    {
+      "position": 13,
+      "title": "Vertical Order Traversal of a Binary Tree",
+      "slug": "vertical-order-traversal-of-a-binary-tree",
+      "difficulty": "Hard",
+      "acceptance": 52.42888645566249,
+      "likes": 8404,
+      "dislikes": 4384
+    },
+    {
+      "position": 14,
+      "title": "Max Points on a Line",
+      "slug": "max-points-on-a-line",
+      "difficulty": "Hard",
+      "acceptance": 29.544542231956505,
+      "likes": 4422,
+      "dislikes": 569
+    },
+    {
+      "position": 15,
+      "title": "Number of Submatrices That Sum to Target",
+      "slug": "number-of-submatrices-that-sum-to-target",
+      "difficulty": "Hard",
+      "acceptance": 74.54428680383035,
+      "likes": 3851,
+      "dislikes": 107
+    },
+    {
+      "position": 16,
+      "title": "Jump Game IV",
+      "slug": "jump-game-iv",
+      "difficulty": "Hard",
+      "acceptance": 46.155813656075246,
+      "likes": 3835,
+      "dislikes": 131
+    },
+    {
+      "position": 17,
+      "title": "Sliding Window Median",
+      "slug": "sliding-window-median",
+      "difficulty": "Hard",
+      "acceptance": 38.769503012919124,
+      "likes": 3469,
+      "dislikes": 228
+    },
+    {
+      "position": 18,
+      "title": "Largest Color Value in a Directed Graph",
+      "slug": "largest-color-value-in-a-directed-graph",
+      "difficulty": "Hard",
+      "acceptance": 57.45245255212793,
+      "likes": 2587,
+      "dislikes": 85
+    },
+    {
+      "position": 19,
+      "title": "Number of Good Paths",
+      "slug": "number-of-good-paths",
+      "difficulty": "Hard",
+      "acceptance": 56.138641300946745,
+      "likes": 2404,
+      "dislikes": 112
+    },
+    {
+      "position": 20,
+      "title": "Insert Delete GetRandom O(1) - Duplicates allowed",
+      "slug": "insert-delete-getrandom-o1-duplicates-allowed",
+      "difficulty": "Hard",
+      "acceptance": 36.019008780186454,
+      "likes": 2399,
+      "dislikes": 156
+    },
+    {
+      "position": 21,
+      "title": "Similar String Groups",
+      "slug": "similar-string-groups",
+      "difficulty": "Hard",
+      "acceptance": 55.68784150770539,
+      "likes": 2439,
+      "dislikes": 217
+    },
+    {
+      "position": 22,
+      "title": "Meeting Rooms III",
+      "slug": "meeting-rooms-iii",
+      "difficulty": "Hard",
+      "acceptance": 48.8799041029781,
+      "likes": 2168,
+      "dislikes": 132
+    },
+    {
+      "position": 23,
+      "title": "Substring with Concatenation of All Words",
+      "slug": "substring-with-concatenation-of-all-words",
+      "difficulty": "Hard",
+      "acceptance": 33.37222604130448,
+      "likes": 2418,
+      "dislikes": 402
+    },
+    {
+      "position": 24,
+      "title": "Count Unique Characters of All Substrings of a Given String",
+      "slug": "count-unique-characters-of-all-substrings-of-a-given-string",
+      "difficulty": "Hard",
+      "acceptance": 53.1560807483998,
+      "likes": 2230,
+      "dislikes": 254
+    },
+    {
+      "position": 25,
+      "title": "All O`one Data Structure",
+      "slug": "all-oone-data-structure",
+      "difficulty": "Hard",
+      "acceptance": 44.07255962275355,
+      "likes": 2179,
+      "dislikes": 220
+    },
+    {
+      "position": 26,
+      "title": "Minimum Number of Operations to Make Array Continuous",
+      "slug": "minimum-number-of-operations-to-make-array-continuous",
+      "difficulty": "Hard",
+      "acceptance": 52.156541592217586,
+      "likes": 1965,
+      "dislikes": 53
+    },
+    {
+      "position": 27,
+      "title": "Naming a Company",
+      "slug": "naming-a-company",
+      "difficulty": "Hard",
+      "acceptance": 46.43209139371093,
+      "likes": 1962,
+      "dislikes": 73
+    },
+    {
+      "position": 28,
+      "title": "Prefix and Suffix Search",
+      "slug": "prefix-and-suffix-search",
+      "difficulty": "Hard",
+      "acceptance": 40.582110292578,
+      "likes": 2332,
+      "dislikes": 496
+    },
+    {
+      "position": 29,
+      "title": "Number of Flowers in Full Bloom",
+      "slug": "number-of-flowers-in-full-bloom",
+      "difficulty": "Hard",
+      "acceptance": 57.50132841912471,
+      "likes": 1777,
+      "dislikes": 43
+    },
+    {
+      "position": 30,
+      "title": "Largest Component Size by Common Factor",
+      "slug": "largest-component-size-by-common-factor",
+      "difficulty": "Hard",
+      "acceptance": 41.552350723794184,
+      "likes": 1703,
+      "dislikes": 95
+    },
+    {
+      "position": 31,
+      "title": "Number of Atoms",
+      "slug": "number-of-atoms",
+      "difficulty": "Hard",
+      "acceptance": 65.03880769548344,
+      "likes": 1955,
+      "dislikes": 409
+    },
+    {
+      "position": 32,
+      "title": "Number of Valid Words for Each Puzzle",
+      "slug": "number-of-valid-words-for-each-puzzle",
+      "difficulty": "Hard",
+      "acceptance": 47.446686363190835,
+      "likes": 1292,
+      "dislikes": 89
+    },
+    {
+      "position": 33,
+      "title": "Stickers to Spell Word",
+      "slug": "stickers-to-spell-word",
+      "difficulty": "Hard",
+      "acceptance": 50.319245805639014,
+      "likes": 1313,
+      "dislikes": 129
+    },
+    {
+      "position": 34,
+      "title": "Total Appeal of A String",
+      "slug": "total-appeal-of-a-string",
+      "difficulty": "Hard",
+      "acceptance": 56.02683049147442,
+      "likes": 1205,
+      "dislikes": 34
+    },
+    {
+      "position": 35,
+      "title": "K-Similar Strings",
+      "slug": "k-similar-strings",
+      "difficulty": "Hard",
+      "acceptance": 40.277454313972086,
+      "likes": 1167,
+      "dislikes": 63
+    },
+    {
+      "position": 36,
+      "title": "Number of Squareful Arrays",
+      "slug": "number-of-squareful-arrays",
+      "difficulty": "Hard",
+      "acceptance": 50.773521875912174,
+      "likes": 1025,
+      "dislikes": 46
+    },
+    {
+      "position": 37,
+      "title": "Minimum Number of Flips to Convert Binary Matrix to Zero Matrix",
+      "slug": "minimum-number-of-flips-to-convert-binary-matrix-to-zero-matrix",
+      "difficulty": "Hard",
+      "acceptance": 72.24818325735757,
+      "likes": 997,
+      "dislikes": 102
+    },
+    {
+      "position": 38,
+      "title": "Rearranging Fruits",
+      "slug": "rearranging-fruits",
+      "difficulty": "Hard",
+      "acceptance": 57.65040294110486,
+      "likes": 915,
+      "dislikes": 56
+    },
+    {
+      "position": 39,
+      "title": "Find Longest Awesome Substring",
+      "slug": "find-longest-awesome-substring",
+      "difficulty": "Hard",
+      "acceptance": 45.79821638573108,
+      "likes": 870,
+      "dislikes": 15
+    },
+    {
+      "position": 40,
+      "title": "Perfect Rectangle",
+      "slug": "perfect-rectangle",
+      "difficulty": "Hard",
+      "acceptance": 36.07096362815165,
+      "likes": 933,
+      "dislikes": 120
+    }
+  ]
+}

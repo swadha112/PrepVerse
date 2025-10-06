@@ -1,0 +1,17 @@
+{
+  "frozen": true,
+  "createdAt": "2025-10-06T15:22:52.112Z",
+  "trackSlug": "doubly-linked-list",
+  "difficulty": "EASY",
+  "questions": [
+    {
+      "position": 1,
+      "title": "Minimum Pair Removal to Sort Array I",
+      "slug": "minimum-pair-removal-to-sort-array-i",
+      "difficulty": "Easy",
+      "acceptance": 55.58812643422903,
+      "likes": 96,
+      "dislikes": 23
+    }
+  ]
+}

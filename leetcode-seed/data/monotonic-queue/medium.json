@@ -1,0 +1,71 @@
+{
+  "frozen": true,
+  "createdAt": "2025-10-06T15:22:46.381Z",
+  "trackSlug": "monotonic-queue",
+  "difficulty": "MEDIUM",
+  "questions": [
+    {
+      "position": 1,
+      "title": "Maximum Sum Circular Subarray",
+      "slug": "maximum-sum-circular-subarray",
+      "difficulty": "Medium",
+      "acceptance": 48.4898087874986,
+      "likes": 7127,
+      "dislikes": 332
+    },
+    {
+      "position": 2,
+      "title": "Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit",
+      "slug": "longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit",
+      "difficulty": "Medium",
+      "acceptance": 57.0019934924164,
+      "likes": 4393,
+      "dislikes": 221
+    },
+    {
+      "position": 3,
+      "title": "Jump Game VI",
+      "slug": "jump-game-vi",
+      "difficulty": "Medium",
+      "acceptance": 46.191797137063645,
+      "likes": 3526,
+      "dislikes": 124
+    },
+    {
+      "position": 4,
+      "title": "Continuous Subarrays",
+      "slug": "continuous-subarrays",
+      "difficulty": "Medium",
+      "acceptance": 57.96105962271775,
+      "likes": 1470,
+      "dislikes": 95
+    },
+    {
+      "position": 5,
+      "title": "Minimum Number of Coins for Fruits",
+      "slug": "minimum-number-of-coins-for-fruits",
+      "difficulty": "Medium",
+      "acceptance": 47.801151461470326,
+      "likes": 303,
+      "dislikes": 74
+    },
+    {
+      "position": 6,
+      "title": "Count Partitions With Max-Min Difference at Most K",
+      "slug": "count-partitions-with-max-min-difference-at-most-k",
+      "difficulty": "Medium",
+      "acceptance": 37.00038804811797,
+      "likes": 134,
+      "dislikes": 9
+    },
+    {
+      "position": 7,
+      "title": "Count Prime-Gap Balanced Subarrays",
+      "slug": "count-prime-gap-balanced-subarrays",
+      "difficulty": "Medium",
+      "acceptance": 19.919231995465655,
+      "likes": 72,
+      "dislikes": 4
+    }
+  ]
+}

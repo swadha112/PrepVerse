@@ -1,0 +1,35 @@
+{
+  "frozen": true,
+  "createdAt": "2025-10-06T15:22:58.599Z",
+  "trackSlug": "randomized",
+  "difficulty": "HARD",
+  "questions": [
+    {
+      "position": 1,
+      "title": "Insert Delete GetRandom O(1) - Duplicates allowed",
+      "slug": "insert-delete-getrandom-o1-duplicates-allowed",
+      "difficulty": "Hard",
+      "acceptance": 36.018858434432715,
+      "likes": 2399,
+      "dislikes": 156
+    },
+    {
+      "position": 2,
+      "title": "Random Pick with Blacklist",
+      "slug": "random-pick-with-blacklist",
+      "difficulty": "Hard",
+      "acceptance": 34.21707510426361,
+      "likes": 890,
+      "dislikes": 121
+    },
+    {
+      "position": 3,
+      "title": "Best Position for a Service Centre",
+      "slug": "best-position-for-a-service-centre",
+      "difficulty": "Hard",
+      "acceptance": 34.90593511561536,
+      "likes": 245,
+      "dislikes": 272
+    }
+  ]
+}

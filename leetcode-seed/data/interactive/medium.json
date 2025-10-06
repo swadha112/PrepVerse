@@ -1,0 +1,17 @@
+{
+  "frozen": true,
+  "createdAt": "2025-10-06T15:22:39.055Z",
+  "trackSlug": "interactive",
+  "difficulty": "MEDIUM",
+  "questions": [
+    {
+      "position": 1,
+      "title": "Find Positive Integer Solution for a Given Equation",
+      "slug": "find-positive-integer-solution-for-a-given-equation",
+      "difficulty": "Medium",
+      "acceptance": 69.67498445963946,
+      "likes": 538,
+      "dislikes": 1444
+    }
+  ]
+}

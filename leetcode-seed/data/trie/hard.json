@@ -1,0 +1,188 @@
+{
+  "frozen": true,
+  "createdAt": "2025-10-06T15:21:30.070Z",
+  "trackSlug": "trie",
+  "difficulty": "HARD",
+  "questions": [
+    {
+      "position": 1,
+      "title": "Word Search II",
+      "slug": "word-search-ii",
+      "difficulty": "Hard",
+      "acceptance": 37.67673437919375,
+      "likes": 9987,
+      "dislikes": 502
+    },
+    {
+      "position": 2,
+      "title": "Word Break II",
+      "slug": "word-break-ii",
+      "difficulty": "Hard",
+      "acceptance": 54.30748040938666,
+      "likes": 7472,
+      "dislikes": 545
+    },
+    {
+      "position": 3,
+      "title": "Palindrome Pairs",
+      "slug": "palindrome-pairs",
+      "difficulty": "Hard",
+      "acceptance": 36.573929896503046,
+      "likes": 4601,
+      "dislikes": 472
+    },
+    {
+      "position": 4,
+      "title": "Concatenated Words",
+      "slug": "concatenated-words",
+      "difficulty": "Hard",
+      "acceptance": 49.55886984643985,
+      "likes": 4027,
+      "dislikes": 290
+    },
+    {
+      "position": 5,
+      "title": "Prefix and Suffix Search",
+      "slug": "prefix-and-suffix-search",
+      "difficulty": "Hard",
+      "acceptance": 40.58256271248386,
+      "likes": 2332,
+      "dislikes": 496
+    },
+    {
+      "position": 6,
+      "title": "Stream of Characters",
+      "slug": "stream-of-characters",
+      "difficulty": "Hard",
+      "acceptance": 51.46953734329699,
+      "likes": 1856,
+      "dislikes": 186
+    },
+    {
+      "position": 7,
+      "title": "K-th Smallest in Lexicographical Order",
+      "slug": "k-th-smallest-in-lexicographical-order",
+      "difficulty": "Hard",
+      "acceptance": 45.98915958810914,
+      "likes": 1628,
+      "dislikes": 147
+    },
+    {
+      "position": 8,
+      "title": "Maximum XOR With an Element From Array",
+      "slug": "maximum-xor-with-an-element-from-array",
+      "difficulty": "Hard",
+      "acceptance": 56.689049227732134,
+      "likes": 1360,
+      "dislikes": 40
+    },
+    {
+      "position": 9,
+      "title": "Number of Valid Words for Each Puzzle",
+      "slug": "number-of-valid-words-for-each-puzzle",
+      "difficulty": "Hard",
+      "acceptance": 47.446686363190835,
+      "likes": 1292,
+      "dislikes": 89
+    },
+    {
+      "position": 10,
+      "title": "Sum of Prefix Scores of Strings",
+      "slug": "sum-of-prefix-scores-of-strings",
+      "difficulty": "Hard",
+      "acceptance": 60.75365054290125,
+      "likes": 1186,
+      "dislikes": 111
+    },
+    {
+      "position": 11,
+      "title": "Count Pairs With XOR in a Range",
+      "slug": "count-pairs-with-xor-in-a-range",
+      "difficulty": "Hard",
+      "acceptance": 45.9489722466608,
+      "likes": 545,
+      "dislikes": 24
+    },
+    {
+      "position": 12,
+      "title": "Delete Duplicate Folders in System",
+      "slug": "delete-duplicate-folders-in-system",
+      "difficulty": "Hard",
+      "acceptance": 78.03805526737716,
+      "likes": 608,
+      "dislikes": 137
+    },
+    {
+      "position": 13,
+      "title": "Maximum Genetic Difference Query",
+      "slug": "maximum-genetic-difference-query",
+      "difficulty": "Hard",
+      "acceptance": 45.40902547411905,
+      "likes": 406,
+      "dislikes": 24
+    },
+    {
+      "position": 14,
+      "title": "Encrypt and Decrypt Strings",
+      "slug": "encrypt-and-decrypt-strings",
+      "difficulty": "Hard",
+      "acceptance": 37.36663943037236,
+      "likes": 350,
+      "dislikes": 80
+    },
+    {
+      "position": 15,
+      "title": "Count Prefix and Suffix Pairs II",
+      "slug": "count-prefix-and-suffix-pairs-ii",
+      "difficulty": "Hard",
+      "acceptance": 27.562597102287096,
+      "likes": 242,
+      "dislikes": 11
+    },
+    {
+      "position": 16,
+      "title": "Maximum Strong Pair XOR II",
+      "slug": "maximum-strong-pair-xor-ii",
+      "difficulty": "Hard",
+      "acceptance": 31.434169278996865,
+      "likes": 202,
+      "dislikes": 2
+    },
+    {
+      "position": 17,
+      "title": "Longest Common Suffix Queries",
+      "slug": "longest-common-suffix-queries",
+      "difficulty": "Hard",
+      "acceptance": 35.94109904573873,
+      "likes": 181,
+      "dislikes": 19
+    },
+    {
+      "position": 18,
+      "title": "Distinct Echo Substrings",
+      "slug": "distinct-echo-substrings",
+      "difficulty": "Hard",
+      "acceptance": 52.412286209408045,
+      "likes": 334,
+      "dislikes": 208
+    },
+    {
+      "position": 19,
+      "title": "Longest Common Prefix of K Strings After Removal",
+      "slug": "longest-common-prefix-of-k-strings-after-removal",
+      "difficulty": "Hard",
+      "acceptance": 21.69866656239002,
+      "likes": 60,
+      "dislikes": 5
+    },
+    {
+      "position": 20,
+      "title": "Minimum Cost to Convert String II",
+      "slug": "minimum-cost-to-convert-string-ii",
+      "difficulty": "Hard",
+      "acceptance": 25.9708440524317,
+      "likes": 119,
+      "dislikes": 81
+    }
+  ]
+}

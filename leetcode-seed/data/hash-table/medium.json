@@ -1,0 +1,368 @@
+{
+  "frozen": true,
+  "createdAt": "2025-10-06T15:17:28.423Z",
+  "trackSlug": "hash-table",
+  "difficulty": "MEDIUM",
+  "questions": [
+    {
+      "position": 1,
+      "title": "Longest Substring Without Repeating Characters",
+      "slug": "longest-substring-without-repeating-characters",
+      "difficulty": "Medium",
+      "acceptance": 37.68315112778537,
+      "likes": 43280,
+      "dislikes": 2115
+    },
+    {
+      "position": 2,
+      "title": "Subarray Sum Equals K",
+      "slug": "subarray-sum-equals-k",
+      "difficulty": "Medium",
+      "acceptance": 46.13629699589721,
+      "likes": 24047,
+      "dislikes": 795
+    },
+    {
+      "position": 3,
+      "title": "LRU Cache",
+      "slug": "lru-cache",
+      "difficulty": "Medium",
+      "acceptance": 46.013138260645775,
+      "likes": 22442,
+      "dislikes": 1181
+    },
+    {
+      "position": 4,
+      "title": "Longest Consecutive Sequence",
+      "slug": "longest-consecutive-sequence",
+      "difficulty": "Medium",
+      "acceptance": 46.964264985506205,
+      "likes": 22093,
+      "dislikes": 1196
+    },
+    {
+      "position": 5,
+      "title": "Group Anagrams",
+      "slug": "group-anagrams",
+      "difficulty": "Medium",
+      "acceptance": 71.54228691509611,
+      "likes": 21210,
+      "dislikes": 725
+    },
+    {
+      "position": 6,
+      "title": "Letter Combinations of a Phone Number",
+      "slug": "letter-combinations-of-a-phone-number",
+      "difficulty": "Medium",
+      "acceptance": 64.61780399162544,
+      "likes": 20323,
+      "dislikes": 1105
+    },
+    {
+      "position": 7,
+      "title": "Top K Frequent Elements",
+      "slug": "top-k-frequent-elements",
+      "difficulty": "Medium",
+      "acceptance": 64.91060776741809,
+      "likes": 18794,
+      "dislikes": 832
+    },
+    {
+      "position": 8,
+      "title": "Word Break",
+      "slug": "word-break",
+      "difficulty": "Medium",
+      "acceptance": 48.67948827148335,
+      "likes": 18311,
+      "dislikes": 880
+    },
+    {
+      "position": 9,
+      "title": "Set Matrix Zeroes",
+      "slug": "set-matrix-zeroes",
+      "difficulty": "Medium",
+      "acceptance": 61.61295097818229,
+      "likes": 16508,
+      "dislikes": 831
+    },
+    {
+      "position": 10,
+      "title": "Construct Binary Tree from Preorder and Inorder Traversal",
+      "slug": "construct-binary-tree-from-preorder-and-inorder-traversal",
+      "difficulty": "Medium",
+      "acceptance": 67.62405932252072,
+      "likes": 16244,
+      "dislikes": 595
+    },
+    {
+      "position": 11,
+      "title": "Linked List Cycle II",
+      "slug": "linked-list-cycle-ii",
+      "difficulty": "Medium",
+      "acceptance": 56.163317402287774,
+      "likes": 14726,
+      "dislikes": 1057
+    },
+    {
+      "position": 12,
+      "title": "Copy List with Random Pointer",
+      "slug": "copy-list-with-random-pointer",
+      "difficulty": "Medium",
+      "acceptance": 61.5053402178526,
+      "likes": 15131,
+      "dislikes": 1633
+    },
+    {
+      "position": 13,
+      "title": "Find All Anagrams in a String",
+      "slug": "find-all-anagrams-in-a-string",
+      "difficulty": "Medium",
+      "acceptance": 52.69007396115464,
+      "likes": 12938,
+      "dislikes": 364
+    },
+    {
+      "position": 14,
+      "title": "Permutation in String",
+      "slug": "permutation-in-string",
+      "difficulty": "Medium",
+      "acceptance": 47.83356370407247,
+      "likes": 12613,
+      "dislikes": 505
+    },
+    {
+      "position": 15,
+      "title": "Implement Trie (Prefix Tree)",
+      "slug": "implement-trie-prefix-tree",
+      "difficulty": "Medium",
+      "acceptance": 68.58953901096793,
+      "likes": 12237,
+      "dislikes": 156
+    },
+    {
+      "position": 16,
+      "title": "Longest Repeating Character Replacement",
+      "slug": "longest-repeating-character-replacement",
+      "difficulty": "Medium",
+      "acceptance": 58.15370878636736,
+      "likes": 12308,
+      "dislikes": 701
+    },
+    {
+      "position": 17,
+      "title": "All Nodes Distance K in Binary Tree",
+      "slug": "all-nodes-distance-k-in-binary-tree",
+      "difficulty": "Medium",
+      "acceptance": 67.0006625758586,
+      "likes": 11849,
+      "dislikes": 270
+    },
+    {
+      "position": 18,
+      "title": "Valid Sudoku",
+      "slug": "valid-sudoku",
+      "difficulty": "Medium",
+      "acceptance": 63.54818808508356,
+      "likes": 12107,
+      "dislikes": 1241
+    },
+    {
+      "position": 19,
+      "title": "Partition Labels",
+      "slug": "partition-labels",
+      "difficulty": "Medium",
+      "acceptance": 81.66444651876088,
+      "likes": 11096,
+      "dislikes": 436
+    },
+    {
+      "position": 20,
+      "title": "Find All Duplicates in an Array",
+      "slug": "find-all-duplicates-in-an-array",
+      "difficulty": "Medium",
+      "acceptance": 76.59099198392005,
+      "likes": 10944,
+      "dislikes": 432
+    },
+    {
+      "position": 21,
+      "title": "Majority Element II",
+      "slug": "majority-element-ii",
+      "difficulty": "Medium",
+      "acceptance": 55.19029127474992,
+      "likes": 10688,
+      "dislikes": 479
+    },
+    {
+      "position": 22,
+      "title": "Task Scheduler",
+      "slug": "task-scheduler",
+      "difficulty": "Medium",
+      "acceptance": 62.12326858794703,
+      "likes": 11449,
+      "dislikes": 2181
+    },
+    {
+      "position": 23,
+      "title": "Insert Delete GetRandom O(1)",
+      "slug": "insert-delete-getrandom-o1",
+      "difficulty": "Medium",
+      "acceptance": 55.114020876033045,
+      "likes": 9777,
+      "dislikes": 682
+    },
+    {
+      "position": 24,
+      "title": "Reorganize String",
+      "slug": "reorganize-string",
+      "difficulty": "Medium",
+      "acceptance": 56.519483278452775,
+      "likes": 9053,
+      "dislikes": 281
+    },
+    {
+      "position": 25,
+      "title": "Sort Characters By Frequency",
+      "slug": "sort-characters-by-frequency",
+      "difficulty": "Medium",
+      "acceptance": 74.7177077165608,
+      "likes": 8961,
+      "dislikes": 326
+    },
+    {
+      "position": 26,
+      "title": "Construct Binary Tree from Inorder and Postorder Traversal",
+      "slug": "construct-binary-tree-from-inorder-and-postorder-traversal",
+      "difficulty": "Medium",
+      "acceptance": 67.10472044084997,
+      "likes": 8536,
+      "dislikes": 150
+    },
+    {
+      "position": 27,
+      "title": "Contiguous Array",
+      "slug": "contiguous-array",
+      "difficulty": "Medium",
+      "acceptance": 49.941661794754296,
+      "likes": 8511,
+      "dislikes": 437
+    },
+    {
+      "position": 28,
+      "title": "Top K Frequent Words",
+      "slug": "top-k-frequent-words",
+      "difficulty": "Medium",
+      "acceptance": 59.66538976510135,
+      "likes": 7920,
+      "dislikes": 370
+    },
+    {
+      "position": 29,
+      "title": "Delete and Earn",
+      "slug": "delete-and-earn",
+      "difficulty": "Medium",
+      "acceptance": 56.90712876859063,
+      "likes": 7844,
+      "dislikes": 397
+    },
+    {
+      "position": 30,
+      "title": "Longest String Chain",
+      "slug": "longest-string-chain",
+      "difficulty": "Medium",
+      "acceptance": 62.4764108640129,
+      "likes": 7688,
+      "dislikes": 267
+    },
+    {
+      "position": 31,
+      "title": "Subarray Sums Divisible by K",
+      "slug": "subarray-sums-divisible-by-k",
+      "difficulty": "Medium",
+      "acceptance": 55.746903974834396,
+      "likes": 7634,
+      "dislikes": 339
+    },
+    {
+      "position": 32,
+      "title": "Ugly Number II",
+      "slug": "ugly-number-ii",
+      "difficulty": "Medium",
+      "acceptance": 49.345884348866846,
+      "likes": 6772,
+      "dislikes": 433
+    },
+    {
+      "position": 33,
+      "title": "Clone Graph",
+      "slug": "clone-graph",
+      "difficulty": "Medium",
+      "acceptance": 63.55545112052751,
+      "likes": 10322,
+      "dislikes": 4120
+    },
+    {
+      "position": 34,
+      "title": "Accounts Merge",
+      "slug": "accounts-merge",
+      "difficulty": "Medium",
+      "acceptance": 60.30026761686806,
+      "likes": 7469,
+      "dislikes": 1277
+    },
+    {
+      "position": 35,
+      "title": "Continuous Subarray Sum",
+      "slug": "continuous-subarray-sum",
+      "difficulty": "Medium",
+      "acceptance": 31.04042814682414,
+      "likes": 6749,
+      "dislikes": 710
+    },
+    {
+      "position": 36,
+      "title": "Longest Substring with At Least K Repeating Characters",
+      "slug": "longest-substring-with-at-least-k-repeating-characters",
+      "difficulty": "Medium",
+      "acceptance": 45.67968498476931,
+      "likes": 6595,
+      "dislikes": 563
+    },
+    {
+      "position": 37,
+      "title": "Most Stones Removed with Same Row or Column",
+      "slug": "most-stones-removed-with-same-row-or-column",
+      "difficulty": "Medium",
+      "acceptance": 62.472557467644265,
+      "likes": 6290,
+      "dislikes": 705
+    },
+    {
+      "position": 38,
+      "title": "Find Duplicate Subtrees",
+      "slug": "find-duplicate-subtrees",
+      "difficulty": "Medium",
+      "acceptance": 60.34184521398744,
+      "likes": 6060,
+      "dislikes": 500
+    },
+    {
+      "position": 39,
+      "title": "Minimum Operations to Reduce X to Zero",
+      "slug": "minimum-operations-to-reduce-x-to-zero",
+      "difficulty": "Medium",
+      "acceptance": 40.235571389221796,
+      "likes": 5678,
+      "dislikes": 126
+    },
+    {
+      "position": 40,
+      "title": "Number of Matching Subsequences",
+      "slug": "number-of-matching-subsequences",
+      "difficulty": "Medium",
+      "acceptance": 50.642230878815845,
+      "likes": 5729,
+      "dislikes": 242
+    }
+  ]
+}

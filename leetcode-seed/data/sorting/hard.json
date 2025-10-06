@@ -1,0 +1,368 @@
+{
+  "frozen": true,
+  "createdAt": "2025-10-06T15:18:13.484Z",
+  "trackSlug": "sorting",
+  "difficulty": "HARD",
+  "questions": [
+    {
+      "position": 1,
+      "title": "Find Median from Data Stream",
+      "slug": "find-median-from-data-stream",
+      "difficulty": "Hard",
+      "acceptance": 53.7526931941688,
+      "likes": 12867,
+      "dislikes": 273
+    },
+    {
+      "position": 2,
+      "title": "Maximum Profit in Job Scheduling",
+      "slug": "maximum-profit-in-job-scheduling",
+      "difficulty": "Hard",
+      "acceptance": 54.48908945664513,
+      "likes": 7178,
+      "dislikes": 120
+    },
+    {
+      "position": 3,
+      "title": "Russian Doll Envelopes",
+      "slug": "russian-doll-envelopes",
+      "difficulty": "Hard",
+      "acceptance": 37.484437341517086,
+      "likes": 6349,
+      "dislikes": 165
+    },
+    {
+      "position": 4,
+      "title": "Minimum Cost to Cut a Stick",
+      "slug": "minimum-cost-to-cut-a-stick",
+      "difficulty": "Hard",
+      "acceptance": 62.46021123370795,
+      "likes": 4690,
+      "dislikes": 152
+    },
+    {
+      "position": 5,
+      "title": "Smallest Range Covering Elements from K Lists",
+      "slug": "smallest-range-covering-elements-from-k-lists",
+      "difficulty": "Hard",
+      "acceptance": 69.88424545468447,
+      "likes": 4296,
+      "dislikes": 99
+    },
+    {
+      "position": 6,
+      "title": "Vertical Order Traversal of a Binary Tree",
+      "slug": "vertical-order-traversal-of-a-binary-tree",
+      "difficulty": "Hard",
+      "acceptance": 52.42888645566249,
+      "likes": 8404,
+      "dislikes": 4384
+    },
+    {
+      "position": 7,
+      "title": "Course Schedule III",
+      "slug": "course-schedule-iii",
+      "difficulty": "Hard",
+      "acceptance": 40.96708989685926,
+      "likes": 3949,
+      "dislikes": 102
+    },
+    {
+      "position": 8,
+      "title": "IPO",
+      "slug": "ipo",
+      "difficulty": "Hard",
+      "acceptance": 53.16890461184115,
+      "likes": 4082,
+      "dislikes": 278
+    },
+    {
+      "position": 9,
+      "title": "Find K-th Smallest Pair Distance",
+      "slug": "find-k-th-smallest-pair-distance",
+      "difficulty": "Hard",
+      "acceptance": 46.029108191398684,
+      "likes": 3872,
+      "dislikes": 124
+    },
+    {
+      "position": 10,
+      "title": "Concatenated Words",
+      "slug": "concatenated-words",
+      "difficulty": "Hard",
+      "acceptance": 49.55886984643985,
+      "likes": 4027,
+      "dislikes": 290
+    },
+    {
+      "position": 11,
+      "title": "Reducing Dishes",
+      "slug": "reducing-dishes",
+      "difficulty": "Hard",
+      "acceptance": 76.48033521443226,
+      "likes": 3469,
+      "dislikes": 317
+    },
+    {
+      "position": 12,
+      "title": "Maximum Performance of a Team",
+      "slug": "maximum-performance-of-a-team",
+      "difficulty": "Hard",
+      "acceptance": 47.6584515718593,
+      "likes": 3184,
+      "dislikes": 84
+    },
+    {
+      "position": 13,
+      "title": "Minimum Cost to Hire K Workers",
+      "slug": "minimum-cost-to-hire-k-workers",
+      "difficulty": "Hard",
+      "acceptance": 63.54301286153719,
+      "likes": 3021,
+      "dislikes": 405
+    },
+    {
+      "position": 14,
+      "title": "Put Marbles in Bags",
+      "slug": "put-marbles-in-bags",
+      "difficulty": "Hard",
+      "acceptance": 72.22580260174244,
+      "likes": 2625,
+      "dislikes": 123
+    },
+    {
+      "position": 15,
+      "title": "Maximum Number of Events That Can Be Attended II",
+      "slug": "maximum-number-of-events-that-can-be-attended-ii",
+      "difficulty": "Hard",
+      "acceptance": 63.72991463972826,
+      "likes": 2519,
+      "dislikes": 53
+    },
+    {
+      "position": 16,
+      "title": "Minimum Cost to Make Array Equal",
+      "slug": "minimum-cost-to-make-array-equal",
+      "difficulty": "Hard",
+      "acceptance": 46.514954567222475,
+      "likes": 2495,
+      "dislikes": 36
+    },
+    {
+      "position": 17,
+      "title": "Number of Good Paths",
+      "slug": "number-of-good-paths",
+      "difficulty": "Hard",
+      "acceptance": 56.138641300946745,
+      "likes": 2404,
+      "dislikes": 112
+    },
+    {
+      "position": 18,
+      "title": "Make Array Strictly Increasing",
+      "slug": "make-array-strictly-increasing",
+      "difficulty": "Hard",
+      "acceptance": 57.81912135462299,
+      "likes": 2316,
+      "dislikes": 50
+    },
+    {
+      "position": 19,
+      "title": "Meeting Rooms III",
+      "slug": "meeting-rooms-iii",
+      "difficulty": "Hard",
+      "acceptance": 48.8799041029781,
+      "likes": 2168,
+      "dislikes": 132
+    },
+    {
+      "position": 20,
+      "title": "Checking Existence of Edge Length Limited Paths",
+      "slug": "checking-existence-of-edge-length-limited-paths",
+      "difficulty": "Hard",
+      "acceptance": 62.98215627143371,
+      "likes": 2067,
+      "dislikes": 48
+    },
+    {
+      "position": 21,
+      "title": "Maximum Running Time of N Computers",
+      "slug": "maximum-running-time-of-n-computers",
+      "difficulty": "Hard",
+      "acceptance": 49.83712381578554,
+      "likes": 2061,
+      "dislikes": 58
+    },
+    {
+      "position": 22,
+      "title": "Max Chunks To Make Sorted II",
+      "slug": "max-chunks-to-make-sorted-ii",
+      "difficulty": "Hard",
+      "acceptance": 54.50333235973554,
+      "likes": 1981,
+      "dislikes": 62
+    },
+    {
+      "position": 23,
+      "title": "Find Critical and Pseudo-Critical Edges in Minimum Spanning Tree",
+      "slug": "find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree",
+      "difficulty": "Hard",
+      "acceptance": 66.20178601583375,
+      "likes": 1963,
+      "dislikes": 166
+    },
+    {
+      "position": 24,
+      "title": "Number of Flowers in Full Bloom",
+      "slug": "number-of-flowers-in-full-bloom",
+      "difficulty": "Hard",
+      "acceptance": 57.50132841912471,
+      "likes": 1777,
+      "dislikes": 43
+    },
+    {
+      "position": 25,
+      "title": "Find All People With Secret",
+      "slug": "find-all-people-with-secret",
+      "difficulty": "Hard",
+      "acceptance": 45.29400183189378,
+      "likes": 1653,
+      "dislikes": 82
+    },
+    {
+      "position": 26,
+      "title": "Odd Even Jump",
+      "slug": "odd-even-jump",
+      "difficulty": "Hard",
+      "acceptance": 40.856571014599524,
+      "likes": 2097,
+      "dislikes": 529
+    },
+    {
+      "position": 27,
+      "title": "Earliest Possible Day of Full Bloom",
+      "slug": "earliest-possible-day-of-full-bloom",
+      "difficulty": "Hard",
+      "acceptance": 71.18220907115446,
+      "likes": 1647,
+      "dislikes": 85
+    },
+    {
+      "position": 28,
+      "title": "Number of Atoms",
+      "slug": "number-of-atoms",
+      "difficulty": "Hard",
+      "acceptance": 65.03880769548344,
+      "likes": 1955,
+      "dislikes": 409
+    },
+    {
+      "position": 29,
+      "title": "Maximum Height by Stacking Cuboids ",
+      "slug": "maximum-height-by-stacking-cuboids",
+      "difficulty": "Hard",
+      "acceptance": 61.049914193936374,
+      "likes": 1243,
+      "dislikes": 34
+    },
+    {
+      "position": 30,
+      "title": "Orderly Queue",
+      "slug": "orderly-queue",
+      "difficulty": "Hard",
+      "acceptance": 66.4648870089427,
+      "likes": 1807,
+      "dislikes": 620
+    },
+    {
+      "position": 31,
+      "title": "Allocate Mailboxes",
+      "slug": "allocate-mailboxes",
+      "difficulty": "Hard",
+      "acceptance": 56.01170964292601,
+      "likes": 1163,
+      "dislikes": 23
+    },
+    {
+      "position": 32,
+      "title": "Jump Game V",
+      "slug": "jump-game-v",
+      "difficulty": "Hard",
+      "acceptance": 64.39547272462313,
+      "likes": 1172,
+      "dislikes": 45
+    },
+    {
+      "position": 33,
+      "title": "Contains Duplicate III",
+      "slug": "contains-duplicate-iii",
+      "difficulty": "Hard",
+      "acceptance": 23.973838630409748,
+      "likes": 1213,
+      "dislikes": 136
+    },
+    {
+      "position": 34,
+      "title": "Robot Collisions",
+      "slug": "robot-collisions",
+      "difficulty": "Hard",
+      "acceptance": 56.08729706982696,
+      "likes": 1173,
+      "dislikes": 98
+    },
+    {
+      "position": 35,
+      "title": "Maximum Number of Points From Grid Queries",
+      "slug": "maximum-number-of-points-from-grid-queries",
+      "difficulty": "Hard",
+      "acceptance": 59.39099219953297,
+      "likes": 1088,
+      "dislikes": 50
+    },
+    {
+      "position": 36,
+      "title": "Minimum Interval to Include Each Query",
+      "slug": "minimum-interval-to-include-each-query",
+      "difficulty": "Hard",
+      "acceptance": 53.12695297027524,
+      "likes": 1084,
+      "dislikes": 46
+    },
+    {
+      "position": 37,
+      "title": "Maximum Number of Tasks You Can Assign",
+      "slug": "maximum-number-of-tasks-you-can-assign",
+      "difficulty": "Hard",
+      "acceptance": 50.32703618960911,
+      "likes": 1073,
+      "dislikes": 57
+    },
+    {
+      "position": 38,
+      "title": "Minimum Total Distance Traveled",
+      "slug": "minimum-total-distance-traveled",
+      "difficulty": "Hard",
+      "acceptance": 58.9313880126183,
+      "likes": 957,
+      "dislikes": 33
+    },
+    {
+      "position": 39,
+      "title": "Closest Subsequence Sum",
+      "slug": "closest-subsequence-sum",
+      "difficulty": "Hard",
+      "acceptance": 42.42454728370221,
+      "likes": 986,
+      "dislikes": 72
+    },
+    {
+      "position": 40,
+      "title": "Rank Transform of a Matrix",
+      "slug": "rank-transform-of-a-matrix",
+      "difficulty": "Hard",
+      "acceptance": 41.687356837367254,
+      "likes": 924,
+      "dislikes": 58
+    }
+  ]
+}

@@ -1,0 +1,368 @@
+{
+  "frozen": true,
+  "createdAt": "2025-10-06T15:18:40.575Z",
+  "trackSlug": "binary-search",
+  "difficulty": "MEDIUM",
+  "questions": [
+    {
+      "position": 1,
+      "title": "Search in Rotated Sorted Array",
+      "slug": "search-in-rotated-sorted-array",
+      "difficulty": "Medium",
+      "acceptance": 43.482607392367875,
+      "likes": 28932,
+      "dislikes": 1748
+    },
+    {
+      "position": 2,
+      "title": "Find First and Last Position of Element in Sorted Array",
+      "slug": "find-first-and-last-position-of-element-in-sorted-array",
+      "difficulty": "Medium",
+      "acceptance": 47.58693459750278,
+      "likes": 22485,
+      "dislikes": 606
+    },
+    {
+      "position": 3,
+      "title": "Longest Increasing Subsequence",
+      "slug": "longest-increasing-subsequence",
+      "difficulty": "Medium",
+      "acceptance": 58.47437885615021,
+      "likes": 22279,
+      "dislikes": 492
+    },
+    {
+      "position": 4,
+      "title": "Find the Duplicate Number",
+      "slug": "find-the-duplicate-number",
+      "difficulty": "Medium",
+      "acceptance": 63.45807116812361,
+      "likes": 24850,
+      "dislikes": 5502
+    },
+    {
+      "position": 5,
+      "title": "Search a 2D Matrix",
+      "slug": "search-a-2d-matrix",
+      "difficulty": "Medium",
+      "acceptance": 52.94080661024051,
+      "likes": 17325,
+      "dislikes": 469
+    },
+    {
+      "position": 6,
+      "title": "Find Minimum in Rotated Sorted Array",
+      "slug": "find-minimum-in-rotated-sorted-array",
+      "difficulty": "Medium",
+      "acceptance": 53.24144558076866,
+      "likes": 14694,
+      "dislikes": 644
+    },
+    {
+      "position": 7,
+      "title": "Minimum Size Subarray Sum",
+      "slug": "minimum-size-subarray-sum",
+      "difficulty": "Medium",
+      "acceptance": 50.126729369911885,
+      "likes": 13820,
+      "dislikes": 518
+    },
+    {
+      "position": 8,
+      "title": "Search a 2D Matrix II",
+      "slug": "search-a-2d-matrix-ii",
+      "difficulty": "Medium",
+      "acceptance": 56.098786490854714,
+      "likes": 12797,
+      "dislikes": 223
+    },
+    {
+      "position": 9,
+      "title": "Single Element in a Sorted Array",
+      "slug": "single-element-in-a-sorted-array",
+      "difficulty": "Medium",
+      "acceptance": 59.17868671643166,
+      "likes": 12538,
+      "dislikes": 232
+    },
+    {
+      "position": 10,
+      "title": "Koko Eating Bananas",
+      "slug": "koko-eating-bananas",
+      "difficulty": "Medium",
+      "acceptance": 49.1917482175522,
+      "likes": 12855,
+      "dislikes": 853
+    },
+    {
+      "position": 11,
+      "title": "Two Sum II - Input Array Is Sorted",
+      "slug": "two-sum-ii-input-array-is-sorted",
+      "difficulty": "Medium",
+      "acceptance": 63.95630040749205,
+      "likes": 12921,
+      "dislikes": 1499
+    },
+    {
+      "position": 12,
+      "title": "Capacity To Ship Packages Within D Days",
+      "slug": "capacity-to-ship-packages-within-d-days",
+      "difficulty": "Medium",
+      "acceptance": 72.9282387045518,
+      "likes": 10618,
+      "dislikes": 272
+    },
+    {
+      "position": 13,
+      "title": "Kth Smallest Element in a Sorted Matrix",
+      "slug": "kth-smallest-element-in-a-sorted-matrix",
+      "difficulty": "Medium",
+      "acceptance": 63.932553638354804,
+      "likes": 10390,
+      "dislikes": 385
+    },
+    {
+      "position": 14,
+      "title": "Max Consecutive Ones III",
+      "slug": "max-consecutive-ones-iii",
+      "difficulty": "Medium",
+      "acceptance": 66.72785736431281,
+      "likes": 9936,
+      "dislikes": 174
+    },
+    {
+      "position": 15,
+      "title": "Find Peak Element",
+      "slug": "find-peak-element",
+      "difficulty": "Medium",
+      "acceptance": 46.61112880795805,
+      "likes": 13953,
+      "dislikes": 4901
+    },
+    {
+      "position": 16,
+      "title": "Search in Rotated Sorted Array II",
+      "slug": "search-in-rotated-sorted-array-ii",
+      "difficulty": "Medium",
+      "acceptance": 39.26470609505103,
+      "likes": 9314,
+      "dislikes": 1101
+    },
+    {
+      "position": 17,
+      "title": "Find K Closest Elements",
+      "slug": "find-k-closest-elements",
+      "difficulty": "Medium",
+      "acceptance": 49.0821433737408,
+      "likes": 8853,
+      "dislikes": 859
+    },
+    {
+      "position": 18,
+      "title": "Subarray Product Less Than K",
+      "slug": "subarray-product-less-than-k",
+      "difficulty": "Medium",
+      "acceptance": 53.31936908867924,
+      "likes": 7308,
+      "dislikes": 231
+    },
+    {
+      "position": 19,
+      "title": "132 Pattern",
+      "slug": "132-pattern",
+      "difficulty": "Medium",
+      "acceptance": 34.268679747795005,
+      "likes": 7520,
+      "dislikes": 462
+    },
+    {
+      "position": 20,
+      "title": "Maximum Length of Repeated Subarray",
+      "slug": "maximum-length-of-repeated-subarray",
+      "difficulty": "Medium",
+      "acceptance": 51.13405303119344,
+      "likes": 7011,
+      "dislikes": 177
+    },
+    {
+      "position": 21,
+      "title": "Path With Minimum Effort",
+      "slug": "path-with-minimum-effort",
+      "difficulty": "Medium",
+      "acceptance": 62.238727303347666,
+      "likes": 6591,
+      "dislikes": 232
+    },
+    {
+      "position": 22,
+      "title": "Peak Index in a Mountain Array",
+      "slug": "peak-index-in-a-mountain-array",
+      "difficulty": "Medium",
+      "acceptance": 67.19549455200388,
+      "likes": 8258,
+      "dislikes": 1942
+    },
+    {
+      "position": 23,
+      "title": "Minimum Operations to Reduce X to Zero",
+      "slug": "minimum-operations-to-reduce-x-to-zero",
+      "difficulty": "Medium",
+      "acceptance": 40.235571389221796,
+      "likes": 5678,
+      "dislikes": 126
+    },
+    {
+      "position": 24,
+      "title": "Number of Matching Subsequences",
+      "slug": "number-of-matching-subsequences",
+      "difficulty": "Medium",
+      "acceptance": 50.642230878815845,
+      "likes": 5729,
+      "dislikes": 242
+    },
+    {
+      "position": 25,
+      "title": "Frequency of the Most Frequent Element",
+      "slug": "frequency-of-the-most-frequent-element",
+      "difficulty": "Medium",
+      "acceptance": 44.388829115404405,
+      "likes": 5472,
+      "dislikes": 292
+    },
+    {
+      "position": 26,
+      "title": "Minimum Number of Days to Make m Bouquets",
+      "slug": "minimum-number-of-days-to-make-m-bouquets",
+      "difficulty": "Medium",
+      "acceptance": 55.80147569320992,
+      "likes": 5414,
+      "dislikes": 301
+    },
+    {
+      "position": 27,
+      "title": "Search Suggestions System",
+      "slug": "search-suggestions-system",
+      "difficulty": "Medium",
+      "acceptance": 65.12653742578624,
+      "likes": 5050,
+      "dislikes": 261
+    },
+    {
+      "position": 28,
+      "title": "Longest Arithmetic Subsequence",
+      "slug": "longest-arithmetic-subsequence",
+      "difficulty": "Medium",
+      "acceptance": 49.66167366077634,
+      "likes": 4856,
+      "dislikes": 218
+    },
+    {
+      "position": 29,
+      "title": "My Calendar I",
+      "slug": "my-calendar-i",
+      "difficulty": "Medium",
+      "acceptance": 58.19202382922389,
+      "likes": 4764,
+      "dislikes": 134
+    },
+    {
+      "position": 30,
+      "title": "Time Based Key-Value Store",
+      "slug": "time-based-key-value-store",
+      "difficulty": "Medium",
+      "acceptance": 49.54628922424459,
+      "likes": 5146,
+      "dislikes": 698
+    },
+    {
+      "position": 31,
+      "title": "Number of Subsequences That Satisfy the Given Sum Condition",
+      "slug": "number-of-subsequences-that-satisfy-the-given-sum-condition",
+      "difficulty": "Medium",
+      "acceptance": 49.42518291511871,
+      "likes": 4584,
+      "dislikes": 432
+    },
+    {
+      "position": 32,
+      "title": "Valid Triangle Number",
+      "slug": "valid-triangle-number",
+      "difficulty": "Medium",
+      "acceptance": 56.303500528175434,
+      "likes": 4357,
+      "dislikes": 255
+    },
+    {
+      "position": 33,
+      "title": "Snapshot Array",
+      "slug": "snapshot-array",
+      "difficulty": "Medium",
+      "acceptance": 36.66718124407823,
+      "likes": 3861,
+      "dislikes": 536
+    },
+    {
+      "position": 34,
+      "title": "Find the Smallest Divisor Given a Threshold",
+      "slug": "find-the-smallest-divisor-given-a-threshold",
+      "difficulty": "Medium",
+      "acceptance": 64.72148267570508,
+      "likes": 3405,
+      "dislikes": 221
+    },
+    {
+      "position": 35,
+      "title": "Maximize the Confusion of an Exam",
+      "slug": "maximize-the-confusion-of-an-exam",
+      "difficulty": "Medium",
+      "acceptance": 69.18410473147098,
+      "likes": 3039,
+      "dislikes": 52
+    },
+    {
+      "position": 36,
+      "title": "Magnetic Force Between Two Balls",
+      "slug": "magnetic-force-between-two-balls",
+      "difficulty": "Medium",
+      "acceptance": 71.60308305554086,
+      "likes": 3107,
+      "dislikes": 268
+    },
+    {
+      "position": 37,
+      "title": "Minimum Time to Complete Trips",
+      "slug": "minimum-time-to-complete-trips",
+      "difficulty": "Medium",
+      "acceptance": 39.26027457586066,
+      "likes": 3021,
+      "dislikes": 192
+    },
+    {
+      "position": 38,
+      "title": "Sum of Square Numbers",
+      "slug": "sum-of-square-numbers",
+      "difficulty": "Medium",
+      "acceptance": 36.56645035114232,
+      "likes": 3382,
+      "dislikes": 617
+    },
+    {
+      "position": 39,
+      "title": "Minimum Limit of Balls in a Bag",
+      "slug": "minimum-limit-of-balls-in-a-bag",
+      "difficulty": "Medium",
+      "acceptance": 66.87929699949916,
+      "likes": 2811,
+      "dislikes": 104
+    },
+    {
+      "position": 40,
+      "title": "Successful Pairs of Spells and Potions",
+      "slug": "successful-pairs-of-spells-and-potions",
+      "difficulty": "Medium",
+      "acceptance": 46.051307102466176,
+      "likes": 2769,
+      "dislikes": 89
+    }
+  ]
+}

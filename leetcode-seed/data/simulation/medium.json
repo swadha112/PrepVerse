@@ -1,0 +1,368 @@
+{
+  "frozen": true,
+  "createdAt": "2025-10-06T15:19:59.233Z",
+  "trackSlug": "simulation",
+  "difficulty": "MEDIUM",
+  "questions": [
+    {
+      "position": 1,
+      "title": "Spiral Matrix",
+      "slug": "spiral-matrix",
+      "difficulty": "Medium",
+      "acceptance": 55.109668039536785,
+      "likes": 16707,
+      "dislikes": 1501
+    },
+    {
+      "position": 2,
+      "title": "Asteroid Collision",
+      "slug": "asteroid-collision",
+      "difficulty": "Medium",
+      "acceptance": 46.0967396613904,
+      "likes": 8982,
+      "dislikes": 1280
+    },
+    {
+      "position": 3,
+      "title": "Spiral Matrix II",
+      "slug": "spiral-matrix-ii",
+      "difficulty": "Medium",
+      "acceptance": 74.02431680235966,
+      "likes": 6780,
+      "dislikes": 277
+    },
+    {
+      "position": 4,
+      "title": "Game of Life",
+      "slug": "game-of-life",
+      "difficulty": "Medium",
+      "acceptance": 71.87029992570196,
+      "likes": 6709,
+      "dislikes": 609
+    },
+    {
+      "position": 5,
+      "title": "Validate Stack Sequences",
+      "slug": "validate-stack-sequences",
+      "difficulty": "Medium",
+      "acceptance": 69.9158278770008,
+      "likes": 6060,
+      "dislikes": 129
+    },
+    {
+      "position": 6,
+      "title": "Car Pooling",
+      "slug": "car-pooling",
+      "difficulty": "Medium",
+      "acceptance": 56.13654148620484,
+      "likes": 4737,
+      "dislikes": 116
+    },
+    {
+      "position": 7,
+      "title": "Multiply Strings",
+      "slug": "multiply-strings",
+      "difficulty": "Medium",
+      "acceptance": 42.81294320098174,
+      "likes": 7528,
+      "dislikes": 3593
+    },
+    {
+      "position": 8,
+      "title": "Find the Winner of the Circular Game",
+      "slug": "find-the-winner-of-the-circular-game",
+      "difficulty": "Medium",
+      "acceptance": 82.13567474064664,
+      "likes": 4016,
+      "dislikes": 121
+    },
+    {
+      "position": 9,
+      "title": "Rearrange Array Elements by Sign",
+      "slug": "rearrange-array-elements-by-sign",
+      "difficulty": "Medium",
+      "acceptance": 84.45642194197204,
+      "likes": 3915,
+      "dislikes": 223
+    },
+    {
+      "position": 10,
+      "title": "Diagonal Traverse",
+      "slug": "diagonal-traverse",
+      "difficulty": "Medium",
+      "acceptance": 66.63521944881681,
+      "likes": 4229,
+      "dislikes": 770
+    },
+    {
+      "position": 11,
+      "title": "Robot Bounded In Circle",
+      "slug": "robot-bounded-in-circle",
+      "difficulty": "Medium",
+      "acceptance": 56.32461324231155,
+      "likes": 3835,
+      "dislikes": 714
+    },
+    {
+      "position": 12,
+      "title": "Where Will the Ball Fall",
+      "slug": "where-will-the-ball-fall",
+      "difficulty": "Medium",
+      "acceptance": 72.15259363098535,
+      "likes": 3157,
+      "dislikes": 181
+    },
+    {
+      "position": 13,
+      "title": "Reveal Cards In Increasing Order",
+      "slug": "reveal-cards-in-increasing-order",
+      "difficulty": "Medium",
+      "acceptance": 83.44451856793418,
+      "likes": 3628,
+      "dislikes": 696
+    },
+    {
+      "position": 14,
+      "title": "Removing Stars From a String",
+      "slug": "removing-stars-from-a-string",
+      "difficulty": "Medium",
+      "acceptance": 78.51646677873929,
+      "likes": 3151,
+      "dislikes": 230
+    },
+    {
+      "position": 15,
+      "title": "Remove All Occurrences of a Substring",
+      "slug": "remove-all-occurrences-of-a-substring",
+      "difficulty": "Medium",
+      "acceptance": 78.3262193314532,
+      "likes": 2554,
+      "dislikes": 88
+    },
+    {
+      "position": 16,
+      "title": "Merge Nodes in Between Zeros",
+      "slug": "merge-nodes-in-between-zeros",
+      "difficulty": "Medium",
+      "acceptance": 89.6121446413044,
+      "likes": 2457,
+      "dislikes": 50
+    },
+    {
+      "position": 17,
+      "title": "Equal Row and Column Pairs",
+      "slug": "equal-row-and-column-pairs",
+      "difficulty": "Medium",
+      "acceptance": 70.69592827431792,
+      "likes": 2442,
+      "dislikes": 183
+    },
+    {
+      "position": 18,
+      "title": "Sum of Even Numbers After Queries",
+      "slug": "sum-of-even-numbers-after-queries",
+      "difficulty": "Medium",
+      "acceptance": 68.64812386867307,
+      "likes": 2122,
+      "dislikes": 323
+    },
+    {
+      "position": 19,
+      "title": "Partition Array According to Given Pivot",
+      "slug": "partition-array-according-to-given-pivot",
+      "difficulty": "Medium",
+      "acceptance": 89.82392663869871,
+      "likes": 1719,
+      "dislikes": 119
+    },
+    {
+      "position": 20,
+      "title": "Find the Winner of an Array Game",
+      "slug": "find-the-winner-of-an-array-game",
+      "difficulty": "Medium",
+      "acceptance": 56.82144655220992,
+      "likes": 1607,
+      "dislikes": 86
+    },
+    {
+      "position": 21,
+      "title": "Find Triangular Sum of an Array",
+      "slug": "find-triangular-sum-of-an-array",
+      "difficulty": "Medium",
+      "acceptance": 81.95544951772243,
+      "likes": 1519,
+      "dislikes": 75
+    },
+    {
+      "position": 22,
+      "title": "Find Kth Bit in Nth Binary String",
+      "slug": "find-kth-bit-in-nth-binary-string",
+      "difficulty": "Medium",
+      "acceptance": 70.1556913655121,
+      "likes": 1506,
+      "dislikes": 96
+    },
+    {
+      "position": 23,
+      "title": "Number of Steps to Reduce a Number in Binary Representation to One",
+      "slug": "number-of-steps-to-reduce-a-number-in-binary-representation-to-one",
+      "difficulty": "Medium",
+      "acceptance": 61.37360616117306,
+      "likes": 1414,
+      "dislikes": 88
+    },
+    {
+      "position": 24,
+      "title": "Total Cost to Hire K Workers",
+      "slug": "total-cost-to-hire-k-workers",
+      "difficulty": "Medium",
+      "acceptance": 43.37276459736213,
+      "likes": 2046,
+      "dislikes": 727
+    },
+    {
+      "position": 25,
+      "title": "Number of People Aware of a Secret",
+      "slug": "number-of-people-aware-of-a-secret",
+      "difficulty": "Medium",
+      "acceptance": 61.047779389243296,
+      "likes": 1461,
+      "dislikes": 162
+    },
+    {
+      "position": 26,
+      "title": "Spiral Matrix IV",
+      "slug": "spiral-matrix-iv",
+      "difficulty": "Medium",
+      "acceptance": 82.2463768115942,
+      "likes": 1290,
+      "dislikes": 55
+    },
+    {
+      "position": 27,
+      "title": "Average Waiting Time",
+      "slug": "average-waiting-time",
+      "difficulty": "Medium",
+      "acceptance": 73.04541178482853,
+      "likes": 1259,
+      "dislikes": 101
+    },
+    {
+      "position": 28,
+      "title": "Difference Between Ones and Zeros in Row and Column",
+      "slug": "difference-between-ones-and-zeros-in-row-and-column",
+      "difficulty": "Medium",
+      "acceptance": 84.36905555218998,
+      "likes": 1229,
+      "dislikes": 85
+    },
+    {
+      "position": 29,
+      "title": "Last Moment Before All Ants Fall Out of a Plank",
+      "slug": "last-moment-before-all-ants-fall-out-of-a-plank",
+      "difficulty": "Medium",
+      "acceptance": 68.23313075088038,
+      "likes": 1551,
+      "dislikes": 430
+    },
+    {
+      "position": 30,
+      "title": "Find the Student that Will Replace the Chalk",
+      "slug": "find-the-student-that-will-replace-the-chalk",
+      "difficulty": "Medium",
+      "acceptance": 53.16078007017767,
+      "likes": 1204,
+      "dislikes": 134
+    },
+    {
+      "position": 31,
+      "title": "Find Missing Observations",
+      "slug": "find-missing-observations",
+      "difficulty": "Medium",
+      "acceptance": 57.383408064296326,
+      "likes": 1119,
+      "dislikes": 107
+    },
+    {
+      "position": 32,
+      "title": "Concatenation of Consecutive Binary Numbers",
+      "slug": "concatenation-of-consecutive-binary-numbers",
+      "difficulty": "Medium",
+      "acceptance": 56.79191531472097,
+      "likes": 1444,
+      "dislikes": 437
+    },
+    {
+      "position": 33,
+      "title": "Adding Spaces to a String",
+      "slug": "adding-spaces-to-a-string",
+      "difficulty": "Medium",
+      "acceptance": 71.71424194794469,
+      "likes": 1095,
+      "dislikes": 113
+    },
+    {
+      "position": 34,
+      "title": "Find Score of an Array After Marking All Elements",
+      "slug": "find-score-of-an-array-after-marking-all-elements",
+      "difficulty": "Medium",
+      "acceptance": 64.47922440366794,
+      "likes": 930,
+      "dislikes": 21
+    },
+    {
+      "position": 35,
+      "title": "Watering Plants",
+      "slug": "watering-plants",
+      "difficulty": "Medium",
+      "acceptance": 80.09733029749543,
+      "likes": 957,
+      "dislikes": 73
+    },
+    {
+      "position": 36,
+      "title": "Count Unguarded Cells in the Grid",
+      "slug": "count-unguarded-cells-in-the-grid",
+      "difficulty": "Medium",
+      "acceptance": 65.67227518603748,
+      "likes": 921,
+      "dislikes": 76
+    },
+    {
+      "position": 37,
+      "title": "Queens That Can Attack the King",
+      "slug": "queens-that-can-attack-the-king",
+      "difficulty": "Medium",
+      "acceptance": 72.3868446760013,
+      "likes": 990,
+      "dislikes": 153
+    },
+    {
+      "position": 38,
+      "title": "Print Words Vertically",
+      "slug": "print-words-vertically",
+      "difficulty": "Medium",
+      "acceptance": 66.91312384473198,
+      "likes": 814,
+      "dislikes": 121
+    },
+    {
+      "position": 39,
+      "title": "Walking Robot Simulation",
+      "slug": "walking-robot-simulation",
+      "difficulty": "Medium",
+      "acceptance": 58.37053728610662,
+      "likes": 890,
+      "dislikes": 200
+    },
+    {
+      "position": 40,
+      "title": "Find the Number of Distinct Colors Among the Balls",
+      "slug": "find-the-number-of-distinct-colors-among-the-balls",
+      "difficulty": "Medium",
+      "acceptance": 54.18182285988119,
+      "likes": 760,
+      "dislikes": 93
+    }
+  ]
+}

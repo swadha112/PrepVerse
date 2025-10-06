@@ -1,0 +1,44 @@
+{
+  "frozen": true,
+  "createdAt": "2025-10-06T15:23:35.222Z",
+  "trackSlug": "reservoir-sampling",
+  "difficulty": "MEDIUM",
+  "questions": [
+    {
+      "position": 1,
+      "title": "Linked List Random Node",
+      "slug": "linked-list-random-node",
+      "difficulty": "Medium",
+      "acceptance": 64.16467099478007,
+      "likes": 3186,
+      "dislikes": 718
+    },
+    {
+      "position": 2,
+      "title": "Random Flip Matrix",
+      "slug": "random-flip-matrix",
+      "difficulty": "Medium",
+      "acceptance": 44.395022079486154,
+      "likes": 456,
+      "dislikes": 134
+    },
+    {
+      "position": 3,
+      "title": "Random Pick Index",
+      "slug": "random-pick-index",
+      "difficulty": "Medium",
+      "acceptance": 64.76279795755927,
+      "likes": 1378,
+      "dislikes": 1307
+    },
+    {
+      "position": 4,
+      "title": "Random Point in Non-overlapping Rectangles",
+      "slug": "random-point-in-non-overlapping-rectangles",
+      "difficulty": "Medium",
+      "acceptance": 38.626015429016306,
+      "likes": 512,
+      "dislikes": 686
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "frozen": true,
+  "createdAt": "2025-10-06T15:23:42.727Z",
+  "trackSlug": "eulerian-circuit",
+  "difficulty": "HARD",
+  "questions": [
+    {
+      "position": 1,
+      "title": "Reconstruct Itinerary",
+      "slug": "reconstruct-itinerary",
+      "difficulty": "Hard",
+      "acceptance": 43.89096697918765,
+      "likes": 6226,
+      "dislikes": 1918
+    },
+    {
+      "position": 2,
+      "title": "Valid Arrangement of Pairs",
+      "slug": "valid-arrangement-of-pairs",
+      "difficulty": "Hard",
+      "acceptance": 66.41806696252547,
+      "likes": 1055,
+      "dislikes": 55
+    },
+    {
+      "position": 3,
+      "title": "Cracking the Safe",
+      "slug": "cracking-the-safe",
+      "difficulty": "Hard",
+      "acceptance": 58.13451439634716,
+      "likes": 640,
+      "dislikes": 124
+    }
+  ]
+}

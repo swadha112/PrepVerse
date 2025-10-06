@@ -1,0 +1,287 @@
+{
+  "frozen": true,
+  "createdAt": "2025-10-06T15:21:19.911Z",
+  "trackSlug": "monotonic-stack",
+  "difficulty": "MEDIUM",
+  "questions": [
+    {
+      "position": 1,
+      "title": "Daily Temperatures",
+      "slug": "daily-temperatures",
+      "difficulty": "Medium",
+      "acceptance": 67.76494316354963,
+      "likes": 14186,
+      "dislikes": 358
+    },
+    {
+      "position": 2,
+      "title": "Remove K Digits",
+      "slug": "remove-k-digits",
+      "difficulty": "Medium",
+      "acceptance": 35.73282083233971,
+      "likes": 10284,
+      "dislikes": 538
+    },
+    {
+      "position": 3,
+      "title": "Next Greater Element II",
+      "slug": "next-greater-element-ii",
+      "difficulty": "Medium",
+      "acceptance": 67.2556050671908,
+      "likes": 8819,
+      "dislikes": 225
+    },
+    {
+      "position": 4,
+      "title": "Remove Duplicate Letters",
+      "slug": "remove-duplicate-letters",
+      "difficulty": "Medium",
+      "acceptance": 51.98234899114252,
+      "likes": 9098,
+      "dislikes": 687
+    },
+    {
+      "position": 5,
+      "title": "Sum of Subarray Minimums",
+      "slug": "sum-of-subarray-minimums",
+      "difficulty": "Medium",
+      "acceptance": 37.97758767002533,
+      "likes": 8918,
+      "dislikes": 710
+    },
+    {
+      "position": 6,
+      "title": "Shortest Unsorted Continuous Subarray",
+      "slug": "shortest-unsorted-continuous-subarray",
+      "difficulty": "Medium",
+      "acceptance": 37.68720421429991,
+      "likes": 7939,
+      "dislikes": 272
+    },
+    {
+      "position": 7,
+      "title": "132 Pattern",
+      "slug": "132-pattern",
+      "difficulty": "Medium",
+      "acceptance": 34.268901533087174,
+      "likes": 7520,
+      "dislikes": 462
+    },
+    {
+      "position": 8,
+      "title": "Construct Binary Search Tree from Preorder Traversal",
+      "slug": "construct-binary-search-tree-from-preorder-traversal",
+      "difficulty": "Medium",
+      "acceptance": 83.78542009676883,
+      "likes": 6624,
+      "dislikes": 92
+    },
+    {
+      "position": 9,
+      "title": "Online Stock Span",
+      "slug": "online-stock-span",
+      "difficulty": "Medium",
+      "acceptance": 68.14540729935472,
+      "likes": 7014,
+      "dislikes": 483
+    },
+    {
+      "position": 10,
+      "title": "Maximum Binary Tree",
+      "slug": "maximum-binary-tree",
+      "difficulty": "Medium",
+      "acceptance": 86.1442861927782,
+      "likes": 5370,
+      "dislikes": 350
+    },
+    {
+      "position": 11,
+      "title": "Minimum Cost Tree From Leaf Values",
+      "slug": "minimum-cost-tree-from-leaf-values",
+      "difficulty": "Medium",
+      "acceptance": 67.71246789633435,
+      "likes": 4396,
+      "dislikes": 278
+    },
+    {
+      "position": 12,
+      "title": "Next Greater Node In Linked List",
+      "slug": "next-greater-node-in-linked-list",
+      "difficulty": "Medium",
+      "acceptance": 62.843207188266504,
+      "likes": 3470,
+      "dislikes": 124
+    },
+    {
+      "position": 13,
+      "title": "Max Chunks To Make Sorted",
+      "slug": "max-chunks-to-make-sorted",
+      "difficulty": "Medium",
+      "acceptance": 64.11916192947479,
+      "likes": 3609,
+      "dislikes": 362
+    },
+    {
+      "position": 14,
+      "title": "The Number of Weak Characters in the Game",
+      "slug": "the-number-of-weak-characters-in-the-game",
+      "difficulty": "Medium",
+      "acceptance": 44.30838106524458,
+      "likes": 3079,
+      "dislikes": 99
+    },
+    {
+      "position": 15,
+      "title": "Car Fleet",
+      "slug": "car-fleet",
+      "difficulty": "Medium",
+      "acceptance": 54.06032721018445,
+      "likes": 4100,
+      "dislikes": 1174
+    },
+    {
+      "position": 16,
+      "title": "Sum of Subarray Ranges",
+      "slug": "sum-of-subarray-ranges",
+      "difficulty": "Medium",
+      "acceptance": 60.205234569797994,
+      "likes": 2843,
+      "dislikes": 140
+    },
+    {
+      "position": 17,
+      "title": "Maximum Width Ramp",
+      "slug": "maximum-width-ramp",
+      "difficulty": "Medium",
+      "acceptance": 55.76582120208261,
+      "likes": 2797,
+      "dislikes": 95
+    },
+    {
+      "position": 18,
+      "title": "Smallest Subsequence of Distinct Characters",
+      "slug": "smallest-subsequence-of-distinct-characters",
+      "difficulty": "Medium",
+      "acceptance": 62.535971862010165,
+      "likes": 2714,
+      "dislikes": 199
+    },
+    {
+      "position": 19,
+      "title": "Count Submatrices With All Ones",
+      "slug": "count-submatrices-with-all-ones",
+      "difficulty": "Medium",
+      "acceptance": 71.04136805223762,
+      "likes": 2634,
+      "dislikes": 218
+    },
+    {
+      "position": 20,
+      "title": "Shortest Subarray to be Removed to Make Array Sorted",
+      "slug": "shortest-subarray-to-be-removed-to-make-array-sorted",
+      "difficulty": "Medium",
+      "acceptance": 51.36240348775293,
+      "likes": 2420,
+      "dislikes": 159
+    },
+    {
+      "position": 21,
+      "title": "Remove Nodes From Linked List",
+      "slug": "remove-nodes-from-linked-list",
+      "difficulty": "Medium",
+      "acceptance": 74.52338472330237,
+      "likes": 2322,
+      "dislikes": 82
+    },
+    {
+      "position": 22,
+      "title": "Find the Most Competitive Subsequence",
+      "slug": "find-the-most-competitive-subsequence",
+      "difficulty": "Medium",
+      "acceptance": 52.26727295692813,
+      "likes": 2158,
+      "dislikes": 103
+    },
+    {
+      "position": 23,
+      "title": "Maximum Subarray Min-Product",
+      "slug": "maximum-subarray-min-product",
+      "difficulty": "Medium",
+      "acceptance": 39.371750433275565,
+      "likes": 1528,
+      "dislikes": 141
+    },
+    {
+      "position": 24,
+      "title": "Longest Well-Performing Interval",
+      "slug": "longest-well-performing-interval",
+      "difficulty": "Medium",
+      "acceptance": 36.361974564984635,
+      "likes": 1508,
+      "dislikes": 122
+    },
+    {
+      "position": 25,
+      "title": "Steps to Make Array Non-decreasing",
+      "slug": "steps-to-make-array-non-decreasing",
+      "difficulty": "Medium",
+      "acceptance": 23.561188621429586,
+      "likes": 1394,
+      "dislikes": 143
+    },
+    {
+      "position": 26,
+      "title": "Beautiful Towers II",
+      "slug": "beautiful-towers-ii",
+      "difficulty": "Medium",
+      "acceptance": 35.46818589703457,
+      "likes": 459,
+      "dislikes": 29
+    },
+    {
+      "position": 27,
+      "title": "Beautiful Towers I",
+      "slug": "beautiful-towers-i",
+      "difficulty": "Medium",
+      "acceptance": 43.78290749875298,
+      "likes": 339,
+      "dislikes": 57
+    },
+    {
+      "position": 28,
+      "title": "Count Bowl Subarrays",
+      "slug": "count-bowl-subarrays",
+      "difficulty": "Medium",
+      "acceptance": 41.45174903873207,
+      "likes": 154,
+      "dislikes": 5
+    },
+    {
+      "position": 29,
+      "title": "Minimum Operations to Convert All Elements to Zero",
+      "slug": "minimum-operations-to-convert-all-elements-to-zero",
+      "difficulty": "Medium",
+      "acceptance": 25.1261657247843,
+      "likes": 115,
+      "dislikes": 17
+    },
+    {
+      "position": 30,
+      "title": "Make Array Non-decreasing",
+      "slug": "make-array-non-decreasing",
+      "difficulty": "Medium",
+      "acceptance": 55.87158387437717,
+      "likes": 80,
+      "dislikes": 8
+    },
+    {
+      "position": 31,
+      "title": "Maximum Balanced Shipments",
+      "slug": "maximum-balanced-shipments",
+      "difficulty": "Medium",
+      "acceptance": 56.44936220511221,
+      "likes": 63,
+      "dislikes": 6
+    }
+  ]
+}

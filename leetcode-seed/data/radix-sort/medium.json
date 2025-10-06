@@ -1,0 +1,35 @@
+{
+  "frozen": true,
+  "createdAt": "2025-10-06T15:23:44.420Z",
+  "trackSlug": "radix-sort",
+  "difficulty": "MEDIUM",
+  "questions": [
+    {
+      "position": 1,
+      "title": "Sort an Array",
+      "slug": "sort-an-array",
+      "difficulty": "Medium",
+      "acceptance": 56.16461511935712,
+      "likes": 6974,
+      "dislikes": 833
+    },
+    {
+      "position": 2,
+      "title": "Maximum Gap",
+      "slug": "maximum-gap",
+      "difficulty": "Medium",
+      "acceptance": 50.364171236576674,
+      "likes": 3485,
+      "dislikes": 433
+    },
+    {
+      "position": 3,
+      "title": "Query Kth Smallest Trimmed Number",
+      "slug": "query-kth-smallest-trimmed-number",
+      "difficulty": "Medium",
+      "acceptance": 46.25138495629694,
+      "likes": 338,
+      "dislikes": 439
+    }
+  ]
+}

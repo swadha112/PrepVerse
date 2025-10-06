@@ -1,0 +1,368 @@
+{
+  "frozen": true,
+  "createdAt": "2025-10-06T15:19:31.976Z",
+  "trackSlug": "two-pointers",
+  "difficulty": "EASY",
+  "questions": [
+    {
+      "position": 1,
+      "title": "Move Zeroes",
+      "slug": "move-zeroes",
+      "difficulty": "Easy",
+      "acceptance": 63.13591096167029,
+      "likes": 18549,
+      "dislikes": 553
+    },
+    {
+      "position": 2,
+      "title": "Palindrome Linked List",
+      "slug": "palindrome-linked-list",
+      "difficulty": "Easy",
+      "acceptance": 56.68671861134212,
+      "likes": 17822,
+      "dislikes": 952
+    },
+    {
+      "position": 3,
+      "title": "Linked List Cycle",
+      "slug": "linked-list-cycle",
+      "difficulty": "Easy",
+      "acceptance": 53.24845817810407,
+      "likes": 16987,
+      "dislikes": 1539
+    },
+    {
+      "position": 4,
+      "title": "Merge Sorted Array",
+      "slug": "merge-sorted-array",
+      "difficulty": "Easy",
+      "acceptance": 53.66390226755106,
+      "likes": 17875,
+      "dislikes": 2502
+    },
+    {
+      "position": 5,
+      "title": "Intersection of Two Linked Lists",
+      "slug": "intersection-of-two-linked-lists",
+      "difficulty": "Easy",
+      "acceptance": 62.199611094255125,
+      "likes": 16158,
+      "dislikes": 1465
+    },
+    {
+      "position": 6,
+      "title": "Middle of the Linked List",
+      "slug": "middle-of-the-linked-list",
+      "difficulty": "Easy",
+      "acceptance": 81.1274105176364,
+      "likes": 12824,
+      "dislikes": 425
+    },
+    {
+      "position": 7,
+      "title": "Is Subsequence",
+      "slug": "is-subsequence",
+      "difficulty": "Easy",
+      "acceptance": 48.62470396276667,
+      "likes": 10524,
+      "dislikes": 595
+    },
+    {
+      "position": 8,
+      "title": "Happy Number",
+      "slug": "happy-number",
+      "difficulty": "Easy",
+      "acceptance": 58.65929709717786,
+      "likes": 11489,
+      "dislikes": 1596
+    },
+    {
+      "position": 9,
+      "title": "Squares of a Sorted Array",
+      "slug": "squares-of-a-sorted-array",
+      "difficulty": "Easy",
+      "acceptance": 73.34985223111964,
+      "likes": 9858,
+      "dislikes": 261
+    },
+    {
+      "position": 10,
+      "title": "Valid Palindrome II",
+      "slug": "valid-palindrome-ii",
+      "difficulty": "Easy",
+      "acceptance": 43.502125409412926,
+      "likes": 8757,
+      "dislikes": 502
+    },
+    {
+      "position": 11,
+      "title": "Reverse String",
+      "slug": "reverse-string",
+      "difficulty": "Easy",
+      "acceptance": 80.13714047354851,
+      "likes": 9243,
+      "dislikes": 1206
+    },
+    {
+      "position": 12,
+      "title": "Backspace String Compare",
+      "slug": "backspace-string-compare",
+      "difficulty": "Easy",
+      "acceptance": 49.59698999613389,
+      "likes": 7818,
+      "dislikes": 376
+    },
+    {
+      "position": 13,
+      "title": "Intersection of Two Arrays II",
+      "slug": "intersection-of-two-arrays-ii",
+      "difficulty": "Easy",
+      "acceptance": 59.30933687045159,
+      "likes": 8032,
+      "dislikes": 1003
+    },
+    {
+      "position": 14,
+      "title": "Two Sum IV - Input is a BST",
+      "slug": "two-sum-iv-input-is-a-bst",
+      "difficulty": "Easy",
+      "acceptance": 62.67042570486403,
+      "likes": 7156,
+      "dislikes": 288
+    },
+    {
+      "position": 15,
+      "title": "Find the Index of the First Occurrence in a String",
+      "slug": "find-the-index-of-the-first-occurrence-in-a-string",
+      "difficulty": "Easy",
+      "acceptance": 45.606628640713986,
+      "likes": 7133,
+      "dislikes": 535
+    },
+    {
+      "position": 16,
+      "title": "Reverse Words in a String III",
+      "slug": "reverse-words-in-a-string-iii",
+      "difficulty": "Easy",
+      "acceptance": 83.7725548110384,
+      "likes": 6127,
+      "dislikes": 253
+    },
+    {
+      "position": 17,
+      "title": "Sort Array By Parity",
+      "slug": "sort-array-by-parity",
+      "difficulty": "Easy",
+      "acceptance": 76.3475161047207,
+      "likes": 5599,
+      "dislikes": 156
+    },
+    {
+      "position": 18,
+      "title": "Merge Strings Alternately",
+      "slug": "merge-strings-alternately",
+      "difficulty": "Easy",
+      "acceptance": 82.15037041136969,
+      "likes": 4709,
+      "dislikes": 137
+    },
+    {
+      "position": 19,
+      "title": "Intersection of Two Arrays",
+      "slug": "intersection-of-two-arrays",
+      "difficulty": "Easy",
+      "acceptance": 76.96081073546085,
+      "likes": 6647,
+      "dislikes": 2332
+    },
+    {
+      "position": 20,
+      "title": "Assign Cookies",
+      "slug": "assign-cookies",
+      "difficulty": "Easy",
+      "acceptance": 54.362783631722586,
+      "likes": 4708,
+      "dislikes": 428
+    },
+    {
+      "position": 21,
+      "title": "Flipping an Image",
+      "slug": "flipping-an-image",
+      "difficulty": "Easy",
+      "acceptance": 83.2665373773172,
+      "likes": 3642,
+      "dislikes": 254
+    },
+    {
+      "position": 22,
+      "title": "Count Binary Substrings",
+      "slug": "count-binary-substrings",
+      "difficulty": "Easy",
+      "acceptance": 66.12340343093517,
+      "likes": 4129,
+      "dislikes": 901
+    },
+    {
+      "position": 23,
+      "title": "Shortest Distance to a Character",
+      "slug": "shortest-distance-to-a-character",
+      "difficulty": "Easy",
+      "acceptance": 72.41741814148624,
+      "likes": 3272,
+      "dislikes": 194
+    },
+    {
+      "position": 24,
+      "title": "Sort Array By Parity II",
+      "slug": "sort-array-by-parity-ii",
+      "difficulty": "Easy",
+      "acceptance": 71.08226115797177,
+      "likes": 2751,
+      "dislikes": 103
+    },
+    {
+      "position": 25,
+      "title": "Reverse Only Letters",
+      "slug": "reverse-only-letters",
+      "difficulty": "Easy",
+      "acceptance": 67.44774769011433,
+      "likes": 2399,
+      "dislikes": 82
+    },
+    {
+      "position": 26,
+      "title": "Reverse Vowels of a String",
+      "slug": "reverse-vowels-of-a-string",
+      "difficulty": "Easy",
+      "acceptance": 59.40920771574943,
+      "likes": 5141,
+      "dislikes": 2845
+    },
+    {
+      "position": 27,
+      "title": "Valid Palindrome",
+      "slug": "valid-palindrome",
+      "difficulty": "Easy",
+      "acceptance": 51.87163799053509,
+      "likes": 10887,
+      "dislikes": 8593
+    },
+    {
+      "position": 28,
+      "title": "Check If N and Its Double Exist",
+      "slug": "check-if-n-and-its-double-exist",
+      "difficulty": "Easy",
+      "acceptance": 41.43757137192843,
+      "likes": 2476,
+      "dislikes": 249
+    },
+    {
+      "position": 29,
+      "title": "Long Pressed Name",
+      "slug": "long-pressed-name",
+      "difficulty": "Easy",
+      "acceptance": 32.647022943572395,
+      "likes": 2559,
+      "dislikes": 402
+    },
+    {
+      "position": 30,
+      "title": "Duplicate Zeros",
+      "slug": "duplicate-zeros",
+      "difficulty": "Easy",
+      "acceptance": 53.030748294861695,
+      "likes": 2770,
+      "dislikes": 781
+    },
+    {
+      "position": 31,
+      "title": "Find First Palindromic String in the Array",
+      "slug": "find-first-palindromic-string-in-the-array",
+      "difficulty": "Easy",
+      "acceptance": 83.97624441027688,
+      "likes": 1619,
+      "dislikes": 58
+    },
+    {
+      "position": 32,
+      "title": "DI String Match",
+      "slug": "di-string-match",
+      "difficulty": "Easy",
+      "acceptance": 80.48564082882481,
+      "likes": 2575,
+      "dislikes": 1068
+    },
+    {
+      "position": 33,
+      "title": "Reverse Prefix of Word",
+      "slug": "reverse-prefix-of-word",
+      "difficulty": "Easy",
+      "acceptance": 86.44390118057518,
+      "likes": 1463,
+      "dislikes": 44
+    },
+    {
+      "position": 34,
+      "title": "Number of Arithmetic Triplets",
+      "slug": "number-of-arithmetic-triplets",
+      "difficulty": "Easy",
+      "acceptance": 85.2041943713465,
+      "likes": 1369,
+      "dislikes": 96
+    },
+    {
+      "position": 35,
+      "title": "Check If a Word Occurs As a Prefix of Any Word in a Sentence",
+      "slug": "check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence",
+      "difficulty": "Easy",
+      "acceptance": 68.73925142120098,
+      "likes": 1307,
+      "dislikes": 59
+    },
+    {
+      "position": 36,
+      "title": "Minimum Common Value",
+      "slug": "minimum-common-value",
+      "difficulty": "Easy",
+      "acceptance": 58.04627035753288,
+      "likes": 1219,
+      "dislikes": 41
+    },
+    {
+      "position": 37,
+      "title": "Apply Operations to an Array",
+      "slug": "apply-operations-to-an-array",
+      "difficulty": "Easy",
+      "acceptance": 74.71781333225144,
+      "likes": 1090,
+      "dislikes": 64
+    },
+    {
+      "position": 38,
+      "title": "Largest Positive Integer That Exists With Its Negative",
+      "slug": "largest-positive-integer-that-exists-with-its-negative",
+      "difficulty": "Easy",
+      "acceptance": 74.57258541732863,
+      "likes": 1047,
+      "dislikes": 25
+    },
+    {
+      "position": 39,
+      "title": "Merge Two 2D Arrays by Summing Values",
+      "slug": "merge-two-2d-arrays-by-summing-values",
+      "difficulty": "Easy",
+      "acceptance": 81.85001622680669,
+      "likes": 812,
+      "dislikes": 37
+    },
+    {
+      "position": 40,
+      "title": "Count Pairs Whose Sum is Less than Target",
+      "slug": "count-pairs-whose-sum-is-less-than-target",
+      "difficulty": "Easy",
+      "acceptance": 87.60384718458744,
+      "likes": 780,
+      "dislikes": 86
+    }
+  ]
+}

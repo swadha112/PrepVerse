@@ -1,0 +1,17 @@
+{
+  "frozen": true,
+  "createdAt": "2025-10-06T15:21:22.374Z",
+  "trackSlug": "segment-tree",
+  "difficulty": "EASY",
+  "questions": [
+    {
+      "position": 1,
+      "title": "Fruits Into Baskets II",
+      "slug": "fruits-into-baskets-ii",
+      "difficulty": "Easy",
+      "acceptance": 70.29231171330194,
+      "likes": 471,
+      "dislikes": 59
+    }
+  ]
+}

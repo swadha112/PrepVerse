@@ -1,0 +1,44 @@
+{
+  "frozen": true,
+  "createdAt": "2025-10-06T15:23:04.290Z",
+  "trackSlug": "counting-sort",
+  "difficulty": "MEDIUM",
+  "questions": [
+    {
+      "position": 1,
+      "title": "Sort an Array",
+      "slug": "sort-an-array",
+      "difficulty": "Medium",
+      "acceptance": 56.16461511935712,
+      "likes": 6974,
+      "dislikes": 833
+    },
+    {
+      "position": 2,
+      "title": "Maximum Ice Cream Bars",
+      "slug": "maximum-ice-cream-bars",
+      "difficulty": "Medium",
+      "acceptance": 74.07684294380783,
+      "likes": 2236,
+      "dislikes": 679
+    },
+    {
+      "position": 3,
+      "title": "H-Index",
+      "slug": "h-index",
+      "difficulty": "Medium",
+      "acceptance": 40.705738868100156,
+      "likes": 1769,
+      "dislikes": 849
+    },
+    {
+      "position": 4,
+      "title": "Smallest Palindromic Rearrangement I",
+      "slug": "smallest-palindromic-rearrangement-i",
+      "difficulty": "Medium",
+      "acceptance": 63.16504063463739,
+      "likes": 74,
+      "dislikes": 2
+    }
+  ]
+}

@@ -1,0 +1,251 @@
+{
+  "frozen": true,
+  "createdAt": "2025-10-06T15:18:35.282Z",
+  "trackSlug": "binary-search",
+  "difficulty": "EASY",
+  "questions": [
+    {
+      "position": 1,
+      "title": "Search Insert Position",
+      "slug": "search-insert-position",
+      "difficulty": "Easy",
+      "acceptance": 49.831591337514375,
+      "likes": 18047,
+      "dislikes": 856
+    },
+    {
+      "position": 2,
+      "title": "Binary Search",
+      "slug": "binary-search",
+      "difficulty": "Easy",
+      "acceptance": 60.03835106707571,
+      "likes": 12969,
+      "dislikes": 284
+    },
+    {
+      "position": 3,
+      "title": "Missing Number",
+      "slug": "missing-number",
+      "difficulty": "Easy",
+      "acceptance": 70.88309832937203,
+      "likes": 13674,
+      "dislikes": 3441
+    },
+    {
+      "position": 4,
+      "title": "Count Complete Tree Nodes",
+      "slug": "count-complete-tree-nodes",
+      "difficulty": "Easy",
+      "acceptance": 71.09530577449452,
+      "likes": 9282,
+      "dislikes": 596
+    },
+    {
+      "position": 5,
+      "title": "Kth Missing Positive Number",
+      "slug": "kth-missing-positive-number",
+      "difficulty": "Easy",
+      "acceptance": 62.830415547305066,
+      "likes": 7633,
+      "dislikes": 545
+    },
+    {
+      "position": 6,
+      "title": "Intersection of Two Arrays II",
+      "slug": "intersection-of-two-arrays-ii",
+      "difficulty": "Easy",
+      "acceptance": 59.30933687045159,
+      "likes": 8032,
+      "dislikes": 1003
+    },
+    {
+      "position": 7,
+      "title": "First Bad Version",
+      "slug": "first-bad-version",
+      "difficulty": "Easy",
+      "acceptance": 46.33904258163254,
+      "likes": 8837,
+      "dislikes": 3411
+    },
+    {
+      "position": 8,
+      "title": "Count Negative Numbers in a Sorted Matrix",
+      "slug": "count-negative-numbers-in-a-sorted-matrix",
+      "difficulty": "Easy",
+      "acceptance": 77.80868888647632,
+      "likes": 5159,
+      "dislikes": 138
+    },
+    {
+      "position": 9,
+      "title": "Sqrt(x)",
+      "slug": "sqrtx",
+      "difficulty": "Easy",
+      "acceptance": 40.838895063624086,
+      "likes": 9243,
+      "dislikes": 4611
+    },
+    {
+      "position": 10,
+      "title": "Intersection of Two Arrays",
+      "slug": "intersection-of-two-arrays",
+      "difficulty": "Easy",
+      "acceptance": 76.96081073546085,
+      "likes": 6647,
+      "dislikes": 2332
+    },
+    {
+      "position": 11,
+      "title": "Valid Perfect Square",
+      "slug": "valid-perfect-square",
+      "difficulty": "Easy",
+      "acceptance": 44.414490744306654,
+      "likes": 4550,
+      "dislikes": 330
+    },
+    {
+      "position": 12,
+      "title": "The K Weakest Rows in a Matrix",
+      "slug": "the-k-weakest-rows-in-a-matrix",
+      "difficulty": "Easy",
+      "acceptance": 74.13703152295827,
+      "likes": 4304,
+      "dislikes": 241
+    },
+    {
+      "position": 13,
+      "title": "Guess Number Higher or Lower",
+      "slug": "guess-number-higher-or-lower",
+      "difficulty": "Easy",
+      "acceptance": 56.41874748975759,
+      "likes": 4126,
+      "dislikes": 659
+    },
+    {
+      "position": 14,
+      "title": "Arranging Coins",
+      "slug": "arranging-coins",
+      "difficulty": "Easy",
+      "acceptance": 47.602597263178374,
+      "likes": 4212,
+      "dislikes": 1370
+    },
+    {
+      "position": 15,
+      "title": "Find Smallest Letter Greater Than Target",
+      "slug": "find-smallest-letter-greater-than-target",
+      "difficulty": "Easy",
+      "acceptance": 54.677676636471816,
+      "likes": 4768,
+      "dislikes": 2217
+    },
+    {
+      "position": 16,
+      "title": "Check If N and Its Double Exist",
+      "slug": "check-if-n-and-its-double-exist",
+      "difficulty": "Easy",
+      "acceptance": 41.43757137192843,
+      "likes": 2476,
+      "dislikes": 249
+    },
+    {
+      "position": 17,
+      "title": "Longest Subsequence With Limited Sum",
+      "slug": "longest-subsequence-with-limited-sum",
+      "difficulty": "Easy",
+      "acceptance": 73.14738750650146,
+      "likes": 2081,
+      "dislikes": 192
+    },
+    {
+      "position": 18,
+      "title": "Special Array With X Elements Greater Than or Equal X",
+      "slug": "special-array-with-x-elements-greater-than-or-equal-x",
+      "difficulty": "Easy",
+      "acceptance": 66.72666396284114,
+      "likes": 2316,
+      "dislikes": 463
+    },
+    {
+      "position": 19,
+      "title": "Find Target Indices After Sorting Array",
+      "slug": "find-target-indices-after-sorting-array",
+      "difficulty": "Easy",
+      "acceptance": 77.5255827087285,
+      "likes": 1926,
+      "dislikes": 104
+    },
+    {
+      "position": 20,
+      "title": "Fair Candy Swap",
+      "slug": "fair-candy-swap",
+      "difficulty": "Easy",
+      "acceptance": 63.855564551082324,
+      "likes": 2224,
+      "dislikes": 414
+    },
+    {
+      "position": 21,
+      "title": "Maximum Count of Positive Integer and Negative Integer",
+      "slug": "maximum-count-of-positive-integer-and-negative-integer",
+      "difficulty": "Easy",
+      "acceptance": 74.45432246750796,
+      "likes": 1513,
+      "dislikes": 87
+    },
+    {
+      "position": 22,
+      "title": "Minimum Common Value",
+      "slug": "minimum-common-value",
+      "difficulty": "Easy",
+      "acceptance": 58.04627035753288,
+      "likes": 1219,
+      "dislikes": 41
+    },
+    {
+      "position": 23,
+      "title": "Count Pairs Whose Sum is Less than Target",
+      "slug": "count-pairs-whose-sum-is-less-than-target",
+      "difficulty": "Easy",
+      "acceptance": 87.60384718458744,
+      "likes": 780,
+      "dislikes": 86
+    },
+    {
+      "position": 24,
+      "title": "Fruits Into Baskets II",
+      "slug": "fruits-into-baskets-ii",
+      "difficulty": "Easy",
+      "acceptance": 70.29231171330194,
+      "likes": 471,
+      "dislikes": 59
+    },
+    {
+      "position": 25,
+      "title": "Count the Number of Incremovable Subarrays I",
+      "slug": "count-the-number-of-incremovable-subarrays-i",
+      "difficulty": "Easy",
+      "acceptance": 55.49845225811573,
+      "likes": 192,
+      "dislikes": 120
+    },
+    {
+      "position": 26,
+      "title": "Earliest Finish Time for Land and Water Rides I",
+      "slug": "earliest-finish-time-for-land-and-water-rides-i",
+      "difficulty": "Easy",
+      "acceptance": 61.1366877164392,
+      "likes": 58,
+      "dislikes": 11
+    },
+    {
+      "position": 27,
+      "title": "Find the Distance Value Between Two Arrays",
+      "slug": "find-the-distance-value-between-two-arrays",
+      "difficulty": "Easy",
+      "acceptance": 70.85824453094959,
+      "likes": 992,
+      "dislikes": 3133
+    }
+  ]
+}

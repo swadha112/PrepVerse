@@ -1,0 +1,368 @@
+{
+  "frozen": true,
+  "createdAt": "2025-10-06T15:19:42.473Z",
+  "trackSlug": "prefix-sum",
+  "difficulty": "MEDIUM",
+  "questions": [
+    {
+      "position": 1,
+      "title": "Product of Array Except Self",
+      "slug": "product-of-array-except-self",
+      "difficulty": "Medium",
+      "acceptance": 68.13305392298167,
+      "likes": 24929,
+      "dislikes": 1618
+    },
+    {
+      "position": 2,
+      "title": "Subarray Sum Equals K",
+      "slug": "subarray-sum-equals-k",
+      "difficulty": "Medium",
+      "acceptance": 46.13629699589721,
+      "likes": 24047,
+      "dislikes": 795
+    },
+    {
+      "position": 3,
+      "title": "Minimum Size Subarray Sum",
+      "slug": "minimum-size-subarray-sum",
+      "difficulty": "Medium",
+      "acceptance": 50.126729369911885,
+      "likes": 13820,
+      "dislikes": 518
+    },
+    {
+      "position": 4,
+      "title": "Max Consecutive Ones III",
+      "slug": "max-consecutive-ones-iii",
+      "difficulty": "Medium",
+      "acceptance": 66.72785736431281,
+      "likes": 9936,
+      "dislikes": 174
+    },
+    {
+      "position": 5,
+      "title": "Contiguous Array",
+      "slug": "contiguous-array",
+      "difficulty": "Medium",
+      "acceptance": 49.941661794754296,
+      "likes": 8511,
+      "dislikes": 437
+    },
+    {
+      "position": 6,
+      "title": "Subarray Sums Divisible by K",
+      "slug": "subarray-sums-divisible-by-k",
+      "difficulty": "Medium",
+      "acceptance": 55.746903974834396,
+      "likes": 7634,
+      "dislikes": 339
+    },
+    {
+      "position": 7,
+      "title": "Subarray Product Less Than K",
+      "slug": "subarray-product-less-than-k",
+      "difficulty": "Medium",
+      "acceptance": 53.31936908867924,
+      "likes": 7308,
+      "dislikes": 231
+    },
+    {
+      "position": 8,
+      "title": "Maximum Points You Can Obtain from Cards",
+      "slug": "maximum-points-you-can-obtain-from-cards",
+      "difficulty": "Medium",
+      "acceptance": 56.602836745367135,
+      "likes": 6846,
+      "dislikes": 299
+    },
+    {
+      "position": 9,
+      "title": "Continuous Subarray Sum",
+      "slug": "continuous-subarray-sum",
+      "difficulty": "Medium",
+      "acceptance": 31.04042814682414,
+      "likes": 6749,
+      "dislikes": 710
+    },
+    {
+      "position": 10,
+      "title": "Minimum Operations to Reduce X to Zero",
+      "slug": "minimum-operations-to-reduce-x-to-zero",
+      "difficulty": "Medium",
+      "acceptance": 40.235571389221796,
+      "likes": 5678,
+      "dislikes": 126
+    },
+    {
+      "position": 11,
+      "title": "Frequency of the Most Frequent Element",
+      "slug": "frequency-of-the-most-frequent-element",
+      "difficulty": "Medium",
+      "acceptance": 44.388829115404405,
+      "likes": 5472,
+      "dislikes": 292
+    },
+    {
+      "position": 12,
+      "title": "Count Number of Nice Subarrays",
+      "slug": "count-number-of-nice-subarrays",
+      "difficulty": "Medium",
+      "acceptance": 74.17791081324454,
+      "likes": 5192,
+      "dislikes": 136
+    },
+    {
+      "position": 13,
+      "title": "Range Sum Query 2D - Immutable",
+      "slug": "range-sum-query-2d-immutable",
+      "difficulty": "Medium",
+      "acceptance": 57.125310763122215,
+      "likes": 5260,
+      "dislikes": 364
+    },
+    {
+      "position": 14,
+      "title": "Car Pooling",
+      "slug": "car-pooling",
+      "difficulty": "Medium",
+      "acceptance": 56.13654148620484,
+      "likes": 4737,
+      "dislikes": 116
+    },
+    {
+      "position": 15,
+      "title": "Binary Subarrays With Sum",
+      "slug": "binary-subarrays-with-sum",
+      "difficulty": "Medium",
+      "acceptance": 67.27641084670861,
+      "likes": 4589,
+      "dislikes": 158
+    },
+    {
+      "position": 16,
+      "title": "Maximize the Confusion of an Exam",
+      "slug": "maximize-the-confusion-of-an-exam",
+      "difficulty": "Medium",
+      "acceptance": 69.18410473147098,
+      "likes": 3039,
+      "dislikes": 52
+    },
+    {
+      "position": 17,
+      "title": "Minimum Number of Operations to Move All Balls to Each Box",
+      "slug": "minimum-number-of-operations-to-move-all-balls-to-each-box",
+      "difficulty": "Medium",
+      "acceptance": 90.09096072497307,
+      "likes": 3069,
+      "dislikes": 136
+    },
+    {
+      "position": 18,
+      "title": "Stone Game II",
+      "slug": "stone-game-ii",
+      "difficulty": "Medium",
+      "acceptance": 72.93116723716008,
+      "likes": 3405,
+      "dislikes": 930
+    },
+    {
+      "position": 19,
+      "title": "Unique Length-3 Palindromic Subsequences",
+      "slug": "unique-length-3-palindromic-subsequences",
+      "difficulty": "Medium",
+      "acceptance": 70.95857214817639,
+      "likes": 2556,
+      "dislikes": 102
+    },
+    {
+      "position": 20,
+      "title": "Find the Longest Substring Containing Vowels in Even Counts",
+      "slug": "find-the-longest-substring-containing-vowels-in-even-counts",
+      "difficulty": "Medium",
+      "acceptance": 75.70604378983957,
+      "likes": 2528,
+      "dislikes": 141
+    },
+    {
+      "position": 21,
+      "title": "Make Sum Divisible by P",
+      "slug": "make-sum-divisible-by-p",
+      "difficulty": "Medium",
+      "acceptance": 39.40509667042333,
+      "likes": 2440,
+      "dislikes": 171
+    },
+    {
+      "position": 22,
+      "title": "Sum of Absolute Differences in a Sorted Array",
+      "slug": "sum-of-absolute-differences-in-a-sorted-array",
+      "difficulty": "Medium",
+      "acceptance": 68.11289579891113,
+      "likes": 2163,
+      "dislikes": 81
+    },
+    {
+      "position": 23,
+      "title": "Matrix Block Sum",
+      "slug": "matrix-block-sum",
+      "difficulty": "Medium",
+      "acceptance": 76.08885792220114,
+      "likes": 2472,
+      "dislikes": 394
+    },
+    {
+      "position": 24,
+      "title": "Largest Sum of Averages",
+      "slug": "largest-sum-of-averages",
+      "difficulty": "Medium",
+      "acceptance": 54.45392506190201,
+      "likes": 2180,
+      "dislikes": 104
+    },
+    {
+      "position": 25,
+      "title": "My Calendar II",
+      "slug": "my-calendar-ii",
+      "difficulty": "Medium",
+      "acceptance": 62.50581860837507,
+      "likes": 2225,
+      "dislikes": 185
+    },
+    {
+      "position": 26,
+      "title": "Product of the Last K Numbers",
+      "slug": "product-of-the-last-k-numbers",
+      "difficulty": "Medium",
+      "acceptance": 62.843236565781346,
+      "likes": 2133,
+      "dislikes": 107
+    },
+    {
+      "position": 27,
+      "title": "XOR Queries of a Subarray",
+      "slug": "xor-queries-of-a-subarray",
+      "difficulty": "Medium",
+      "acceptance": 78.2634723859314,
+      "likes": 2082,
+      "dislikes": 60
+    },
+    {
+      "position": 28,
+      "title": "Minimum Penalty for a Shop",
+      "slug": "minimum-penalty-for-a-shop",
+      "difficulty": "Medium",
+      "acceptance": 67.76170591953249,
+      "likes": 2072,
+      "dislikes": 109
+    },
+    {
+      "position": 29,
+      "title": "Number of Sub-arrays With Odd Sum",
+      "slug": "number-of-sub-arrays-with-odd-sum",
+      "difficulty": "Medium",
+      "acceptance": 55.88917055464041,
+      "likes": 2044,
+      "dislikes": 99
+    },
+    {
+      "position": 30,
+      "title": "Minimize Maximum of Array",
+      "slug": "minimize-maximum-of-array",
+      "difficulty": "Medium",
+      "acceptance": 46.40286892244639,
+      "likes": 2557,
+      "dislikes": 640
+    },
+    {
+      "position": 31,
+      "title": "Count Triplets That Can Form Two Arrays of Equal XOR",
+      "slug": "count-triplets-that-can-form-two-arrays-of-equal-xor",
+      "difficulty": "Medium",
+      "acceptance": 84.83614420547734,
+      "likes": 2008,
+      "dislikes": 136
+    },
+    {
+      "position": 32,
+      "title": "Get Equal Substrings Within Budget",
+      "slug": "get-equal-substrings-within-budget",
+      "difficulty": "Medium",
+      "acceptance": 59.190211276409556,
+      "likes": 1892,
+      "dislikes": 149
+    },
+    {
+      "position": 33,
+      "title": "Grid Game",
+      "slug": "grid-game",
+      "difficulty": "Medium",
+      "acceptance": 60.91357441670861,
+      "likes": 1796,
+      "dislikes": 92
+    },
+    {
+      "position": 34,
+      "title": "Jump Game VII",
+      "slug": "jump-game-vii",
+      "difficulty": "Medium",
+      "acceptance": 25.93814590180598,
+      "likes": 1778,
+      "dislikes": 117
+    },
+    {
+      "position": 35,
+      "title": "Shifting Letters II",
+      "slug": "shifting-letters-ii",
+      "difficulty": "Medium",
+      "acceptance": 53.385367397413894,
+      "likes": 1731,
+      "dislikes": 71
+    },
+    {
+      "position": 36,
+      "title": "Corporate Flight Bookings",
+      "slug": "corporate-flight-bookings",
+      "difficulty": "Medium",
+      "acceptance": 65.41881615790349,
+      "likes": 1811,
+      "dislikes": 166
+    },
+    {
+      "position": 37,
+      "title": "Number of Wonderful Substrings",
+      "slug": "number-of-wonderful-substrings",
+      "difficulty": "Medium",
+      "acceptance": 66.65354062384043,
+      "likes": 1805,
+      "dislikes": 283
+    },
+    {
+      "position": 38,
+      "title": "Divide Intervals Into Minimum Number of Groups",
+      "slug": "divide-intervals-into-minimum-number-of-groups",
+      "difficulty": "Medium",
+      "acceptance": 63.588078809162965,
+      "likes": 1443,
+      "dislikes": 41
+    },
+    {
+      "position": 39,
+      "title": "Maximum Subarray Min-Product",
+      "slug": "maximum-subarray-min-product",
+      "difficulty": "Medium",
+      "acceptance": 39.371750433275565,
+      "likes": 1528,
+      "dislikes": 141
+    },
+    {
+      "position": 40,
+      "title": "Longest Well-Performing Interval",
+      "slug": "longest-well-performing-interval",
+      "difficulty": "Medium",
+      "acceptance": 36.361974564984635,
+      "likes": 1508,
+      "dislikes": 122
+    }
+  ]
+}

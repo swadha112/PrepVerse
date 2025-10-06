@@ -1,0 +1,89 @@
+{
+  "frozen": true,
+  "createdAt": "2025-10-06T15:21:54.779Z",
+  "trackSlug": "geometry",
+  "difficulty": "EASY",
+  "questions": [
+    {
+      "position": 1,
+      "title": "Check If It Is a Straight Line",
+      "slug": "check-if-it-is-a-straight-line",
+      "difficulty": "Easy",
+      "acceptance": 39.80379079856766,
+      "likes": 2679,
+      "dislikes": 293
+    },
+    {
+      "position": 2,
+      "title": "Minimum Time Visiting All Points",
+      "slug": "minimum-time-visiting-all-points",
+      "difficulty": "Easy",
+      "acceptance": 82.62601704299264,
+      "likes": 2320,
+      "dislikes": 246
+    },
+    {
+      "position": 3,
+      "title": "Rectangle Overlap",
+      "slug": "rectangle-overlap",
+      "difficulty": "Easy",
+      "acceptance": 46.021586144806164,
+      "likes": 2062,
+      "dislikes": 482
+    },
+    {
+      "position": 4,
+      "title": "Matrix Cells in Distance Order",
+      "slug": "matrix-cells-in-distance-order",
+      "difficulty": "Easy",
+      "acceptance": 73.35249867278355,
+      "likes": 800,
+      "dislikes": 341
+    },
+    {
+      "position": 5,
+      "title": "Minimum Cuts to Divide a Circle",
+      "slug": "minimum-cuts-to-divide-a-circle",
+      "difficulty": "Easy",
+      "acceptance": 55.550198550102124,
+      "likes": 305,
+      "dislikes": 63
+    },
+    {
+      "position": 6,
+      "title": "Valid Boomerang",
+      "slug": "valid-boomerang",
+      "difficulty": "Easy",
+      "acceptance": 38.50176552094042,
+      "likes": 451,
+      "dislikes": 538
+    },
+    {
+      "position": 7,
+      "title": "Surface Area of 3D Shapes",
+      "slug": "surface-area-of-3d-shapes",
+      "difficulty": "Easy",
+      "acceptance": 68.80199782005822,
+      "likes": 596,
+      "dislikes": 760
+    },
+    {
+      "position": 8,
+      "title": "Projection Area of 3D Shapes",
+      "slug": "projection-area-of-3d-shapes",
+      "difficulty": "Easy",
+      "acceptance": 74.65028108249444,
+      "likes": 627,
+      "dislikes": 1442
+    },
+    {
+      "position": 9,
+      "title": "Largest Triangle Area",
+      "slug": "largest-triangle-area",
+      "difficulty": "Easy",
+      "acceptance": 71.16344559562765,
+      "likes": 816,
+      "dislikes": 1725
+    }
+  ]
+}

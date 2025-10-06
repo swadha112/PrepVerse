@@ -1,0 +1,17 @@
+{
+  "frozen": true,
+  "createdAt": "2025-10-06T15:23:22.375Z",
+  "trackSlug": "line-sweep",
+  "difficulty": "MEDIUM",
+  "questions": [
+    {
+      "position": 1,
+      "title": "Interval List Intersections",
+      "slug": "interval-list-intersections",
+      "difficulty": "Medium",
+      "acceptance": 72.81340326862014,
+      "likes": 5833,
+      "dislikes": 128
+    }
+  ]
+}

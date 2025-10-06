@@ -1,0 +1,62 @@
+{
+  "frozen": true,
+  "createdAt": "2025-10-06T15:21:45.602Z",
+  "trackSlug": "queue",
+  "difficulty": "EASY",
+  "questions": [
+    {
+      "position": 1,
+      "title": "First Unique Character in a String",
+      "slug": "first-unique-character-in-a-string",
+      "difficulty": "Easy",
+      "acceptance": 64.28227910643638,
+      "likes": 9481,
+      "dislikes": 322
+    },
+    {
+      "position": 2,
+      "title": "Implement Queue using Stacks",
+      "slug": "implement-queue-using-stacks",
+      "difficulty": "Easy",
+      "acceptance": 68.65034656803495,
+      "likes": 8349,
+      "dislikes": 471
+    },
+    {
+      "position": 3,
+      "title": "Implement Stack using Queues",
+      "slug": "implement-stack-using-queues",
+      "difficulty": "Easy",
+      "acceptance": 68.40609829798693,
+      "likes": 6711,
+      "dislikes": 1271
+    },
+    {
+      "position": 4,
+      "title": "Number of Students Unable to Eat Lunch",
+      "slug": "number-of-students-unable-to-eat-lunch",
+      "difficulty": "Easy",
+      "acceptance": 78.93555587610416,
+      "likes": 2605,
+      "dislikes": 276
+    },
+    {
+      "position": 5,
+      "title": "Time Needed to Buy Tickets",
+      "slug": "time-needed-to-buy-tickets",
+      "difficulty": "Easy",
+      "acceptance": 71.22163641571282,
+      "likes": 1816,
+      "dislikes": 161
+    },
+    {
+      "position": 6,
+      "title": "Number of Recent Calls",
+      "slug": "number-of-recent-calls",
+      "difficulty": "Easy",
+      "acceptance": 77.7981868105532,
+      "likes": 773,
+      "dislikes": 1138
+    }
+  ]
+}

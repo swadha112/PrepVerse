@@ -1,0 +1,35 @@
+{
+  "frozen": true,
+  "createdAt": "2025-10-06T15:22:32.738Z",
+  "trackSlug": "game-theory",
+  "difficulty": "EASY",
+  "questions": [
+    {
+      "position": 1,
+      "title": "Find the Winning Player in Coin Game",
+      "slug": "find-the-winning-player-in-coin-game",
+      "difficulty": "Easy",
+      "acceptance": 52.473176666968335,
+      "likes": 114,
+      "dislikes": 12
+    },
+    {
+      "position": 2,
+      "title": "Nim Game",
+      "slug": "nim-game",
+      "difficulty": "Easy",
+      "acceptance": 58.54878584968899,
+      "likes": 1909,
+      "dislikes": 2734
+    },
+    {
+      "position": 3,
+      "title": "Divisor Game",
+      "slug": "divisor-game",
+      "difficulty": "Easy",
+      "acceptance": 70.96368975530186,
+      "likes": 2375,
+      "dislikes": 4203
+    }
+  ]
+}

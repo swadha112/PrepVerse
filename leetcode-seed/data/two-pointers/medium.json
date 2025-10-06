@@ -1,0 +1,368 @@
+{
+  "frozen": true,
+  "createdAt": "2025-10-06T15:19:35.576Z",
+  "trackSlug": "two-pointers",
+  "difficulty": "MEDIUM",
+  "questions": [
+    {
+      "position": 1,
+      "title": "3Sum",
+      "slug": "3sum",
+      "difficulty": "Medium",
+      "acceptance": 37.8029760552597,
+      "likes": 34123,
+      "dislikes": 3183
+    },
+    {
+      "position": 2,
+      "title": "Container With Most Water",
+      "slug": "container-with-most-water",
+      "difficulty": "Medium",
+      "acceptance": 58.796231419801174,
+      "likes": 32697,
+      "dislikes": 2099
+    },
+    {
+      "position": 3,
+      "title": "Longest Palindromic Substring",
+      "slug": "longest-palindromic-substring",
+      "difficulty": "Medium",
+      "acceptance": 36.54009661424291,
+      "likes": 31614,
+      "dislikes": 1947
+    },
+    {
+      "position": 4,
+      "title": "Sort Colors",
+      "slug": "sort-colors",
+      "difficulty": "Medium",
+      "acceptance": 68.40617499183084,
+      "likes": 20769,
+      "dislikes": 740
+    },
+    {
+      "position": 5,
+      "title": "Remove Nth Node From End of List",
+      "slug": "remove-nth-node-from-end-of-list",
+      "difficulty": "Medium",
+      "acceptance": 49.9854247232982,
+      "likes": 20598,
+      "dislikes": 876
+    },
+    {
+      "position": 6,
+      "title": "Find the Duplicate Number",
+      "slug": "find-the-duplicate-number",
+      "difficulty": "Medium",
+      "acceptance": 63.45807116812361,
+      "likes": 24850,
+      "dislikes": 5502
+    },
+    {
+      "position": 7,
+      "title": "Rotate Array",
+      "slug": "rotate-array",
+      "difficulty": "Medium",
+      "acceptance": 43.7778196056139,
+      "likes": 20162,
+      "dislikes": 2142
+    },
+    {
+      "position": 8,
+      "title": "Next Permutation",
+      "slug": "next-permutation",
+      "difficulty": "Medium",
+      "acceptance": 43.94582919725546,
+      "likes": 20594,
+      "dislikes": 5036
+    },
+    {
+      "position": 9,
+      "title": "Linked List Cycle II",
+      "slug": "linked-list-cycle-ii",
+      "difficulty": "Medium",
+      "acceptance": 56.163317402287774,
+      "likes": 14726,
+      "dislikes": 1057
+    },
+    {
+      "position": 10,
+      "title": "Sort List",
+      "slug": "sort-list",
+      "difficulty": "Medium",
+      "acceptance": 62.92089023449697,
+      "likes": 12647,
+      "dislikes": 401
+    },
+    {
+      "position": 11,
+      "title": "Permutation in String",
+      "slug": "permutation-in-string",
+      "difficulty": "Medium",
+      "acceptance": 47.83356370407247,
+      "likes": 12613,
+      "dislikes": 505
+    },
+    {
+      "position": 12,
+      "title": "Reorder List",
+      "slug": "reorder-list",
+      "difficulty": "Medium",
+      "acceptance": 63.536737563430044,
+      "likes": 12112,
+      "dislikes": 485
+    },
+    {
+      "position": 13,
+      "title": "Two Sum II - Input Array Is Sorted",
+      "slug": "two-sum-ii-input-array-is-sorted",
+      "difficulty": "Medium",
+      "acceptance": 63.95630040749205,
+      "likes": 12921,
+      "dislikes": 1499
+    },
+    {
+      "position": 14,
+      "title": "Palindromic Substrings",
+      "slug": "palindromic-substrings",
+      "difficulty": "Medium",
+      "acceptance": 72.12523120859082,
+      "likes": 11302,
+      "dislikes": 253
+    },
+    {
+      "position": 15,
+      "title": "4Sum",
+      "slug": "4sum",
+      "difficulty": "Medium",
+      "acceptance": 39.06025671968333,
+      "likes": 12452,
+      "dislikes": 1495
+    },
+    {
+      "position": 16,
+      "title": "Partition Labels",
+      "slug": "partition-labels",
+      "difficulty": "Medium",
+      "acceptance": 81.66444651876088,
+      "likes": 11096,
+      "dislikes": 436
+    },
+    {
+      "position": 17,
+      "title": "3Sum Closest",
+      "slug": "3sum-closest",
+      "difficulty": "Medium",
+      "acceptance": 47.34627630312805,
+      "likes": 11253,
+      "dislikes": 609
+    },
+    {
+      "position": 18,
+      "title": "Rotate List",
+      "slug": "rotate-list",
+      "difficulty": "Medium",
+      "acceptance": 40.55431702496233,
+      "likes": 10849,
+      "dislikes": 1526
+    },
+    {
+      "position": 19,
+      "title": "Remove Duplicates from Sorted List II",
+      "slug": "remove-duplicates-from-sorted-list-ii",
+      "difficulty": "Medium",
+      "acceptance": 50.59116847169326,
+      "likes": 9445,
+      "dislikes": 273
+    },
+    {
+      "position": 20,
+      "title": "Find K Closest Elements",
+      "slug": "find-k-closest-elements",
+      "difficulty": "Medium",
+      "acceptance": 49.0821433737408,
+      "likes": 8853,
+      "dislikes": 859
+    },
+    {
+      "position": 21,
+      "title": "Shortest Unsorted Continuous Subarray",
+      "slug": "shortest-unsorted-continuous-subarray",
+      "difficulty": "Medium",
+      "acceptance": 37.687141039483755,
+      "likes": 7939,
+      "dislikes": 272
+    },
+    {
+      "position": 22,
+      "title": "Longest String Chain",
+      "slug": "longest-string-chain",
+      "difficulty": "Medium",
+      "acceptance": 62.4764108640129,
+      "likes": 7688,
+      "dislikes": 267
+    },
+    {
+      "position": 23,
+      "title": "Partition List",
+      "slug": "partition-list",
+      "difficulty": "Medium",
+      "acceptance": 59.76431013109133,
+      "likes": 7869,
+      "dislikes": 965
+    },
+    {
+      "position": 24,
+      "title": "Boats to Save People",
+      "slug": "boats-to-save-people",
+      "difficulty": "Medium",
+      "acceptance": 60.82066583400704,
+      "likes": 6745,
+      "dislikes": 172
+    },
+    {
+      "position": 25,
+      "title": "Remove Duplicates from Sorted Array II",
+      "slug": "remove-duplicates-from-sorted-array-ii",
+      "difficulty": "Medium",
+      "acceptance": 63.60135344300597,
+      "likes": 7897,
+      "dislikes": 1478
+    },
+    {
+      "position": 26,
+      "title": "Interval List Intersections",
+      "slug": "interval-list-intersections",
+      "difficulty": "Medium",
+      "acceptance": 72.81340326862014,
+      "likes": 5833,
+      "dislikes": 128
+    },
+    {
+      "position": 27,
+      "title": "Swapping Nodes in a Linked List",
+      "slug": "swapping-nodes-in-a-linked-list",
+      "difficulty": "Medium",
+      "acceptance": 68.80771761145874,
+      "likes": 5646,
+      "dislikes": 203
+    },
+    {
+      "position": 28,
+      "title": "Delete the Middle Node of a Linked List",
+      "slug": "delete-the-middle-node-of-a-linked-list",
+      "difficulty": "Medium",
+      "acceptance": 59.44159482347905,
+      "likes": 4754,
+      "dislikes": 101
+    },
+    {
+      "position": 29,
+      "title": "Reverse Words in a String",
+      "slug": "reverse-words-in-a-string",
+      "difficulty": "Medium",
+      "acceptance": 53.857108851411425,
+      "likes": 9933,
+      "dislikes": 5472
+    },
+    {
+      "position": 30,
+      "title": "Number of Subsequences That Satisfy the Given Sum Condition",
+      "slug": "number-of-subsequences-that-satisfy-the-given-sum-condition",
+      "difficulty": "Medium",
+      "acceptance": 49.42518291511871,
+      "likes": 4584,
+      "dislikes": 432
+    },
+    {
+      "position": 31,
+      "title": "Valid Triangle Number",
+      "slug": "valid-triangle-number",
+      "difficulty": "Medium",
+      "acceptance": 56.303500528175434,
+      "likes": 4357,
+      "dislikes": 255
+    },
+    {
+      "position": 32,
+      "title": "Maximum Twin Sum of a Linked List",
+      "slug": "maximum-twin-sum-of-a-linked-list",
+      "difficulty": "Medium",
+      "acceptance": 81.56350793736598,
+      "likes": 3826,
+      "dislikes": 121
+    },
+    {
+      "position": 33,
+      "title": "Rearrange Array Elements by Sign",
+      "slug": "rearrange-array-elements-by-sign",
+      "difficulty": "Medium",
+      "acceptance": 84.45642194197204,
+      "likes": 3915,
+      "dislikes": 223
+    },
+    {
+      "position": 34,
+      "title": "Push Dominoes",
+      "slug": "push-dominoes",
+      "difficulty": "Medium",
+      "acceptance": 63.023337501580656,
+      "likes": 3931,
+      "dislikes": 276
+    },
+    {
+      "position": 35,
+      "title": "Next Greater Element III",
+      "slug": "next-greater-element-iii",
+      "difficulty": "Medium",
+      "acceptance": 34.8673369516861,
+      "likes": 3883,
+      "dislikes": 491
+    },
+    {
+      "position": 36,
+      "title": "Max Number of K-Sum Pairs",
+      "slug": "max-number-of-k-sum-pairs",
+      "difficulty": "Medium",
+      "acceptance": 56.62626296588942,
+      "likes": 3468,
+      "dislikes": 114
+    },
+    {
+      "position": 37,
+      "title": "Longest Mountain in Array",
+      "slug": "longest-mountain-in-array",
+      "difficulty": "Medium",
+      "acceptance": 41.36621453833998,
+      "likes": 2964,
+      "dislikes": 90
+    },
+    {
+      "position": 38,
+      "title": "Bag of Tokens",
+      "slug": "bag-of-tokens",
+      "difficulty": "Medium",
+      "acceptance": 59.32344403981437,
+      "likes": 3409,
+      "dislikes": 544
+    },
+    {
+      "position": 39,
+      "title": "Sum of Square Numbers",
+      "slug": "sum-of-square-numbers",
+      "difficulty": "Medium",
+      "acceptance": 36.56645035114232,
+      "likes": 3382,
+      "dislikes": 617
+    },
+    {
+      "position": 40,
+      "title": "Maximum Width Ramp",
+      "slug": "maximum-width-ramp",
+      "difficulty": "Medium",
+      "acceptance": 55.76582120208261,
+      "likes": 2797,
+      "dislikes": 95
+    }
+  ]
+}

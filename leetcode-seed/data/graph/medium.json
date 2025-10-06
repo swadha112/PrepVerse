@@ -1,0 +1,368 @@
+{
+  "frozen": true,
+  "createdAt": "2025-10-06T15:20:14.978Z",
+  "trackSlug": "graph",
+  "difficulty": "MEDIUM",
+  "questions": [
+    {
+      "position": 1,
+      "title": "Course Schedule",
+      "slug": "course-schedule",
+      "difficulty": "Medium",
+      "acceptance": 50.0472965717039,
+      "likes": 17510,
+      "dislikes": 836
+    },
+    {
+      "position": 2,
+      "title": "Course Schedule II",
+      "slug": "course-schedule-ii",
+      "difficulty": "Medium",
+      "acceptance": 54.21993481781943,
+      "likes": 11633,
+      "dislikes": 374
+    },
+    {
+      "position": 3,
+      "title": "Cheapest Flights Within K Stops",
+      "slug": "cheapest-flights-within-k-stops",
+      "difficulty": "Medium",
+      "acceptance": 40.88902680855573,
+      "likes": 10888,
+      "dislikes": 459
+    },
+    {
+      "position": 4,
+      "title": "Number of Provinces",
+      "slug": "number-of-provinces",
+      "difficulty": "Medium",
+      "acceptance": 69.42311795478207,
+      "likes": 10776,
+      "dislikes": 404
+    },
+    {
+      "position": 5,
+      "title": "Evaluate Division",
+      "slug": "evaluate-division",
+      "difficulty": "Medium",
+      "acceptance": 63.57416662144362,
+      "likes": 9980,
+      "dislikes": 1064
+    },
+    {
+      "position": 6,
+      "title": "Is Graph Bipartite?",
+      "slug": "is-graph-bipartite",
+      "difficulty": "Medium",
+      "acceptance": 58.37866363562556,
+      "likes": 9011,
+      "dislikes": 405
+    },
+    {
+      "position": 7,
+      "title": "Minimum Height Trees",
+      "slug": "minimum-height-trees",
+      "difficulty": "Medium",
+      "acceptance": 42.18256482393734,
+      "likes": 8758,
+      "dislikes": 410
+    },
+    {
+      "position": 8,
+      "title": "Network Delay Time",
+      "slug": "network-delay-time",
+      "difficulty": "Medium",
+      "acceptance": 58.685480685801004,
+      "likes": 8144,
+      "dislikes": 389
+    },
+    {
+      "position": 9,
+      "title": "All Paths From Source to Target",
+      "slug": "all-paths-from-source-to-target",
+      "difficulty": "Medium",
+      "acceptance": 83.30883779178225,
+      "likes": 7532,
+      "dislikes": 150
+    },
+    {
+      "position": 10,
+      "title": "Redundant Connection",
+      "slug": "redundant-connection",
+      "difficulty": "Medium",
+      "acceptance": 66.83951307541604,
+      "likes": 7009,
+      "dislikes": 444
+    },
+    {
+      "position": 11,
+      "title": "Find Eventual Safe States",
+      "slug": "find-eventual-safe-states",
+      "difficulty": "Medium",
+      "acceptance": 69.61398729051064,
+      "likes": 6801,
+      "dislikes": 514
+    },
+    {
+      "position": 12,
+      "title": "Keys and Rooms",
+      "slug": "keys-and-rooms",
+      "difficulty": "Medium",
+      "acceptance": 75.09346125698931,
+      "likes": 6543,
+      "dislikes": 296
+    },
+    {
+      "position": 13,
+      "title": "Clone Graph",
+      "slug": "clone-graph",
+      "difficulty": "Medium",
+      "acceptance": 63.55545112052751,
+      "likes": 10322,
+      "dislikes": 4120
+    },
+    {
+      "position": 14,
+      "title": "Most Stones Removed with Same Row or Column",
+      "slug": "most-stones-removed-with-same-row-or-column",
+      "difficulty": "Medium",
+      "acceptance": 62.472557467644265,
+      "likes": 6290,
+      "dislikes": 705
+    },
+    {
+      "position": 15,
+      "title": "Number of Operations to Make Network Connected",
+      "slug": "number-of-operations-to-make-network-connected",
+      "difficulty": "Medium",
+      "acceptance": 65.57421109857755,
+      "likes": 5459,
+      "dislikes": 83
+    },
+    {
+      "position": 16,
+      "title": "Min Cost to Connect All Points",
+      "slug": "min-cost-to-connect-all-points",
+      "difficulty": "Medium",
+      "acceptance": 69.69093710048367,
+      "likes": 5467,
+      "dislikes": 142
+    },
+    {
+      "position": 17,
+      "title": "Possible Bipartition",
+      "slug": "possible-bipartition",
+      "difficulty": "Medium",
+      "acceptance": 51.897827544421446,
+      "likes": 4861,
+      "dislikes": 115
+    },
+    {
+      "position": 18,
+      "title": "Reorder Routes to Make All Paths Lead to the City Zero",
+      "slug": "reorder-routes-to-make-all-paths-lead-to-the-city-zero",
+      "difficulty": "Medium",
+      "acceptance": 65.36274058177814,
+      "likes": 4546,
+      "dislikes": 144
+    },
+    {
+      "position": 19,
+      "title": "Satisfiability of Equality Equations",
+      "slug": "satisfiability-of-equality-equations",
+      "difficulty": "Medium",
+      "acceptance": 51.31113430347426,
+      "likes": 3957,
+      "dislikes": 67
+    },
+    {
+      "position": 20,
+      "title": "Path with Maximum Probability",
+      "slug": "path-with-maximum-probability",
+      "difficulty": "Medium",
+      "acceptance": 65.36798055756644,
+      "likes": 3821,
+      "dislikes": 108
+    },
+    {
+      "position": 21,
+      "title": "Minimum Number of Vertices to Reach All Nodes",
+      "slug": "minimum-number-of-vertices-to-reach-all-nodes",
+      "difficulty": "Medium",
+      "acceptance": 81.29186602870814,
+      "likes": 3825,
+      "dislikes": 133
+    },
+    {
+      "position": 22,
+      "title": "Number of Ways to Arrive at Destination",
+      "slug": "number-of-ways-to-arrive-at-destination",
+      "difficulty": "Medium",
+      "acceptance": 37.206602467739295,
+      "likes": 3715,
+      "dislikes": 216
+    },
+    {
+      "position": 23,
+      "title": "Shortest Path with Alternating Colors",
+      "slug": "shortest-path-with-alternating-colors",
+      "difficulty": "Medium",
+      "acceptance": 47.42628718896952,
+      "likes": 3658,
+      "dislikes": 200
+    },
+    {
+      "position": 24,
+      "title": "Find the City With the Smallest Number of Neighbors at a Threshold Distance",
+      "slug": "find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance",
+      "difficulty": "Medium",
+      "acceptance": 71.34349755319597,
+      "likes": 3500,
+      "dislikes": 152
+    },
+    {
+      "position": 25,
+      "title": "Detonate the Maximum Bombs",
+      "slug": "detonate-the-maximum-bombs",
+      "difficulty": "Medium",
+      "acceptance": 49.553644182888185,
+      "likes": 3321,
+      "dislikes": 161
+    },
+    {
+      "position": 26,
+      "title": "Find All Possible Recipes from Given Supplies",
+      "slug": "find-all-possible-recipes-from-given-supplies",
+      "difficulty": "Medium",
+      "acceptance": 56.52548910500423,
+      "likes": 2610,
+      "dislikes": 140
+    },
+    {
+      "position": 27,
+      "title": "Minimum Fuel Cost to Report to the Capital",
+      "slug": "minimum-fuel-cost-to-report-to-the-capital",
+      "difficulty": "Medium",
+      "acceptance": 64.46309925778392,
+      "likes": 2290,
+      "dislikes": 95
+    },
+    {
+      "position": 28,
+      "title": "Count Unreachable Pairs of Nodes in an Undirected Graph",
+      "slug": "count-unreachable-pairs-of-nodes-in-an-undirected-graph",
+      "difficulty": "Medium",
+      "acceptance": 49.532229602106966,
+      "likes": 2217,
+      "dislikes": 53
+    },
+    {
+      "position": 29,
+      "title": "Maximal Network Rank",
+      "slug": "maximal-network-rank",
+      "difficulty": "Medium",
+      "acceptance": 65.69850701714046,
+      "likes": 2425,
+      "dislikes": 383
+    },
+    {
+      "position": 30,
+      "title": "Course Schedule IV",
+      "slug": "course-schedule-iv",
+      "difficulty": "Medium",
+      "acceptance": 59.623538786002705,
+      "likes": 2079,
+      "dislikes": 91
+    },
+    {
+      "position": 31,
+      "title": "Validate Binary Tree Nodes",
+      "slug": "validate-binary-tree-nodes",
+      "difficulty": "Medium",
+      "acceptance": 43.94736753387296,
+      "likes": 2225,
+      "dislikes": 520
+    },
+    {
+      "position": 32,
+      "title": "All Ancestors of a Node in a Directed Acyclic Graph",
+      "slug": "all-ancestors-of-a-node-in-a-directed-acyclic-graph",
+      "difficulty": "Medium",
+      "acceptance": 62.03465202177294,
+      "likes": 1719,
+      "dislikes": 43
+    },
+    {
+      "position": 33,
+      "title": "Find Closest Node to Given Two Nodes",
+      "slug": "find-closest-node-to-given-two-nodes",
+      "difficulty": "Medium",
+      "acceptance": 52.92225565809463,
+      "likes": 2081,
+      "dislikes": 465
+    },
+    {
+      "position": 34,
+      "title": "Minimum Score of a Path Between Two Cities",
+      "slug": "minimum-score-of-a-path-between-two-cities",
+      "difficulty": "Medium",
+      "acceptance": 58.12910043342394,
+      "likes": 1877,
+      "dislikes": 319
+    },
+    {
+      "position": 35,
+      "title": "Maximum Total Importance of Roads",
+      "slug": "maximum-total-importance-of-roads",
+      "difficulty": "Medium",
+      "acceptance": 69.13178164398937,
+      "likes": 1340,
+      "dislikes": 82
+    },
+    {
+      "position": 36,
+      "title": "Count the Number of Complete Components",
+      "slug": "count-the-number-of-complete-components",
+      "difficulty": "Medium",
+      "acceptance": 77.65512329742722,
+      "likes": 1228,
+      "dislikes": 32
+    },
+    {
+      "position": 37,
+      "title": "Most Profitable Path in a Tree",
+      "slug": "most-profitable-path-in-a-tree",
+      "difficulty": "Medium",
+      "acceptance": 67.43103262351964,
+      "likes": 1374,
+      "dislikes": 242
+    },
+    {
+      "position": 38,
+      "title": "Number of Restricted Paths From First to Last Node",
+      "slug": "number-of-restricted-paths-from-first-to-last-node",
+      "difficulty": "Medium",
+      "acceptance": 40.44704290437469,
+      "likes": 1174,
+      "dislikes": 229
+    },
+    {
+      "position": 39,
+      "title": "Minimum Cost to Convert String I",
+      "slug": "minimum-cost-to-convert-string-i",
+      "difficulty": "Medium",
+      "acceptance": 57.415753220778,
+      "likes": 948,
+      "dislikes": 65
+    },
+    {
+      "position": 40,
+      "title": "Flower Planting With No Adjacent",
+      "slug": "flower-planting-with-no-adjacent",
+      "difficulty": "Medium",
+      "acceptance": 52.91406369038549,
+      "likes": 1547,
+      "dislikes": 722
+    }
+  ]
+}

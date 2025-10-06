@@ -1,0 +1,26 @@
+{
+  "frozen": true,
+  "createdAt": "2025-10-06T15:22:38.053Z",
+  "trackSlug": "interactive",
+  "difficulty": "EASY",
+  "questions": [
+    {
+      "position": 1,
+      "title": "First Bad Version",
+      "slug": "first-bad-version",
+      "difficulty": "Easy",
+      "acceptance": 46.33902138651585,
+      "likes": 8837,
+      "dislikes": 3411
+    },
+    {
+      "position": 2,
+      "title": "Guess Number Higher or Lower",
+      "slug": "guess-number-higher-or-lower",
+      "difficulty": "Easy",
+      "acceptance": 56.41873959384712,
+      "likes": 4126,
+      "dislikes": 659
+    }
+  ]
+}

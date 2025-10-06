@@ -1,0 +1,53 @@
+{
+  "frozen": true,
+  "createdAt": "2025-10-06T15:23:13.352Z",
+  "trackSlug": "probability-and-statistics",
+  "difficulty": "MEDIUM",
+  "questions": [
+    {
+      "position": 1,
+      "title": "Implement Rand10() Using Rand7()",
+      "slug": "implement-rand10-using-rand7",
+      "difficulty": "Medium",
+      "acceptance": 46.0104013892513,
+      "likes": 1162,
+      "dislikes": 388
+    },
+    {
+      "position": 2,
+      "title": "New 21 Game",
+      "slug": "new-21-game",
+      "difficulty": "Medium",
+      "acceptance": 52.00352839358232,
+      "likes": 2466,
+      "dislikes": 1996
+    },
+    {
+      "position": 3,
+      "title": "Statistics from a Large Sample",
+      "slug": "statistics-from-a-large-sample",
+      "difficulty": "Medium",
+      "acceptance": 42.57296051137852,
+      "likes": 173,
+      "dislikes": 107
+    },
+    {
+      "position": 4,
+      "title": "Airplane Seat Assignment Probability",
+      "slug": "airplane-seat-assignment-probability",
+      "difficulty": "Medium",
+      "acceptance": 66.90813595016682,
+      "likes": 650,
+      "dislikes": 986
+    },
+    {
+      "position": 5,
+      "title": "Soup Servings",
+      "slug": "soup-servings",
+      "difficulty": "Medium",
+      "acceptance": 59.87120334396404,
+      "likes": 1434,
+      "dislikes": 3905
+    }
+  ]
+}

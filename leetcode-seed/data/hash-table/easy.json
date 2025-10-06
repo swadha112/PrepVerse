@@ -1,0 +1,368 @@
+{
+  "frozen": true,
+  "createdAt": "2025-10-06T15:17:19.227Z",
+  "trackSlug": "hash-table",
+  "difficulty": "EASY",
+  "questions": [
+    {
+      "position": 1,
+      "title": "Two Sum",
+      "slug": "two-sum",
+      "difficulty": "Easy",
+      "acceptance": 56.38898178495842,
+      "likes": 64684,
+      "dislikes": 2392
+    },
+    {
+      "position": 2,
+      "title": "Majority Element",
+      "slug": "majority-element",
+      "difficulty": "Easy",
+      "acceptance": 65.90082266721575,
+      "likes": 21819,
+      "dislikes": 773
+    },
+    {
+      "position": 3,
+      "title": "Roman to Integer",
+      "slug": "roman-to-integer",
+      "difficulty": "Easy",
+      "acceptance": 65.57338407764898,
+      "likes": 16695,
+      "dislikes": 1162
+    },
+    {
+      "position": 4,
+      "title": "Linked List Cycle",
+      "slug": "linked-list-cycle",
+      "difficulty": "Easy",
+      "acceptance": 53.24845817810407,
+      "likes": 16987,
+      "dislikes": 1539
+    },
+    {
+      "position": 5,
+      "title": "Intersection of Two Linked Lists",
+      "slug": "intersection-of-two-linked-lists",
+      "difficulty": "Easy",
+      "acceptance": 62.199611094255125,
+      "likes": 16158,
+      "dislikes": 1465
+    },
+    {
+      "position": 6,
+      "title": "Valid Anagram",
+      "slug": "valid-anagram",
+      "difficulty": "Easy",
+      "acceptance": 67.2340964542325,
+      "likes": 13596,
+      "dislikes": 456
+    },
+    {
+      "position": 7,
+      "title": "Contains Duplicate",
+      "slug": "contains-duplicate",
+      "difficulty": "Easy",
+      "acceptance": 63.611488623227665,
+      "likes": 13321,
+      "dislikes": 1344
+    },
+    {
+      "position": 8,
+      "title": "Missing Number",
+      "slug": "missing-number",
+      "difficulty": "Easy",
+      "acceptance": 70.88309832937203,
+      "likes": 13674,
+      "dislikes": 3441
+    },
+    {
+      "position": 9,
+      "title": "Happy Number",
+      "slug": "happy-number",
+      "difficulty": "Easy",
+      "acceptance": 58.65929709717786,
+      "likes": 11489,
+      "dislikes": 1596
+    },
+    {
+      "position": 10,
+      "title": "Find All Numbers Disappeared in an Array",
+      "slug": "find-all-numbers-disappeared-in-an-array",
+      "difficulty": "Easy",
+      "acceptance": 62.85427982006737,
+      "likes": 9985,
+      "dislikes": 531
+    },
+    {
+      "position": 11,
+      "title": "First Unique Character in a String",
+      "slug": "first-unique-character-in-a-string",
+      "difficulty": "Easy",
+      "acceptance": 64.2822940534145,
+      "likes": 9481,
+      "dislikes": 322
+    },
+    {
+      "position": 12,
+      "title": "Next Greater Element I",
+      "slug": "next-greater-element-i",
+      "difficulty": "Easy",
+      "acceptance": 75.1700059516978,
+      "likes": 9342,
+      "dislikes": 1027
+    },
+    {
+      "position": 13,
+      "title": "Isomorphic Strings",
+      "slug": "isomorphic-strings",
+      "difficulty": "Easy",
+      "acceptance": 47.46809220832077,
+      "likes": 10096,
+      "dislikes": 2244
+    },
+    {
+      "position": 14,
+      "title": "Intersection of Two Arrays II",
+      "slug": "intersection-of-two-arrays-ii",
+      "difficulty": "Easy",
+      "acceptance": 59.30933687045159,
+      "likes": 8032,
+      "dislikes": 1003
+    },
+    {
+      "position": 15,
+      "title": "Two Sum IV - Input is a BST",
+      "slug": "two-sum-iv-input-is-a-bst",
+      "difficulty": "Easy",
+      "acceptance": 62.67042570486403,
+      "likes": 7156,
+      "dislikes": 288
+    },
+    {
+      "position": 16,
+      "title": "Word Pattern",
+      "slug": "word-pattern",
+      "difficulty": "Easy",
+      "acceptance": 43.40919469649865,
+      "likes": 7796,
+      "dislikes": 1120
+    },
+    {
+      "position": 17,
+      "title": "Find the Town Judge",
+      "slug": "find-the-town-judge",
+      "difficulty": "Easy",
+      "acceptance": 50.25832187934882,
+      "likes": 6867,
+      "dislikes": 624
+    },
+    {
+      "position": 18,
+      "title": "Longest Palindrome",
+      "slug": "longest-palindrome",
+      "difficulty": "Easy",
+      "acceptance": 55.66958266686387,
+      "likes": 6238,
+      "dislikes": 438
+    },
+    {
+      "position": 19,
+      "title": "How Many Numbers Are Smaller Than the Current Number",
+      "slug": "how-many-numbers-are-smaller-than-the-current-number",
+      "difficulty": "Easy",
+      "acceptance": 87.22902756071153,
+      "likes": 5748,
+      "dislikes": 151
+    },
+    {
+      "position": 20,
+      "title": "Number of Good Pairs",
+      "slug": "number-of-good-pairs",
+      "difficulty": "Easy",
+      "acceptance": 89.66912191558782,
+      "likes": 5764,
+      "dislikes": 281
+    },
+    {
+      "position": 21,
+      "title": "Unique Number of Occurrences",
+      "slug": "unique-number-of-occurrences",
+      "difficulty": "Easy",
+      "acceptance": 78.47057802464849,
+      "likes": 5439,
+      "dislikes": 153
+    },
+    {
+      "position": 22,
+      "title": "Ransom Note",
+      "slug": "ransom-note",
+      "difficulty": "Easy",
+      "acceptance": 65.05804546415018,
+      "likes": 5502,
+      "dislikes": 537
+    },
+    {
+      "position": 23,
+      "title": "Design HashMap",
+      "slug": "design-hashmap",
+      "difficulty": "Easy",
+      "acceptance": 66.09334550127576,
+      "likes": 5344,
+      "dislikes": 493
+    },
+    {
+      "position": 24,
+      "title": "Find the Difference",
+      "slug": "find-the-difference",
+      "difficulty": "Easy",
+      "acceptance": 59.85690948157758,
+      "likes": 5327,
+      "dislikes": 503
+    },
+    {
+      "position": 25,
+      "title": "Jewels and Stones",
+      "slug": "jewels-and-stones",
+      "difficulty": "Easy",
+      "acceptance": 89.36432952498824,
+      "likes": 5357,
+      "dislikes": 622
+    },
+    {
+      "position": 26,
+      "title": "Intersection of Two Arrays",
+      "slug": "intersection-of-two-arrays",
+      "difficulty": "Easy",
+      "acceptance": 76.96081073546085,
+      "likes": 6647,
+      "dislikes": 2332
+    },
+    {
+      "position": 27,
+      "title": "Find Common Characters",
+      "slug": "find-common-characters",
+      "difficulty": "Easy",
+      "acceptance": 74.58710292064231,
+      "likes": 4449,
+      "dislikes": 432
+    },
+    {
+      "position": 28,
+      "title": "Set Mismatch",
+      "slug": "set-mismatch",
+      "difficulty": "Easy",
+      "acceptance": 45.29850189878136,
+      "likes": 5075,
+      "dislikes": 1199
+    },
+    {
+      "position": 29,
+      "title": "Contains Duplicate II",
+      "slug": "contains-duplicate-ii",
+      "difficulty": "Easy",
+      "acceptance": 49.81446279674201,
+      "likes": 7043,
+      "dislikes": 3269
+    },
+    {
+      "position": 30,
+      "title": "Design HashSet",
+      "slug": "design-hashset",
+      "difficulty": "Easy",
+      "acceptance": 67.37013838012277,
+      "likes": 3970,
+      "dislikes": 324
+    },
+    {
+      "position": 31,
+      "title": "Sort Array by Increasing Frequency",
+      "slug": "sort-array-by-increasing-frequency",
+      "difficulty": "Easy",
+      "acceptance": 80.45865401049782,
+      "likes": 3634,
+      "dislikes": 173
+    },
+    {
+      "position": 32,
+      "title": "Verifying an Alien Dictionary",
+      "slug": "verifying-an-alien-dictionary",
+      "difficulty": "Easy",
+      "acceptance": 55.71730358039183,
+      "likes": 5017,
+      "dislikes": 1674
+    },
+    {
+      "position": 33,
+      "title": "Relative Sort Array",
+      "slug": "relative-sort-array",
+      "difficulty": "Easy",
+      "acceptance": 74.97475797931034,
+      "likes": 3295,
+      "dislikes": 196
+    },
+    {
+      "position": 34,
+      "title": "Check if the Sentence Is Pangram",
+      "slug": "check-if-the-sentence-is-pangram",
+      "difficulty": "Easy",
+      "acceptance": 83.99617485206896,
+      "likes": 2947,
+      "dislikes": 64
+    },
+    {
+      "position": 35,
+      "title": "Find the Difference of Two Arrays",
+      "slug": "find-the-difference-of-two-arrays",
+      "difficulty": "Easy",
+      "acceptance": 81.10077657373,
+      "likes": 2565,
+      "dislikes": 121
+    },
+    {
+      "position": 36,
+      "title": "Unique Email Addresses",
+      "slug": "unique-email-addresses",
+      "difficulty": "Easy",
+      "acceptance": 67.69295117387219,
+      "likes": 2779,
+      "dislikes": 360
+    },
+    {
+      "position": 37,
+      "title": "Longest Harmonious Subsequence",
+      "slug": "longest-harmonious-subsequence",
+      "difficulty": "Easy",
+      "acceptance": 63.97046073873705,
+      "likes": 2758,
+      "dislikes": 340
+    },
+    {
+      "position": 38,
+      "title": "Rank Transform of an Array",
+      "slug": "rank-transform-of-an-array",
+      "difficulty": "Easy",
+      "acceptance": 70.71365695465609,
+      "likes": 2347,
+      "dislikes": 115
+    },
+    {
+      "position": 39,
+      "title": "Check If N and Its Double Exist",
+      "slug": "check-if-n-and-its-double-exist",
+      "difficulty": "Easy",
+      "acceptance": 41.43757137192843,
+      "likes": 2476,
+      "dislikes": 249
+    },
+    {
+      "position": 40,
+      "title": "Destination City",
+      "slug": "destination-city",
+      "difficulty": "Easy",
+      "acceptance": 79.44674375058753,
+      "likes": 2285,
+      "dislikes": 107
+    }
+  ]
+}

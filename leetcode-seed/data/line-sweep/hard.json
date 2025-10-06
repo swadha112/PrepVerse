@@ -1,0 +1,53 @@
+{
+  "frozen": true,
+  "createdAt": "2025-10-06T15:23:23.570Z",
+  "trackSlug": "line-sweep",
+  "difficulty": "HARD",
+  "questions": [
+    {
+      "position": 1,
+      "title": "The Skyline Problem",
+      "slug": "the-skyline-problem",
+      "difficulty": "Hard",
+      "acceptance": 44.367777658891505,
+      "likes": 6127,
+      "dislikes": 281
+    },
+    {
+      "position": 2,
+      "title": "Minimum Interval to Include Each Query",
+      "slug": "minimum-interval-to-include-each-query",
+      "difficulty": "Hard",
+      "acceptance": 53.12695297027524,
+      "likes": 1084,
+      "dislikes": 46
+    },
+    {
+      "position": 3,
+      "title": "Rectangle Area II",
+      "slug": "rectangle-area-ii",
+      "difficulty": "Hard",
+      "acceptance": 54.95501626492085,
+      "likes": 1020,
+      "dislikes": 64
+    },
+    {
+      "position": 4,
+      "title": "Perfect Rectangle",
+      "slug": "perfect-rectangle",
+      "difficulty": "Hard",
+      "acceptance": 36.07096362815165,
+      "likes": 933,
+      "dislikes": 120
+    },
+    {
+      "position": 5,
+      "title": "Separate Squares II",
+      "slug": "separate-squares-ii",
+      "difficulty": "Hard",
+      "acceptance": 20.314455569461828,
+      "likes": 23,
+      "dislikes": 6
+    }
+  ]
+}

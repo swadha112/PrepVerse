@@ -1,0 +1,368 @@
+{
+  "frozen": true,
+  "createdAt": "2025-10-06T15:19:52.991Z",
+  "trackSlug": "heap-priority-queue",
+  "difficulty": "HARD",
+  "questions": [
+    {
+      "position": 1,
+      "title": "Merge k Sorted Lists",
+      "slug": "merge-k-sorted-lists",
+      "difficulty": "Hard",
+      "acceptance": 57.813413772137324,
+      "likes": 20783,
+      "dislikes": 772
+    },
+    {
+      "position": 2,
+      "title": "Sliding Window Maximum",
+      "slug": "sliding-window-maximum",
+      "difficulty": "Hard",
+      "acceptance": 48.00052354509574,
+      "likes": 19750,
+      "dislikes": 787
+    },
+    {
+      "position": 3,
+      "title": "Find Median from Data Stream",
+      "slug": "find-median-from-data-stream",
+      "difficulty": "Hard",
+      "acceptance": 53.7526931941688,
+      "likes": 12867,
+      "dislikes": 273
+    },
+    {
+      "position": 4,
+      "title": "The Skyline Problem",
+      "slug": "the-skyline-problem",
+      "difficulty": "Hard",
+      "acceptance": 44.367777658891505,
+      "likes": 6127,
+      "dislikes": 281
+    },
+    {
+      "position": 5,
+      "title": "Shortest Subarray with Sum at Least K",
+      "slug": "shortest-subarray-with-sum-at-least-k",
+      "difficulty": "Hard",
+      "acceptance": 32.36762876561683,
+      "likes": 5099,
+      "dislikes": 143
+    },
+    {
+      "position": 6,
+      "title": "Trapping Rain Water II",
+      "slug": "trapping-rain-water-ii",
+      "difficulty": "Hard",
+      "acceptance": 63.79562301714499,
+      "likes": 4916,
+      "dislikes": 166
+    },
+    {
+      "position": 7,
+      "title": "Minimum Number of Refueling Stops",
+      "slug": "minimum-number-of-refueling-stops",
+      "difficulty": "Hard",
+      "acceptance": 40.8209613348491,
+      "likes": 4819,
+      "dislikes": 92
+    },
+    {
+      "position": 8,
+      "title": "Smallest Range Covering Elements from K Lists",
+      "slug": "smallest-range-covering-elements-from-k-lists",
+      "difficulty": "Hard",
+      "acceptance": 69.88424545468447,
+      "likes": 4296,
+      "dislikes": 99
+    },
+    {
+      "position": 9,
+      "title": "Swim in Rising Water",
+      "slug": "swim-in-rising-water",
+      "difficulty": "Hard",
+      "acceptance": 65.91301894113083,
+      "likes": 4318,
+      "dislikes": 301
+    },
+    {
+      "position": 10,
+      "title": "Course Schedule III",
+      "slug": "course-schedule-iii",
+      "difficulty": "Hard",
+      "acceptance": 40.96708989685926,
+      "likes": 3949,
+      "dislikes": 102
+    },
+    {
+      "position": 11,
+      "title": "IPO",
+      "slug": "ipo",
+      "difficulty": "Hard",
+      "acceptance": 53.16890461184115,
+      "likes": 4082,
+      "dislikes": 278
+    },
+    {
+      "position": 12,
+      "title": "Sliding Window Median",
+      "slug": "sliding-window-median",
+      "difficulty": "Hard",
+      "acceptance": 38.769503012919124,
+      "likes": 3469,
+      "dislikes": 228
+    },
+    {
+      "position": 13,
+      "title": "Maximum Performance of a Team",
+      "slug": "maximum-performance-of-a-team",
+      "difficulty": "Hard",
+      "acceptance": 47.6584515718593,
+      "likes": 3184,
+      "dislikes": 84
+    },
+    {
+      "position": 14,
+      "title": "Minimize Deviation in Array",
+      "slug": "minimize-deviation-in-array",
+      "difficulty": "Hard",
+      "acceptance": 53.919508208294644,
+      "likes": 3080,
+      "dislikes": 175
+    },
+    {
+      "position": 15,
+      "title": "Minimum Cost to Hire K Workers",
+      "slug": "minimum-cost-to-hire-k-workers",
+      "difficulty": "Hard",
+      "acceptance": 63.54301286153719,
+      "likes": 3021,
+      "dislikes": 405
+    },
+    {
+      "position": 16,
+      "title": "Minimum Cost to Make at Least One Valid Path in a Grid",
+      "slug": "minimum-cost-to-make-at-least-one-valid-path-in-a-grid",
+      "difficulty": "Hard",
+      "acceptance": 70.78080319407226,
+      "likes": 2538,
+      "dislikes": 35
+    },
+    {
+      "position": 17,
+      "title": "Put Marbles in Bags",
+      "slug": "put-marbles-in-bags",
+      "difficulty": "Hard",
+      "acceptance": 72.22580260174244,
+      "likes": 2625,
+      "dislikes": 123
+    },
+    {
+      "position": 18,
+      "title": "Constrained Subsequence Sum",
+      "slug": "constrained-subsequence-sum",
+      "difficulty": "Hard",
+      "acceptance": 56.35944847883809,
+      "likes": 2211,
+      "dislikes": 107
+    },
+    {
+      "position": 19,
+      "title": "Meeting Rooms III",
+      "slug": "meeting-rooms-iii",
+      "difficulty": "Hard",
+      "acceptance": 48.8799041029781,
+      "likes": 2168,
+      "dislikes": 132
+    },
+    {
+      "position": 20,
+      "title": "Construct Target Array With Multiple Sums",
+      "slug": "construct-target-array-with-multiple-sums",
+      "difficulty": "Hard",
+      "acceptance": 36.2855003641063,
+      "likes": 2074,
+      "dislikes": 170
+    },
+    {
+      "position": 21,
+      "title": "Minimum Obstacle Removal to Reach Corner",
+      "slug": "minimum-obstacle-removal-to-reach-corner",
+      "difficulty": "Hard",
+      "acceptance": 70.23984010659561,
+      "likes": 1632,
+      "dislikes": 29
+    },
+    {
+      "position": 22,
+      "title": "Max Value of Equation",
+      "slug": "max-value-of-equation",
+      "difficulty": "Hard",
+      "acceptance": 44.75619260614686,
+      "likes": 1397,
+      "dislikes": 62
+    },
+    {
+      "position": 23,
+      "title": "Find the Kth Smallest Sum of a Matrix With Sorted Rows",
+      "slug": "find-the-kth-smallest-sum-of-a-matrix-with-sorted-rows",
+      "difficulty": "Hard",
+      "acceptance": 62.12903711510954,
+      "likes": 1281,
+      "dislikes": 21
+    },
+    {
+      "position": 24,
+      "title": "Pizza With 3n Slices",
+      "slug": "pizza-with-3n-slices",
+      "difficulty": "Hard",
+      "acceptance": 53.443840662435115,
+      "likes": 1121,
+      "dislikes": 23
+    },
+    {
+      "position": 25,
+      "title": "Minimum Difference in Sums After Removal of Elements",
+      "slug": "minimum-difference-in-sums-after-removal-of-elements",
+      "difficulty": "Hard",
+      "acceptance": 69.93466329819671,
+      "likes": 1119,
+      "dislikes": 41
+    },
+    {
+      "position": 26,
+      "title": "Minimum Time to Visit a Cell In a Grid",
+      "slug": "minimum-time-to-visit-a-cell-in-a-grid",
+      "difficulty": "Hard",
+      "acceptance": 56.5587576704339,
+      "likes": 1102,
+      "dislikes": 43
+    },
+    {
+      "position": 27,
+      "title": "Maximum Number of Points From Grid Queries",
+      "slug": "maximum-number-of-points-from-grid-queries",
+      "difficulty": "Hard",
+      "acceptance": 59.39099219953297,
+      "likes": 1088,
+      "dislikes": 50
+    },
+    {
+      "position": 28,
+      "title": "Minimum Interval to Include Each Query",
+      "slug": "minimum-interval-to-include-each-query",
+      "difficulty": "Hard",
+      "acceptance": 53.12695297027524,
+      "likes": 1084,
+      "dislikes": 46
+    },
+    {
+      "position": 29,
+      "title": "Car Fleet II",
+      "slug": "car-fleet-ii",
+      "difficulty": "Hard",
+      "acceptance": 56.961609375855716,
+      "likes": 943,
+      "dislikes": 40
+    },
+    {
+      "position": 30,
+      "title": "Maximum Number of Robots Within Budget",
+      "slug": "maximum-number-of-robots-within-budget",
+      "difficulty": "Hard",
+      "acceptance": 37.36491257464964,
+      "likes": 887,
+      "dislikes": 20
+    },
+    {
+      "position": 31,
+      "title": "Minimum Moves to Move a Box to Their Target Location",
+      "slug": "minimum-moves-to-move-a-box-to-their-target-location",
+      "difficulty": "Hard",
+      "acceptance": 49.100935027571325,
+      "likes": 878,
+      "dislikes": 60
+    },
+    {
+      "position": 32,
+      "title": "Design Graph With Shortest Path Calculator",
+      "slug": "design-graph-with-shortest-path-calculator",
+      "difficulty": "Hard",
+      "acceptance": 64.35700592316222,
+      "likes": 860,
+      "dislikes": 58
+    },
+    {
+      "position": 33,
+      "title": "Find Building Where Alice and Bob Can Meet",
+      "slug": "find-building-where-alice-and-bob-can-meet",
+      "difficulty": "Hard",
+      "acceptance": 52.18301370654002,
+      "likes": 815,
+      "dislikes": 57
+    },
+    {
+      "position": 34,
+      "title": "Next Greater Element IV",
+      "slug": "next-greater-element-iv",
+      "difficulty": "Hard",
+      "acceptance": 40.79997997546995,
+      "likes": 725,
+      "dislikes": 12
+    },
+    {
+      "position": 35,
+      "title": "Reachable Nodes In Subdivided Graph",
+      "slug": "reachable-nodes-in-subdivided-graph",
+      "difficulty": "Hard",
+      "acceptance": 51.23914267927548,
+      "likes": 876,
+      "dislikes": 227
+    },
+    {
+      "position": 36,
+      "title": "Find Servers That Handled Most Number of Requests",
+      "slug": "find-servers-that-handled-most-number-of-requests",
+      "difficulty": "Hard",
+      "acceptance": 44.77328312776028,
+      "likes": 658,
+      "dislikes": 29
+    },
+    {
+      "position": 37,
+      "title": "Cut Off Trees for Golf Event",
+      "slug": "cut-off-trees-for-golf-event",
+      "difficulty": "Hard",
+      "acceptance": 35.706611844286755,
+      "likes": 1277,
+      "dislikes": 687
+    },
+    {
+      "position": 38,
+      "title": "Find the K-Sum of an Array",
+      "slug": "find-the-k-sum-of-an-array",
+      "difficulty": "Hard",
+      "acceptance": 40.29696244298515,
+      "likes": 603,
+      "dislikes": 25
+    },
+    {
+      "position": 39,
+      "title": "Modify Graph Edge Weights",
+      "slug": "modify-graph-edge-weights",
+      "difficulty": "Hard",
+      "acceptance": 55.83394661136014,
+      "likes": 729,
+      "dislikes": 152
+    },
+    {
+      "position": 40,
+      "title": "Design Movie Rental System",
+      "slug": "design-movie-rental-system",
+      "difficulty": "Hard",
+      "acceptance": 62.9394469597215,
+      "likes": 536,
+      "dislikes": 86
+    }
+  ]
+}

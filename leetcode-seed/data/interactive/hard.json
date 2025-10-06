@@ -1,0 +1,26 @@
+{
+  "frozen": true,
+  "createdAt": "2025-10-06T15:22:40.105Z",
+  "trackSlug": "interactive",
+  "difficulty": "HARD",
+  "questions": [
+    {
+      "position": 1,
+      "title": "Find in Mountain Array",
+      "slug": "find-in-mountain-array",
+      "difficulty": "Hard",
+      "acceptance": 40.69219659031087,
+      "likes": 3501,
+      "dislikes": 147
+    },
+    {
+      "position": 2,
+      "title": "Guess the Word",
+      "slug": "guess-the-word",
+      "difficulty": "Hard",
+      "acceptance": 37.29211038589259,
+      "likes": 1610,
+      "dislikes": 1853
+    }
+  ]
+}

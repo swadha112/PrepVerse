@@ -1,59 +1,114 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
   <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>PrepVerse ↔ LeetCode</title>
   <style>
-    body {
-      font-family: Arial, sans-serif;
-      background: #f3f4f6;
-      color: #1f2937;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      height: 100vh;
-      margin: 0;
+    :root{
+      --bg:#0b0f15; --fg:#e5e7eb; --muted:#9ca3af; --surface:#111827; --border:#1f2937;
+      --accent:#60a5fa; --good:#34d399; --warn:#f59e0b; --danger:#f87171;
     }
-    .card {
-      background: white;
-      border-radius: 8px;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-      width: 320px;
-      padding: 16px;
-      text-align: center;
-    }
-    .card h3 {
-      margin: 0 0 12px;
-      font-size: 1.25rem;
-      color: #111827;
-    }
-    .btn {
-      display: block;
-      width: 100%;
-      padding: 10px;
-      margin: 8px 0;
-      background: #6366f1;
-      color: white;
-      border: none;
-      border-radius: 6px;
-      font-size: 1rem;
-      cursor: pointer;
-    }
-    .status {
-      margin-top: 12px;
-      font-size: 0.875rem;
-      color: #6b7280;
-      min-height: 1.25rem;
-      word-break: break-all;
-    }
+    *{ box-sizing:border-box }
+    body{ font:13px/1.45 system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif; margin:0; background:var(--bg); color:var(--fg); width:380px; }
+    .wrap{ padding:14px; display:flex; flex-direction:column; gap:12px; }
+    h3{ margin:0 0 2px; font-size:15px; }
+    .sub{ color:var(--muted); font-size:12px; }
+    .card{ border:1px solid var(--border); border-radius:12px; background:var(--surface); padding:12px; }
+    .row{ display:flex; align-items:center; gap:8px; }
+    .space{ justify-content:space-between; }
+    .btn{ border:1px solid var(--border); background:transparent; color:var(--fg); border-radius:10px; padding:10px 12px; cursor:pointer }
+    .btn.primary{ background:var(--accent); border-color:var(--accent); color:#0b0f15; font-weight:600 }
+    .pill{ font-size:11px; padding:3px 8px; border-radius:999px; border:1px solid var(--border) }
+    .pill.good{ background:rgba(52,211,153,.12); border-color:rgba(52,211,153,.3) }
+    .pill.warn{ background:rgba(245,158,11,.12); border-color:rgba(245,158,11,.3) }
+    .avatar{ width:52px; height:52px; border-radius:50%; object-fit:cover; background:#e5e7eb }
+    .grid{ display:grid; grid-template-columns:repeat(4,minmax(0,1fr)); gap:8px }
+    .tile{ border:1px solid var(--border); background:transparent; border-radius:10px; padding:10px }
+    .tile .label{ color:var(--muted); font-size:11px }
+    .tile .val{ font-size:18px; font-weight:700 }
+    input[type="text"], input[type="url"]{ width:100%; padding:8px 10px; border-radius:10px; border:1px solid var(--border); background:transparent; color:var(--fg) }
+    label{ font-size:12px; color:var(--muted) }
+    .code{ background:rgba(125,125,125,.1); border:1px solid var(--border); padding:8px; border-radius:8px; max-height:160px; overflow:auto }
+    .error{ color:var(--danger); font-size:12px }
   </style>
 </head>
 <body>
-  <div class="card">
-    <h3>LeetCode Connector</h3>
-    <button id="openLc" class="btn">Open & Auto‑Sync LeetCode</button>
-    <div id="status" class="status">Status: idle</div>
+  <div class="wrap">
+    <div class="space row">
+      <div>
+        <h3>PrepVerse ↔ LeetCode</h3>
+        <div class="sub">View and sync your LeetCode progress</div>
+      </div>
+      <button id="btnRefresh" class="btn primary">Sync with LeetCode</button>
+    </div>
+
+    <!-- Connected view -->
+    <div id="viewConnected" class="card" style="display:none">
+      <div class="space row">
+        <div class="row">
+          <img id="avatar" class="avatar" alt="avatar" src="" />
+          <div>
+            <div id="uname" style="font-weight:600; font-size:14px">—</div>
+            <div class="sub">Ranking: <span id="rank">—</span></div>
+          </div>
+        </div>
+        <div id="syncPill" class="pill">—</div>
+      </div>
+
+      <div class="grid" style="margin-top:10px">
+        <div class="tile"><div class="label">Total Solved</div><div id="statTotal" class="val">0</div></div>
+        <div class="tile"><div class="label">Easy</div><div id="statEasy" class="val">0</div></div>
+        <div class="tile"><div class="label">Medium</div><div id="statMedium" class="val">0</div></div>
+        <div class="tile"><div class="label">Hard</div><div id="statHard" class="val">0</div></div>
+      </div>
+
+      <div class="space row" style="margin-top:10px">
+        <div class="sub">Last updated <span id="lastSync">—</span></div>
+        <div class="row">
+          <button id="btnOpenLC" class="btn">Open LeetCode</button>
+          <button id="btnSend" class="btn">Send to Backend</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Unsynced view -->
+    <div id="viewEmpty" class="card" style="display:none">
+      <div style="font-weight:600; margin-bottom:6px">You're not synced yet</div>
+      <ol style="margin:0; padding-left:18px; line-height:1.6">
+        <li>Click <b>Sync with LeetCode</b> above.</li>
+        <li>Make sure you’re logged in on <b>leetcode.com</b>.</li>
+        <li>Keep this popup open while the tab loads.</li>
+        <li>Return here to see your stats.</li>
+      </ol>
+      <div class="row" style="justify-content:flex-end; margin-top:8px">
+        <button id="btnOpenLC2" class="btn">Open LeetCode</button>
+      </div>
+      <div id="emptyError" class="error" style="display:none"></div>
+    </div>
+
+    <details class="card">
+      <summary>Details & Settings</summary>
+      <div class="row" style="margin-top:8px; gap:10px">
+        <div style="flex:1">
+          <label for="backendUrl">Backend endpoint (optional)</label>
+          <input id="backendUrl" type="url" placeholder="http://localhost:4000/api/leetcode/stats" />
+        </div>
+      </div>
+      <div class="row" style="margin-top:8px; gap:10px">
+        <div style="flex:1">
+          <label for="username">Username override (optional)</label>
+          <input id="username" type="text" placeholder="leave blank to auto-detect on leetcode.com" />
+        </div>
+      </div>
+      <div style="margin-top:8px">
+        <pre id="raw" class="code">—</pre>
+      </div>
+    </details>
+
+    <div id="status" class="sub"></div>
   </div>
+
   <script src="popup.js"></script>
 </body>
 </html>

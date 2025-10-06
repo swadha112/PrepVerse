@@ -1,0 +1,134 @@
+{
+  "frozen": true,
+  "createdAt": "2025-10-06T15:21:33.851Z",
+  "trackSlug": "combinatorics",
+  "difficulty": "MEDIUM",
+  "questions": [
+    {
+      "position": 1,
+      "title": "Unique Paths",
+      "slug": "unique-paths",
+      "difficulty": "Medium",
+      "acceptance": 66.14713940110802,
+      "likes": 17900,
+      "dislikes": 480
+    },
+    {
+      "position": 2,
+      "title": "Count Sorted Vowel Strings",
+      "slug": "count-sorted-vowel-strings",
+      "difficulty": "Medium",
+      "acceptance": 79.0636802741675,
+      "likes": 3916,
+      "dislikes": 93
+    },
+    {
+      "position": 3,
+      "title": "Find Triangular Sum of an Array",
+      "slug": "find-triangular-sum-of-an-array",
+      "difficulty": "Medium",
+      "acceptance": 81.95584447800614,
+      "likes": 1519,
+      "dislikes": 75
+    },
+    {
+      "position": 4,
+      "title": "The Number of Beautiful Subsets",
+      "slug": "the-number-of-beautiful-subsets",
+      "difficulty": "Medium",
+      "acceptance": 50.85577589020595,
+      "likes": 1287,
+      "dislikes": 176
+    },
+    {
+      "position": 5,
+      "title": "Vowels of All Substrings",
+      "slug": "vowels-of-all-substrings",
+      "difficulty": "Medium",
+      "acceptance": 54.910337771509944,
+      "likes": 896,
+      "dislikes": 35
+    },
+    {
+      "position": 6,
+      "title": "Ugly Number III",
+      "slug": "ugly-number-iii",
+      "difficulty": "Medium",
+      "acceptance": 30.809121531711693,
+      "likes": 1298,
+      "dislikes": 516
+    },
+    {
+      "position": 7,
+      "title": "Number of Ways to Reach a Position After Exactly k Steps",
+      "slug": "number-of-ways-to-reach-a-position-after-exactly-k-steps",
+      "difficulty": "Medium",
+      "acceptance": 36.45161605026194,
+      "likes": 827,
+      "dislikes": 65
+    },
+    {
+      "position": 8,
+      "title": "Number of Sets of K Non-Overlapping Line Segments",
+      "slug": "number-of-sets-of-k-non-overlapping-line-segments",
+      "difficulty": "Medium",
+      "acceptance": 45.089545719277815,
+      "likes": 483,
+      "dislikes": 50
+    },
+    {
+      "position": 9,
+      "title": "Distribute Candies Among Children II",
+      "slug": "distribute-candies-among-children-ii",
+      "difficulty": "Medium",
+      "acceptance": 55.84250611973417,
+      "likes": 556,
+      "dislikes": 174
+    },
+    {
+      "position": 10,
+      "title": "Number of Strings Which Can Be Rearranged to Contain Substring",
+      "slug": "number-of-strings-which-can-be-rearranged-to-contain-substring",
+      "difficulty": "Medium",
+      "acceptance": 56.12721527682374,
+      "likes": 185,
+      "dislikes": 72
+    },
+    {
+      "position": 11,
+      "title": "Right Triangles",
+      "slug": "right-triangles",
+      "difficulty": "Medium",
+      "acceptance": 47.72824141164436,
+      "likes": 129,
+      "dislikes": 23
+    },
+    {
+      "position": 12,
+      "title": "Maximum and Minimum Sums of at Most Size K Subsequences",
+      "slug": "maximum-and-minimum-sums-of-at-most-size-k-subsequences",
+      "difficulty": "Medium",
+      "acceptance": 20.778278942248164,
+      "likes": 139,
+      "dislikes": 33
+    },
+    {
+      "position": 13,
+      "title": "Find the N-th Value After K Seconds",
+      "slug": "find-the-n-th-value-after-k-seconds",
+      "difficulty": "Medium",
+      "acceptance": 53.66315789473685,
+      "likes": 112,
+      "dislikes": 21
+    },
+    {
+      "position": 14,
+      "title": "Count the Number of Computer Unlocking Permutations",
+      "slug": "count-the-number-of-computer-unlocking-permutations",
+      "difficulty": "Medium",
+      "acceptance": 39.153175591531756,
+      "likes": 63,
+      "dislikes": 14
+    }
+  ]
+}

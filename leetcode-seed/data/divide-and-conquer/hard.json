@@ -1,0 +1,152 @@
+{
+  "frozen": true,
+  "createdAt": "2025-10-06T15:21:44.492Z",
+  "trackSlug": "divide-and-conquer",
+  "difficulty": "HARD",
+  "questions": [
+    {
+      "position": 1,
+      "title": "Median of Two Sorted Arrays",
+      "slug": "median-of-two-sorted-arrays",
+      "difficulty": "Hard",
+      "acceptance": 44.882417813834316,
+      "likes": 31017,
+      "dislikes": 3486
+    },
+    {
+      "position": 2,
+      "title": "Merge k Sorted Lists",
+      "slug": "merge-k-sorted-lists",
+      "difficulty": "Hard",
+      "acceptance": 57.81349534502142,
+      "likes": 20783,
+      "dislikes": 772
+    },
+    {
+      "position": 3,
+      "title": "Count of Smaller Numbers After Self",
+      "slug": "count-of-smaller-numbers-after-self",
+      "difficulty": "Hard",
+      "acceptance": 43.02822755550983,
+      "likes": 9134,
+      "dislikes": 249
+    },
+    {
+      "position": 4,
+      "title": "Reverse Pairs",
+      "slug": "reverse-pairs",
+      "difficulty": "Hard",
+      "acceptance": 32.930035254420645,
+      "likes": 6777,
+      "dislikes": 291
+    },
+    {
+      "position": 5,
+      "title": "The Skyline Problem",
+      "slug": "the-skyline-problem",
+      "difficulty": "Hard",
+      "acceptance": 44.367777658891505,
+      "likes": 6127,
+      "dislikes": 281
+    },
+    {
+      "position": 6,
+      "title": "Count of Range Sum",
+      "slug": "count-of-range-sum",
+      "difficulty": "Hard",
+      "acceptance": 37.551573153927855,
+      "likes": 2461,
+      "dislikes": 259
+    },
+    {
+      "position": 7,
+      "title": "Number of Ways to Reorder Array to Get Same BST",
+      "slug": "number-of-ways-to-reorder-array-to-get-same-bst",
+      "difficulty": "Hard",
+      "acceptance": 53.741150461886676,
+      "likes": 1840,
+      "dislikes": 210
+    },
+    {
+      "position": 8,
+      "title": "Longest Increasing Subsequence II",
+      "slug": "longest-increasing-subsequence-ii",
+      "difficulty": "Hard",
+      "acceptance": 25.697057517470263,
+      "likes": 941,
+      "dislikes": 41
+    },
+    {
+      "position": 9,
+      "title": "Count Good Triplets in an Array",
+      "slug": "count-good-triplets-in-an-array",
+      "difficulty": "Hard",
+      "acceptance": 65.88373355752894,
+      "likes": 994,
+      "dislikes": 114
+    },
+    {
+      "position": 10,
+      "title": "Create Sorted Array through Instructions",
+      "slug": "create-sorted-array-through-instructions",
+      "difficulty": "Hard",
+      "acceptance": 40.67350591755497,
+      "likes": 682,
+      "dislikes": 81
+    },
+    {
+      "position": 11,
+      "title": "Find Array Given Subset Sums",
+      "slug": "find-array-given-subset-sums",
+      "difficulty": "Hard",
+      "acceptance": 49.04062820075111,
+      "likes": 621,
+      "dislikes": 43
+    },
+    {
+      "position": 12,
+      "title": "Number of Pairs Satisfying Inequality",
+      "slug": "number-of-pairs-satisfying-inequality",
+      "difficulty": "Hard",
+      "acceptance": 46.23145867183815,
+      "likes": 563,
+      "dislikes": 11
+    },
+    {
+      "position": 13,
+      "title": "Maximum Sum of Subsequence With Non-adjacent Elements",
+      "slug": "maximum-sum-of-subsequence-with-non-adjacent-elements",
+      "difficulty": "Hard",
+      "acceptance": 14.897229490841541,
+      "likes": 146,
+      "dislikes": 31
+    },
+    {
+      "position": 14,
+      "title": "XOR After Range Multiplication Queries II",
+      "slug": "xor-after-range-multiplication-queries-ii",
+      "difficulty": "Hard",
+      "acceptance": 25.540939597315436,
+      "likes": 31,
+      "dislikes": 3
+    },
+    {
+      "position": 15,
+      "title": "Threshold Majority Queries",
+      "slug": "threshold-majority-queries",
+      "difficulty": "Hard",
+      "acceptance": 20.31445231153686,
+      "likes": 32,
+      "dislikes": 8
+    },
+    {
+      "position": 16,
+      "title": "Number of Integers With Popcount-Depth Equal to K II",
+      "slug": "number-of-integers-with-popcount-depth-equal-to-k-ii",
+      "difficulty": "Hard",
+      "acceptance": 38.50020457069378,
+      "likes": 29,
+      "dislikes": 9
+    }
+  ]
+}

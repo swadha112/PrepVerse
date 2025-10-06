@@ -1,0 +1,368 @@
+{
+  "frozen": true,
+  "createdAt": "2025-10-06T15:20:28.090Z",
+  "trackSlug": "counting",
+  "difficulty": "EASY",
+  "questions": [
+    {
+      "position": 1,
+      "title": "Majority Element",
+      "slug": "majority-element",
+      "difficulty": "Easy",
+      "acceptance": 65.90082266721575,
+      "likes": 21819,
+      "dislikes": 773
+    },
+    {
+      "position": 2,
+      "title": "First Unique Character in a String",
+      "slug": "first-unique-character-in-a-string",
+      "difficulty": "Easy",
+      "acceptance": 64.2822940534145,
+      "likes": 9481,
+      "dislikes": 322
+    },
+    {
+      "position": 3,
+      "title": "Number of Good Pairs",
+      "slug": "number-of-good-pairs",
+      "difficulty": "Easy",
+      "acceptance": 89.66912191558782,
+      "likes": 5764,
+      "dislikes": 281
+    },
+    {
+      "position": 4,
+      "title": "Ransom Note",
+      "slug": "ransom-note",
+      "difficulty": "Easy",
+      "acceptance": 65.05804546415018,
+      "likes": 5502,
+      "dislikes": 537
+    },
+    {
+      "position": 5,
+      "title": "Sort Integers by The Number of 1 Bits",
+      "slug": "sort-integers-by-the-number-of-1-bits",
+      "difficulty": "Easy",
+      "acceptance": 78.8347104420945,
+      "likes": 2569,
+      "dislikes": 126
+    },
+    {
+      "position": 6,
+      "title": "Longest Harmonious Subsequence",
+      "slug": "longest-harmonious-subsequence",
+      "difficulty": "Easy",
+      "acceptance": 63.97046073873705,
+      "likes": 2758,
+      "dislikes": 340
+    },
+    {
+      "position": 7,
+      "title": "Determine if String Halves Are Alike",
+      "slug": "determine-if-string-halves-are-alike",
+      "difficulty": "Easy",
+      "acceptance": 78.68649193344817,
+      "likes": 2315,
+      "dislikes": 126
+    },
+    {
+      "position": 8,
+      "title": "Count the Number of Consistent Strings",
+      "slug": "count-the-number-of-consistent-strings",
+      "difficulty": "Easy",
+      "acceptance": 88.35744752913284,
+      "likes": 2236,
+      "dislikes": 89
+    },
+    {
+      "position": 9,
+      "title": "Find Words That Can Be Formed by Characters",
+      "slug": "find-words-that-can-be-formed-by-characters",
+      "difficulty": "Easy",
+      "acceptance": 71.26060967097231,
+      "likes": 2222,
+      "dislikes": 189
+    },
+    {
+      "position": 10,
+      "title": "Split a String in Balanced Strings",
+      "slug": "split-a-string-in-balanced-strings",
+      "difficulty": "Easy",
+      "acceptance": 87.03367841509959,
+      "likes": 2851,
+      "dislikes": 956
+    },
+    {
+      "position": 11,
+      "title": "Maximum Number of Balloons",
+      "slug": "maximum-number-of-balloons",
+      "difficulty": "Easy",
+      "acceptance": 59.837603998671376,
+      "likes": 1847,
+      "dislikes": 120
+    },
+    {
+      "position": 12,
+      "title": "Count Number of Pairs With Absolute Difference K",
+      "slug": "count-number-of-pairs-with-absolute-difference-k",
+      "difficulty": "Easy",
+      "acceptance": 85.1122496948341,
+      "likes": 1768,
+      "dislikes": 48
+    },
+    {
+      "position": 13,
+      "title": "Uncommon Words from Two Sentences",
+      "slug": "uncommon-words-from-two-sentences",
+      "difficulty": "Easy",
+      "acceptance": 75.44764526961035,
+      "likes": 1876,
+      "dislikes": 208
+    },
+    {
+      "position": 14,
+      "title": "Sum of Unique Elements",
+      "slug": "sum-of-unique-elements",
+      "difficulty": "Easy",
+      "acceptance": 79.4179648300433,
+      "likes": 1658,
+      "dislikes": 34
+    },
+    {
+      "position": 15,
+      "title": "Check if One String Swap Can Make Strings Equal",
+      "slug": "check-if-one-string-swap-can-make-strings-equal",
+      "difficulty": "Easy",
+      "acceptance": 49.48275212866449,
+      "likes": 1690,
+      "dislikes": 85
+    },
+    {
+      "position": 16,
+      "title": "Substrings of Size Three with Distinct Characters",
+      "slug": "substrings-of-size-three-with-distinct-characters",
+      "difficulty": "Easy",
+      "acceptance": 76.0709375180102,
+      "likes": 1637,
+      "dislikes": 52
+    },
+    {
+      "position": 17,
+      "title": "Design Parking System",
+      "slug": "design-parking-system",
+      "difficulty": "Easy",
+      "acceptance": 87.13111077113763,
+      "likes": 2028,
+      "dislikes": 455
+    },
+    {
+      "position": 18,
+      "title": "Find Lucky Integer in an Array",
+      "slug": "find-lucky-integer-in-an-array",
+      "difficulty": "Easy",
+      "acceptance": 75.45114666193437,
+      "likes": 1580,
+      "dislikes": 44
+    },
+    {
+      "position": 19,
+      "title": "Maximum Count of Positive Integer and Negative Integer",
+      "slug": "maximum-count-of-positive-integer-and-negative-integer",
+      "difficulty": "Easy",
+      "acceptance": 74.45432246750796,
+      "likes": 1513,
+      "dislikes": 87
+    },
+    {
+      "position": 20,
+      "title": "X of a Kind in a Deck of Cards",
+      "slug": "x-of-a-kind-in-a-deck-of-cards",
+      "difficulty": "Easy",
+      "acceptance": 29.934445078708567,
+      "likes": 1874,
+      "dislikes": 563
+    },
+    {
+      "position": 21,
+      "title": "Kth Distinct String in an Array",
+      "slug": "kth-distinct-string-in-an-array",
+      "difficulty": "Easy",
+      "acceptance": 82.05571150939322,
+      "likes": 1292,
+      "dislikes": 51
+    },
+    {
+      "position": 22,
+      "title": "Maximum Population Year",
+      "slug": "maximum-population-year",
+      "difficulty": "Easy",
+      "acceptance": 63.050056778074456,
+      "likes": 1486,
+      "dislikes": 278
+    },
+    {
+      "position": 23,
+      "title": "Divide Array Into Equal Pairs",
+      "slug": "divide-array-into-equal-pairs",
+      "difficulty": "Easy",
+      "acceptance": 79.26044535304464,
+      "likes": 1176,
+      "dislikes": 50
+    },
+    {
+      "position": 24,
+      "title": "First Letter to Appear Twice",
+      "slug": "first-letter-to-appear-twice",
+      "difficulty": "Easy",
+      "acceptance": 74.52659958840259,
+      "likes": 1149,
+      "dislikes": 63
+    },
+    {
+      "position": 25,
+      "title": "Redistribute Characters to Make All Strings Equal",
+      "slug": "redistribute-characters-to-make-all-strings-equal",
+      "difficulty": "Easy",
+      "acceptance": 66.76786942249555,
+      "likes": 1155,
+      "dislikes": 82
+    },
+    {
+      "position": 26,
+      "title": "Most Frequent Even Element",
+      "slug": "most-frequent-even-element",
+      "difficulty": "Easy",
+      "acceptance": 52.631899465398824,
+      "likes": 1088,
+      "dislikes": 40
+    },
+    {
+      "position": 27,
+      "title": "Check if All Characters Have Equal Number of Occurrences",
+      "slug": "check-if-all-characters-have-equal-number-of-occurrences",
+      "difficulty": "Easy",
+      "acceptance": 78.93616917438177,
+      "likes": 1016,
+      "dislikes": 28
+    },
+    {
+      "position": 28,
+      "title": "Count Elements With Maximum Frequency",
+      "slug": "count-elements-with-maximum-frequency",
+      "difficulty": "Easy",
+      "acceptance": 79.96365615022124,
+      "likes": 1029,
+      "dislikes": 92
+    },
+    {
+      "position": 29,
+      "title": "Count Common Words With One Occurrence",
+      "slug": "count-common-words-with-one-occurrence",
+      "difficulty": "Easy",
+      "acceptance": 72.85334319484546,
+      "likes": 894,
+      "dislikes": 21
+    },
+    {
+      "position": 30,
+      "title": "Intersection of Multiple Arrays",
+      "slug": "intersection-of-multiple-arrays",
+      "difficulty": "Easy",
+      "acceptance": 68.50891673835709,
+      "likes": 787,
+      "dislikes": 44
+    },
+    {
+      "position": 31,
+      "title": "Number of Equivalent Domino Pairs",
+      "slug": "number-of-equivalent-domino-pairs",
+      "difficulty": "Easy",
+      "acceptance": 60.55744174929829,
+      "likes": 1105,
+      "dislikes": 375
+    },
+    {
+      "position": 32,
+      "title": "Maximum Number of Pairs in Array",
+      "slug": "maximum-number-of-pairs-in-array",
+      "difficulty": "Easy",
+      "acceptance": 75.75078833873532,
+      "likes": 730,
+      "dislikes": 18
+    },
+    {
+      "position": 33,
+      "title": "Count Elements With Strictly Smaller and Greater Elements ",
+      "slug": "count-elements-with-strictly-smaller-and-greater-elements",
+      "difficulty": "Easy",
+      "acceptance": 59.38278315471797,
+      "likes": 693,
+      "dislikes": 44
+    },
+    {
+      "position": 34,
+      "title": "Check if Number Has Equal Digit Count and Digit Value",
+      "slug": "check-if-number-has-equal-digit-count-and-digit-value",
+      "difficulty": "Easy",
+      "acceptance": 72.77725153693282,
+      "likes": 664,
+      "dislikes": 96
+    },
+    {
+      "position": 35,
+      "title": "Check Whether Two Strings are Almost Equivalent",
+      "slug": "check-whether-two-strings-are-almost-equivalent",
+      "difficulty": "Easy",
+      "acceptance": 63.93163832294999,
+      "likes": 565,
+      "dislikes": 22
+    },
+    {
+      "position": 36,
+      "title": "Count Pairs Of Similar Strings",
+      "slug": "count-pairs-of-similar-strings",
+      "difficulty": "Easy",
+      "acceptance": 72.9569910201031,
+      "likes": 571,
+      "dislikes": 40
+    },
+    {
+      "position": 37,
+      "title": "Rearrange Characters to Make Target String",
+      "slug": "rearrange-characters-to-make-target-string",
+      "difficulty": "Easy",
+      "acceptance": 60.58115746038351,
+      "likes": 518,
+      "dislikes": 37
+    },
+    {
+      "position": 38,
+      "title": "Maximum Number of Balls in a Box",
+      "slug": "maximum-number-of-balls-in-a-box",
+      "difficulty": "Easy",
+      "acceptance": 74.46812490063873,
+      "likes": 644,
+      "dislikes": 167
+    },
+    {
+      "position": 39,
+      "title": "Find Most Frequent Vowel and Consonant",
+      "slug": "find-most-frequent-vowel-and-consonant",
+      "difficulty": "Easy",
+      "acceptance": 89.92496677956619,
+      "likes": 375,
+      "dislikes": 13
+    },
+    {
+      "position": 40,
+      "title": "Best Poker Hand",
+      "slug": "best-poker-hand",
+      "difficulty": "Easy",
+      "acceptance": 61.398655231725954,
+      "likes": 396,
+      "dislikes": 42
+    }
+  ]
+}

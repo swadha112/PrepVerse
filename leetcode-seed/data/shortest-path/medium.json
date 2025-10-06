@@ -1,0 +1,161 @@
+{
+  "frozen": true,
+  "createdAt": "2025-10-06T15:22:18.146Z",
+  "trackSlug": "shortest-path",
+  "difficulty": "MEDIUM",
+  "questions": [
+    {
+      "position": 1,
+      "title": "Cheapest Flights Within K Stops",
+      "slug": "cheapest-flights-within-k-stops",
+      "difficulty": "Medium",
+      "acceptance": 40.88896491278528,
+      "likes": 10888,
+      "dislikes": 459
+    },
+    {
+      "position": 2,
+      "title": "Evaluate Division",
+      "slug": "evaluate-division",
+      "difficulty": "Medium",
+      "acceptance": 63.57420256222027,
+      "likes": 9980,
+      "dislikes": 1064
+    },
+    {
+      "position": 3,
+      "title": "Network Delay Time",
+      "slug": "network-delay-time",
+      "difficulty": "Medium",
+      "acceptance": 58.685544928261876,
+      "likes": 8144,
+      "dislikes": 389
+    },
+    {
+      "position": 4,
+      "title": "Path with Maximum Probability",
+      "slug": "path-with-maximum-probability",
+      "difficulty": "Medium",
+      "acceptance": 65.36798055756644,
+      "likes": 3821,
+      "dislikes": 108
+    },
+    {
+      "position": 5,
+      "title": "Number of Ways to Arrive at Destination",
+      "slug": "number-of-ways-to-arrive-at-destination",
+      "difficulty": "Medium",
+      "acceptance": 37.2067486265599,
+      "likes": 3715,
+      "dislikes": 216
+    },
+    {
+      "position": 6,
+      "title": "Find the City With the Smallest Number of Neighbors at a Threshold Distance",
+      "slug": "find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance",
+      "difficulty": "Medium",
+      "acceptance": 71.34339167768321,
+      "likes": 3500,
+      "dislikes": 152
+    },
+    {
+      "position": 7,
+      "title": "Number of Restricted Paths From First to Last Node",
+      "slug": "number-of-restricted-paths-from-first-to-last-node",
+      "difficulty": "Medium",
+      "acceptance": 40.44704290437469,
+      "likes": 1174,
+      "dislikes": 229
+    },
+    {
+      "position": 8,
+      "title": "Minimum Cost to Convert String I",
+      "slug": "minimum-cost-to-convert-string-i",
+      "difficulty": "Medium",
+      "acceptance": 57.415753220778,
+      "likes": 948,
+      "dislikes": 65
+    },
+    {
+      "position": 9,
+      "title": "Minimum Cost of a Path With Special Roads",
+      "slug": "minimum-cost-of-a-path-with-special-roads",
+      "difficulty": "Medium",
+      "acceptance": 41.5328163943506,
+      "likes": 680,
+      "dislikes": 92
+    },
+    {
+      "position": 10,
+      "title": "Find Minimum Time to Reach Last Room I",
+      "slug": "find-minimum-time-to-reach-last-room-i",
+      "difficulty": "Medium",
+      "acceptance": 55.5385246752733,
+      "likes": 525,
+      "dislikes": 169
+    },
+    {
+      "position": 11,
+      "title": "Find Minimum Time to Reach Last Room II",
+      "slug": "find-minimum-time-to-reach-last-room-ii",
+      "difficulty": "Medium",
+      "acceptance": 68.14745282950221,
+      "likes": 344,
+      "dislikes": 55
+    },
+    {
+      "position": 12,
+      "title": "Minimize the Maximum Edge Weight of Graph",
+      "slug": "minimize-the-maximum-edge-weight-of-graph",
+      "difficulty": "Medium",
+      "acceptance": 43.23029071981719,
+      "likes": 229,
+      "dislikes": 19
+    },
+    {
+      "position": 13,
+      "title": "Find a Safe Walk Through a Grid",
+      "slug": "find-a-safe-walk-through-a-grid",
+      "difficulty": "Medium",
+      "acceptance": 31.546087446232125,
+      "likes": 210,
+      "dislikes": 13
+    },
+    {
+      "position": 14,
+      "title": "Minimum Time to Visit Disappearing Nodes",
+      "slug": "minimum-time-to-visit-disappearing-nodes",
+      "difficulty": "Medium",
+      "acceptance": 36.469144713099965,
+      "likes": 211,
+      "dislikes": 22
+    },
+    {
+      "position": 15,
+      "title": "Digit Operations to Make Two Integers Equal",
+      "slug": "digit-operations-to-make-two-integers-equal",
+      "difficulty": "Medium",
+      "acceptance": 28.58847709341643,
+      "likes": 127,
+      "dislikes": 39
+    },
+    {
+      "position": 16,
+      "title": "Minimum Time to Reach Destination in Directed Graph",
+      "slug": "minimum-time-to-reach-destination-in-directed-graph",
+      "difficulty": "Medium",
+      "acceptance": 45.556740289413554,
+      "likes": 80,
+      "dislikes": 4
+    },
+    {
+      "position": 17,
+      "title": "Minimum Cost Path with Edge Reversals",
+      "slug": "minimum-cost-path-with-edge-reversals",
+      "difficulty": "Medium",
+      "acceptance": 46.51194492723988,
+      "likes": 51,
+      "dislikes": 1
+    }
+  ]
+}

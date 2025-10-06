@@ -1,0 +1,368 @@
+{
+  "frozen": true,
+  "createdAt": "2025-10-06T15:19:22.028Z",
+  "trackSlug": "bit-manipulation",
+  "difficulty": "EASY",
+  "questions": [
+    {
+      "position": 1,
+      "title": "Single Number",
+      "slug": "single-number",
+      "difficulty": "Easy",
+      "acceptance": 76.6782229249824,
+      "likes": 18141,
+      "dislikes": 852
+    },
+    {
+      "position": 2,
+      "title": "Counting Bits",
+      "slug": "counting-bits",
+      "difficulty": "Easy",
+      "acceptance": 80.0859233504681,
+      "likes": 11710,
+      "dislikes": 596
+    },
+    {
+      "position": 3,
+      "title": "Missing Number",
+      "slug": "missing-number",
+      "difficulty": "Easy",
+      "acceptance": 70.88309832937203,
+      "likes": 13674,
+      "dislikes": 3441
+    },
+    {
+      "position": 4,
+      "title": "Add Binary",
+      "slug": "add-binary",
+      "difficulty": "Easy",
+      "acceptance": 56.21014496200978,
+      "likes": 10194,
+      "dislikes": 1078
+    },
+    {
+      "position": 5,
+      "title": "Count Complete Tree Nodes",
+      "slug": "count-complete-tree-nodes",
+      "difficulty": "Easy",
+      "acceptance": 71.09530577449452,
+      "likes": 9282,
+      "dislikes": 596
+    },
+    {
+      "position": 6,
+      "title": "Power of Two",
+      "slug": "power-of-two",
+      "difficulty": "Easy",
+      "acceptance": 49.441192336323475,
+      "likes": 7736,
+      "dislikes": 486
+    },
+    {
+      "position": 7,
+      "title": "Number of 1 Bits",
+      "slug": "number-of-1-bits",
+      "difficulty": "Easy",
+      "acceptance": 75.43210011595598,
+      "likes": 6983,
+      "dislikes": 1360
+    },
+    {
+      "position": 8,
+      "title": "Find the Difference",
+      "slug": "find-the-difference",
+      "difficulty": "Easy",
+      "acceptance": 59.85690948157758,
+      "likes": 5327,
+      "dislikes": 503
+    },
+    {
+      "position": 9,
+      "title": "Number of Steps to Reduce a Number to Zero",
+      "slug": "number-of-steps-to-reduce-a-number-to-zero",
+      "difficulty": "Easy",
+      "acceptance": 85.67626084455009,
+      "likes": 4166,
+      "dislikes": 178
+    },
+    {
+      "position": 10,
+      "title": "Power of Four",
+      "slug": "power-of-four",
+      "difficulty": "Easy",
+      "acceptance": 51.20191071549493,
+      "likes": 4383,
+      "dislikes": 414
+    },
+    {
+      "position": 11,
+      "title": "Set Mismatch",
+      "slug": "set-mismatch",
+      "difficulty": "Easy",
+      "acceptance": 45.29850189878136,
+      "likes": 5075,
+      "dislikes": 1199
+    },
+    {
+      "position": 12,
+      "title": "Reverse Bits",
+      "slug": "reverse-bits",
+      "difficulty": "Easy",
+      "acceptance": 64.53470488211228,
+      "likes": 5492,
+      "dislikes": 1630
+    },
+    {
+      "position": 13,
+      "title": "Hamming Distance",
+      "slug": "hamming-distance",
+      "difficulty": "Easy",
+      "acceptance": 76.33581662690607,
+      "likes": 3991,
+      "dislikes": 227
+    },
+    {
+      "position": 14,
+      "title": "Flipping an Image",
+      "slug": "flipping-an-image",
+      "difficulty": "Easy",
+      "acceptance": 83.2665373773172,
+      "likes": 3642,
+      "dislikes": 254
+    },
+    {
+      "position": 15,
+      "title": "Number Complement",
+      "slug": "number-complement",
+      "difficulty": "Easy",
+      "acceptance": 70.3937092909453,
+      "likes": 3166,
+      "dislikes": 144
+    },
+    {
+      "position": 16,
+      "title": "Sort Integers by The Number of 1 Bits",
+      "slug": "sort-integers-by-the-number-of-1-bits",
+      "difficulty": "Easy",
+      "acceptance": 78.8347104420945,
+      "likes": 2569,
+      "dislikes": 126
+    },
+    {
+      "position": 17,
+      "title": "Complement of Base 10 Integer",
+      "slug": "complement-of-base-10-integer",
+      "difficulty": "Easy",
+      "acceptance": 60.64435202470128,
+      "likes": 2564,
+      "dislikes": 122
+    },
+    {
+      "position": 18,
+      "title": "Sum of All Subset XOR Totals",
+      "slug": "sum-of-all-subset-xor-totals",
+      "difficulty": "Easy",
+      "acceptance": 90.06729214889127,
+      "likes": 2636,
+      "dislikes": 341
+    },
+    {
+      "position": 19,
+      "title": "Count the Number of Consistent Strings",
+      "slug": "count-the-number-of-consistent-strings",
+      "difficulty": "Easy",
+      "acceptance": 88.35744752913284,
+      "likes": 2236,
+      "dislikes": 89
+    },
+    {
+      "position": 20,
+      "title": "Minimum Bit Flips to Convert Number",
+      "slug": "minimum-bit-flips-to-convert-number",
+      "difficulty": "Easy",
+      "acceptance": 87.69954262435724,
+      "likes": 1534,
+      "dislikes": 35
+    },
+    {
+      "position": 21,
+      "title": "Decode XORed Array",
+      "slug": "decode-xored-array",
+      "difficulty": "Easy",
+      "acceptance": 87.14028948928278,
+      "likes": 1645,
+      "dislikes": 220
+    },
+    {
+      "position": 22,
+      "title": "Binary Number with Alternating Bits",
+      "slug": "binary-number-with-alternating-bits",
+      "difficulty": "Easy",
+      "acceptance": 63.724440286245596,
+      "likes": 1416,
+      "dislikes": 113
+    },
+    {
+      "position": 23,
+      "title": "Convert a Number to Hexadecimal",
+      "slug": "convert-a-number-to-hexadecimal",
+      "difficulty": "Easy",
+      "acceptance": 51.88212681409814,
+      "likes": 1399,
+      "dislikes": 228
+    },
+    {
+      "position": 24,
+      "title": "XOR Operation in an Array",
+      "slug": "xor-operation-in-an-array",
+      "difficulty": "Easy",
+      "acceptance": 87.14172927361649,
+      "likes": 1472,
+      "dislikes": 337
+    },
+    {
+      "position": 25,
+      "title": "Divide Array Into Equal Pairs",
+      "slug": "divide-array-into-equal-pairs",
+      "difficulty": "Easy",
+      "acceptance": 79.26044535304464,
+      "likes": 1176,
+      "dislikes": 50
+    },
+    {
+      "position": 26,
+      "title": "First Letter to Appear Twice",
+      "slug": "first-letter-to-appear-twice",
+      "difficulty": "Easy",
+      "acceptance": 74.52659958840259,
+      "likes": 1149,
+      "dislikes": 63
+    },
+    {
+      "position": 27,
+      "title": "Two Out of Three",
+      "slug": "two-out-of-three",
+      "difficulty": "Easy",
+      "acceptance": 76.9866785439527,
+      "likes": 805,
+      "dislikes": 52
+    },
+    {
+      "position": 28,
+      "title": "Binary Prefix Divisible By 5",
+      "slug": "binary-prefix-divisible-by-5",
+      "difficulty": "Easy",
+      "acceptance": 47.23266213102162,
+      "likes": 764,
+      "dislikes": 195
+    },
+    {
+      "position": 29,
+      "title": "Count Pairs Of Similar Strings",
+      "slug": "count-pairs-of-similar-strings",
+      "difficulty": "Easy",
+      "acceptance": 72.9569910201031,
+      "likes": 571,
+      "dislikes": 40
+    },
+    {
+      "position": 30,
+      "title": "Longest Nice Substring",
+      "slug": "longest-nice-substring",
+      "difficulty": "Easy",
+      "acceptance": 63.1080600358762,
+      "likes": 1458,
+      "dislikes": 953
+    },
+    {
+      "position": 31,
+      "title": "Find the K-th Character in String Game I",
+      "slug": "find-the-k-th-character-in-string-game-i",
+      "difficulty": "Easy",
+      "acceptance": 81.78316690442226,
+      "likes": 611,
+      "dislikes": 127
+    },
+    {
+      "position": 32,
+      "title": "Sum of Values at Indices With K Set Bits",
+      "slug": "sum-of-values-at-indices-with-k-set-bits",
+      "difficulty": "Easy",
+      "acceptance": 85.85645987695473,
+      "likes": 306,
+      "dislikes": 48
+    },
+    {
+      "position": 33,
+      "title": "Prime Number of Set Bits in Binary Representation",
+      "slug": "prime-number-of-set-bits-in-binary-representation",
+      "difficulty": "Easy",
+      "acceptance": 71.75652349921566,
+      "likes": 760,
+      "dislikes": 513
+    },
+    {
+      "position": 34,
+      "title": "Number of Even and Odd Bits",
+      "slug": "number-of-even-and-odd-bits",
+      "difficulty": "Easy",
+      "acceptance": 72.98804964171929,
+      "likes": 360,
+      "dislikes": 116
+    },
+    {
+      "position": 35,
+      "title": "Minimum Operations to Collect Elements",
+      "slug": "minimum-operations-to-collect-elements",
+      "difficulty": "Easy",
+      "acceptance": 61.66070666097353,
+      "likes": 198,
+      "dislikes": 24
+    },
+    {
+      "position": 36,
+      "title": "Maximum Strong Pair XOR I",
+      "slug": "maximum-strong-pair-xor-i",
+      "difficulty": "Easy",
+      "acceptance": 75.45888503722226,
+      "likes": 178,
+      "dislikes": 26
+    },
+    {
+      "position": 37,
+      "title": "Find the XOR of Numbers Which Appear Twice",
+      "slug": "find-the-xor-of-numbers-which-appear-twice",
+      "difficulty": "Easy",
+      "acceptance": 78.20115809225598,
+      "likes": 155,
+      "dislikes": 14
+    },
+    {
+      "position": 38,
+      "title": "Check if Bitwise OR Has Trailing Zeros",
+      "slug": "check-if-bitwise-or-has-trailing-zeros",
+      "difficulty": "Easy",
+      "acceptance": 70.312548786961,
+      "likes": 125,
+      "dislikes": 11
+    },
+    {
+      "position": 39,
+      "title": "Shortest Subarray With OR at Least K I",
+      "slug": "shortest-subarray-with-or-at-least-k-i",
+      "difficulty": "Easy",
+      "acceptance": 43.42555175629468,
+      "likes": 127,
+      "dislikes": 21
+    },
+    {
+      "position": 40,
+      "title": "Number of Bit Changes to Make Two Integers Equal",
+      "slug": "number-of-bit-changes-to-make-two-integers-equal",
+      "difficulty": "Easy",
+      "acceptance": 63.01639005222067,
+      "likes": 98,
+      "dislikes": 7
+    }
+  ]
+}

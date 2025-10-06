@@ -1,0 +1,368 @@
+{
+  "frozen": true,
+  "createdAt": "2025-10-06T15:21:25.737Z",
+  "trackSlug": "segment-tree",
+  "difficulty": "HARD",
+  "questions": [
+    {
+      "position": 1,
+      "title": "Count of Smaller Numbers After Self",
+      "slug": "count-of-smaller-numbers-after-self",
+      "difficulty": "Hard",
+      "acceptance": 43.02822755550983,
+      "likes": 9134,
+      "dislikes": 249
+    },
+    {
+      "position": 2,
+      "title": "Reverse Pairs",
+      "slug": "reverse-pairs",
+      "difficulty": "Hard",
+      "acceptance": 32.930035254420645,
+      "likes": 6777,
+      "dislikes": 291
+    },
+    {
+      "position": 3,
+      "title": "The Skyline Problem",
+      "slug": "the-skyline-problem",
+      "difficulty": "Hard",
+      "acceptance": 44.367777658891505,
+      "likes": 6127,
+      "dislikes": 281
+    },
+    {
+      "position": 4,
+      "title": "Count of Range Sum",
+      "slug": "count-of-range-sum",
+      "difficulty": "Hard",
+      "acceptance": 37.551573153927855,
+      "likes": 2461,
+      "dislikes": 259
+    },
+    {
+      "position": 5,
+      "title": "My Calendar III",
+      "slug": "my-calendar-iii",
+      "difficulty": "Hard",
+      "acceptance": 70.93833888930212,
+      "likes": 2051,
+      "dislikes": 275
+    },
+    {
+      "position": 6,
+      "title": "Range Module",
+      "slug": "range-module",
+      "difficulty": "Hard",
+      "acceptance": 44.33590584994329,
+      "likes": 1577,
+      "dislikes": 134
+    },
+    {
+      "position": 7,
+      "title": "Rectangle Area II",
+      "slug": "rectangle-area-ii",
+      "difficulty": "Hard",
+      "acceptance": 54.95501626492085,
+      "likes": 1020,
+      "dislikes": 64
+    },
+    {
+      "position": 8,
+      "title": "Longest Increasing Subsequence II",
+      "slug": "longest-increasing-subsequence-ii",
+      "difficulty": "Hard",
+      "acceptance": 25.697057517470263,
+      "likes": 941,
+      "dislikes": 41
+    },
+    {
+      "position": 9,
+      "title": "Count Good Triplets in an Array",
+      "slug": "count-good-triplets-in-an-array",
+      "difficulty": "Hard",
+      "acceptance": 65.88373355752894,
+      "likes": 994,
+      "dislikes": 114
+    },
+    {
+      "position": 10,
+      "title": "Find Building Where Alice and Bob Can Meet",
+      "slug": "find-building-where-alice-and-bob-can-meet",
+      "difficulty": "Hard",
+      "acceptance": 52.18301370654002,
+      "likes": 815,
+      "dislikes": 57
+    },
+    {
+      "position": 11,
+      "title": "Create Sorted Array through Instructions",
+      "slug": "create-sorted-array-through-instructions",
+      "difficulty": "Hard",
+      "acceptance": 40.67350591755497,
+      "likes": 682,
+      "dislikes": 81
+    },
+    {
+      "position": 12,
+      "title": "Falling Squares",
+      "slug": "falling-squares",
+      "difficulty": "Hard",
+      "acceptance": 46.72166678319234,
+      "likes": 666,
+      "dislikes": 76
+    },
+    {
+      "position": 13,
+      "title": "Online Majority Element In Subarray",
+      "slug": "online-majority-element-in-subarray",
+      "difficulty": "Hard",
+      "acceptance": 39.62088130210401,
+      "likes": 654,
+      "dislikes": 64
+    },
+    {
+      "position": 14,
+      "title": "Number of Pairs Satisfying Inequality",
+      "slug": "number-of-pairs-satisfying-inequality",
+      "difficulty": "Hard",
+      "acceptance": 46.23145867183815,
+      "likes": 563,
+      "dislikes": 11
+    },
+    {
+      "position": 15,
+      "title": "Count Integers in Intervals",
+      "slug": "count-integers-in-intervals",
+      "difficulty": "Hard",
+      "acceptance": 34.88235607960305,
+      "likes": 610,
+      "dislikes": 63
+    },
+    {
+      "position": 16,
+      "title": "Make Array Empty",
+      "slug": "make-array-empty",
+      "difficulty": "Hard",
+      "acceptance": 25.963371656363744,
+      "likes": 568,
+      "dislikes": 35
+    },
+    {
+      "position": 17,
+      "title": "Minimum Possible Integer After at Most K Adjacent Swaps On Digits",
+      "slug": "minimum-possible-integer-after-at-most-k-adjacent-swaps-on-digits",
+      "difficulty": "Hard",
+      "acceptance": 40.5122583217062,
+      "likes": 499,
+      "dislikes": 28
+    },
+    {
+      "position": 18,
+      "title": "Find a Value of a Mysterious Function Closest to Target",
+      "slug": "find-a-value-of-a-mysterious-function-closest-to-target",
+      "difficulty": "Hard",
+      "acceptance": 46.32428414681627,
+      "likes": 401,
+      "dislikes": 19
+    },
+    {
+      "position": 19,
+      "title": "Delivering Boxes from Storage to Ports",
+      "slug": "delivering-boxes-from-storage-to-ports",
+      "difficulty": "Hard",
+      "acceptance": 39.5955395955396,
+      "likes": 401,
+      "dislikes": 32
+    },
+    {
+      "position": 20,
+      "title": "Maximum Sum Queries",
+      "slug": "maximum-sum-queries",
+      "difficulty": "Hard",
+      "acceptance": 29.107637819525717,
+      "likes": 350,
+      "dislikes": 16
+    },
+    {
+      "position": 21,
+      "title": "Booking Concert Tickets in Groups",
+      "slug": "booking-concert-tickets-in-groups",
+      "difficulty": "Hard",
+      "acceptance": 17.981363208041042,
+      "likes": 348,
+      "dislikes": 60
+    },
+    {
+      "position": 22,
+      "title": "Maximum Balanced Subsequence Sum",
+      "slug": "maximum-balanced-subsequence-sum",
+      "difficulty": "Hard",
+      "acceptance": 25.216092812221806,
+      "likes": 266,
+      "dislikes": 10
+    },
+    {
+      "position": 23,
+      "title": "Maximize Subarrays After Removing One Conflicting Pair",
+      "slug": "maximize-subarrays-after-removing-one-conflicting-pair",
+      "difficulty": "Hard",
+      "acceptance": 64.86402000625195,
+      "likes": 299,
+      "dislikes": 55
+    },
+    {
+      "position": 24,
+      "title": "Fancy Sequence",
+      "slug": "fancy-sequence",
+      "difficulty": "Hard",
+      "acceptance": 17.721882770426458,
+      "likes": 385,
+      "dislikes": 142
+    },
+    {
+      "position": 25,
+      "title": "Longest Substring of One Repeating Character",
+      "slug": "longest-substring-of-one-repeating-character",
+      "difficulty": "Hard",
+      "acceptance": 33.737517831669045,
+      "likes": 319,
+      "dislikes": 84
+    },
+    {
+      "position": 26,
+      "title": "Find Subarray With Bitwise OR Closest to K",
+      "slug": "find-subarray-with-bitwise-or-closest-to-k",
+      "difficulty": "Hard",
+      "acceptance": 30.25515900913941,
+      "likes": 197,
+      "dislikes": 7
+    },
+    {
+      "position": 27,
+      "title": "Handling Sum Queries After Update",
+      "slug": "handling-sum-queries-after-update",
+      "difficulty": "Hard",
+      "acceptance": 29.90618979814055,
+      "likes": 193,
+      "dislikes": 25
+    },
+    {
+      "position": 28,
+      "title": "Number of Subarrays With AND Value of K",
+      "slug": "number-of-subarrays-with-and-value-of-k",
+      "difficulty": "Hard",
+      "acceptance": 34.37761944677284,
+      "likes": 166,
+      "dislikes": 7
+    },
+    {
+      "position": 29,
+      "title": "Subarrays Distinct Element Sum of Squares II",
+      "slug": "subarrays-distinct-element-sum-of-squares-ii",
+      "difficulty": "Hard",
+      "acceptance": 21.393164623010698,
+      "likes": 155,
+      "dislikes": 11
+    },
+    {
+      "position": 30,
+      "title": "Distribute Elements Into Two Arrays II",
+      "slug": "distribute-elements-into-two-arrays-ii",
+      "difficulty": "Hard",
+      "acceptance": 29.70279086625589,
+      "likes": 151,
+      "dislikes": 14
+    },
+    {
+      "position": 31,
+      "title": "Minimum Sum of Values by Dividing Array",
+      "slug": "minimum-sum-of-values-by-dividing-array",
+      "difficulty": "Hard",
+      "acceptance": 27.33358755984916,
+      "likes": 134,
+      "dislikes": 4
+    },
+    {
+      "position": 32,
+      "title": "Peaks in Array",
+      "slug": "peaks-in-array",
+      "difficulty": "Hard",
+      "acceptance": 26.374051336588195,
+      "likes": 135,
+      "dislikes": 10
+    },
+    {
+      "position": 33,
+      "title": "Maximum Sum of Subsequence With Non-adjacent Elements",
+      "slug": "maximum-sum-of-subsequence-with-non-adjacent-elements",
+      "difficulty": "Hard",
+      "acceptance": 14.897229490841541,
+      "likes": 146,
+      "dislikes": 31
+    },
+    {
+      "position": 34,
+      "title": "Block Placement Queries",
+      "slug": "block-placement-queries",
+      "difficulty": "Hard",
+      "acceptance": 17.55318310125684,
+      "likes": 144,
+      "dislikes": 31
+    },
+    {
+      "position": 35,
+      "title": "Count Non-Decreasing Subarrays After K Operations",
+      "slug": "count-non-decreasing-subarrays-after-k-operations",
+      "difficulty": "Hard",
+      "acceptance": 22.09207641716254,
+      "likes": 78,
+      "dislikes": 5
+    },
+    {
+      "position": 36,
+      "title": "Minimum Number of Valid Strings to Form Target II",
+      "slug": "minimum-number-of-valid-strings-to-form-target-ii",
+      "difficulty": "Hard",
+      "acceptance": 18.629229434497987,
+      "likes": 79,
+      "dislikes": 11
+    },
+    {
+      "position": 37,
+      "title": "Maximum Total Subarray Value II",
+      "slug": "maximum-total-subarray-value-ii",
+      "difficulty": "Hard",
+      "acceptance": 10.914625308015655,
+      "likes": 68,
+      "dislikes": 4
+    },
+    {
+      "position": 38,
+      "title": "Maximize Subarray Sum After Removing All Occurrences of One Element",
+      "slug": "maximize-subarray-sum-after-removing-all-occurrences-of-one-element",
+      "difficulty": "Hard",
+      "acceptance": 20.765813677031847,
+      "likes": 58,
+      "dislikes": 5
+    },
+    {
+      "position": 39,
+      "title": "Shortest Path in a Weighted Tree",
+      "slug": "shortest-path-in-a-weighted-tree",
+      "difficulty": "Hard",
+      "acceptance": 39.43606036536934,
+      "likes": 54,
+      "dislikes": 2
+    },
+    {
+      "position": 40,
+      "title": "Maximum Area Rectangle With Point Constraints II",
+      "slug": "maximum-area-rectangle-with-point-constraints-ii",
+      "difficulty": "Hard",
+      "acceptance": 21.23105898467597,
+      "likes": 45,
+      "dislikes": 9
+    }
+  ]
+}

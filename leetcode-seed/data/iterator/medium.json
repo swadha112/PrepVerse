@@ -1,0 +1,53 @@
+{
+  "frozen": true,
+  "createdAt": "2025-10-06T15:23:06.571Z",
+  "trackSlug": "iterator",
+  "difficulty": "MEDIUM",
+  "questions": [
+    {
+      "position": 1,
+      "title": "Binary Search Tree Iterator",
+      "slug": "binary-search-tree-iterator",
+      "difficulty": "Medium",
+      "acceptance": 75.57496783616851,
+      "likes": 9077,
+      "dislikes": 567
+    },
+    {
+      "position": 2,
+      "title": "Flatten Nested List Iterator",
+      "slug": "flatten-nested-list-iterator",
+      "difficulty": "Medium",
+      "acceptance": 65.39474153252296,
+      "likes": 5025,
+      "dislikes": 1791
+    },
+    {
+      "position": 3,
+      "title": "Iterator for Combination",
+      "slug": "iterator-for-combination",
+      "difficulty": "Medium",
+      "acceptance": 72.57766840972009,
+      "likes": 1381,
+      "dislikes": 108
+    },
+    {
+      "position": 4,
+      "title": "Peeking Iterator",
+      "slug": "peeking-iterator",
+      "difficulty": "Medium",
+      "acceptance": 60.74155232082921,
+      "likes": 1891,
+      "dislikes": 1045
+    },
+    {
+      "position": 5,
+      "title": "RLE Iterator",
+      "slug": "rle-iterator",
+      "difficulty": "Medium",
+      "acceptance": 58.98362611301248,
+      "likes": 762,
+      "dislikes": 198
+    }
+  ]
+}

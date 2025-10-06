@@ -1,0 +1,368 @@
+{
+  "frozen": true,
+  "createdAt": "2025-10-06T15:17:49.885Z",
+  "trackSlug": "math",
+  "difficulty": "EASY",
+  "questions": [
+    {
+      "position": 1,
+      "title": "Climbing Stairs",
+      "slug": "climbing-stairs",
+      "difficulty": "Easy",
+      "acceptance": 53.71615479909815,
+      "likes": 23768,
+      "dislikes": 990
+    },
+    {
+      "position": 2,
+      "title": "Roman to Integer",
+      "slug": "roman-to-integer",
+      "difficulty": "Easy",
+      "acceptance": 65.57338407764898,
+      "likes": 16695,
+      "dislikes": 1162
+    },
+    {
+      "position": 3,
+      "title": "Palindrome Number",
+      "slug": "palindrome-number",
+      "difficulty": "Easy",
+      "acceptance": 59.73277589192525,
+      "likes": 14840,
+      "dislikes": 2863
+    },
+    {
+      "position": 4,
+      "title": "Missing Number",
+      "slug": "missing-number",
+      "difficulty": "Easy",
+      "acceptance": 70.88309832937203,
+      "likes": 13674,
+      "dislikes": 3441
+    },
+    {
+      "position": 5,
+      "title": "Happy Number",
+      "slug": "happy-number",
+      "difficulty": "Easy",
+      "acceptance": 58.65929709717786,
+      "likes": 11489,
+      "dislikes": 1596
+    },
+    {
+      "position": 6,
+      "title": "Add Binary",
+      "slug": "add-binary",
+      "difficulty": "Easy",
+      "acceptance": 56.21014496200978,
+      "likes": 10194,
+      "dislikes": 1078
+    },
+    {
+      "position": 7,
+      "title": "Fibonacci Number",
+      "slug": "fibonacci-number",
+      "difficulty": "Easy",
+      "acceptance": 73.44521737606749,
+      "likes": 8993,
+      "dislikes": 393
+    },
+    {
+      "position": 8,
+      "title": "Power of Two",
+      "slug": "power-of-two",
+      "difficulty": "Easy",
+      "acceptance": 49.441192336323475,
+      "likes": 7736,
+      "dislikes": 486
+    },
+    {
+      "position": 9,
+      "title": "Number of Good Pairs",
+      "slug": "number-of-good-pairs",
+      "difficulty": "Easy",
+      "acceptance": 89.66912191558782,
+      "likes": 5764,
+      "dislikes": 281
+    },
+    {
+      "position": 10,
+      "title": "Plus One",
+      "slug": "plus-one",
+      "difficulty": "Easy",
+      "acceptance": 48.13068763966151,
+      "likes": 10841,
+      "dislikes": 5539
+    },
+    {
+      "position": 11,
+      "title": "Excel Sheet Column Title",
+      "slug": "excel-sheet-column-title",
+      "difficulty": "Easy",
+      "acceptance": 44.60761270417182,
+      "likes": 5940,
+      "dislikes": 901
+    },
+    {
+      "position": 12,
+      "title": "Sqrt(x)",
+      "slug": "sqrtx",
+      "difficulty": "Easy",
+      "acceptance": 40.838895063624086,
+      "likes": 9243,
+      "dislikes": 4611
+    },
+    {
+      "position": 13,
+      "title": "Excel Sheet Column Number",
+      "slug": "excel-sheet-column-number",
+      "difficulty": "Easy",
+      "acceptance": 66.45197240896191,
+      "likes": 5006,
+      "dislikes": 394
+    },
+    {
+      "position": 14,
+      "title": "Add Strings",
+      "slug": "add-strings",
+      "difficulty": "Easy",
+      "acceptance": 51.93193851971066,
+      "likes": 5342,
+      "dislikes": 819
+    },
+    {
+      "position": 15,
+      "title": "N-th Tribonacci Number",
+      "slug": "n-th-tribonacci-number",
+      "difficulty": "Easy",
+      "acceptance": 63.443075088050385,
+      "likes": 4725,
+      "dislikes": 208
+    },
+    {
+      "position": 16,
+      "title": "Convert Binary Number in a Linked List to Integer",
+      "slug": "convert-binary-number-in-a-linked-list-to-integer",
+      "difficulty": "Easy",
+      "acceptance": 82.30212112306369,
+      "likes": 4634,
+      "dislikes": 177
+    },
+    {
+      "position": 17,
+      "title": "Greatest Common Divisor of Strings",
+      "slug": "greatest-common-divisor-of-strings",
+      "difficulty": "Easy",
+      "acceptance": 52.955051388964634,
+      "likes": 5850,
+      "dislikes": 1623
+    },
+    {
+      "position": 18,
+      "title": "Valid Perfect Square",
+      "slug": "valid-perfect-square",
+      "difficulty": "Easy",
+      "acceptance": 44.414490744306654,
+      "likes": 4550,
+      "dislikes": 330
+    },
+    {
+      "position": 19,
+      "title": "Number of Steps to Reduce a Number to Zero",
+      "slug": "number-of-steps-to-reduce-a-number-to-zero",
+      "difficulty": "Easy",
+      "acceptance": 85.67626084455009,
+      "likes": 4166,
+      "dislikes": 178
+    },
+    {
+      "position": 20,
+      "title": "Power of Four",
+      "slug": "power-of-four",
+      "difficulty": "Easy",
+      "acceptance": 51.20191071549493,
+      "likes": 4383,
+      "dislikes": 414
+    },
+    {
+      "position": 21,
+      "title": "Maximum Product of Three Numbers",
+      "slug": "maximum-product-of-three-numbers",
+      "difficulty": "Easy",
+      "acceptance": 45.47253849997635,
+      "likes": 4452,
+      "dislikes": 710
+    },
+    {
+      "position": 22,
+      "title": "Sum of All Odd Length Subarrays",
+      "slug": "sum-of-all-odd-length-subarrays",
+      "difficulty": "Easy",
+      "acceptance": 83.65186059252392,
+      "likes": 3841,
+      "dislikes": 324
+    },
+    {
+      "position": 23,
+      "title": "Add Digits",
+      "slug": "add-digits",
+      "difficulty": "Easy",
+      "acceptance": 68.23388118555458,
+      "likes": 5286,
+      "dislikes": 1968
+    },
+    {
+      "position": 24,
+      "title": "Power of Three",
+      "slug": "power-of-three",
+      "difficulty": "Easy",
+      "acceptance": 50.14816392973035,
+      "likes": 3616,
+      "dislikes": 306
+    },
+    {
+      "position": 25,
+      "title": "Add to Array-Form of Integer",
+      "slug": "add-to-array-form-of-integer",
+      "difficulty": "Easy",
+      "acceptance": 45.13818612009863,
+      "likes": 3599,
+      "dislikes": 313
+    },
+    {
+      "position": 26,
+      "title": "Maximum 69 Number",
+      "slug": "maximum-69-number",
+      "difficulty": "Easy",
+      "acceptance": 84.46821298600396,
+      "likes": 3257,
+      "dislikes": 238
+    },
+    {
+      "position": 27,
+      "title": "Largest Perimeter Triangle",
+      "slug": "largest-perimeter-triangle",
+      "difficulty": "Easy",
+      "acceptance": 61.45173406882595,
+      "likes": 3358,
+      "dislikes": 439
+    },
+    {
+      "position": 28,
+      "title": "Arranging Coins",
+      "slug": "arranging-coins",
+      "difficulty": "Easy",
+      "acceptance": 47.602597263178374,
+      "likes": 4212,
+      "dislikes": 1370
+    },
+    {
+      "position": 29,
+      "title": "Fizz Buzz",
+      "slug": "fizz-buzz",
+      "difficulty": "Easy",
+      "acceptance": 74.81673758262625,
+      "likes": 3178,
+      "dislikes": 442
+    },
+    {
+      "position": 30,
+      "title": "Find Numbers with Even Number of Digits",
+      "slug": "find-numbers-with-even-number-of-digits",
+      "difficulty": "Easy",
+      "acceptance": 79.51113299151868,
+      "likes": 2847,
+      "dislikes": 142
+    },
+    {
+      "position": 31,
+      "title": "Count Odd Numbers in an Interval Range",
+      "slug": "count-odd-numbers-in-an-interval-range",
+      "difficulty": "Easy",
+      "acceptance": 50.85724538312678,
+      "likes": 2822,
+      "dislikes": 164
+    },
+    {
+      "position": 32,
+      "title": "Subtract the Product and Sum of Digits of an Integer",
+      "slug": "subtract-the-product-and-sum-of-digits-of-an-integer",
+      "difficulty": "Easy",
+      "acceptance": 86.55147994420199,
+      "likes": 2748,
+      "dislikes": 247
+    },
+    {
+      "position": 33,
+      "title": "Check If It Is a Straight Line",
+      "slug": "check-if-it-is-a-straight-line",
+      "difficulty": "Easy",
+      "acceptance": 39.80384464495881,
+      "likes": 2679,
+      "dislikes": 293
+    },
+    {
+      "position": 34,
+      "title": "Largest Odd Number in String",
+      "slug": "largest-odd-number-in-string",
+      "difficulty": "Easy",
+      "acceptance": 66.28423820716297,
+      "likes": 2439,
+      "dislikes": 143
+    },
+    {
+      "position": 35,
+      "title": "Sum of All Subset XOR Totals",
+      "slug": "sum-of-all-subset-xor-totals",
+      "difficulty": "Easy",
+      "acceptance": 90.06729214889127,
+      "likes": 2636,
+      "dislikes": 341
+    },
+    {
+      "position": 36,
+      "title": "Minimum Cost to Move Chips to The Same Position",
+      "slug": "minimum-cost-to-move-chips-to-the-same-position",
+      "difficulty": "Easy",
+      "acceptance": 72.54261169946821,
+      "likes": 2424,
+      "dislikes": 344
+    },
+    {
+      "position": 37,
+      "title": "Minimum Time Visiting All Points",
+      "slug": "minimum-time-visiting-all-points",
+      "difficulty": "Easy",
+      "acceptance": 82.62601704299264,
+      "likes": 2320,
+      "dislikes": 246
+    },
+    {
+      "position": 38,
+      "title": "Sign of the Product of an Array",
+      "slug": "sign-of-the-product-of-an-array",
+      "difficulty": "Easy",
+      "acceptance": 64.86218492453078,
+      "likes": 2261,
+      "dislikes": 224
+    },
+    {
+      "position": 39,
+      "title": "Water Bottles",
+      "slug": "water-bottles",
+      "difficulty": "Easy",
+      "acceptance": 72.74476210358095,
+      "likes": 2179,
+      "dislikes": 175
+    },
+    {
+      "position": 40,
+      "title": "Ugly Number",
+      "slug": "ugly-number",
+      "difficulty": "Easy",
+      "acceptance": 42.66915116552714,
+      "likes": 3704,
+      "dislikes": 1773
+    }
+  ]
+}

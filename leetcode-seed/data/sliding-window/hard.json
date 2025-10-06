@@ -1,0 +1,341 @@
+{
+  "frozen": true,
+  "createdAt": "2025-10-06T15:20:39.426Z",
+  "trackSlug": "sliding-window",
+  "difficulty": "HARD",
+  "questions": [
+    {
+      "position": 1,
+      "title": "Sliding Window Maximum",
+      "slug": "sliding-window-maximum",
+      "difficulty": "Hard",
+      "acceptance": 48.00052354509574,
+      "likes": 19750,
+      "dislikes": 787
+    },
+    {
+      "position": 2,
+      "title": "Minimum Window Substring",
+      "slug": "minimum-window-substring",
+      "difficulty": "Hard",
+      "acceptance": 46.14637283807784,
+      "likes": 19472,
+      "dislikes": 821
+    },
+    {
+      "position": 3,
+      "title": "Subarrays with K Different Integers",
+      "slug": "subarrays-with-k-different-integers",
+      "difficulty": "Hard",
+      "acceptance": 66.8615869381782,
+      "likes": 6707,
+      "dislikes": 110
+    },
+    {
+      "position": 4,
+      "title": "Shortest Subarray with Sum at Least K",
+      "slug": "shortest-subarray-with-sum-at-least-k",
+      "difficulty": "Hard",
+      "acceptance": 32.36762876561683,
+      "likes": 5099,
+      "dislikes": 143
+    },
+    {
+      "position": 5,
+      "title": "Smallest Range Covering Elements from K Lists",
+      "slug": "smallest-range-covering-elements-from-k-lists",
+      "difficulty": "Hard",
+      "acceptance": 69.88424545468447,
+      "likes": 4296,
+      "dislikes": 99
+    },
+    {
+      "position": 6,
+      "title": "Count Subarrays With Fixed Bounds",
+      "slug": "count-subarrays-with-fixed-bounds",
+      "difficulty": "Hard",
+      "acceptance": 69.30518989257074,
+      "likes": 3706,
+      "dislikes": 95
+    },
+    {
+      "position": 7,
+      "title": "Sliding Window Median",
+      "slug": "sliding-window-median",
+      "difficulty": "Hard",
+      "acceptance": 38.769503012919124,
+      "likes": 3469,
+      "dislikes": 228
+    },
+    {
+      "position": 8,
+      "title": "Maximum Sum of 3 Non-Overlapping Subarrays",
+      "slug": "maximum-sum-of-3-non-overlapping-subarrays",
+      "difficulty": "Hard",
+      "acceptance": 59.57127814074384,
+      "likes": 2589,
+      "dislikes": 158
+    },
+    {
+      "position": 9,
+      "title": "Constrained Subsequence Sum",
+      "slug": "constrained-subsequence-sum",
+      "difficulty": "Hard",
+      "acceptance": 56.35944847883809,
+      "likes": 2211,
+      "dislikes": 107
+    },
+    {
+      "position": 10,
+      "title": "Substring with Concatenation of All Words",
+      "slug": "substring-with-concatenation-of-all-words",
+      "difficulty": "Hard",
+      "acceptance": 33.37222604130448,
+      "likes": 2418,
+      "dislikes": 402
+    },
+    {
+      "position": 11,
+      "title": "Minimum Number of K Consecutive Bit Flips",
+      "slug": "minimum-number-of-k-consecutive-bit-flips",
+      "difficulty": "Hard",
+      "acceptance": 62.2346565188378,
+      "likes": 2037,
+      "dislikes": 90
+    },
+    {
+      "position": 12,
+      "title": "Longest Duplicate Substring",
+      "slug": "longest-duplicate-substring",
+      "difficulty": "Hard",
+      "acceptance": 30.90434002813983,
+      "likes": 2313,
+      "dislikes": 393
+    },
+    {
+      "position": 13,
+      "title": "Minimum Number of Operations to Make Array Continuous",
+      "slug": "minimum-number-of-operations-to-make-array-continuous",
+      "difficulty": "Hard",
+      "acceptance": 52.156541592217586,
+      "likes": 1965,
+      "dislikes": 53
+    },
+    {
+      "position": 14,
+      "title": "Count Subarrays With Score Less Than K",
+      "slug": "count-subarrays-with-score-less-than-k",
+      "difficulty": "Hard",
+      "acceptance": 62.30963323420744,
+      "likes": 1573,
+      "dislikes": 60
+    },
+    {
+      "position": 15,
+      "title": "Max Value of Equation",
+      "slug": "max-value-of-equation",
+      "difficulty": "Hard",
+      "acceptance": 44.75619260614686,
+      "likes": 1397,
+      "dislikes": 62
+    },
+    {
+      "position": 16,
+      "title": "Contains Duplicate III",
+      "slug": "contains-duplicate-iii",
+      "difficulty": "Hard",
+      "acceptance": 23.973838630409748,
+      "likes": 1213,
+      "dislikes": 136
+    },
+    {
+      "position": 17,
+      "title": "Maximum Fruits Harvested After at Most K Steps",
+      "slug": "maximum-fruits-harvested-after-at-most-k-steps",
+      "difficulty": "Hard",
+      "acceptance": 61.05363956879416,
+      "likes": 986,
+      "dislikes": 42
+    },
+    {
+      "position": 18,
+      "title": "Maximum Number of Robots Within Budget",
+      "slug": "maximum-number-of-robots-within-budget",
+      "difficulty": "Hard",
+      "acceptance": 37.36491257464964,
+      "likes": 887,
+      "dislikes": 20
+    },
+    {
+      "position": 19,
+      "title": "Minimum Adjacent Swaps for K Consecutive Ones",
+      "slug": "minimum-adjacent-swaps-for-k-consecutive-ones",
+      "difficulty": "Hard",
+      "acceptance": 42.116071146494804,
+      "likes": 739,
+      "dislikes": 29
+    },
+    {
+      "position": 20,
+      "title": "Length of the Longest Valid Substring",
+      "slug": "length-of-the-longest-valid-substring",
+      "difficulty": "Hard",
+      "acceptance": 38.010009847415816,
+      "likes": 606,
+      "dislikes": 30
+    },
+    {
+      "position": 21,
+      "title": "Maximize the Minimum Powered City",
+      "slug": "maximize-the-minimum-powered-city",
+      "difficulty": "Hard",
+      "acceptance": 33.49950849599775,
+      "likes": 493,
+      "dislikes": 11
+    },
+    {
+      "position": 22,
+      "title": "Apply Operations to Maximize Frequency Score",
+      "slug": "apply-operations-to-maximize-frequency-score",
+      "difficulty": "Hard",
+      "acceptance": 37.403349183378126,
+      "likes": 289,
+      "dislikes": 8
+    },
+    {
+      "position": 23,
+      "title": "Maximum Difference Between Even and Odd Frequency II",
+      "slug": "maximum-difference-between-even-and-odd-frequency-ii",
+      "difficulty": "Hard",
+      "acceptance": 48.90494907231309,
+      "likes": 378,
+      "dislikes": 102
+    },
+    {
+      "position": 24,
+      "title": "Count Complete Substrings",
+      "slug": "count-complete-substrings",
+      "difficulty": "Hard",
+      "acceptance": 29.227011494252874,
+      "likes": 250,
+      "dislikes": 39
+    },
+    {
+      "position": 25,
+      "title": "Maximum Strong Pair XOR II",
+      "slug": "maximum-strong-pair-xor-ii",
+      "difficulty": "Hard",
+      "acceptance": 31.434169278996865,
+      "likes": 202,
+      "dislikes": 2
+    },
+    {
+      "position": 26,
+      "title": "Find the Median of the Uniqueness Array",
+      "slug": "find-the-median-of-the-uniqueness-array",
+      "difficulty": "Hard",
+      "acceptance": 29.12835078998757,
+      "likes": 173,
+      "dislikes": 13
+    },
+    {
+      "position": 27,
+      "title": "Count of Sub-Multisets With Bounded Sum",
+      "slug": "count-of-sub-multisets-with-bounded-sum",
+      "difficulty": "Hard",
+      "acceptance": 21.191103533787974,
+      "likes": 159,
+      "dislikes": 26
+    },
+    {
+      "position": 28,
+      "title": "Count Substrings That Satisfy K-Constraint II",
+      "slug": "count-substrings-that-satisfy-k-constraint-ii",
+      "difficulty": "Hard",
+      "acceptance": 22.244347645716655,
+      "likes": 140,
+      "dislikes": 12
+    },
+    {
+      "position": 29,
+      "title": "Divide an Array Into Subarrays With Minimum Cost II",
+      "slug": "divide-an-array-into-subarrays-with-minimum-cost-ii",
+      "difficulty": "Hard",
+      "acceptance": 30.740184704972478,
+      "likes": 135,
+      "dislikes": 19
+    },
+    {
+      "position": 30,
+      "title": "Count Substrings That Can Be Rearranged to Contain a String II",
+      "slug": "count-substrings-that-can-be-rearranged-to-contain-a-string-ii",
+      "difficulty": "Hard",
+      "acceptance": 55.5292014712454,
+      "likes": 85,
+      "dislikes": 5
+    },
+    {
+      "position": 31,
+      "title": "Find X-Sum of All K-Long Subarrays II",
+      "slug": "find-x-sum-of-all-k-long-subarrays-ii",
+      "difficulty": "Hard",
+      "acceptance": 16.57309595922287,
+      "likes": 84,
+      "dislikes": 4
+    },
+    {
+      "position": 32,
+      "title": "Count Non-Decreasing Subarrays After K Operations",
+      "slug": "count-non-decreasing-subarrays-after-k-operations",
+      "difficulty": "Hard",
+      "acceptance": 22.09207641716254,
+      "likes": 78,
+      "dislikes": 5
+    },
+    {
+      "position": 33,
+      "title": "Maximum Frequency of an Element After Performing Operations II",
+      "slug": "maximum-frequency-of-an-element-after-performing-operations-ii",
+      "difficulty": "Hard",
+      "acceptance": 37.40213523131673,
+      "likes": 73,
+      "dislikes": 6
+    },
+    {
+      "position": 34,
+      "title": "Find Substring With Given Hash Value",
+      "slug": "find-substring-with-given-hash-value",
+      "difficulty": "Hard",
+      "acceptance": 25.305365066559098,
+      "likes": 443,
+      "dislikes": 384
+    },
+    {
+      "position": 35,
+      "title": "Minimum Operations to Make Elements Within K Subarrays Equal",
+      "slug": "minimum-operations-to-make-elements-within-k-subarrays-equal",
+      "difficulty": "Hard",
+      "acceptance": 26.481455165553502,
+      "likes": 55,
+      "dislikes": 2
+    },
+    {
+      "position": 36,
+      "title": "Minimum Moves to Pick K Ones",
+      "slug": "minimum-moves-to-pick-k-ones",
+      "difficulty": "Hard",
+      "acceptance": 20.825707826461407,
+      "likes": 60,
+      "dislikes": 53
+    },
+    {
+      "position": 37,
+      "title": "Maximum Number of Visible Points",
+      "slug": "maximum-number-of-visible-points",
+      "difficulty": "Hard",
+      "acceptance": 37.81176111661963,
+      "likes": 614,
+      "dislikes": 764
+    }
+  ]
+}

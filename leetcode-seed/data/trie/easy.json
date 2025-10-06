@@ -1,0 +1,35 @@
+{
+  "frozen": true,
+  "createdAt": "2025-10-06T15:21:26.769Z",
+  "trackSlug": "trie",
+  "difficulty": "EASY",
+  "questions": [
+    {
+      "position": 1,
+      "title": "Longest Common Prefix",
+      "slug": "longest-common-prefix",
+      "difficulty": "Easy",
+      "acceptance": 46.29072804972333,
+      "likes": 20114,
+      "dislikes": 4822
+    },
+    {
+      "position": 2,
+      "title": "Count Prefix and Suffix Pairs I",
+      "slug": "count-prefix-and-suffix-pairs-i",
+      "difficulty": "Easy",
+      "acceptance": 77.70966464966352,
+      "likes": 588,
+      "dislikes": 43
+    },
+    {
+      "position": 3,
+      "title": "Maximum Strong Pair XOR I",
+      "slug": "maximum-strong-pair-xor-i",
+      "difficulty": "Easy",
+      "acceptance": 75.45993095708258,
+      "likes": 178,
+      "dislikes": 26
+    }
+  ]
+}

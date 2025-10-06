@@ -1,0 +1,368 @@
+{
+  "frozen": true,
+  "createdAt": "2025-10-06T15:17:13.530Z",
+  "trackSlug": "string",
+  "difficulty": "HARD",
+  "questions": [
+    {
+      "position": 1,
+      "title": "Minimum Window Substring",
+      "slug": "minimum-window-substring",
+      "difficulty": "Hard",
+      "acceptance": 46.14637283807784,
+      "likes": 19472,
+      "dislikes": 821
+    },
+    {
+      "position": 2,
+      "title": "Longest Valid Parentheses",
+      "slug": "longest-valid-parentheses",
+      "difficulty": "Hard",
+      "acceptance": 37.10530183424798,
+      "likes": 13041,
+      "dislikes": 455
+    },
+    {
+      "position": 3,
+      "title": "Word Ladder",
+      "slug": "word-ladder",
+      "difficulty": "Hard",
+      "acceptance": 43.88601317149449,
+      "likes": 13100,
+      "dislikes": 1949
+    },
+    {
+      "position": 4,
+      "title": "Regular Expression Matching",
+      "slug": "regular-expression-matching",
+      "difficulty": "Hard",
+      "acceptance": 29.741146663487317,
+      "likes": 13003,
+      "dislikes": 2343
+    },
+    {
+      "position": 5,
+      "title": "Serialize and Deserialize Binary Tree",
+      "slug": "serialize-and-deserialize-binary-tree",
+      "difficulty": "Hard",
+      "acceptance": 59.68534158171322,
+      "likes": 10882,
+      "dislikes": 423
+    },
+    {
+      "position": 6,
+      "title": "Word Search II",
+      "slug": "word-search-ii",
+      "difficulty": "Hard",
+      "acceptance": 37.67672327996246,
+      "likes": 9987,
+      "dislikes": 502
+    },
+    {
+      "position": 7,
+      "title": "Wildcard Matching",
+      "slug": "wildcard-matching",
+      "difficulty": "Hard",
+      "acceptance": 30.620078697763077,
+      "likes": 8909,
+      "dislikes": 399
+    },
+    {
+      "position": 8,
+      "title": "Word Break II",
+      "slug": "word-break-ii",
+      "difficulty": "Hard",
+      "acceptance": 54.30741632163014,
+      "likes": 7472,
+      "dislikes": 545
+    },
+    {
+      "position": 9,
+      "title": "Distinct Subsequences",
+      "slug": "distinct-subsequences",
+      "difficulty": "Hard",
+      "acceptance": 50.81797754304029,
+      "likes": 7207,
+      "dislikes": 316
+    },
+    {
+      "position": 10,
+      "title": "Basic Calculator",
+      "slug": "basic-calculator",
+      "difficulty": "Hard",
+      "acceptance": 46.16591970242443,
+      "likes": 6785,
+      "dislikes": 547
+    },
+    {
+      "position": 11,
+      "title": "Remove Invalid Parentheses",
+      "slug": "remove-invalid-parentheses",
+      "difficulty": "Hard",
+      "acceptance": 49.474032840283435,
+      "likes": 6025,
+      "dislikes": 300
+    },
+    {
+      "position": 12,
+      "title": "Shortest Common Supersequence ",
+      "slug": "shortest-common-supersequence",
+      "difficulty": "Hard",
+      "acceptance": 61.57887478410486,
+      "likes": 5773,
+      "dislikes": 100
+    },
+    {
+      "position": 13,
+      "title": "Palindrome Partitioning II",
+      "slug": "palindrome-partitioning-ii",
+      "difficulty": "Hard",
+      "acceptance": 35.89947592430362,
+      "likes": 5796,
+      "dislikes": 154
+    },
+    {
+      "position": 14,
+      "title": "Word Ladder II",
+      "slug": "word-ladder-ii",
+      "difficulty": "Hard",
+      "acceptance": 27.272101810157533,
+      "likes": 6413,
+      "dislikes": 818
+    },
+    {
+      "position": 15,
+      "title": "Minimum Insertion Steps to Make a String Palindrome",
+      "slug": "minimum-insertion-steps-to-make-a-string-palindrome",
+      "difficulty": "Hard",
+      "acceptance": 73.19848731915484,
+      "likes": 5473,
+      "dislikes": 74
+    },
+    {
+      "position": 16,
+      "title": "Shortest Palindrome",
+      "slug": "shortest-palindrome",
+      "difficulty": "Hard",
+      "acceptance": 41.17240370009639,
+      "likes": 4467,
+      "dislikes": 288
+    },
+    {
+      "position": 17,
+      "title": "Palindrome Pairs",
+      "slug": "palindrome-pairs",
+      "difficulty": "Hard",
+      "acceptance": 36.573929896503046,
+      "likes": 4601,
+      "dislikes": 472
+    },
+    {
+      "position": 18,
+      "title": "Concatenated Words",
+      "slug": "concatenated-words",
+      "difficulty": "Hard",
+      "acceptance": 49.55886984643985,
+      "likes": 4027,
+      "dislikes": 290
+    },
+    {
+      "position": 19,
+      "title": "Expression Add Operators",
+      "slug": "expression-add-operators",
+      "difficulty": "Hard",
+      "acceptance": 42.27090726634782,
+      "likes": 3693,
+      "dislikes": 706
+    },
+    {
+      "position": 20,
+      "title": "Strange Printer",
+      "slug": "strange-printer",
+      "difficulty": "Hard",
+      "acceptance": 60.76589482863327,
+      "likes": 2734,
+      "dislikes": 287
+    },
+    {
+      "position": 21,
+      "title": "Longest Path With Different Adjacent Characters",
+      "slug": "longest-path-with-different-adjacent-characters",
+      "difficulty": "Hard",
+      "acceptance": 53.85627716226969,
+      "likes": 2500,
+      "dislikes": 61
+    },
+    {
+      "position": 22,
+      "title": "String Compression II",
+      "slug": "string-compression-ii",
+      "difficulty": "Hard",
+      "acceptance": 52.104241502486474,
+      "likes": 2499,
+      "dislikes": 220
+    },
+    {
+      "position": 23,
+      "title": "Scramble String",
+      "slug": "scramble-string",
+      "difficulty": "Hard",
+      "acceptance": 42.98792774693382,
+      "likes": 3556,
+      "dislikes": 1300
+    },
+    {
+      "position": 24,
+      "title": "Similar String Groups",
+      "slug": "similar-string-groups",
+      "difficulty": "Hard",
+      "acceptance": 55.68784150770539,
+      "likes": 2439,
+      "dislikes": 217
+    },
+    {
+      "position": 25,
+      "title": "Recover a Tree From Preorder Traversal",
+      "slug": "recover-a-tree-from-preorder-traversal",
+      "difficulty": "Hard",
+      "acceptance": 83.27316921803889,
+      "likes": 2276,
+      "dislikes": 69
+    },
+    {
+      "position": 26,
+      "title": "Substring with Concatenation of All Words",
+      "slug": "substring-with-concatenation-of-all-words",
+      "difficulty": "Hard",
+      "acceptance": 33.37222604130448,
+      "likes": 2418,
+      "dislikes": 402
+    },
+    {
+      "position": 27,
+      "title": "Count Unique Characters of All Substrings of a Given String",
+      "slug": "count-unique-characters-of-all-substrings-of-a-given-string",
+      "difficulty": "Hard",
+      "acceptance": 53.1560807483998,
+      "likes": 2230,
+      "dislikes": 254
+    },
+    {
+      "position": 28,
+      "title": "Longest Duplicate Substring",
+      "slug": "longest-duplicate-substring",
+      "difficulty": "Hard",
+      "acceptance": 30.90434002813983,
+      "likes": 2313,
+      "dislikes": 393
+    },
+    {
+      "position": 29,
+      "title": "Number of Ways to Form a Target String Given a Dictionary",
+      "slug": "number-of-ways-to-form-a-target-string-given-a-dictionary",
+      "difficulty": "Hard",
+      "acceptance": 56.80859558070508,
+      "likes": 2038,
+      "dislikes": 119
+    },
+    {
+      "position": 30,
+      "title": "Naming a Company",
+      "slug": "naming-a-company",
+      "difficulty": "Hard",
+      "acceptance": 46.43209139371093,
+      "likes": 1962,
+      "dislikes": 73
+    },
+    {
+      "position": 31,
+      "title": "Count Different Palindromic Subsequences",
+      "slug": "count-different-palindromic-subsequences",
+      "difficulty": "Hard",
+      "acceptance": 46.982969693672125,
+      "likes": 1987,
+      "dislikes": 102
+    },
+    {
+      "position": 32,
+      "title": "Prefix and Suffix Search",
+      "slug": "prefix-and-suffix-search",
+      "difficulty": "Hard",
+      "acceptance": 40.582110292578,
+      "likes": 2332,
+      "dislikes": 496
+    },
+    {
+      "position": 33,
+      "title": "Parsing A Boolean Expression",
+      "slug": "parsing-a-boolean-expression",
+      "difficulty": "Hard",
+      "acceptance": 69.7973605831892,
+      "likes": 1883,
+      "dislikes": 83
+    },
+    {
+      "position": 34,
+      "title": "Distinct Subsequences II",
+      "slug": "distinct-subsequences-ii",
+      "difficulty": "Hard",
+      "acceptance": 43.75959125458124,
+      "likes": 1806,
+      "dislikes": 39
+    },
+    {
+      "position": 35,
+      "title": "Maximum Score Words Formed by Letters",
+      "slug": "maximum-score-words-formed-by-letters",
+      "difficulty": "Hard",
+      "acceptance": 81.60309604902496,
+      "likes": 1832,
+      "dislikes": 119
+    },
+    {
+      "position": 36,
+      "title": "Stream of Characters",
+      "slug": "stream-of-characters",
+      "difficulty": "Hard",
+      "acceptance": 51.46953734329699,
+      "likes": 1856,
+      "dislikes": 186
+    },
+    {
+      "position": 37,
+      "title": "Restore The Array",
+      "slug": "restore-the-array",
+      "difficulty": "Hard",
+      "acceptance": 46.80131550725674,
+      "likes": 1655,
+      "dislikes": 53
+    },
+    {
+      "position": 38,
+      "title": "Number of Atoms",
+      "slug": "number-of-atoms",
+      "difficulty": "Hard",
+      "acceptance": 65.03880769548344,
+      "likes": 1955,
+      "dislikes": 409
+    },
+    {
+      "position": 39,
+      "title": "Longest Happy Prefix",
+      "slug": "longest-happy-prefix",
+      "difficulty": "Hard",
+      "acceptance": 50.130541636079286,
+      "likes": 1526,
+      "dislikes": 46
+    },
+    {
+      "position": 40,
+      "title": "Freedom Trail",
+      "slug": "freedom-trail",
+      "difficulty": "Hard",
+      "acceptance": 59.05324161837188,
+      "likes": 1560,
+      "dislikes": 82
+    }
+  ]
+}

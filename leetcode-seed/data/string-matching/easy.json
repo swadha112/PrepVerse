@@ -1,0 +1,98 @@
+{
+  "frozen": true,
+  "createdAt": "2025-10-06T15:22:20.502Z",
+  "trackSlug": "string-matching",
+  "difficulty": "EASY",
+  "questions": [
+    {
+      "position": 1,
+      "title": "Subtree of Another Tree",
+      "slug": "subtree-of-another-tree",
+      "difficulty": "Easy",
+      "acceptance": 50.605212076959646,
+      "likes": 8714,
+      "dislikes": 582
+    },
+    {
+      "position": 2,
+      "title": "Find the Index of the First Occurrence in a String",
+      "slug": "find-the-index-of-the-first-occurrence-in-a-string",
+      "difficulty": "Easy",
+      "acceptance": 45.60670737548134,
+      "likes": 7133,
+      "dislikes": 535
+    },
+    {
+      "position": 3,
+      "title": "Repeated Substring Pattern",
+      "slug": "repeated-substring-pattern",
+      "difficulty": "Easy",
+      "acceptance": 47.26453361943942,
+      "likes": 6729,
+      "dislikes": 553
+    },
+    {
+      "position": 4,
+      "title": "Rotate String",
+      "slug": "rotate-string",
+      "difficulty": "Easy",
+      "acceptance": 64.54067719158596,
+      "likes": 4630,
+      "dislikes": 388
+    },
+    {
+      "position": 5,
+      "title": "String Matching in an Array",
+      "slug": "string-matching-in-an-array",
+      "difficulty": "Easy",
+      "acceptance": 69.77995353055924,
+      "likes": 1478,
+      "dislikes": 128
+    },
+    {
+      "position": 6,
+      "title": "Check If a Word Occurs As a Prefix of Any Word in a Sentence",
+      "slug": "check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence",
+      "difficulty": "Easy",
+      "acceptance": 68.7391395216911,
+      "likes": 1307,
+      "dislikes": 59
+    },
+    {
+      "position": 7,
+      "title": "Counting Words With a Given Prefix",
+      "slug": "counting-words-with-a-given-prefix",
+      "difficulty": "Easy",
+      "acceptance": 84.48761953230951,
+      "likes": 1106,
+      "dislikes": 38
+    },
+    {
+      "position": 8,
+      "title": "Count Prefix and Suffix Pairs I",
+      "slug": "count-prefix-and-suffix-pairs-i",
+      "difficulty": "Easy",
+      "acceptance": 77.70966464966352,
+      "likes": 588,
+      "dislikes": 43
+    },
+    {
+      "position": 9,
+      "title": "Maximum Repeating Substring",
+      "slug": "maximum-repeating-substring",
+      "difficulty": "Easy",
+      "acceptance": 40.197766864139886,
+      "likes": 796,
+      "dislikes": 294
+    },
+    {
+      "position": 10,
+      "title": "Substring Matching Pattern",
+      "slug": "substring-matching-pattern",
+      "difficulty": "Easy",
+      "acceptance": 27.509971787138827,
+      "likes": 102,
+      "dislikes": 45
+    }
+  ]
+}

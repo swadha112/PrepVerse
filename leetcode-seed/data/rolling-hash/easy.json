@@ -1,0 +1,17 @@
+{
+  "frozen": true,
+  "createdAt": "2025-10-06T15:22:29.437Z",
+  "trackSlug": "rolling-hash",
+  "difficulty": "EASY",
+  "questions": [
+    {
+      "position": 1,
+      "title": "Count Prefix and Suffix Pairs I",
+      "slug": "count-prefix-and-suffix-pairs-i",
+      "difficulty": "Easy",
+      "acceptance": 77.70966464966352,
+      "likes": 588,
+      "dislikes": 43
+    }
+  ]
+}

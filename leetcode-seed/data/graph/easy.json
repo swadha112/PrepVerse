@@ -1,0 +1,35 @@
+{
+  "frozen": true,
+  "createdAt": "2025-10-06T15:20:11.872Z",
+  "trackSlug": "graph",
+  "difficulty": "EASY",
+  "questions": [
+    {
+      "position": 1,
+      "title": "Find the Town Judge",
+      "slug": "find-the-town-judge",
+      "difficulty": "Easy",
+      "acceptance": 50.25832187934882,
+      "likes": 6867,
+      "dislikes": 624
+    },
+    {
+      "position": 2,
+      "title": "Find if Path Exists in Graph",
+      "slug": "find-if-path-exists-in-graph",
+      "difficulty": "Easy",
+      "acceptance": 54.33409881393645,
+      "likes": 4183,
+      "dislikes": 244
+    },
+    {
+      "position": 3,
+      "title": "Find Center of Star Graph",
+      "slug": "find-center-of-star-graph",
+      "difficulty": "Easy",
+      "acceptance": 86.6778531967931,
+      "likes": 1919,
+      "dislikes": 181
+    }
+  ]
+}

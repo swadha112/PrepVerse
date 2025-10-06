@@ -1,0 +1,368 @@
+{
+  "frozen": true,
+  "createdAt": "2025-10-06T15:16:56.288Z",
+  "trackSlug": "array",
+  "difficulty": "HARD",
+  "questions": [
+    {
+      "position": 1,
+      "title": "Trapping Rain Water",
+      "slug": "trapping-rain-water",
+      "difficulty": "Hard",
+      "acceptance": 65.98705987292381,
+      "likes": 35163,
+      "dislikes": 645
+    },
+    {
+      "position": 2,
+      "title": "Median of Two Sorted Arrays",
+      "slug": "median-of-two-sorted-arrays",
+      "difficulty": "Hard",
+      "acceptance": 44.88237617151021,
+      "likes": 31017,
+      "dislikes": 3486
+    },
+    {
+      "position": 3,
+      "title": "Sliding Window Maximum",
+      "slug": "sliding-window-maximum",
+      "difficulty": "Hard",
+      "acceptance": 48.00052354509574,
+      "likes": 19750,
+      "dislikes": 787
+    },
+    {
+      "position": 4,
+      "title": "Largest Rectangle in Histogram",
+      "slug": "largest-rectangle-in-histogram",
+      "difficulty": "Hard",
+      "acceptance": 48.38618174009437,
+      "likes": 18837,
+      "dislikes": 363
+    },
+    {
+      "position": 5,
+      "title": "First Missing Positive",
+      "slug": "first-missing-positive",
+      "difficulty": "Hard",
+      "acceptance": 41.67160934611587,
+      "likes": 17898,
+      "dislikes": 1950
+    },
+    {
+      "position": 6,
+      "title": "N-Queens",
+      "slug": "n-queens",
+      "difficulty": "Hard",
+      "acceptance": 74.01057540016342,
+      "likes": 13788,
+      "dislikes": 334
+    },
+    {
+      "position": 7,
+      "title": "Maximal Rectangle",
+      "slug": "maximal-rectangle",
+      "difficulty": "Hard",
+      "acceptance": 54.96078724957514,
+      "likes": 11445,
+      "dislikes": 211
+    },
+    {
+      "position": 8,
+      "title": "Split Array Largest Sum",
+      "slug": "split-array-largest-sum",
+      "difficulty": "Hard",
+      "acceptance": 59.032768263320094,
+      "likes": 10902,
+      "dislikes": 260
+    },
+    {
+      "position": 9,
+      "title": "Sudoku Solver",
+      "slug": "sudoku-solver",
+      "difficulty": "Hard",
+      "acceptance": 65.26326881026938,
+      "likes": 10760,
+      "dislikes": 327
+    },
+    {
+      "position": 10,
+      "title": "Best Time to Buy and Sell Stock III",
+      "slug": "best-time-to-buy-and-sell-stock-iii",
+      "difficulty": "Hard",
+      "acceptance": 52.25253545764224,
+      "likes": 10377,
+      "dislikes": 218
+    },
+    {
+      "position": 11,
+      "title": "Word Search II",
+      "slug": "word-search-ii",
+      "difficulty": "Hard",
+      "acceptance": 37.67672327996246,
+      "likes": 9987,
+      "dislikes": 502
+    },
+    {
+      "position": 12,
+      "title": "Burst Balloons",
+      "slug": "burst-balloons",
+      "difficulty": "Hard",
+      "acceptance": 62.24238086363003,
+      "likes": 9572,
+      "dislikes": 278
+    },
+    {
+      "position": 13,
+      "title": "Longest Increasing Path in a Matrix",
+      "slug": "longest-increasing-path-in-a-matrix",
+      "difficulty": "Hard",
+      "acceptance": 55.81674964802146,
+      "likes": 9350,
+      "dislikes": 146
+    },
+    {
+      "position": 14,
+      "title": "Count of Smaller Numbers After Self",
+      "slug": "count-of-smaller-numbers-after-self",
+      "difficulty": "Hard",
+      "acceptance": 43.02814464232266,
+      "likes": 9134,
+      "dislikes": 249
+    },
+    {
+      "position": 15,
+      "title": "Candy",
+      "slug": "candy",
+      "difficulty": "Hard",
+      "acceptance": 47.34396848239893,
+      "likes": 9044,
+      "dislikes": 832
+    },
+    {
+      "position": 16,
+      "title": "Best Time to Buy and Sell Stock IV",
+      "slug": "best-time-to-buy-and-sell-stock-iv",
+      "difficulty": "Hard",
+      "acceptance": 48.427047157911744,
+      "likes": 7879,
+      "dislikes": 223
+    },
+    {
+      "position": 17,
+      "title": "Maximum Profit in Job Scheduling",
+      "slug": "maximum-profit-in-job-scheduling",
+      "difficulty": "Hard",
+      "acceptance": 54.48908945664513,
+      "likes": 7178,
+      "dislikes": 120
+    },
+    {
+      "position": 18,
+      "title": "Word Break II",
+      "slug": "word-break-ii",
+      "difficulty": "Hard",
+      "acceptance": 54.30741632163014,
+      "likes": 7472,
+      "dislikes": 545
+    },
+    {
+      "position": 19,
+      "title": "Subarrays with K Different Integers",
+      "slug": "subarrays-with-k-different-integers",
+      "difficulty": "Hard",
+      "acceptance": 66.8615869381782,
+      "likes": 6707,
+      "dislikes": 110
+    },
+    {
+      "position": 20,
+      "title": "Reverse Pairs",
+      "slug": "reverse-pairs",
+      "difficulty": "Hard",
+      "acceptance": 32.93007031725818,
+      "likes": 6777,
+      "dislikes": 291
+    },
+    {
+      "position": 21,
+      "title": "Russian Doll Envelopes",
+      "slug": "russian-doll-envelopes",
+      "difficulty": "Hard",
+      "acceptance": 37.484437341517086,
+      "likes": 6349,
+      "dislikes": 165
+    },
+    {
+      "position": 22,
+      "title": "Dungeon Game",
+      "slug": "dungeon-game",
+      "difficulty": "Hard",
+      "acceptance": 40.09981106982259,
+      "likes": 6127,
+      "dislikes": 118
+    },
+    {
+      "position": 23,
+      "title": "The Skyline Problem",
+      "slug": "the-skyline-problem",
+      "difficulty": "Hard",
+      "acceptance": 44.367777658891505,
+      "likes": 6127,
+      "dislikes": 281
+    },
+    {
+      "position": 24,
+      "title": "Frog Jump",
+      "slug": "frog-jump",
+      "difficulty": "Hard",
+      "acceptance": 46.8125016590033,
+      "likes": 5892,
+      "dislikes": 273
+    },
+    {
+      "position": 25,
+      "title": "Unique Paths III",
+      "slug": "unique-paths-iii",
+      "difficulty": "Hard",
+      "acceptance": 82.56141805038453,
+      "likes": 5416,
+      "dislikes": 196
+    },
+    {
+      "position": 26,
+      "title": "Shortest Subarray with Sum at Least K",
+      "slug": "shortest-subarray-with-sum-at-least-k",
+      "difficulty": "Hard",
+      "acceptance": 32.36762876561683,
+      "likes": 5099,
+      "dislikes": 143
+    },
+    {
+      "position": 27,
+      "title": "Making A Large Island",
+      "slug": "making-a-large-island",
+      "difficulty": "Hard",
+      "acceptance": 55.71369486766492,
+      "likes": 4884,
+      "dislikes": 98
+    },
+    {
+      "position": 28,
+      "title": "Trapping Rain Water II",
+      "slug": "trapping-rain-water-ii",
+      "difficulty": "Hard",
+      "acceptance": 63.79562301714499,
+      "likes": 4916,
+      "dislikes": 166
+    },
+    {
+      "position": 29,
+      "title": "Minimum Number of Refueling Stops",
+      "slug": "minimum-number-of-refueling-stops",
+      "difficulty": "Hard",
+      "acceptance": 40.8209613348491,
+      "likes": 4819,
+      "dislikes": 92
+    },
+    {
+      "position": 30,
+      "title": "Shortest Path in a Grid with Obstacles Elimination",
+      "slug": "shortest-path-in-a-grid-with-obstacles-elimination",
+      "difficulty": "Hard",
+      "acceptance": 45.82585237943758,
+      "likes": 4745,
+      "dislikes": 90
+    },
+    {
+      "position": 31,
+      "title": "Minimum Cost to Cut a Stick",
+      "slug": "minimum-cost-to-cut-a-stick",
+      "difficulty": "Hard",
+      "acceptance": 62.46021123370795,
+      "likes": 4690,
+      "dislikes": 152
+    },
+    {
+      "position": 32,
+      "title": "Find Minimum in Rotated Sorted Array II",
+      "slug": "find-minimum-in-rotated-sorted-array-ii",
+      "difficulty": "Hard",
+      "acceptance": 44.27403762335494,
+      "likes": 4979,
+      "dislikes": 513
+    },
+    {
+      "position": 33,
+      "title": "Bus Routes",
+      "slug": "bus-routes",
+      "difficulty": "Hard",
+      "acceptance": 46.97210369679802,
+      "likes": 4578,
+      "dislikes": 134
+    },
+    {
+      "position": 34,
+      "title": "Cherry Pickup",
+      "slug": "cherry-pickup",
+      "difficulty": "Hard",
+      "acceptance": 38.46318220329452,
+      "likes": 4569,
+      "dislikes": 169
+    },
+    {
+      "position": 35,
+      "title": "Cherry Pickup II",
+      "slug": "cherry-pickup-ii",
+      "difficulty": "Hard",
+      "acceptance": 72.14071424256863,
+      "likes": 4361,
+      "dislikes": 53
+    },
+    {
+      "position": 36,
+      "title": "Smallest Range Covering Elements from K Lists",
+      "slug": "smallest-range-covering-elements-from-k-lists",
+      "difficulty": "Hard",
+      "acceptance": 69.88424545468447,
+      "likes": 4296,
+      "dislikes": 99
+    },
+    {
+      "position": 37,
+      "title": "Palindrome Pairs",
+      "slug": "palindrome-pairs",
+      "difficulty": "Hard",
+      "acceptance": 36.573929896503046,
+      "likes": 4601,
+      "dislikes": 472
+    },
+    {
+      "position": 38,
+      "title": "Swim in Rising Water",
+      "slug": "swim-in-rising-water",
+      "difficulty": "Hard",
+      "acceptance": 65.91301894113083,
+      "likes": 4316,
+      "dislikes": 301
+    },
+    {
+      "position": 39,
+      "title": "Max Points on a Line",
+      "slug": "max-points-on-a-line",
+      "difficulty": "Hard",
+      "acceptance": 29.544542231956505,
+      "likes": 4422,
+      "dislikes": 569
+    },
+    {
+      "position": 40,
+      "title": "Course Schedule III",
+      "slug": "course-schedule-iii",
+      "difficulty": "Hard",
+      "acceptance": 40.96708989685926,
+      "likes": 3949,
+      "dislikes": 102
+    }
+  ]
+}

@@ -1,0 +1,305 @@
+{
+  "frozen": true,
+  "createdAt": "2025-10-06T15:21:02.926Z",
+  "trackSlug": "union-find",
+  "difficulty": "HARD",
+  "questions": [
+    {
+      "position": 1,
+      "title": "Making A Large Island",
+      "slug": "making-a-large-island",
+      "difficulty": "Hard",
+      "acceptance": 55.71369486766492,
+      "likes": 4884,
+      "dislikes": 98
+    },
+    {
+      "position": 2,
+      "title": "Swim in Rising Water",
+      "slug": "swim-in-rising-water",
+      "difficulty": "Hard",
+      "acceptance": 65.91301894113083,
+      "likes": 4318,
+      "dislikes": 301
+    },
+    {
+      "position": 3,
+      "title": "Remove Max Number of Edges to Keep Graph Fully Traversable",
+      "slug": "remove-max-number-of-edges-to-keep-graph-fully-traversable",
+      "difficulty": "Hard",
+      "acceptance": 70.30530342809992,
+      "likes": 2655,
+      "dislikes": 46
+    },
+    {
+      "position": 4,
+      "title": "Couples Holding Hands",
+      "slug": "couples-holding-hands",
+      "difficulty": "Hard",
+      "acceptance": 58.79298565247096,
+      "likes": 2446,
+      "dislikes": 128
+    },
+    {
+      "position": 5,
+      "title": "Number of Good Paths",
+      "slug": "number-of-good-paths",
+      "difficulty": "Hard",
+      "acceptance": 56.138641300946745,
+      "likes": 2404,
+      "dislikes": 112
+    },
+    {
+      "position": 6,
+      "title": "Similar String Groups",
+      "slug": "similar-string-groups",
+      "difficulty": "Hard",
+      "acceptance": 55.68784150770539,
+      "likes": 2439,
+      "dislikes": 217
+    },
+    {
+      "position": 7,
+      "title": "Redundant Connection II",
+      "slug": "redundant-connection-ii",
+      "difficulty": "Hard",
+      "acceptance": 35.52046686809321,
+      "likes": 2477,
+      "dislikes": 328
+    },
+    {
+      "position": 8,
+      "title": "Checking Existence of Edge Length Limited Paths",
+      "slug": "checking-existence-of-edge-length-limited-paths",
+      "difficulty": "Hard",
+      "acceptance": 62.98215627143371,
+      "likes": 2067,
+      "dislikes": 48
+    },
+    {
+      "position": 9,
+      "title": "Last Day Where You Can Still Cross",
+      "slug": "last-day-where-you-can-still-cross",
+      "difficulty": "Hard",
+      "acceptance": 62.4846399606783,
+      "likes": 1997,
+      "dislikes": 39
+    },
+    {
+      "position": 10,
+      "title": "Find Critical and Pseudo-Critical Edges in Minimum Spanning Tree",
+      "slug": "find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree",
+      "difficulty": "Hard",
+      "acceptance": 66.20178601583375,
+      "likes": 1963,
+      "dislikes": 166
+    },
+    {
+      "position": 11,
+      "title": "Number of Ways to Reorder Array to Get Same BST",
+      "slug": "number-of-ways-to-reorder-array-to-get-same-bst",
+      "difficulty": "Hard",
+      "acceptance": 53.741150461886676,
+      "likes": 1840,
+      "dislikes": 210
+    },
+    {
+      "position": 12,
+      "title": "Largest Component Size by Common Factor",
+      "slug": "largest-component-size-by-common-factor",
+      "difficulty": "Hard",
+      "acceptance": 41.552350723794184,
+      "likes": 1703,
+      "dislikes": 95
+    },
+    {
+      "position": 13,
+      "title": "Find All People With Secret",
+      "slug": "find-all-people-with-secret",
+      "difficulty": "Hard",
+      "acceptance": 45.29400183189378,
+      "likes": 1653,
+      "dislikes": 82
+    },
+    {
+      "position": 14,
+      "title": "Maximum Number of Points From Grid Queries",
+      "slug": "maximum-number-of-points-from-grid-queries",
+      "difficulty": "Hard",
+      "acceptance": 59.39099219953297,
+      "likes": 1088,
+      "dislikes": 50
+    },
+    {
+      "position": 15,
+      "title": "Bricks Falling When Hit",
+      "slug": "bricks-falling-when-hit",
+      "difficulty": "Hard",
+      "acceptance": 36.31914698790277,
+      "likes": 1183,
+      "dislikes": 190
+    },
+    {
+      "position": 16,
+      "title": "Divide Nodes Into the Maximum Number of Groups",
+      "slug": "divide-nodes-into-the-maximum-number-of-groups",
+      "difficulty": "Hard",
+      "acceptance": 67.1914701621904,
+      "likes": 972,
+      "dislikes": 73
+    },
+    {
+      "position": 17,
+      "title": "Rank Transform of a Matrix",
+      "slug": "rank-transform-of-a-matrix",
+      "difficulty": "Hard",
+      "acceptance": 41.687356837367254,
+      "likes": 924,
+      "dislikes": 58
+    },
+    {
+      "position": 18,
+      "title": "Minimum Cost Walk in Weighted Graph",
+      "slug": "minimum-cost-walk-in-weighted-graph",
+      "difficulty": "Hard",
+      "acceptance": 68.29804496322855,
+      "likes": 771,
+      "dislikes": 43
+    },
+    {
+      "position": 19,
+      "title": "Greatest Common Divisor Traversal",
+      "slug": "greatest-common-divisor-traversal",
+      "difficulty": "Hard",
+      "acceptance": 41.74283496836944,
+      "likes": 848,
+      "dislikes": 142
+    },
+    {
+      "position": 20,
+      "title": "Process Restricted Friend Requests",
+      "slug": "process-restricted-friend-requests",
+      "difficulty": "Hard",
+      "acceptance": 57.62944244314211,
+      "likes": 651,
+      "dislikes": 16
+    },
+    {
+      "position": 21,
+      "title": "Minimize Malware Spread II",
+      "slug": "minimize-malware-spread-ii",
+      "difficulty": "Hard",
+      "acceptance": 45.14950960848417,
+      "likes": 704,
+      "dislikes": 91
+    },
+    {
+      "position": 22,
+      "title": "Subarray With Elements Greater Than Varying Threshold",
+      "slug": "subarray-with-elements-greater-than-varying-threshold",
+      "difficulty": "Hard",
+      "acceptance": 44.9036843089583,
+      "likes": 604,
+      "dislikes": 11
+    },
+    {
+      "position": 23,
+      "title": "Graph Connectivity With Threshold",
+      "slug": "graph-connectivity-with-threshold",
+      "difficulty": "Hard",
+      "acceptance": 48.75,
+      "likes": 605,
+      "dislikes": 34
+    },
+    {
+      "position": 24,
+      "title": "GCD Sort of an Array",
+      "slug": "gcd-sort-of-an-array",
+      "difficulty": "Hard",
+      "acceptance": 47.7402832178367,
+      "likes": 522,
+      "dislikes": 14
+    },
+    {
+      "position": 25,
+      "title": "Maximum Segment Sum After Removals",
+      "slug": "maximum-segment-sum-after-removals",
+      "difficulty": "Hard",
+      "acceptance": 48.95662071582142,
+      "likes": 488,
+      "dislikes": 5
+    },
+    {
+      "position": 26,
+      "title": "Smallest Missing Genetic Value in Each Subtree",
+      "slug": "smallest-missing-genetic-value-in-each-subtree",
+      "difficulty": "Hard",
+      "acceptance": 47.103023718993306,
+      "likes": 481,
+      "dislikes": 22
+    },
+    {
+      "position": 27,
+      "title": "Minimize Malware Spread",
+      "slug": "minimize-malware-spread",
+      "difficulty": "Hard",
+      "acceptance": 42.70982278261623,
+      "likes": 1091,
+      "dislikes": 644
+    },
+    {
+      "position": 28,
+      "title": "Groups of Strings",
+      "slug": "groups-of-strings",
+      "difficulty": "Hard",
+      "acceptance": 27.033849408596982,
+      "likes": 500,
+      "dislikes": 62
+    },
+    {
+      "position": 29,
+      "title": "Minimum Number of Visited Cells in a Grid",
+      "slug": "minimum-number-of-visited-cells-in-a-grid",
+      "difficulty": "Hard",
+      "acceptance": 23.09416101197956,
+      "likes": 411,
+      "dislikes": 39
+    },
+    {
+      "position": 30,
+      "title": "Find the String with LCP",
+      "slug": "find-the-string-with-lcp",
+      "difficulty": "Hard",
+      "acceptance": 32.27983460862126,
+      "likes": 206,
+      "dislikes": 19
+    },
+    {
+      "position": 31,
+      "title": "Check if the Rectangle Corner Is Reachable",
+      "slug": "check-if-the-rectangle-corner-is-reachable",
+      "difficulty": "Hard",
+      "acceptance": 25.52910947325715,
+      "likes": 115,
+      "dislikes": 38
+    },
+    {
+      "position": 32,
+      "title": "Count Connected Components in LCM Graph",
+      "slug": "count-connected-components-in-lcm-graph",
+      "difficulty": "Hard",
+      "acceptance": 29.609655880842322,
+      "likes": 77,
+      "dislikes": 2
+    },
+    {
+      "position": 33,
+      "title": "Maximize Spanning Tree Stability with Upgrades",
+      "slug": "maximize-spanning-tree-stability-with-upgrades",
+      "difficulty": "Hard",
+      "acceptance": 38.55834527443773,
+      "likes": 60,
+      "dislikes": 3
+    }
+  ]
+}

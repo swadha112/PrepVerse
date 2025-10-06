@@ -1,0 +1,62 @@
+{
+  "frozen": true,
+  "createdAt": "2025-10-06T15:22:42.369Z",
+  "trackSlug": "data-stream",
+  "difficulty": "MEDIUM",
+  "questions": [
+    {
+      "position": 1,
+      "title": "Online Stock Span",
+      "slug": "online-stock-span",
+      "difficulty": "Medium",
+      "acceptance": 68.14540729935472,
+      "likes": 7014,
+      "dislikes": 483
+    },
+    {
+      "position": 2,
+      "title": "Design Browser History",
+      "slug": "design-browser-history",
+      "difficulty": "Medium",
+      "acceptance": 77.97312678155942,
+      "likes": 4070,
+      "dislikes": 261
+    },
+    {
+      "position": 3,
+      "title": "Product of the Last K Numbers",
+      "slug": "product-of-the-last-k-numbers",
+      "difficulty": "Medium",
+      "acceptance": 62.843236565781346,
+      "likes": 2133,
+      "dislikes": 107
+    },
+    {
+      "position": 4,
+      "title": "Stock Price Fluctuation ",
+      "slug": "stock-price-fluctuation",
+      "difficulty": "Medium",
+      "acceptance": 48.50022055580062,
+      "likes": 1259,
+      "dislikes": 69
+    },
+    {
+      "position": 5,
+      "title": "Design Front Middle Back Queue",
+      "slug": "design-front-middle-back-queue",
+      "difficulty": "Medium",
+      "acceptance": 56.51874633860574,
+      "likes": 802,
+      "dislikes": 112
+    },
+    {
+      "position": 6,
+      "title": "Find Consecutive Integers from a Data Stream",
+      "slug": "find-consecutive-integers-from-a-data-stream",
+      "difficulty": "Medium",
+      "acceptance": 50.11429911198382,
+      "likes": 332,
+      "dislikes": 38
+    }
+  ]
+}

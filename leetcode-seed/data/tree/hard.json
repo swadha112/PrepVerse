@@ -1,0 +1,368 @@
+{
+  "frozen": true,
+  "createdAt": "2025-10-06T15:19:11.493Z",
+  "trackSlug": "tree",
+  "difficulty": "HARD",
+  "questions": [
+    {
+      "position": 1,
+      "title": "Binary Tree Maximum Path Sum",
+      "slug": "binary-tree-maximum-path-sum",
+      "difficulty": "Hard",
+      "acceptance": 41.61477344371175,
+      "likes": 17992,
+      "dislikes": 779
+    },
+    {
+      "position": 2,
+      "title": "Serialize and Deserialize Binary Tree",
+      "slug": "serialize-and-deserialize-binary-tree",
+      "difficulty": "Hard",
+      "acceptance": 59.68534158171322,
+      "likes": 10882,
+      "dislikes": 423
+    },
+    {
+      "position": 3,
+      "title": "Sum of Distances in Tree",
+      "slug": "sum-of-distances-in-tree",
+      "difficulty": "Hard",
+      "acceptance": 65.41310988132847,
+      "likes": 5847,
+      "dislikes": 139
+    },
+    {
+      "position": 4,
+      "title": "Binary Tree Cameras",
+      "slug": "binary-tree-cameras",
+      "difficulty": "Hard",
+      "acceptance": 47.46219273948226,
+      "likes": 5583,
+      "dislikes": 87
+    },
+    {
+      "position": 5,
+      "title": "Vertical Order Traversal of a Binary Tree",
+      "slug": "vertical-order-traversal-of-a-binary-tree",
+      "difficulty": "Hard",
+      "acceptance": 52.42888645566249,
+      "likes": 8404,
+      "dislikes": 4384
+    },
+    {
+      "position": 6,
+      "title": "Maximum Sum BST in Binary Tree",
+      "slug": "maximum-sum-bst-in-binary-tree",
+      "difficulty": "Hard",
+      "acceptance": 45.38062050083691,
+      "likes": 2893,
+      "dislikes": 198
+    },
+    {
+      "position": 7,
+      "title": "Longest Path With Different Adjacent Characters",
+      "slug": "longest-path-with-different-adjacent-characters",
+      "difficulty": "Hard",
+      "acceptance": 53.85627716226969,
+      "likes": 2500,
+      "dislikes": 61
+    },
+    {
+      "position": 8,
+      "title": "Number of Good Paths",
+      "slug": "number-of-good-paths",
+      "difficulty": "Hard",
+      "acceptance": 56.138641300946745,
+      "likes": 2404,
+      "dislikes": 112
+    },
+    {
+      "position": 9,
+      "title": "Recover a Tree From Preorder Traversal",
+      "slug": "recover-a-tree-from-preorder-traversal",
+      "difficulty": "Hard",
+      "acceptance": 83.27316921803889,
+      "likes": 2276,
+      "dislikes": 69
+    },
+    {
+      "position": 10,
+      "title": "Kth Ancestor of a Tree Node",
+      "slug": "kth-ancestor-of-a-tree-node",
+      "difficulty": "Hard",
+      "acceptance": 36.49041522517892,
+      "likes": 2049,
+      "dislikes": 123
+    },
+    {
+      "position": 11,
+      "title": "Number of Ways to Reorder Array to Get Same BST",
+      "slug": "number-of-ways-to-reorder-array-to-get-same-bst",
+      "difficulty": "Hard",
+      "acceptance": 53.741150461886676,
+      "likes": 1840,
+      "dislikes": 210
+    },
+    {
+      "position": 12,
+      "title": "Height of Binary Tree After Subtree Removal Queries",
+      "slug": "height-of-binary-tree-after-subtree-removal-queries",
+      "difficulty": "Hard",
+      "acceptance": 54.916015948163135,
+      "likes": 1525,
+      "dislikes": 37
+    },
+    {
+      "position": 13,
+      "title": "Find the Maximum Sum of Node Values",
+      "slug": "find-the-maximum-sum-of-node-values",
+      "difficulty": "Hard",
+      "acceptance": 69.64397410535844,
+      "likes": 911,
+      "dislikes": 133
+    },
+    {
+      "position": 14,
+      "title": "Minimum Score After Removals on a Tree",
+      "slug": "minimum-score-after-removals-on-a-tree",
+      "difficulty": "Hard",
+      "acceptance": 76.40520228612574,
+      "likes": 800,
+      "dislikes": 45
+    },
+    {
+      "position": 15,
+      "title": "Frog Position After T Seconds",
+      "slug": "frog-position-after-t-seconds",
+      "difficulty": "Hard",
+      "acceptance": 36.45409617943357,
+      "likes": 829,
+      "dislikes": 149
+    },
+    {
+      "position": 16,
+      "title": "Maximum Number of K-Divisible Components",
+      "slug": "maximum-number-of-k-divisible-components",
+      "difficulty": "Hard",
+      "acceptance": 69.57908956052607,
+      "likes": 698,
+      "dislikes": 28
+    },
+    {
+      "position": 17,
+      "title": "Find Minimum Diameter After Merging Two Trees",
+      "slug": "find-minimum-diameter-after-merging-two-trees",
+      "difficulty": "Hard",
+      "acceptance": 57.18182224673215,
+      "likes": 681,
+      "dislikes": 39
+    },
+    {
+      "position": 18,
+      "title": "Merge BSTs to Create Single BST",
+      "slug": "merge-bsts-to-create-single-bst",
+      "difficulty": "Hard",
+      "acceptance": 36.75793554640174,
+      "likes": 632,
+      "dislikes": 46
+    },
+    {
+      "position": 19,
+      "title": "Count Subtrees With Max Distance Between Cities",
+      "slug": "count-subtrees-with-max-distance-between-cities",
+      "difficulty": "Hard",
+      "acceptance": 66.68582650763999,
+      "likes": 567,
+      "dislikes": 44
+    },
+    {
+      "position": 20,
+      "title": "Collect Coins in a Tree",
+      "slug": "collect-coins-in-a-tree",
+      "difficulty": "Hard",
+      "acceptance": 38.450361843024396,
+      "likes": 532,
+      "dislikes": 21
+    },
+    {
+      "position": 21,
+      "title": "Minimize the Total Price of the Trips",
+      "slug": "minimize-the-total-price-of-the-trips",
+      "difficulty": "Hard",
+      "acceptance": 47.07479000843634,
+      "likes": 510,
+      "dislikes": 21
+    },
+    {
+      "position": 22,
+      "title": "Smallest Missing Genetic Value in Each Subtree",
+      "slug": "smallest-missing-genetic-value-in-each-subtree",
+      "difficulty": "Hard",
+      "acceptance": 47.103023718993306,
+      "likes": 481,
+      "dislikes": 22
+    },
+    {
+      "position": 23,
+      "title": "Count Ways to Build Rooms in an Ant Colony",
+      "slug": "count-ways-to-build-rooms-in-an-ant-colony",
+      "difficulty": "Hard",
+      "acceptance": 49.30938527700481,
+      "likes": 514,
+      "dislikes": 56
+    },
+    {
+      "position": 24,
+      "title": "Difference Between Maximum and Minimum Price Sum",
+      "slug": "difference-between-maximum-and-minimum-price-sum",
+      "difficulty": "Hard",
+      "acceptance": 32.57981746727727,
+      "likes": 467,
+      "dislikes": 19
+    },
+    {
+      "position": 25,
+      "title": "Create Components With Same Value",
+      "slug": "create-components-with-same-value",
+      "difficulty": "Hard",
+      "acceptance": 52.73354564755839,
+      "likes": 426,
+      "dislikes": 7
+    },
+    {
+      "position": 26,
+      "title": "Count Paths That Can Form a Palindrome in a Tree",
+      "slug": "count-paths-that-can-form-a-palindrome-in-a-tree",
+      "difficulty": "Hard",
+      "acceptance": 46.315954609632385,
+      "likes": 426,
+      "dislikes": 12
+    },
+    {
+      "position": 27,
+      "title": "Tree of Coprimes",
+      "slug": "tree-of-coprimes",
+      "difficulty": "Hard",
+      "acceptance": 42.93285033876702,
+      "likes": 424,
+      "dislikes": 36
+    },
+    {
+      "position": 28,
+      "title": "Cycle Length Queries in a Tree",
+      "slug": "cycle-length-queries-in-a-tree",
+      "difficulty": "Hard",
+      "acceptance": 59.208533835851526,
+      "likes": 384,
+      "dislikes": 30
+    },
+    {
+      "position": 29,
+      "title": "Minimum Edge Weight Equilibrium Queries in a Tree",
+      "slug": "minimum-edge-weight-equilibrium-queries-in-a-tree",
+      "difficulty": "Hard",
+      "acceptance": 44.322852445540484,
+      "likes": 345,
+      "dislikes": 8
+    },
+    {
+      "position": 30,
+      "title": "Maximize the Number of Target Nodes After Connecting Trees II",
+      "slug": "maximize-the-number-of-target-nodes-after-connecting-trees-ii",
+      "difficulty": "Hard",
+      "acceptance": 73.13819301629248,
+      "likes": 366,
+      "dislikes": 44
+    },
+    {
+      "position": 31,
+      "title": "Count Number of Possible Root Nodes",
+      "slug": "count-number-of-possible-root-nodes",
+      "difficulty": "Hard",
+      "acceptance": 47.305423190378946,
+      "likes": 319,
+      "dislikes": 10
+    },
+    {
+      "position": 32,
+      "title": "Count Valid Paths in a Tree",
+      "slug": "count-valid-paths-in-a-tree",
+      "difficulty": "Hard",
+      "acceptance": 35.41028661170004,
+      "likes": 279,
+      "dislikes": 8
+    },
+    {
+      "position": 33,
+      "title": "Maximum Points After Collecting Coins From All Nodes",
+      "slug": "maximum-points-after-collecting-coins-from-all-nodes",
+      "difficulty": "Hard",
+      "acceptance": 35.9635599159075,
+      "likes": 231,
+      "dislikes": 17
+    },
+    {
+      "position": 34,
+      "title": "Find Number of Coins to Place in Tree Nodes",
+      "slug": "find-number-of-coins-to-place-in-tree-nodes",
+      "difficulty": "Hard",
+      "acceptance": 36.76047052291891,
+      "likes": 197,
+      "dislikes": 22
+    },
+    {
+      "position": 35,
+      "title": "Time Taken to Mark All Nodes",
+      "slug": "time-taken-to-mark-all-nodes",
+      "difficulty": "Hard",
+      "acceptance": 26.168387124874776,
+      "likes": 134,
+      "dislikes": 6
+    },
+    {
+      "position": 36,
+      "title": "Longest Special Path",
+      "slug": "longest-special-path",
+      "difficulty": "Hard",
+      "acceptance": 20.762102572295895,
+      "likes": 119,
+      "dislikes": 16
+    },
+    {
+      "position": 37,
+      "title": "Maximize Sum of Weights after Edge Removals",
+      "slug": "maximize-sum-of-weights-after-edge-removals",
+      "difficulty": "Hard",
+      "acceptance": 29.487467265245044,
+      "likes": 96,
+      "dislikes": 4
+    },
+    {
+      "position": 38,
+      "title": "Number Of Ways To Reconstruct A Tree",
+      "slug": "number-of-ways-to-reconstruct-a-tree",
+      "difficulty": "Hard",
+      "acceptance": 44.47035811014144,
+      "likes": 233,
+      "dislikes": 157
+    },
+    {
+      "position": 39,
+      "title": "Maximum Profit from Trading Stocks with Discounts",
+      "slug": "maximum-profit-from-trading-stocks-with-discounts",
+      "difficulty": "Hard",
+      "acceptance": 20.799493116755947,
+      "likes": 78,
+      "dislikes": 7
+    },
+    {
+      "position": 40,
+      "title": "Check if DFS Strings Are Palindromes",
+      "slug": "check-if-dfs-strings-are-palindromes",
+      "difficulty": "Hard",
+      "acceptance": 18.47286748206441,
+      "likes": 75,
+      "dislikes": 13
+    }
+  ]
+}

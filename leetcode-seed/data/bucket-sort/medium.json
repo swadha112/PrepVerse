@@ -1,0 +1,53 @@
+{
+  "frozen": true,
+  "createdAt": "2025-10-06T15:23:27.666Z",
+  "trackSlug": "bucket-sort",
+  "difficulty": "MEDIUM",
+  "questions": [
+    {
+      "position": 1,
+      "title": "Top K Frequent Elements",
+      "slug": "top-k-frequent-elements",
+      "difficulty": "Medium",
+      "acceptance": 64.9107328428316,
+      "likes": 18794,
+      "dislikes": 832
+    },
+    {
+      "position": 2,
+      "title": "Sort Characters By Frequency",
+      "slug": "sort-characters-by-frequency",
+      "difficulty": "Medium",
+      "acceptance": 74.71768970513554,
+      "likes": 8961,
+      "dislikes": 326
+    },
+    {
+      "position": 3,
+      "title": "Top K Frequent Words",
+      "slug": "top-k-frequent-words",
+      "difficulty": "Medium",
+      "acceptance": 59.665422396538695,
+      "likes": 7920,
+      "dislikes": 370
+    },
+    {
+      "position": 4,
+      "title": "Sort an Array",
+      "slug": "sort-an-array",
+      "difficulty": "Medium",
+      "acceptance": 56.16461511935712,
+      "likes": 6974,
+      "dislikes": 833
+    },
+    {
+      "position": 5,
+      "title": "Maximum Gap",
+      "slug": "maximum-gap",
+      "difficulty": "Medium",
+      "acceptance": 50.364171236576674,
+      "likes": 3485,
+      "dislikes": 433
+    }
+  ]
+}

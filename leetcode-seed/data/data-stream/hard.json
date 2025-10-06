@@ -1,0 +1,44 @@
+{
+  "frozen": true,
+  "createdAt": "2025-10-06T15:22:44.198Z",
+  "trackSlug": "data-stream",
+  "difficulty": "HARD",
+  "questions": [
+    {
+      "position": 1,
+      "title": "Find Median from Data Stream",
+      "slug": "find-median-from-data-stream",
+      "difficulty": "Hard",
+      "acceptance": 53.75264039588381,
+      "likes": 12867,
+      "dislikes": 273
+    },
+    {
+      "position": 2,
+      "title": "Stream of Characters",
+      "slug": "stream-of-characters",
+      "difficulty": "Hard",
+      "acceptance": 51.46953734329699,
+      "likes": 1856,
+      "dislikes": 186
+    },
+    {
+      "position": 3,
+      "title": "Finding MK Average",
+      "slug": "finding-mk-average",
+      "difficulty": "Hard",
+      "acceptance": 38.37990251643618,
+      "likes": 515,
+      "dislikes": 140
+    },
+    {
+      "position": 4,
+      "title": "Sequentially Ordinal Rank Tracker",
+      "slug": "sequentially-ordinal-rank-tracker",
+      "difficulty": "Hard",
+      "acceptance": 61.5339937401181,
+      "likes": 402,
+      "dislikes": 45
+    }
+  ]
+}

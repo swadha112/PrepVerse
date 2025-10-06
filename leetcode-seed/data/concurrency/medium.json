@@ -1,0 +1,53 @@
+{
+  "frozen": true,
+  "createdAt": "2025-10-06T15:23:10.600Z",
+  "trackSlug": "concurrency",
+  "difficulty": "MEDIUM",
+  "questions": [
+    {
+      "position": 1,
+      "title": "Print FooBar Alternately",
+      "slug": "print-foobar-alternately",
+      "difficulty": "Medium",
+      "acceptance": 70.90369747506598,
+      "likes": 740,
+      "dislikes": 59
+    },
+    {
+      "position": 2,
+      "title": "Building H2O",
+      "slug": "building-h2o",
+      "difficulty": "Medium",
+      "acceptance": 58.10102591254038,
+      "likes": 569,
+      "dislikes": 186
+    },
+    {
+      "position": 3,
+      "title": "Fizz Buzz Multithreaded",
+      "slug": "fizz-buzz-multithreaded",
+      "difficulty": "Medium",
+      "acceptance": 74.45919182414023,
+      "likes": 661,
+      "dislikes": 432
+    },
+    {
+      "position": 4,
+      "title": "Print Zero Even Odd",
+      "slug": "print-zero-even-odd",
+      "difficulty": "Medium",
+      "acceptance": 64.4255424499107,
+      "likes": 536,
+      "dislikes": 360
+    },
+    {
+      "position": 5,
+      "title": "The Dining Philosophers",
+      "slug": "the-dining-philosophers",
+      "difficulty": "Medium",
+      "acceptance": 54.68282999509301,
+      "likes": 393,
+      "dislikes": 358
+    }
+  ]
+}

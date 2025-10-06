@@ -1,0 +1,251 @@
+{
+  "frozen": true,
+  "createdAt": "2025-10-06T15:22:06.891Z",
+  "trackSlug": "memoization",
+  "difficulty": "HARD",
+  "questions": [
+    {
+      "position": 1,
+      "title": "Longest Increasing Path in a Matrix",
+      "slug": "longest-increasing-path-in-a-matrix",
+      "difficulty": "Hard",
+      "acceptance": 55.81674964802146,
+      "likes": 9350,
+      "dislikes": 146
+    },
+    {
+      "position": 2,
+      "title": "Word Break II",
+      "slug": "word-break-ii",
+      "difficulty": "Hard",
+      "acceptance": 54.30748040938666,
+      "likes": 7472,
+      "dislikes": 545
+    },
+    {
+      "position": 3,
+      "title": "Sliding Puzzle",
+      "slug": "sliding-puzzle",
+      "difficulty": "Hard",
+      "acceptance": 73.33328023511889,
+      "likes": 2711,
+      "dislikes": 73
+    },
+    {
+      "position": 4,
+      "title": "Largest Color Value in a Directed Graph",
+      "slug": "largest-color-value-in-a-directed-graph",
+      "difficulty": "Hard",
+      "acceptance": 57.45245255212793,
+      "likes": 2587,
+      "dislikes": 85
+    },
+    {
+      "position": 5,
+      "title": "Remove Boxes",
+      "slug": "remove-boxes",
+      "difficulty": "Hard",
+      "acceptance": 48.68782632591371,
+      "likes": 2418,
+      "dislikes": 134
+    },
+    {
+      "position": 6,
+      "title": "Number of Increasing Paths in a Grid",
+      "slug": "number-of-increasing-paths-in-a-grid",
+      "difficulty": "Hard",
+      "acceptance": 57.50621477987651,
+      "likes": 2087,
+      "dislikes": 45
+    },
+    {
+      "position": 7,
+      "title": "Number of Ways of Cutting a Pizza",
+      "slug": "number-of-ways-of-cutting-a-pizza",
+      "difficulty": "Hard",
+      "acceptance": 61.538715672104075,
+      "likes": 1893,
+      "dislikes": 96
+    },
+    {
+      "position": 8,
+      "title": "Number of Ways to Reorder Array to Get Same BST",
+      "slug": "number-of-ways-to-reorder-array-to-get-same-bst",
+      "difficulty": "Hard",
+      "acceptance": 53.741150461886676,
+      "likes": 1840,
+      "dislikes": 210
+    },
+    {
+      "position": 9,
+      "title": "Count All Possible Routes",
+      "slug": "count-all-possible-routes",
+      "difficulty": "Hard",
+      "acceptance": 64.91511475509769,
+      "likes": 1660,
+      "dislikes": 60
+    },
+    {
+      "position": 10,
+      "title": "Stickers to Spell Word",
+      "slug": "stickers-to-spell-word",
+      "difficulty": "Hard",
+      "acceptance": 50.319245805639014,
+      "likes": 1313,
+      "dislikes": 129
+    },
+    {
+      "position": 11,
+      "title": "Minimum Number of Days to Eat N Oranges",
+      "slug": "minimum-number-of-days-to-eat-n-oranges",
+      "difficulty": "Hard",
+      "acceptance": 35.87275721002869,
+      "likes": 1022,
+      "dislikes": 63
+    },
+    {
+      "position": 12,
+      "title": "Cat and Mouse",
+      "slug": "cat-and-mouse",
+      "difficulty": "Hard",
+      "acceptance": 34.00167785234899,
+      "likes": 993,
+      "dislikes": 177
+    },
+    {
+      "position": 13,
+      "title": "Maximum Strictly Increasing Cells in a Matrix",
+      "slug": "maximum-strictly-increasing-cells-in-a-matrix",
+      "difficulty": "Hard",
+      "acceptance": 31.021762467063528,
+      "likes": 620,
+      "dislikes": 22
+    },
+    {
+      "position": 14,
+      "title": "Selling Pieces of Wood",
+      "slug": "selling-pieces-of-wood",
+      "difficulty": "Hard",
+      "acceptance": 52.21615057680632,
+      "likes": 573,
+      "dislikes": 13
+    },
+    {
+      "position": 15,
+      "title": "The Earliest and Latest Rounds Where Players Compete",
+      "slug": "the-earliest-and-latest-rounds-where-players-compete",
+      "difficulty": "Hard",
+      "acceptance": 73.1939027016679,
+      "likes": 512,
+      "dislikes": 74
+    },
+    {
+      "position": 16,
+      "title": "Number of Distinct Roll Sequences",
+      "slug": "number-of-distinct-roll-sequences",
+      "difficulty": "Hard",
+      "acceptance": 57.75210631460088,
+      "likes": 453,
+      "dislikes": 20
+    },
+    {
+      "position": 17,
+      "title": "Count Visited Nodes in a Directed Graph",
+      "slug": "count-visited-nodes-in-a-directed-graph",
+      "difficulty": "Hard",
+      "acceptance": 29.66599851354699,
+      "likes": 352,
+      "dislikes": 6
+    },
+    {
+      "position": 18,
+      "title": "Maximum Number of Groups Getting Fresh Donuts",
+      "slug": "maximum-number-of-groups-getting-fresh-donuts",
+      "difficulty": "Hard",
+      "acceptance": 40.9163367100324,
+      "likes": 353,
+      "dislikes": 33
+    },
+    {
+      "position": 19,
+      "title": "Length of Longest V-Shaped Diagonal Segment",
+      "slug": "length-of-longest-v-shaped-diagonal-segment",
+      "difficulty": "Hard",
+      "acceptance": 56.619422655029275,
+      "likes": 366,
+      "dislikes": 61
+    },
+    {
+      "position": 20,
+      "title": "Maximize Grid Happiness",
+      "slug": "maximize-grid-happiness",
+      "difficulty": "Hard",
+      "acceptance": 40.24418336788758,
+      "likes": 340,
+      "dislikes": 55
+    },
+    {
+      "position": 21,
+      "title": "Least Operators to Express Number",
+      "slug": "least-operators-to-express-number",
+      "difficulty": "Hard",
+      "acceptance": 48.49522877416197,
+      "likes": 326,
+      "dislikes": 71
+    },
+    {
+      "position": 22,
+      "title": "Cat and Mouse II",
+      "slug": "cat-and-mouse-ii",
+      "difficulty": "Hard",
+      "acceptance": 39.81745063485608,
+      "likes": 285,
+      "dislikes": 47
+    },
+    {
+      "position": 23,
+      "title": "Maximum Points After Collecting Coins From All Nodes",
+      "slug": "maximum-points-after-collecting-coins-from-all-nodes",
+      "difficulty": "Hard",
+      "acceptance": 35.9635599159075,
+      "likes": 231,
+      "dislikes": 17
+    },
+    {
+      "position": 24,
+      "title": "The Score of Students Solving Math Expression",
+      "slug": "the-score-of-students-solving-math-expression",
+      "difficulty": "Hard",
+      "acceptance": 33.62270963776745,
+      "likes": 281,
+      "dislikes": 84
+    },
+    {
+      "position": 25,
+      "title": "Find Number of Ways to Reach the K-th Stair",
+      "slug": "find-number-of-ways-to-reach-the-k-th-stair",
+      "difficulty": "Hard",
+      "acceptance": 36.83972230606701,
+      "likes": 181,
+      "dislikes": 11
+    },
+    {
+      "position": 26,
+      "title": "Zuma Game",
+      "slug": "zuma-game",
+      "difficulty": "Hard",
+      "acceptance": 30.91362665145261,
+      "likes": 478,
+      "dislikes": 505
+    },
+    {
+      "position": 27,
+      "title": "Minimum One Bit Operations to Make Integers Zero",
+      "slug": "minimum-one-bit-operations-to-make-integers-zero",
+      "difficulty": "Hard",
+      "acceptance": 73.21345192406245,
+      "likes": 983,
+      "dislikes": 1070
+    }
+  ]
+}

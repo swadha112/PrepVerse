@@ -1,0 +1,170 @@
+{
+  "frozen": true,
+  "createdAt": "2025-10-06T15:21:46.829Z",
+  "trackSlug": "queue",
+  "difficulty": "MEDIUM",
+  "questions": [
+    {
+      "position": 1,
+      "title": "Maximum Sum Circular Subarray",
+      "slug": "maximum-sum-circular-subarray",
+      "difficulty": "Medium",
+      "acceptance": 48.4898087874986,
+      "likes": 7127,
+      "dislikes": 332
+    },
+    {
+      "position": 2,
+      "title": "Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit",
+      "slug": "longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit",
+      "difficulty": "Medium",
+      "acceptance": 57.0019934924164,
+      "likes": 4393,
+      "dislikes": 221
+    },
+    {
+      "position": 3,
+      "title": "Find the Winner of the Circular Game",
+      "slug": "find-the-winner-of-the-circular-game",
+      "difficulty": "Medium",
+      "acceptance": 82.13571661287412,
+      "likes": 4016,
+      "dislikes": 121
+    },
+    {
+      "position": 4,
+      "title": "Design Circular Queue",
+      "slug": "design-circular-queue",
+      "difficulty": "Medium",
+      "acceptance": 53.12587201412806,
+      "likes": 3745,
+      "dislikes": 334
+    },
+    {
+      "position": 5,
+      "title": "Jump Game VI",
+      "slug": "jump-game-vi",
+      "difficulty": "Medium",
+      "acceptance": 46.191797137063645,
+      "likes": 3526,
+      "dislikes": 124
+    },
+    {
+      "position": 6,
+      "title": "Flatten Nested List Iterator",
+      "slug": "flatten-nested-list-iterator",
+      "difficulty": "Medium",
+      "acceptance": 65.39474153252296,
+      "likes": 5025,
+      "dislikes": 1791
+    },
+    {
+      "position": 7,
+      "title": "Reveal Cards In Increasing Order",
+      "slug": "reveal-cards-in-increasing-order",
+      "difficulty": "Medium",
+      "acceptance": 83.44451856793418,
+      "likes": 3628,
+      "dislikes": 696
+    },
+    {
+      "position": 8,
+      "title": "Design Circular Deque",
+      "slug": "design-circular-deque",
+      "difficulty": "Medium",
+      "acceptance": 64.34657526704108,
+      "likes": 1649,
+      "dislikes": 107
+    },
+    {
+      "position": 9,
+      "title": "Continuous Subarrays",
+      "slug": "continuous-subarrays",
+      "difficulty": "Medium",
+      "acceptance": 57.96105962271775,
+      "likes": 1470,
+      "dislikes": 95
+    },
+    {
+      "position": 10,
+      "title": "Number of People Aware of a Secret",
+      "slug": "number-of-people-aware-of-a-secret",
+      "difficulty": "Medium",
+      "acceptance": 61.047864868839405,
+      "likes": 1461,
+      "dislikes": 162
+    },
+    {
+      "position": 11,
+      "title": "Design Front Middle Back Queue",
+      "slug": "design-front-middle-back-queue",
+      "difficulty": "Medium",
+      "acceptance": 56.51874633860574,
+      "likes": 802,
+      "dislikes": 112
+    },
+    {
+      "position": 12,
+      "title": "Dota2 Senate",
+      "slug": "dota2-senate",
+      "difficulty": "Medium",
+      "acceptance": 49.31019772337259,
+      "likes": 2683,
+      "dislikes": 2045
+    },
+    {
+      "position": 13,
+      "title": "Minimum Operations to Make Binary Array Elements Equal to One I",
+      "slug": "minimum-operations-to-make-binary-array-elements-equal-to-one-i",
+      "difficulty": "Medium",
+      "acceptance": 80.46711661221212,
+      "likes": 647,
+      "dislikes": 34
+    },
+    {
+      "position": 14,
+      "title": "Implement Router",
+      "slug": "implement-router",
+      "difficulty": "Medium",
+      "acceptance": 39.484817278521525,
+      "likes": 462,
+      "dislikes": 111
+    },
+    {
+      "position": 15,
+      "title": "Find Consecutive Integers from a Data Stream",
+      "slug": "find-consecutive-integers-from-a-data-stream",
+      "difficulty": "Medium",
+      "acceptance": 50.11429911198382,
+      "likes": 332,
+      "dislikes": 38
+    },
+    {
+      "position": 16,
+      "title": "Minimum Number of Coins for Fruits",
+      "slug": "minimum-number-of-coins-for-fruits",
+      "difficulty": "Medium",
+      "acceptance": 47.801151461470326,
+      "likes": 303,
+      "dislikes": 74
+    },
+    {
+      "position": 17,
+      "title": "Count Partitions With Max-Min Difference at Most K",
+      "slug": "count-partitions-with-max-min-difference-at-most-k",
+      "difficulty": "Medium",
+      "acceptance": 37.00038804811797,
+      "likes": 134,
+      "dislikes": 9
+    },
+    {
+      "position": 18,
+      "title": "Count Prime-Gap Balanced Subarrays",
+      "slug": "count-prime-gap-balanced-subarrays",
+      "difficulty": "Medium",
+      "acceptance": 19.919231995465655,
+      "likes": 72,
+      "dislikes": 4
+    }
+  ]
+}

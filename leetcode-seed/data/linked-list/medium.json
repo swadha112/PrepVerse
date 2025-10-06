@@ -1,0 +1,368 @@
+{
+  "frozen": true,
+  "createdAt": "2025-10-06T15:21:06.925Z",
+  "trackSlug": "linked-list",
+  "difficulty": "MEDIUM",
+  "questions": [
+    {
+      "position": 1,
+      "title": "Add Two Numbers",
+      "slug": "add-two-numbers",
+      "difficulty": "Medium",
+      "acceptance": 47.06901705482876,
+      "likes": 34976,
+      "dislikes": 6989
+    },
+    {
+      "position": 2,
+      "title": "LRU Cache",
+      "slug": "lru-cache",
+      "difficulty": "Medium",
+      "acceptance": 46.013138260645775,
+      "likes": 22442,
+      "dislikes": 1181
+    },
+    {
+      "position": 3,
+      "title": "Remove Nth Node From End of List",
+      "slug": "remove-nth-node-from-end-of-list",
+      "difficulty": "Medium",
+      "acceptance": 49.9854247232982,
+      "likes": 20598,
+      "dislikes": 876
+    },
+    {
+      "position": 4,
+      "title": "Linked List Cycle II",
+      "slug": "linked-list-cycle-ii",
+      "difficulty": "Medium",
+      "acceptance": 56.163317402287774,
+      "likes": 14726,
+      "dislikes": 1057
+    },
+    {
+      "position": 5,
+      "title": "Copy List with Random Pointer",
+      "slug": "copy-list-with-random-pointer",
+      "difficulty": "Medium",
+      "acceptance": 61.5053402178526,
+      "likes": 15131,
+      "dislikes": 1633
+    },
+    {
+      "position": 6,
+      "title": "Flatten Binary Tree to Linked List",
+      "slug": "flatten-binary-tree-to-linked-list",
+      "difficulty": "Medium",
+      "acceptance": 69.4326857301822,
+      "likes": 13321,
+      "dislikes": 591
+    },
+    {
+      "position": 7,
+      "title": "Swap Nodes in Pairs",
+      "slug": "swap-nodes-in-pairs",
+      "difficulty": "Medium",
+      "acceptance": 68.04030567284565,
+      "likes": 12785,
+      "dislikes": 495
+    },
+    {
+      "position": 8,
+      "title": "Sort List",
+      "slug": "sort-list",
+      "difficulty": "Medium",
+      "acceptance": 62.92089023449697,
+      "likes": 12647,
+      "dislikes": 401
+    },
+    {
+      "position": 9,
+      "title": "Reverse Linked List II",
+      "slug": "reverse-linked-list-ii",
+      "difficulty": "Medium",
+      "acceptance": 50.24420833260557,
+      "likes": 12583,
+      "dislikes": 754
+    },
+    {
+      "position": 10,
+      "title": "Reorder List",
+      "slug": "reorder-list",
+      "difficulty": "Medium",
+      "acceptance": 63.536737563430044,
+      "likes": 12112,
+      "dislikes": 485
+    },
+    {
+      "position": 11,
+      "title": "Odd Even Linked List",
+      "slug": "odd-even-linked-list",
+      "difficulty": "Medium",
+      "acceptance": 62.113759961375415,
+      "likes": 11110,
+      "dislikes": 574
+    },
+    {
+      "position": 12,
+      "title": "Populating Next Right Pointers in Each Node",
+      "slug": "populating-next-right-pointers-in-each-node",
+      "difficulty": "Medium",
+      "acceptance": 66.15693892657623,
+      "likes": 10263,
+      "dislikes": 322
+    },
+    {
+      "position": 13,
+      "title": "Rotate List",
+      "slug": "rotate-list",
+      "difficulty": "Medium",
+      "acceptance": 40.55431702496233,
+      "likes": 10849,
+      "dislikes": 1526
+    },
+    {
+      "position": 14,
+      "title": "Remove Duplicates from Sorted List II",
+      "slug": "remove-duplicates-from-sorted-list-ii",
+      "difficulty": "Medium",
+      "acceptance": 50.59116847169326,
+      "likes": 9445,
+      "dislikes": 273
+    },
+    {
+      "position": 15,
+      "title": "Convert Sorted List to Binary Search Tree",
+      "slug": "convert-sorted-list-to-binary-search-tree",
+      "difficulty": "Medium",
+      "acceptance": 65.21386045246221,
+      "likes": 7776,
+      "dislikes": 170
+    },
+    {
+      "position": 16,
+      "title": "Partition List",
+      "slug": "partition-list",
+      "difficulty": "Medium",
+      "acceptance": 59.76431013109133,
+      "likes": 7869,
+      "dislikes": 965
+    },
+    {
+      "position": 17,
+      "title": "Add Two Numbers II",
+      "slug": "add-two-numbers-ii",
+      "difficulty": "Medium",
+      "acceptance": 62.02987998576064,
+      "likes": 6097,
+      "dislikes": 299
+    },
+    {
+      "position": 18,
+      "title": "Populating Next Right Pointers in Each Node II",
+      "slug": "populating-next-right-pointers-in-each-node-ii",
+      "difficulty": "Medium",
+      "acceptance": 56.30322968087362,
+      "likes": 6124,
+      "dislikes": 339
+    },
+    {
+      "position": 19,
+      "title": "Swapping Nodes in a Linked List",
+      "slug": "swapping-nodes-in-a-linked-list",
+      "difficulty": "Medium",
+      "acceptance": 68.80771761145874,
+      "likes": 5646,
+      "dislikes": 203
+    },
+    {
+      "position": 20,
+      "title": "Flatten a Multilevel Doubly Linked List",
+      "slug": "flatten-a-multilevel-doubly-linked-list",
+      "difficulty": "Medium",
+      "acceptance": 61.888116220360246,
+      "likes": 5336,
+      "dislikes": 343
+    },
+    {
+      "position": 21,
+      "title": "Delete the Middle Node of a Linked List",
+      "slug": "delete-the-middle-node-of-a-linked-list",
+      "difficulty": "Medium",
+      "acceptance": 59.44159482347905,
+      "likes": 4754,
+      "dislikes": 101
+    },
+    {
+      "position": 22,
+      "title": "Delete Node in a Linked List",
+      "slug": "delete-node-in-a-linked-list",
+      "difficulty": "Medium",
+      "acceptance": 83.03101725444226,
+      "likes": 6013,
+      "dislikes": 1742
+    },
+    {
+      "position": 23,
+      "title": "Split Linked List in Parts",
+      "slug": "split-linked-list-in-parts",
+      "difficulty": "Medium",
+      "acceptance": 70.35763298580528,
+      "likes": 4635,
+      "dislikes": 373
+    },
+    {
+      "position": 24,
+      "title": "Design Twitter",
+      "slug": "design-twitter",
+      "difficulty": "Medium",
+      "acceptance": 43.47856464351707,
+      "likes": 4474,
+      "dislikes": 632
+    },
+    {
+      "position": 25,
+      "title": "Design Browser History",
+      "slug": "design-browser-history",
+      "difficulty": "Medium",
+      "acceptance": 77.97307131543627,
+      "likes": 4070,
+      "dislikes": 261
+    },
+    {
+      "position": 26,
+      "title": "Maximum Twin Sum of a Linked List",
+      "slug": "maximum-twin-sum-of-a-linked-list",
+      "difficulty": "Medium",
+      "acceptance": 81.56350793736598,
+      "likes": 3826,
+      "dislikes": 121
+    },
+    {
+      "position": 27,
+      "title": "Design Circular Queue",
+      "slug": "design-circular-queue",
+      "difficulty": "Medium",
+      "acceptance": 53.125760527613444,
+      "likes": 3745,
+      "dislikes": 334
+    },
+    {
+      "position": 28,
+      "title": "Next Greater Node In Linked List",
+      "slug": "next-greater-node-in-linked-list",
+      "difficulty": "Medium",
+      "acceptance": 62.84317130172794,
+      "likes": 3470,
+      "dislikes": 124
+    },
+    {
+      "position": 29,
+      "title": "Remove Zero Sum Consecutive Nodes from Linked List",
+      "slug": "remove-zero-sum-consecutive-nodes-from-linked-list",
+      "difficulty": "Medium",
+      "acceptance": 52.98093056507973,
+      "likes": 3459,
+      "dislikes": 224
+    },
+    {
+      "position": 30,
+      "title": "Linked List in Binary Tree",
+      "slug": "linked-list-in-binary-tree",
+      "difficulty": "Medium",
+      "acceptance": 51.917207489534725,
+      "likes": 2996,
+      "dislikes": 89
+    },
+    {
+      "position": 31,
+      "title": "Linked List Random Node",
+      "slug": "linked-list-random-node",
+      "difficulty": "Medium",
+      "acceptance": 64.16467099478007,
+      "likes": 3186,
+      "dislikes": 718
+    },
+    {
+      "position": 32,
+      "title": "Insertion Sort List",
+      "slug": "insertion-sort-list",
+      "difficulty": "Medium",
+      "acceptance": 57.304811115348656,
+      "likes": 3334,
+      "dislikes": 875
+    },
+    {
+      "position": 33,
+      "title": "Merge Nodes in Between Zeros",
+      "slug": "merge-nodes-in-between-zeros",
+      "difficulty": "Medium",
+      "acceptance": 89.6121446413044,
+      "likes": 2457,
+      "dislikes": 50
+    },
+    {
+      "position": 34,
+      "title": "Remove Nodes From Linked List",
+      "slug": "remove-nodes-from-linked-list",
+      "difficulty": "Medium",
+      "acceptance": 74.52338472330237,
+      "likes": 2322,
+      "dislikes": 82
+    },
+    {
+      "position": 35,
+      "title": "Merge In Between Linked Lists",
+      "slug": "merge-in-between-linked-lists",
+      "difficulty": "Medium",
+      "acceptance": 82.59447639568674,
+      "likes": 2214,
+      "dislikes": 226
+    },
+    {
+      "position": 36,
+      "title": "Design Circular Deque",
+      "slug": "design-circular-deque",
+      "difficulty": "Medium",
+      "acceptance": 64.34667400805259,
+      "likes": 1649,
+      "dislikes": 107
+    },
+    {
+      "position": 37,
+      "title": "Find the Minimum and Maximum Number of Nodes Between Critical Points",
+      "slug": "find-the-minimum-and-maximum-number-of-nodes-between-critical-points",
+      "difficulty": "Medium",
+      "acceptance": 69.43905173114938,
+      "likes": 1362,
+      "dislikes": 72
+    },
+    {
+      "position": 38,
+      "title": "Design Linked List",
+      "slug": "design-linked-list",
+      "difficulty": "Medium",
+      "acceptance": 29.439179287411054,
+      "likes": 2945,
+      "dislikes": 1668
+    },
+    {
+      "position": 39,
+      "title": "Steps to Make Array Non-decreasing",
+      "slug": "steps-to-make-array-non-decreasing",
+      "difficulty": "Medium",
+      "acceptance": 23.561188621429586,
+      "likes": 1394,
+      "dislikes": 143
+    },
+    {
+      "position": 40,
+      "title": "Spiral Matrix IV",
+      "slug": "spiral-matrix-iv",
+      "difficulty": "Medium",
+      "acceptance": 82.2463768115942,
+      "likes": 1290,
+      "dislikes": 55
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "frozen": true,
+  "createdAt": "2025-10-06T15:20:58.650Z",
+  "trackSlug": "union-find",
+  "difficulty": "EASY",
+  "questions": [
+    {
+      "position": 1,
+      "title": "Find if Path Exists in Graph",
+      "slug": "find-if-path-exists-in-graph",
+      "difficulty": "Easy",
+      "acceptance": 54.33409881393645,
+      "likes": 4183,
+      "dislikes": 244
+    }
+  ]
+}

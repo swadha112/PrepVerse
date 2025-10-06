@@ -1,0 +1,368 @@
+{
+  "frozen": true,
+  "createdAt": "2025-10-06T15:16:20.434Z",
+  "trackSlug": "array",
+  "difficulty": "EASY",
+  "questions": [
+    {
+      "position": 1,
+      "title": "Two Sum",
+      "slug": "two-sum",
+      "difficulty": "Easy",
+      "acceptance": 56.38898178495842,
+      "likes": 64684,
+      "dislikes": 2392
+    },
+    {
+      "position": 2,
+      "title": "Best Time to Buy and Sell Stock",
+      "slug": "best-time-to-buy-and-sell-stock",
+      "difficulty": "Easy",
+      "acceptance": 55.81887473848609,
+      "likes": 34302,
+      "dislikes": 1344
+    },
+    {
+      "position": 3,
+      "title": "Majority Element",
+      "slug": "majority-element",
+      "difficulty": "Easy",
+      "acceptance": 65.90082266721575,
+      "likes": 21819,
+      "dislikes": 773
+    },
+    {
+      "position": 4,
+      "title": "Move Zeroes",
+      "slug": "move-zeroes",
+      "difficulty": "Easy",
+      "acceptance": 63.13591096167029,
+      "likes": 18549,
+      "dislikes": 553
+    },
+    {
+      "position": 5,
+      "title": "Single Number",
+      "slug": "single-number",
+      "difficulty": "Easy",
+      "acceptance": 76.6782229249824,
+      "likes": 18141,
+      "dislikes": 852
+    },
+    {
+      "position": 6,
+      "title": "Search Insert Position",
+      "slug": "search-insert-position",
+      "difficulty": "Easy",
+      "acceptance": 49.831591337514375,
+      "likes": 18047,
+      "dislikes": 856
+    },
+    {
+      "position": 7,
+      "title": "Merge Sorted Array",
+      "slug": "merge-sorted-array",
+      "difficulty": "Easy",
+      "acceptance": 53.66390226755106,
+      "likes": 17875,
+      "dislikes": 2502
+    },
+    {
+      "position": 8,
+      "title": "Longest Common Prefix",
+      "slug": "longest-common-prefix",
+      "difficulty": "Easy",
+      "acceptance": 46.29066406782842,
+      "likes": 20114,
+      "dislikes": 4822
+    },
+    {
+      "position": 9,
+      "title": "Pascal's Triangle",
+      "slug": "pascals-triangle",
+      "difficulty": "Easy",
+      "acceptance": 78.20075946676286,
+      "likes": 14518,
+      "dislikes": 543
+    },
+    {
+      "position": 10,
+      "title": "Binary Search",
+      "slug": "binary-search",
+      "difficulty": "Easy",
+      "acceptance": 60.03835106707571,
+      "likes": 12969,
+      "dislikes": 284
+    },
+    {
+      "position": 11,
+      "title": "Contains Duplicate",
+      "slug": "contains-duplicate",
+      "difficulty": "Easy",
+      "acceptance": 63.611488623227665,
+      "likes": 13321,
+      "dislikes": 1344
+    },
+    {
+      "position": 12,
+      "title": "Convert Sorted Array to Binary Search Tree",
+      "slug": "convert-sorted-array-to-binary-search-tree",
+      "difficulty": "Easy",
+      "acceptance": 74.65186247840911,
+      "likes": 11664,
+      "dislikes": 623
+    },
+    {
+      "position": 13,
+      "title": "Min Cost Climbing Stairs",
+      "slug": "min-cost-climbing-stairs",
+      "difficulty": "Easy",
+      "acceptance": 67.6283560349829,
+      "likes": 12133,
+      "dislikes": 1865
+    },
+    {
+      "position": 14,
+      "title": "Missing Number",
+      "slug": "missing-number",
+      "difficulty": "Easy",
+      "acceptance": 70.88309832937203,
+      "likes": 13674,
+      "dislikes": 3441
+    },
+    {
+      "position": 15,
+      "title": "Squares of a Sorted Array",
+      "slug": "squares-of-a-sorted-array",
+      "difficulty": "Easy",
+      "acceptance": 73.34985223111964,
+      "likes": 9858,
+      "dislikes": 261
+    },
+    {
+      "position": 16,
+      "title": "Find All Numbers Disappeared in an Array",
+      "slug": "find-all-numbers-disappeared-in-an-array",
+      "difficulty": "Easy",
+      "acceptance": 62.85427982006737,
+      "likes": 9985,
+      "dislikes": 531
+    },
+    {
+      "position": 17,
+      "title": "Next Greater Element I",
+      "slug": "next-greater-element-i",
+      "difficulty": "Easy",
+      "acceptance": 75.1700059516978,
+      "likes": 9342,
+      "dislikes": 1027
+    },
+    {
+      "position": 18,
+      "title": "Flood Fill",
+      "slug": "flood-fill",
+      "difficulty": "Easy",
+      "acceptance": 67.22288400467949,
+      "likes": 9187,
+      "dislikes": 942
+    },
+    {
+      "position": 19,
+      "title": "Running Sum of 1d Array",
+      "slug": "running-sum-of-1d-array",
+      "difficulty": "Easy",
+      "acceptance": 86.89365057455947,
+      "likes": 8462,
+      "dislikes": 364
+    },
+    {
+      "position": 20,
+      "title": "Find Pivot Index",
+      "slug": "find-pivot-index",
+      "difficulty": "Easy",
+      "acceptance": 61.27236334861661,
+      "likes": 9005,
+      "dislikes": 912
+    },
+    {
+      "position": 21,
+      "title": "Kth Missing Positive Number",
+      "slug": "kth-missing-positive-number",
+      "difficulty": "Easy",
+      "acceptance": 62.830415547305066,
+      "likes": 7633,
+      "dislikes": 545
+    },
+    {
+      "position": 22,
+      "title": "Intersection of Two Arrays II",
+      "slug": "intersection-of-two-arrays-ii",
+      "difficulty": "Easy",
+      "acceptance": 59.30933687045159,
+      "likes": 8032,
+      "dislikes": 1003
+    },
+    {
+      "position": 23,
+      "title": "Island Perimeter",
+      "slug": "island-perimeter",
+      "difficulty": "Easy",
+      "acceptance": 73.85721865349635,
+      "likes": 7166,
+      "dislikes": 413
+    },
+    {
+      "position": 24,
+      "title": "Last Stone Weight",
+      "slug": "last-stone-weight",
+      "difficulty": "Easy",
+      "acceptance": 66.1081483051962,
+      "likes": 6481,
+      "dislikes": 152
+    },
+    {
+      "position": 25,
+      "title": "Find the Town Judge",
+      "slug": "find-the-town-judge",
+      "difficulty": "Easy",
+      "acceptance": 50.25832187934882,
+      "likes": 6867,
+      "dislikes": 624
+    },
+    {
+      "position": 26,
+      "title": "Max Consecutive Ones",
+      "slug": "max-consecutive-ones",
+      "difficulty": "Easy",
+      "acceptance": 63.40047650730069,
+      "likes": 6453,
+      "dislikes": 483
+    },
+    {
+      "position": 27,
+      "title": "Can Place Flowers",
+      "slug": "can-place-flowers",
+      "difficulty": "Easy",
+      "acceptance": 28.96247386878991,
+      "likes": 7182,
+      "dislikes": 1303
+    },
+    {
+      "position": 28,
+      "title": "Shuffle the Array",
+      "slug": "shuffle-the-array",
+      "difficulty": "Easy",
+      "acceptance": 88.88796467217145,
+      "likes": 6057,
+      "dislikes": 335
+    },
+    {
+      "position": 29,
+      "title": "How Many Numbers Are Smaller Than the Current Number",
+      "slug": "how-many-numbers-are-smaller-than-the-current-number",
+      "difficulty": "Easy",
+      "acceptance": 87.22902756071153,
+      "likes": 5748,
+      "dislikes": 151
+    },
+    {
+      "position": 30,
+      "title": "Number of Good Pairs",
+      "slug": "number-of-good-pairs",
+      "difficulty": "Easy",
+      "acceptance": 89.66912191558782,
+      "likes": 5764,
+      "dislikes": 281
+    },
+    {
+      "position": 31,
+      "title": "Sort Array By Parity",
+      "slug": "sort-array-by-parity",
+      "difficulty": "Easy",
+      "acceptance": 76.3475161047207,
+      "likes": 5599,
+      "dislikes": 156
+    },
+    {
+      "position": 32,
+      "title": "Plus One",
+      "slug": "plus-one",
+      "difficulty": "Easy",
+      "acceptance": 48.13068763966151,
+      "likes": 10841,
+      "dislikes": 5539
+    },
+    {
+      "position": 33,
+      "title": "Unique Number of Occurrences",
+      "slug": "unique-number-of-occurrences",
+      "difficulty": "Easy",
+      "acceptance": 78.47057802464849,
+      "likes": 5439,
+      "dislikes": 153
+    },
+    {
+      "position": 34,
+      "title": "Count Negative Numbers in a Sorted Matrix",
+      "slug": "count-negative-numbers-in-a-sorted-matrix",
+      "difficulty": "Easy",
+      "acceptance": 77.80868888647632,
+      "likes": 5159,
+      "dislikes": 138
+    },
+    {
+      "position": 35,
+      "title": "Design HashMap",
+      "slug": "design-hashmap",
+      "difficulty": "Easy",
+      "acceptance": 66.09334550127576,
+      "likes": 5344,
+      "dislikes": 493
+    },
+    {
+      "position": 36,
+      "title": "Pascal's Triangle II",
+      "slug": "pascals-triangle-ii",
+      "difficulty": "Easy",
+      "acceptance": 66.52116263465933,
+      "likes": 5175,
+      "dislikes": 363
+    },
+    {
+      "position": 37,
+      "title": "Richest Customer Wealth",
+      "slug": "richest-customer-wealth",
+      "difficulty": "Easy",
+      "acceptance": 88.59029040958414,
+      "likes": 4719,
+      "dislikes": 381
+    },
+    {
+      "position": 38,
+      "title": "Check if Array Is Sorted and Rotated",
+      "slug": "check-if-array-is-sorted-and-rotated",
+      "difficulty": "Easy",
+      "acceptance": 55.36498115549229,
+      "likes": 4596,
+      "dislikes": 271
+    },
+    {
+      "position": 39,
+      "title": "Intersection of Two Arrays",
+      "slug": "intersection-of-two-arrays",
+      "difficulty": "Easy",
+      "acceptance": 76.96081073546085,
+      "likes": 6647,
+      "dislikes": 2332
+    },
+    {
+      "position": 40,
+      "title": "Assign Cookies",
+      "slug": "assign-cookies",
+      "difficulty": "Easy",
+      "acceptance": 54.362783631722586,
+      "likes": 4708,
+      "dislikes": 428
+    }
+  ]
+}

@@ -1,0 +1,368 @@
+{
+  "frozen": true,
+  "createdAt": "2025-10-06T15:17:40.097Z",
+  "trackSlug": "dynamic-programming",
+  "difficulty": "MEDIUM",
+  "questions": [
+    {
+      "position": 1,
+      "title": "Maximum Subarray",
+      "slug": "maximum-subarray",
+      "difficulty": "Medium",
+      "acceptance": 52.51561221155837,
+      "likes": 36644,
+      "dislikes": 1557
+    },
+    {
+      "position": 2,
+      "title": "Longest Palindromic Substring",
+      "slug": "longest-palindromic-substring",
+      "difficulty": "Medium",
+      "acceptance": 36.54009661424291,
+      "likes": 31614,
+      "dislikes": 1947
+    },
+    {
+      "position": 3,
+      "title": "House Robber",
+      "slug": "house-robber",
+      "difficulty": "Medium",
+      "acceptance": 52.619514352008935,
+      "likes": 22815,
+      "dislikes": 492
+    },
+    {
+      "position": 4,
+      "title": "Longest Increasing Subsequence",
+      "slug": "longest-increasing-subsequence",
+      "difficulty": "Medium",
+      "acceptance": 58.47437885615021,
+      "likes": 22279,
+      "dislikes": 492
+    },
+    {
+      "position": 5,
+      "title": "Generate Parentheses",
+      "slug": "generate-parentheses",
+      "difficulty": "Medium",
+      "acceptance": 77.73387011655434,
+      "likes": 22700,
+      "dislikes": 1058
+    },
+    {
+      "position": 6,
+      "title": "Coin Change",
+      "slug": "coin-change",
+      "difficulty": "Medium",
+      "acceptance": 47.26892137108533,
+      "likes": 20382,
+      "dislikes": 519
+    },
+    {
+      "position": 7,
+      "title": "Jump Game",
+      "slug": "jump-game",
+      "difficulty": "Medium",
+      "acceptance": 39.98362311255812,
+      "likes": 21117,
+      "dislikes": 1434
+    },
+    {
+      "position": 8,
+      "title": "Maximum Product Subarray",
+      "slug": "maximum-product-subarray",
+      "difficulty": "Medium",
+      "acceptance": 35.46452180822534,
+      "likes": 19873,
+      "dislikes": 802
+    },
+    {
+      "position": 9,
+      "title": "Word Break",
+      "slug": "word-break",
+      "difficulty": "Medium",
+      "acceptance": 48.67948827148335,
+      "likes": 18311,
+      "dislikes": 880
+    },
+    {
+      "position": 10,
+      "title": "Unique Paths",
+      "slug": "unique-paths",
+      "difficulty": "Medium",
+      "acceptance": 66.14710337308688,
+      "likes": 17900,
+      "dislikes": 480
+    },
+    {
+      "position": 11,
+      "title": "Edit Distance",
+      "slug": "edit-distance",
+      "difficulty": "Medium",
+      "acceptance": 59.472626610915945,
+      "likes": 16022,
+      "dislikes": 301
+    },
+    {
+      "position": 12,
+      "title": "Jump Game II",
+      "slug": "jump-game-ii",
+      "difficulty": "Medium",
+      "acceptance": 41.967342755473815,
+      "likes": 15999,
+      "dislikes": 680
+    },
+    {
+      "position": 13,
+      "title": "Longest Common Subsequence",
+      "slug": "longest-common-subsequence",
+      "difficulty": "Medium",
+      "acceptance": 58.54271581751481,
+      "likes": 14675,
+      "dislikes": 235
+    },
+    {
+      "position": 14,
+      "title": "Palindrome Partitioning",
+      "slug": "palindrome-partitioning",
+      "difficulty": "Medium",
+      "acceptance": 73.0128677010103,
+      "likes": 13918,
+      "dislikes": 561
+    },
+    {
+      "position": 15,
+      "title": "Partition Equal Subset Sum",
+      "slug": "partition-equal-subset-sum",
+      "difficulty": "Medium",
+      "acceptance": 48.86905711261581,
+      "likes": 13513,
+      "dislikes": 290
+    },
+    {
+      "position": 16,
+      "title": "Minimum Path Sum",
+      "slug": "minimum-path-sum",
+      "difficulty": "Medium",
+      "acceptance": 67.17737534231257,
+      "likes": 13360,
+      "dislikes": 189
+    },
+    {
+      "position": 17,
+      "title": "Best Time to Buy and Sell Stock II",
+      "slug": "best-time-to-buy-and-sell-stock-ii",
+      "difficulty": "Medium",
+      "acceptance": 70.12700959530274,
+      "likes": 14908,
+      "dislikes": 2791
+    },
+    {
+      "position": 18,
+      "title": "Target Sum",
+      "slug": "target-sum",
+      "difficulty": "Medium",
+      "acceptance": 51.322911288176975,
+      "likes": 12103,
+      "dislikes": 407
+    },
+    {
+      "position": 19,
+      "title": "Perfect Squares",
+      "slug": "perfect-squares",
+      "difficulty": "Medium",
+      "acceptance": 55.97763812797651,
+      "likes": 11671,
+      "dislikes": 485
+    },
+    {
+      "position": 20,
+      "title": "Palindromic Substrings",
+      "slug": "palindromic-substrings",
+      "difficulty": "Medium",
+      "acceptance": 72.12523120859082,
+      "likes": 11302,
+      "dislikes": 253
+    },
+    {
+      "position": 21,
+      "title": "House Robber II",
+      "slug": "house-robber-ii",
+      "difficulty": "Medium",
+      "acceptance": 44.11150782205691,
+      "likes": 10755,
+      "dislikes": 180
+    },
+    {
+      "position": 22,
+      "title": "Maximal Square",
+      "slug": "maximal-square",
+      "difficulty": "Medium",
+      "acceptance": 49.39659354328522,
+      "likes": 10811,
+      "dislikes": 253
+    },
+    {
+      "position": 23,
+      "title": "Cheapest Flights Within K Stops",
+      "slug": "cheapest-flights-within-k-stops",
+      "difficulty": "Medium",
+      "acceptance": 40.88902680855573,
+      "likes": 10888,
+      "dislikes": 459
+    },
+    {
+      "position": 24,
+      "title": "Unique Binary Search Trees",
+      "slug": "unique-binary-search-trees",
+      "difficulty": "Medium",
+      "acceptance": 62.811897406287606,
+      "likes": 10837,
+      "dislikes": 438
+    },
+    {
+      "position": 25,
+      "title": "Triangle",
+      "slug": "triangle",
+      "difficulty": "Medium",
+      "acceptance": 59.82466338683303,
+      "likes": 10603,
+      "dislikes": 599
+    },
+    {
+      "position": 26,
+      "title": "01 Matrix",
+      "slug": "01-matrix",
+      "difficulty": "Medium",
+      "acceptance": 52.503622177888246,
+      "likes": 10436,
+      "dislikes": 442
+    },
+    {
+      "position": 27,
+      "title": "Longest Palindromic Subsequence",
+      "slug": "longest-palindromic-subsequence",
+      "difficulty": "Medium",
+      "acceptance": 64.65874267422976,
+      "likes": 10165,
+      "dislikes": 339
+    },
+    {
+      "position": 28,
+      "title": "Coin Change II",
+      "slug": "coin-change-ii",
+      "difficulty": "Medium",
+      "acceptance": 61.13967373277448,
+      "likes": 10002,
+      "dislikes": 227
+    },
+    {
+      "position": 29,
+      "title": "Best Time to Buy and Sell Stock with Cooldown",
+      "slug": "best-time-to-buy-and-sell-stock-with-cooldown",
+      "difficulty": "Medium",
+      "acceptance": 61.143480917473916,
+      "likes": 9889,
+      "dislikes": 346
+    },
+    {
+      "position": 30,
+      "title": "Unique Paths II",
+      "slug": "unique-paths-ii",
+      "difficulty": "Medium",
+      "acceptance": 43.6427796391867,
+      "likes": 9440,
+      "dislikes": 552
+    },
+    {
+      "position": 31,
+      "title": "House Robber III",
+      "slug": "house-robber-iii",
+      "difficulty": "Medium",
+      "acceptance": 55.22506543254199,
+      "likes": 8952,
+      "dislikes": 154
+    },
+    {
+      "position": 32,
+      "title": "Non-overlapping Intervals",
+      "slug": "non-overlapping-intervals",
+      "difficulty": "Medium",
+      "acceptance": 56.12305762877769,
+      "likes": 8859,
+      "dislikes": 247
+    },
+    {
+      "position": 33,
+      "title": "Minimum Cost For Tickets",
+      "slug": "minimum-cost-for-tickets",
+      "difficulty": "Medium",
+      "acceptance": 67.40107563588886,
+      "likes": 8693,
+      "dislikes": 185
+    },
+    {
+      "position": 34,
+      "title": "Sum of Subarray Minimums",
+      "slug": "sum-of-subarray-minimums",
+      "difficulty": "Medium",
+      "acceptance": 37.977527654995704,
+      "likes": 8918,
+      "dislikes": 710
+    },
+    {
+      "position": 35,
+      "title": "Interleaving String",
+      "slug": "interleaving-string",
+      "difficulty": "Medium",
+      "acceptance": 42.77990898548794,
+      "likes": 8680,
+      "dislikes": 546
+    },
+    {
+      "position": 36,
+      "title": "Decode Ways",
+      "slug": "decode-ways",
+      "difficulty": "Medium",
+      "acceptance": 37.0557472944178,
+      "likes": 12615,
+      "dislikes": 4598
+    },
+    {
+      "position": 37,
+      "title": "Delete and Earn",
+      "slug": "delete-and-earn",
+      "difficulty": "Medium",
+      "acceptance": 56.90712876859063,
+      "likes": 7844,
+      "dislikes": 397
+    },
+    {
+      "position": 38,
+      "title": "Longest String Chain",
+      "slug": "longest-string-chain",
+      "difficulty": "Medium",
+      "acceptance": 62.4764108640129,
+      "likes": 7688,
+      "dislikes": 267
+    },
+    {
+      "position": 39,
+      "title": "Unique Binary Search Trees II",
+      "slug": "unique-binary-search-trees-ii",
+      "difficulty": "Medium",
+      "acceptance": 61.14530731085937,
+      "likes": 7863,
+      "dislikes": 571
+    },
+    {
+      "position": 40,
+      "title": "Best Time to Buy and Sell Stock with Transaction Fee",
+      "slug": "best-time-to-buy-and-sell-stock-with-transaction-fee",
+      "difficulty": "Medium",
+      "acceptance": 71.20342966279047,
+      "likes": 7514,
+      "dislikes": 230
+    }
+  ]
+}

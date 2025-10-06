@@ -1,0 +1,89 @@
+{
+  "frozen": true,
+  "createdAt": "2025-10-06T15:22:57.698Z",
+  "trackSlug": "randomized",
+  "difficulty": "MEDIUM",
+  "questions": [
+    {
+      "position": 1,
+      "title": "Insert Delete GetRandom O(1)",
+      "slug": "insert-delete-getrandom-o1",
+      "difficulty": "Medium",
+      "acceptance": 55.11401637555354,
+      "likes": 9777,
+      "dislikes": 682
+    },
+    {
+      "position": 2,
+      "title": "Linked List Random Node",
+      "slug": "linked-list-random-node",
+      "difficulty": "Medium",
+      "acceptance": 64.16467099478007,
+      "likes": 3186,
+      "dislikes": 718
+    },
+    {
+      "position": 3,
+      "title": "Random Pick with Weight",
+      "slug": "random-pick-with-weight",
+      "difficulty": "Medium",
+      "acceptance": 48.5966844251317,
+      "likes": 2208,
+      "dislikes": 1026
+    },
+    {
+      "position": 4,
+      "title": "Implement Rand10() Using Rand7()",
+      "slug": "implement-rand10-using-rand7",
+      "difficulty": "Medium",
+      "acceptance": 46.0104013892513,
+      "likes": 1162,
+      "dislikes": 388
+    },
+    {
+      "position": 5,
+      "title": "Shuffle an Array",
+      "slug": "shuffle-an-array",
+      "difficulty": "Medium",
+      "acceptance": 59.28626895955712,
+      "likes": 1412,
+      "dislikes": 943
+    },
+    {
+      "position": 6,
+      "title": "Random Flip Matrix",
+      "slug": "random-flip-matrix",
+      "difficulty": "Medium",
+      "acceptance": 44.395022079486154,
+      "likes": 456,
+      "dislikes": 134
+    },
+    {
+      "position": 7,
+      "title": "Random Pick Index",
+      "slug": "random-pick-index",
+      "difficulty": "Medium",
+      "acceptance": 64.76279795755927,
+      "likes": 1378,
+      "dislikes": 1307
+    },
+    {
+      "position": 8,
+      "title": "Random Point in Non-overlapping Rectangles",
+      "slug": "random-point-in-non-overlapping-rectangles",
+      "difficulty": "Medium",
+      "acceptance": 38.626015429016306,
+      "likes": 512,
+      "dislikes": 686
+    },
+    {
+      "position": 9,
+      "title": "Generate Random Point in a Circle",
+      "slug": "generate-random-point-in-a-circle",
+      "difficulty": "Medium",
+      "acceptance": 41.75827825567106,
+      "likes": 476,
+      "dislikes": 778
+    }
+  ]
+}

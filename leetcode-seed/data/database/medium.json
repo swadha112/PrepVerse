@@ -1,0 +1,305 @@
+{
+  "frozen": true,
+  "createdAt": "2025-10-06T15:18:51.549Z",
+  "trackSlug": "database",
+  "difficulty": "MEDIUM",
+  "questions": [
+    {
+      "position": 1,
+      "title": "Second Highest Salary",
+      "slug": "second-highest-salary",
+      "difficulty": "Medium",
+      "acceptance": 45.174514994949085,
+      "likes": 4015,
+      "dislikes": 1002
+    },
+    {
+      "position": 2,
+      "title": "Consecutive Numbers",
+      "slug": "consecutive-numbers",
+      "difficulty": "Medium",
+      "acceptance": 46.9606502971513,
+      "likes": 2557,
+      "dislikes": 351
+    },
+    {
+      "position": 3,
+      "title": "Rank Scores",
+      "slug": "rank-scores",
+      "difficulty": "Medium",
+      "acceptance": 66.21948031578397,
+      "likes": 2367,
+      "dislikes": 295
+    },
+    {
+      "position": 4,
+      "title": "Department Highest Salary",
+      "slug": "department-highest-salary",
+      "difficulty": "Medium",
+      "acceptance": 56.042727251851765,
+      "likes": 2271,
+      "dislikes": 204
+    },
+    {
+      "position": 5,
+      "title": "Managers with at Least 5 Direct Reports",
+      "slug": "managers-with-at-least-5-direct-reports",
+      "difficulty": "Medium",
+      "acceptance": 48.96349846719435,
+      "likes": 1596,
+      "dislikes": 174
+    },
+    {
+      "position": 6,
+      "title": "Confirmation Rate",
+      "slug": "confirmation-rate",
+      "difficulty": "Medium",
+      "acceptance": 61.42363669303702,
+      "likes": 1416,
+      "dislikes": 126
+    },
+    {
+      "position": 7,
+      "title": "Tree Node",
+      "slug": "tree-node",
+      "difficulty": "Medium",
+      "acceptance": 74.3867962440724,
+      "likes": 1335,
+      "dislikes": 128
+    },
+    {
+      "position": 8,
+      "title": "Exchange Seats",
+      "slug": "exchange-seats",
+      "difficulty": "Medium",
+      "acceptance": 73.28169925110018,
+      "likes": 1788,
+      "dislikes": 610
+    },
+    {
+      "position": 9,
+      "title": "Game Play Analysis IV",
+      "slug": "game-play-analysis-iv",
+      "difficulty": "Medium",
+      "acceptance": 40.09664328330234,
+      "likes": 1357,
+      "dislikes": 239
+    },
+    {
+      "position": 10,
+      "title": "Monthly Transactions I",
+      "slug": "monthly-transactions-i",
+      "difficulty": "Medium",
+      "acceptance": 58.53912202200991,
+      "likes": 1227,
+      "dislikes": 125
+    },
+    {
+      "position": 11,
+      "title": "Nth Highest Salary",
+      "slug": "nth-highest-salary",
+      "difficulty": "Medium",
+      "acceptance": 38.513886472416395,
+      "likes": 2196,
+      "dislikes": 1107
+    },
+    {
+      "position": 12,
+      "title": "Product Price at a Given Date",
+      "slug": "product-price-at-a-given-date",
+      "difficulty": "Medium",
+      "acceptance": 57.596763013234884,
+      "likes": 1268,
+      "dislikes": 303
+    },
+    {
+      "position": 13,
+      "title": "Last Person to Fit in the Bus",
+      "slug": "last-person-to-fit-in-the-bus",
+      "difficulty": "Medium",
+      "acceptance": 68.71707509479711,
+      "likes": 1006,
+      "dislikes": 47
+    },
+    {
+      "position": 14,
+      "title": "Immediate Food Delivery II",
+      "slug": "immediate-food-delivery-ii",
+      "difficulty": "Medium",
+      "acceptance": 55.06694600100038,
+      "likes": 1119,
+      "dislikes": 167
+    },
+    {
+      "position": 15,
+      "title": "Customers Who Bought All Products",
+      "slug": "customers-who-bought-all-products",
+      "difficulty": "Medium",
+      "acceptance": 63.31906533995624,
+      "likes": 1023,
+      "dislikes": 90
+    },
+    {
+      "position": 16,
+      "title": "Capital Gain/Loss",
+      "slug": "capital-gainloss",
+      "difficulty": "Medium",
+      "acceptance": 84.81407296759008,
+      "likes": 901,
+      "dislikes": 50
+    },
+    {
+      "position": 17,
+      "title": "Friend Requests II: Who Has the Most Friends",
+      "slug": "friend-requests-ii-who-has-the-most-friends",
+      "difficulty": "Medium",
+      "acceptance": 61.68876331703258,
+      "likes": 882,
+      "dislikes": 148
+    },
+    {
+      "position": 18,
+      "title": "Restaurant Growth",
+      "slug": "restaurant-growth",
+      "difficulty": "Medium",
+      "acceptance": 57.48560046208077,
+      "likes": 1063,
+      "dislikes": 359
+    },
+    {
+      "position": 19,
+      "title": "Market Analysis I",
+      "slug": "market-analysis-i",
+      "difficulty": "Medium",
+      "acceptance": 57.105135528372045,
+      "likes": 722,
+      "dislikes": 70
+    },
+    {
+      "position": 20,
+      "title": "Movie Rating",
+      "slug": "movie-rating",
+      "difficulty": "Medium",
+      "acceptance": 41.950620399878424,
+      "likes": 869,
+      "dislikes": 223
+    },
+    {
+      "position": 21,
+      "title": "Count Salary Categories",
+      "slug": "count-salary-categories",
+      "difficulty": "Medium",
+      "acceptance": 63.38225318173074,
+      "likes": 652,
+      "dislikes": 107
+    },
+    {
+      "position": 22,
+      "title": "Investments in 2016",
+      "slug": "investments-in-2016",
+      "difficulty": "Medium",
+      "acceptance": 50.40257777706706,
+      "likes": 806,
+      "dislikes": 600
+    },
+    {
+      "position": 23,
+      "title": "Find Students Who Improved",
+      "slug": "find-students-who-improved",
+      "difficulty": "Medium",
+      "acceptance": 47.39287242496485,
+      "likes": 67,
+      "dislikes": 7
+    },
+    {
+      "position": 24,
+      "title": "Find Product Recommendation Pairs",
+      "slug": "find-product-recommendation-pairs",
+      "difficulty": "Medium",
+      "acceptance": 62.05207928488146,
+      "likes": 54,
+      "dislikes": 3
+    },
+    {
+      "position": 25,
+      "title": "DNA Pattern Recognition ",
+      "slug": "dna-pattern-recognition",
+      "difficulty": "Medium",
+      "acceptance": 85.20167960300292,
+      "likes": 42,
+      "dislikes": 5
+    },
+    {
+      "position": 26,
+      "title": "Odd and Even Transactions",
+      "slug": "odd-and-even-transactions",
+      "difficulty": "Medium",
+      "acceptance": 68.41092623706032,
+      "likes": 63,
+      "dislikes": 26
+    },
+    {
+      "position": 27,
+      "title": "Analyze Subscription Conversion ",
+      "slug": "analyze-subscription-conversion",
+      "difficulty": "Medium",
+      "acceptance": 74.75623616677633,
+      "likes": 40,
+      "dislikes": 5
+    },
+    {
+      "position": 28,
+      "title": "Seasonal Sales Analysis",
+      "slug": "seasonal-sales-analysis",
+      "difficulty": "Medium",
+      "acceptance": 61.02829599214496,
+      "likes": 38,
+      "dislikes": 3
+    },
+    {
+      "position": 29,
+      "title": "Find Consistently Improving Employees",
+      "slug": "find-consistently-improving-employees",
+      "difficulty": "Medium",
+      "acceptance": 56.02166420482521,
+      "likes": 33,
+      "dislikes": 0
+    },
+    {
+      "position": 30,
+      "title": "Find COVID Recovery Patients",
+      "slug": "find-covid-recovery-patients",
+      "difficulty": "Medium",
+      "acceptance": 40.69884004009738,
+      "likes": 38,
+      "dislikes": 5
+    },
+    {
+      "position": 31,
+      "title": "Find Drivers with Improved Fuel Efficiency",
+      "slug": "find-drivers-with-improved-fuel-efficiency",
+      "difficulty": "Medium",
+      "acceptance": 48.11616954474097,
+      "likes": 25,
+      "dislikes": 5
+    },
+    {
+      "position": 32,
+      "title": "Find Overbooked Employees",
+      "slug": "find-overbooked-employees",
+      "difficulty": "Medium",
+      "acceptance": 43.07866091599918,
+      "likes": 25,
+      "dislikes": 6
+    },
+    {
+      "position": 33,
+      "title": "Product Sales Analysis III",
+      "slug": "product-sales-analysis-iii",
+      "difficulty": "Medium",
+      "acceptance": 45.02618762533699,
+      "likes": 684,
+      "dislikes": 1097
+    }
+  ]
+}

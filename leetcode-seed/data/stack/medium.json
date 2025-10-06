@@ -1,0 +1,368 @@
+{
+  "frozen": true,
+  "createdAt": "2025-10-06T15:20:22.645Z",
+  "trackSlug": "stack",
+  "difficulty": "MEDIUM",
+  "questions": [
+    {
+      "position": 1,
+      "title": "Min Stack",
+      "slug": "min-stack",
+      "difficulty": "Medium",
+      "acceptance": 57.06380307050796,
+      "likes": 15509,
+      "dislikes": 969
+    },
+    {
+      "position": 2,
+      "title": "Daily Temperatures",
+      "slug": "daily-temperatures",
+      "difficulty": "Medium",
+      "acceptance": 67.76499136683934,
+      "likes": 14186,
+      "dislikes": 358
+    },
+    {
+      "position": 3,
+      "title": "Decode String",
+      "slug": "decode-string",
+      "difficulty": "Medium",
+      "acceptance": 61.66525418664202,
+      "likes": 13637,
+      "dislikes": 680
+    },
+    {
+      "position": 4,
+      "title": "Flatten Binary Tree to Linked List",
+      "slug": "flatten-binary-tree-to-linked-list",
+      "difficulty": "Medium",
+      "acceptance": 69.4326857301822,
+      "likes": 13321,
+      "dislikes": 591
+    },
+    {
+      "position": 5,
+      "title": "Reorder List",
+      "slug": "reorder-list",
+      "difficulty": "Medium",
+      "acceptance": 63.536737563430044,
+      "likes": 12112,
+      "dislikes": 485
+    },
+    {
+      "position": 6,
+      "title": "Remove K Digits",
+      "slug": "remove-k-digits",
+      "difficulty": "Medium",
+      "acceptance": 35.732789831946604,
+      "likes": 10284,
+      "dislikes": 538
+    },
+    {
+      "position": 7,
+      "title": "Next Greater Element II",
+      "slug": "next-greater-element-ii",
+      "difficulty": "Medium",
+      "acceptance": 67.2555395628764,
+      "likes": 8819,
+      "dislikes": 225
+    },
+    {
+      "position": 8,
+      "title": "Binary Search Tree Iterator",
+      "slug": "binary-search-tree-iterator",
+      "difficulty": "Medium",
+      "acceptance": 75.5749497451334,
+      "likes": 9077,
+      "dislikes": 567
+    },
+    {
+      "position": 9,
+      "title": "Remove Duplicate Letters",
+      "slug": "remove-duplicate-letters",
+      "difficulty": "Medium",
+      "acceptance": 51.98235406223659,
+      "likes": 9098,
+      "dislikes": 687
+    },
+    {
+      "position": 10,
+      "title": "Sum of Subarray Minimums",
+      "slug": "sum-of-subarray-minimums",
+      "difficulty": "Medium",
+      "acceptance": 37.977527654995704,
+      "likes": 8918,
+      "dislikes": 710
+    },
+    {
+      "position": 11,
+      "title": "Asteroid Collision",
+      "slug": "asteroid-collision",
+      "difficulty": "Medium",
+      "acceptance": 46.0967396613904,
+      "likes": 8982,
+      "dislikes": 1280
+    },
+    {
+      "position": 12,
+      "title": "Shortest Unsorted Continuous Subarray",
+      "slug": "shortest-unsorted-continuous-subarray",
+      "difficulty": "Medium",
+      "acceptance": 37.687141039483755,
+      "likes": 7939,
+      "dislikes": 272
+    },
+    {
+      "position": 13,
+      "title": "Evaluate Reverse Polish Notation",
+      "slug": "evaluate-reverse-polish-notation",
+      "difficulty": "Medium",
+      "acceptance": 55.813645644526375,
+      "likes": 8350,
+      "dislikes": 1163
+    },
+    {
+      "position": 14,
+      "title": "Minimum Remove to Make Valid Parentheses",
+      "slug": "minimum-remove-to-make-valid-parentheses",
+      "difficulty": "Medium",
+      "acceptance": 71.01963841111035,
+      "likes": 7283,
+      "dislikes": 161
+    },
+    {
+      "position": 15,
+      "title": "132 Pattern",
+      "slug": "132-pattern",
+      "difficulty": "Medium",
+      "acceptance": 34.268679747795005,
+      "likes": 7520,
+      "dislikes": 462
+    },
+    {
+      "position": 16,
+      "title": "Valid Parenthesis String",
+      "slug": "valid-parenthesis-string",
+      "difficulty": "Medium",
+      "acceptance": 39.416393618335746,
+      "likes": 6778,
+      "dislikes": 214
+    },
+    {
+      "position": 17,
+      "title": "Construct Binary Search Tree from Preorder Traversal",
+      "slug": "construct-binary-search-tree-from-preorder-traversal",
+      "difficulty": "Medium",
+      "acceptance": 83.78542009676883,
+      "likes": 6624,
+      "dislikes": 92
+    },
+    {
+      "position": 18,
+      "title": "Online Stock Span",
+      "slug": "online-stock-span",
+      "difficulty": "Medium",
+      "acceptance": 68.14558689238319,
+      "likes": 7014,
+      "dislikes": 483
+    },
+    {
+      "position": 19,
+      "title": "Validate Stack Sequences",
+      "slug": "validate-stack-sequences",
+      "difficulty": "Medium",
+      "acceptance": 69.9158278770008,
+      "likes": 6060,
+      "dislikes": 129
+    },
+    {
+      "position": 20,
+      "title": "Remove All Adjacent Duplicates in String II",
+      "slug": "remove-all-adjacent-duplicates-in-string-ii",
+      "difficulty": "Medium",
+      "acceptance": 60.20230076615049,
+      "likes": 6002,
+      "dislikes": 123
+    },
+    {
+      "position": 21,
+      "title": "Add Two Numbers II",
+      "slug": "add-two-numbers-ii",
+      "difficulty": "Medium",
+      "acceptance": 62.02987998576064,
+      "likes": 6097,
+      "dislikes": 299
+    },
+    {
+      "position": 22,
+      "title": "Basic Calculator II",
+      "slug": "basic-calculator-ii",
+      "difficulty": "Medium",
+      "acceptance": 46.23203056569773,
+      "likes": 6496,
+      "dislikes": 944
+    },
+    {
+      "position": 23,
+      "title": "Score of Parentheses",
+      "slug": "score-of-parentheses",
+      "difficulty": "Medium",
+      "acceptance": 63.58560887047204,
+      "likes": 5569,
+      "dislikes": 231
+    },
+    {
+      "position": 24,
+      "title": "Maximum Binary Tree",
+      "slug": "maximum-binary-tree",
+      "difficulty": "Medium",
+      "acceptance": 86.1442861927782,
+      "likes": 5370,
+      "dislikes": 350
+    },
+    {
+      "position": 25,
+      "title": "Simplify Path",
+      "slug": "simplify-path",
+      "difficulty": "Medium",
+      "acceptance": 48.93451417661588,
+      "likes": 6311,
+      "dislikes": 1381
+    },
+    {
+      "position": 26,
+      "title": "Minimum Add to Make Parentheses Valid",
+      "slug": "minimum-add-to-make-parentheses-valid",
+      "difficulty": "Medium",
+      "acceptance": 74.49466352885644,
+      "likes": 4847,
+      "dislikes": 245
+    },
+    {
+      "position": 27,
+      "title": "Minimum Cost Tree From Leaf Values",
+      "slug": "minimum-cost-tree-from-leaf-values",
+      "difficulty": "Medium",
+      "acceptance": 67.71246789633435,
+      "likes": 4396,
+      "dislikes": 278
+    },
+    {
+      "position": 28,
+      "title": "Design Browser History",
+      "slug": "design-browser-history",
+      "difficulty": "Medium",
+      "acceptance": 77.97307131543627,
+      "likes": 4070,
+      "dislikes": 261
+    },
+    {
+      "position": 29,
+      "title": "Maximum Twin Sum of a Linked List",
+      "slug": "maximum-twin-sum-of-a-linked-list",
+      "difficulty": "Medium",
+      "acceptance": 81.56350793736598,
+      "likes": 3826,
+      "dislikes": 121
+    },
+    {
+      "position": 30,
+      "title": "Next Greater Node In Linked List",
+      "slug": "next-greater-node-in-linked-list",
+      "difficulty": "Medium",
+      "acceptance": 62.84317130172794,
+      "likes": 3470,
+      "dislikes": 124
+    },
+    {
+      "position": 31,
+      "title": "Max Chunks To Make Sorted",
+      "slug": "max-chunks-to-make-sorted",
+      "difficulty": "Medium",
+      "acceptance": 64.11906159997763,
+      "likes": 3609,
+      "dislikes": 362
+    },
+    {
+      "position": 32,
+      "title": "Flatten Nested List Iterator",
+      "slug": "flatten-nested-list-iterator",
+      "difficulty": "Medium",
+      "acceptance": 65.39474153252296,
+      "likes": 5025,
+      "dislikes": 1791
+    },
+    {
+      "position": 33,
+      "title": "The Number of Weak Characters in the Game",
+      "slug": "the-number-of-weak-characters-in-the-game",
+      "difficulty": "Medium",
+      "acceptance": 44.30838106524458,
+      "likes": 3079,
+      "dislikes": 99
+    },
+    {
+      "position": 34,
+      "title": "Car Fleet",
+      "slug": "car-fleet",
+      "difficulty": "Medium",
+      "acceptance": 54.06041751229262,
+      "likes": 4100,
+      "dislikes": 1174
+    },
+    {
+      "position": 35,
+      "title": "Removing Stars From a String",
+      "slug": "removing-stars-from-a-string",
+      "difficulty": "Medium",
+      "acceptance": 78.51646677873929,
+      "likes": 3151,
+      "dislikes": 230
+    },
+    {
+      "position": 36,
+      "title": "Reverse Substrings Between Each Pair of Parentheses",
+      "slug": "reverse-substrings-between-each-pair-of-parentheses",
+      "difficulty": "Medium",
+      "acceptance": 71.81891629372089,
+      "likes": 2918,
+      "dislikes": 127
+    },
+    {
+      "position": 37,
+      "title": "Sum of Subarray Ranges",
+      "slug": "sum-of-subarray-ranges",
+      "difficulty": "Medium",
+      "acceptance": 60.205234569797994,
+      "likes": 2843,
+      "dislikes": 140
+    },
+    {
+      "position": 38,
+      "title": "Maximum Width Ramp",
+      "slug": "maximum-width-ramp",
+      "difficulty": "Medium",
+      "acceptance": 55.76582120208261,
+      "likes": 2797,
+      "dislikes": 95
+    },
+    {
+      "position": 39,
+      "title": "Smallest Subsequence of Distinct Characters",
+      "slug": "smallest-subsequence-of-distinct-characters",
+      "difficulty": "Medium",
+      "acceptance": 62.535705657481486,
+      "likes": 2714,
+      "dislikes": 199
+    },
+    {
+      "position": 40,
+      "title": "Remove All Occurrences of a Substring",
+      "slug": "remove-all-occurrences-of-a-substring",
+      "difficulty": "Medium",
+      "acceptance": 78.3262193314532,
+      "likes": 2554,
+      "dislikes": 88
+    }
+  ]
+}

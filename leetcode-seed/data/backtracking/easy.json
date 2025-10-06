@@ -1,0 +1,35 @@
+{
+  "frozen": true,
+  "createdAt": "2025-10-06T15:20:52.788Z",
+  "trackSlug": "backtracking",
+  "difficulty": "EASY",
+  "questions": [
+    {
+      "position": 1,
+      "title": "Binary Tree Paths",
+      "slug": "binary-tree-paths",
+      "difficulty": "Easy",
+      "acceptance": 67.38992488851939,
+      "likes": 7067,
+      "dislikes": 334
+    },
+    {
+      "position": 2,
+      "title": "Sum of All Subset XOR Totals",
+      "slug": "sum-of-all-subset-xor-totals",
+      "difficulty": "Easy",
+      "acceptance": 90.06729214889127,
+      "likes": 2636,
+      "dislikes": 341
+    },
+    {
+      "position": 3,
+      "title": "Binary Watch",
+      "slug": "binary-watch",
+      "difficulty": "Easy",
+      "acceptance": 57.285435004683436,
+      "likes": 1538,
+      "dislikes": 2823
+    }
+  ]
+}

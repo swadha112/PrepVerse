@@ -1,0 +1,350 @@
+{
+  "frozen": true,
+  "createdAt": "2025-10-06T15:18:55.051Z",
+  "trackSlug": "matrix",
+  "difficulty": "EASY",
+  "questions": [
+    {
+      "position": 1,
+      "title": "Flood Fill",
+      "slug": "flood-fill",
+      "difficulty": "Easy",
+      "acceptance": 67.22288400467949,
+      "likes": 9187,
+      "dislikes": 942
+    },
+    {
+      "position": 2,
+      "title": "Island Perimeter",
+      "slug": "island-perimeter",
+      "difficulty": "Easy",
+      "acceptance": 73.85721865349635,
+      "likes": 7166,
+      "dislikes": 413
+    },
+    {
+      "position": 3,
+      "title": "Count Negative Numbers in a Sorted Matrix",
+      "slug": "count-negative-numbers-in-a-sorted-matrix",
+      "difficulty": "Easy",
+      "acceptance": 77.80868888647632,
+      "likes": 5159,
+      "dislikes": 138
+    },
+    {
+      "position": 4,
+      "title": "Richest Customer Wealth",
+      "slug": "richest-customer-wealth",
+      "difficulty": "Easy",
+      "acceptance": 88.59029040958414,
+      "likes": 4719,
+      "dislikes": 381
+    },
+    {
+      "position": 5,
+      "title": "The K Weakest Rows in a Matrix",
+      "slug": "the-k-weakest-rows-in-a-matrix",
+      "difficulty": "Easy",
+      "acceptance": 74.13703152295827,
+      "likes": 4304,
+      "dislikes": 241
+    },
+    {
+      "position": 6,
+      "title": "Matrix Diagonal Sum",
+      "slug": "matrix-diagonal-sum",
+      "difficulty": "Easy",
+      "acceptance": 83.9087712168769,
+      "likes": 3708,
+      "dislikes": 63
+    },
+    {
+      "position": 7,
+      "title": "Transpose Matrix",
+      "slug": "transpose-matrix",
+      "difficulty": "Easy",
+      "acceptance": 75.02287205204664,
+      "likes": 4060,
+      "dislikes": 454
+    },
+    {
+      "position": 8,
+      "title": "Toeplitz Matrix",
+      "slug": "toeplitz-matrix",
+      "difficulty": "Easy",
+      "acceptance": 69.44576287053019,
+      "likes": 3684,
+      "dislikes": 177
+    },
+    {
+      "position": 9,
+      "title": "Flipping an Image",
+      "slug": "flipping-an-image",
+      "difficulty": "Easy",
+      "acceptance": 83.2665373773172,
+      "likes": 3642,
+      "dislikes": 254
+    },
+    {
+      "position": 10,
+      "title": "Reshape the Matrix",
+      "slug": "reshape-the-matrix",
+      "difficulty": "Easy",
+      "acceptance": 64.30935612585309,
+      "likes": 3651,
+      "dislikes": 433
+    },
+    {
+      "position": 11,
+      "title": "Lucky Numbers in a Matrix",
+      "slug": "lucky-numbers-in-a-matrix",
+      "difficulty": "Easy",
+      "acceptance": 79.94043195311417,
+      "likes": 2303,
+      "dislikes": 120
+    },
+    {
+      "position": 12,
+      "title": "Shift 2D Grid",
+      "slug": "shift-2d-grid",
+      "difficulty": "Easy",
+      "acceptance": 67.88757493218742,
+      "likes": 1782,
+      "dislikes": 349
+    },
+    {
+      "position": 13,
+      "title": "Special Positions in a Binary Matrix",
+      "slug": "special-positions-in-a-binary-matrix",
+      "difficulty": "Easy",
+      "acceptance": 68.75716300332748,
+      "likes": 1500,
+      "dislikes": 76
+    },
+    {
+      "position": 14,
+      "title": "Determine Whether Matrix Can Be Obtained By Rotation",
+      "slug": "determine-whether-matrix-can-be-obtained-by-rotation",
+      "difficulty": "Easy",
+      "acceptance": 58.65039297987711,
+      "likes": 1554,
+      "dislikes": 145
+    },
+    {
+      "position": 15,
+      "title": "Find Winner on a Tic Tac Toe Game",
+      "slug": "find-winner-on-a-tic-tac-toe-game",
+      "difficulty": "Easy",
+      "acceptance": 54.26819912921032,
+      "likes": 1602,
+      "dislikes": 366
+    },
+    {
+      "position": 16,
+      "title": "Convert 1D Array Into 2D Array",
+      "slug": "convert-1d-array-into-2d-array",
+      "difficulty": "Easy",
+      "acceptance": 71.95181381485139,
+      "likes": 1277,
+      "dislikes": 103
+    },
+    {
+      "position": 17,
+      "title": "Largest Local Values in a Matrix",
+      "slug": "largest-local-values-in-a-matrix",
+      "difficulty": "Easy",
+      "acceptance": 87.77174791584879,
+      "likes": 1305,
+      "dislikes": 182
+    },
+    {
+      "position": 18,
+      "title": "Check if Every Row and Column Contains All Numbers",
+      "slug": "check-if-every-row-and-column-contains-all-numbers",
+      "difficulty": "Easy",
+      "acceptance": 53.52840969050096,
+      "likes": 1065,
+      "dislikes": 56
+    },
+    {
+      "position": 19,
+      "title": "Find Missing and Repeated Values",
+      "slug": "find-missing-and-repeated-values",
+      "difficulty": "Easy",
+      "acceptance": 83.30738956349015,
+      "likes": 903,
+      "dislikes": 43
+    },
+    {
+      "position": 20,
+      "title": "Delete Greatest Value in Each Row",
+      "slug": "delete-greatest-value-in-each-row",
+      "difficulty": "Easy",
+      "acceptance": 79.38676296317033,
+      "likes": 691,
+      "dislikes": 53
+    },
+    {
+      "position": 21,
+      "title": "Row With Maximum Ones",
+      "slug": "row-with-maximum-ones",
+      "difficulty": "Easy",
+      "acceptance": 74.27014180915178,
+      "likes": 561,
+      "dislikes": 21
+    },
+    {
+      "position": 22,
+      "title": "Check if Matrix Is X-Matrix",
+      "slug": "check-if-matrix-is-x-matrix",
+      "difficulty": "Easy",
+      "acceptance": 65.89443702020152,
+      "likes": 533,
+      "dislikes": 26
+    },
+    {
+      "position": 23,
+      "title": "Matrix Cells in Distance Order",
+      "slug": "matrix-cells-in-distance-order",
+      "difficulty": "Easy",
+      "acceptance": 73.35249867278355,
+      "likes": 800,
+      "dislikes": 341
+    },
+    {
+      "position": 24,
+      "title": "Prime In Diagonal",
+      "slug": "prime-in-diagonal",
+      "difficulty": "Easy",
+      "acceptance": 36.81412361039111,
+      "likes": 389,
+      "dislikes": 46
+    },
+    {
+      "position": 25,
+      "title": "Modify the Matrix",
+      "slug": "modify-the-matrix",
+      "difficulty": "Easy",
+      "acceptance": 68.6959658820043,
+      "likes": 150,
+      "dislikes": 9
+    },
+    {
+      "position": 26,
+      "title": "Find Champion I",
+      "slug": "find-champion-i",
+      "difficulty": "Easy",
+      "acceptance": 72.80408121500929,
+      "likes": 182,
+      "dislikes": 49
+    },
+    {
+      "position": 27,
+      "title": "Find the Width of Columns of a Grid",
+      "slug": "find-the-width-of-columns-of-a-grid",
+      "difficulty": "Easy",
+      "acceptance": 69.76045627376426,
+      "likes": 182,
+      "dislikes": 53
+    },
+    {
+      "position": 28,
+      "title": "Available Captures for Rook",
+      "slug": "available-captures-for-rook",
+      "difficulty": "Easy",
+      "acceptance": 70.73499721526038,
+      "likes": 769,
+      "dislikes": 643
+    },
+    {
+      "position": 29,
+      "title": "Matrix Similarity After Cyclic Shifts",
+      "slug": "matrix-similarity-after-cyclic-shifts",
+      "difficulty": "Easy",
+      "acceptance": 58.7310873512205,
+      "likes": 187,
+      "dislikes": 68
+    },
+    {
+      "position": 30,
+      "title": "Check if Grid Satisfies Conditions",
+      "slug": "check-if-grid-satisfies-conditions",
+      "difficulty": "Easy",
+      "acceptance": 44.300414553565794,
+      "likes": 101,
+      "dislikes": 5
+    },
+    {
+      "position": 31,
+      "title": "Design Neighbor Sum Service",
+      "slug": "design-neighbor-sum-service",
+      "difficulty": "Easy",
+      "acceptance": 76.04282609847883,
+      "likes": 104,
+      "dislikes": 17
+    },
+    {
+      "position": 32,
+      "title": "Make a Square with the Same Color",
+      "slug": "make-a-square-with-the-same-color",
+      "difficulty": "Easy",
+      "acceptance": 52.39002622107132,
+      "likes": 87,
+      "dislikes": 9
+    },
+    {
+      "position": 33,
+      "title": "Zigzag Grid Traversal With Skip",
+      "slug": "zigzag-grid-traversal-with-skip",
+      "difficulty": "Easy",
+      "acceptance": 64.17883442797951,
+      "likes": 67,
+      "dislikes": 10
+    },
+    {
+      "position": 34,
+      "title": "Minimum Operations to Make Columns Strictly Increasing",
+      "slug": "minimum-operations-to-make-columns-strictly-increasing",
+      "difficulty": "Easy",
+      "acceptance": 72.2079549013467,
+      "likes": 61,
+      "dislikes": 5
+    },
+    {
+      "position": 35,
+      "title": "Flip Square Submatrix Vertically",
+      "slug": "flip-square-submatrix-vertically",
+      "difficulty": "Easy",
+      "acceptance": 67.59923969902135,
+      "likes": 47,
+      "dislikes": 1
+    },
+    {
+      "position": 36,
+      "title": "Surface Area of 3D Shapes",
+      "slug": "surface-area-of-3d-shapes",
+      "difficulty": "Easy",
+      "acceptance": 68.80199782005822,
+      "likes": 596,
+      "dislikes": 760
+    },
+    {
+      "position": 37,
+      "title": "Projection Area of 3D Shapes",
+      "slug": "projection-area-of-3d-shapes",
+      "difficulty": "Easy",
+      "acceptance": 74.65028108249444,
+      "likes": 627,
+      "dislikes": 1442
+    },
+    {
+      "position": 38,
+      "title": "Image Smoother",
+      "slug": "image-smoother",
+      "difficulty": "Easy",
+      "acceptance": 68.71515199385347,
+      "likes": 1215,
+      "dislikes": 2985
+    }
+  ]
+}

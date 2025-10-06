@@ -1,0 +1,296 @@
+{
+  "frozen": true,
+  "createdAt": "2025-10-06T15:21:35.609Z",
+  "trackSlug": "combinatorics",
+  "difficulty": "HARD",
+  "questions": [
+    {
+      "position": 1,
+      "title": "Count All Valid Pickup and Delivery Options",
+      "slug": "count-all-valid-pickup-and-delivery-options",
+      "difficulty": "Hard",
+      "acceptance": 64.87218163326472,
+      "likes": 3083,
+      "dislikes": 233
+    },
+    {
+      "position": 2,
+      "title": "Number of Music Playlists",
+      "slug": "number-of-music-playlists",
+      "difficulty": "Hard",
+      "acceptance": 59.96729725077845,
+      "likes": 2441,
+      "dislikes": 201
+    },
+    {
+      "position": 3,
+      "title": "Number of Ways to Reorder Array to Get Same BST",
+      "slug": "number-of-ways-to-reorder-array-to-get-same-bst",
+      "difficulty": "Hard",
+      "acceptance": 53.741150461886676,
+      "likes": 1840,
+      "dislikes": 210
+    },
+    {
+      "position": 4,
+      "title": "Number of Ways to Rearrange Sticks With K Sticks Visible",
+      "slug": "number-of-ways-to-rearrange-sticks-with-k-sticks-visible",
+      "difficulty": "Hard",
+      "acceptance": 58.249539267354265,
+      "likes": 734,
+      "dislikes": 23
+    },
+    {
+      "position": 5,
+      "title": "Count the Number of Ideal Arrays",
+      "slug": "count-the-number-of-ideal-arrays",
+      "difficulty": "Hard",
+      "acceptance": 56.92459092956149,
+      "likes": 839,
+      "dislikes": 132
+    },
+    {
+      "position": 6,
+      "title": "Kth Smallest Instructions",
+      "slug": "kth-smallest-instructions",
+      "difficulty": "Hard",
+      "acceptance": 44.17247906241087,
+      "likes": 562,
+      "dislikes": 16
+    },
+    {
+      "position": 7,
+      "title": "Count Ways to Build Rooms in an Ant Colony",
+      "slug": "count-ways-to-build-rooms-in-an-ant-colony",
+      "difficulty": "Hard",
+      "acceptance": 49.30938527700481,
+      "likes": 514,
+      "dislikes": 56
+    },
+    {
+      "position": 8,
+      "title": "Count Anagrams",
+      "slug": "count-anagrams",
+      "difficulty": "Hard",
+      "acceptance": 36.464032007838654,
+      "likes": 461,
+      "dislikes": 41
+    },
+    {
+      "position": 9,
+      "title": "Count the Number of Arrays with K Matching Adjacent Elements",
+      "slug": "count-the-number-of-arrays-with-k-matching-adjacent-elements",
+      "difficulty": "Hard",
+      "acceptance": 58.357285950701154,
+      "likes": 424,
+      "dislikes": 67
+    },
+    {
+      "position": 10,
+      "title": "Find the Count of Good Integers",
+      "slug": "find-the-count-of-good-integers",
+      "difficulty": "Hard",
+      "acceptance": 69.46006641202325,
+      "likes": 457,
+      "dislikes": 110
+    },
+    {
+      "position": 11,
+      "title": "Count K-Subsequences of a String With Maximum Beauty",
+      "slug": "count-k-subsequences-of-a-string-with-maximum-beauty",
+      "difficulty": "Hard",
+      "acceptance": 29.94961901986093,
+      "likes": 355,
+      "dislikes": 35
+    },
+    {
+      "position": 12,
+      "title": "Count the Number of Good Partitions",
+      "slug": "count-the-number-of-good-partitions",
+      "difficulty": "Hard",
+      "acceptance": 48.02901399857642,
+      "likes": 287,
+      "dislikes": 5
+    },
+    {
+      "position": 13,
+      "title": "Count Number of Balanced Permutations",
+      "slug": "count-number-of-balanced-permutations",
+      "difficulty": "Hard",
+      "acceptance": 49.20613686718783,
+      "likes": 359,
+      "dislikes": 79
+    },
+    {
+      "position": 14,
+      "title": "Count Ways to Make Array With Product",
+      "slug": "count-ways-to-make-array-with-product",
+      "difficulty": "Hard",
+      "acceptance": 53.59084587179163,
+      "likes": 315,
+      "dislikes": 36
+    },
+    {
+      "position": 15,
+      "title": "Kth Smallest Amount With Single Denomination Combination",
+      "slug": "kth-smallest-amount-with-single-denomination-combination",
+      "difficulty": "Hard",
+      "acceptance": 18.980319176951845,
+      "likes": 246,
+      "dislikes": 19
+    },
+    {
+      "position": 16,
+      "title": "Find Number of Ways to Reach the K-th Stair",
+      "slug": "find-number-of-ways-to-reach-the-k-th-stair",
+      "difficulty": "Hard",
+      "acceptance": 36.83972230606701,
+      "likes": 181,
+      "dislikes": 11
+    },
+    {
+      "position": 17,
+      "title": "Find the Count of Monotonic Pairs I",
+      "slug": "find-the-count-of-monotonic-pairs-i",
+      "difficulty": "Hard",
+      "acceptance": 47.040171653355586,
+      "likes": 150,
+      "dislikes": 12
+    },
+    {
+      "position": 18,
+      "title": "Probability of a Two Boxes Having The Same Number of Distinct Balls",
+      "slug": "probability-of-a-two-boxes-having-the-same-number-of-distinct-balls",
+      "difficulty": "Hard",
+      "acceptance": 60.59515103785791,
+      "likes": 291,
+      "dislikes": 177
+    },
+    {
+      "position": 19,
+      "title": "Count the Number of Infection Sequences",
+      "slug": "count-the-number-of-infection-sequences",
+      "difficulty": "Hard",
+      "acceptance": 34.745698476464796,
+      "likes": 135,
+      "dislikes": 29
+    },
+    {
+      "position": 20,
+      "title": "Find the Count of Monotonic Pairs II",
+      "slug": "find-the-count-of-monotonic-pairs-ii",
+      "difficulty": "Hard",
+      "acceptance": 23.586541796739507,
+      "likes": 100,
+      "dislikes": 6
+    },
+    {
+      "position": 21,
+      "title": "Sorted GCD Pair Queries",
+      "slug": "sorted-gcd-pair-queries",
+      "difficulty": "Hard",
+      "acceptance": 20.44606682979662,
+      "likes": 96,
+      "dislikes": 5
+    },
+    {
+      "position": 22,
+      "title": "Smallest Palindromic Rearrangement II",
+      "slug": "smallest-palindromic-rearrangement-ii",
+      "difficulty": "Hard",
+      "acceptance": 12.754898040783685,
+      "likes": 68,
+      "dislikes": 6
+    },
+    {
+      "position": 23,
+      "title": "Find the Number of Possible Ways for an Event",
+      "slug": "find-the-number-of-possible-ways-for-an-event",
+      "difficulty": "Hard",
+      "acceptance": 33.924642464246425,
+      "likes": 72,
+      "dislikes": 15
+    },
+    {
+      "position": 24,
+      "title": "Count K-Reducible Numbers Less Than N",
+      "slug": "count-k-reducible-numbers-less-than-n",
+      "difficulty": "Hard",
+      "acceptance": 26.014182584808026,
+      "likes": 60,
+      "dislikes": 3
+    },
+    {
+      "position": 25,
+      "title": "Minimum Number of Operations to Make String Sorted",
+      "slug": "minimum-number-of-operations-to-make-string-sorted",
+      "difficulty": "Hard",
+      "acceptance": 50.48734862656297,
+      "likes": 185,
+      "dislikes": 131
+    },
+    {
+      "position": 26,
+      "title": "Number of Integers With Popcount-Depth Equal to K I",
+      "slug": "number-of-integers-with-popcount-depth-equal-to-k-i",
+      "difficulty": "Hard",
+      "acceptance": 20.511078595317723,
+      "likes": 48,
+      "dislikes": 3
+    },
+    {
+      "position": 27,
+      "title": "Check If Digits Are Equal in String After Operations II",
+      "slug": "check-if-digits-are-equal-in-string-after-operations-ii",
+      "difficulty": "Hard",
+      "acceptance": 12.083534802330133,
+      "likes": 79,
+      "dislikes": 47
+    },
+    {
+      "position": 28,
+      "title": "Manhattan Distances of All Arrangements of Pieces",
+      "slug": "manhattan-distances-of-all-arrangements-of-pieces",
+      "difficulty": "Hard",
+      "acceptance": 33.94345951126018,
+      "likes": 38,
+      "dislikes": 10
+    },
+    {
+      "position": 29,
+      "title": "Permutations IV",
+      "slug": "permutations-iv",
+      "difficulty": "Hard",
+      "acceptance": 31.931759434775113,
+      "likes": 25,
+      "dislikes": 3
+    },
+    {
+      "position": 30,
+      "title": "Find Sum of Array Product of Magical Sequences",
+      "slug": "find-sum-of-array-product-of-magical-sequences",
+      "difficulty": "Hard",
+      "acceptance": 29.586830916821107,
+      "likes": 14,
+      "dislikes": 4
+    },
+    {
+      "position": 31,
+      "title": "Subsequences with a Unique Middle Mode I",
+      "slug": "subsequences-with-a-unique-middle-mode-i",
+      "difficulty": "Hard",
+      "acceptance": 18.268746854554603,
+      "likes": 24,
+      "dislikes": 24
+    },
+    {
+      "position": 32,
+      "title": "Poor Pigs",
+      "slug": "poor-pigs",
+      "difficulty": "Hard",
+      "acceptance": 59.11522709663137,
+      "likes": 1848,
+      "dislikes": 3366
+    }
+  ]
+}

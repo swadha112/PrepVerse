@@ -29,7 +29,23 @@ import leetcodeProfile from './routes/leetcodeProfile.js';
 
 app.use('/api/leetcode', requireFirebaseAuth, leetcodeConnect);
 app.use('/api/leetcode', requireFirebaseAuth, leetcodeProfile);
+app.post('/api/leetcode/stats', (req, res) => {
+  const { source, username, profile, solved, fetchedAt } = req.body || {};
+  const ts = new Date(fetchedAt || Date.now()).toISOString();
 
+  console.log('--- /api/leetcode/stats ---');
+  console.log('ts       :', ts);
+  console.log('source   :', source);
+  console.log('username :', username);
+  console.log('solved   :', solved);
+  console.log('profile  :', profile);
+  console.log('----------------------------');
+
+  // store it somewhere if you want; here we just ACK
+  return res.json({ ok: true, stored: false });
+});
+
+app.listen(4000, () => console.log('Stats sink up on http://localhost:4000'));
 
 const port = process.env.PORT || 4000;
 app.listen(port, () => console.log(`API on http://localhost:${port}`));

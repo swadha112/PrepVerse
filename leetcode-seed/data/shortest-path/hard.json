@@ -1,0 +1,125 @@
+{
+  "frozen": true,
+  "createdAt": "2025-10-06T15:22:19.407Z",
+  "trackSlug": "shortest-path",
+  "difficulty": "HARD",
+  "questions": [
+    {
+      "position": 1,
+      "title": "Minimum Cost to Make at Least One Valid Path in a Grid",
+      "slug": "minimum-cost-to-make-at-least-one-valid-path-in-a-grid",
+      "difficulty": "Hard",
+      "acceptance": 70.78048495366728,
+      "likes": 2538,
+      "dislikes": 35
+    },
+    {
+      "position": 2,
+      "title": "Minimum Obstacle Removal to Reach Corner",
+      "slug": "minimum-obstacle-removal-to-reach-corner",
+      "difficulty": "Hard",
+      "acceptance": 70.23984010659561,
+      "likes": 1632,
+      "dislikes": 29
+    },
+    {
+      "position": 3,
+      "title": "Second Minimum Time to Reach Destination",
+      "slug": "second-minimum-time-to-reach-destination",
+      "difficulty": "Hard",
+      "acceptance": 62.40664714371786,
+      "likes": 1298,
+      "dislikes": 68
+    },
+    {
+      "position": 4,
+      "title": "Minimum Time to Visit a Cell In a Grid",
+      "slug": "minimum-time-to-visit-a-cell-in-a-grid",
+      "difficulty": "Hard",
+      "acceptance": 56.5587576704339,
+      "likes": 1102,
+      "dislikes": 43
+    },
+    {
+      "position": 5,
+      "title": "Design Graph With Shortest Path Calculator",
+      "slug": "design-graph-with-shortest-path-calculator",
+      "difficulty": "Hard",
+      "acceptance": 64.35700592316222,
+      "likes": 860,
+      "dislikes": 58
+    },
+    {
+      "position": 6,
+      "title": "Minimum Weighted Subgraph With the Required Paths",
+      "slug": "minimum-weighted-subgraph-with-the-required-paths",
+      "difficulty": "Hard",
+      "acceptance": 39.37246963562753,
+      "likes": 763,
+      "dislikes": 23
+    },
+    {
+      "position": 7,
+      "title": "Reachable Nodes In Subdivided Graph",
+      "slug": "reachable-nodes-in-subdivided-graph",
+      "difficulty": "Hard",
+      "acceptance": 51.23914267927548,
+      "likes": 876,
+      "dislikes": 227
+    },
+    {
+      "position": 8,
+      "title": "Modify Graph Edge Weights",
+      "slug": "modify-graph-edge-weights",
+      "difficulty": "Hard",
+      "acceptance": 55.83394661136014,
+      "likes": 729,
+      "dislikes": 152
+    },
+    {
+      "position": 9,
+      "title": "Find Edges in Shortest Paths",
+      "slug": "find-edges-in-shortest-paths",
+      "difficulty": "Hard",
+      "acceptance": 46.112285018856824,
+      "likes": 291,
+      "dislikes": 5
+    },
+    {
+      "position": 10,
+      "title": "Number of Possible Sets of Closing Branches",
+      "slug": "number-of-possible-sets-of-closing-branches",
+      "difficulty": "Hard",
+      "acceptance": 49.651948579848586,
+      "likes": 190,
+      "dislikes": 16
+    },
+    {
+      "position": 11,
+      "title": "Network Recovery Pathways",
+      "slug": "network-recovery-pathways",
+      "difficulty": "Hard",
+      "acceptance": 29.932378679395388,
+      "likes": 125,
+      "dislikes": 12
+    },
+    {
+      "position": 12,
+      "title": "Minimum Cost to Convert String II",
+      "slug": "minimum-cost-to-convert-string-ii",
+      "difficulty": "Hard",
+      "acceptance": 25.9708440524317,
+      "likes": 119,
+      "dislikes": 81
+    },
+    {
+      "position": 13,
+      "title": "Minimum Time to Transport All Individuals",
+      "slug": "minimum-time-to-transport-all-individuals",
+      "difficulty": "Hard",
+      "acceptance": 26.04001861330851,
+      "likes": 37,
+      "dislikes": 4
+    }
+  ]
+}

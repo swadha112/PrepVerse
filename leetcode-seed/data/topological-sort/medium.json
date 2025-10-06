@@ -1,0 +1,98 @@
+{
+  "frozen": true,
+  "createdAt": "2025-10-06T15:22:25.740Z",
+  "trackSlug": "topological-sort",
+  "difficulty": "MEDIUM",
+  "questions": [
+    {
+      "position": 1,
+      "title": "Course Schedule",
+      "slug": "course-schedule",
+      "difficulty": "Medium",
+      "acceptance": 50.04731838085621,
+      "likes": 17510,
+      "dislikes": 836
+    },
+    {
+      "position": 2,
+      "title": "Course Schedule II",
+      "slug": "course-schedule-ii",
+      "difficulty": "Medium",
+      "acceptance": 54.21989290745886,
+      "likes": 11633,
+      "dislikes": 374
+    },
+    {
+      "position": 3,
+      "title": "Minimum Height Trees",
+      "slug": "minimum-height-trees",
+      "difficulty": "Medium",
+      "acceptance": 42.182633159545844,
+      "likes": 8758,
+      "dislikes": 410
+    },
+    {
+      "position": 4,
+      "title": "Find Eventual Safe States",
+      "slug": "find-eventual-safe-states",
+      "difficulty": "Medium",
+      "acceptance": 69.61401681524472,
+      "likes": 6801,
+      "dislikes": 514
+    },
+    {
+      "position": 5,
+      "title": "Number of Ways to Arrive at Destination",
+      "slug": "number-of-ways-to-arrive-at-destination",
+      "difficulty": "Medium",
+      "acceptance": 37.2067486265599,
+      "likes": 3715,
+      "dislikes": 216
+    },
+    {
+      "position": 6,
+      "title": "Find All Possible Recipes from Given Supplies",
+      "slug": "find-all-possible-recipes-from-given-supplies",
+      "difficulty": "Medium",
+      "acceptance": 56.52548910500423,
+      "likes": 2610,
+      "dislikes": 140
+    },
+    {
+      "position": 7,
+      "title": "Course Schedule IV",
+      "slug": "course-schedule-iv",
+      "difficulty": "Medium",
+      "acceptance": 59.623538786002705,
+      "likes": 2079,
+      "dislikes": 91
+    },
+    {
+      "position": 8,
+      "title": "All Ancestors of a Node in a Directed Acyclic Graph",
+      "slug": "all-ancestors-of-a-node-in-a-directed-acyclic-graph",
+      "difficulty": "Medium",
+      "acceptance": 62.03465202177294,
+      "likes": 1719,
+      "dislikes": 43
+    },
+    {
+      "position": 9,
+      "title": "Number of Restricted Paths From First to Last Node",
+      "slug": "number-of-restricted-paths-from-first-to-last-node",
+      "difficulty": "Medium",
+      "acceptance": 40.44704290437469,
+      "likes": 1174,
+      "dislikes": 229
+    },
+    {
+      "position": 10,
+      "title": "Loud and Rich",
+      "slug": "loud-and-rich",
+      "difficulty": "Medium",
+      "acceptance": 62.50618049749633,
+      "likes": 1447,
+      "dislikes": 872
+    }
+  ]
+}

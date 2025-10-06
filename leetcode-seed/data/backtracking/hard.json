@@ -1,0 +1,260 @@
+{
+  "frozen": true,
+  "createdAt": "2025-10-06T15:20:57.759Z",
+  "trackSlug": "backtracking",
+  "difficulty": "HARD",
+  "questions": [
+    {
+      "position": 1,
+      "title": "N-Queens",
+      "slug": "n-queens",
+      "difficulty": "Hard",
+      "acceptance": 74.01057540016342,
+      "likes": 13788,
+      "dislikes": 334
+    },
+    {
+      "position": 2,
+      "title": "Sudoku Solver",
+      "slug": "sudoku-solver",
+      "difficulty": "Hard",
+      "acceptance": 65.26326881026938,
+      "likes": 10760,
+      "dislikes": 327
+    },
+    {
+      "position": 3,
+      "title": "Word Search II",
+      "slug": "word-search-ii",
+      "difficulty": "Hard",
+      "acceptance": 37.67672327996246,
+      "likes": 9987,
+      "dislikes": 502
+    },
+    {
+      "position": 4,
+      "title": "Word Break II",
+      "slug": "word-break-ii",
+      "difficulty": "Hard",
+      "acceptance": 54.30741632163014,
+      "likes": 7472,
+      "dislikes": 545
+    },
+    {
+      "position": 5,
+      "title": "Remove Invalid Parentheses",
+      "slug": "remove-invalid-parentheses",
+      "difficulty": "Hard",
+      "acceptance": 49.474032840283435,
+      "likes": 6025,
+      "dislikes": 300
+    },
+    {
+      "position": 6,
+      "title": "Word Ladder II",
+      "slug": "word-ladder-ii",
+      "difficulty": "Hard",
+      "acceptance": 27.272101810157533,
+      "likes": 6413,
+      "dislikes": 818
+    },
+    {
+      "position": 7,
+      "title": "Unique Paths III",
+      "slug": "unique-paths-iii",
+      "difficulty": "Hard",
+      "acceptance": 82.56141805038453,
+      "likes": 5416,
+      "dislikes": 196
+    },
+    {
+      "position": 8,
+      "title": "N-Queens II",
+      "slug": "n-queens-ii",
+      "difficulty": "Hard",
+      "acceptance": 77.43930736432985,
+      "likes": 4170,
+      "dislikes": 280
+    },
+    {
+      "position": 9,
+      "title": "Expression Add Operators",
+      "slug": "expression-add-operators",
+      "difficulty": "Hard",
+      "acceptance": 42.27090726634782,
+      "likes": 3693,
+      "dislikes": 706
+    },
+    {
+      "position": 10,
+      "title": "Sliding Puzzle",
+      "slug": "sliding-puzzle",
+      "difficulty": "Hard",
+      "acceptance": 73.33346607992672,
+      "likes": 2711,
+      "dislikes": 73
+    },
+    {
+      "position": 11,
+      "title": "Maximum Score Words Formed by Letters",
+      "slug": "maximum-score-words-formed-by-letters",
+      "difficulty": "Hard",
+      "acceptance": 81.60309604902496,
+      "likes": 1832,
+      "dislikes": 119
+    },
+    {
+      "position": 12,
+      "title": "24 Game",
+      "slug": "24-game",
+      "difficulty": "Hard",
+      "acceptance": 59.16599956335056,
+      "likes": 1864,
+      "dislikes": 287
+    },
+    {
+      "position": 13,
+      "title": "Maximize Score After N Operations",
+      "slug": "maximize-score-after-n-operations",
+      "difficulty": "Hard",
+      "acceptance": 57.92815628440484,
+      "likes": 1690,
+      "dislikes": 113
+    },
+    {
+      "position": 14,
+      "title": "Maximum Number of Achievable Transfer Requests",
+      "slug": "maximum-number-of-achievable-transfer-requests",
+      "difficulty": "Hard",
+      "acceptance": 64.50302992440807,
+      "likes": 1475,
+      "dislikes": 73
+    },
+    {
+      "position": 15,
+      "title": "Stickers to Spell Word",
+      "slug": "stickers-to-spell-word",
+      "difficulty": "Hard",
+      "acceptance": 50.319245805639014,
+      "likes": 1313,
+      "dislikes": 129
+    },
+    {
+      "position": 16,
+      "title": "Find Minimum Time to Finish All Jobs",
+      "slug": "find-minimum-time-to-finish-all-jobs",
+      "difficulty": "Hard",
+      "acceptance": 44.50015632780203,
+      "likes": 1113,
+      "dislikes": 36
+    },
+    {
+      "position": 17,
+      "title": "Number of Squareful Arrays",
+      "slug": "number-of-squareful-arrays",
+      "difficulty": "Hard",
+      "acceptance": 50.773521875912174,
+      "likes": 1025,
+      "dislikes": 46
+    },
+    {
+      "position": 18,
+      "title": "Longest Subsequence Repeated k Times",
+      "slug": "longest-subsequence-repeated-k-times",
+      "difficulty": "Hard",
+      "acceptance": 71.44475582851351,
+      "likes": 815,
+      "dislikes": 115
+    },
+    {
+      "position": 19,
+      "title": "Maximum Path Quality of a Graph",
+      "slug": "maximum-path-quality-of-a-graph",
+      "difficulty": "Hard",
+      "acceptance": 60.25926633144506,
+      "likes": 702,
+      "dislikes": 52
+    },
+    {
+      "position": 20,
+      "title": "Maximum Good People Based on Statements",
+      "slug": "maximum-good-people-based-on-statements",
+      "difficulty": "Hard",
+      "acceptance": 51.58136860264519,
+      "likes": 527,
+      "dislikes": 83
+    },
+    {
+      "position": 21,
+      "title": "Distribute Repeating Integers",
+      "slug": "distribute-repeating-integers",
+      "difficulty": "Hard",
+      "acceptance": 40.07948516209728,
+      "likes": 461,
+      "dislikes": 31
+    },
+    {
+      "position": 22,
+      "title": "Verbal Arithmetic Puzzle",
+      "slug": "verbal-arithmetic-puzzle",
+      "difficulty": "Hard",
+      "acceptance": 34.74609658490058,
+      "likes": 524,
+      "dislikes": 137
+    },
+    {
+      "position": 23,
+      "title": "Brace Expansion II",
+      "slug": "brace-expansion-ii",
+      "difficulty": "Hard",
+      "acceptance": 63.25570828126775,
+      "likes": 501,
+      "dislikes": 293
+    },
+    {
+      "position": 24,
+      "title": "Tiling a Rectangle with the Fewest Squares",
+      "slug": "tiling-a-rectangle-with-the-fewest-squares",
+      "difficulty": "Hard",
+      "acceptance": 54.5338441890166,
+      "likes": 715,
+      "dislikes": 579
+    },
+    {
+      "position": 25,
+      "title": "Probability of a Two Boxes Having The Same Number of Distinct Balls",
+      "slug": "probability-of-a-two-boxes-having-the-same-number-of-distinct-balls",
+      "difficulty": "Hard",
+      "acceptance": 60.59515103785791,
+      "likes": 291,
+      "dislikes": 177
+    },
+    {
+      "position": 26,
+      "title": "Next Special Palindrome Number",
+      "slug": "next-special-palindrome-number",
+      "difficulty": "Hard",
+      "acceptance": 25.48703607147936,
+      "likes": 54,
+      "dislikes": 4
+    },
+    {
+      "position": 27,
+      "title": "Smallest Divisible Digit Product II",
+      "slug": "smallest-divisible-digit-product-ii",
+      "difficulty": "Hard",
+      "acceptance": 11.581087284412092,
+      "likes": 52,
+      "dislikes": 18
+    },
+    {
+      "position": 28,
+      "title": "Number of Valid Move Combinations On Chessboard",
+      "slug": "number-of-valid-move-combinations-on-chessboard",
+      "difficulty": "Hard",
+      "acceptance": 48.30237027546445,
+      "likes": 70,
+      "dislikes": 296
+    }
+  ]
+}

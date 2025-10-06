@@ -1,0 +1,242 @@
+{
+  "frozen": true,
+  "createdAt": "2025-10-06T15:20:47.667Z",
+  "trackSlug": "enumeration",
+  "difficulty": "EASY",
+  "questions": [
+    {
+      "position": 1,
+      "title": "Sum of All Subset XOR Totals",
+      "slug": "sum-of-all-subset-xor-totals",
+      "difficulty": "Easy",
+      "acceptance": 90.06729214889127,
+      "likes": 2636,
+      "dislikes": 341
+    },
+    {
+      "position": 2,
+      "title": "Number of Arithmetic Triplets",
+      "slug": "number-of-arithmetic-triplets",
+      "difficulty": "Easy",
+      "acceptance": 85.2041943713465,
+      "likes": 1369,
+      "dislikes": 96
+    },
+    {
+      "position": 3,
+      "title": "Finding 3-Digit Even Numbers",
+      "slug": "finding-3-digit-even-numbers",
+      "difficulty": "Easy",
+      "acceptance": 78.9249734641813,
+      "likes": 1449,
+      "dislikes": 334
+    },
+    {
+      "position": 4,
+      "title": "Remove Digit From Number to Maximize Result",
+      "slug": "remove-digit-from-number-to-maximize-result",
+      "difficulty": "Easy",
+      "acceptance": 47.76685041343022,
+      "likes": 927,
+      "dislikes": 64
+    },
+    {
+      "position": 5,
+      "title": "Number of Common Factors",
+      "slug": "number-of-common-factors",
+      "difficulty": "Easy",
+      "acceptance": 79.71614803564545,
+      "likes": 652,
+      "dislikes": 12
+    },
+    {
+      "position": 6,
+      "title": "  Count Symmetric Integers",
+      "slug": "count-symmetric-integers",
+      "difficulty": "Easy",
+      "acceptance": 83.06735451521142,
+      "likes": 642,
+      "dislikes": 64
+    },
+    {
+      "position": 7,
+      "title": "Three Divisors",
+      "slug": "three-divisors",
+      "difficulty": "Easy",
+      "acceptance": 63.28863167840577,
+      "likes": 604,
+      "dislikes": 35
+    },
+    {
+      "position": 8,
+      "title": "Detect Pattern of Length M Repeated K or More Times",
+      "slug": "detect-pattern-of-length-m-repeated-k-or-more-times",
+      "difficulty": "Easy",
+      "acceptance": 43.58179099652469,
+      "likes": 680,
+      "dislikes": 147
+    },
+    {
+      "position": 9,
+      "title": "Greatest English Letter in Upper and Lower Case",
+      "slug": "greatest-english-letter-in-upper-and-lower-case",
+      "difficulty": "Easy",
+      "acceptance": 71.47689551609673,
+      "likes": 508,
+      "dislikes": 32
+    },
+    {
+      "position": 10,
+      "title": "Count Special Quadruplets",
+      "slug": "count-special-quadruplets",
+      "difficulty": "Easy",
+      "acceptance": 63.84838033557717,
+      "likes": 694,
+      "dislikes": 242
+    },
+    {
+      "position": 11,
+      "title": "Count Square Sum Triples",
+      "slug": "count-square-sum-triples",
+      "difficulty": "Easy",
+      "acceptance": 69.49727310865613,
+      "likes": 452,
+      "dislikes": 45
+    },
+    {
+      "position": 12,
+      "title": "Form Smallest Number From Two Digit Arrays",
+      "slug": "form-smallest-number-from-two-digit-arrays",
+      "difficulty": "Easy",
+      "acceptance": 54.6098475266196,
+      "likes": 322,
+      "dislikes": 29
+    },
+    {
+      "position": 13,
+      "title": "Find the Peaks",
+      "slug": "find-the-peaks",
+      "difficulty": "Easy",
+      "acceptance": 74.6558184791835,
+      "likes": 203,
+      "dislikes": 18
+    },
+    {
+      "position": 14,
+      "title": "Sum of Squares of Special Elements ",
+      "slug": "sum-of-squares-of-special-elements",
+      "difficulty": "Easy",
+      "acceptance": 81.49768081691681,
+      "likes": 309,
+      "dislikes": 132
+    },
+    {
+      "position": 15,
+      "title": "Maximum Height of a Triangle",
+      "slug": "maximum-height-of-a-triangle",
+      "difficulty": "Easy",
+      "acceptance": 43.71473289674204,
+      "likes": 158,
+      "dislikes": 28
+    },
+    {
+      "position": 16,
+      "title": "Divide an Array Into Subarrays With Minimum Cost I",
+      "slug": "divide-an-array-into-subarrays-with-minimum-cost-i",
+      "difficulty": "Easy",
+      "acceptance": 66.2877430702583,
+      "likes": 116,
+      "dislikes": 12
+    },
+    {
+      "position": 17,
+      "title": "Distribute Candies Among Children I",
+      "slug": "distribute-candies-among-children-i",
+      "difficulty": "Easy",
+      "acceptance": 75.55104351730736,
+      "likes": 148,
+      "dislikes": 67
+    },
+    {
+      "position": 18,
+      "title": "Make a Square with the Same Color",
+      "slug": "make-a-square-with-the-same-color",
+      "difficulty": "Easy",
+      "acceptance": 52.39002622107132,
+      "likes": 87,
+      "dislikes": 9
+    },
+    {
+      "position": 19,
+      "title": "Count the Number of Incremovable Subarrays I",
+      "slug": "count-the-number-of-incremovable-subarrays-i",
+      "difficulty": "Easy",
+      "acceptance": 55.49845225811573,
+      "likes": 192,
+      "dislikes": 120
+    },
+    {
+      "position": 20,
+      "title": "Unique 3-Digit Even Numbers",
+      "slug": "unique-3-digit-even-numbers",
+      "difficulty": "Easy",
+      "acceptance": 68.0907853569724,
+      "likes": 103,
+      "dislikes": 32
+    },
+    {
+      "position": 21,
+      "title": "Latest Time You Can Obtain After Replacing Characters",
+      "slug": "latest-time-you-can-obtain-after-replacing-characters",
+      "difficulty": "Easy",
+      "acceptance": 34.718174053168724,
+      "likes": 112,
+      "dislikes": 50
+    },
+    {
+      "position": 22,
+      "title": "Number of Valid Clock Times",
+      "slug": "number-of-valid-clock-times",
+      "difficulty": "Easy",
+      "acceptance": 47.64760087736376,
+      "likes": 304,
+      "dislikes": 246
+    },
+    {
+      "position": 23,
+      "title": "Smallest Divisible Digit Product I",
+      "slug": "smallest-divisible-digit-product-i",
+      "difficulty": "Easy",
+      "acceptance": 64.06804574624458,
+      "likes": 68,
+      "dislikes": 11
+    },
+    {
+      "position": 24,
+      "title": "Maximum Subarray With Equal Products",
+      "slug": "maximum-subarray-with-equal-products",
+      "difficulty": "Easy",
+      "acceptance": 45.704210672595885,
+      "likes": 94,
+      "dislikes": 39
+    },
+    {
+      "position": 25,
+      "title": "Longest Alternating Subarray",
+      "slug": "longest-alternating-subarray",
+      "difficulty": "Easy",
+      "acceptance": 34.77379165079436,
+      "likes": 239,
+      "dislikes": 185
+    },
+    {
+      "position": 26,
+      "title": "Count Good Triplets",
+      "slug": "count-good-triplets",
+      "difficulty": "Easy",
+      "acceptance": 85.49604595434946,
+      "likes": 1184,
+      "dislikes": 1247
+    }
+  ]
+}

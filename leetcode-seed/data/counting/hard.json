@@ -1,0 +1,161 @@
+{
+  "frozen": true,
+  "createdAt": "2025-10-06T15:20:32.491Z",
+  "trackSlug": "counting",
+  "difficulty": "HARD",
+  "questions": [
+    {
+      "position": 1,
+      "title": "Subarrays with K Different Integers",
+      "slug": "subarrays-with-k-different-integers",
+      "difficulty": "Hard",
+      "acceptance": 66.8615869381782,
+      "likes": 6707,
+      "dislikes": 110
+    },
+    {
+      "position": 2,
+      "title": "Largest Color Value in a Directed Graph",
+      "slug": "largest-color-value-in-a-directed-graph",
+      "difficulty": "Hard",
+      "acceptance": 57.45245255212793,
+      "likes": 2587,
+      "dislikes": 85
+    },
+    {
+      "position": 3,
+      "title": "Sum of Prefix Scores of Strings",
+      "slug": "sum-of-prefix-scores-of-strings",
+      "difficulty": "Hard",
+      "acceptance": 60.75365054290125,
+      "likes": 1186,
+      "dislikes": 111
+    },
+    {
+      "position": 4,
+      "title": "Longest Subsequence Repeated k Times",
+      "slug": "longest-subsequence-repeated-k-times",
+      "difficulty": "Hard",
+      "acceptance": 71.44475582851351,
+      "likes": 815,
+      "dislikes": 115
+    },
+    {
+      "position": 5,
+      "title": "The Number of Good Subsets",
+      "slug": "the-number-of-good-subsets",
+      "difficulty": "Hard",
+      "acceptance": 36.35093601564683,
+      "likes": 504,
+      "dislikes": 17
+    },
+    {
+      "position": 6,
+      "title": "Maximum Number of Ways to Partition an Array",
+      "slug": "maximum-number-of-ways-to-partition-an-array",
+      "difficulty": "Hard",
+      "acceptance": 34.98263655207688,
+      "likes": 514,
+      "dislikes": 59
+    },
+    {
+      "position": 7,
+      "title": "Minimum Cost to Split an Array",
+      "slug": "minimum-cost-to-split-an-array",
+      "difficulty": "Hard",
+      "acceptance": 43.06841780322164,
+      "likes": 456,
+      "dislikes": 31
+    },
+    {
+      "position": 8,
+      "title": "Count Anagrams",
+      "slug": "count-anagrams",
+      "difficulty": "Hard",
+      "acceptance": 36.464032007838654,
+      "likes": 461,
+      "dislikes": 41
+    },
+    {
+      "position": 9,
+      "title": "Number of Different Subsequences GCDs",
+      "slug": "number-of-different-subsequences-gcds",
+      "difficulty": "Hard",
+      "acceptance": 42.78808319280495,
+      "likes": 431,
+      "dislikes": 48
+    },
+    {
+      "position": 10,
+      "title": "Total Characters in String After Transformations II",
+      "slug": "total-characters-in-string-after-transformations-ii",
+      "difficulty": "Hard",
+      "acceptance": 58.12480320065199,
+      "likes": 379,
+      "dislikes": 82
+    },
+    {
+      "position": 11,
+      "title": "Minimum Total Cost to Make Arrays Unequal",
+      "slug": "minimum-total-cost-to-make-arrays-unequal",
+      "difficulty": "Hard",
+      "acceptance": 40.89686098654708,
+      "likes": 233,
+      "dislikes": 12
+    },
+    {
+      "position": 12,
+      "title": "Count Pairs Of Nodes",
+      "slug": "count-pairs-of-nodes",
+      "difficulty": "Hard",
+      "acceptance": 41.4178412462908,
+      "likes": 338,
+      "dislikes": 171
+    },
+    {
+      "position": 13,
+      "title": "Sorted GCD Pair Queries",
+      "slug": "sorted-gcd-pair-queries",
+      "difficulty": "Hard",
+      "acceptance": 20.44606682979662,
+      "likes": 96,
+      "dislikes": 5
+    },
+    {
+      "position": 14,
+      "title": "Minimum Operations to Make Character Frequencies Equal",
+      "slug": "minimum-operations-to-make-character-frequencies-equal",
+      "difficulty": "Hard",
+      "acceptance": 25.359856675109654,
+      "likes": 72,
+      "dislikes": 2
+    },
+    {
+      "position": 15,
+      "title": "Smallest Palindromic Rearrangement II",
+      "slug": "smallest-palindromic-rearrangement-ii",
+      "difficulty": "Hard",
+      "acceptance": 12.754898040783685,
+      "likes": 68,
+      "dislikes": 6
+    },
+    {
+      "position": 16,
+      "title": "Count Almost Equal Pairs II",
+      "slug": "count-almost-equal-pairs-ii",
+      "difficulty": "Hard",
+      "acceptance": 26.774203403293313,
+      "likes": 81,
+      "dislikes": 22
+    },
+    {
+      "position": 17,
+      "title": "Threshold Majority Queries",
+      "slug": "threshold-majority-queries",
+      "difficulty": "Hard",
+      "acceptance": 20.31445231153686,
+      "likes": 32,
+      "dislikes": 8
+    }
+  ]
+}

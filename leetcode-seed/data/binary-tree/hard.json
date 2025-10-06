@@ -1,0 +1,98 @@
+{
+  "frozen": true,
+  "createdAt": "2025-10-06T15:20:10.848Z",
+  "trackSlug": "binary-tree",
+  "difficulty": "HARD",
+  "questions": [
+    {
+      "position": 1,
+      "title": "Binary Tree Maximum Path Sum",
+      "slug": "binary-tree-maximum-path-sum",
+      "difficulty": "Hard",
+      "acceptance": 41.61477344371175,
+      "likes": 17992,
+      "dislikes": 779
+    },
+    {
+      "position": 2,
+      "title": "Serialize and Deserialize Binary Tree",
+      "slug": "serialize-and-deserialize-binary-tree",
+      "difficulty": "Hard",
+      "acceptance": 59.68534158171322,
+      "likes": 10882,
+      "dislikes": 423
+    },
+    {
+      "position": 3,
+      "title": "Binary Tree Cameras",
+      "slug": "binary-tree-cameras",
+      "difficulty": "Hard",
+      "acceptance": 47.46219273948226,
+      "likes": 5583,
+      "dislikes": 87
+    },
+    {
+      "position": 4,
+      "title": "Vertical Order Traversal of a Binary Tree",
+      "slug": "vertical-order-traversal-of-a-binary-tree",
+      "difficulty": "Hard",
+      "acceptance": 52.42888645566249,
+      "likes": 8404,
+      "dislikes": 4384
+    },
+    {
+      "position": 5,
+      "title": "Maximum Sum BST in Binary Tree",
+      "slug": "maximum-sum-bst-in-binary-tree",
+      "difficulty": "Hard",
+      "acceptance": 45.38062050083691,
+      "likes": 2893,
+      "dislikes": 198
+    },
+    {
+      "position": 6,
+      "title": "Recover a Tree From Preorder Traversal",
+      "slug": "recover-a-tree-from-preorder-traversal",
+      "difficulty": "Hard",
+      "acceptance": 83.27316921803889,
+      "likes": 2276,
+      "dislikes": 69
+    },
+    {
+      "position": 7,
+      "title": "Number of Ways to Reorder Array to Get Same BST",
+      "slug": "number-of-ways-to-reorder-array-to-get-same-bst",
+      "difficulty": "Hard",
+      "acceptance": 53.741150461886676,
+      "likes": 1840,
+      "dislikes": 210
+    },
+    {
+      "position": 8,
+      "title": "Height of Binary Tree After Subtree Removal Queries",
+      "slug": "height-of-binary-tree-after-subtree-removal-queries",
+      "difficulty": "Hard",
+      "acceptance": 54.916015948163135,
+      "likes": 1525,
+      "dislikes": 37
+    },
+    {
+      "position": 9,
+      "title": "Merge BSTs to Create Single BST",
+      "slug": "merge-bsts-to-create-single-bst",
+      "difficulty": "Hard",
+      "acceptance": 36.75793554640174,
+      "likes": 632,
+      "dislikes": 46
+    },
+    {
+      "position": 10,
+      "title": "Cycle Length Queries in a Tree",
+      "slug": "cycle-length-queries-in-a-tree",
+      "difficulty": "Hard",
+      "acceptance": 59.208533835851526,
+      "likes": 384,
+      "dislikes": 30
+    }
+  ]
+}

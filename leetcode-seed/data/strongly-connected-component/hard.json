@@ -1,0 +1,35 @@
+{
+  "frozen": true,
+  "createdAt": "2025-10-06T15:23:39.110Z",
+  "trackSlug": "strongly-connected-component",
+  "difficulty": "HARD",
+  "questions": [
+    {
+      "position": 1,
+      "title": "Find Critical and Pseudo-Critical Edges in Minimum Spanning Tree",
+      "slug": "find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree",
+      "difficulty": "Hard",
+      "acceptance": 66.20178601583375,
+      "likes": 1963,
+      "dislikes": 166
+    },
+    {
+      "position": 2,
+      "title": "Minimum Number of Days to Disconnect Island",
+      "slug": "minimum-number-of-days-to-disconnect-island",
+      "difficulty": "Hard",
+      "acceptance": 58.91628318044677,
+      "likes": 1285,
+      "dislikes": 224
+    },
+    {
+      "position": 3,
+      "title": "Minimum Edge Weight Equilibrium Queries in a Tree",
+      "slug": "minimum-edge-weight-equilibrium-queries-in-a-tree",
+      "difficulty": "Hard",
+      "acceptance": 44.322852445540484,
+      "likes": 345,
+      "dislikes": 8
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "frozen": true,
+  "createdAt": "2025-10-06T15:23:50.102Z",
+  "trackSlug": "biconnected-component",
+  "difficulty": "HARD",
+  "questions": [
+    {
+      "position": 1,
+      "title": "Critical Connections in a Network",
+      "slug": "critical-connections-in-a-network",
+      "difficulty": "Hard",
+      "acceptance": 58.68637943138979,
+      "likes": 6588,
+      "dislikes": 190
+    }
+  ]
+}

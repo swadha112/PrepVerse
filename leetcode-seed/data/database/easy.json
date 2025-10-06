@@ -1,0 +1,368 @@
+{
+  "frozen": true,
+  "createdAt": "2025-10-06T15:18:48.111Z",
+  "trackSlug": "database",
+  "difficulty": "EASY",
+  "questions": [
+    {
+      "position": 1,
+      "title": "Combine Two Tables",
+      "slug": "combine-two-tables",
+      "difficulty": "Easy",
+      "acceptance": 78.5733518207568,
+      "likes": 3993,
+      "dislikes": 240
+    },
+    {
+      "position": 2,
+      "title": "Rising Temperature",
+      "slug": "rising-temperature",
+      "difficulty": "Easy",
+      "acceptance": 50.73593070153098,
+      "likes": 3931,
+      "dislikes": 710
+    },
+    {
+      "position": 3,
+      "title": "Recyclable and Low Fat Products",
+      "slug": "recyclable-and-low-fat-products",
+      "difficulty": "Easy",
+      "acceptance": 89.02366397210227,
+      "likes": 3104,
+      "dislikes": 125
+    },
+    {
+      "position": 4,
+      "title": "Customers Who Never Order",
+      "slug": "customers-who-never-order",
+      "difficulty": "Easy",
+      "acceptance": 71.06124492434954,
+      "likes": 2898,
+      "dislikes": 149
+    },
+    {
+      "position": 5,
+      "title": "Customer Who Visited but Did Not Make Any Transactions",
+      "slug": "customer-who-visited-but-did-not-make-any-transactions",
+      "difficulty": "Easy",
+      "acceptance": 67.61529947787757,
+      "likes": 3166,
+      "dislikes": 428
+    },
+    {
+      "position": 6,
+      "title": "Employees Earning More Than Their Managers",
+      "slug": "employees-earning-more-than-their-managers",
+      "difficulty": "Easy",
+      "acceptance": 72.13600014712328,
+      "likes": 2921,
+      "dislikes": 287
+    },
+    {
+      "position": 7,
+      "title": "Students and Examinations",
+      "slug": "students-and-examinations",
+      "difficulty": "Easy",
+      "acceptance": 60.76769970493523,
+      "likes": 2710,
+      "dislikes": 323
+    },
+    {
+      "position": 8,
+      "title": "Find Customer Referee",
+      "slug": "find-customer-referee",
+      "difficulty": "Easy",
+      "acceptance": 72.06524551177003,
+      "likes": 2732,
+      "dislikes": 401
+    },
+    {
+      "position": 9,
+      "title": "Duplicate Emails",
+      "slug": "duplicate-emails",
+      "difficulty": "Easy",
+      "acceptance": 72.90456552369902,
+      "likes": 2326,
+      "dislikes": 83
+    },
+    {
+      "position": 10,
+      "title": "Average Time of Process per Machine",
+      "slug": "average-time-of-process-per-machine",
+      "difficulty": "Easy",
+      "acceptance": 67.58088094118222,
+      "likes": 2231,
+      "dislikes": 215
+    },
+    {
+      "position": 11,
+      "title": "Article Views I",
+      "slug": "article-views-i",
+      "difficulty": "Easy",
+      "acceptance": 77.00715461612806,
+      "likes": 2079,
+      "dislikes": 126
+    },
+    {
+      "position": 12,
+      "title": "Big Countries",
+      "slug": "big-countries",
+      "difficulty": "Easy",
+      "acceptance": 68.32435641380621,
+      "likes": 3193,
+      "dislikes": 1370
+    },
+    {
+      "position": 13,
+      "title": "Replace Employee ID With The Unique Identifier",
+      "slug": "replace-employee-id-with-the-unique-identifier",
+      "difficulty": "Easy",
+      "acceptance": 83.59221537377634,
+      "likes": 1865,
+      "dislikes": 152
+    },
+    {
+      "position": 14,
+      "title": "Delete Duplicate Emails",
+      "slug": "delete-duplicate-emails",
+      "difficulty": "Easy",
+      "acceptance": 65.01346430127882,
+      "likes": 1950,
+      "dislikes": 396
+    },
+    {
+      "position": 15,
+      "title": "Average Selling Price",
+      "slug": "average-selling-price",
+      "difficulty": "Easy",
+      "acceptance": 36.91664750563738,
+      "likes": 1774,
+      "dislikes": 251
+    },
+    {
+      "position": 16,
+      "title": "Group Sold Products By The Date",
+      "slug": "group-sold-products-by-the-date",
+      "difficulty": "Easy",
+      "acceptance": 77.88560733018478,
+      "likes": 1640,
+      "dislikes": 123
+    },
+    {
+      "position": 17,
+      "title": "Swap Salary",
+      "slug": "swap-salary",
+      "difficulty": "Easy",
+      "acceptance": 84.28393075315623,
+      "likes": 1832,
+      "dislikes": 569
+    },
+    {
+      "position": 18,
+      "title": "Sales Person",
+      "slug": "sales-person",
+      "difficulty": "Easy",
+      "acceptance": 65.9149933747834,
+      "likes": 1344,
+      "dislikes": 112
+    },
+    {
+      "position": 19,
+      "title": "Employee Bonus",
+      "slug": "employee-bonus",
+      "difficulty": "Easy",
+      "acceptance": 76.9569569049561,
+      "likes": 1408,
+      "dislikes": 280
+    },
+    {
+      "position": 20,
+      "title": "Product Sales Analysis I",
+      "slug": "product-sales-analysis-i",
+      "difficulty": "Easy",
+      "acceptance": 85.18982994284038,
+      "likes": 1331,
+      "dislikes": 249
+    },
+    {
+      "position": 21,
+      "title": "Calculate Special Bonus",
+      "slug": "calculate-special-bonus",
+      "difficulty": "Easy",
+      "acceptance": 57.15781439049346,
+      "likes": 1149,
+      "dislikes": 81
+    },
+    {
+      "position": 22,
+      "title": "Customer Placing the Largest Number of Orders",
+      "slug": "customer-placing-the-largest-number-of-orders",
+      "difficulty": "Easy",
+      "acceptance": 63.97764777675893,
+      "likes": 1110,
+      "dislikes": 93
+    },
+    {
+      "position": 23,
+      "title": "Invalid Tweets",
+      "slug": "invalid-tweets",
+      "difficulty": "Easy",
+      "acceptance": 85.35977442590517,
+      "likes": 1370,
+      "dislikes": 379
+    },
+    {
+      "position": 24,
+      "title": "Game Play Analysis I",
+      "slug": "game-play-analysis-i",
+      "difficulty": "Easy",
+      "acceptance": 75.98625659299286,
+      "likes": 1013,
+      "dislikes": 40
+    },
+    {
+      "position": 25,
+      "title": "Percentage of Users Attended a Contest",
+      "slug": "percentage-of-users-attended-a-contest",
+      "difficulty": "Easy",
+      "acceptance": 59.54924044002096,
+      "likes": 1068,
+      "dislikes": 100
+    },
+    {
+      "position": 26,
+      "title": "Fix Names in a Table",
+      "slug": "fix-names-in-a-table",
+      "difficulty": "Easy",
+      "acceptance": 60.738242241167676,
+      "likes": 1011,
+      "dislikes": 134
+    },
+    {
+      "position": 27,
+      "title": "Rearrange Products Table",
+      "slug": "rearrange-products-table",
+      "difficulty": "Easy",
+      "acceptance": 85.58988951170072,
+      "likes": 938,
+      "dislikes": 62
+    },
+    {
+      "position": 28,
+      "title": "Not Boring Movies",
+      "slug": "not-boring-movies",
+      "difficulty": "Easy",
+      "acceptance": 75.04154187923004,
+      "likes": 1392,
+      "dislikes": 553
+    },
+    {
+      "position": 29,
+      "title": "Find Total Time Spent by Each Employee",
+      "slug": "find-total-time-spent-by-each-employee",
+      "difficulty": "Easy",
+      "acceptance": 86.66769959494457,
+      "likes": 780,
+      "dislikes": 24
+    },
+    {
+      "position": 30,
+      "title": "Project Employees I",
+      "slug": "project-employees-i",
+      "difficulty": "Easy",
+      "acceptance": 66.18753920739888,
+      "likes": 924,
+      "dislikes": 198
+    },
+    {
+      "position": 31,
+      "title": "Employees With Missing Information",
+      "slug": "employees-with-missing-information",
+      "difficulty": "Easy",
+      "acceptance": 72.96918767507002,
+      "likes": 764,
+      "dislikes": 39
+    },
+    {
+      "position": 32,
+      "title": "The Number of Employees Which Report to Each Employee",
+      "slug": "the-number-of-employees-which-report-to-each-employee",
+      "difficulty": "Easy",
+      "acceptance": 52.593924171160744,
+      "likes": 795,
+      "dislikes": 96
+    },
+    {
+      "position": 33,
+      "title": "Actors and Directors Who Cooperated At Least Three Times",
+      "slug": "actors-and-directors-who-cooperated-at-least-three-times",
+      "difficulty": "Easy",
+      "acceptance": 70.72545111204364,
+      "likes": 746,
+      "dislikes": 54
+    },
+    {
+      "position": 34,
+      "title": "Biggest Single Number",
+      "slug": "biggest-single-number",
+      "difficulty": "Easy",
+      "acceptance": 70.39369453191004,
+      "likes": 871,
+      "dislikes": 199
+    },
+    {
+      "position": 35,
+      "title": "Find Followers Count",
+      "slug": "find-followers-count",
+      "difficulty": "Easy",
+      "acceptance": 69.43799756076223,
+      "likes": 701,
+      "dislikes": 44
+    },
+    {
+      "position": 36,
+      "title": "Sales Analysis III",
+      "slug": "sales-analysis-iii",
+      "difficulty": "Easy",
+      "acceptance": 46.94479551629946,
+      "likes": 817,
+      "dislikes": 166
+    },
+    {
+      "position": 37,
+      "title": "Top Travellers",
+      "slug": "top-travellers",
+      "difficulty": "Easy",
+      "acceptance": 57.09513641462382,
+      "likes": 712,
+      "dislikes": 79
+    },
+    {
+      "position": 38,
+      "title": "Number of Unique Subjects Taught by Each Teacher",
+      "slug": "number-of-unique-subjects-taught-by-each-teacher",
+      "difficulty": "Easy",
+      "acceptance": 89.34693334152611,
+      "likes": 667,
+      "dislikes": 52
+    },
+    {
+      "position": 39,
+      "title": "Daily Leads and Partners",
+      "slug": "daily-leads-and-partners",
+      "difficulty": "Easy",
+      "acceptance": 86.67381902939906,
+      "likes": 608,
+      "dislikes": 35
+    },
+    {
+      "position": 40,
+      "title": "Triangle Judgement",
+      "slug": "triangle-judgement",
+      "difficulty": "Easy",
+      "acceptance": 74.21232485976623,
+      "likes": 768,
+      "dislikes": 225
+    }
+  ]
+}

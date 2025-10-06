@@ -1,0 +1,35 @@
+{
+  "frozen": true,
+  "createdAt": "2025-10-06T15:22:03.497Z",
+  "trackSlug": "memoization",
+  "difficulty": "EASY",
+  "questions": [
+    {
+      "position": 1,
+      "title": "Climbing Stairs",
+      "slug": "climbing-stairs",
+      "difficulty": "Easy",
+      "acceptance": 53.71615974590065,
+      "likes": 23768,
+      "dislikes": 990
+    },
+    {
+      "position": 2,
+      "title": "Fibonacci Number",
+      "slug": "fibonacci-number",
+      "difficulty": "Easy",
+      "acceptance": 73.44524429518846,
+      "likes": 8993,
+      "dislikes": 393
+    },
+    {
+      "position": 3,
+      "title": "N-th Tribonacci Number",
+      "slug": "n-th-tribonacci-number",
+      "difficulty": "Easy",
+      "acceptance": 63.44316756693171,
+      "likes": 4725,
+      "dislikes": 208
+    }
+  ]
+}

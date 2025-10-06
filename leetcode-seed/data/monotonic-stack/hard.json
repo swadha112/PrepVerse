@@ -1,0 +1,215 @@
+{
+  "frozen": true,
+  "createdAt": "2025-10-06T15:21:21.463Z",
+  "trackSlug": "monotonic-stack",
+  "difficulty": "HARD",
+  "questions": [
+    {
+      "position": 1,
+      "title": "Trapping Rain Water",
+      "slug": "trapping-rain-water",
+      "difficulty": "Hard",
+      "acceptance": 65.98703959775321,
+      "likes": 35163,
+      "dislikes": 645
+    },
+    {
+      "position": 2,
+      "title": "Largest Rectangle in Histogram",
+      "slug": "largest-rectangle-in-histogram",
+      "difficulty": "Hard",
+      "acceptance": 48.38621918458165,
+      "likes": 18837,
+      "dislikes": 363
+    },
+    {
+      "position": 3,
+      "title": "Maximal Rectangle",
+      "slug": "maximal-rectangle",
+      "difficulty": "Hard",
+      "acceptance": 54.96072397148913,
+      "likes": 11445,
+      "dislikes": 211
+    },
+    {
+      "position": 4,
+      "title": "Number of Visible People in a Queue",
+      "slug": "number-of-visible-people-in-a-queue",
+      "difficulty": "Hard",
+      "acceptance": 71.85505096773255,
+      "likes": 2047,
+      "dislikes": 62
+    },
+    {
+      "position": 5,
+      "title": "Max Chunks To Make Sorted II",
+      "slug": "max-chunks-to-make-sorted-ii",
+      "difficulty": "Hard",
+      "acceptance": 54.50333235973554,
+      "likes": 1981,
+      "dislikes": 62
+    },
+    {
+      "position": 6,
+      "title": "Maximum Score of a Good Subarray",
+      "slug": "maximum-score-of-a-good-subarray",
+      "difficulty": "Hard",
+      "acceptance": 64.31177097563538,
+      "likes": 1967,
+      "dislikes": 50
+    },
+    {
+      "position": 7,
+      "title": "Create Maximum Number",
+      "slug": "create-maximum-number",
+      "difficulty": "Hard",
+      "acceptance": 33.45060493928917,
+      "likes": 2077,
+      "dislikes": 373
+    },
+    {
+      "position": 8,
+      "title": "Odd Even Jump",
+      "slug": "odd-even-jump",
+      "difficulty": "Hard",
+      "acceptance": 40.856571014599524,
+      "likes": 2097,
+      "dislikes": 529
+    },
+    {
+      "position": 9,
+      "title": "Minimum Number of Increments on Subarrays to Form a Target Array",
+      "slug": "minimum-number-of-increments-on-subarrays-to-form-a-target-array",
+      "difficulty": "Hard",
+      "acceptance": 72.79726072789529,
+      "likes": 1649,
+      "dislikes": 83
+    },
+    {
+      "position": 10,
+      "title": "Sum of Total Strength of Wizards",
+      "slug": "sum-of-total-strength-of-wizards",
+      "difficulty": "Hard",
+      "acceptance": 28.745508698941,
+      "likes": 1254,
+      "dislikes": 110
+    },
+    {
+      "position": 11,
+      "title": "Car Fleet II",
+      "slug": "car-fleet-ii",
+      "difficulty": "Hard",
+      "acceptance": 56.961609375855716,
+      "likes": 943,
+      "dislikes": 40
+    },
+    {
+      "position": 12,
+      "title": "Find Building Where Alice and Bob Can Meet",
+      "slug": "find-building-where-alice-and-bob-can-meet",
+      "difficulty": "Hard",
+      "acceptance": 52.18301370654002,
+      "likes": 815,
+      "dislikes": 57
+    },
+    {
+      "position": 13,
+      "title": "Next Greater Element IV",
+      "slug": "next-greater-element-iv",
+      "difficulty": "Hard",
+      "acceptance": 40.79997997546995,
+      "likes": 725,
+      "dislikes": 12
+    },
+    {
+      "position": 14,
+      "title": "Apply Operations to Maximize Score",
+      "slug": "apply-operations-to-maximize-score",
+      "difficulty": "Hard",
+      "acceptance": 53.87859370205721,
+      "likes": 765,
+      "dislikes": 127
+    },
+    {
+      "position": 15,
+      "title": "Subarray With Elements Greater Than Varying Threshold",
+      "slug": "subarray-with-elements-greater-than-varying-threshold",
+      "difficulty": "Hard",
+      "acceptance": 44.9036843089583,
+      "likes": 604,
+      "dislikes": 11
+    },
+    {
+      "position": 16,
+      "title": "Smallest K-Length Subsequence With Occurrences of a Letter",
+      "slug": "smallest-k-length-subsequence-with-occurrences-of-a-letter",
+      "difficulty": "Hard",
+      "acceptance": 39.16553020530021,
+      "likes": 507,
+      "dislikes": 15
+    },
+    {
+      "position": 17,
+      "title": "Minimum Number of Visited Cells in a Grid",
+      "slug": "minimum-number-of-visited-cells-in-a-grid",
+      "difficulty": "Hard",
+      "acceptance": 23.09416101197956,
+      "likes": 411,
+      "dislikes": 39
+    },
+    {
+      "position": 18,
+      "title": "Maximum Sum Queries",
+      "slug": "maximum-sum-queries",
+      "difficulty": "Hard",
+      "acceptance": 29.107637819525717,
+      "likes": 350,
+      "dislikes": 16
+    },
+    {
+      "position": 19,
+      "title": "Find the Number of Subarrays Where Boundary Elements Are Maximum",
+      "slug": "find-the-number-of-subarrays-where-boundary-elements-are-maximum",
+      "difficulty": "Hard",
+      "acceptance": 31.74977035588949,
+      "likes": 250,
+      "dislikes": 6
+    },
+    {
+      "position": 20,
+      "title": "Minimum Operations to Make Array Equal to Target",
+      "slug": "minimum-operations-to-make-array-equal-to-target",
+      "difficulty": "Hard",
+      "acceptance": 39.3012833570992,
+      "likes": 239,
+      "dislikes": 10
+    },
+    {
+      "position": 21,
+      "title": "Find Maximum Non-decreasing Array Length",
+      "slug": "find-maximum-non-decreasing-array-length",
+      "difficulty": "Hard",
+      "acceptance": 17.44701377792517,
+      "likes": 209,
+      "dislikes": 24
+    },
+    {
+      "position": 22,
+      "title": "Count Non-Decreasing Subarrays After K Operations",
+      "slug": "count-non-decreasing-subarrays-after-k-operations",
+      "difficulty": "Hard",
+      "acceptance": 22.09207641716254,
+      "likes": 78,
+      "dislikes": 5
+    },
+    {
+      "position": 23,
+      "title": "Maximum and Minimum Sums of at Most Size K Subarrays",
+      "slug": "maximum-and-minimum-sums-of-at-most-size-k-subarrays",
+      "difficulty": "Hard",
+      "acceptance": 22.90324679549743,
+      "likes": 72,
+      "dislikes": 7
+    }
+  ]
+}
