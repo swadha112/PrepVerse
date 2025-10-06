@@ -13,6 +13,10 @@ import ProfileModal from "./components/ProfileModal";
 import TracksPage from "./pages/TracksPage";  
 import TrackQuestionsPage from "./pages/TrackQuestionsPage";
 
+import ResumeLanding from "./pages/ResumeLanding";
+import ResumeResult from "./pages/ResumeResult";
+import { ResumeAnalysisProvider } from "./context/ResumeAnalysisContext";
+
 function Shell({ children }) {
   const { user, logout } = useAuth();
 
@@ -34,6 +38,7 @@ function Shell({ children }) {
 
 export default function App() {
   return (
+     <ResumeAnalysisProvider>
     <AuthProvider>
       <BrowserRouter>
         <Routes>
@@ -42,6 +47,9 @@ export default function App() {
           <Route path="/tracks" element={<TracksPage />} />
           <Route path="/profile" element={<ProfileModal />} />
           <Route path="/tracks/:topicSlug/:difficulty" element={<TrackQuestionsPage />} />
+          <Route path="/resume" element={<Shell><ResumeLanding /></Shell>} />
+            <Route path="/resume/result" element={<Shell><ResumeResult /></Shell>} />
+            
           <Route
             path="/"
             element={
@@ -53,5 +61,6 @@ export default function App() {
         </Routes>
       </BrowserRouter>
     </AuthProvider>
+    </ResumeAnalysisProvider>
   );
 }

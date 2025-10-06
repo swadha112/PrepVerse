@@ -1,7 +1,9 @@
+import 'dotenv/config';
 import express from 'express';
 import cors from 'cors';
 import cookieParser from 'cookie-parser';
 import { requireFirebaseAuth } from './middleware/requireFirebaseAuth.js';
+import resumeAnalyzerRouter from './routes/resumeAnalyzer.js';
 
 
 const app = express();
@@ -26,6 +28,7 @@ app.use(cors({
 app.get('/api/health', (_req, res) => res.json({ ok: true }));
 import leetcodeConnect from './routes/leetcodeConnect.js';
 import leetcodeProfile from './routes/leetcodeProfile.js';
+app.use('/api/resumeAnalyzer', resumeAnalyzerRouter);
 
 app.use('/api/leetcode', requireFirebaseAuth, leetcodeConnect);
 app.use('/api/leetcode', requireFirebaseAuth, leetcodeProfile);
