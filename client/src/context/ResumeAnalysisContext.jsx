@@ -1,11 +1,12 @@
-import { createContext, useState } from "react";
+import React, { createContext, useState } from "react";
+
 export const ResumeAnalysisContext = createContext();
 
-export function ResumeAnalysisProvider({ children }) {
-  const [analysis, setAnalysis] = useState(null);
+export const ResumeAnalysisProvider = ({ children }) => {
+  const [analysis, setAnalysis] = useState(null); // analysis = state, setAnalysis = updater
   return (
     <ResumeAnalysisContext.Provider value={{ analysis, setAnalysis }}>
       {children}
     </ResumeAnalysisContext.Provider>
   );
-}
+};
