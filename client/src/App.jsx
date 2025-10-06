@@ -47,7 +47,7 @@ export default function App() {
           <Route path="/profile" element={<ProfileModal />} />
           <Route path="/tracks/:topicSlug/:difficulty" element={<TrackQuestionsPage />} />
           <Route path="/resume" element={<Shell><ResumeLanding /></Shell>} />
-            <Route path="/resume/result" element={<Shell><ResumeResult /></Shell>} />
+          <Route path="/resume/result" element={<Shell><ResumeResult /></Shell>} />
             
           <Route
             path="/"

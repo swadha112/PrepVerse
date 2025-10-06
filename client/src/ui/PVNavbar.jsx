@@ -293,6 +293,7 @@ export default function PVNavbar({ user, onLogout, onProfile }) {
                     boxShadow: "var(--pv-shadow-royal)"
                   }}
                 >
+                  
                   Sign Up
                 </button>
               </div>
