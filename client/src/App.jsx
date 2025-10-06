@@ -15,7 +15,7 @@ import TrackQuestionsPage from "./pages/TrackQuestionsPage";
 
 import ResumeLanding from "./pages/ResumeLanding";
 import ResumeResult from "./pages/ResumeResult";
-import { ResumeAnalysisProvider } from "./context/ResumeAnalysisContext";
+
 
 function Shell({ children }) {
   const { user, logout } = useAuth();
