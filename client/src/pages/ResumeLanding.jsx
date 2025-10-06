@@ -1,6 +1,5 @@
-import { useState, useContext } from "react";
+import { useState } from "react";
 import { useNavigate } from "react-router-dom";
-import { ResumeAnalysisContext } from "../context/ResumeAnalysisContext";
 
 export default function ResumeLanding() {
   const [candidateName, setCandidateName] = useState("");
@@ -9,7 +8,6 @@ export default function ResumeLanding() {
   const [yearsExp, setYearsExp] = useState("");
   const [file, setFile] = useState(null);
   const navigate = useNavigate();
-  const { setAnalysis } = useContext(ResumeAnalysisContext);
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -40,8 +38,9 @@ export default function ResumeLanding() {
         alert("Invalid response from server.");
         return;
       }
-      setAnalysis(data);
-      navigate('/resume/result');
+      
+      // Pass data via navigate state instead of context
+      navigate('/resume/result', { state: { analysis: data } });
     } catch (err) {
       alert("Network error. See console for details.");
       console.error(err);

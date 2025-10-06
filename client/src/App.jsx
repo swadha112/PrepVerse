@@ -38,7 +38,6 @@ function Shell({ children }) {
 
 export default function App() {
   return (
-     <ResumeAnalysisProvider>
     <AuthProvider>
       <BrowserRouter>
         <Routes>
@@ -61,6 +60,5 @@ export default function App() {
         </Routes>
       </BrowserRouter>
     </AuthProvider>
-    </ResumeAnalysisProvider>
   );
 }

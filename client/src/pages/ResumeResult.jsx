@@ -1,8 +1,16 @@
-import { useContext } from "react";
-import { ResumeAnalysisContext } from "../context/ResumeAnalysisContext";
+import { useLocation, useNavigate } from "react-router-dom";
+import { useEffect } from "react";
 
 export default function ResumeResult() {
-  const { analysis } = useContext(ResumeAnalysisContext);
+  const location = useLocation();
+  const navigate = useNavigate();
+  const analysis = location.state?.analysis;
+
+  useEffect(() => {
+    if (!analysis) {
+      navigate('/resume');
+    }
+  }, [analysis, navigate]);
 
   // Fallback if there's no analysis done yet
   if (!analysis) {
