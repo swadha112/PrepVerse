@@ -1,345 +1,427 @@
-/* Tracks Container */
-.tracks-container {
-    min-height: 100vh;
-    background: var(--pv-gradient-royal);
-    padding: 32px 24px;
+/* Fixed layout - clean grid, no overlap */
+.duo-tracks-root {
+  min-height: 100vh;
+  background: linear-gradient(180deg, #1e3a8a 0%, #2563eb 100%);
+  padding-bottom: 80px;
+}
+
+.duo-tracks-container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.duo-tracks-content {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+/* Header - fixed at top */
+.duo-tracks-header {
+  background: white;
+  border-radius: 24px;
+  padding: 28px 32px;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.12);
+  animation: slideDown 0.5s ease;
+  position: relative;
+  z-index: 50;
+}
+
+.duo-header-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  gap: 24px;
+}
+
+.duo-header-left {
+  flex: 1;
+}
+
+.duo-tracks-title {
+  font-size: 32px;
+  font-weight: 800;
+  color: #3c3c3c;
+  margin: 0 0 6px 0;
+}
+
+.duo-tracks-subtitle {
+  font-size: 15px;
+  color: #777;
+  margin: 0;
+  font-weight: 600;
+}
+
+.duo-header-right {
+  display: flex;
+  gap: 16px;
+}
+
+.duo-stat-card {
+  background: linear-gradient(135deg, #3b82f6 0%, #2563eb 100%);
+  color: white;
+  padding: 16px 24px;
+  border-radius: 16px;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(59,130,246,0.3);
+  min-width: 100px;
+}
+
+.duo-stat-label {
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  opacity: 0.9;
+  margin-bottom: 4px;
+}
+
+.duo-stat-value {
+  font-size: 28px;
+  font-weight: 800;
+  line-height: 1;
+}
+
+.duo-header-progress {
+  position: relative;
+}
+
+.duo-header-progress-bar {
+  height: 14px;
+  background: #e5e5e5;
+  border-radius: 14px;
+  overflow: hidden;
+}
+
+.duo-header-progress-fill {
+  height: 100%;
+  background: linear-gradient(90deg, #3b82f6 0%, #60a5fa 100%);
+  border-radius: 14px;
+  transition: width 0.6s ease;
+  box-shadow: 0 2px 6px rgba(59,130,246,0.3);
+}
+
+/* Canvas card */
+.duo-tracks-card {
+  background: rgba(255,255,255,0.05);
+  border-radius: 24px;
+  padding: 24px;
+  backdrop-filter: blur(10px);
+}
+
+.duo-tracks-canvas-wrapper {
+  position: relative;
+}
+
+.duo-tracks-canvas {
+  position: relative;
+  width: 100%;
+  min-height: 600px;
+}
+
+.duo-tracks-svg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+  z-index: 1;
+}
+
+/* Track nodes - fixed positioning */
+.duo-track-node {
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  cursor: pointer;
+  transition: transform 0.3s, z-index 0s;
+  animation: fadeInNode 0.6s ease backwards;
+  z-index: 10;
+}
+
+.duo-track-node:hover {
+  transform: scale(1.2);
+  z-index: 20;
+}
+
+.duo-track-node.active {
+  z-index: 30;
+}
+
+.duo-node-circle {
+  width: 80px;
+  height: 80px;
+  background: linear-gradient(135deg, #94a3b8 0%, #64748b 100%);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 6px 16px rgba(0,0,0,0.2);
+  border: 5px solid white;
+  transition: all 0.3s;
+}
+
+.duo-track-node.started .duo-node-circle {
+  background: linear-gradient(135deg, #60a5fa 0%, #3b82f6 100%);
+  box-shadow: 0 6px 18px rgba(59,130,246,0.4);
+}
+
+.duo-track-node.completed .duo-node-circle {
+  background: linear-gradient(135deg, #34d399 0%, #10b981 100%);
+  box-shadow: 0 6px 18px rgba(16,185,129,0.5);
+  animation: pulse 2s ease infinite;
+}
+
+.duo-node-icon {
+  font-size: 32px;
+  filter: drop-shadow(0 2px 4px rgba(0,0,0,0.2));
+}
+
+.duo-node-label {
+  position: absolute;
+  top: 92px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 11px;
+  font-weight: 700;
+  color: white;
+  text-align: center;
+  white-space: nowrap;
+  max-width: 130px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  text-shadow: 0 2px 6px rgba(0,0,0,0.4);
+  padding: 0 4px;
+}
+
+/* Animated path */
+.duo-animated-path {
+  animation: dash 25s linear infinite;
+}
+
+@keyframes dash {
+  to { stroke-dashoffset: -200; }
+}
+
+/* Drawer - fixed above nodes */
+.duo-track-drawer {
+  position: absolute;
+  z-index: 100;
+  animation: scaleIn 0.3s ease;
+}
+
+.duo-drawer-card {
+  background: white;
+  border-radius: 20px;
+  width: 400px;
+  box-shadow: 0 12px 40px rgba(0,0,0,0.25);
+  overflow: hidden;
+}
+
+.duo-drawer-header {
+  background: linear-gradient(135deg, #3b82f6 0%, #2563eb 100%);
+  color: white;
+  padding: 18px 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.duo-drawer-title {
+  font-size: 18px;
+  font-weight: 800;
+  margin: 0;
+}
+
+.duo-drawer-close {
+  background: rgba(255,255,255,0.2);
+  border: none;
+  color: white;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.2s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.duo-drawer-close:hover {
+  background: rgba(255,255,255,0.3);
+  transform: rotate(90deg);
+}
+
+.duo-drawer-content {
+  padding: 20px;
+}
+
+/* Tier rows */
+.duo-tiers-list {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.duo-tier-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+}
+
+.duo-tier-left {
+  flex: 1;
+}
+
+.duo-tier-label {
+  font-size: 13px;
+  font-weight: 700;
+  margin-bottom: 6px;
+  color: #3c3c3c;
+}
+
+.duo-tier-label.locked {
+  color: #999;
+}
+
+.duo-tier-progress-bar {
+  height: 7px;
+  background: #e5e5e5;
+  border-radius: 7px;
+  overflow: hidden;
+}
+
+.duo-tier-progress-fill {
+  height: 100%;
+  background: linear-gradient(90deg, #3b82f6 0%, #60a5fa 100%);
+  border-radius: 7px;
+  transition: width 0.4s ease;
+}
+
+.duo-tier-right {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.duo-tier-percentage {
+  font-size: 13px;
+  font-weight: 700;
+  color: #777;
+  min-width: 38px;
+  text-align: right;
+}
+
+.duo-tier-btn {
+  background: linear-gradient(180deg, #3b82f6 0%, #2563eb 100%);
+  color: white;
+  border: none;
+  padding: 9px 18px;
+  border-radius: 12px;
+  font-weight: 700;
+  font-size: 13px;
+  cursor: pointer;
+  box-shadow: 0 3px 0 #1d4ed8;
+  transition: all 0.2s;
+  white-space: nowrap;
+}
+
+.duo-tier-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 5px 0 #1d4ed8;
+}
+
+.duo-tier-btn:active {
+  transform: translateY(1px);
+  box-shadow: 0 2px 0 #1d4ed8;
+}
+
+.duo-locked-pill {
+  font-size: 16px;
+  opacity: 0.5;
+}
+
+/* Animations */
+@keyframes slideDown {
+  from {
+    opacity: 0;
+    transform: translateY(-30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeInNode {
+  from { opacity: 0; transform: scale(0.8); }
+  to { opacity: 1; transform: scale(1); }
+}
+
+@keyframes scaleIn {
+  from {
+    opacity: 0;
+    transform: scale(0.92);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes pulse {
+  0%, 100% { box-shadow: 0 6px 18px rgba(16,185,129,0.5); }
+  50% { box-shadow: 0 6px 24px rgba(16,185,129,0.7); }
+}
+
+/* Responsive */
+@media (max-width: 1200px) {
+  .duo-tracks-canvas {
+    min-height: 800px;
+  }
+}
+
+@media (max-width: 768px) {
+  .duo-tracks-container {
+    padding: 12px;
   }
   
-  .tracks-content {
-    max-width: 1400px;
-    margin: 0 auto;
-  }
-  
-  /* Header */
-  .tracks-header {
-    text-align: center;
-    margin-bottom: 32px;
-    color: white;
-  }
-  
-  .tracks-title {
-    font-size: 48px;
-    font-weight: 800;
-    margin: 0 0 16px 0;
-    background: linear-gradient(135deg, #ffffff 0%, #f7fafc 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-  }
-  
-  .tracks-subtitle {
-    font-size: 18px;
-    opacity: 0.9;
-    max-width: 600px;
-    margin: 0 auto;
-    line-height: 1.6;
-  }
-  
-  /* Card */
-  .tracks-card {
-    background: var(--pv-gradient-glass);
-    backdrop-filter: blur(10px);
-    border: 1px solid var(--pv-glass-border);
-    border-radius: 20px;
-    overflow: hidden;
-    box-shadow: var(--pv-shadow-glass);
-  }
-  
-  .tracks-canvas-wrapper {
-    position: relative;
-    width: 100%;
-    border-radius: 20px;
-    overflow: hidden;
+  .duo-tracks-header {
     padding: 20px;
   }
   
-  .tracks-canvas {
-    position: relative;
-    width: 100%;
+  .duo-tracks-title {
+    font-size: 24px;
   }
   
-  /* SVG Path */
-  .tracks-svg {
-    position: absolute;
-    inset: 0;
-  }
-  
-  .animated-path {
-    animation: pathFlow 3s linear infinite;
-  }
-  
-  @keyframes pathFlow {
-    0% { stroke-dashoffset: 0; }
-    100% { stroke-dashoffset: -30; }
-  }
-  
-  /* Track Nodes */
-  .track-node {
-    position: absolute;
-    width: 60px;
-    height: 60px;
-    cursor: pointer;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-    animation: nodeAppear 0.6s ease-out both;
-  }
-  
-  .track-node.active {
-    transform: scale(1.2) translateY(-8px);
-    z-index: 10;
-  }
-  
-  .track-node-circle {
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    border: 2px solid rgba(255,255,255,0.8);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    transition: all 0.3s ease;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-  }
-  
-  /* Node States */
-  .track-node.completed .track-node-circle {
-    background: linear-gradient(135deg, #48bb78 0%, #38a169 100%);
-    border-color: rgba(255,255,255,0.8);
-  }
-  
-  .track-node.started .track-node-circle {
-    background: linear-gradient(135deg, #4299e1 0%, #3182ce 100%);
-    border-color: rgba(255,255,255,0.8);
-  }
-  
-  .track-node.not-started .track-node-circle {
-    background: linear-gradient(135deg, #e2e8f0 0%, #cbd5e0 100%);
-    border-color: rgba(255,255,255,0.8);
-  }
-  
-  .track-node.active .track-node-circle {
-    border: 3px solid var(--pv-royal-800);
-    box-shadow: 0 8px 25px rgba(30, 64, 175, 0.4);
-  }
-  
-  .track-node-content {
-    color: white;
-    font-size: 14px;
-    font-weight: 700;
-  }
-  
-  .track-node.not-started .track-node-content {
-    color: #64748b;
-  }
-  
-  /* Node Labels */
-  .track-node-label {
-    position: absolute;
-    top: 50px;
-    width: 120px;
-    text-align: center;
-    transform: translateX(-30px);
-    font-size: 12px;
-    font-weight: 600;
-    color: #4a5568;
-    white-space: nowrap;
-    text-overflow: ellipsis;
-    overflow: hidden;
-    transition: color 0.3s ease;
-  }
-  
-  .track-node.active .track-node-label {
-    color: var(--pv-royal-800);
-  }
-  
-  /* Drawer */
-  .track-drawer {
-    position: absolute;
-    width: 400px;
-    z-index: 20;
-  }
-  
-  .drawer-card {
-    padding: 24px;
-    box-shadow: 0 20px 60px rgba(0,0,0,0.2);
-  }
-  
-  .drawer-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 20px;
-  }
-  
-  .drawer-title {
-    font-weight: 700;
-    color: var(--pv-ink);
-    font-size: 20px;
-    margin: 0;
-  }
-  
-  .drawer-close-btn {
-    border: none;
-    border-radius: 8px;
-    background: linear-gradient(135deg, #f7fafc 0%, #edf2f7 100%);
-    padding: 8px 12px;
-    cursor: pointer;
-    font-size: 14px;
-    font-weight: 600;
-    color: #4a5568;
-    transition: var(--pv-transition);
-  }
-  
-  .drawer-close-btn:hover {
-    background: linear-gradient(135deg, #edf2f7 0%, #e2e8f0 100%);
-  }
-  
-  .drawer-content {
-    display: flex;
+  .duo-header-top {
     flex-direction: column;
+    align-items: flex-start;
   }
   
-  /* Tiers */
-  .tiers-list {
-    display: flex;
-    flex-direction: column;
-    gap: 4px;
+  .duo-drawer-card {
+    width: 320px;
   }
   
-  .tier-row {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 12px 0;
-    border-bottom: 1px solid rgba(0,0,0,0.05);
+  .duo-node-circle {
+    width: 64px;
+    height: 64px;
+    border-width: 4px;
   }
   
-  .tier-label {
-    font-size: 14px;
-    font-weight: 600;
+  .duo-track-node {
+    width: 64px;
+    height: 64px;
   }
   
-  .tier-label.unlocked {
-    color: var(--pv-ink);
+  .duo-node-icon {
+    font-size: 26px;
   }
   
-  .tier-label.locked {
-    color: #a0aec0;
+  .duo-node-label {
+    font-size: 10px;
+    top: 74px;
   }
-  
-  .tier-right {
-    display: flex;
-    gap: 12px;
-    align-items: center;
-  }
-  
-  .tier-progress {
-    width: 60px;
-    height: 6px;
-    background: rgba(0,0,0,0.1);
-    border-radius: 3px;
-    overflow: hidden;
-  }
-  
-  .tier-progress-fill {
-    height: 100%;
-    background: linear-gradient(90deg, #48bb78 0%, #38a169 100%);
-    border-radius: 3px;
-    transition: width 0.3s ease;
-  }
-  
-  .tier-percentage {
-    font-size: 12px;
-    font-weight: 600;
-    color: var(--pv-ink);
-    min-width: 30px;
-  }
-  
-  .tier-btn {
-    font-size: 14px;
-    padding: 6px 12px;
-  }
-  
-  /* Locked Pill */
-  .locked-pill {
-    padding: 6px 12px;
-    border-radius: 12px;
-    background: linear-gradient(135deg, #f1f3f4 0%, #e8eaed 100%);
-    border: 1px solid rgba(0,0,0,0.1);
-    color: #5f6368;
-    font-size: 12px;
-    line-height: 1;
-    font-weight: 500;
-  }
-  
-  /* Animations */
-  @keyframes nodeAppear {
-    0% {
-      opacity: 0;
-      transform: scale(0.3) translateY(20px);
-    }
-    100% {
-      opacity: 1;
-      transform: scale(1) translateY(0);
-    }
-  }
-  
-  /* Responsive Design */
-  @media (max-width: 1200px) {
-    .tracks-title {
-      font-size: 42px;
-    }
-  }
-  
-  @media (max-width: 768px) {
-    .tracks-container {
-      padding: 24px 16px;
-    }
-    
-    .tracks-title {
-      font-size: 36px;
-    }
-    
-    .tracks-subtitle {
-      font-size: 16px;
-    }
-    
-    .tracks-canvas-wrapper {
-      padding: 16px;
-    }
-    
-    .track-drawer {
-      width: 300px;
-      left: 12px !important;
-    }
-    
-    .drawer-card {
-      padding: 20px;
-    }
-    
-    .tier-right {
-      gap: 8px;
-    }
-    
-    .tier-progress {
-      width: 40px;
-    }
-  }
-  
-  @media (max-width: 480px) {
-    .tracks-title {
-      font-size: 28px;
-    }
-    
-    .track-drawer {
-      width: calc(100vw - 32px);
-    }
-    
-    .track-node-label {
-      font-size: 10px;
-      width: 100px;
-      transform: translateX(-20px);
-    }
-  }
+}

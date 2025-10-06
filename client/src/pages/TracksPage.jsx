@@ -5,9 +5,6 @@ import { useAuth } from "../auth/AuthContext";
 import { useNavigate } from "react-router-dom";
 import { TOPIC_SLUGS } from "../lib/topicSlugs";
 
-/* ------------------------------
-   Static LeetCode Topic Tracks
------------------------------- */
 const TRACKS = [
   "Array","String","Hash Table","Dynamic Programming","Math","Sorting","Greedy",
   "Depth-First Search","Binary Search","Database","Matrix","Tree","Breadth-First Search",
@@ -23,7 +20,6 @@ const TRACKS = [
   "Eulerian Circuit","Radix Sort","Rejection Sampling","Biconnected Component"
 ];
 
-/* seed progress (wire to backend later) */
 const INITIAL_PROGRESS = TRACKS.reduce((acc, t) => {
   acc[t] = { 
     foundation: Math.floor(Math.random() * 100), 
@@ -33,29 +29,41 @@ const INITIAL_PROGRESS = TRACKS.reduce((acc, t) => {
   return acc;
 }, {});
 
-/* small "Locked" pill */
+const TOPIC_ICONS = {
+  "Array": "📊","String": "🔤",  "Hash Table": "🗂️","Dynamic Programming": "🧩", "Math": "➗", "Sorting": "↕️", "Greedy": "🎯",
+  "Depth-First Search": "🏔️", "Binary Search": "🔍", "Database": "💾","Matrix": "⬜","Tree": "🌳","Breadth-First Search": "🌊",
+  "Bit Manipulation": "⚙️","Two Pointers": "👉","Prefix Sum": "➕","Heap (Priority Queue)": "⛰️", "Simulation": "🎮",
+  "Binary Tree": "🌴","Graph": "🕸️","Stack": "📚","Counting": "🔢","Sliding Window": "🪟","Design": "🎨","Enumeration": "📋",
+  "Backtracking": "↩️","Union Find": "🔗","Linked List": "⛓️","Number Theory": "🔣","Ordered Set": "📑","Monotonic Stack": "📉",
+  "Segment Tree": "🌿","Trie": "🔱","Combinatorics": "🎰","Bitmask": "🎭","Divide and Conquer": "⚔️","Queue": "📥","Recursion": "🔄",
+  "Geometry": "📐","Binary Indexed Tree": "🎄","Memoization": "💭", "Hash Function": "🔐", "Binary Search Tree": "🌲","Shortest Path": "🛤️",
+  "String Matching": "🔎","Topological Sort": "🗺️","Rolling Hash": "🎲","Game Theory": "♟️","Interactive": "💬","Data Stream": "💧",
+  "Monotonic Queue": "📯","Brainteaser": "🧠", "Doubly-Linked List": "🔂", "Randomized": "🎪", "Merge Sort": "🔀","Counting Sort": "🧮",
+  "Iterator": "🔁","Concurrency": "⚡","Probability and Statistics": "📈","Quickselect": "⏩", "Suffix Array": "📝","Line Sweep": "📏",
+  "Minimum Spanning Tree": "🌐","Bucket Sort": "🪣", "Shell": "🐚","Reservoir Sampling": "💦", "Strongly Connected Component": "🔵",
+  "Eulerian Circuit": "🔃","Radix Sort": "💯", "Rejection Sampling": "🚫","Biconnected Component": "🟢"
+};
+
+
 function LockedPill() {
-  return <span className="locked-pill">🔒 Locked</span>;
+  return <span className="duo-locked-pill">🔒</span>;
 }
 
 function TierRow({ label, value, unlocked, onSolve }) {
   return (
-    <div className="tier-row">
-      <div className={`tier-label ${unlocked ? 'unlocked' : 'locked'}`}>
-        {label}
-      </div>
-      <div className="tier-right">
-        <div className="tier-progress">
-          <div 
-            className="tier-progress-fill"
-            style={{ width: `${value}%` }}
-          />
+    <div className="duo-tier-row">
+      <div className="duo-tier-left">
+        <div className={`duo-tier-label ${unlocked ? 'unlocked' : 'locked'}`}>
+          {label}
         </div>
-        <span className="tier-percentage">{value}%</span>
+        <div className="duo-tier-progress-bar">
+          <div className="duo-tier-progress-fill" style={{ width: `${value}%` }} />
+        </div>
+      </div>
+      <div className="duo-tier-right">
+        <span className="duo-tier-percentage">{value}%</span>
         {unlocked ? (
-          <button className="pv-btn-royal tier-btn" onClick={onSolve}>
-            Solve
-          </button>
+          <button className="duo-tier-btn" onClick={onSolve}>Start →</button>
         ) : (
           <LockedPill />
         )}
@@ -64,7 +72,6 @@ function TierRow({ label, value, unlocked, onSolve }) {
   );
 }
 
-/* smooth path util: converts points to a rounded SVG path */
 function roundedPath(points) {
   if (points.length < 2) return "";
   const r = 20;
@@ -77,13 +84,9 @@ function roundedPath(points) {
     const len = Math.hypot(dx, dy) || 1;
     const ux = dx / len;
     const uy = dy / len;
-
     const px = c.x - ux * r;
     const py = c.y - uy * r;
-
-    if (i === 1) d += ` L ${px} ${py}`;
-    else d += ` L ${px} ${py}`;
-
+    d += ` L ${px} ${py}`;
     if (i < points.length - 1) {
       const n = points[i + 1];
       const ndx = n.x - c.x;
@@ -91,13 +94,9 @@ function roundedPath(points) {
       const nlen = Math.hypot(ndx, ndy) || 1;
       const nux = ndx / nlen;
       const nuy = ndy / nlen;
-
-      const cx1 = c.x;
-      const cy1 = c.y;
       const nx = c.x + nux * r;
       const ny = c.y + nuy * r;
-
-      d += ` Q ${cx1} ${cy1} ${nx} ${ny}`;
+      d += ` Q ${c.x} ${c.y} ${nx} ${ny}`;
     } else {
       d += ` L ${c.x} ${c.y}`;
     }
@@ -105,39 +104,31 @@ function roundedPath(points) {
   return d;
 }
 
-/* one clickable node on the snake */
 function TrackNode({ x, y, title, p, active, onClick, index }) {
   const { foundation, intermediate, advanced } = p;
-  const intUnlocked = foundation >= 70;
-  const advUnlocked = intermediate >= 70;
-
   const isCompleted = foundation >= 90 && intermediate >= 90 && advanced >= 90;
   const isStarted = foundation > 0 || intermediate > 0 || advanced > 0;
+  const icon = TOPIC_ICONS[title] || "💡";
 
   return (
     <div
       onClick={onClick}
       title={title}
-      className={`track-node ${active ? 'active' : ''} ${isCompleted ? 'completed' : isStarted ? 'started' : 'not-started'}`}
+      className={`duo-track-node ${active ? 'active' : ''} ${isCompleted ? 'completed' : isStarted ? 'started' : 'not-started'}`}
       style={{
-        left: x - 30,
-        top: y - 30,
-        animationDelay: `${index * 0.1}s`
+        left: x - 40,
+        top: y - 40,
+        animationDelay: `${index * 0.04}s`
       }}
     >
-      <div className="track-node-circle">
-        <span className="track-node-content">
-          {isCompleted ? "✓" : index + 1}
-        </span>
+      <div className="duo-node-circle">
+        <span className="duo-node-icon">{isCompleted ? '✓' : icon}</span>
       </div>
-      <div className="track-node-label">{title}</div>
+      <div className="duo-node-label">{title}</div>
     </div>
   );
 }
 
-/* ------------------------------
-   Main: Serpentine Tracks Page
------------------------------- */
 export default function TracksPage() {
   const wrapRef = useRef(null);
   const [wrapW, setWrapW] = useState(1200);
@@ -145,7 +136,6 @@ export default function TracksPage() {
   const [openIndex, setOpenIndex] = useState(-1);
   const navigate = useNavigate();
 
-  // label → difficulty key and navigation helper
   const DIFF_MAP = useMemo(() => ({
     Foundation: "EASY",
     Intermediate: "MEDIUM",
@@ -172,15 +162,14 @@ export default function TracksPage() {
     return () => obs.disconnect();
   }, []);
 
-  const COLS = wrapW >= 1200 ? 6 : wrapW >= 900 ? 5 : wrapW >= 700 ? 4 : wrapW >= 520 ? 3 : 2;
-  const MARGIN_X = 60;
-  const MARGIN_Y = 80;
-  const H = 140;
-  const usableW = Math.max(300, wrapW - MARGIN_X * 2);
-  const stepX = COLS > 1 ? usableW / (COLS - 1) : 0;
-
+  const COLS = 6;
+  const MARGIN_X = 80;
+  const MARGIN_Y = 100;
+  const V_GAP = 160;
+  const usableW = Math.max(600, wrapW - MARGIN_X * 2);
+  const stepX = usableW / (COLS - 1);
   const rows = Math.ceil(TRACKS.length / COLS);
-  const canvasH = MARGIN_Y * 2 + (rows - 1) * H + 150;
+  const canvasH = MARGIN_Y + (rows - 1) * V_GAP + 200;
 
   const nodes = useMemo(() => {
     const arr = [];
@@ -190,59 +179,63 @@ export default function TracksPage() {
       const reversed = row % 2 === 1;
       const col = reversed ? COLS - 1 - idxInRow : idxInRow;
       const x = MARGIN_X + col * stepX;
-      const y = MARGIN_Y + row * H;
+      const y = MARGIN_Y + row * V_GAP;
       arr.push({ title: TRACKS[i], x, y });
     }
     return arr;
-  }, [COLS, stepX]);
+  }, [stepX]);
 
   const pathPoints = useMemo(() => nodes.map(n => ({ x: n.x, y: n.y })), [nodes]);
   const pathD = useMemo(() => roundedPath(pathPoints), [pathPoints]);
-
   const open = openIndex >= 0 ? nodes[openIndex] : null;
   const { user } = useAuth();
 
+  const totalProgress = useMemo(() => {
+    const vals = Object.values(progress);
+    const total = vals.reduce((sum, p) => sum + p.foundation + p.intermediate + p.advanced, 0);
+    return Math.round(total / (vals.length * 3));
+  }, [progress]);
+
   return (  
-    <div className="tracks-root">
+    <div className="duo-tracks-root">
       <PVNavbar user={user} />
 
-      <div className="tracks-container">
-        <div className="tracks-content">
-          <div className="tracks-header pv-fade-in">
-            <h1 className="tracks-title">Learning Tracks</h1>
-            <p className="tracks-subtitle">
-              Follow the serpentine path through coding topics. Intermediate unlocks at <strong>70%</strong> Foundation, 
-              Advanced unlocks at <strong>70%</strong> Intermediate.
-            </p>
+      <div className="duo-tracks-container">
+        <div className="duo-tracks-content">
+          <div className="duo-tracks-header">
+            <div className="duo-header-top">
+              <div className="duo-header-left">
+                <h1 className="duo-tracks-title">🎯 Learning Tracks</h1>
+                <p className="duo-tracks-subtitle">Master {TRACKS.length} coding topics through structured practice</p>
+              </div>
+              <div className="duo-header-right">
+                <div className="duo-stat-card">
+                  <div className="duo-stat-label">Sorting</div>
+                  <div className="duo-stat-value">{totalProgress}%</div>
+                </div>
+              </div>
+            </div>
+            <div className="duo-header-progress">
+              <div className="duo-header-progress-bar">
+                <div className="duo-header-progress-fill" style={{ width: `${totalProgress}%` }} />
+              </div>
+            </div>
           </div>
 
-          <div className="tracks-card pv-card">
-            <div ref={wrapRef} className="tracks-canvas-wrapper">
-              <div className="tracks-canvas" style={{ height: canvasH }}>
-                {/* Animated path */}
-                <svg width="100%" height={canvasH} className="tracks-svg">
+          <div className="duo-tracks-card">
+            <div ref={wrapRef} className="duo-tracks-canvas-wrapper">
+              <div className="duo-tracks-canvas" style={{ height: canvasH }}>
+                <svg width="100%" height={canvasH} className="duo-tracks-svg">
                   <defs>
-                    <linearGradient id="pathGradient" x1="0%" y1="0%" x2="100%" y2="100%">
-                      <stop offset="0%" stopColor="rgba(30, 58, 138, 0.3)" />
-                      <stop offset="50%" stopColor="rgba(30, 64, 175, 0.3)" />
-                      <stop offset="100%" stopColor="rgba(37, 99, 235, 0.3)" />
-                    </linearGradient>
-                    <linearGradient id="pathStroke" x1="0%" y1="0%" x2="100%" y2="100%">
-                      <stop offset="0%" stopColor="rgba(30, 58, 138, 0.6)" />
-                      <stop offset="50%" stopColor="rgba(30, 64, 175, 0.6)" />
-                      <stop offset="100%" stopColor="rgba(37, 99, 235, 0.6)" />
+                    <linearGradient id="duoPathGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                      <stop offset="0%" stopColor="rgba(96,165,250,0.5)" />
+                      <stop offset="100%" stopColor="rgba(59,130,246,0.5)" />
                     </linearGradient>
                   </defs>
-
-                  {/* Shadow path */}
-                  <path d={pathD} fill="none" stroke="rgba(0,0,0,0.1)" strokeWidth="16" strokeLinecap="round" transform="translate(2, 2)" />
-                  {/* Main path with gradient */}
-                  <path d={pathD} fill="none" stroke="url(#pathGradient)" strokeWidth="12" strokeLinecap="round" />
-                  {/* Animated stroke */}
-                  <path d={pathD} fill="none" stroke="url(#pathStroke)" strokeWidth="4" strokeLinecap="round" strokeDasharray="20 10" strokeDashoffset="0" className="animated-path" />
+                  <path d={pathD} fill="none" stroke="url(#duoPathGradient)" strokeWidth="12" strokeLinecap="round" />
+                  <path d={pathD} fill="none" stroke="rgba(96,165,250,0.8)" strokeWidth="5" strokeLinecap="round" strokeDasharray="12 8" className="duo-animated-path" />
                 </svg>
 
-                {/* nodes */}
                 {nodes.map((n, i) => (
                   <TrackNode
                     key={n.title}
@@ -256,46 +249,23 @@ export default function TracksPage() {
                   />
                 ))}
 
-                {/* Drawer with Solve buttons → navigate to questions page */}
                 {open && (
-                  <div
-                    className="track-drawer pv-scale-in"
-                    style={{
-                      left: Math.max(12, Math.min(open.x - 200, wrapW - 400)),
-                      top: open.y + 60,
-                    }}
-                  >
-                    <div className="drawer-card pv-card">
-                      <div className="drawer-header">
-                        <h3 className="drawer-title">{open.title}</h3>
-                        <button onClick={() => setOpenIndex(-1)} className="drawer-close-btn">✕ Close</button>
+                  <div className="duo-track-drawer" style={{ left: Math.max(20, Math.min(open.x - 200, wrapW - 420)), top: open.y + 80 }}>
+                    <div className="duo-drawer-card">
+                      <div className="duo-drawer-header">
+                        <h3 className="duo-drawer-title">{open.title}</h3>
+                        <button onClick={() => setOpenIndex(-1)} className="duo-drawer-close">✕</button>
                       </div>
-
-                      <div className="drawer-content">
+                      <div className="duo-drawer-content">
                         {(() => {
                           const p = progress[open.title];
                           const intUnlocked = p.foundation >= 70;
                           const advUnlocked = p.intermediate >= 70;
                           return (
-                            <div className="tiers-list">
-                              <TierRow
-                                label="Foundation"
-                                value={p.foundation}
-                                unlocked
-                                onSolve={() => goToQuestions(open.title, "Foundation")}
-                              />
-                              <TierRow
-                                label="Intermediate"
-                                value={p.intermediate}
-                                unlocked={intUnlocked}
-                                onSolve={() => goToQuestions(open.title, "Intermediate")}
-                              />
-                              <TierRow
-                                label="Advanced"
-                                value={p.advanced}
-                                unlocked={advUnlocked}
-                                onSolve={() => goToQuestions(open.title, "Advanced")}
-                              />
+                            <div className="duo-tiers-list">
+                              <TierRow label="Foundation" value={p.foundation} unlocked onSolve={() => goToQuestions(open.title, "Foundation")} />
+                              <TierRow label="Intermediate" value={p.intermediate} unlocked={intUnlocked} onSolve={() => goToQuestions(open.title, "Intermediate")} />
+                              <TierRow label="Advanced" value={p.advanced} unlocked={advUnlocked} onSolve={() => goToQuestions(open.title, "Advanced")} />
                             </div>
                           );
                         })()}
