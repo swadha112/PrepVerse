@@ -1,4 +1,3 @@
-// client/src/App.jsx
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { useState } from "react";
 import { AuthProvider, useAuth } from "./auth/AuthContext";
@@ -10,28 +9,34 @@ import Dashboard from "./pages/Dashboard";
 
 import PVNavbar from "./ui/PVNavbar";
 import ProfileModal from "./components/ProfileModal";
-import TracksPage from "./pages/TracksPage";  
+import TracksPage from "./pages/TracksPage";
 import TrackQuestionsPage from "./pages/TrackQuestionsPage";
 
 import ResumeLanding from "./pages/ResumeLanding";
 import ResumeResult from "./pages/ResumeResult";
 
 import InterviewCoach from "./pages/InterviewCoach";
+import Forum from "./pages/Forum.tsx"; 
 
-function Shell({ children }) {
+function Shell({ children, fullWidth = false }) {
   const { user, logout } = useAuth();
 
-  // ✅ this is the “state to open/close the modal”
   const [profileOpen, setProfileOpen] = useState(false);
+
+  const mainStyle = { paddingTop: 24 };
 
   return (
     <>
-      {/* pass a function that opens the modal */}
       <PVNavbar user={user} onLogout={logout} onProfile={() => setProfileOpen(true)} />
 
-      <main className="container" style={{ paddingTop: 24 }}>{children}</main>
+      {fullWidth ? (
+        <main style={{ ...mainStyle, width: "100%" }}>{children}</main>
+      ) : (
+        <main className="container" style={mainStyle}>
+          {children}
+        </main>
+      )}
 
-      {/* render the modal, and give it a close callback */}
       <ProfileModal open={profileOpen} onClose={() => setProfileOpen(false)} />
     </>
   );
@@ -49,7 +54,11 @@ export default function App() {
           <Route path="/tracks/:topicSlug/:difficulty" element={<TrackQuestionsPage />} />
           <Route path="/resume" element={<Shell><ResumeLanding /></Shell>} />
           <Route path="/resume/result" element={<Shell><ResumeResult /></Shell>} />
-          <Route path="/interview" element={<InterviewCoach/>}/>  
+          <Route path="/interview" element={<InterviewCoach />} />
+
+
+          <Route path="/forum" element={<Shell fullWidth><Forum /></Shell>} />
+
           <Route
             path="/"
             element={

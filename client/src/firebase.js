@@ -1,7 +1,9 @@
+
 // npm i firebase
 import { initializeApp } from "firebase/app";
 import { getAuth, GoogleAuthProvider } from "firebase/auth";
 import { getAnalytics, isSupported } from "firebase/analytics";
+import { getFirestore } from "firebase/firestore"; // ✅ Added Firestore import
 
 // .env variables MUST have your actual Firebase project info for the web app (not admin credentials)
 const firebaseConfig = {
@@ -19,7 +21,12 @@ const app = initializeApp(firebaseConfig);
 export const auth = getAuth(app);
 export const googleProvider = new GoogleAuthProvider();
 
+// ✅ Firestore (for database access)
+export const db = getFirestore(app);
+
 // Analytics (optional & safe)
-export const analyticsPromise = isSupported().then((ok) => (ok ? getAnalytics(app) : null));
+export const analyticsPromise = isSupported().then((ok) =>
+  ok ? getAnalytics(app) : null
+);
 
 export default app;
