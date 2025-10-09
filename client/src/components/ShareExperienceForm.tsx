@@ -1,5 +1,6 @@
 // src/components/ShareExperienceForm.tsx
 import React, { useMemo, useState, useEffect } from "react";
+import ReactDOM from "react-dom";
 import { useForm } from "react-hook-form";
 import { addDoc, collection, serverTimestamp } from "firebase/firestore";
 import { db } from "../firebase";
@@ -80,15 +81,144 @@ export default function ShareExperienceForm({
     }
   };
 
-  // left align, bold headings
   const labelStyle: React.CSSProperties = {
     fontWeight: 700,
     fontSize: 14,
     color: "var(--pv-ink)",
     marginBottom: 6,
-    textAlign: "left", // <- force left align
+    textAlign: "left", 
     display: "block",
   };
+
+  const modalContent = (
+    <>
+      <div
+        onClick={() => setOpen(false)}
+        style={{ position: "fixed", inset: 0, background: "rgba(12,16,28,0.6)", zIndex: 80 }}
+      />
+
+      <div
+        role="dialog"
+        aria-modal="true"
+        style={{
+          position: "fixed",
+          top: "50%",
+          left: "50%",
+          transform: "translate(-50%,-50%)",
+          zIndex: 90,
+          width: "92%",
+          maxWidth: 880,
+          maxHeight: "88vh",
+          overflowY: "auto",
+        }}
+      >
+        <div className="pv-card" style={{ padding: 24, borderRadius: "var(--pv-radius-lg)" }}>
+          {/* header */}
+          <div style={{ textAlign: "center", marginBottom: 20 }}>
+            <h2 style={{ margin: 0, color: "var(--pv-ink)", fontSize: 22, fontWeight: 700 }}>
+              Share Your Interview Experience
+            </h2>
+            <p style={{ marginTop: 6, color: "var(--pv-muted)", fontSize: 14 }}>
+              Help others by sharing your interview experience. Your insights could help someone land their dream job!
+            </p>
+          </div>
+
+          <form onSubmit={handleSubmit(onSubmit)}>
+            <div
+              style={{
+                display: "grid",
+                gridTemplateColumns: isSmall ? "1fr" : "1fr 1fr",
+                gap: 16,
+              }}
+            >
+              <div>
+                <label style={labelStyle}>Your name</label>
+                <input className="pv-field" placeholder="e.g. Tejaswini Shet" {...register("author")} />
+              </div>
+
+              <div>
+                <label style={labelStyle}>Company</label>
+                <input className="pv-field" placeholder="e.g. Google, Microsoft" {...register("company")} />
+              </div>
+
+              <div>
+                <label style={labelStyle}>Role</label>
+                <input className="pv-field" placeholder="e.g. Software Engineer" {...register("role")} />
+              </div>
+
+              <div>
+                <label style={labelStyle}>Interview Date</label>
+                <input className="pv-field" type="date" max={today} {...register("date")} />
+              </div>
+
+              <div>
+                <label style={labelStyle}>Interview Type</label>
+                <select className="pv-field" defaultValue="" {...register("interviewType")}>
+                  <option value="" disabled>
+                    Select type
+                  </option>
+                  <option value="technical">Technical</option>
+                  <option value="hr">HR</option>
+                  <option value="behavioral">Behavioral</option>
+                  <option value="other">Other</option>
+                </select>
+              </div>
+
+              <div>
+                <label style={labelStyle}>Difficulty Level</label>
+                <select className="pv-field" defaultValue="" {...register("difficulty")}>
+                  <option value="" disabled>
+                    Rate difficulty
+                  </option>
+                  <option value="1">★ Easy</option>
+                  <option value="2">★★ Moderate</option>
+                  <option value="3">★★★ Medium</option>
+                  <option value="4">★★★★ Hard</option>
+                  <option value="5">★★★★★ Very Hard</option>
+                </select>
+              </div>
+
+              <div>
+                <label style={labelStyle}>Outcome</label>
+                <select className="pv-field" defaultValue="" {...register("outcome")}>
+                  <option value="" disabled>
+                    Select outcome
+                  </option>
+                  <option value="Selected">Selected</option>
+                  <option value="Rejected">Rejected</option>
+                  <option value="Pending">Pending</option>
+                </select>
+              </div>
+            </div>
+
+            <div style={{ marginTop: 14 }}>
+              <label style={labelStyle}>Interview Experience</label>
+              <textarea
+                className="pv-field"
+                style={{ minHeight: 120, padding: 14, lineHeight: 1.55 }}
+                placeholder="Share your interview experience in detail. Include questions asked, process, tips for future candidates, etc."
+                {...register("content")}
+              />
+            </div>
+
+            <div style={{ marginTop: 8 }}>
+              <label style={labelStyle}>Preparation Tip (optional)</label>
+              <input className="pv-field" placeholder="Any tips you used that helped" {...register("preparationTip")} />
+            </div>
+
+            <div style={{ display: "flex", justifyContent: "flex-end", gap: 12, marginTop: 16 }}>
+              <button type="button" className="pv-btn-glass" onClick={() => setOpen(false)} disabled={submitting}>
+                Cancel
+              </button>
+              <button type="submit" className="pv-btn-royal" disabled={submitting}>
+                {submitting ? "Sharing..." : "Share Experience"}
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </>
+  );
 
   return (
     <>
@@ -101,137 +231,10 @@ export default function ShareExperienceForm({
         {triggerLabel}
       </button>
 
-      {open && (
-        <>
-          {/* overlay */}
-          <div
-            onClick={() => setOpen(false)}
-            style={{ position: "fixed", inset: 0, background: "rgba(12,16,28,0.6)", zIndex: 80 }}
-          />
-
-          {/* centered modal */}
-          <div
-            role="dialog"
-            aria-modal="true"
-            style={{
-              position: "fixed",
-              top: "50%",
-              left: "50%",
-              transform: "translate(-50%,-50%)",
-              zIndex: 90,
-              width: "92%",
-              maxWidth: 880,
-              maxHeight: "88vh",
-              overflowY: "auto",
-            }}
-          >
-            <div className="pv-card" style={{ padding: 24, borderRadius: "var(--pv-radius-lg)" }}>
-              {/* header */}
-              <div style={{ textAlign: "center", marginBottom: 20 }}>
-                <h2 style={{ margin: 0, color: "var(--pv-ink)", fontSize: 22, fontWeight: 700 }}>
-                  Share Your Interview Experience
-                </h2>
-                <p style={{ marginTop: 6, color: "var(--pv-muted)", fontSize: 14 }}>
-                  Help others by sharing your interview experience. Your insights could help someone land their dream job!
-                </p>
-              </div>
-
-              <form onSubmit={handleSubmit(onSubmit)}>
-                <div
-                  style={{
-                    display: "grid",
-                    gridTemplateColumns: isSmall ? "1fr" : "1fr 1fr",
-                    gap: 16,
-                  }}
-                >
-                  <div>
-                    <label style={labelStyle}>Your name</label>
-                    <input className="pv-field" placeholder="e.g. Tejaswini Shet" {...register("author")} />
-                  </div>
-
-                  <div>
-                    <label style={labelStyle}>Company</label>
-                    <input className="pv-field" placeholder="e.g. Google, Microsoft" {...register("company")} />
-                  </div>
-
-                  <div>
-                    <label style={labelStyle}>Role</label>
-                    <input className="pv-field" placeholder="e.g. Software Engineer" {...register("role")} />
-                  </div>
-
-                  <div>
-                    <label style={labelStyle}>Interview Date</label>
-                    <input className="pv-field" type="date" max={today} {...register("date")} />
-                  </div>
-
-                  <div>
-                    <label style={labelStyle}>Interview Type</label>
-                    <select className="pv-field" defaultValue="" {...register("interviewType")}>
-                      <option value="" disabled>
-                        Select type
-                      </option>
-                      <option value="technical">Technical</option>
-                      <option value="hr">HR</option>
-                      <option value="behavioral">Behavioral</option>
-                      <option value="other">Other</option>
-                    </select>
-                  </div>
-
-                  <div>
-                    <label style={labelStyle}>Difficulty Level</label>
-                    <select className="pv-field" defaultValue="" {...register("difficulty")}>
-                      <option value="" disabled>
-                        Rate difficulty
-                      </option>
-                      <option value="1">★ Easy</option>
-                      <option value="2">★★ Moderate</option>
-                      <option value="3">★★★ Medium</option>
-                      <option value="4">★★★★ Hard</option>
-                      <option value="5">★★★★★ Very Hard</option>
-                    </select>
-                  </div>
-
-                  <div>
-                    <label style={labelStyle}>Outcome</label>
-                    <select className="pv-field" defaultValue="" {...register("outcome")}>
-                      <option value="" disabled>
-                        Select outcome
-                      </option>
-                      <option value="Selected">Selected</option>
-                      <option value="Rejected">Rejected</option>
-                      <option value="Pending">Pending</option>
-                    </select>
-                  </div>
-                </div>
-
-                <div style={{ marginTop: 14 }}>
-                  <label style={labelStyle}>Interview Experience</label>
-                  <textarea
-                    className="pv-field"
-                    style={{ minHeight: 120, padding: 14, lineHeight: 1.55 }}
-                    placeholder="Share your interview experience in detail. Include questions asked, process, tips for future candidates, etc."
-                    {...register("content")}
-                  />
-                </div>
-
-                <div style={{ marginTop: 8 }}>
-                  <label style={labelStyle}>Preparation Tip (optional)</label>
-                  <input className="pv-field" placeholder="Any tips you used that helped" {...register("preparationTip")} />
-                </div>
-
-                <div style={{ display: "flex", justifyContent: "flex-end", gap: 12, marginTop: 16 }}>
-                  <button type="button" className="pv-btn-glass" onClick={() => setOpen(false)} disabled={submitting}>
-                    Cancel
-                  </button>
-                  <button type="submit" className="pv-btn-royal" disabled={submitting}>
-                    {submitting ? "Sharing..." : "Share Experience"}
-                  </button>
-                </div>
-              </form>
-            </div>
-          </div>
-        </>
-      )}
+      {open &&
+        (typeof document !== "undefined"
+          ? ReactDOM.createPortal(modalContent, document.body)
+          : modalContent)}
     </>
   );
 }

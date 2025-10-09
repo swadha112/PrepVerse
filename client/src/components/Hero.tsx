@@ -1,8 +1,30 @@
-
+import React, { useEffect, useState } from "react";
 import ShareExperienceForm from "./ShareExperienceForm";
 
 const Hero = () => {
   const headerOffset = 64;
+  const [mounted, setMounted] = useState(false);
+
+  useEffect(() => {
+    const t = requestAnimationFrame(() => setMounted(true));
+    return () => cancelAnimationFrame(t);
+  }, []);
+
+  // 🪄 fade + slide-up animation style generator
+  const fadeStyle = (delay: number) => ({
+    opacity: mounted ? 1 : 0,
+    transform: mounted ? "translateY(0px) scale(1)" : "translateY(20px) scale(0.98)",
+    transition: `opacity 0.9s cubic-bezier(0.19, 1, 0.22, 1) ${delay}ms,
+                 transform 0.9s cubic-bezier(0.19, 1, 0.22, 1) ${delay}ms`,
+  });
+
+  // 🧭 Scroll smoothly to the section below Hero
+  const handleBrowseClick = () => {
+    const section = document.querySelector("#forum-feed");
+    if (section) {
+      section.scrollIntoView({ behavior: "smooth", block: "start" });
+    }
+  };
 
   return (
     <section
@@ -14,10 +36,10 @@ const Hero = () => {
         alignItems: "center",
         padding: "48px 0 64px",
         position: "relative",
+        overflow: "hidden",
       }}
     >
       <div
-        className="container"
         style={{
           textAlign: "center",
           display: "flex",
@@ -25,10 +47,13 @@ const Hero = () => {
           alignItems: "center",
           justifyContent: "center",
           gap: 20,
+          width: "100%",
         }}
       >
+        {/* 🟦 Title */}
         <h1
           style={{
+            ...fadeStyle(0),
             margin: 0,
             fontSize: "clamp(2.25rem, 5vw, 3.25rem)",
             lineHeight: 1.02,
@@ -36,6 +61,7 @@ const Hero = () => {
             color: "var(--pv-card)",
             textWrap: "balance",
             textShadow: "0 6px 18px rgba(12, 16, 28, 0.08)",
+            transformOrigin: "center",
           }}
         >
           Share Your{" "}
@@ -52,8 +78,10 @@ const Hero = () => {
           Experience
         </h1>
 
+        {/* 🟪 Subtitle */}
         <p
           style={{
+            ...fadeStyle(200),
             marginTop: 8,
             maxWidth: 820,
             marginLeft: "auto",
@@ -67,8 +95,10 @@ const Hero = () => {
           Build a community around career success.
         </p>
 
+        {/* 🟩 Buttons */}
         <div
           style={{
+            ...fadeStyle(400),
             marginTop: 22,
             display: "flex",
             gap: 12,
@@ -77,7 +107,7 @@ const Hero = () => {
             alignItems: "center",
           }}
         >
-          {/* Start Sharing styled same as Browse Experiences */}
+         
           <ShareExperienceForm
             triggerLabel="Start Sharing"
             triggerClassName="pv-btn-glass"
@@ -86,16 +116,30 @@ const Hero = () => {
               height: 44,
               borderRadius: 12,
               boxShadow: "0 6px 20px rgba(30, 58, 138, 0.06)",
+              transition: "transform 0.3s ease, box-shadow 0.3s ease",
             }}
           />
 
+
           <button
             className="pv-btn-glass"
+            onClick={handleBrowseClick}
             style={{
               minWidth: 180,
               height: 44,
               borderRadius: 12,
               boxShadow: "0 6px 20px rgba(30, 58, 138, 0.06)",
+              transition: "transform 0.3s ease, box-shadow 0.3s ease",
+            }}
+            onMouseEnter={(e) => {
+              e.currentTarget.style.transform = "translateY(-4px)";
+              e.currentTarget.style.boxShadow =
+                "0 10px 30px rgba(16, 24, 64, 0.18)";
+            }}
+            onMouseLeave={(e) => {
+              e.currentTarget.style.transform = "translateY(0)";
+              e.currentTarget.style.boxShadow =
+                "0 6px 20px rgba(30, 58, 138, 0.06)";
             }}
           >
             Browse Experiences
