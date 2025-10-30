@@ -1,3 +1,4 @@
+
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { useState } from "react";
 import { AuthProvider, useAuth } from "./auth/AuthContext";
@@ -16,7 +17,11 @@ import ResumeLanding from "./pages/ResumeLanding";
 import ResumeResult from "./pages/ResumeResult";
 
 import InterviewCoach from "./pages/InterviewCoach";
-import Forum from "./pages/Forum.tsx"; 
+import Forum from "./pages/Forum.tsx";
+
+
+import CompaniesPage from "./pages/CompaniesPage";
+import CompanyPage from "./pages/Companypage";
 
 function Shell({ children, fullWidth = false }) {
   const { user, logout } = useAuth();
@@ -56,8 +61,13 @@ export default function App() {
           <Route path="/resume/result" element={<Shell><ResumeResult /></Shell>} />
           <Route path="/interview" element={<InterviewCoach />} />
 
-
           <Route path="/forum" element={<Shell fullWidth><Forum /></Shell>} />
+
++         {/* NEW: companies listing page */}
++         <Route path="/companies" element={<Shell fullWidth><CompaniesPage /></Shell>} />
++
++         {/* NEW: company detail page (company name is encoded in the URL) */}
++         <Route path="/company/:name" element={<Shell fullWidth><CompanyPage /></Shell>} />
 
           <Route
             path="/"

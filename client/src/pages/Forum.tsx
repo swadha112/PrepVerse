@@ -1,6 +1,8 @@
+// src/pages/Forum.tsx
 import React from "react";
 import Hero from "../components/Hero";
 import InterviewFeed from "../components/InterviewFeed";
+import CompaniesSection from "../components/CompaniesSection"; // <-- add this
 
 const Forum: React.FC = () => {
   return (
@@ -16,6 +18,11 @@ const Forum: React.FC = () => {
 
       <div id="forum-feed">
         <InterviewFeed />
+      </div>
+
+      {/* Companies section at the end of the forum page */}
+      <div id="popular-companies">
+        <CompaniesSection />
       </div>
     </main>
   );
