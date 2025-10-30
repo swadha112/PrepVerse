@@ -1,19 +1,20 @@
-// src/components/CompanySummaryGenerator.tsx
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { callOpenAI } from "../lib/openai";
 import type { Post } from "../types";
 
 function compressPost(p: Post) {
   const contentSnippet = (p.content || "").replace(/\s+/g, " ").slice(0, 220);
   const tip = (p.preparationTip || "").replace(/\s+/g, " ").slice(0, 160);
-  const difficulty = typeof p.difficulty === "string" ? p.difficulty : (p.difficulty ?? "");
+  const difficulty =
+    typeof p.difficulty === "string" ? p.difficulty : p.difficulty ?? "";
   const outcome = p.outcome ?? "";
   const date = (() => {
     try {
       if (!p.interviewDate && !p.date && !p.createdAt) return "";
       const raw = p.interviewDate ?? p.date ?? p.createdAt;
-      // Firestore Timestamp compatibility
-      const d = raw?.toDate?.() ?? (raw?.seconds ? new Date(raw.seconds * 1000) : new Date(raw));
+      const d =
+        raw?.toDate?.() ??
+        (raw?.seconds ? new Date(raw.seconds * 1000) : new Date(raw));
       return isNaN(d?.getTime?.()) ? "" : d.toISOString().slice(0, 10);
     } catch {
       return "";
@@ -28,19 +29,27 @@ function batch<T>(arr: T[], size: number) {
   return out;
 }
 
-export default function CompanySummaryGenerator({ company, posts }: { company: string; posts: Post[] }) {
-  // Prefer env-provided key (VITE_OPENAI_API_KEY). If absent, fall back to sessionStorage.
+export default function CompanySummaryGenerator({
+  company,
+  posts,
+}: {
+  company: string;
+  posts: Post[];
+}) {
   const envKey = (import.meta as any).env?.VITE_OPENAI_API_KEY ?? "";
-  const [apiKey, setApiKey] = useState<string>(() => envKey || sessionStorage.getItem("OPENAI_KEY") || "");
+  const [apiKey, setApiKey] = useState<string>(
+    () => envKey || sessionStorage.getItem("OPENAI_KEY") || ""
+  );
   const [loading, setLoading] = useState(false);
   const [summary, setSummary] = useState("");
   const [error, setError] = useState<string | null>(null);
-  const [progress, setProgress] = useState<{ current: number; total: number } | null>(null);
+  const [progress, setProgress] = useState<{ current: number; total: number } | null>(
+    null
+  );
 
   const setAndStoreKey = (k: string) => {
     setApiKey(k);
     if (!envKey) {
-      // Only store in sessionStorage when user provided it (don't overwrite env)
       if (k) sessionStorage.setItem("OPENAI_KEY", k);
       else sessionStorage.removeItem("OPENAI_KEY");
     }
@@ -49,10 +58,12 @@ export default function CompanySummaryGenerator({ company, posts }: { company: s
   const generate = async () => {
     setError(null);
     setSummary("");
-
     const keyToUse = envKey || apiKey;
+
     if (!keyToUse) {
-      setError("OpenAI API key required. Add VITE_OPENAI_API_KEY to your .env or paste a key into the input.");
+      setError(
+        "OpenAI API key required. Add VITE_OPENAI_API_KEY to your .env or paste a key into the input."
+      );
       return;
     }
 
@@ -83,12 +94,9 @@ export default function CompanySummaryGenerator({ company, posts }: { company: s
 
         const chunk = await callOpenAI(keyToUse, [systemMsg, userMsg]);
         chunkSummaries.push(chunk);
-        // small pause to avoid rate spikes
         await new Promise((r) => setTimeout(r, 220));
       }
 
-      // Merge chunk summaries into a final structured summary
-      setProgress({ current: batches.length, total: batches.length });
       const mergeSystem = {
         role: "system" as const,
         content:
@@ -96,16 +104,22 @@ export default function CompanySummaryGenerator({ company, posts }: { company: s
       };
       const mergeUser = {
         role: "user" as const,
-        content: `Merge summaries for company ${company}:\n\n${chunkSummaries.join("\n\n---\n\n")}`,
+        content: `Merge summaries for company ${company}:\n\n${chunkSummaries.join(
+          "\n\n---\n\n"
+        )}`,
       };
 
       const final = await callOpenAI(keyToUse, [mergeSystem, mergeUser]);
       setSummary(final);
     } catch (err: any) {
       console.error("CompanySummaryGenerator error:", err);
-      // Provide friendly message for common OpenAI errors
-      if (err?.message?.includes("Invalid API key") || err?.toString?.().includes("invalid_api_key")) {
-        setError("OpenAI rejected the key. Please check your API key (or update VITE_OPENAI_API_KEY in .env).");
+      if (
+        err?.message?.includes("Invalid API key") ||
+        err?.toString?.().includes("invalid_api_key")
+      ) {
+        setError(
+          "OpenAI rejected the key. Please check your API key (or update VITE_OPENAI_API_KEY in .env)."
+        );
       } else {
         setError(err?.message ?? "Unknown error");
       }
@@ -116,51 +130,93 @@ export default function CompanySummaryGenerator({ company, posts }: { company: s
   };
 
   return (
-    <div className="pv-card" style={{ padding: 18, borderRadius: 12, marginBottom: 18 }}>
-      <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", gap: 12 }}>
+    <div
+      className="pv-card"
+      style={{
+        padding: 18,
+        borderRadius: 12,
+        marginBottom: 18,
+      }}
+    >
+      <div
+        style={{
+          display: "flex",
+          justifyContent: "space-between",
+          alignItems: "center",
+          gap: 12,
+        }}
+      >
         <div>
           <h3 style={{ margin: 0 }}>{company} — Sectioned Summary</h3>
-          <p style={{ margin: "6px 0 0", color: "var(--pv-muted)" }}>{posts.length} posts</p>
+          <p style={{ margin: "6px 0 0", color: "var(--pv-muted)" }}>
+            {posts.length} posts
+          </p>
         </div>
 
-        <div style={{ display: "flex", gap: 8, alignItems: "center" }}>
-          {/* hide manual input when env key exists (safer and more convenient) */}
-          {!envKey && (
-            <input
-              type="password"
-              value={apiKey}
-              onChange={(e) => setAndStoreKey(e.target.value)}
-              placeholder="OpenAI key (client-only)"
-              style={{ padding: 8, borderRadius: 8, border: "1px solid var(--pv-border)" }}
-            />
-          )}
+        {!summary && !loading && (
+          <div style={{ display: "flex", gap: 8, alignItems: "center" }}>
+            {!envKey && (
+              <input
+                type="password"
+                value={apiKey}
+                onChange={(e) => setAndStoreKey(e.target.value)}
+                placeholder="OpenAI key (client-only)"
+                style={{
+                  padding: 8,
+                  borderRadius: 8,
+                  border: "1px solid var(--pv-border)",
+                }}
+              />
+            )}
 
-          <button
-            onClick={generate}
-            className="pv-btn-royal"
-            disabled={loading || (!envKey && !apiKey)}
-            title={envKey ? "Using OPENAI key from .env" : "Provide API key or set VITE_OPENAI_API_KEY"}
-          >
-            {loading ? "Generating…" : "Generate Summary"}
-          </button>
-        </div>
+            <button
+              onClick={generate}
+              className="pv-btn-royal"
+              disabled={!envKey && !apiKey}
+              title={
+                envKey
+                  ? "Using OPENAI key from .env"
+                  : "Provide API key or set VITE_OPENAI_API_KEY"
+              }
+              style={{ minWidth: 160 }}
+            >
+              Generate Summary
+            </button>
+          </div>
+        )}
       </div>
+
+      {loading && (
+        <div style={{ marginTop: 12, color: "var(--pv-muted)" }}>
+          <strong>Generating summary...</strong>
+        </div>
+      )}
 
       {progress && (
         <div style={{ marginTop: 8, color: "var(--pv-muted)" }}>
           Processing batch {progress.current}/{progress.total}…
         </div>
       )}
-      {error && <div style={{ marginTop: 8, color: "var(--pv-error)" }}>{error}</div>}
 
-      {summary ? (
+      {error && (
+        <div style={{ marginTop: 8, color: "var(--pv-error)" }}>{error}</div>
+      )}
+
+      {summary && !loading && (
         <div style={{ marginTop: 12 }}>
-          <div style={{ whiteSpace: "pre-wrap", lineHeight: 1.6 }}>{summary}</div>
+          <div style={{ whiteSpace: "pre-wrap", lineHeight: 1.6 }}>
+            {summary}
+          </div>
 
           <div style={{ marginTop: 8, display: "flex", gap: 8 }}>
-            <button onClick={() => navigator.clipboard?.writeText(summary)} className="pv-btn-ghost">
+            <button
+              onClick={() => navigator.clipboard?.writeText(summary)}
+              className="pv-btn-royal"
+              style={{ minWidth: 120 }}
+            >
               Copy
             </button>
+
             <button
               onClick={() => {
                 const blob = new Blob([summary], { type: "text/plain" });
@@ -171,15 +227,12 @@ export default function CompanySummaryGenerator({ company, posts }: { company: s
                 a.click();
                 URL.revokeObjectURL(url);
               }}
-              className="pv-btn-ghost"
+              className="pv-btn-royal"
+              style={{ minWidth: 120 }}
             >
               Download
             </button>
           </div>
-        </div>
-      ) : (
-        <div style={{ marginTop: 12, color: "var(--pv-muted)" }}>
-          No summary yet. Click <strong>Generate Summary</strong>.
         </div>
       )}
     </div>
