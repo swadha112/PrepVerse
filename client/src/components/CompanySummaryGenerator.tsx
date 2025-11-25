@@ -29,6 +29,68 @@ function batch<T>(arr: T[], size: number) {
   return out;
 }
 
+/* ---------------------------------------------------------
+    Format summary text:
+    - Remove "<Company> Interview Summary" line
+    - Convert #, ##, ### to **bold** headings
+--------------------------------------------------------- */
+function formatSummary(text: string) {
+  // Remove lines like "Flipkart Interview Summary", "Capgemini Interview Summary", etc.
+  const withoutIntroHeading = text
+    .split("\n")
+    .filter(
+      (line) =>
+        !/^[A-Za-z0-9 .,&()/-]+ Interview Summary\s*$/i.test(line.trim())
+    )
+    .join("\n");
+
+  return withoutIntroHeading
+    .replace(/^# (.*)$/gm, (_, h) => `**${h}**`)
+    .replace(/^## (.*)$/gm, (_, h) => `**${h}**`)
+    .replace(/^### (.*)$/gm, (_, h) => `**${h}**`)
+    .trim();
+}
+
+/* ---------------------------------------------------------
+    Render formatted summary: bold headings, normal text
+--------------------------------------------------------- */
+const renderSummary = (raw: string) => {
+  const formatted = formatSummary(raw);
+
+  return formatted.split("\n").map((line, idx) => {
+    const trimmed = line.trim();
+
+    if (!trimmed) {
+      return <div key={idx} style={{ height: 10 }} />;
+    }
+
+    // Detect headings in **Heading** form
+    if (/^\*\*(.+)\*\*$/.test(trimmed)) {
+      const heading = trimmed.replace(/\*\*/g, "");
+      return (
+        <p
+          key={idx}
+          style={{
+            margin: "14px 0 6px",
+            fontWeight: "bold",
+            fontSize: "18px",
+            color: "#000",
+          }}
+        >
+          {heading}
+        </p>
+      );
+    }
+
+    // Normal paragraph text
+    return (
+      <p key={idx} style={{ margin: "6px 0", color: "#000", lineHeight: 1.6 }}>
+        {trimmed}
+      </p>
+    );
+  });
+};
+
 export default function CompanySummaryGenerator({
   company,
   posts,
@@ -100,7 +162,7 @@ export default function CompanySummaryGenerator({
       const mergeSystem = {
         role: "system" as const,
         content:
-          "Merge multiple JSON-like batch summaries into a single, human-friendly, sectioned summary. Output: Overview, Top roles, Difficulty distribution, Success summary, Common Preparation Tips, Notable quotes (if any), Recommendations.",
+          "Merge multiple JSON-like batch summaries into a single, human-friendly, sectioned summary. Output: Overview, Top roles, Difficulty distribution, Success summary, Common Preparation Tips, Notable Quotes, Recommendations.",
       };
       const mergeUser = {
         role: "user" as const,
@@ -173,11 +235,6 @@ export default function CompanySummaryGenerator({
               onClick={generate}
               className="pv-btn-royal"
               disabled={!envKey && !apiKey}
-              title={
-                envKey
-                  ? "Using OPENAI key from .env"
-                  : "Provide API key or set VITE_OPENAI_API_KEY"
-              }
               style={{ minWidth: 160 }}
             >
               Generate Summary
@@ -204,9 +261,7 @@ export default function CompanySummaryGenerator({
 
       {summary && !loading && (
         <div style={{ marginTop: 12 }}>
-          <div style={{ whiteSpace: "pre-wrap", lineHeight: 1.6 }}>
-            {summary}
-          </div>
+          <div style={{ whiteSpace: "pre-wrap" }}>{renderSummary(summary)}</div>
 
           <div style={{ marginTop: 8, display: "flex", gap: 8 }}>
             <button

@@ -45,32 +45,8 @@ const CompaniesSection = () => {
             </p>
           </div>
 
-          {/* --- Button replaced with native element --- */}
-          <button
-            onClick={() => navigate("/companies")}
-            style={{
-              borderRadius: 14,
-              display: "flex",
-              alignItems: "center",
-              gap: 8,
-              padding: "10px 18px",
-              fontWeight: 600,
-              cursor: "pointer",
-              background: "rgba(255,255,255,0.15)",
-              color: "white",
-              border: "1px solid rgba(255,255,255,0.3)",
-              transition: "all 0.2s ease-in-out",
-            }}
-            onMouseEnter={(e) =>
-              (e.currentTarget.style.background = "rgba(255,255,255,0.25)")
-            }
-            onMouseLeave={(e) =>
-              (e.currentTarget.style.background = "rgba(255,255,255,0.15)")
-            }
-          >
-            View All Companies
-            <ArrowRight className="w-4 h-4" />
-          </button>
+
+          
         </div>
 
         {/* --- Content --- */}
