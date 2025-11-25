@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import { callOpenAI } from "../lib/openai";
 import type { Post } from "../types";
 
@@ -30,13 +30,14 @@ function batch<T>(arr: T[], size: number) {
 }
 
 /* ---------------------------------------------------------
-    Format summary text:
-    - Remove "<Company> Interview Summary" line
-    - Convert #, ##, ### to **bold** headings
+   Clean and format summary
+   - Remove "<Company> Interview Summary"
+   - Turn markdown headings (#, ##, ###) into @@Heading@@ markers
+   - Strip all **bold** markers everywhere
 --------------------------------------------------------- */
 function formatSummary(text: string) {
-  // Remove lines like "Flipkart Interview Summary", "Capgemini Interview Summary", etc.
-  const withoutIntroHeading = text
+  // Remove lines like "Amazon Interview Summary", "Flipkart Interview Summary", etc.
+  let cleaned = text
     .split("\n")
     .filter(
       (line) =>
@@ -44,29 +45,33 @@ function formatSummary(text: string) {
     )
     .join("\n");
 
-  return withoutIntroHeading
-    .replace(/^# (.*)$/gm, (_, h) => `**${h}**`)
-    .replace(/^## (.*)$/gm, (_, h) => `**${h}**`)
-    .replace(/^### (.*)$/gm, (_, h) => `**${h}**`)
-    .trim();
+  // Convert markdown headings to special markers
+  cleaned = cleaned
+    .replace(/^# (.*)$/gm, (_, h) => `@@${h}@@`)
+    .replace(/^## (.*)$/gm, (_, h) => `@@${h}@@`)
+    .replace(/^### (.*)$/gm, (_, h) => `@@${h}@@`);
+
+  // Remove all remaining ** markers
+  cleaned = cleaned.replace(/\*\*/g, "");
+
+  return cleaned.trim();
 }
 
 /* ---------------------------------------------------------
-    Render formatted summary: bold headings, normal text
+   Render summary
+   - Lines like @@Overview@@ → bold section heading
+   - Everything else normal text (no bold)
 --------------------------------------------------------- */
 const renderSummary = (raw: string) => {
-  const formatted = formatSummary(raw);
-
-  return formatted.split("\n").map((line, idx) => {
+  return raw.split("\n").map((line, idx) => {
     const trimmed = line.trim();
-
     if (!trimmed) {
       return <div key={idx} style={{ height: 10 }} />;
     }
 
-    // Detect headings in **Heading** form
-    if (/^\*\*(.+)\*\*$/.test(trimmed)) {
-      const heading = trimmed.replace(/\*\*/g, "");
+    const headingMatch = trimmed.match(/^@@(.+)@@$/);
+    if (headingMatch) {
+      const heading = headingMatch[1].trim();
       return (
         <p
           key={idx}
@@ -82,7 +87,6 @@ const renderSummary = (raw: string) => {
       );
     }
 
-    // Normal paragraph text
     return (
       <p key={idx} style={{ margin: "6px 0", color: "#000", lineHeight: 1.6 }}>
         {trimmed}
@@ -147,7 +151,7 @@ export default function CompanySummaryGenerator({
         const systemMsg = {
           role: "system" as const,
           content:
-            "You are a concise assistant. From short interview-experience lines produce a compact JSON-like summary focusing on: overview, top_roles, difficulty_summary, success_observation, prep_tips. Output short paragraphs or JSON.",
+            "You are a concise assistant. From short interview-experience lines produce a compact summary focusing on: overview, top roles, difficulty, success observations, and preparation tips. Use clear section headings.",
         };
         const userMsg = {
           role: "user" as const,
@@ -162,7 +166,7 @@ export default function CompanySummaryGenerator({
       const mergeSystem = {
         role: "system" as const,
         content:
-          "Merge multiple JSON-like batch summaries into a single, human-friendly, sectioned summary. Output: Overview, Top roles, Difficulty distribution, Success summary, Common Preparation Tips, Notable Quotes, Recommendations.",
+          "Merge these batch summaries into a single, clean, human-friendly summary with sections: Overview, Top Roles, Difficulty Distribution, Success Summary, Common Preparation Tips, and Recommendations.",
       };
       const mergeUser = {
         role: "user" as const,
@@ -172,7 +176,8 @@ export default function CompanySummaryGenerator({
       };
 
       const final = await callOpenAI(keyToUse, [mergeSystem, mergeUser]);
-      setSummary(final);
+      // store the formatted version
+      setSummary(formatSummary(final));
     } catch (err: any) {
       console.error("CompanySummaryGenerator error:", err);
       if (
@@ -235,6 +240,11 @@ export default function CompanySummaryGenerator({
               onClick={generate}
               className="pv-btn-royal"
               disabled={!envKey && !apiKey}
+              title={
+                envKey
+                  ? "Using OPENAI key from .env"
+                  : "Provide API key or set VITE_OPENAI_API_KEY"
+              }
               style={{ minWidth: 160 }}
             >
               Generate Summary
