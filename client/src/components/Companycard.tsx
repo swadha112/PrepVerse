@@ -9,6 +9,8 @@ interface CompanyCardProps {
   totalPosts: number;
   avgDifficulty: number;
   successRate: number;
+  contributors: number;   // 👈 new
+  comments: number;       // 👈 new
   trending?: boolean;
   onClick?: () => void;
 }
@@ -19,6 +21,8 @@ const CompanyCard: React.FC<CompanyCardProps> = ({
   totalPosts,
   avgDifficulty,
   successRate,
+  contributors,
+  comments,
   trending,
   onClick,
 }) => {
@@ -95,7 +99,6 @@ const CompanyCard: React.FC<CompanyCardProps> = ({
       tabIndex={0}
       onClick={handleClick}
       onKeyDown={handleKeyDown}
-      // use light card background with subtle gradient and shadow (matches image 2)
       style={{
         borderRadius: 14,
         cursor: "pointer",
@@ -114,7 +117,6 @@ const CompanyCard: React.FC<CompanyCardProps> = ({
         (e.currentTarget.style.boxShadow = "0 6px 18px rgba(16,24,40,0.06)")
       }
     >
-      {/* Card content */}
       <div style={{ padding: 20 }}>
         <div
           style={{
@@ -219,6 +221,7 @@ const CompanyCard: React.FC<CompanyCardProps> = ({
           </div>
         </div>
 
+        {/* 👇 Real contributors & comments from hook */}
         <div
           style={{
             display: "flex",
@@ -238,7 +241,7 @@ const CompanyCard: React.FC<CompanyCardProps> = ({
             }}
           >
             <Users style={{ width: 16, height: 16, color: "#9aa6bf" }} />
-            <span>{Math.round(totalPosts * 0.7)} contributors</span>
+            <span>{contributors} contributors</span>
           </div>
 
           <div
@@ -251,7 +254,7 @@ const CompanyCard: React.FC<CompanyCardProps> = ({
             }}
           >
             <MessageSquare style={{ width: 16, height: 16, color: "#9aa6bf" }} />
-            <span>{Math.round(totalPosts * 2.5)} comments</span>
+            <span>{comments} comments</span>
           </div>
         </div>
       </div>
