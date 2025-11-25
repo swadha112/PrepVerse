@@ -17,6 +17,7 @@ import {
 import { db } from "../firebase";
 import { doc, getDoc, onSnapshot, updateDoc, increment } from "firebase/firestore";
 import CommentSection from "./CommentSection";
+import { useAuth } from "../auth/AuthContext"; // ✅ use real auth user
 
 const getRoleIcon = (type?: string) => {
   if (!type) return <HelpCircle className="w-4 h-4" />;
@@ -46,7 +47,11 @@ const formatDate = (raw?: any) => {
   }
 
   if (!d) return "";
-  return d.toLocaleDateString(undefined, { year: "numeric", month: "short", day: "2-digit" });
+  return d.toLocaleDateString(undefined, {
+    year: "numeric",
+    month: "short",
+    day: "2-digit",
+  });
 };
 
 interface Props {
@@ -90,6 +95,9 @@ export default function InterviewPost(props: Props) {
     companyLogo,
   } = props;
 
+  // ✅ get real user from auth
+  const { user } = useAuth() as { user: any } | any;
+
   const rawDate = interviewDate ?? date ?? createdAt ?? null;
   const formattedDate = formatDate(rawDate);
 
@@ -99,14 +107,13 @@ export default function InterviewPost(props: Props) {
     return clamp(Math.round(n), 0, 5);
   })();
 
-  const user = { uid: "testUser1" };
-
   const [voteStatus, setVoteStatus] = useState<"upvote" | "downvote" | null>(null);
   const [liveUpvotes, setLiveUpvotes] = useState<number>(upvotes || 0);
   const [liveDownvotes, setLiveDownvotes] = useState<number>(downvotes || 0);
   const [liveComments, setLiveComments] = useState<number>(comments || 0);
   const [showComments, setShowComments] = useState(false);
 
+  // ✅ listen to live updates and user-specific vote
   useEffect(() => {
     if (!id) return;
     const ref = doc(db, "experiences", id);
@@ -116,13 +123,24 @@ export default function InterviewPost(props: Props) {
       setLiveUpvotes(data.upvotes || 0);
       setLiveDownvotes(data.downvotes || 0);
       setLiveComments(data.comments || 0);
-      setVoteStatus(data.votes?.[user.uid] || null);
+
+      if (user?.uid && data.votes) {
+        setVoteStatus(data.votes[user.uid] || null);
+      } else {
+        setVoteStatus(null);
+      }
     });
     return () => unsub();
-  }, [id, user.uid]);
+  }, [id, user?.uid]);
 
   const handleVote = async (type: "upvote" | "downvote") => {
-    if (!user || !id) return;
+    // ✅ require real user
+    if (!user) {
+      alert("Please log in to like or dislike an experience.");
+      return;
+    }
+
+    if (!id) return;
     const ref = doc(db, "experiences", id);
     const snap = await getDoc(ref);
     if (!snap.exists()) return;
@@ -132,17 +150,20 @@ export default function InterviewPost(props: Props) {
 
     try {
       if (current === type) {
+        // same vote clicked again → remove vote
         await updateDoc(ref, {
           [type === "upvote" ? "upvotes" : "downvotes"]: increment(-1),
           [`votes.${user.uid}`]: null,
         });
       } else if (current && current !== type) {
+        // switching from like → dislike or dislike → like
         await updateDoc(ref, {
           upvotes: type === "upvote" ? increment(1) : increment(-1),
           downvotes: type === "downvote" ? increment(1) : increment(-1),
           [`votes.${user.uid}`]: type,
         });
       } else {
+        // first time voting
         await updateDoc(ref, {
           [type === "upvote" ? "upvotes" : "downvotes"]: increment(1),
           [`votes.${user.uid}`]: type,
@@ -159,7 +180,7 @@ export default function InterviewPost(props: Props) {
     if (n.includes("select") || n.includes("pass") || n.includes("offer"))
       return {
         label: "Selected",
-        bg: "rgba(22,163,74,0.10)", // pv-success glass
+        bg: "rgba(22,163,74,0.10)",
         color: "var(--pv-success)",
         icon: <CheckCircle style={{ width: 14, height: 14 }} />,
       };
@@ -242,7 +263,7 @@ export default function InterviewPost(props: Props) {
             <p style={{ margin: "6px 0 0", color: "var(--pv-muted)", fontSize: 13 }}>{company}</p>
           </div>
 
-          {/* ✅ Outcome "card" badge */}
+          {/* Outcome "card" badge */}
           <div
             title={`Outcome: ${outcomeMeta.label}`}
             style={{
@@ -365,7 +386,9 @@ export default function InterviewPost(props: Props) {
               cursor: "pointer",
             }}
           >
-            <ThumbsUp className={`w-4 h-4 ${voteStatus === "upvote" ? "text-green-600" : ""}`} />
+            <ThumbsUp
+              className={`w-4 h-4 ${voteStatus === "upvote" ? "text-green-600" : ""}`}
+            />
             <span>{liveUpvotes}</span>
           </button>
 
@@ -384,7 +407,9 @@ export default function InterviewPost(props: Props) {
               cursor: "pointer",
             }}
           >
-            <ThumbsDown className={`w-4 h-4 ${voteStatus === "downvote" ? "text-red-600" : ""}`} />
+            <ThumbsDown
+              className={`w-4 h-4 ${voteStatus === "downvote" ? "text-red-600" : ""}`}
+            />
             <span>{liveDownvotes}</span>
           </button>
 

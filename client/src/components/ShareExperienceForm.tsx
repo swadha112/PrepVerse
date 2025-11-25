@@ -4,6 +4,8 @@ import ReactDOM from "react-dom";
 import { useForm } from "react-hook-form";
 import { addDoc, collection, serverTimestamp } from "firebase/firestore";
 import { db } from "../firebase";
+import { useAuth } from "../auth/AuthContext"; // 👈 new
+import { useNavigate } from "react-router-dom"; // 👈 new
 
 interface FormData {
   author: string;
@@ -30,7 +32,12 @@ export default function ShareExperienceForm({
 }: Props) {
   const [open, setOpen] = useState(false);
   const [submitting, setSubmitting] = useState(false);
-  const [isSmall, setIsSmall] = useState<boolean>(typeof window !== "undefined" ? window.innerWidth <= 720 : false);
+  const [isSmall, setIsSmall] = useState<boolean>(
+    typeof window !== "undefined" ? window.innerWidth <= 720 : false
+  );
+
+  const { user } = useAuth() as { user: any } | any; // 👈 get current user
+  const navigate = useNavigate(); // 👈 router navigation
 
   useEffect(() => {
     const onResize = () => setIsSmall(window.innerWidth <= 720);
@@ -86,7 +93,7 @@ export default function ShareExperienceForm({
     fontSize: 14,
     color: "var(--pv-ink)",
     marginBottom: 6,
-    textAlign: "left", 
+    textAlign: "left",
     display: "block",
   };
 
@@ -133,17 +140,29 @@ export default function ShareExperienceForm({
             >
               <div>
                 <label style={labelStyle}>Your name</label>
-                <input className="pv-field" placeholder="e.g. Tejaswini Shet" {...register("author")} />
+                <input
+                  className="pv-field"
+                  placeholder="e.g. Tejaswini Shet"
+                  {...register("author")}
+                />
               </div>
 
               <div>
                 <label style={labelStyle}>Company</label>
-                <input className="pv-field" placeholder="e.g. Google, Microsoft" {...register("company")} />
+                <input
+                  className="pv-field"
+                  placeholder="e.g. Google, Microsoft"
+                  {...register("company")}
+                />
               </div>
 
               <div>
                 <label style={labelStyle}>Role</label>
-                <input className="pv-field" placeholder="e.g. Software Engineer" {...register("role")} />
+                <input
+                  className="pv-field"
+                  placeholder="e.g. Software Engineer"
+                  {...register("role")}
+                />
               </div>
 
               <div>
@@ -203,11 +222,20 @@ export default function ShareExperienceForm({
 
             <div style={{ marginTop: 8 }}>
               <label style={labelStyle}>Preparation Tip (optional)</label>
-              <input className="pv-field" placeholder="Any tips you used that helped" {...register("preparationTip")} />
+              <input
+                className="pv-field"
+                placeholder="Any tips you used that helped"
+                {...register("preparationTip")}
+              />
             </div>
 
             <div style={{ display: "flex", justifyContent: "flex-end", gap: 12, marginTop: 16 }}>
-              <button type="button" className="pv-btn-glass" onClick={() => setOpen(false)} disabled={submitting}>
+              <button
+                type="button"
+                className="pv-btn-glass"
+                onClick={() => setOpen(false)}
+                disabled={submitting}
+              >
                 Cancel
               </button>
               <button type="submit" className="pv-btn-royal" disabled={submitting}>
@@ -220,12 +248,21 @@ export default function ShareExperienceForm({
     </>
   );
 
+  // 👇 only change in behavior: gate button by login
+  const handleTriggerClick = () => {
+    if (!user) {
+      navigate("/login");
+      return;
+    }
+    setOpen(true);
+  };
+
   return (
     <>
       <button
         className={triggerClassName}
         style={triggerStyle}
-        onClick={() => setOpen(true)}
+        onClick={handleTriggerClick}
         type="button"
       >
         {triggerLabel}
