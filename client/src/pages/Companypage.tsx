@@ -13,6 +13,7 @@ const CompanyPage: React.FC = () => {
   const navigate = useNavigate();
 
   const totalPosts = posts.length;
+
   const avgDifficulty = totalPosts
     ? Math.round(
         (posts.reduce(
@@ -23,6 +24,7 @@ const CompanyPage: React.FC = () => {
           10
       ) / 10
     : 0;
+
   const successRate = Math.round(
     (posts.filter(
       (p) =>
@@ -31,6 +33,17 @@ const CompanyPage: React.FC = () => {
     ).length /
       Math.max(1, totalPosts)) *
       100
+  );
+
+  // ✅ real contributors: unique authorId / author for this company
+  const contributors = new Set(
+    posts.map((p) => (p as any).authorId || p.author || "")
+  ).size;
+
+  // ✅ real comments: sum of comments field for this company's posts
+  const totalComments = posts.reduce(
+    (sum, p) => sum + Number((p as any).comments || 0),
+    0
   );
 
   return (
@@ -59,6 +72,8 @@ const CompanyPage: React.FC = () => {
             totalPosts={totalPosts}
             avgDifficulty={avgDifficulty}
             successRate={isNaN(successRate) ? 0 : successRate}
+            contributors={contributors}    
+            comments={totalComments}       
             trending={false}
             onClick={() => {}}
           />
@@ -67,17 +82,12 @@ const CompanyPage: React.FC = () => {
         <CompanySummaryGenerator company={decoded} posts={posts} />
 
         <section>
-          {/* Interview experiences heading in black */}
           <h3 style={{ marginTop: 10, color: "#fff" }}>
-  Interview experiences ({posts.length})
-</h3>
-
+            Interview experiences ({posts.length})
+          </h3>
 
           {loading && (
-            <div
-              className="pv-card"
-              style={{ padding: 12, borderRadius: 10 }}
-            >
+            <div className="pv-card" style={{ padding: 12, borderRadius: 10 }}>
               Loading posts…
             </div>
           )}
