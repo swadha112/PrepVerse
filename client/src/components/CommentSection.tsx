@@ -1,17 +1,17 @@
+// src/components/CommentSection.tsx
 import { useEffect, useState } from "react";
 import {
   collection,
-  addDoc,              // (kept but unused now; you can remove if you like)
   query,
   orderBy,
   onSnapshot,
   serverTimestamp,
   doc,
-  updateDoc,           // (kept but unused now; you can remove if you like)
-  increment,           // (kept but unused now; you can remove if you like)
   writeBatch,
+  increment,
 } from "firebase/firestore";
 import { db } from "../firebase";
+import { useAuth } from "../auth/AuthContext"; // ✅ get logged-in user
 
 interface Comment {
   id: string;
@@ -26,7 +26,6 @@ interface CommentSectionProps {
 
 /**
  * - Uses a batched write: create comment + increment parent count atomically.
- * - Prevents "count not reflecting" issues from race conditions.
  */
 const CommentSection = ({ postId }: CommentSectionProps) => {
   const [comments, setComments] = useState<Comment[]>([]);
@@ -34,6 +33,8 @@ const CommentSection = ({ postId }: CommentSectionProps) => {
   const [loading, setLoading] = useState(false);
   const [initialLoaded, setInitialLoaded] = useState(false);
   const [error, setError] = useState<string>("");
+
+  const { user } = useAuth() as { user: any } | any; // ✅ auth user
 
   useEffect(() => {
     if (!postId) return;
@@ -67,6 +68,13 @@ const CommentSection = ({ postId }: CommentSectionProps) => {
 
   const handleAddComment = async () => {
     if (!newComment.trim() || !postId) return;
+
+    // ✅ require login to comment
+    if (!user) {
+      alert("Please log in to post a comment.");
+      return;
+    }
+
     setLoading(true);
     setError("");
 
@@ -76,24 +84,21 @@ const CommentSection = ({ postId }: CommentSectionProps) => {
       const postRef = doc(db, "experiences", postId);
       const commentRef = doc(collection(db, "experiences", postId, "comments"));
 
-      // 1) create the comment
+      const displayName =
+        user.displayName || user.email || "Anonymous User";
+
+      // 1) create the comment with real user info
       batch.set(commentRef, {
         text: newComment.trim(),
-        author: "Anonymous User",
-        authorId: "anon", // harmless if your rules don't check it
+        author: displayName,
+        authorId: user.uid,
         createdAt: serverTimestamp(),
       });
 
-      // 2) increment parent's comments count (works even if field missing)
-      batch.update(postRef, { comments: (window as any).firebaseIncrement ?? 1 }); // placeholder, will be overwritten below
-
-      // Firestore doesn't allow `increment()` directly inside batch.update payload created like this,
-      // so set it explicitly:
-      // @ts-ignore – we want the FieldValue sentinel here
-      batch.update(postRef, { comments: (await import("firebase/firestore")).increment(1) });
+      // 2) increment parent's comments count
+      batch.update(postRef, { comments: increment(1) });
 
       await batch.commit();
-
       setNewComment("");
     } catch (err: any) {
       console.error("Error adding comment (batched):", err);
@@ -105,7 +110,15 @@ const CommentSection = ({ postId }: CommentSectionProps) => {
 
   return (
     <div style={{ marginTop: 12 }}>
-      <div style={{ display: "flex", flexDirection: "column", gap: 10, maxHeight: 240, overflowY: "auto" }}>
+      <div
+        style={{
+          display: "flex",
+          flexDirection: "column",
+          gap: 10,
+          maxHeight: 240,
+          overflowY: "auto",
+        }}
+      >
         {!initialLoaded ? (
           <div style={{ color: "var(--pv-muted)" }}>Loading comments...</div>
         ) : error ? (
@@ -123,7 +136,9 @@ const CommentSection = ({ postId }: CommentSectionProps) => {
                 borderRadius: 10,
               }}
             >
-              <div style={{ fontWeight: 700, color: "var(--pv-ink)" }}>{c.author}</div>
+              <div style={{ fontWeight: 700, color: "var(--pv-ink)" }}>
+                {c.author}
+              </div>
               <div style={{ color: "var(--pv-body)" }}>{c.text}</div>
             </div>
           ))
