@@ -6,21 +6,14 @@ from sentence_transformers import SentenceTransformer, util
 
 sys.stderr = sys.__stderr__
 
-def extract_skills(text, known_skills=None):
-    if not known_skills:
-        known_skills = set([
-            "React", "Node.js", "REST", "Docker", "CI/CD", "Python", "Java", "AWS", "TypeScript", "C++", "SQL", "Redux",
-            "Kubernetes", "Git", "HTML", "CSS", "JavaScript", "MongoDB", "Firebase", "Express", "Flask", "Tailwind", "SASS"
-        ])
-    found = set()
-    text_lower = text.lower()
-    for skill in known_skills:
-        if skill.lower() in text_lower:
-            found.add(skill)
-    return list(found)
+# ---- Reference Skill Set (Used for Both Resume and JD) ----
+KNOWN_SKILLS = [
+    "React", "Node.js", "REST", "Docker", "CI/CD", "Python", "Java", "AWS", "TypeScript",
+    "C++", "SQL", "Redux", "Kubernetes", "Git", "HTML", "CSS", "JavaScript",
+    "MongoDB", "Firebase", "Express", "Flask", "Tailwind", "SASS"
+]
 
 def detect_sections(text):
-    # Expanded section list
     section_keywords = [
         "summary", "contact", "education", "skills", "projects", "experience", "certificates", "objective",
         "achievements", "activities", "languages", "hobbies"
@@ -29,16 +22,10 @@ def detect_sections(text):
     return found
 
 def predict_role_and_industry(skills, job_role):
-    it_roles = ["Frontend Developer", "Backend Developer", "Fullstack Developer", "UI Developer"]
-    ds_roles = ["Data Scientist", "ML Engineer"]
-    devops_roles = ["DevOps Engineer"]
-    design_roles = ["UI Designer", "UX Designer"]
-    # Match prediction logic
     fit_roles = []
     industry = "IT"
     exp_level = "Intern"
     skillset = set([s.lower() for s in skills])
-
     if "react" in skillset or "node.js" in skillset or "redux" in skillset:
         fit_roles = ["Frontend Intern", "Junior React Developer", "UI Developer"]
         exp_level = "Intern" if len(skills) < 4 else "Junior"
@@ -56,23 +43,18 @@ def predict_role_and_industry(skills, job_role):
     return {"roles": fit_roles or ["Frontend Intern"], "experienceLevel": exp_level, "industryFit": industry}
 
 def check_grammar(text):
-    # Basic grammar/spelling check; use NLP library for more accuracy
     lower = text.lower()
     spelling_errors = []
-    # Simple spellcheck for common words
     common_misspellings = ["expereince", "proffesional", "recieve", "acheive", "teh", "enviroment"]
     for word in common_misspellings:
         if word in lower:
             spelling_errors.append(word)
     tense_errors = []
-    # Check for tense issues (past/present not matching, very basic)
     if re.search(r"\b(build|create|lead)\b", lower) and re.search(r"\bworking|creating|leading\b", lower):
         tense_errors.append("Tense mismatch between action verbs.")
-
     punctuation_errors = []
     if "." not in text.strip():
         punctuation_errors.append("Missing sentence-ending punctuation.")
-
     return {
         "spellingErrors": spelling_errors,
         "tenseIssues": tense_errors,
@@ -85,6 +67,7 @@ def main():
     job_desc = data.get('jobDesc', '')
     job_role = data.get('jobRole', '')
 
+    # --- NER model for extractions ---
     model_name = "yashpwr/resume-ner-bert-v2"
     tokenizer = AutoTokenizer.from_pretrained(model_name)
     model = AutoModelForTokenClassification.from_pretrained(model_name)
@@ -95,17 +78,29 @@ def main():
         ent_type = ent["entity_group"]
         word = ent["word"]
         entity_summary.setdefault(ent_type, []).append(word)
-    resume_skills = entity_summary.get("SKILL", [])
 
-    known_skills = set(resume_skills + [
-        "React", "Node.js", "REST", "Docker", "CI/CD", "Python", "Java", "AWS", "TypeScript", "C++",
-        "SQL", "Redux", "Kubernetes", "Git", "HTML", "CSS", "JavaScript", "MongoDB", "Firebase", "Express", "Flask", "Tailwind", "SASS"
-    ])
-    jd_skills = extract_skills(job_desc, known_skills)
-    matched_skills = list(set(resume_skills) & set(jd_skills))
-    missing_skills = list(set(jd_skills) - set(resume_skills))
+    # --- SKILLS CORRECTED MATCHING LOGIC ---
+    # Always use KNOWN_SKILLS for both resume and JD
+    def extract_skills_from_text(text, skill_list):
+        found = set()
+        text_lower = text.lower()
+        for skill in skill_list:
+            if skill.lower() in text_lower:
+                found.add(skill)
+        return list(found)
+
+    # Extract skills from resume and job description
+    resume_skill_set = set(extract_skills_from_text(resume_text, KNOWN_SKILLS))
+    jd_skill_set = set(extract_skills_from_text(job_desc, KNOWN_SKILLS))
+    # Augment with NER-based resume skills if found in our reference set
+    ner_resume_skills = set([s for s in entity_summary.get("SKILL", []) if s in KNOWN_SKILLS])
+    resume_skill_set |= ner_resume_skills
+    # Real matched/missing skills (sorted for pretty output)
+    matched_skills = sorted(resume_skill_set & jd_skill_set)
+    missing_skills = sorted(jd_skill_set - resume_skill_set)
     sections_detected = detect_sections(resume_text)
 
+    # --- ATS scoring ---
     model_score = SentenceTransformer("anass1209/resume-job-matcher-all-MiniLM-L6-v2")
     emb_resume = model_score.encode(resume_text, convert_to_tensor=True)
     emb_job = model_score.encode(job_desc, convert_to_tensor=True)
@@ -119,7 +114,7 @@ def main():
             return 0
         return min(int(100 * len(matched) / len(jd_skills)), 100)
     section_score = min(int(100 * len(sections_detected) / 12), 100)
-    skills_score = calc_skills_score(matched_skills, jd_skills)
+    skills_score = calc_skills_score(matched_skills, jd_skill_set)
 
     # Detailed block analysis
     nlp_analysis = []
@@ -131,23 +126,21 @@ def main():
         nlp_analysis.append({"type": "success", "title": "Resume Structure", "desc": "Your resume is well-organized with most standard sections included."})
     else:
         nlp_analysis.append({"type": "fail", "title": "Resume Structure Issues", "desc": "Some important resume sections (Skills, Education, Projects, Experience) are missing or hard to find."})
-    if breakdown := {
+    breakdown = {
         "toneAndStyle": calc_score(resume_text, ["collaborate", "team", "drive", "lead", "initiative", "agile"]),
         "content": calc_score(resume_text, ["increase", "reduce", "manage", "deliver", "optimize", "create", "build", "improve"]),
         "structure": section_score,
         "skills": skills_score,
-    }:
-        if breakdown["toneAndStyle"] < 50:
-            nlp_analysis.append({"type": "fail", "title": "Tone & Professionalism", "desc": "The resume tone is too generic or vague. Add confident, energetic wording and avoid clichés."})
-        else:
-            nlp_analysis.append({"type": "success", "title": "Professional Tone", "desc": "The resume tone is highly professional and fits industry standards."})
+    }
+    if breakdown["toneAndStyle"] < 50:
+        nlp_analysis.append({"type": "fail", "title": "Tone & Professionalism", "desc": "The resume tone is too generic or vague. Add confident, energetic wording and avoid clichés."})
+    else:
+        nlp_analysis.append({"type": "success", "title": "Professional Tone", "desc": "The resume tone is highly professional and fits industry standards."})
+    if breakdown["content"] < 50:
+        nlp_analysis.append({"type": "fail", "title": "Achievements & Action Verbs", "desc": "Add results, achievements (numbers), and use more action verbs for experience/projects."})
 
-        if breakdown["content"] < 50:
-            nlp_analysis.append({"type": "fail", "title": "Achievements & Action Verbs", "desc": "Add results, achievements (numbers), and use more action verbs for experience/projects."})
-
-    # Role, level, industry fit prediction
-    fit_pred = predict_role_and_industry(resume_skills, job_role)
-
+    # Role prediction
+    fit_pred = predict_role_and_industry(list(resume_skill_set), job_role)
     # Grammar & spelling check
     grammar_info = check_grammar(resume_text)
     grammar_analysis = []
@@ -161,10 +154,8 @@ def main():
     else:
         grammar_analysis.append({"type": "success", "title": "Grammar & Spelling", "desc": "No major grammar or spelling issues detected."})
 
-    # Suggestions block
+    # Suggestions
     suggestions = []
-
-    # Always include actionable improvements
     if missing_skills:
         suggestions.append({"desc": f"Add these missing skills: {', '.join(missing_skills)}", "action": "highlight-skills"})
     if breakdown["content"] < 50:
