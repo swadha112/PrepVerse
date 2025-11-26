@@ -6,8 +6,7 @@ import cookieParser from 'cookie-parser';
 import { Server } from 'socket.io';
 import { requireFirebaseAuth } from './middleware/requireFirebaseAuth.js';
 import resumeAnalyzerRouter from './routes/resumeAnalyzer.js';
-import leetcodeConnect from './routes/leetcodeConnect.js';
-import leetcodeProfile from './routes/leetcodeProfile.js';
+import leetcodeRouter from './routes/leetcodeRoutes.js'
 import interviewCoachRouter from './routes/interviewCoach.js';
 import { initializeInterviewSocket } from './socket/interviewSocket.js';
 
@@ -48,7 +47,8 @@ app.get('/api/health', (_req, res) => res.json({ ok: true }));
 // Routes
 app.use('/api/resumeAnalyzer', resumeAnalyzerRouter);
 app.use('/api/interviewCoach', interviewCoachRouter);
-app.use('/api/leetcode', requireFirebaseAuth, leetcodeConnect);
+app.use('/api', leetcodeRouter);
+/* app.use('/api/leetcode', requireFirebaseAuth, leetcodeConnect);
 app.use('/api/leetcode', requireFirebaseAuth, leetcodeProfile);
 
 app.post('/api/leetcode/stats', (req, res) => {
@@ -64,7 +64,7 @@ app.post('/api/leetcode/stats', (req, res) => {
  console.log('----------------------------');
 
  return res.json({ ok: true, stored: false });
-});
+}); */
 
 // Initialize Interview Coach Socket.IO
 initializeInterviewSocket(io);

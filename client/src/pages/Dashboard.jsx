@@ -1,24 +1,33 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { useAuth } from "../auth/AuthContext";
 import "./Dashboard.css";
+import LeetCodeWidget from "../components/LeetCodeWidget";
+// ---- Simple fetch helper ----
+const API_BASE = import.meta.env.VITE_API_BASE || ""; // if you proxy /api in Vite, leave empty
+
+async function fetchJSON(url){
+  const r = await fetch(url, { headers: { accept: "application/json" } });
+  const t = await r.text();
+  if (!r.ok) throw new Error(t || r.statusText);
+  return JSON.parse(t);
+}
+
+<LeetCodeWidget username="Swadha_K" />
 
 export default function Dashboard() {
   const { user } = useAuth();
 
-  // Placeholder stats — hook up later to Firestore/your API
+  // You can hardcode your LC username here or store it on the user profile in Firestore
+  const lcUsername = "Swadha_K"; // change if needed
+
+  // (Your existing placeholder data stays)
   const today = { title: "Two Sum", tags: ["Array", "HashMap"], difficulty: "Easy" };
   const units = [
     { title: "DSA Fundamentals", desc: "Arrays • HashMaps • Two Pointers", progress: 60, unlocked: true },
     { title: "Graphs & Traversals", desc: "BFS • DFS • Components", progress: 20, unlocked: true },
     { title: "System Design Intro", desc: "Caching • Rate Limit • Sharding", progress: 0, unlocked: false },
   ];
-
-  const streakData = {
-    current: 7,
-    best: 14,
-    progress: 72
-  };
-
+  const streakData = { current: 7, best: 14, progress: 72 };
   const leaderboardData = [
     { rank: 1, name: "Aarav", score: 1840, isUser: false },
     { rank: 2, name: "Isha", score: 1720, isUser: false },
@@ -46,6 +55,9 @@ export default function Dashboard() {
 
         <div className="dashboard-grid grid-2">
           <div className="dashboard-left vstack">
+            {/* LeetCode widget (NEW) */}
+            <LeetCodeWidget username={lcUsername} />
+
             {/* Today's Challenge Card */}
             <div className="challenge-card pv-card pv-slide-up">
               <div className="card-header">

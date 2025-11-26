@@ -1,150 +1,223 @@
-// popup.js — enhanced UI for LeetCode connector
-const LOG = (...a) => console.log('[PV-PU]', ...a);
-const ERR = (...a) => console.error('[PV-PU]', ...a);
+// popup.js — PrepVerse ↔ LeetCode (MV3)
 
-const el = (id) => document.getElementById(id);
+// ---------- Config ----------
+const DEFAULT_BACKEND = 'http://localhost:4000/api/ingest/leetcode';
 
-const viewConnected = el('viewConnected');
-const viewEmpty = el('viewEmpty');
-const emptyError = el('emptyError');
+// ---------- DOM ----------
+const $ = (id) => document.getElementById(id);
 
-const avatar = el('avatar');
-const uname = el('uname');
-const rank = el('rank');
-const statTotal = el('statTotal');
-const statEasy = el('statEasy');
-const statMedium = el('statMedium');
-const statHard = el('statHard');
-const lastSync = el('lastSync');
-const syncPill = el('syncPill');
+const btnRefresh   = $('btnRefresh');
+const btnSend      = $('btnSend');
+const btnOpenLC    = $('btnOpenLC');
+const btnOpenLC2   = $('btnOpenLC2');
 
-const backendUrlInput = el('backendUrl');
-const usernameInput = el('username');
-const raw = el('raw');
+const viewConnected= $('viewConnected');
+const viewEmpty    = $('viewEmpty');
+const emptyError   = $('emptyError');
 
-const statusEl = el('status');
-const btnRefresh = el('btnRefresh');
-const btnSend = el('btnSend');
-const btnOpenLC = el('btnOpenLC');
-const btnOpenLC2 = el('btnOpenLC2');
+const avatar       = $('avatar');
+const uname        = $('uname');
+const rank         = $('rank');
+const syncPill     = $('syncPill');
 
-function setStatus(msg, kind='info') {
-  statusEl.textContent = msg ? (kind === 'error' ? `⚠️ ${msg}` : kind === 'ok' ? `✅ ${msg}` : `ℹ️ ${msg}`) : '';
+const statTotal    = $('statTotal');
+const statEasy     = $('statEasy');
+const statMedium   = $('statMedium');
+const statHard     = $('statHard');
+
+const lastSync     = $('lastSync');
+
+const backendUrlIn = $('backendUrl');
+const usernameIn   = $('username');
+
+const rawPre       = $('raw');
+const statusEl     = $('status');
+
+// ---------- Storage keys ----------
+const SKEY_BACKEND = 'backendUrl';
+const SKEY_USERHINT= 'lcUsernameHint';
+const SKEY_LAST    = 'lastStats';
+const SKEY_LAST_TS = 'lastUiRefreshedAt';
+
+// ---------- Helpers ----------
+function setStatus(msg, kind = 'info') {
+  if (!statusEl) return;
+  statusEl.textContent = msg || '';
+  statusEl.className = 'sub';
+  if (kind === 'ok') statusEl.classList.add('ok');
+  if (kind === 'error') statusEl.classList.add('error');
 }
 
-function fmtAgo(ts){
-  if (!ts) return 'never';
-  const d = typeof ts === 'number' ? new Date(ts) : new Date(ts);
-  const ms = Date.now() - d.getTime();
-  if (ms < 60e3) return 'just now';
-  const m = Math.floor(ms/60e3);
-  if (m < 60) return `${m}m ago`;
-  const h = Math.floor(m/60);
-  if (h < 24) return `${h}h ago`;
-  const dd = Math.floor(h/24);
-  return `${dd}d ago`;
+function showConnected(on) {
+  viewConnected.style.display = on ? 'block' : 'none';
+  viewEmpty.style.display = on ? 'none' : 'block';
+  syncPill.textContent = on ? 'Connected' : 'Not synced';
+  syncPill.className = 'pill ' + (on ? 'good' : '');
 }
 
-function showViews(connected){
-  viewConnected.style.display = connected ? 'block' : 'none';
-  viewEmpty.style.display = connected ? 'none' : 'block';
-  emptyError.style.display = 'none';
+function setLastSync(ts) {
+  if (!ts) { lastSync.textContent = '—'; return; }
+  const d = new Date(ts);
+  const mins = Math.max(0, Math.floor((Date.now() - d.getTime()) / 60000));
+  lastSync.textContent = mins < 1 ? 'just now' : `${mins}m ago`;
+  lastSync.title = d.toLocaleString();
 }
 
-function setPill(stale){
-  if (stale){
-    syncPill.className = 'pill warn';
-    syncPill.textContent = 'Stale';
-  } else {
-    syncPill.className = 'pill good';
-    syncPill.textContent = 'Connected';
-  }
+function pretty(obj) {
+  try { return JSON.stringify(obj, null, 2); }
+  catch { return String(obj); }
 }
 
-function renderStats(resp, fetchedAt){
-  if (!resp || !resp.ok){
-    showViews(false);
-    emptyError.style.display = resp?.error ? 'block' : 'none';
-    emptyError.textContent = resp?.error || '';
-    raw.textContent = JSON.stringify(resp || {}, null, 2);
-    return;
-  }
-  const s = resp.stats || {};
+function showRaw(obj) {
+  rawPre.textContent = pretty(obj ?? '—');
+}
+
+// ---------- Render ----------
+function render(resp, whenTs) {
+  const s = resp?.stats || {};
   const p = s.profile || {};
+  const solved = s.solved || {};
 
   avatar.src = p.userAvatar || '';
   uname.textContent = s.username || '—';
-  rank.textContent = (p.ranking ?? '—');
+  rank.textContent  = (p.ranking ?? '—');
 
-  statTotal.textContent = s.solved?.total ?? 0;
-  statEasy.textContent = s.solved?.easy ?? 0;
-  statMedium.textContent = s.solved?.medium ?? 0;
-  statHard.textContent = s.solved?.hard ?? 0;
+  statTotal.textContent  = solved.total  ?? 0;
+  statEasy.textContent   = solved.easy   ?? 0;
+  statMedium.textContent = solved.medium ?? 0;
+  statHard.textContent   = solved.hard   ?? 0;
 
-  const ts = fetchedAt || Date.now();
-  lastSync.textContent = fmtAgo(ts);
-  const stale = Date.now() - (typeof ts === 'number' ? ts : new Date(ts).getTime()) > 24*60*60*1000;
-  setPill(stale);
-
-  raw.textContent = JSON.stringify(resp, null, 2);
-  showViews(true);
+  setLastSync(whenTs || Date.now());
+  showConnected(!!s.username);
+  showRaw(resp);
 }
 
-async function loadPrefs(){
-  const s = await chrome.storage.local.get(['backendUrl','lcUsernameHint','lastUiRefreshedAt','lastStats']);
-  if (s.backendUrl) backendUrlInput.value = s.backendUrl;
-  if (s.lcUsernameHint) usernameInput.value = s.lcUsernameHint;
-  if (s.lastStats){
-    try { renderStats(JSON.parse(s.lastStats), s.lastUiRefreshedAt); } catch {}
+// ---------- Storage ----------
+async function loadPrefs() {
+  const s = await chrome.storage.local.get([SKEY_BACKEND, SKEY_USERHINT, SKEY_LAST, SKEY_LAST_TS]);
+  backendUrlIn.value = s[SKEY_BACKEND] || DEFAULT_BACKEND;
+  usernameIn.value   = s[SKEY_USERHINT] || '';
+
+  if (s[SKEY_LAST]) {
+    try {
+      const cached = JSON.parse(s[SKEY_LAST]);
+      render(cached, s[SKEY_LAST_TS] || Date.now());
+      setStatus('Showing cached data');
+    } catch {
+      showConnected(false);
+      setStatus('Not synced yet');
+    }
   } else {
-    showViews(false);
+    showConnected(false);
+    setStatus('Not synced yet');
   }
 }
 
-async function savePrefs(){
+async function savePrefs() {
+  const backendUrl = (backendUrlIn.value.trim() || DEFAULT_BACKEND);
+  const lcUsername = (usernameIn.value.trim() || '');
   await chrome.storage.local.set({
-    backendUrl: backendUrlInput.value.trim(),
-    lcUsernameHint: usernameInput.value.trim(),
+    [SKEY_BACKEND]: backendUrl,
+    [SKEY_USERHINT]: lcUsername
   });
+  return { backendUrl, lcUsername };
 }
 
-async function runSync(){
-  setStatus('Fetching…');
-  btnRefresh.disabled = true; btnSend.disabled = true;
-  try{
-    await savePrefs();
-    const backendUrl = backendUrlInput.value.trim() || null;
-    const username = usernameInput.value.trim() || null;
+// ---------- Actions ----------
+async function runSync() {
+  try {
+    setStatus('Fetching…');
+    btnRefresh.disabled = true;
+    btnSend.disabled = true;
 
-    chrome.runtime.sendMessage({ type: 'PV_RUN_SYNC', backendUrl, username }, async (resp) => {
-      if (!resp){
-        setStatus('No response from background', 'error');
-        showViews(false); return;
+    const { backendUrl, lcUsername } = await savePrefs();
+
+    chrome.runtime.sendMessage(
+      { type: 'PV_RUN_SYNC', backendUrl, username: lcUsername || null },
+      async (resp) => {
+        btnRefresh.disabled = false;
+        btnSend.disabled = false;
+
+        if (!resp) {
+          showConnected(false);
+          showRaw({ ok:false, error:'No response from background' });
+          setStatus('No response from background', 'error');
+          return;
+        }
+        if (!resp.ok) {
+          showConnected(false);
+          showRaw(resp);
+          setStatus(resp.error || 'Sync failed', 'error');
+          emptyError.style.display = 'block';
+          emptyError.textContent = resp.error || 'Sync failed';
+          return;
+        }
+
+        // success
+        const now = Date.now();
+        render(resp, now);
+        setStatus(resp.backend?.ok ? 'Synced to backend' : 'Fetched stats', resp.backend?.ok ? 'ok' : 'info');
+        emptyError.style.display = 'none';
+
+        await chrome.storage.local.set({
+          [SKEY_LAST]: JSON.stringify(resp),
+          [SKEY_LAST_TS]: now
+        });
       }
-      if (!resp.ok){
-        setStatus(resp.error || 'Fetch failed', 'error');
-        showViews(false);
-      } else {
-        setStatus('Fetched stats', 'ok');
-        renderStats(resp, Date.now());
-        await chrome.storage.local.set({ lastUiRefreshedAt: Date.now(), lastStats: JSON.stringify(resp) });
-      }
-    });
-  } catch(e){
-    setStatus(e.message || String(e), 'error');
-    showViews(false);
-  } finally {
-    btnRefresh.disabled = false; btnSend.disabled = false;
+    );
+  } catch (e) {
+    btnRefresh.disabled = false;
+    btnSend.disabled = false;
+    setStatus(e.message || 'Sync error', 'error');
   }
 }
 
-btnRefresh.addEventListener('click', runSync);
-btnSend.addEventListener('click', async () => { await runSync(); });
-btnOpenLC.addEventListener('click', () => {
-  const user = uname.textContent && uname.textContent !== '—' ? uname.textContent : null;
-  const url = user ? `https://leetcode.com/u/${encodeURIComponent(user)}/` : 'https://leetcode.com/problemset/';
-  chrome.tabs.create({ url });
-});
-btnOpenLC2.addEventListener('click', () => btnOpenLC.click());
+async function sendToBackend() {
+  try {
+    const { backendUrl } = await savePrefs();
+    const s = await chrome.storage.local.get([SKEY_LAST]);
+    if (!s[SKEY_LAST]) {
+      setStatus('No cached result to send', 'error');
+      return;
+    }
+    const payload = JSON.parse(s[SKEY_LAST]);
+    const stats = payload?.stats;
+    if (!stats?.username) {
+      setStatus('Invalid cached payload', 'error');
+      return;
+    }
 
-loadPrefs().catch(ERR);
+    setStatus('Posting to backend…');
+
+    const res = await fetch(backendUrl || DEFAULT_BACKEND, {
+      method: 'POST',
+      headers: { 'content-type': 'application/json' },
+      body: JSON.stringify({
+        source: 'leetcode',
+        username: stats.username,
+        profile: stats.profile,
+        solved: stats.solved,
+        fetchedAt: Date.now()
+      })
+    });
+
+    if (!res.ok) throw new Error(`${res.status} ${res.statusText}`);
+    setStatus('Posted to backend', 'ok');
+  } catch (e) {
+    setStatus(e.message || 'Post failed', 'error');
+  }
+}
+
+function openLeetCode() {
+  chrome.runtime.sendMessage({ type: 'PV_OPEN_LEETCODE' });
+}
+
+// ---------- Events ----------
+document.addEventListener('DOMContentLoaded', async () => {
+  await loadPrefs();
+
+  btnRefresh?.addEventListener('click', runSync);
+  btnSend?.addEventListener('click', sendToBackend);
+  btnOpenLC?.addEventListener('click', openLeetCode);
+  btnOpenLC2?.addEventListener('click', openLeetCode);
+});

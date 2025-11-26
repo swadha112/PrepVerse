@@ -230,21 +230,7 @@ export default function PVNavbar({ user, onLogout, onProfile }) {
 
                 {/* Action Buttons */}
                 <div className="hstack" style={{ gap: 8 }}>
-                  <button
-                    onClick={onProfile}
-                    className="pv-nav-button"
-                    style={{
-                      padding: "10px 16px",
-                      borderRadius: 10,
-                      background: "var(--pv-glass-bg)",
-                      border: "1px solid var(--pv-royal-200)",
-                      cursor: "pointer",
-                      color: "var(--pv-royal-700)",
-                      backdropFilter: "blur(4px)"
-                    }}
-                  >
-                    LeetCode
-                  </button>
+                 
                   <button
                     onClick={onLogout}
                     className="pv-nav-button"
