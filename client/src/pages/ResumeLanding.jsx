@@ -3,12 +3,28 @@ import { useNavigate } from "react-router-dom";
 import { extractPdfText } from "../utils/pdfExtract";
 
 const jobRoles = [
+  "Software Developer",
+  "Full Stack Developer",
   "Frontend Developer",
   "Backend Developer",
-  "Fullstack Developer",
-  "Data Scientist",
+  "Mobile App Developer (Android/iOS)",
+  "QA / Test Engineer",
   "DevOps Engineer",
+  "Cloud Engineer",
+  "Database Engineer",
+  "Site Reliability Engineer (SRE)",
   "UI/UX Designer",
+  "Data Analyst",
+  "Data Engineer",
+  "AI / ML Engineer",
+  "Cybersecurity Analyst",
+  "Blockchain Developer",
+  "IoT Engineer",
+ "UI/UX Designer", 
+ "Graphic Designer", 
+ "Video Editor", 
+ "Content Writer", 
+ "Social Media Manager",
 ];
 
 export default function ResumeLanding() {
