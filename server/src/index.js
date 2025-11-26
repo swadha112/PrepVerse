@@ -27,8 +27,7 @@ const io = new Server(server, {
     methods: ['GET', 'POST']
   }
 });
-
-app.use(express.json());
+app.use(express.json({ limit: '5mb' }));
 app.use(cookieParser());
 
 // CORS setup for frontend dev and Chrome extensions

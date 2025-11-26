@@ -1,35 +1,10 @@
-// LeetCodeWidget.jsx — minimal, classy, theme-aware
 import { useEffect, useMemo, useState } from "react";
-
-const API_BASE = import.meta.env.VITE_API_BASE || ""; // use Vite proxy or absolute base
-
-function Stat({ label, value }) {
-  return (
-    <div className="lc-stat pv-appear">
-      <div className="lc-stat-label">{label}</div>
-      <div className="lc-stat-value">{value ?? "—"}</div>
-    </div>
-  );
-}
-
-function ShimmerRow() {
-  return (
-    <div className="lc-row">
-      <div className="lc-avatar shimmer" />
-      <div className="lc-col">
-        <div className="shimmer line w-40" />
-        <div className="shimmer line w-24 m8" />
-      </div>
-      <div className="shimmer chip w-32" />
-    </div>
-  );
-}
+const API_BASE = import.meta.env.VITE_API_BASE || ""; // or use Vite proxy
 
 export default function LeetCodeWidget({ username = "Swadha_K" }) {
   const [data, setData] = useState(null);
-  const [err, setErr]   = useState("");
+  const [err, setErr] = useState("");
   const [loading, setLoading] = useState(true);
-
   const url = useMemo(
     () => `${API_BASE}/api/public/leetcode/profile?username=${encodeURIComponent(username)}`,
     [username]
@@ -50,6 +25,38 @@ export default function LeetCodeWidget({ username = "Swadha_K" }) {
     return () => { alive = false; };
   }, [url]);
 
+  const QList = ({ title, items }) => {
+    const [open, setOpen] = useState(false);
+    return (
+      <div className="lc-qblock pv-appear">
+        <button className="lc-qhdr" onClick={()=>setOpen(o=>!o)}>
+          <span>{title}</span>
+          <span className={`chev ${open ? 'open' : ''}`}>▾</span>
+        </button>
+        {open && (
+          <ul className="lc-qul">
+            {items?.slice(0, 200).map(q => (
+              <li key={q.slug} className="lc-qli">
+                <a href={`https://leetcode.com/problems/${q.slug}/`} target="_blank" rel="noreferrer">
+                  {q.title}
+                </a>
+                <span className={`tag ${q.difficulty?.toLowerCase()}`}>{q.difficulty}</span>
+              </li>
+            ))}
+            {(!items || items.length === 0) && <li className="lc-qli muted">None yet</li>}
+          </ul>
+        )}
+      </div>
+    );
+  };
+
+  const Stat = ({ label, value }) => (
+    <div className="lc-stat pv-appear">
+      <div className="lc-stat-label">{label}</div>
+      <div className="lc-stat-value">{value ?? "—"}</div>
+    </div>
+  );
+
   return (
     <div className="pv-card lc-card pv-fade-up">
       <div className="lc-head">
@@ -61,7 +68,14 @@ export default function LeetCodeWidget({ username = "Swadha_K" }) {
 
       {loading ? (
         <>
-          <ShimmerRow />
+          <div className="lc-row">
+            <div className="lc-avatar shimmer" />
+            <div className="lc-col">
+              <div className="shimmer line w-40" />
+              <div className="shimmer line w-24 m8" />
+            </div>
+            <div className="shimmer chip w-32" />
+          </div>
           <div className="lc-grid">
             {Array.from({ length: 4 }).map((_, i) => (
               <div key={i} className="lc-stat">
@@ -95,11 +109,9 @@ export default function LeetCodeWidget({ username = "Swadha_K" }) {
             <Stat label="Hard"   value={data.solved?.hard} />
           </div>
 
-          <div className="lc-actions">
-            <a className="pv-btn-ghost" href="https://leetcode.com/problemset/" target="_blank" rel="noreferrer">
-              Open LeetCode
-            </a>
-          </div>
+          <QList title={`Easy (${data.questions?.easy?.length || 0})`}   items={data.questions?.easy} />
+          <QList title={`Medium (${data.questions?.medium?.length || 0})`} items={data.questions?.medium} />
+          <QList title={`Hard (${data.questions?.hard?.length || 0})`}   items={data.questions?.hard} />
         </>
       )}
     </div>

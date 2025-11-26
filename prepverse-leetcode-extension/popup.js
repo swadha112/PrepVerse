@@ -180,12 +180,19 @@ async function sendToBackend() {
       setStatus('No cached result to send', 'error');
       return;
     }
-    const payload = JSON.parse(s[SKEY_LAST]);
+    const payload = JSON.parse(s[SKEY_LAST]);   // this is the full { ok, stats, backend? }
     const stats = payload?.stats;
     if (!stats?.username) {
       setStatus('Invalid cached payload', 'error');
       return;
     }
+
+    
+    console.log('[PV-Popup] posting to backend', backendUrl, {
+      e: stats.questions?.easy?.length,
+      m: stats.questions?.medium?.length,
+      h: stats.questions?.hard?.length,
+    });
 
     setStatus('Posting to backend…');
 
@@ -193,10 +200,11 @@ async function sendToBackend() {
       method: 'POST',
       headers: { 'content-type': 'application/json' },
       body: JSON.stringify({
-        source: 'leetcode',
+        source:   'leetcode',
         username: stats.username,
-        profile: stats.profile,
-        solved: stats.solved,
+        profile:  stats.profile,
+        solved:   stats.solved,
+        questions: stats.questions ?? { easy: [], medium: [], hard: [] }, 
         fetchedAt: Date.now()
       })
     });

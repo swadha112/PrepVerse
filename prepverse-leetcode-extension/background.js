@@ -1,119 +1,104 @@
-// background.js — MV3 service worker
-const LOG = (...a) => console.log('[PV-BG]', ...a);
-const ERR = (...a) => console.error('[PV-BG]', ...a);
+// background.js
+const BG = (...a) => console.log('[PV-BG]', ...a);
+const BGE = (...a) => console.error('[PV-BG]', ...a);
 
-// Open or find a leetcode.com tab and wait until it's complete
 async function findOrOpenLeetCodeTab() {
   const tabs = await chrome.tabs.query({ url: 'https://leetcode.com/*' });
   if (tabs.length) return tabs[0];
-
-  LOG('Opening LeetCode…');
   const tab = await chrome.tabs.create({ url: 'https://leetcode.com/problemset/' });
-  await new Promise((resolve) => {
-    const listener = (tabId, info) => {
-      if (tabId === tab.id && info.status === 'complete') {
-        chrome.tabs.onUpdated.removeListener(listener);
-        resolve();
-      }
-    };
-    chrome.tabs.onUpdated.addListener(listener);
+  await new Promise(r => {
+    const L = (id, info) => { if (id === tab.id && info.status === 'complete') { chrome.tabs.onUpdated.removeListener(L); r(); } };
+    chrome.tabs.onUpdated.addListener(L);
   });
   return tab;
 }
 
-// Try to send a message to the content script; if it isn't there,
-// inject content.js and retry once.
-async function sendToContentWithFallback(tabId, payload) {
-  // First attempt
-  try {
-    const resp = await chrome.tabs.sendMessage(tabId, payload);
-    return resp;
-  } catch (e) {
-    // MV3 throws if no receiver; message usually: "Could not establish connection. Receiving end does not exist."
-    const msg = (e && (e.message || String(e))) || '';
-    if (!/Receiving end does not exist/i.test(msg)) throw e; // real error, bubble up
-
-    LOG('No content script detected, injecting content.js and retrying…');
-    // Inject our declared content script as a fallback
-    await chrome.scripting.executeScript({
-      target: { tabId },
-      files: ['content.js']
-    });
-
-    // Small delay to let it boot
-    await new Promise(r => setTimeout(r, 150));
-
-    // Retry once
-    const resp2 = await chrome.tabs.sendMessage(tabId, payload);
-    return resp2;
+async function sendToContent(tabId, payload) {
+  try { return await chrome.tabs.sendMessage(tabId, payload); }
+  catch (e) {
+    if (!/Receiving end does not exist/i.test(e?.message || '')) throw e;
+    await chrome.scripting.executeScript({ target: { tabId }, files: ['content.js'] });
+    await new Promise(r => setTimeout(r, 120));
+    return await chrome.tabs.sendMessage(tabId, payload);
   }
 }
 
 async function fetchStatsViaContentScript(username) {
   const tab = await findOrOpenLeetCodeTab();
-  LOG('Requesting stats on tab', tab.id);
-
-  try {
-    const resp = await sendToContentWithFallback(tab.id, { type: 'PV_FETCH_STATS', username });
-    if (!resp) return { ok: false, error: 'No response from content script' };
-    return resp;
-  } catch (e) {
-    const msg = e?.message || String(e);
-    ERR('sendMessage failed:', msg);
-    return { ok: false, error: msg };
-  }
+  try { return await sendToContent(tab.id, { type: 'PV_FETCH_STATS', username }); }
+  catch (e) { return { ok:false, error: e?.message || String(e) }; }
 }
 
 async function postStatsToBackend(stats, backendUrl) {
   if (!backendUrl) return { ok: true, skipped: true };
-  try {
-    const res = await fetch(backendUrl, {
-      method: 'POST',
-      headers: { 'content-type': 'application/json' },
-      body: JSON.stringify({
-        source: 'leetcode',
-        username: stats.username,
-        profile: stats.profile,
-        solved: stats.solved,
-        fetchedAt: Date.now()
-      })
-    });
-    const text = await res.text().catch(() => '');
-    if (!res.ok) throw new Error(`${res.status} ${text || res.statusText}`);
-    LOG('Posted to backend:', backendUrl);
-    return { ok: true };
-  } catch (e) {
-    ERR('Backend POST failed:', e);
-    return { ok: false, error: e.message || String(e) };
-  }
+
+  const questions = stats?.questions && typeof stats.questions === 'object'
+    ? stats.questions
+    : { easy: [], medium: [], hard: [] };
+
+  BG('posting stats summary', {
+    e: questions.easy?.length, m: questions.medium?.length, h: questions.hard?.length
+  });
+
+  const payload = {
+    username:  stats?.username,
+    profile:   stats?.profile,
+    solved:    stats?.solved,
+    questions,                 // ← make sure this is present
+    fetchedAt: Date.now(),
+  };
+
+  const res = await fetch(backendUrl, {
+    method: 'POST',
+    headers: { 'content-type': 'application/json' },
+    body: JSON.stringify(payload),
+  });
+  const text = await res.text();
+  if (!res.ok) throw new Error(`${res.status} ${text || res.statusText}`);
+  return { ok: true };
 }
 
 chrome.runtime.onMessage.addListener((msg, _sender, sendResponse) => {
+  // 1) Full sync: fetch from LC, store, post
   if (msg?.type === 'PV_RUN_SYNC') {
     (async () => {
-      const { username, backendUrl } = msg;
-      const result = await fetchStatsViaContentScript(username);
-      if (!result?.ok) return sendResponse(result);
+      try {
+        const { username, backendUrl } = msg;
+        BG('PV_RUN_SYNC', { backendUrl });
 
-      const posted = await postStatsToBackend(result.stats, backendUrl);
-      await chrome.storage.local.set({
-        lastUiRefreshedAt: Date.now(),
-        lastStats: JSON.stringify(result)
-      });
+        const result = await fetchStatsViaContentScript(username);
+        if (!result?.ok) return sendResponse(result);
 
-      return sendResponse({ ok: true, stats: result.stats, backend: posted });
+        // store the full object (not just a string)
+        await chrome.storage.local.set({ lastStatsObj: result.stats, lastSyncedAt: Date.now() });
+
+        const posted = await postStatsToBackend(result.stats, backendUrl);
+        sendResponse({ ok:true, stats: result.stats, backend: posted });
+      } catch (e) {
+        BGE('PV_RUN_SYNC error', e);
+        sendResponse({ ok:false, error: e.message || String(e) });
+      }
     })();
-    return true; // keep the message channel open
+    return true;
   }
 
-  if (msg?.type === 'PV_OPEN_LEETCODE') {
+  // 2) Post again: read from storage, post the exact same stats
+  if (msg?.type === 'PV_SEND_LAST') {
     (async () => {
-      const tab = await findOrOpenLeetCodeTab();
-      try { await chrome.tabs.update(tab.id, { active: true }); } catch {}
-      sendResponse({ ok: true, tabId: tab.id });
+      try {
+        const { backendUrl } = msg;
+        const { lastStatsObj } = await chrome.storage.local.get(['lastStatsObj']);
+        if (!lastStatsObj) return sendResponse({ ok:false, error:'No cached stats. Run Sync first.' });
+
+        const posted = await postStatsToBackend(lastStatsObj, backendUrl);
+        sendResponse({ ok:true, backend: posted, stats: lastStatsObj });
+      } catch (e) {
+        BGE('PV_SEND_LAST error', e);
+        sendResponse({ ok:false, error: e.message || String(e) });
+      }
     })();
     return true;
   }
 });
 
-LOG('Background ready.');
+console.log('[PV-BG] Background ready.');

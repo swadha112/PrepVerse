@@ -1,114 +1,152 @@
-// content.js — runs on https://leetcode.com/*
-// Fetches stats via GraphQL using page cookies (credentials: 'include').
+// content.js — PrepVerse x LeetCode (stable version)
+// Profile via GraphQL (matchedUser). Solved lists via REST /api/problems/all/.
+// No GraphQL filters used.
 
-(function () {
-  const LOG = (...a) => console.log('[PV-CS]', ...a);
-  const ERR = (...a) => console.error('[PV-CS]', ...a);
-  const WARN = (...a) => console.warn('[PV-CS]', ...a);
+const CS_LOG = (...a) => console.log('[PV-CS]', ...a);
+CS_LOG('Content script ready.');
 
-  function readCookie(name) {
-    const m = document.cookie.match(new RegExp('(^|; )' + name + '=([^;]+)'));
-    return m ? decodeURIComponent(m[2]) : null;
-  }
+// ---------- GraphQL helper ----------
+async function lcGraphQL(query, variables = {}) {
+  const r = await fetch('https://leetcode.com/graphql', {
+    method: 'POST',
+    headers: { 'content-type': 'application/json' },
+    body: JSON.stringify({ query, variables }),
+    credentials: 'include'
+  });
+  const t = await r.text();
+  if (!r.ok) throw new Error(t || r.statusText);
+  const j = JSON.parse(t);
+  if (j.errors) throw new Error(j.errors.map(e => e.message).join('; '));
+  return j.data;
+}
 
-  function detectUsernameFromDom() {
-    const anchors = Array.from(document.querySelectorAll('a[href^="/u/"]'));
-    for (const a of anchors) {
-      const parts = (a.getAttribute('href') || '').split('/').filter(Boolean);
-      if (parts[0] === 'u' && parts[1]) {
-        LOG('Username via /u/:', parts[1]);
-        return parts[1];
-      }
-    }
-    const og = document.querySelector('meta[property="og:url"]')?.getAttribute('content') || '';
-    if (og.includes('/u/')) {
-      const parts = og.split('/').filter(Boolean);
-      const idx = parts.indexOf('u');
-      if (idx >= 0 && parts[idx + 1]) {
-        LOG('Username via og:url:', parts[idx + 1]);
-        return parts[idx + 1];
-      }
-    }
-    WARN('Username not found in DOM.');
-    return null;
-  }
+// ---------- Current username ----------
+async function getCurrentUsername() {
+  const q = `query { userStatus { username } }`;
+  const d = await lcGraphQL(q, {});
+  const u = d?.userStatus?.username || null;
+  if (!u) throw new Error('Not logged in on leetcode.com');
+  return u;
+}
 
-  async function gql(query, variables = {}) {
-    const csrf = readCookie('csrftoken');
-    const headers = { 'content-type': 'application/json' };
-    if (csrf) headers['x-csrftoken'] = csrf;
-
-    const res = await fetch('/graphql', {
-      method: 'POST',
-      credentials: 'include',
-      headers,
-      body: JSON.stringify({ query, variables })
-    });
-
-    const text = await res.text();
-    let json;
-    try { json = JSON.parse(text); } catch {
-      ERR('GraphQL non-JSON response:', text);
-      throw new Error(`GraphQL parse error (${res.status})`);
-    }
-    if (!res.ok || json.errors) {
-      ERR('GraphQL error:', res.status, json.errors || text);
-      throw new Error(json?.errors?.[0]?.message || `GraphQL ${res.status}`);
-    }
-    return json.data;
-  }
-
-  async function fetchStats(username) {
-    const user = username || detectUsernameFromDom();
-    if (!user) {
-      return { ok: false, needsProfileVisit: true, error: 'Username not found. Visit your LC profile once.' };
-    }
-
-    const query = `
-      query userProfile($username: String!) {
-        matchedUser(username: $username) {
-          username
-          profile { userAvatar realName ranking reputation }
-          submitStats {
-            acSubmissionNum { difficulty count submissions }
+// ---------- Profile + AC counts via matchedUser ----------
+async function fetchProfileAndCounts() {
+  const username = await getCurrentUsername();
+  const q = `
+    query getUser($username: String!) {
+      matchedUser(username: $username) {
+        username
+        profile {
+          realName
+          userAvatar
+          ranking
+          reputation
+        }
+        submitStats {
+          acSubmissionNum {
+            difficulty   # "ALL" | "EASY" | "MEDIUM" | "HARD"
+            count
           }
         }
       }
-    `;
-    const data = await gql(query, { username: user });
-    const m = data?.matchedUser;
-    if (!m) throw new Error('matchedUser not found');
+    }
+  `;
+  const d = await lcGraphQL(q, { username });
+  const u = d?.matchedUser;
+  if (!u) throw new Error('User not found');
 
-    const stats = {
-      username: m.username,
-      profile: m.profile,
-      solved: (m.submitStats?.acSubmissionNum || []).reduce((acc, x) => {
-        if (x.difficulty === 'All') acc.total = x.count;
-        if (x.difficulty === 'Easy') acc.easy = x.count;
-        if (x.difficulty === 'Medium') acc.medium = x.count;
-        if (x.difficulty === 'Hard') acc.hard = x.count;
-        return acc;
-      }, { total: 0, easy: 0, medium: 0, hard: 0 })
-    };
+  const byDiff = Object.fromEntries(
+    (u.submitStats?.acSubmissionNum || []).map(x => [x.difficulty, x.count])
+  );
 
-    LOG('Fetched stats:', stats);
-    return { ok: true, stats };
+  return {
+    username,
+    profile: {
+      userAvatar: u.profile?.userAvatar || '',
+      realName:   u.profile?.realName   || '',
+      ranking:    u.profile?.ranking ?? null,
+      reputation: u.profile?.reputation ?? 0
+    },
+    solved: {
+      total:  byDiff.ALL    ?? 0,
+      easy:   byDiff.EASY   ?? 0,
+      medium: byDiff.MEDIUM ?? 0,
+      hard:   byDiff.HARD   ?? 0
+    }
+  };
+}
+
+// ---------- REST: solved lists (robust) ----------
+async function fetchSolvedFromRest() {
+  const r = await fetch('https://leetcode.com/api/problems/all/', {
+    credentials: 'include',
+    headers: { 'accept': 'application/json' }
+  });
+  const t = await r.text();
+  if (!r.ok) throw new Error(t || r.statusText);
+  const j = JSON.parse(t);
+
+  const easy = [];
+  const medium = [];
+  const hard = [];
+
+  for (const p of j.stat_status_pairs || []) {
+    if (p.status === 'ac') {
+      const diff =
+        p.difficulty?.level === 1 ? 'EASY' :
+        p.difficulty?.level === 2 ? 'MEDIUM' :
+        p.difficulty?.level === 3 ? 'HARD' : 'UNKNOWN';
+
+      const item = {
+        title: p.stat?.question__title || '',
+        slug:  p.stat?.question__title_slug || '',
+        difficulty: diff,
+        paidOnly: !!p.paid_only,
+        acRate: undefined,
+        tags: []
+      };
+
+      if (diff === 'EASY')   easy.push(item);
+      if (diff === 'MEDIUM') medium.push(item);
+      if (diff === 'HARD')   hard.push(item);
+    }
   }
 
-  chrome.runtime.onMessage.addListener((msg, _sender, sendResponse) => {
-    if (msg?.type === 'PV_FETCH_STATS') {
-      (async () => {
-        try {
-          const result = await fetchStats(msg.username);
-          sendResponse(result);
-        } catch (e) {
-          ERR('PV_FETCH_STATS failed:', e);
-          sendResponse({ ok: false, error: e.message || String(e) });
-        }
-      })();
-      return true;
-    }
-  });
+  return { easy, medium, hard, total: easy.length + medium.length + hard.length };
+}
 
-  LOG('Content script ready.');
-})();
+// ---------- Message handler ----------
+chrome.runtime.onMessage.addListener((msg, _sender, sendResponse) => {
+  if (msg?.type === 'PV_FETCH_STATS') {
+    (async () => {
+      try {
+        const base = await fetchProfileAndCounts();
+        const lists = await fetchSolvedFromRest();
+
+        // trust REST for counts
+        base.solved.easy   = lists.easy.length;
+        base.solved.medium = lists.medium.length;
+        base.solved.hard   = lists.hard.length;
+        base.solved.total  = lists.total;
+
+        sendResponse({
+          ok: true,
+          stats: {
+            username: base.username,
+            profile:  base.profile,
+            solved:   base.solved,
+            questions: {
+              easy:   lists.easy,
+              medium: lists.medium,
+              hard:   lists.hard
+            }
+          }
+        });
+      } catch (e) {
+        console.error('[PV-CS] Fetch error:', e);
+        sendResponse({ ok:false, error: e.message || String(e) });
+      }
+    })();
+    return true; // async
+  }
+});
