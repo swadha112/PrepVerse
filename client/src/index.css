@@ -21,10 +21,10 @@
   --pv-shadow: 0 10px 20px -5px rgba(0,0,0,.08), 0 4px 6px -2px rgba(0,0,0,.03);
 
   /* ===== Royal Blue Extensions ===== */
-  --pv-royal-900: #1e3a8a;    /* darkest royal blue */
-  --pv-royal-800: #1e40af;    /* dark royal blue */
-  --pv-royal-600: #2563eb;    /* medium royal blue */
-  --pv-royal-500: #3b82f6;    /* bright royal blue */
+  --pv-royal-900: #020a1f;    /* darkest royal blue */
+  --pv-royal-800: #1d3377;    /* dark royal blue */
+  --pv-royal-600: #173370;    /* medium royal blue */
+  --pv-royal-500: #163971;    /* bright royal blue */
   --pv-royal-100: #dbeafe;    /* light royal blue */
   --pv-royal-50: #eff6ff;     /* lightest royal blue */
 

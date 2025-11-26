@@ -1,99 +1,56 @@
-/* Fixed layout - clean grid, no overlap */
+/* TracksPage.css — tokenized + theme-aware */
+
 .duo-tracks-root {
   min-height: 100vh;
-  background: linear-gradient(180deg, #1e3a8a 0%, #2563eb 100%);
+  /* Let global gradient from index.css show through */
+  background: transparent;
   padding-bottom: 80px;
 }
 
-.duo-tracks-container {
-  max-width: 1400px;
-  margin: 0 auto;
-  padding: 20px;
-}
+.duo-tracks-container { max-width: 1400px; margin: 0 auto; padding: 20px; }
+.duo-tracks-content   { display: flex; flex-direction: column; gap: 24px; }
 
-.duo-tracks-content {
-  display: flex;
-  flex-direction: column;
-  gap: 24px;
-}
-
-/* Header - fixed at top */
+/* Header card */
 .duo-tracks-header {
-  background: white;
+  background: var(--pv-card);
+  color: var(--pv-body);
   border-radius: 24px;
   padding: 28px 32px;
-  box-shadow: 0 6px 20px rgba(0,0,0,0.12);
+  border: 1px solid var(--pv-border);
+  box-shadow: var(--pv-shadow);
   animation: slideDown 0.5s ease;
   position: relative;
   z-index: 50;
 }
 
-.duo-header-top {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 20px;
-  gap: 24px;
-}
-
-.duo-header-left {
-  flex: 1;
-}
+.duo-header-top { display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px; gap: 24px; }
+.duo-header-left { flex: 1; }
 
 .duo-tracks-title {
-  font-size: 32px;
-  font-weight: 800;
-  color: #3c3c3c;
-  margin: 0 0 6px 0;
+  font-size: 32px; font-weight: 800; color: var(--pv-ink); margin: 0 0 6px 0;
 }
-
 .duo-tracks-subtitle {
-  font-size: 15px;
-  color: #777;
-  margin: 0;
-  font-weight: 600;
+  font-size: 15px; color: var(--pv-muted); margin: 0; font-weight: 600;
 }
 
-.duo-header-right {
-  display: flex;
-  gap: 16px;
-}
-
+.duo-header-right { display: flex; gap: 16px; }
 .duo-stat-card {
-  background: linear-gradient(135deg, #3b82f6 0%, #2563eb 100%);
-  color: white;
+  background: var(--pv-gradient-royal-light);
+  color: #fff;
   padding: 16px 24px;
   border-radius: 16px;
   text-align: center;
-  box-shadow: 0 4px 12px rgba(59,130,246,0.3);
+  box-shadow: var(--pv-shadow-royal);
   min-width: 100px;
 }
+.duo-stat-label { font-size: 12px; font-weight: 700; text-transform: uppercase; opacity: 0.9; margin-bottom: 4px; }
+.duo-stat-value { font-size: 28px; font-weight: 800; line-height: 1; }
 
-.duo-stat-label {
-  font-size: 12px;
-  font-weight: 700;
-  text-transform: uppercase;
-  opacity: 0.9;
-  margin-bottom: 4px;
-}
-
-.duo-stat-value {
-  font-size: 28px;
-  font-weight: 800;
-  line-height: 1;
-}
-
-.duo-header-progress {
-  position: relative;
-}
-
+/* Header progress */
+.duo-header-progress { position: relative; }
 .duo-header-progress-bar {
-  height: 14px;
-  background: #e5e5e5;
-  border-radius: 14px;
-  overflow: hidden;
+  height: 14px; background: #e5e7eb; border-radius: 14px; overflow: hidden;
 }
-
 .duo-header-progress-fill {
   height: 100%;
   background: linear-gradient(90deg, #3b82f6 0%, #60a5fa 100%);
@@ -104,195 +61,93 @@
 
 /* Canvas card */
 .duo-tracks-card {
-  background: rgba(255,255,255,0.05);
+  background: rgba(255,255,255,0.55);
+  border: 1px solid var(--pv-glass-border);
   border-radius: 24px;
   padding: 24px;
   backdrop-filter: blur(10px);
 }
 
-.duo-tracks-canvas-wrapper {
-  position: relative;
-}
+/* Canvas & decorative path */
+.duo-tracks-canvas-wrapper { position: relative; }
+.duo-tracks-canvas { position: relative; width: 100%; min-height: 600px; }
+.duo-tracks-svg { position: absolute; top: 0; left: 0; pointer-events: none; z-index: 1; }
+.duo-animated-path { animation: dash 25s linear infinite; }
+@keyframes dash { to { stroke-dashoffset: -200; } }
 
-.duo-tracks-canvas {
-  position: relative;
-  width: 100%;
-  min-height: 600px;
-}
-
-.duo-tracks-svg {
-  position: absolute;
-  top: 0;
-  left: 0;
-  pointer-events: none;
-  z-index: 1;
-}
-
-/* Track nodes - fixed positioning */
+/* Track nodes */
 .duo-track-node {
-  position: absolute;
-  width: 80px;
-  height: 80px;
-  cursor: pointer;
-  transition: transform 0.3s, z-index 0s;
-  animation: fadeInNode 0.6s ease backwards;
+  position: absolute; width: 80px; height: 80px; cursor: pointer;
+  transition: transform 0.3s, z-index 0s; animation: fadeInNode 0.6s ease backwards;
   z-index: 10;
 }
-
-.duo-track-node:hover {
-  transform: scale(1.2);
-  z-index: 20;
-}
-
-.duo-track-node.active {
-  z-index: 30;
-}
+.duo-track-node:hover { transform: scale(1.2); z-index: 20; }
+.duo-track-node.active { z-index: 30; }
 
 .duo-node-circle {
-  width: 80px;
-  height: 80px;
-  background: linear-gradient(135deg, #94a3b8 0%, #64748b 100%);
+  width: 80px; height: 80px;
+  background: linear-gradient(135deg, #94a3b8 0%, #64748b 100%); /* slate gradient for idle */
   border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  display: flex; align-items: center; justify-content: center;
   box-shadow: 0 6px 16px rgba(0,0,0,0.2);
-  border: 5px solid white;
+  border: 5px solid #fff;
   transition: all 0.3s;
 }
 
 .duo-track-node.started .duo-node-circle {
-  background: linear-gradient(135deg, #60a5fa 0%, #3b82f6 100%);
-  box-shadow: 0 6px 18px rgba(59,130,246,0.4);
+  background: var(--pv-gradient-royal-light);
+  box-shadow: var(--pv-shadow-royal-lg);
 }
-
 .duo-track-node.completed .duo-node-circle {
   background: linear-gradient(135deg, #34d399 0%, #10b981 100%);
   box-shadow: 0 6px 18px rgba(16,185,129,0.5);
   animation: pulse 2s ease infinite;
 }
 
-.duo-node-icon {
-  font-size: 32px;
-  filter: drop-shadow(0 2px 4px rgba(0,0,0,0.2));
-}
-
+.duo-node-icon { font-size: 32px; filter: drop-shadow(0 2px 4px rgba(0,0,0,0.2)); }
 .duo-node-label {
-  position: absolute;
-  top: 92px;
-  left: 50%;
-  transform: translateX(-50%);
-  font-size: 11px;
-  font-weight: 700;
-  color: white;
-  text-align: center;
-  white-space: nowrap;
-  max-width: 130px;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  text-shadow: 0 2px 6px rgba(0,0,0,0.4);
-  padding: 0 4px;
+  position: absolute; top: 92px; left: 50%; transform: translateX(-50%);
+  font-size: 11px; font-weight: 700; color: #fff; text-align: center;
+  white-space: nowrap; max-width: 130px; overflow: hidden; text-overflow: ellipsis;
+  text-shadow: 0 2px 6px rgba(0,0,0,0.4); padding: 0 4px;
 }
 
-/* Animated path */
-.duo-animated-path {
-  animation: dash 25s linear infinite;
-}
-
-@keyframes dash {
-  to { stroke-dashoffset: -200; }
-}
-
-/* Drawer - fixed above nodes */
-.duo-track-drawer {
-  position: absolute;
-  z-index: 100;
-  animation: scaleIn 0.3s ease;
-}
-
+/* Drawer */
+.duo-track-drawer { position: absolute; z-index: 100; animation: scaleIn 0.3s ease; }
 .duo-drawer-card {
-  background: white;
+  background: var(--pv-card);
+  color: var(--pv-body);
   border-radius: 20px;
   width: 400px;
+  border: 1px solid var(--pv-border);
   box-shadow: 0 12px 40px rgba(0,0,0,0.25);
   overflow: hidden;
 }
-
 .duo-drawer-header {
-  background: linear-gradient(135deg, #3b82f6 0%, #2563eb 100%);
-  color: white;
+  background: var(--pv-gradient-royal-light);
+  color: #fff;
   padding: 18px 24px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  display: flex; justify-content: space-between; align-items: center;
 }
-
-.duo-drawer-title {
-  font-size: 18px;
-  font-weight: 800;
-  margin: 0;
-}
-
+.duo-drawer-title { font-size: 18px; font-weight: 800; margin: 0; }
 .duo-drawer-close {
   background: rgba(255,255,255,0.2);
-  border: none;
-  color: white;
-  width: 32px;
-  height: 32px;
-  border-radius: 50%;
-  font-size: 16px;
-  cursor: pointer;
-  transition: all 0.2s;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  border: none; color: white; width: 32px; height: 32px; border-radius: 50%;
+  font-size: 16px; cursor: pointer; transition: var(--pv-transition);
+  display: flex; align-items: center; justify-content: center;
 }
+.duo-drawer-close:hover { background: rgba(255,255,255,0.3); transform: rotate(90deg); }
 
-.duo-drawer-close:hover {
-  background: rgba(255,255,255,0.3);
-  transform: rotate(90deg);
-}
-
-.duo-drawer-content {
-  padding: 20px;
-}
+.duo-drawer-content { padding: 20px; }
 
 /* Tier rows */
-.duo-tiers-list {
-  display: flex;
-  flex-direction: column;
-  gap: 14px;
-}
+.duo-tiers-list { display: flex; flex-direction: column; gap: 14px; }
+.duo-tier-row { display: flex; justify-content: space-between; align-items: center; gap: 16px; }
+.duo-tier-left { flex: 1; }
+.duo-tier-label { font-size: 13px; font-weight: 700; margin-bottom: 6px; color: var(--pv-ink); }
+.duo-tier-label.locked { color: var(--pv-muted); }
 
-.duo-tier-row {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: 16px;
-}
-
-.duo-tier-left {
-  flex: 1;
-}
-
-.duo-tier-label {
-  font-size: 13px;
-  font-weight: 700;
-  margin-bottom: 6px;
-  color: #3c3c3c;
-}
-
-.duo-tier-label.locked {
-  color: #999;
-}
-
-.duo-tier-progress-bar {
-  height: 7px;
-  background: #e5e5e5;
-  border-radius: 7px;
-  overflow: hidden;
-}
-
+.duo-tier-progress-bar { height: 7px; background: #e5e7eb; border-radius: 7px; overflow: hidden; }
 .duo-tier-progress-fill {
   height: 100%;
   background: linear-gradient(90deg, #3b82f6 0%, #60a5fa 100%);
@@ -300,128 +155,39 @@
   transition: width 0.4s ease;
 }
 
-.duo-tier-right {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-}
-
-.duo-tier-percentage {
-  font-size: 13px;
-  font-weight: 700;
-  color: #777;
-  min-width: 38px;
-  text-align: right;
-}
-
+.duo-tier-right { display: flex; align-items: center; gap: 10px; }
+.duo-tier-percentage { font-size: 13px; font-weight: 700; color: var(--pv-muted); min-width: 38px; text-align: right; }
 .duo-tier-btn {
-  background: linear-gradient(180deg, #3b82f6 0%, #2563eb 100%);
-  color: white;
-  border: none;
-  padding: 9px 18px;
-  border-radius: 12px;
-  font-weight: 700;
-  font-size: 13px;
-  cursor: pointer;
-  box-shadow: 0 3px 0 #1d4ed8;
-  transition: all 0.2s;
-  white-space: nowrap;
+  background: var(--pv-gradient-royal-light);
+  color: #fff; border: none; padding: 9px 18px; border-radius: 12px;
+  font-weight: 700; font-size: 13px; cursor: pointer; box-shadow: var(--pv-shadow-royal);
+  transition: var(--pv-transition); white-space: nowrap;
 }
+.duo-tier-btn:hover { transform: translateY(-2px); box-shadow: var(--pv-shadow-royal-lg); }
 
-.duo-tier-btn:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 5px 0 #1d4ed8;
-}
-
-.duo-tier-btn:active {
-  transform: translateY(1px);
-  box-shadow: 0 2px 0 #1d4ed8;
-}
-
-.duo-locked-pill {
-  font-size: 16px;
-  opacity: 0.5;
-}
+.duo-locked-pill { font-size: 16px; opacity: 0.5; }
 
 /* Animations */
-@keyframes slideDown {
-  from {
-    opacity: 0;
-    transform: translateY(-30px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
-@keyframes fadeInNode {
-  from { opacity: 0; transform: scale(0.8); }
-  to { opacity: 1; transform: scale(1); }
-}
-
-@keyframes scaleIn {
-  from {
-    opacity: 0;
-    transform: scale(0.92);
-  }
-  to {
-    opacity: 1;
-    transform: scale(1);
-  }
-}
-
-@keyframes pulse {
-  0%, 100% { box-shadow: 0 6px 18px rgba(16,185,129,0.5); }
-  50% { box-shadow: 0 6px 24px rgba(16,185,129,0.7); }
-}
+@keyframes slideDown { from { opacity: 0; transform: translateY(-30px); } to { opacity: 1; transform: translateY(0); } }
+@keyframes fadeInNode { from { opacity: 0; transform: scale(0.8); } to { opacity: 1; transform: scale(1); } }
+@keyframes scaleIn   { from { opacity: 0; transform: scale(0.92); } to { opacity: 1; transform: scale(1); } }
+@keyframes pulse     { 0%, 100% { box-shadow: 0 6px 18px rgba(16,185,129,0.5); } 50% { box-shadow: 0 6px 24px rgba(16,185,129,0.7); } }
 
 /* Responsive */
-@media (max-width: 1200px) {
-  .duo-tracks-canvas {
-    min-height: 800px;
-  }
+@media (max-width: 1200px) { .duo-tracks-canvas { min-height: 800px; } }
+@media (max-width: 768px) {
+  .duo-tracks-container { padding: 12px; }
+  .duo-tracks-header { padding: 20px; }
+  .duo-tracks-title { font-size: 24px; }
+  .duo-header-top { flex-direction: column; align-items: flex-start; }
+  .duo-drawer-card { width: 320px; }
+  .duo-node-circle { width: 64px; height: 64px; border-width: 4px; }
+  .duo-track-node  { width: 64px; height: 64px; }
+  .duo-node-icon   { font-size: 26px; }
+  .duo-node-label  { font-size: 10px; top: 74px; }
 }
 
-@media (max-width: 768px) {
-  .duo-tracks-container {
-    padding: 12px;
-  }
-  
-  .duo-tracks-header {
-    padding: 20px;
-  }
-  
-  .duo-tracks-title {
-    font-size: 24px;
-  }
-  
-  .duo-header-top {
-    flex-direction: column;
-    align-items: flex-start;
-  }
-  
-  .duo-drawer-card {
-    width: 320px;
-  }
-  
-  .duo-node-circle {
-    width: 64px;
-    height: 64px;
-    border-width: 4px;
-  }
-  
-  .duo-track-node {
-    width: 64px;
-    height: 64px;
-  }
-  
-  .duo-node-icon {
-    font-size: 26px;
-  }
-  
-  .duo-node-label {
-    font-size: 10px;
-    top: 74px;
-  }
+/* Dark scheme tweaks */
+@media (prefers-color-scheme: dark) {
+  .duo-tracks-card { background: rgba(255,255,255,0.07); }
 }
