@@ -143,7 +143,7 @@ export default function ShareExperienceForm({
                 <input
                   className="pv-field"
                   placeholder="e.g. Tejaswini Shet"
-                  {...register("author")}
+                  {...register("author", { required: true })}
                 />
               </div>
 
