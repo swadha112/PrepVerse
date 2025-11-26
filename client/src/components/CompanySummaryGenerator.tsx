@@ -102,7 +102,8 @@ export default function CompanySummaryGenerator({
   company: string;
   posts: Post[];
 }) {
-  const envKey = (import.meta as any).env?.VITE_OPENAI_API_KEY ?? "";
+  // 🔹 updated env variable name here
+  const envKey = (import.meta as any).env?.VITE_OPENAI_API_KEY1 ?? "";
   const [apiKey, setApiKey] = useState<string>(
     () => envKey || sessionStorage.getItem("OPENAI_KEY") || ""
   );
@@ -128,7 +129,7 @@ export default function CompanySummaryGenerator({
 
     if (!keyToUse) {
       setError(
-        "OpenAI API key required. Add VITE_OPENAI_API_KEY to your .env or paste a key into the input."
+        "OpenAI API key required. Add VITE_OPENAI_API_KEY1 to your .env or paste a key into the input."
       );
       return;
     }
@@ -185,7 +186,7 @@ export default function CompanySummaryGenerator({
         err?.toString?.().includes("invalid_api_key")
       ) {
         setError(
-          "OpenAI rejected the key. Please check your API key (or update VITE_OPENAI_API_KEY in .env)."
+          "OpenAI rejected the key. Please check your API key (or update VITE_OPENAI_API_KEY1 in .env)."
         );
       } else {
         setError(err?.message ?? "Unknown error");
@@ -243,7 +244,7 @@ export default function CompanySummaryGenerator({
               title={
                 envKey
                   ? "Using OPENAI key from .env"
-                  : "Provide API key or set VITE_OPENAI_API_KEY"
+                  : "Provide API key or set VITE_OPENAI_API_KEY1"
               }
               style={{ minWidth: 160 }}
             >
