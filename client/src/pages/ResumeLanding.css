@@ -1,0 +1,178 @@
+.resume-page {
+    min-height: 100vh;
+    display: flex;
+    align-items: flex-start;        /* so header doesn’t over-center */
+    justify-content: center;
+    padding: 48px 16px;             /* more breathing room around card */
+  }
+  
+  .resume-card {
+    max-width: 900px;               /* wider card */
+    width: 100%;
+    padding: 28px 32px 24px;        /* inner padding similar to screenshot */
+  }
+  
+  /* Header */
+  .resume-header {
+    margin-bottom: 20px;
+  }
+  
+  .resume-pill {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 4px 10px;
+    border-radius: 999px;
+    font-size: 11px;
+    font-weight: 600;
+    background: rgba(34, 197, 94, 0.08);
+    color: var(--pv-success);
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    margin-bottom: 10px;
+  }
+  
+  .resume-title {
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 1.15;
+    margin: 0 0 6px 0;
+    color: var(--pv-ink);
+  }
+  
+  .resume-subtitle {
+    margin: 0 0 12px 0;
+    color: var(--pv-muted);
+    font-size: 14px;
+  }
+  
+  /* Form */
+  .resume-form {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;                      /* slightly tighter vertical rhythm */
+  }
+  
+  .resume-field-group {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+  }
+  
+  .resume-label {
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--pv-ink);
+  }
+  
+  .resume-label-secondary {
+    font-size: 12px;
+    color: var(--pv-muted);
+  }
+  
+  .resume-textarea {
+    min-height: 80px;
+    resize: vertical;
+  }
+  
+  .resume-field-inline {
+    display: flex;
+    gap: 16px;
+  }
+  
+  .resume-field-inline-item {
+    flex: 1;
+  }
+  
+  /* Upload */
+  .resume-upload {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  
+  .resume-upload-inner {
+    position: relative;
+    border: 1.5px dashed rgba(148, 163, 184, 0.9);
+    border-radius: 16px;
+    padding: 18px 16px;
+    background: rgba(239, 246, 255, 0.7);
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    cursor: pointer;
+    transition: var(--pv-transition);
+  }
+  
+  .resume-upload-inner:hover {
+    border-color: var(--pv-info);
+    background: rgba(219, 234, 254, 0.9);
+  }
+  
+  .resume-upload-icon {
+    font-size: 26px;
+  }
+  
+  .resume-upload-text {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .resume-upload-title {
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--pv-ink);
+  }
+  
+  .resume-upload-sub {
+    font-size: 12px;
+    color: var(--pv-muted);
+  }
+  
+  .resume-upload-input {
+    position: absolute;
+    inset: 0;
+    opacity: 0;
+    cursor: pointer;
+  }
+  
+  .resume-file-preview {
+    font-size: 13px;
+    color: var(--pv-body);
+  }
+  
+  /* Submit */
+  .resume-submit-btn {
+    width: 100%;
+    margin-top: 6px;
+    font-size: 16px;
+  }
+  
+  /* Mobile */
+  @media (max-width: 640px) {
+    .resume-card {
+      max-width: 100%;
+      padding: 20px 16px 18px;
+    }
+  
+    .resume-title {
+      font-size: 24px;
+    }
+  
+    .resume-page {
+      padding: 24px 12px;
+    }
+  }
+/* Make sure job role field is full-width and block so dropdown sits below */
+.resume-jobrole-input {
+    width: 100%;
+    display: block;
+  }
+  
+  /* Ensure the group doesn’t try to align children horizontally */
+  .resume-field-group {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+  }
+    

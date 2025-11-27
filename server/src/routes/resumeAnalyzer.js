@@ -1,51 +1,60 @@
 import express from 'express';
-import multer from 'multer';
-import { admin } from '../firebaseAdmin.js';
+import { spawn } from 'child_process';
+import path from 'path';
+import { fileURLToPath } from 'url';
 
-const db = admin.firestore();
-const upload = multer({ storage: multer.memoryStorage() });
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 
 const router = express.Router();
 
-// POST /api/resumeAnalyzer/analyze
-router.post('/analyze', upload.single('resumeFile'), async (req, res) => {
-  try {
-    const { candidateName, jobRole, jobDesc, yearsExp } = req.body;
-    const file = req.file;
-    if (!file) {
-      return res.status(400).json({ error: 'Resume file missing' });
+router.post('/analyze', async (req, res) => {
+  const { candidateName, jobRole, jobDesc, yearsExp, resumeText } = req.body;
+
+  // Correct path to Python script (absolute path)
+  const scriptPath = path.join(__dirname, '../utils/resume_analyzer_api.py');
+
+  // Get Python interpreter path from environment or fallback to 'python'
+  const pythonPath = process.env.PYTHON_PATH || 'python';
+
+  // Spawn Python process using configurable interpreter
+  const py = spawn(pythonPath, [scriptPath]);
+
+  let output = '';
+  let errorOutput = '';
+
+  py.stdin.write(JSON.stringify({ resumeText, jobDesc, jobRole, yearsExp }));
+  py.stdin.end();
+
+  py.stdout.on('data', data => { output += data.toString(); });
+  py.stderr.on('data', data => { errorOutput += data.toString(); });
+
+  py.stdout.on('end', () => {
+    // Debug logs for troubleshooting
+    console.log("RAW Python output:", output);
+    console.log("RAW error output:", errorOutput);
+
+    // Only treat as error if stderr contains critical error keywords
+    const isCriticalError = /Traceback|Exception|Error/i.test(errorOutput);
+
+    if (isCriticalError && errorOutput.trim() !== '') {
+      console.error('Python error:', errorOutput);
+      return res.status(500).json({ error: 'Python script failed', details: errorOutput });
     }
 
-    // Dummy/static analysis for MVP
-    const analysis = {
-      atsScore: 88,
-      issues: 25,
-      breakdown: {
-        toneAndStyle: 55,
-        content: 25,
-        structure: 70,
-        skills: 32,
-      },
-      skillsMatched: ['Python', 'React', 'APIs'],
-      skillsMissing: ['Docker', 'CI/CD', 'AWS'],
-    };
+    try {
+      const analysis = JSON.parse(output);
+      res.json(analysis);
+    } catch (err) {
+      console.error('JSON parse error:', err.message, output);
+      res.status(500).json({ error: 'Analysis failed (bad JSON)', details: err.message });
+    }
+  });
 
-    // Save to Firestore (optional for your demo)
-    await db.collection('resumeAnalyses').add({
-      candidateName,
-      jobRole,
-      jobDesc,
-      yearsExp,
-      analysis,
-      createdAt: new Date(),
-    });
-
-    // Send analysis JSON to frontend
-    res.json(analysis);
-  } catch (err) {
-    console.error(err);
-    res.status(500).json({ error: 'Internal server error' });
-  }
+  py.on('error', err => {
+    console.error('Failed to spawn Python process:', err.message);
+    res.status(500).json({ error: 'Failed to start analysis', details: err.message });
+  });
 });
 
 export default router;
