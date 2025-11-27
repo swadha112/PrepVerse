@@ -1,10 +1,11 @@
 import React, { useEffect, useMemo, useState } from "react";
+import { useNavigate } from "react-router-dom";
 import { useAuth } from "../auth/AuthContext";
 import "./Dashboard.css";
 import LeetCodeWidget from "../components/LeetCodeWidget";
-
+import DifficultyDonut from "../components/DifficultyDonut";
 /* ---------- API base ---------- */
-const API_BASE = (import.meta.env.VITE_API_BASE || "/api").replace(/\/+$/, "");
+const API_BASE = (import.meta.env.VITE_API_BASE || "").replace(/\/+$/, "");
 
 /* ---------- tiny fetch helper ---------- */
 async function fetchJSON(url) {
@@ -17,18 +18,16 @@ async function fetchJSON(url) {
 /* ---------- Dashboard ---------- */
 export default function Dashboard() {
   const { user } = useAuth();
+  const navigate = useNavigate();
 
-  /* Try to avoid hardcoding LC username:
-     - extension can set localStorage.setItem('pv.lcUsername', '<name>')
-     - or set VITE_LC_USERNAME in your .env
-  */
-     const lcUsername = useMemo(() => {
-      return (
-        localStorage.getItem("pv.lcUsername") ||
-        import.meta.env.VITE_LC_USERNAME ||
-        "Swadha_K" // <-- final fallback so widget always gets a valid name
-      );
-    }, []);
+  /* Try to avoid hardcoding LC username */
+  const lcUsername = useMemo(() => {
+    return (
+      localStorage.getItem("pv.lcUsername") ||
+      import.meta.env.VITE_LC_USERNAME ||
+      "Swadha_K"
+    );
+  }, []);
 
   /* -------------------- DAILY (dynamic) -------------------- */
   const [daily, setDaily] = useState(null);
@@ -59,9 +58,97 @@ export default function Dashboard() {
   /* -------------------- STREAK (dynamic) -------------------- */
   const [streak, setStreak] = useState({ current: 0, best: null, last: null });
   const [streakLoading, setStreakLoading] = useState(!!lcUsername);
+  
+
+  /* -------------------- SOLVED SUMMARY (for donut) -------------------- */
+  const [summary, setSummary] = useState(null);
+  const [summaryError, setSummaryError] = useState("");
+
+  /* -------------------- LEADERBOARD (dynamic) -------------------- */
+  const [board, setBoard] = useState([]);
+  const [boardLoading, setBoardLoading] = useState(true);
+  const [boardError, setBoardError] = useState("");
+
+  /* -------------------- TRACK PROGRESS (dynamic, precomputed) -------------------- */
+  const [tracks, setTracks] = useState(null);
+  const [tracksLoading, setTracksLoading] = useState(!!lcUsername);
+  const [tracksError, setTracksError] = useState("");
+
+  // slug → Title (fallback without importing TOPIC_SLUGS here)
+  const prettyTitle = (slug = "") =>
+    slug
+      .split("-")
+      .map((w) => (w ? w[0].toUpperCase() + w.slice(1) : ""))
+      .join(" ");
+
+  const tierLabel = (k) =>
+    k === "foundation" ? "Foundation" : k === "intermediate" ? "Intermediate" : "Advanced";
+
+  function nextTierKey(t = {}) {
+    if (t?.foundation?.percent < 100) return "foundation";
+    if (t?.intermediate?.percent < 100) return "intermediate";
+    return "advanced";
+  }
 
   useEffect(() => {
-    if (!lcUsername) return; // silently skip if we don't know username
+    if (!lcUsername) return;
+    let on = true;
+    setTracksLoading(true);
+    fetchJSON(
+      `${API_BASE}/api/public/leetcode/track-progress?username=${encodeURIComponent(lcUsername)}`
+    )
+      .then((j) => {
+        if (!on) return;
+        if (j?.ok) setTracks(j.tracks || null);
+        else setTracksError(j?.error || "Failed");
+      })
+      .catch((e) => on && setTracksError(e.message || String(e)))
+      .finally(() => on && setTracksLoading(false));
+    return () => { on = false; };
+  }, [lcUsername]);
+
+  const top3Tracks = useMemo(() => {
+    if (!tracks) return [];
+    return Object.entries(tracks)
+      .map(([slug, t]) => {
+        const key = nextTierKey(t);
+        const meta = t?.[key] || { percent: 0, total: 0, solved: 0 };
+        return { slug, key, meta, pct: meta.percent ?? 0 };
+      })
+      .filter((x) => x.meta.total > 0 && x.pct < 100)
+      .sort((a, b) => b.pct - a.pct)
+      .slice(0, 3);
+  }, [tracks]);
+
+  /* -------------------- AI Coach (recommendations) -------------------- */
+  const [coach, setCoach] = useState(null);
+  const [coachError, setCoachError] = useState("");
+
+  useEffect(() => {
+    if (!lcUsername) return;
+    let on = true;
+    fetchJSON(
+      `${API_BASE}/api/public/leetcode/recommendations?username=${encodeURIComponent(
+        lcUsername
+      )}&mode=finish`
+    )
+      .then((j) => on && j?.ok && setCoach(j))
+      .catch((e) => on && setCoachError(e.message || String(e)));
+    return () => { on = false; };
+  }, [lcUsername]);
+
+  function openTrack(slug, tierKey) {
+    const map = {
+      foundation: "easy",
+      intermediate: "medium",
+      advanced: "hard",
+    };
+    const diff = map[tierKey] || "easy";
+    navigate(`/tracks/${slug}/${diff}`);
+  }
+
+  useEffect(() => {
+    if (!lcUsername) return;
     let on = true;
     setStreakLoading(true);
     fetchJSON(`${API_BASE}/api/public/leetcode/streak?username=${encodeURIComponent(lcUsername)}`)
@@ -70,22 +157,36 @@ export default function Dashboard() {
         if (j?.ok) {
           setStreak({
             current: j.streak ?? 0,
-            best: null,                 // you can compute/store best later if needed
+            best: null,
             last: j.lastProgressAt ? new Date(j.lastProgressAt) : null
           });
         }
       })
-      .catch(() => {})               // soft-fail is fine
+      .catch(() => {})
       .finally(() => on && setStreakLoading(false));
     return () => { on = false; };
   }, [lcUsername]);
 
-  const streakProgressDeg = Math.min(360, (Math.min(streak.current, 100) / 100) * 360);
+  // solved summary for donut
+  useEffect(() => {
+    if (!lcUsername) return;
+    let on = true;
+    fetchJSON(`${API_BASE}/api/public/leetcode/summary?username=${encodeURIComponent(lcUsername)}`)
+      .then((j) => {
+        if (!on) return;
+        if (j?.ok) setSummary(j.summary || j); else setSummary(null);
+      })
+      .catch((e) => on && setSummaryError(e.message || String(e)));
+    return () => { on = false; };
+  }, [lcUsername]);
 
-  /* -------------------- LEADERBOARD (dynamic) -------------------- */
-  const [board, setBoard] = useState([]);
-  const [boardLoading, setBoardLoading] = useState(true);
-  const [boardError, setBoardError] = useState("");
+  const streakProgressDeg = Math.min(360, (Math.min(streak.current, 100) / 100) * 360);
+  // values for DifficultyDonut
+const easyVal   = summary?.solved?.easy   ?? summary?.easy   ?? 0;
+const mediumVal = summary?.solved?.medium ?? summary?.medium ?? 0;
+const hardVal   = summary?.solved?.hard   ?? summary?.hard   ?? 0;
+const totalVal  = summary?.solved?.total  ?? summary?.total  ?? (easyVal + mediumVal + hardVal);
+const donutLabel = `${totalVal ? Math.round(((easyVal + mediumVal + hardVal) / totalVal) * 100) : 100}%`;
 
   useEffect(() => {
     let on = true;
@@ -111,9 +212,11 @@ export default function Dashboard() {
         </div>
 
         <div className="dashboard-grid grid-2">
+        <div className="span-2">
+    <LeetCodeWidget username={lcUsername || "—"} />
+  </div>
           <div className="dashboard-left vstack">
-            {/* Keep your existing widget */}
-            <LeetCodeWidget username={lcUsername || "—"} />
+            
 
             {/* Today's Challenge (dynamic) */}
             <div className="challenge-card pv-card pv-slide-up">
@@ -154,7 +257,7 @@ export default function Dashboard() {
               </div>
             </div>
 
-            {/* Learning Track placeholder (unchanged, wire later) */}
+            {/* Learning Track (top 3, precomputed) */}
             <div className="track-card pv-card pv-slide-up">
               <div className="card-header-simple">
                 <h3 className="card-title"> Your Learning Track</h3>
@@ -162,24 +265,92 @@ export default function Dashboard() {
               </div>
 
               <div className="units-container">
-                {[
-                  { title: "DSA Fundamentals", desc: "Arrays • HashMaps • Two Pointers", progress: 60, unlocked: true },
-                  { title: "Graphs & Traversals", desc: "BFS • DFS • Components",     progress: 20, unlocked: true },
-                  { title: "System Design Intro", desc: "Caching • Rate Limit • Sharding", progress: 0, unlocked: false }
-                ].map((u, i) => (
-                  <div key={i} className={`unit-item ${u.unlocked ? "unlocked" : "locked"}`}>
-                    <div className="unit-content">
-                      <h4 className="unit-title">{u.unlocked ? "🔓" : "🔒"} {u.title}</h4>
-                      <p className="unit-desc">{u.desc}</p>
-                      <div className="progress-bar">
-                        <div className="progress-fill" style={{ width: `${u.progress}%` }} />
-                      </div>
-                      <span className="progress-text">{u.progress}% Complete</span>
-                    </div>
-                    {u.unlocked && <button className="pv-btn-glass unit-btn">Continue</button>}
+                {tracksLoading && (
+                  <div className="lc-sub" style={{ padding: 8 }}>Loading personalized tracks…</div>
+                )}
+
+                {!tracksLoading && (!top3Tracks || top3Tracks.length === 0) && (
+                  <div className="lc-sub" style={{ padding: 8 }}>
+                    {tracksError
+                      ? tracksError
+                      : "Sync your LeetCode profile to personalize this section."}
                   </div>
-                ))}
+                )}
+
+                {!tracksLoading &&
+                  top3Tracks.map((t, i) => {
+                    const pct = Math.round(t.meta.percent || 0);
+                    const solved = t.meta.solved ?? 0;
+                    const total = t.meta.total ?? 0;
+                    return (
+                      <div key={t.slug} className={`unit-item unlocked`}>
+                        <div className="unit-content">
+                          <h4 className="unit-title">
+                            🔓 {prettyTitle(t.slug)} — {tierLabel(t.key)}
+                          </h4>
+                          <p className="unit-desc">
+                            {solved}/{total} completed
+                          </p>
+                          <div className="progress-bar">
+                            <div className="progress-fill" style={{ width: `${pct}%` }} />
+                          </div>
+                          <span className="progress-text">{pct}% Complete</span>
+                        </div>
+                        <button
+                          className="pv-btn-glass unit-btn"
+                          onClick={() => openTrack(t.slug, t.key)}
+                        >
+                          Continue
+                        </button>
+                      </div>
+                    );
+                  })}
               </div>
+            </div>
+
+            {/* AI Coach / Recommendations */}
+            <div className="track-card pv-card pv-slide-up">
+              <div className="card-header-simple">
+                <h3 className="card-title"> AI Coach</h3>
+                <p className="card-subtitle">Recommended next problems to maximize momentum</p>
+              </div>
+
+              {!coach && !coachError && (
+                <div className="lc-sub" style={{ padding: 8 }}>Building suggestions…</div>
+              )}
+
+              {coachError && <div className="lc-sub" style={{ padding: 8 }}>{coachError}</div>}
+
+              {coach?.suggestions?.length > 0 && (
+                <div className="units-container">
+                  {coach.suggestions.slice(0, 5).map((q) => (
+                    <div key={q.slug} className="unit-item unlocked">
+                      <div className="unit-content">
+                        <h4 className="unit-title">
+                          {q.title} <span className="duo-difficulty" style={{ marginLeft: 8 }}>{q.difficulty}</span>
+                        </h4>
+                        <p className="unit-desc">
+                          {(q.tags || []).slice(0, 3).join(" • ")}
+                        </p>
+                      </div>
+                      <a
+                        className="pv-btn-glass unit-btn"
+                        href={`https://leetcode.com/problems/${q.slug}/`}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        Solve
+                      </a>
+                    </div>
+                  ))}
+                </div>
+              )}
+
+              {coach?.suggestions?.length === 0 && (
+                <div className="lc-sub" style={{ padding: 8 }}>
+                  You’re all caught up here—great work!
+                </div>
+              )}
             </div>
           </div>
 
@@ -215,6 +386,22 @@ export default function Dashboard() {
               </div>
             </div>
 
+            {/* Difficulty Breakdown (donut) */}
+            <div className="donut-card pv-card pv-slide-up">
+              <h3 className="card-title"> </h3>
+              {summary ? (
+                <DifficultyDonut
+                easy={easyVal}
+                medium={mediumVal}
+                hard={hardVal}
+                half={true}
+                innerLabel={donutLabel}
+              />
+              ) : (
+                <div className="lc-sub">{summaryError || "Sync your profile to see solved split."}</div>
+              )}
+            </div>
+
             {/* Leaderboard (dynamic) */}
             <div className="leaderboard-card pv-card pv-slide-up">
               <h3 className="card-title"> Leaderboard</h3>
@@ -239,7 +426,6 @@ export default function Dashboard() {
                           <span className="player-name">{row.username}</span>
                         </div>
                         <div className="player-score">
-                          {/* show rank primarily; solved as secondary tooltip */}
                           <span title={`Solved: ${row.solved} • Streak: ${row.streak}`}>
                             #{row.ranking ?? "—"}
                           </span>

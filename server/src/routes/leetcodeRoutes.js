@@ -295,6 +295,88 @@ async function fetchDailyByScrape() {
     }
   };
 }
+// Normalize question item shape from frozen JSON
+function normalizeFrozenItem(item) {
+    if (!item) return null;
+    if (typeof item === 'string') {
+      return { slug: item.toLowerCase(), title: item, difficulty: null, acceptance: null, tags: [] };
+    }
+    const slug = (item.slug || item.titleSlug || '').toLowerCase();
+    if (!slug) return null;
+    const title = item.title || slug.split('-').map(w => w[0]?.toUpperCase() + w.slice(1)).join(' ');
+    const difficulty = item.difficulty || null;
+    const acceptance = (typeof item.acceptance === 'number')
+      ? item.acceptance
+      : (typeof item.acRate === 'number' ? item.acRate : null);
+    const tags = Array.isArray(item.tags)
+      ? item.tags.map(t => (typeof t === 'string' ? t : (t?.name || ''))).filter(Boolean)
+      : [];
+    return { slug, title, difficulty, acceptance, tags };
+  }
+  
+  // Load full question objects for a topic+diff from frozen JSON
+  function loadTopicDiffQuestions(topicSlug, diff /* 'easy'|'medium'|'hard' */) {
+    if (!TRACKS_DIR) return [];
+    const file = path.join(TRACKS_DIR, topicSlug, `${diff}.json`);
+    const j = safeJSON(file);
+    const arr = Array.isArray(j) ? j : (j && Array.isArray(j.questions)) ? j.questions : [];
+    const out = [];
+    for (const it of arr) {
+      const q = normalizeFrozenItem(it);
+      if (q) out.push(q);
+    }
+    return out;
+  }
+  
+  function nextTierKeyFromTrackObj(t = {}) {
+    if (t?.foundation?.percent < 100) return 'foundation';
+    if (t?.intermediate?.percent < 100) return 'intermediate';
+    return 'advanced';
+  }
+  
+  function chooseTargetTrack(tracks, mode /* 'finish' | 'weakness' */) {
+    if (!tracks) return null;
+    const rows = Object.entries(tracks).map(([slug, t]) => {
+      const nextKey = nextTierKeyFromTrackObj(t);
+      const meta = t?.[nextKey] || { percent: 0, total: 0, solved: 0 };
+      return { slug, nextKey, meta };
+    }).filter(r => r.meta.total > 0);
+  
+    if (!rows.length) return null;
+  
+    if (mode === 'weakness') {
+      // Lowest percent first, tie-break by bigger total
+      rows.sort((a, b) => (a.meta.percent - b.meta.percent) || (b.meta.total - a.meta.total));
+      return rows[0];
+    }
+  
+    // default 'finish' → highest percent below 100; tie-break by more remaining
+    const eligible = rows.filter(r => r.meta.percent < 100);
+    if (eligible.length) {
+      eligible.sort((a, b) => (b.meta.percent - a.meta.percent) ||
+        ((b.meta.total - b.meta.solved) - (a.meta.total - a.meta.solved)));
+      return eligible[0];
+    }
+  
+    // all tiers complete? pick most substantial track
+    rows.sort((a, b) => b.meta.total - a.meta.total);
+    return rows[0];
+  }
+  
+  function extractSolvedSetFromDoc(docData) {
+    const out = new Set();
+    const push = (arr) => {
+      if (!Array.isArray(arr)) return;
+      for (const q of arr) {
+        const s = (q?.slug || q?.titleSlug || '').toLowerCase().trim();
+        if (s) out.add(s);
+      }
+    };
+    push(docData?.questions?.easy);
+    push(docData?.questions?.medium);
+    push(docData?.questions?.hard);
+    return out;
+  }
 
 /* ----------------------------- Routes -------------------------------- */
 
@@ -391,6 +473,45 @@ router.get('/public/leetcode/profile', async (req, res) => {
   }
 });
 
+// Public: summary (difficulty counts) for dashboard
+// /public/leetcode/summary?username=<name>
+router.get('/public/leetcode/summary', async (req, res) => {
+  try {
+    const uname = (req.query.username || '').toString().trim().toLowerCase();
+    if (!uname) return res.status(400).json({ ok: false, error: 'username required' });
+
+    const snap = await db.collection('leetcode_profiles').doc(uname).get();
+
+    // If profile not found, return zeros (never 404/HTML)
+    if (!snap.exists) {
+      return res.json({
+        ok: true,
+        summary: { easy: 0, medium: 0, hard: 0, total: 0 }
+      });
+    }
+
+    const data = snap.data() || {};
+    const qs = data.questions || { easy: [], medium: [], hard: [] };
+    const solved = data.solved || {};
+
+    const easy   = Number.isFinite(solved.easy)   ? solved.easy   : (Array.isArray(qs.easy)   ? qs.easy.length   : 0);
+    const medium = Number.isFinite(solved.medium) ? solved.medium : (Array.isArray(qs.medium) ? qs.medium.length : 0);
+    const hard   = Number.isFinite(solved.hard)   ? solved.hard   : (Array.isArray(qs.hard)   ? qs.hard.length   : 0);
+
+    return res.json({
+      ok: true,
+      summary: { easy, medium, hard, total: easy + medium + hard }
+    });
+  } catch (e) {
+    console.warn('SUMMARY route fallback:', e?.message || e);
+    // Always return a JSON object so clients (and jq) never fail to parse
+    return res.json({
+      ok: true,
+      summary: { easy: 0, medium: 0, hard: 0, total: 0 }
+    });
+  }
+});
+
 // Public: leaderboard
 // /public/leetcode/leaderboard?limit=10&by=ranking|solved|streak
 router.get('/public/leetcode/leaderboard', async (req, res) => {
@@ -459,7 +580,8 @@ router.get('/public/leetcode/streak', async (req, res) => {
     const out = await getStreaks(username);
     return res.json({ ok: true, ...out });
   } catch (e) {
-    return res.status(500).json({ ok: false, error: e.message || String(e) });
+    console.warn('STREAK route fallback:', e?.message || e);
+    return res.json({ ok: true, streak: 0, lastProgressAt: null, acStreak: null });
   }
 });
 router.get('/public/leetcode/solved-slugs', async (req, res) => {
@@ -516,4 +638,74 @@ router.get('/public/leetcode/track-progress', async (req, res) => {
     return res.status(500).json({ ok: false, error: e.message || String(e) });
   }
 });
+/**
+ * GET /public/leetcode/recommendations
+ * Query: username=<lcName>&mode=finish|weakness&limit=5
+ * Returns: { ok, username, track: { slug, tier, stats }, suggestions: [ { slug, title, difficulty, tags, acceptance } ] }
+ */
+router.get('/public/leetcode/recommendations', async (req, res) => {
+    try {
+      const uname = (req.query.username || '').toString().trim().toLowerCase();
+      const mode = ((req.query.mode || 'finish') + '').toLowerCase();
+      const limit = Math.max(1, Math.min(10, parseInt(req.query.limit, 10) || 5));
+      if (!uname) return res.status(400).json({ ok: false, error: 'username required' });
+  
+      // Load stored profile (ingested by extension)
+      const snap = await db.collection('leetcode_profiles').doc(uname).get();
+      if (!snap.exists) return res.status(404).json({ ok: false, error: 'profile not found' });
+      const data = snap.data() || {};
+  
+      const tracks = data?.trackProgress?.tracks || null;
+      if (!tracks) return res.json({ ok: true, username: uname, track: null, suggestions: [] });
+  
+      const target = chooseTargetTrack(tracks, mode);
+      if (!target) return res.json({ ok: true, username: uname, track: null, suggestions: [] });
+  
+      // Map tier key → diff folder
+      const diffMap = { foundation: 'easy', intermediate: 'medium', advanced: 'hard' };
+      const diff = diffMap[target.nextKey] || 'easy';
+  
+      // Build solved set
+      const solvedSet = extractSolvedSetFromDoc(data);
+  
+      // Load frozen questions for this track + tier
+      const frozen = loadTopicDiffQuestions(target.slug, diff);
+  
+      // Filter unsolved and sort:
+      // - 'finish': easier first (higher acceptance)
+      // - 'weakness': mid-acceptance 40–70 prioritized (skill-builder), then rest
+      let candidates = frozen.filter(q => !solvedSet.has(q.slug));
+  
+      if (mode === 'weakness') {
+        const mid = candidates.filter(q => (q.acceptance == null) || (q.acceptance >= 40 && q.acceptance <= 70));
+        const rest = candidates.filter(q => !(q.acceptance == null || (q.acceptance >= 40 && q.acceptance <= 70)));
+        mid.sort((a, b) => (a.acceptance ?? 0) - (b.acceptance ?? 0)); // slightly harder first
+        rest.sort((a, b) => (a.acceptance ?? 0) - (b.acceptance ?? 0));
+        candidates = [...mid, ...rest];
+      } else {
+        candidates.sort((a, b) => (b.acceptance ?? 0) - (a.acceptance ?? 0));
+      }
+  
+      const suggestions = candidates.slice(0, limit).map(q => ({
+        slug: q.slug,
+        title: q.title,
+        difficulty: q.difficulty || (diff.toUpperCase()),
+        tags: q.tags || [],
+        acceptance: q.acceptance ?? null,
+      }));
+  
+      return res.json({
+        ok: true,
+        username: uname,
+        track: {
+          slug: target.slug,
+          tier: target.nextKey,
+          stats: target.meta
+        },
+        suggestions
+      });
+    } catch (e) {
+      return res.status(500).json({ ok: false, error: e.message || String(e) });
+    }
+  });
 export default router;

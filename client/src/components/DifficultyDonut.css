@@ -1,0 +1,43 @@
+/* components/DifficultyDonut.css */
+.pv-donut-card { display:flex; flex-direction:column; align-items:center; gap:.75rem; }
+.pv-donut-title { font-weight:800; font-size:1.6rem; text-align:center; }
+
+:root{
+  --pv-easy:   #22c55e; /* green 500 */
+  --pv-medium: #f59e0b; /* amber 500 */
+  --pv-hard:   #ef4444; /* red 500 */
+  --pv-ring:   #e5e7eb; /* gray-200 */
+}
+
+.pv-donut{
+  position:relative;
+  border-radius:50%;
+  /* create hole */
+  -webkit-mask:
+    radial-gradient(circle at 50% 50%, transparent 0 58%, #000 59%) /* cut inner circle */;
+          mask:
+    radial-gradient(circle at 50% 50%, transparent 0 58%, #000 59%);
+  box-shadow: inset 0 0 0 10px rgba(229,231,235,.35);
+}
+/* half donut by clipping the bottom half and rotating so it reads left→right */
+.pv-donut.semi{
+  clip-path: inset(50% 0 0 0);
+  transform: rotate(-90deg);
+}
+
+.pv-donut-hole{
+  position:absolute; inset:0; display:grid; place-items:center;
+  transform: rotate(90deg); /* re-orient label for semi version */
+}
+.pv-donut-label{
+  font-weight:800; font-size:1.25rem; color:#94a3b8; opacity:.9;
+}
+
+.pv-donut-legend{
+  display:flex; gap:1.25rem; align-items:center; flex-wrap:wrap;
+  color:#1f2937; font-weight:600;
+}
+.dot{ display:inline-block; width:.75rem; height:.75rem; border-radius:50%; margin-right:.5rem; }
+.dot-easy{ background:var(--pv-easy); }
+.dot-med { background:var(--pv-medium); }
+.dot-hard{ background:var(--pv-hard); }
