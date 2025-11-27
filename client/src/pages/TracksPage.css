@@ -35,7 +35,7 @@
 
 .duo-header-right { display: flex; gap: 16px; }
 .duo-stat-card {
-  background: var(--pv-gradient-royal-light);
+  
   color: #fff;
   padding: 16px 24px;
   border-radius: 16px;
@@ -43,8 +43,8 @@
   box-shadow: var(--pv-shadow-royal);
   min-width: 100px;
 }
-.duo-stat-label { font-size: 12px; font-weight: 700; text-transform: uppercase; opacity: 0.9; margin-bottom: 4px; }
-.duo-stat-value { font-size: 28px; font-weight: 800; line-height: 1; }
+.duo-stat-label { font-size: 12px; font-weight: 700; text-transform: uppercase; opacity: 0.9; margin-bottom: 4px; color: #fff;}
+.duo-stat-value { font-size: 28px; font-weight: 800; line-height: 1; color: #fff;}
 
 /* Header progress */
 .duo-header-progress { position: relative; }

@@ -8,7 +8,7 @@ const router = express.Router();
 const db = admin.firestore();
 
 /* ------------------------------ Helpers ------------------------------ */
-
+const DEBUG_HTML = process.env.DEBUG_HTML === '1';
 function safeLower(s) {
   return (s || '').toString().trim().toLowerCase();
 }

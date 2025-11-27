@@ -1,0 +1,10 @@
+**/.git
+**/node_modules
+**/.DS_Store
+**/dist
+**/.env
+**/.env.*
+**/coverage
+**/pnpm-lock.yaml
+**/yarn.lock
+**/npm-debug.log
