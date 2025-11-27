@@ -11,11 +11,15 @@
 }
 
 /* ---------- Category Selection (Duolingo style) ---------- */
-.coach-root{
+.coach-root {
   min-height:100vh;
-  background: var(--bg);             /* removed hard-coded blue gradient */
   padding:24px;
+  background: #a2bdf4; /* solid mid-tone */
 }
+
+
+
+
 
 .coach-container{ max-width:1000px; margin:0 auto; }
 
@@ -137,7 +141,7 @@
 .ic-next{ background:#10b981; box-shadow:0 2px 0 #047857; }
 .ic-skip{ background:#6b7280; box-shadow:0 2px 0 #374151; }
 .ic-calibrate{ background: color-mix(in srgb, var(--ic-primary), #1e40af 40%); box-shadow:0 2px 0 #1e40af; }
-.ic-review{ background:#7c3aed; box-shadow:0 2px 0 #5b21b6; }
+.ic-review{ background:#3943c7; box-shadow:0 2px 0 #222777; }
 
 .ic-live{
   display:flex; gap:10px; flex-wrap:wrap; background: var(--panel);

@@ -5,13 +5,16 @@ import PVNavbar from "../ui/PVNavbar";
 import { useAuth } from "../auth/AuthContext";
 import "./InterviewCoach.css";
 
+import useFaceTracking from "../hooks/useFaceTracking";
+
+
 const SOCKET_URL = import.meta.env.VITE_API_BASE || "http://localhost:4000";
 
 const CATEGORIES = [
-  { name: 'HR Interview', icon: '💼' },
-  { name: 'Technical Interview', icon: '💻' },
-  { name: 'Group Discussion', icon: '👥' },
-  { name: 'Resume-based Questions', icon: '📄' }
+  { name: "HR Interview", icon: "💼" },
+  { name: "Technical Interview", icon: "💻" },
+  { name: "Group Discussion", icon: "👥" },
+  { name: "Resume-based Questions", icon: "📄" }
 ];
 
 export default function InterviewCoach() {
@@ -35,7 +38,7 @@ export default function InterviewCoach() {
     yaw: 0,
     pitch: 0,
     seconds: 0,
-    words: 0,
+    words: 0
   });
 
   const [review, setReview] = useState(null);
@@ -47,8 +50,9 @@ export default function InterviewCoach() {
   const startTsRef = useRef(0);
   const [calibrated, setCalibrated] = useState(false);
 
-  const baselineRef = useRef({ yaw: 0, pitch: 0, eye: 0 });
-
+  /* ===========================================================
+     SOCKET SETUP
+  ============================================================ */
   useEffect(() => {
     const s = io(SOCKET_URL);
     setSocket(s);
@@ -66,19 +70,37 @@ export default function InterviewCoach() {
     return () => s.close();
   }, []);
 
-  // Simulated head pose & eye contact placeholder (swap with real face tracking when ready)
-  useEffect(() => {
-    const id = setInterval(() => {
-      setMetrics(m => ({
-        ...m,
-        eyeContact: calibrated ? 78 : 0,
-        yaw: 0,
-        pitch: 0
-      }));
-    }, 800);
+  /* ===========================================================
+     FACE TRACKING (REAL)
+  ============================================================ */
+  const faceData = useFaceTracking(videoRef, calibrated);
 
-    return () => clearInterval(id);
-  }, [calibrated]);
+  useEffect(() => {
+    if (!calibrated) return;
+    setMetrics((m) => ({
+      ...m,
+      eyeContact: Math.round(faceData.eyeContact),
+      yaw: faceData.yaw,
+      pitch: faceData.pitch
+    }));
+  }, [faceData, calibrated]);
+
+  /* SEND TO BACKEND FOR AGGREGATION */
+  useEffect(() => {
+    if (!socket) return;
+    if (!recording) return;
+    if (!calibrated) return;
+
+    socket.emit("eyeMetrics", {
+      eyeContact: metrics.eyeContact,
+      yaw: metrics.yaw,
+      pitch: metrics.pitch
+    });
+  }, [metrics.eyeContact, metrics.yaw, metrics.pitch, socket, recording, calibrated]);
+
+  /* ===========================================================
+     SPEECH / RECORDING LOGIC
+  ============================================================ */
 
   const FILLERS = ["um", "uh", "like", "you know", "so", "basically", "actually", "kind of", "sort of"];
 
@@ -108,15 +130,11 @@ export default function InterviewCoach() {
 
   const startRecording = async () => {
     try {
-      if (streamRef.current) streamRef.current.getTracks().forEach(t => t.stop());
+      if (streamRef.current) streamRef.current.getTracks().forEach((t) => t.stop());
 
       const stream = await navigator.mediaDevices.getUserMedia({
         video: true,
-        audio: {
-          echoCancellation: true,
-          noiseSuppression: true,
-          autoGainControl: true
-        }
+        audio: { echoCancellation: true, noiseSuppression: true, autoGainControl: true }
       });
 
       streamRef.current = stream;
@@ -149,10 +167,16 @@ export default function InterviewCoach() {
           const fluency = calcFluency(merged, fillers);
           const words = merged.split(/\s+/).filter(Boolean).length;
 
-          setMetrics(m => ({ ...m, fillers, wpm, fluency, seconds, words }));
+          setMetrics((m) => ({
+            ...m,
+            fillers,
+            wpm,
+            fluency,
+            seconds,
+            words
+          }));
         };
 
-        rec.onerror = () => {};
         rec.onend = () => {
           if (recording) rec.start();
         };
@@ -168,7 +192,7 @@ export default function InterviewCoach() {
       mediaRecorderRef.current = mr;
       mr.start();
 
-      setLiveTip("Listening… answer naturally and try to quantify outcomes.");
+      setLiveTip("Listening… answer naturally.");
       setRecording(true);
       startTsRef.current = Date.now();
 
@@ -181,16 +205,13 @@ export default function InterviewCoach() {
   const stopRecording = () => {
     mediaRecorderRef.current?.stop();
     recognitionRef.current?.stop();
-    streamRef.current?.getTracks().forEach(t => t.stop());
+    streamRef.current?.getTracks().forEach((t) => t.stop());
     setRecording(false);
 
     socket?.emit("stopRecording");
 
     const text = transcript.trim();
-    const seconds = Math.max(
-      1,
-      Math.round((Date.now() - startTsRef.current) / 1000)
-    );
+    const seconds = Math.round((Date.now() - startTsRef.current) / 1000);
     const fillers = countFillers(text);
     const wpm = calcWPM(text, seconds);
     const fluency = calcFluency(text, fillers);
@@ -206,7 +227,6 @@ export default function InterviewCoach() {
   const nextQuestion = () => {
     setTranscript("");
     setReview(null);
-    setLiveTip("Moving to next question…");
     socket?.emit("nextQuestion");
   };
 
@@ -217,7 +237,7 @@ export default function InterviewCoach() {
   };
 
   const getReview = async () => {
-    if (!transcript.trim()) return alert("Speak first, then request review.");
+    if (!transcript.trim()) return alert("Speak first.");
 
     const res = await fetch(`${SOCKET_URL}/api/interviewCoach/review`, {
       method: "POST",
@@ -230,10 +250,10 @@ export default function InterviewCoach() {
   };
 
   const calibrateEye = () => {
-    baselineRef.current = { yaw: 0, pitch: 0, eye: 1 };
-    setCalibrated(true);
-    setLiveTip("Eye-contact calibrated. Try looking at the lens while speaking.");
-  };
+  setCalibrated((v) => v + 1);   // increment → triggers new baseline
+  setLiveTip("Eye-contact calibrated. Look at the lens!");
+};
+
 
   const backToCategories = () => {
     setShowCategorySelection(true);
@@ -244,10 +264,13 @@ export default function InterviewCoach() {
     setReview(null);
     setRecording(false);
 
-    if (streamRef.current) streamRef.current.getTracks().forEach(t => t.stop());
+    if (streamRef.current) streamRef.current.getTracks().forEach((t) => t.stop());
   };
 
-  // Category screen
+  /* ===========================================================
+     UI RENDER
+  ============================================================ */
+
   if (showCategorySelection) {
     return (
       <>
@@ -266,7 +289,7 @@ export default function InterviewCoach() {
               <h2 className="setup-title">Choose Your Practice Category</h2>
 
               <div className="category-grid">
-                {CATEGORIES.map(cat => (
+                {CATEGORIES.map((cat) => (
                   <div
                     key={cat.name}
                     className={`cat-card ${category === cat.name ? "active" : ""}`}
@@ -283,7 +306,7 @@ export default function InterviewCoach() {
                   type="text"
                   placeholder="Enter topic (e.g., React, DSA, System Design)"
                   value={topic}
-                  onChange={e => setTopic(e.target.value)}
+                  onChange={(e) => setTopic(e.target.value)}
                   className="topic-input"
                 />
               )}
@@ -298,7 +321,10 @@ export default function InterviewCoach() {
     );
   }
 
-  // Interview screen
+  /* ===========================================================
+     INTERVIEW SCREEN
+  ============================================================ */
+
   return (
     <div className="ic-shell">
       <PVNavbar user={user} />
@@ -316,13 +342,7 @@ export default function InterviewCoach() {
 
         <section className="ic-content">
           <div className="ic-video-card">
-            <video
-              ref={videoRef}
-              autoPlay
-              muted
-              playsInline
-              className="ic-video"
-            />
+            <video ref={videoRef} autoPlay muted playsInline className="ic-video" />
           </div>
 
           <div className="ic-controls">
@@ -370,9 +390,7 @@ export default function InterviewCoach() {
             </div>
 
             <div className="ic-pill">
-              <div
-                className="ic-pill-value"
-              >
+              <div className="ic-pill-value">
                 {calibrated ? `${metrics.eyeContact}%` : "0%"}
               </div>
               <div className="ic-pill-label">Eye-contact</div>
@@ -413,7 +431,7 @@ export default function InterviewCoach() {
               </div>
             </div>
 
-            {!!liveTip && (
+            {liveTip && (
               <div className="ic-block">
                 <div className="ic-block-title">Quick review tip</div>
                 <div className="ic-block-body">{liveTip}</div>
