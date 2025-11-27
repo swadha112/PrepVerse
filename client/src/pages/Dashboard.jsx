@@ -4,6 +4,8 @@ import { useAuth } from "../auth/AuthContext";
 import "./Dashboard.css";
 import LeetCodeWidget from "../components/LeetCodeWidget";
 import DifficultyDonut from "../components/DifficultyDonut";
+import TrendingQuestions from "../components/TrendingQuestions";
+
 /* ---------- API base ---------- */
 const API_BASE = (import.meta.env.VITE_API_BASE || "").replace(/\/+$/, "");
 
@@ -278,6 +280,7 @@ const donutLabel = `${totalVal ? Math.round(((easyVal + mediumVal + hardVal) / t
                 )}
 
                 {!tracksLoading &&
+                  // eslint-disable-next-line no-unused-vars
                   top3Tracks.map((t, i) => {
                     const pct = Math.round(t.meta.percent || 0);
                     const solved = t.meta.solved ?? 0;
@@ -401,7 +404,8 @@ const donutLabel = `${totalVal ? Math.round(((easyVal + mediumVal + hardVal) / t
                 <div className="lc-sub">{summaryError || "Sync your profile to see solved split."}</div>
               )}
             </div>
-
+            
+            <TrendingQuestions limit={8} />
             {/* Leaderboard (dynamic) */}
             <div className="leaderboard-card pv-card pv-slide-up">
               <h3 className="card-title"> Leaderboard</h3>

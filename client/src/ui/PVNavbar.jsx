@@ -1,6 +1,7 @@
 import { NavLink } from "react-router-dom";
 import PVBadge from "./PVBadge";
 
+// eslint-disable-next-line no-unused-vars
 export default function PVNavbar({ user, onLogout, onProfile }) {
   return (
     <>

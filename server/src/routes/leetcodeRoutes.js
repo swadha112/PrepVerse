@@ -708,4 +708,113 @@ router.get('/public/leetcode/recommendations', async (req, res) => {
       return res.status(500).json({ ok: false, error: e.message || String(e) });
     }
   });
+// GET /api/public/leetcode/trending?limit=8&exclude=<username>
+router.get('/public/leetcode/trending', async (req, res) => {
+  try {
+    // mix format: "easy-medium-hard" → e.g. "2-1-1"
+    const mixStr = ((req.query.mix || '1-1-1') + '').trim();
+    const [eStr, mStr, hStr] = mixStr.split('-');
+    const quotas = {
+      easy: Math.max(0, Number.parseInt(eStr, 10) || 1),
+      medium: Math.max(0, Number.parseInt(mStr, 10) || 1),
+      hard: Math.max(0, Number.parseInt(hStr, 10) || 1),
+    };
+    const totalWanted =
+      quotas.easy + quotas.medium + quotas.hard ||
+      Math.min(Number.parseInt(req.query.limit, 10) || 8, 50);
+
+    const exclude = (req.query.exclude || '').toLowerCase();
+    const sinceMs = Date.now() - 14 * 24 * 60 * 60 * 1000; // 14 days
+
+    const snap = await db.collection('leetcode_profiles').get();
+
+    // Count solved slugs across recent profiles
+    const counts = new Map(); // slug -> aggregated item
+    let consideredUsers = 0;
+
+    for (const doc of snap.docs) {
+      const uid = (doc.id || '').toLowerCase();
+      if (uid === exclude) continue;
+
+      const data = doc.data() || {};
+      const updatedAtMs =
+        typeof data.updatedAt === 'number'
+          ? data.updatedAt
+          : (data.updatedAt && data.updatedAt.toMillis && data.updatedAt.toMillis()) || 0;
+      // Only include recently updated profiles when timestamp exists
+      if (updatedAtMs && updatedAtMs < sinceMs) continue;
+
+      consideredUsers++;
+      const qs = data.questions || {};
+
+      for (const diff of ['easy', 'medium', 'hard']) {
+        const arr = Array.isArray(qs[diff]) ? qs[diff] : [];
+        for (const q of arr) {
+          const slug = (q?.slug || q?.titleSlug || '').toLowerCase();
+          if (!slug) continue;
+
+          if (!counts.has(slug)) {
+            const acceptance =
+              typeof q?.acceptance === 'number'
+                ? q.acceptance
+                : typeof q?.acRate === 'number'
+                ? q.acRate
+                : null;
+
+            counts.set(slug, {
+              slug,
+              title: q?.title || slug,
+              difficulty: (q?.difficulty || diff).toUpperCase(),
+              tags: Array.isArray(q?.tags) ? q.tags : [],
+              acceptance,
+              count: 0,
+            });
+          }
+          counts.get(slug).count += 1;
+        }
+      }
+    }
+
+    // Sort by popularity
+    const itemsAll = Array.from(counts.values()).sort((a, b) => b.count - a.count);
+
+    // Helper to take top N of a difficulty without duplicates
+    const used = new Set();
+    const takeTop = (diff, n) => {
+      const picks = [];
+      for (const it of itemsAll) {
+        if (picks.length >= n) break;
+        if (it.difficulty !== diff) continue;
+        if (used.has(it.slug)) continue;
+        picks.push(it);
+        used.add(it.slug);
+      }
+      return picks;
+    };
+
+    let items = [
+      ...takeTop('EASY', quotas.easy),
+      ...takeTop('MEDIUM', quotas.medium),
+      ...takeTop('HARD', quotas.hard),
+    ];
+
+    // Backfill if some buckets were short
+    for (const it of itemsAll) {
+      if (items.length >= totalWanted) break;
+      if (!used.has(it.slug)) {
+        items.push(it);
+        used.add(it.slug);
+      }
+    }
+
+    return res.json({
+      ok: true,
+      items,
+      sample: { usersConsidered: consideredUsers, days: 14 },
+    });
+  } catch (e) {
+    console.error('TRENDING error:', e);
+    return res.status(500).json({ ok: false, error: e.message || String(e) });
+  }
+});
 export default router;

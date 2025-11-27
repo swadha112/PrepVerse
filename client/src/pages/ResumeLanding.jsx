@@ -228,6 +228,7 @@ export default function ResumeLanding() {
         try {
           const text = await extractPdfText(file);
           setResumeText(text);
+        // eslint-disable-next-line no-unused-vars
         } catch (err) {
           alert("Could not extract text from PDF file.");
         }
