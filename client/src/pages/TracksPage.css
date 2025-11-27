@@ -62,7 +62,7 @@
 /* Canvas card */
 .duo-tracks-card {
   background: rgba(255,255,255,0.55);
-  border: 1px solid var(--pv-glass-border);
+ 
   border-radius: 24px;
   padding: 24px;
   backdrop-filter: blur(10px);
@@ -85,19 +85,23 @@
 .duo-track-node.active { z-index: 30; }
 
 .duo-node-circle {
-  width: 80px; height: 80px;
-  background: linear-gradient(135deg, #94a3b8 0%, #64748b 100%); /* slate gradient for idle */
+  width: 80px;
+  height: 80px;
+  background: radial-gradient(circle at 30% 20%, #ffffff 0%, #587ce1 10%, #2563eb 100%);
   border-radius: 50%;
-  display: flex; align-items: center; justify-content: center;
-  box-shadow: 0 6px 16px rgba(0,0,0,0.2);
-  border: 5px solid #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 10px 26px rgba(15, 23, 42, 0.55);
+  border: 5px solid #ffffff;
   transition: all 0.3s;
 }
 
 .duo-track-node.started .duo-node-circle {
-  background: var(--pv-gradient-royal-light);
-  box-shadow: var(--pv-shadow-royal-lg);
+  background: radial-gradient(circle at 30% 20%,  #020b18 0%, #17386c 100%);
+  box-shadow: 0 10px 28px rgba(37, 99, 235, 0.55);
 }
+
 .duo-track-node.completed .duo-node-circle {
   background: linear-gradient(135deg, #34d399 0%, #10b981 100%);
   box-shadow: 0 6px 18px rgba(16,185,129,0.5);

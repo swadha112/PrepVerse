@@ -585,3 +585,9 @@
 .pv-btn-ghost{ background:transparent; border:1px solid var(--pv-border); color:var(--pv-ink);
   padding:10px 14px; border-radius:12px; font-weight:700; transition: background .2s, border-color .2s, transform .1s; }
 .pv-btn-ghost:hover{ background:var(--pv-card); border-color: color-mix(in srgb, var(--pv-ink), var(--pv-border) 70%); transform: translateY(-1px); }
+/* Optional tiny helpers */
+.pv-btn-royal { background: var(--pv-gradient-royal-light); border: 0; color: #fff;
+  padding: 10px 14px; border-radius: 12px; font-weight: 700; }
+.pv-btn-royal:hover { filter: brightness(1.05); }
+
+.lb-avatar{width:24px;height:24px;border-radius:999px;object-fit:cover;margin-right:.5rem}
